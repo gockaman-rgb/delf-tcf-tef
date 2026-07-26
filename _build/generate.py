@@ -16,10 +16,13 @@ HEAD = """<!DOCTYPE html>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{base}{url}">
 <link rel="stylesheet" href="/style.css">
-<link rel="icon" href="/img/icon-180.png">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/img/favicon-96.png" sizes="96x96" type="image/png">
+<link rel="icon" href="/img/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="/img/icon-180.png">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
+<meta property="og:image" content="{base}/img/favicon-512.png">
 <meta property="og:url" content="{base}{url}">
 <meta property="og:type" content="article">
 {jsonld}</head>
@@ -92,11 +95,20 @@ def faq_block(faq):
             '<script type="application/ld+json">\n'
             + json.dumps(ld, ensure_ascii=False) + "\n</script>\n")
 
+def breadcrumb_ld(p):
+    ld = {"@context": "https://schema.org", "@type": "BreadcrumbList",
+          "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Accueil", "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": p["crumb"],
+               "item": BASE + p["url"]}]}
+    return ('<script type="application/ld+json">\n'
+            + json.dumps(ld, ensure_ascii=False) + "\n</script>\n")
+
 def write_page(p):
     faq_html, faq_ld = faq_block(p.get("faq"))
     out = (HEAD.format(base=BASE, title=p["title"], desc=p["desc"], url=p["url"],
                        accent=p.get("accent", ""), crumb=p["crumb"], h1=p["h1"],
-                       intro=p["intro"], jsonld=faq_ld)
+                       intro=p["intro"], jsonld=faq_ld + breadcrumb_ld(p))
            + p["body"] + (CTA if p.get("cta", True) else "") + faq_html + FOOT)
     path = os.path.join(ROOT, p["url"].strip("/"), "index.html")
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -138,8 +150,8 @@ ceux qui découvrent le format le jour de l'examen.</p>
  ]},
 # ---------------------------------------------------------------- TCF IRN
 {"url": "/tcf-irn/", "accent": "accent-irn", "crumb": "TCF IRN",
- "title": "TCF IRN 2026 : naturalisation, carte de résident — guide du test",
- "desc": "TCF IRN : le test de français pour la naturalisation et la carte de résident. Nouvelles exigences 2026 (B2 naturalisation, B1 carte de résident), format réformé 2025, préparation.",
+ "title": "TCF IRN 2026 : le test pour la naturalisation — guide",
+ "desc": "TCF IRN : niveaux exigés depuis 2026 (B2 naturalisation, B1 carte de résident), format réformé 2025 et méthode de préparation pour réussir du premier coup.",
  "h1": "TCF IRN : le test de français pour votre naturalisation",
  "intro": "Le TCF IRN (Intégration, Résidence, Nationalité) atteste votre niveau de français pour les démarches en France : naturalisation, carte de résident, carte pluriannuelle. Depuis le 1er janvier 2026, les niveaux exigés ont été relevés — bien se préparer n'a jamais été aussi important.",
  "body": """<div class="facts"><strong>Les niveaux exigés depuis le 1<sup>er</sup> janvier 2026</strong><ul>
@@ -173,7 +185,7 @@ cette partie de votre dossier.</p>""",
 # ---------------------------------------------------------------- TEF Canada
 {"url": "/tef-canada/", "accent": "accent-tef", "crumb": "TEF Canada · TEFAQ",
  "title": "TEF Canada et TEFAQ 2026 : format, CLB et préparation",
- "desc": "TEF Canada pour Entrée express et la résidence permanente, TEFAQ pour le Québec (PEQ, Arrima) : épreuves, conversion CLB/NCLC et méthode de préparation.",
+ "desc": "TEF Canada pour Entrée express, TEFAQ pour le Québec (PEQ, Arrima) : épreuves, conversion CLB/NCLC et méthode de préparation efficace.",
  "h1": "TEF Canada et TEFAQ : le français qui ouvre le Canada et le Québec",
  "intro": "Le TEF Canada est reconnu par IRCC pour la résidence permanente et la citoyenneté ; le TEFAQ est la version acceptée par le Québec (Arrima, PEQ). Dans les deux cas, vos résultats se convertissent en niveaux CLB/NCLC — le nerf de la guerre de votre dossier.",
  "body": """<div class="facts"><strong>L'essentiel</strong><ul>
@@ -283,8 +295,8 @@ feedback détaillé, autant de fois que nécessaire.</p>""",
  ]},
 # ---------------------------------------------------------------- Examens blancs
 {"url": "/examens-blancs/", "accent": "accent-delf", "crumb": "Examens blancs",
- "title": "Examen blanc DELF, TCF, TEF : s'entraîner en conditions réelles",
- "desc": "Pourquoi l'examen blanc chronométré est le meilleur prédicteur de votre note, et comment passer des examens blancs DELF, TCF et TEF au format officiel sur iPhone.",
+ "title": "Examen blanc DELF, TCF, TEF au format officiel 2026",
+ "desc": "L'examen blanc chronométré est le meilleur prédicteur de votre note. Comment passer des examens blancs DELF, TCF et TEF au format officiel, sur iPhone.",
  "h1": "Examens blancs DELF, TCF, TEF : la répétition générale qui change tout",
  "intro": "Un examen de français coûte de 100 à 400 €, et une session ratée peut retarder un dossier d'immigration de plusieurs mois. L'examen blanc en conditions réelles est le seul moyen fiable de savoir, avant de payer, si vous êtes prêt.",
  "body": """<h2>Pourquoi ça marche</h2>
