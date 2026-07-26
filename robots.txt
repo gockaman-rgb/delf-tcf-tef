@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://delf-tcf-tef.fr/sitemap.xml

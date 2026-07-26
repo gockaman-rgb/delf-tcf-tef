@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — TCF DELF TEF : Tests 2026</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 24px 20px 64px;
+         color: #1c1c1e; line-height: 1.6; }
+  h1 { font-size: 1.6em; line-height: 1.3; }
+  h2 { font-size: 1.2em; margin-top: 2em; }
+  a { color: #0a5cad; }
+  blockquote { border-left: 3px solid #d0d0d5; margin-left: 0; padding-left: 16px; color: #5a5a5f; }
+  hr { border: none; border-top: 1px solid #e2e2e6; margin: 3em 0; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #eee; }
+    a { color: #6cb4ff; }
+    blockquote { border-color: #444; color: #aaa; }
+    hr { border-top-color: #333; }
+  }
+</style>
+</head>
+<body>
+<h1>Politique de confidentialité — TCF DELF TEF : Tests 2026</h1>
+<p><em>Dernière mise à jour : 23 juillet 2026</em></p>
+<p>Cette politique décrit les données que l'application TCF DELF TEF : Tests 2026 collecte,
+comment elles sont utilisées, et les choix que vous pouvez exercer.</p>
+<blockquote>
+<p><strong>English version follows the French text.</strong></p>
+</blockquote>
+<hr />
+<h2>1. Aucun compte, aucun serveur de profil</h2>
+<p>L'application ne requiert pas la création d'un compte. Aucun identifiant
+personnel (nom, adresse, e-mail) n'est collecté ni envoyé à un serveur géré
+par l'éditeur. Les seules données transmises à un serveur de l'éditeur
+concernent deux fonctionnalités <strong>facultatives</strong> : l'évaluation par IA
+(voir §4) et le classement du Défi du jour (voir §7).</p>
+<h2>2. Données stockées sur votre appareil</h2>
+<p>Les informations suivantes sont conservées <strong>localement</strong> dans le stockage
+de l'appareil (UserDefaults et fichiers de l'application) :</p>
+<ul>
+<li>Votre niveau cible (A1–C2) et l'examen visé (DELF, DALF, TCF, TCF IRN, TEF).</li>
+<li>Votre date d'examen (si renseignée).</li>
+<li>Les résultats de vos sessions d'entraînement et de vos examens blancs.</li>
+<li>Vos préférences (heure de rappel, paramètres audio, langue d'interface).</li>
+<li>Votre état d'abonnement Premium (simplement un booléen — aucun
+  identifiant financier n'est stocké).</li>
+</ul>
+<p>Ces données disparaissent lorsque vous supprimez l'application (sous
+réserve de la sauvegarde iCloud ci-dessous, que vous contrôlez).</p>
+<h3>Sauvegarde iCloud (depuis juin 2026)</h3>
+<p>Pour que votre progression survive à une réinstallation ou à un
+changement d'appareil, l'application sauvegarde ces mêmes données dans
+<strong>votre espace iCloud privé</strong> (iCloud Key-Value Storage) :</p>
+<ul>
+<li>Les données vont dans votre compte iCloud personnel, chiffré et géré
+  par Apple — <strong>jamais sur un serveur de l'éditeur</strong>, qui n'y a aucun
+  accès.</li>
+<li>La restauration est automatique à la réinstallation sur le même
+  compte iCloud.</li>
+<li>Désactivable à tout moment : Réglages → Données → « Sauvegarde
+  iCloud ».</li>
+<li>« Supprimer toutes mes données » efface aussi la copie iCloud. Si
+  vous utilisez l'application sur plusieurs appareils, supprimez vos
+  données (ou désactivez la sauvegarde) sur chacun : un appareil
+  encore actif re-synchroniserait sinon sa propre copie.</li>
+<li>Si iCloud est désactivé sur l'appareil, l'application fonctionne
+  normalement en stockage local uniquement.</li>
+</ul>
+<h2>3. Microphone et reconnaissance vocale</h2>
+<p>Pour les exercices d'expression orale, l'application demande :</p>
+<ul>
+<li><strong>Accès au microphone</strong> (<code>NSMicrophoneUsageDescription</code>) pour enregistrer
+  votre voix pendant la tâche. Les enregistrements sont stockés localement
+  dans un dossier temporaire et effacés automatiquement lorsque vous
+  quittez la tâche ou fermez l'application.</li>
+<li><strong>Reconnaissance vocale</strong> (<code>NSSpeechRecognitionUsageDescription</code>) pour
+  transcrire votre enregistrement en texte via le cadre <code>SFSpeechRecognizer</code>
+  d'Apple. Lorsque le français métropolitain (<code>fr-FR</code>) prend en charge la
+  reconnaissance sur appareil, la transcription s'effectue entièrement sur
+  votre iPhone (le paramètre <code>requiresOnDeviceRecognition</code> est activé
+  lorsque disponible).</li>
+</ul>
+<p><strong>L'audio brut n'est jamais envoyé aux serveurs de l'éditeur ni à Apple
+au-delà de ce que nécessite la reconnaissance vocale d'Apple.</strong></p>
+<h2>4. Évaluation par intelligence artificielle (optionnelle)</h2>
+<p>Lorsque vous choisissez de faire évaluer un texte ou une production orale
+par l'IA, l'application envoie le <strong>texte</strong> (transcription pour l'oral) à
+l'API Claude d'Anthropic, accompagnée d'instructions de correction
+correspondant aux critères officiels DELF / TCF. Les éléments suivants sont
+transmis :</p>
+<ul>
+<li>Le texte que vous avez rédigé ou la transcription de votre enregistrement.</li>
+<li>La consigne de l'exercice (prompt DELF/TCF).</li>
+<li>La famille d'examen et le niveau visé.</li>
+<li>Un identifiant technique aléatoire (en-tête <code>X-Device-ID</code>),
+  généré localement et sans lien avec votre identité, que le proxy de
+  l'éditeur utilise uniquement pour plafonner le nombre de requêtes par
+  appareil (anti-abus). Il est distinct de l'identifiant du classement
+  (§7) et de celui des statistiques (§8), et il est effacé par
+  « Supprimer toutes mes données ».</li>
+</ul>
+<p>Les éléments suivants <strong>ne sont jamais</strong> transmis :</p>
+<ul>
+<li>Votre audio brut (seule la transcription part).</li>
+<li>Ni nom, ni e-mail, ni identifiant publicitaire Apple (IDFA / IDFV).</li>
+<li>Vos résultats historiques.</li>
+</ul>
+<p>Le traitement est soumis à la
+<a href="https://www.anthropic.com/privacy">politique de confidentialité d'Anthropic</a>.
+Les requêtes peuvent passer par un proxy Cloudflare Worker appartenant à
+l'éditeur, qui sert uniquement à dissimuler la clé API et à limiter les
+abus. Le proxy ne stocke jamais vos textes ; il conserve seulement des
+compteurs de requêtes anonymes (identifiant technique + jour), purgés
+automatiquement sous 31 jours.</p>
+<p><strong>Limite gratuite</strong> : la version gratuite donne accès à un pool
+quotidien de parties (exercices avec évaluation IA et QCM confondus) —
+10 parties le premier jour, 6 par jour pendant la première semaine,
+puis 3 par jour ensuite. Le Défi du jour reste entièrement gratuit et
+ne décompte pas ce pool. Un abonnement Premium débloque l'accès
+illimité. Aucune information supplémentaire n'est collectée sur les
+utilisateurs Premium.</p>
+<h2>5. Achats in-app</h2>
+<p>Les abonnements Premium sont gérés par le framework StoreKit d'Apple.
+L'application lit l'état de votre transaction via
+<code>Transaction.currentEntitlements</code> ; aucun identifiant de compte Apple ni
+numéro de carte n'est vu ou stocké par l'application. La politique
+applicable est celle d'Apple.</p>
+<h2>6. Notifications locales</h2>
+<p>L'application planifie des notifications <strong>locales</strong> (rappels quotidiens,
+récap hebdomadaire, compte à rebours d'examen). Elles sont générées par
+votre iPhone et ne transitent par aucun serveur tiers. Vous pouvez les
+désactiver à tout moment dans Réglages iOS ou dans l'application.</p>
+<h2>7. Classement du Défi du jour (optionnel)</h2>
+<p>Le « Défi du jour » propose un classement. Si vous y participez, l'application
+envoie au proxy de l'éditeur (Cloudflare Worker) les seuls éléments
+nécessaires au classement :</p>
+<ul>
+<li>un <strong>pseudonyme</strong> que vous choisissez (aucun nom réel requis) ;</li>
+<li>un <strong>identifiant d'appareil</strong> généré aléatoirement par l'application — ce
+  n'est ni l'IDFA ni l'IDFV d'Apple, et il est recréé si vous réinstallez
+  l'application ;</li>
+<li>votre <strong>score</strong> du jour, la durée, le jour concerné et le niveau visé.</li>
+</ul>
+<p>Ces données servent uniquement à afficher le classement, sont conservées au
+maximum <strong>30 jours</strong>, et les classements publics sont anonymisés. Aucune
+donnée personnelle (nom, e-mail) n'est transmise. La fonctionnalité est
+facultative : sans pseudonyme renseigné, aucune donnée n'est envoyée.</p>
+<h2>8. Analytique, publicité, suivi</h2>
+<p>L'application <strong>n'utilise</strong> :</p>
+<ul>
+<li>aucun framework d'analytique <strong>tiers</strong> (pas de Firebase, pas de Mixpanel,
+  pas de Google Analytics) ;</li>
+<li>aucun SDK publicitaire ;</li>
+<li>aucun outil de suivi inter-applications (<code>ATTrackingManager</code> n'est pas
+  invoqué, IDFA jamais lu).</li>
+</ul>
+<h3>Statistiques anonymes first-party (depuis juin 2026)</h3>
+<p>Pour améliorer l'application, celle-ci envoie des <strong>événements d'usage
+anonymes</strong> à notre propre serveur (Cloudflare Workers, même infrastructure
+que l'évaluation IA) :</p>
+<ul>
+<li><strong>Ce qui est envoyé</strong> : des événements techniques (ouverture de l'app,
+  exercice terminé, défi du jour terminé, écran d'abonnement affiché),
+  accompagnés de propriétés courtes et fermées (compétence, niveau CECRL,
+  tranche de score — jamais le score exact).</li>
+<li><strong>Ce qui n'est JAMAIS envoyé</strong> : vos textes, vos enregistrements audio,
+  vos transcriptions, votre adresse e-mail, votre date d'examen, ou tout
+  contenu que vous produisez.</li>
+<li><strong>Identifiant</strong> : un UUID aléatoire généré localement, sans lien avec
+  votre identité ni avec le pseudonyme du Défi du jour. Il est supprimé
+  avec le reste de vos données (« Supprimer toutes mes données ») et
+  change à la réinstallation.</li>
+<li><strong>Désactivation</strong> : à tout moment dans Réglages → Données →
+  « Statistiques anonymes ». La désactivation purge immédiatement les
+  événements non envoyés.</li>
+<li><strong>Conservation</strong> : agrégats stockés dans Cloudflare Workers Analytics
+  Engine, utilisés uniquement pour des statistiques d'usage agrégées.</li>
+</ul>
+<h2>9. Enfants</h2>
+<p>L'application ne cible pas spécifiquement les enfants de moins de 13 ans.
+Si vous êtes parent ou tuteur et pensez qu'un mineur utilise
+l'application, contactez l'éditeur pour supprimer ses données locales
+(qui sont uniquement sur l'appareil en question).</p>
+<h2>10. Vos droits (RGPD / GDPR)</h2>
+<p>L'application ne collecte ni ne traite vos données sur un serveur de
+l'éditeur. Vous pouvez donc exercer à tout moment :</p>
+<ul>
+<li><strong>Suppression</strong> : désinstaller l'application efface toutes les données
+  locales.</li>
+<li><strong>Portabilité</strong> : les résultats sont stockés au format JSON local ; ils
+  sont accessibles via le Finder macOS lorsque vous connectez votre appareil.</li>
+<li><strong>Opposition</strong> : refusez les autorisations micro / reconnaissance vocale
+  lorsque iOS les demande ; l'application continuera à fonctionner avec les
+  modes QCM uniquement.</li>
+</ul>
+<h2>11. Contact</h2>
+<p>Pour toute question concernant cette politique : <strong>gockaman@gmail.com</strong></p>
+<h2>12. Modifications</h2>
+<p>Cette politique peut évoluer. Les changements majeurs seront annoncés
+dans les notes de version de l'application et la date en haut de ce
+document sera mise à jour.</p>
+<hr />
+<h1>Privacy Policy — TCF DELF TEF : Tests 2026</h1>
+<p><em>Last updated: 23 July 2026</em></p>
+<h2>1. No account, no profile server</h2>
+<p>The app does not require account creation. No personal identifier (name,
+address, email) is collected or sent to a server operated by the publisher.
+The only data sent to a publisher server relates to two <strong>optional</strong>
+features: AI evaluation (see §4) and the Daily Challenge leaderboard
+(see §7).</p>
+<h2>2. Data stored on your device</h2>
+<p>The following information is kept <strong>locally</strong> in on-device storage
+(UserDefaults and app files):</p>
+<ul>
+<li>Your target level (A1–C2) and target exam (DELF, DALF, TCF, TCF IRN, TEF).</li>
+<li>Your exam date (if set).</li>
+<li>Your training-session and mock-exam results.</li>
+<li>Your preferences (reminder time, audio settings, interface language).</li>
+<li>Your Premium subscription status (just a boolean — no financial identifier
+  is stored).</li>
+</ul>
+<p>These data are removed when you delete the app (subject to the iCloud
+backup below, which you control).</p>
+<h3>iCloud backup (since June 2026)</h3>
+<p>So that your progress survives a reinstall or a device change, the app
+backs up this same data to <strong>your private iCloud space</strong> (iCloud
+Key-Value Storage):</p>
+<ul>
+<li>Data goes to your personal iCloud account, encrypted and managed by
+  Apple — <strong>never to a publisher server</strong>, which has no access to it.</li>
+<li>Restoration is automatic on reinstall with the same iCloud account.</li>
+<li>Can be disabled at any time: Settings → Data → "iCloud backup".</li>
+<li>"Delete all my data" also erases the iCloud copy. If you use the app
+  on several devices, delete your data (or disable the backup) on each
+  one: an still-active device would otherwise re-sync its own copy.</li>
+<li>If iCloud is disabled on the device, the app works normally with
+  local-only storage.</li>
+</ul>
+<h2>3. Microphone and speech recognition</h2>
+<p>For oral-expression exercises, the app requests:</p>
+<ul>
+<li><strong>Microphone access</strong> (<code>NSMicrophoneUsageDescription</code>) to record your
+  voice during the task. Recordings are stored locally in a temporary
+  directory and automatically erased when you exit the task or close the app.</li>
+<li><strong>Speech recognition</strong> (<code>NSSpeechRecognitionUsageDescription</code>) to
+  transcribe your recording to text using Apple's <code>SFSpeechRecognizer</code>.
+  Where metropolitan French (<code>fr-FR</code>) supports on-device recognition,
+  transcription runs entirely on your iPhone (the
+  <code>requiresOnDeviceRecognition</code> flag is enabled when available).</li>
+</ul>
+<p><strong>Raw audio is never sent to the publisher's servers or to Apple beyond
+what Apple's speech recognition requires.</strong></p>
+<h2>4. AI evaluation (optional)</h2>
+<p>When you choose to have a text or an oral production evaluated by AI, the
+app sends the <strong>text</strong> (transcription for speaking) to Anthropic's Claude
+API, along with correction instructions matching the official DELF / TCF
+criteria. The following is transmitted:</p>
+<ul>
+<li>The text you wrote, or the transcription of your recording.</li>
+<li>The exercise prompt (DELF/TCF instruction).</li>
+<li>The exam family and target level.</li>
+<li>A random technical identifier (<code>X-Device-ID</code> header), minted
+  locally and unrelated to your identity, which the publisher's proxy
+  uses solely to cap the number of requests per device (anti-abuse).
+  It is distinct from the leaderboard (§7) and analytics (§8)
+  identifiers, and it is erased by "Delete all my data".</li>
+</ul>
+<p>The following is <strong>never</strong> transmitted:</p>
+<ul>
+<li>Your raw audio (only the transcription leaves the device).</li>
+<li>No name, no email, no Apple advertising identifier (IDFA / IDFV).</li>
+<li>Your historical results.</li>
+</ul>
+<p>Processing is subject to
+<a href="https://www.anthropic.com/privacy">Anthropic's Privacy Policy</a>.
+Requests may transit through a Cloudflare Worker proxy owned by the
+publisher, which exists solely to hide the API key and to limit abuse.
+The proxy never stores your texts; it keeps only anonymous request
+counters (technical identifier + day), purged automatically within
+31 days.</p>
+<p><strong>Free-tier limit</strong>: the free version includes a daily pool of
+plays (AI-evaluated and multiple-choice exercises alike) — 10 plays on
+your first day, 6 per day during the first week, then 3 per day
+thereafter. The Daily Challenge stays entirely free and does not draw
+on this pool. A Premium subscription unlocks unlimited access. No
+additional information is collected on Premium users.</p>
+<h2>5. In-app purchases</h2>
+<p>Premium subscriptions are handled by Apple's StoreKit framework. The app
+reads your transaction state via <code>Transaction.currentEntitlements</code>; no
+Apple account identifier or card number is seen or stored by the app.
+Apple's own policy applies.</p>
+<h2>6. Local notifications</h2>
+<p>The app schedules <strong>local</strong> notifications (daily reminders, weekly recap,
+exam countdown). They are generated by your iPhone and do not transit
+through any third-party server. You can disable them at any time in iOS
+Settings or in the app.</p>
+<h2>7. Daily Challenge leaderboard (optional)</h2>
+<p>The "Daily Challenge" offers a leaderboard. If you take part, the app sends
+the publisher's proxy (Cloudflare Worker) only what the leaderboard needs:</p>
+<ul>
+<li>a <strong>nickname</strong> you choose (no real name required);</li>
+<li>a <strong>device identifier</strong> randomly generated by the app — this is not
+  Apple's IDFA or IDFV, and it is regenerated if you reinstall the app;</li>
+<li>your <strong>daily score</strong>, the duration, the day, and the target level.</li>
+</ul>
+<p>These data are used only to display the leaderboard, are retained for at most
+<strong>30 days</strong>, and public leaderboards are anonymized. No personal data (name,
+email) is transmitted. The feature is optional: with no nickname set, nothing
+is sent.</p>
+<h2>8. Analytics, advertising, tracking</h2>
+<p>The app uses:</p>
+<ul>
+<li>No <strong>third-party</strong> analytics framework (no Firebase, no Mixpanel, no
+  Google Analytics).</li>
+<li>No advertising SDK.</li>
+<li>No cross-app tracking tool (<code>ATTrackingManager</code> is never invoked, IDFA
+  is never read).</li>
+</ul>
+<h3>First-party anonymous statistics (since June 2026)</h3>
+<p>To improve the app, it sends <strong>anonymous usage events</strong> to our own server
+(Cloudflare Workers, the same infrastructure as AI evaluation):</p>
+<ul>
+<li><strong>What is sent</strong>: technical events (app opened, exercise completed,
+  daily challenge completed, paywall shown) with short, closed properties
+  (skill, CEFR level, score bracket — never the exact score).</li>
+<li><strong>What is NEVER sent</strong>: your texts, audio recordings, transcriptions,
+  email address, exam date, or any content you produce.</li>
+<li><strong>Identifier</strong>: a random UUID minted locally, with no link to your
+  identity or to your Daily Challenge nickname. It is deleted with the
+  rest of your data ("Delete all my data") and changes on reinstall.</li>
+<li><strong>Opt-out</strong>: at any time in Settings → Data → "Anonymous statistics".
+  Opting out immediately purges any unsent events.</li>
+<li><strong>Retention</strong>: aggregates stored in Cloudflare Workers Analytics Engine,
+  used solely for aggregate usage statistics.</li>
+</ul>
+<h2>9. Children</h2>
+<p>The app does not specifically target children under 13. If you are a parent
+or guardian and believe a minor is using the app, contact the publisher to
+remove their local data (which is only on the device in question).</p>
+<h2>10. Your rights (GDPR)</h2>
+<p>The app does not collect or process your data on a publisher server. You
+can therefore exercise at any time:</p>
+<ul>
+<li><strong>Deletion</strong>: uninstalling the app erases all local data.</li>
+<li><strong>Portability</strong>: results are stored in local JSON format; they are
+  accessible via macOS Finder when you connect your device.</li>
+<li><strong>Objection</strong>: refuse microphone / speech-recognition permissions when
+  iOS asks; the app will continue to work with QCM modes only.</li>
+</ul>
+<h2>11. Contact</h2>
+<p>For any question about this policy: <strong>gockaman@gmail.com</strong></p>
+<h2>12. Changes</h2>
+<p>This policy may evolve. Major changes will be announced in the app's
+release notes and the date at the top of this document will be updated.</p>
+</body>
+</html>
