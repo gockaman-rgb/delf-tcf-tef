@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://delf-tcf-tef.fr/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/tcf-canada/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/tcf-irn/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/tef-canada/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/delf-b2/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/delf-b1/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/dalf/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/examens-blancs/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/blog/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/support/</loc></url>
-  <url><loc>https://delf-tcf-tef.fr/confidentialite/</loc></url>
+  <url><loc>https://delf-tcf-tef.fr/</loc><lastmod>2026-07-27</lastmod><priority>1.0</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/tcf-canada/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/tcf-irn/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/tef-canada/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/delf-b2/</loc><lastmod>2026-07-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/delf-b1/</loc><lastmod>2026-07-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/dalf/</loc><lastmod>2026-07-27</lastmod><priority>0.7</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/examens-blancs/</loc><lastmod>2026-07-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/</loc><lastmod>2026-07-27</lastmod><priority>0.7</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/naturalisation-2026-niveau-b2/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/carte-de-resident-b1-2026/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/tcf-canada-nclc-7/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/tcf-ou-tef-canada/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/examen-blanc-tcf-gratuit/</loc><lastmod>2026-07-27</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/support/</loc><lastmod>2026-07-27</lastmod><priority>0.3</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/confidentialite/</loc><lastmod>2026-07-27</lastmod><priority>0.3</priority></url>
 </urlset>

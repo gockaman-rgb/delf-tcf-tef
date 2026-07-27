@@ -120,3 +120,39 @@ footer.site a { color: var(--muted); }
 .accent-tcf { --accent: var(--green); } .accent-irn { --accent: var(--orange); }
 .accent-tef { --accent: var(--indigo); } .accent-dalf { --accent: var(--purple); }
 .accent-delf { --accent: var(--blue); }
+
+/* ---- Articles de blog ---- */
+/* Tableaux : jamais de scroll horizontal sur la page, le tableau scrolle seul. */
+.tablewrap { overflow-x: auto; margin: 1.4em 0; -webkit-overflow-scrolling: touch; }
+.tablewrap table { border-collapse: collapse; width: 100%; min-width: 30em; font-size: .95em; }
+.tablewrap th, .tablewrap td { padding: .55em .8em; text-align: left; border-bottom: 1px solid var(--line); }
+.tablewrap thead th { background: var(--bg2); font-size: .85em; text-transform: uppercase;
+                      letter-spacing: .04em; color: var(--muted); border-bottom-width: 2px; }
+.tablewrap tbody tr:last-child td { border-bottom: none; }
+.tablewrap td strong { color: var(--accent); }
+.tablewrap caption { caption-side: bottom; padding-top: .7em; font-size: .85em;
+                     color: var(--muted); text-align: left; }
+
+/* Encadré source / mise en garde */
+.note { border-left: 3px solid var(--accent); background: var(--bg2);
+        padding: .9em 1.1em; border-radius: 0 var(--radius) var(--radius) 0; margin: 1.4em 0;
+        font-size: .93em; }
+.note p:last-child { margin-bottom: 0; }
+.note strong { color: var(--text); }
+
+/* Méta d'article : date de mise à jour + temps de lecture */
+.meta { font-size: .88em; color: var(--muted); margin: -.4em 0 1.6em; }
+
+/* Sommaire */
+.toc { border: 1px solid var(--line); border-radius: var(--radius); padding: 1em 1.2em; margin: 1.6em 0; }
+.toc strong { display: block; font-size: .85em; text-transform: uppercase;
+              letter-spacing: .06em; color: var(--muted); margin-bottom: .5em; }
+.toc ol { margin: 0; padding-left: 1.2em; }
+.toc li { margin: .25em 0; }
+
+/* Liste d'articles du blog */
+.posts { list-style: none; margin: 1.2em 0; }
+.posts li { border-bottom: 1px solid var(--line); padding: 1.1em 0; }
+.posts li:last-child { border-bottom: none; }
+.posts a { font-weight: 600; font-size: 1.05em; }
+.posts p { color: var(--muted); font-size: .93em; margin: .3em 0 0; }
