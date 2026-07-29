@@ -55,14 +55,30 @@ h1 { font-size: 2.3em; line-height: 1.15; letter-spacing: -.025em; margin-bottom
 
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 26px 0 0; }
 @media (max-width: 700px) { .stats { grid-template-columns: repeat(2, 1fr); } }
-.stat { text-align: center; padding: 18px 10px; background: var(--card); border: 1px solid var(--line);
-        border-radius: var(--radius); }
-.stat b { display: block; font-size: 1.45em; letter-spacing: -.02em; }
-.stat span { color: var(--muted); font-size: .85em; }
+.stat { display: flex; flex-direction: column; text-align: center; padding: 18px 14px;
+        background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+        color: inherit; text-decoration: none;
+        transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease; }
+.stat b { display: block; font-size: 1.45em; letter-spacing: -.02em; color: var(--accent); }
+.stat span { color: var(--text); font-size: .85em; font-weight: 600; }
+/* Explication : visible dès le départ, c'est elle qui justifie le clic. */
+.stat em { display: block; margin-top: .55em; padding-top: .55em; border-top: 1px solid var(--line);
+           font-style: normal; font-size: .78em; line-height: 1.45; color: var(--muted); }
+a.stat:hover, a.stat:focus-visible { border-color: var(--accent); transform: translateY(-2px);
+           box-shadow: 0 6px 18px rgba(0,0,0,.07); }
+a.stat:hover span { color: var(--accent); }
+@media (prefers-reduced-motion: reduce) { .stat { transition: none; } a.stat:hover { transform: none; } }
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
 .chip { font-size: .82em; font-weight: 600; padding: 5px 12px; border-radius: 99px;
         background: var(--bg2); border: 1px solid var(--line); color: var(--muted); }
+a.chip { text-decoration: none; transition: color .15s ease, border-color .15s ease, background .15s ease; }
+a.chip:hover, a.chip:focus-visible { color: var(--accent); border-color: var(--accent); background: var(--card); }
+/* Cible tactile : 44px minimum sur appareil sans survol (recommandation Apple/WCAG 2.5.8). */
+@media (hover: none) {
+  a.chip { padding: 10px 14px; }
+  .chips { gap: 10px; }
+}
 
 section { padding: 44px 0; }
 section.alt { background: var(--bg2); }
