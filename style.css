@@ -166,9 +166,37 @@ footer.site a { color: var(--muted); }
 .toc ol { margin: 0; padding-left: 1.2em; }
 .toc li { margin: .25em 0; }
 
-/* Liste d'articles du blog */
-.posts { list-style: none; margin: 1.2em 0; }
-.posts li { border-bottom: 1px solid var(--line); padding: 1.1em 0; }
-.posts li:last-child { border-bottom: none; }
-.posts a { font-weight: 600; font-size: 1.05em; }
-.posts p { color: var(--muted); font-size: .93em; margin: .3em 0 0; }
+/* Liste d'articles : cartes entièrement cliquables (lien étiré, sans JS) */
+.posts { list-style: none; display: grid; gap: 12px; margin: 1.4em 0 0; padding: 0; }
+.posts li { position: relative; margin: 0;
+            border: 1px solid var(--line); border-radius: var(--radius);
+            background: var(--card); padding: 17px 52px 17px 19px;
+            transition: border-color .16s ease, transform .16s ease, box-shadow .16s ease; }
+/* Chevron d'affordance : indique que toute la carte est cliquable. */
+.posts li::before { content: "→"; position: absolute; right: 19px; top: 16px;
+            font-size: 1.05em; color: var(--muted);
+            transition: color .16s ease, transform .16s ease; }
+.posts li:hover, .posts li:focus-within {
+            border-color: var(--accent); transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0,0,0,.07); }
+.posts li:hover::before, .posts li:focus-within::before {
+            color: var(--accent); transform: translateX(4px); }
+.posts a { display: block; font-weight: 650; font-size: 1.02em; line-height: 1.4;
+           color: var(--text); text-decoration: none; }
+/* Étire la zone cliquable à toute la carte. */
+.posts a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.posts li:hover a, .posts li:focus-within a { color: var(--accent); }
+.posts a:focus-visible { outline: none; }
+.posts li:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+.posts p { color: var(--muted); font-size: .92em; line-height: 1.55; margin: .38em 0 0; }
+@media (prefers-reduced-motion: reduce) {
+  .posts li, .posts li::before { transition: none; }
+  .posts li:hover { transform: none; }
+  .posts li:hover::before { transform: none; }
+}
+
+/* Respiration avant les titres de section d'un article : sans marge haute,
+   un h2 venait coller le dernier item de la FAQ ou d'un tableau. */
+article.page h2 { margin-top: 2.2em; }
+article.page .cta-band h2 { margin-top: 0; }
+article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
