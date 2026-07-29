@@ -91,6 +91,23 @@ h3 { font-size: 1.1em; margin: 1.4em 0 .4em; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px;
         transition: transform .18s ease, box-shadow .18s ease; }
 .card:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(15, 30, 70, .10); }
+/* Carte entièrement cliquable : le lien du h3 est étiré à toute la carte. */
+.card-link { position: relative; }
+.card-link h3 a { color: inherit; text-decoration: none; }
+.card-link h3 a::after { content: ""; position: absolute; inset: 0; border-radius: inherit; }
+.card-link:hover { border-color: var(--accent); }
+.card-link:hover h3 a { color: var(--accent); }
+.card-link:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card-link h3 a:focus-visible { outline: none; }
+/* Chevron d'affordance, cohérent avec les cartes .posts */
+.card-link::after { content: "→"; position: absolute; right: 20px; bottom: 18px;
+                    color: var(--muted); transition: color .16s ease, transform .16s ease; }
+.card-link:hover::after { color: var(--accent); transform: translateX(4px); }
+@media (prefers-reduced-motion: reduce) {
+  .card, .card-link::after { transition: none; }
+  .card:hover { transform: none; }
+  .card-link:hover::after { transform: none; }
+}
 .card h3 { margin-top: 0; }
 .card p { color: var(--muted); font-size: .95em; }
 .card .tag { font-size: .75em; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
