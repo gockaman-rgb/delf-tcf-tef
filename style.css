@@ -2,13 +2,14 @@
   --bg: #ffffff; --bg2: #f4f6fa; --text: #17202e; --muted: #55637a;
   --line: #e3e8f0; --card: #ffffff;
   --blue: #1d5fd6; --blue-d: #164aa8; --green: #1e9e5a; --orange: #e07b1f;
-  --indigo: #4f46e5; --purple: #7c3aed;
+  --indigo: #4f46e5; --purple: #7c3aed; --red: #c8342b;
   --accent: var(--blue); --radius: 14px;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #0e1420; --bg2: #151d2c; --text: #e8edf5; --muted: #9aa8bd;
           --line: #263149; --card: #182238; --blue: #4d8dff; --blue-d: #79aaff;
-          --green: #34c47c; --orange: #f0964a; --indigo: #818cf8; --purple: #a78bfa; }
+          --green: #34c47c; --orange: #f0964a; --indigo: #818cf8; --purple: #a78bfa;
+          --red: #ff8478; }
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -217,3 +218,84 @@ footer.site a { color: var(--muted); }
 article.page h2 { margin-top: 2.2em; }
 article.page .cta-band h2 { margin-top: 0; }
 article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
+
+/* ---- Comparatifs ---- */
+/* Tableau large (6+ colonnes) : la colonne de critères reste visible pendant
+   le défilement horizontal, sinon on ne sait plus quelle ligne on lit.
+   `border-collapse: separate` est obligatoire — avec `collapse`, Safari et
+   Firefox ne peignent pas les bordures des cellules `position: sticky`. */
+.cmp { overflow-x: auto; margin: 1.4em 0; -webkit-overflow-scrolling: touch;
+       border: 1px solid var(--line); border-radius: var(--radius); }
+.cmp table { border-collapse: separate; border-spacing: 0; width: 100%;
+             min-width: 46em; font-size: .92em; }
+.cmp th, .cmp td { padding: .6em .85em; text-align: left; vertical-align: top;
+                   border-bottom: 1px solid var(--line); }
+.cmp tbody tr:last-child th, .cmp tbody tr:last-child td { border-bottom: none; }
+.cmp thead th { background: var(--bg2); font-size: .8em; text-transform: uppercase;
+                letter-spacing: .04em; color: var(--muted); white-space: nowrap; }
+.cmp thead th.self { color: var(--accent); }
+/* Colonne figée. Fond opaque impératif : les cellules défilent dessous. */
+.cmp tbody th[scope="row"] {
+  position: sticky; left: 0; z-index: 2; background: var(--bg);
+  font-weight: 600; font-size: .95em; min-width: 8em;
+  box-shadow: 1px 0 0 var(--line);
+}
+/* Sur mobile, la colonne figée mangeait les trois quarts de la largeur :
+   on resserre pour qu'une colonne de données entière reste lisible. */
+@media (max-width: 560px) {
+  .cmp table { min-width: 40em; font-size: .87em; }
+  .cmp th, .cmp td { padding: .5em .6em; }
+  .cmp tbody th[scope="row"] { min-width: 6.5em; }
+}
+.cmp thead th:first-child { position: sticky; left: 0; z-index: 3; background: var(--bg2);
+                            box-shadow: 1px 0 0 var(--line); }
+.cmp tbody tr:hover th[scope="row"], .cmp tbody tr:hover td { background: var(--bg2); }
+.cmp caption { caption-side: bottom; padding: .7em .85em; font-size: .85em;
+               color: var(--muted); text-align: left; }
+.cmp td strong { color: var(--accent); }
+/* Indice de défilement : uniquement là où le tableau dépasse. */
+.scroll-hint { display: none; font-size: .82em; color: var(--muted); margin: -.9em 0 1.4em; }
+@media (max-width: 860px) { .scroll-hint { display: block; } }
+
+/* Pastilles oui/non pour les lignes de reconnaissance administrative */
+.badge { display: inline-block; font-size: .76em; font-weight: 700; padding: 1px 8px;
+         border-radius: 99px; white-space: nowrap; }
+.badge.ok { background: color-mix(in srgb, var(--green) 16%, transparent); color: var(--green); }
+.badge.no { background: color-mix(in srgb, var(--red) 14%, transparent); color: var(--red); }
+.badge.part { background: color-mix(in srgb, var(--orange) 16%, transparent); color: var(--orange); }
+
+/* Fiches de variante : le mode de lecture principal sur mobile, là où un
+   tableau de 6 colonnes est illisible. */
+.specs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 1.4em 0; }
+@media (max-width: 700px) { .specs { grid-template-columns: 1fr; } }
+.spec { border: 1px solid var(--line); border-radius: var(--radius);
+        background: var(--card); padding: 16px 18px; }
+.spec h3 { margin: .15em 0 0; font-size: 1.04em; }
+.spec .for { font-size: .74em; font-weight: 700; text-transform: uppercase;
+             letter-spacing: .06em; color: var(--accent); }
+.spec dl { display: grid; grid-template-columns: auto 1fr; gap: .3em .9em;
+           margin: .8em 0 0; font-size: .89em; }
+.spec dt { color: var(--muted); }
+.spec dd { margin: 0; }
+.spec p { font-size: .89em; color: var(--muted); margin: .8em 0 0; }
+
+/* Les deux familles côte à côte */
+.families { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 1.4em 0; }
+@media (max-width: 700px) { .families { grid-template-columns: 1fr; } }
+.family { border: 1px solid var(--line); border-radius: var(--radius);
+          background: var(--card); padding: 16px 18px; }
+.family > b { display: block; font-size: 1.05em; }
+.family > em { display: block; font-style: normal; font-size: .84em;
+               color: var(--muted); margin-top: .2em; }
+.family ul { list-style: none; margin: .8em 0 0; padding: 0; }
+.family li { border-top: 1px solid var(--line); padding: .5em 0; font-size: .9em; }
+.family li b { display: block; }
+.family li span { color: var(--muted); font-size: .95em; }
+
+/* Aiguillage objectif → variante */
+.decision { list-style: none; display: grid; gap: 9px; margin: 1.4em 0; padding: 0; }
+.decision li { background: var(--card); border: 1px solid var(--line);
+               border-left: 3px solid var(--accent); border-radius: 0 10px 10px 0;
+               padding: 12px 16px; }
+.decision b { display: block; font-size: .95em; }
+.decision span { display: block; color: var(--muted); font-size: .89em; margin-top: .15em; }
