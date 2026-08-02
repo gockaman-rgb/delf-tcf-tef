@@ -1,11 +1,22 @@
 #!/usr/bin/env python3
 """Génère les pages intérieures du site (piliers, blog, support, 404).
 Usage : python3 generate.py — écrit les index.html dans les dossiers du site.
-La landing (index.html racine) et /confidentialite/ sont gérées à part."""
+La landing (index.html racine) et /confidentialite/ sont gérées à part.
+
+⚠️  ATTENTION (02/08/2026) : ce générateur a DÉRIVÉ des pages en ligne.
+Le relancer tel quel écrase du contenu écrit à la main — constaté :
+/blog/ (−89 lignes), /tcf-irn/ (−53), /tef-canada/ (−33), /tcf-canada/ (−29),
+et sitemap.xml retombe de 18 à 11 URLs (les pages /examens/, /contenu/,
+/correction-ia/, /plan-etude/, /score-tcf-699/, /tcf-quebec/, /a-propos/
+et les articles de blog disparaissent).
+Resynchroniser PAGES[] sur les fichiers réels avant tout nouvel usage,
+et vérifier `git diff` après exécution."""
 import html, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://delf-tcf-tef.fr"
+APP_ID = "6790412304"
+APP_URL = f"https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id{APP_ID}"
 
 HEAD = """<!DOCTYPE html>
 <html lang="fr">
@@ -20,6 +31,7 @@ HEAD = """<!DOCTYPE html>
 <link rel="icon" href="/img/favicon-96.png" sizes="96x96" type="image/png">
 <link rel="icon" href="/img/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="/img/icon-180.png">
+<meta name="apple-itunes-app" content="app-id=6790412304">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:image" content="{base}/img/favicon-512.png">
@@ -43,11 +55,11 @@ HEAD = """<!DOCTYPE html>
 <p class="intro">{intro}</p>
 """
 
-CTA = """<div class="cta-band">
+CTA = f"""<div class="cta-band">
 <h2>Entraînez-vous en conditions réelles</h2>
 <p>Examens blancs chronométrés au format officiel, correction IA de l'écrit et de
 l'oral, plan d'étude personnalisé — dans l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;».</p>
-<a class="btn" href="/">Bientôt sur l'App&nbsp;Store</a>
+<a class="btn" href="{APP_URL}">Télécharger sur l'App&nbsp;Store</a>
 </div>
 """
 
@@ -68,6 +80,7 @@ FOOT = """</div></article>
       <li><a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a></li>
     </ul></div>
     <div><h4>Application</h4><ul>
+      <li><a href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Télécharger sur l'App&nbsp;Store</a></li>
       <li><a href="/support/">Support / Contact</a></li>
       <li><a href="/confidentialite/">Politique de confidentialité</a></li>
     </ul></div>
