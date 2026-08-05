@@ -6,9 +6,9 @@ La landing (index.html racine) et /confidentialite/ sont gérées à part.
 ⚠️  ATTENTION (02/08/2026) : ce générateur a DÉRIVÉ des pages en ligne.
 Le relancer tel quel écrase du contenu écrit à la main — constaté :
 /blog/ (−89 lignes), /tcf-irn/ (−53), /tef-canada/ (−33), /tcf-canada/ (−29),
-et sitemap.xml retombe de 18 à 11 URLs (les pages /examens/, /contenu/,
-/correction-ia/, /plan-etude/, /score-tcf-699/, /tcf-quebec/, /a-propos/
-et les articles de blog disparaissent).
+et sitemap.xml retombe de 24 à 11 URLs (disparaissent : /examens/, /contenu/,
+/correction-ia/, /plan-etude/, /score-tcf-699/, /tcf-quebec/, /a-propos/,
+/confidentialite/ et les 6 articles de blog).
 Resynchroniser PAGES[] sur les fichiers réels avant tout nouvel usage,
 et vérifier `git diff` après exécution."""
 import html, json, os, re
