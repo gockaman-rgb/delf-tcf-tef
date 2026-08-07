@@ -14,20 +14,49 @@ l'article contredirait /tcf-canada/.
 
 from article_template import build
 
-def exo(n, niveau, source_label, source, question, options, bonne, expl):
-    """Un exercice : énoncé visible + corrigé repliable."""
+def exo(n, niveau, source_label, source, question, options, bonne, expl,
+        audio=None, duree=None, ecoutes=1):
+    """Un exercice.
+
+    Avec `audio`, l'énoncé devient un lecteur et la transcription passe derrière
+    un avertissement replié : c'est une épreuve d'ÉCOUTE, lire le texte avant
+    d'avoir écouté fausse la mesure. Sans `audio`, l'énoncé reste visible
+    (compréhension écrite, sujets d'expression).
+    """
     opts = "\n".join(f"<li>{o}</li>" for o in options)
+    if audio:
+        mot = "une seule fois" if ecoutes == 1 else f"{ecoutes} fois au maximum"
+        enonce = f"""<p class="listen"><strong>🎧 Écoutez {mot}</strong>, comme le jour de l'examen —
+sans lire la transcription.</p>
+<audio controls preload="none" src="/audio/{audio}">Votre navigateur ne lit pas ce format audio.
+La transcription est disponible juste en dessous.</audio>
+<p class="listen">{source_label} · {duree}</p>"""
+        regle = ("Au TCF, au TEF et à leurs versions IRN, l'enregistrement n'est diffusé "
+                 "<strong>qu'une seule fois</strong> et vous n'avez <strong>aucune "
+                 "transcription</strong>."
+                 if ecoutes == 1 else
+                 "Au DELF B2, les deux premiers exercices sont diffusés <strong>deux fois</strong> "
+                 "— mais jamais accompagnés d'une transcription.")
+        transcription = f"""
+<details><summary>Afficher la transcription — à n'ouvrir qu'après l'écoute</summary>
+<p class="warn">⚠️ <strong>C'est un exercice de compréhension orale.</strong> {regle} Lire le texte
+avant d'avoir écouté transforme l'exercice en compréhension écrite et fausse complètement la mesure
+de votre niveau.</p>
+<p>{source}</p></details>"""
+    else:
+        enonce = f"<p><em>{source_label}</em></p>\n<p>{source}</p>"
+        transcription = ""
     return f"""
 <div class="note">
 <p><strong>Exercice {n} — niveau {niveau}</strong></p>
-<p><em>{source_label}</em></p>
-<p>{source}</p>
+{enonce}
 <p><strong>Question :</strong> {question}</p>
 <ol type="A">
 {opts}
 </ol>
 </div>
-<div class="faq"><details><summary>Voir la réponse et l'explication</summary>
+<div class="faq">{transcription}
+<details><summary>Voir la réponse et l'explication</summary>
 <p><strong>Réponse : {bonne}</strong> — {expl}</p></details></div>
 """
 
@@ -93,10 +122,17 @@ cette variété qui fatigue, plus que la difficulté linguistique elle-même.</p
 <h2 id="exercices">Quatre exercices corrigés</h2>
 
 <p>Les quatre exercices ci-dessous suivent la progression réelle de l'épreuve. Les deux premiers
-sont de niveau B1, les deux suivants de niveau B2 — c'est-à-dire au-dessus du seuil NCLC 7.
-Lisez le document une seule fois, comme le jour J.</p>
+sont de niveau B1, les deux suivants de niveau B2 — c'est-à-dire au-dessus du seuil NCLC 7.</p>
 
-""" + exo(1, "B1", "Ce que vous entendez — exposé radiophonique, 1 locuteur :",
+<div class="warn">
+<p><strong>Écoutez avant de lire.</strong> Ces quatre exercices sont des épreuves d'écoute :
+l'audio est là pour être écouté <strong>une seule fois</strong>, sans transcription, exactement
+comme le jour de l'examen. La transcription est disponible sous chaque exercice, mais l'ouvrir
+avant d'avoir écouté transforme l'épreuve en compréhension écrite — et vous donne un résultat qui
+ne veut rien dire.</p>
+</div>
+
+""" + exo(1, "B1", "Exposé radiophonique, 1 locuteur",
 "« Bonjour à tous et bienvenue dans notre émission <em>Vie Quotidienne</em>. Aujourd'hui, nous "
 "allons parler du tri des déchets en France. Depuis plusieurs années, le tri sélectif est "
 "obligatoire dans toutes les communes françaises. Mais savez-vous vraiment dans quelle poubelle "
@@ -108,8 +144,9 @@ Lisez le document une seule fois, comme le jour J.</p>
 ["Dans la poubelle verte", "Dans la poubelle blanche", "Dans la poubelle jaune", "Dans la poubelle grise"],
 "C — Dans la poubelle jaune",
 "la poubelle jaune est destinée aux emballages, dont les bouteilles en plastique. "
-"C'est une question de <strong>repérage d'information</strong> : la réponse est dite textuellement.") + exo(
-2, "B1", "Ce que vous entendez — dialogue, 3 locuteurs :",
+"C'est une question de <strong>repérage d'information</strong> : la réponse est dite textuellement.",
+audio="tcf_co_019.m4a", duree="1 min 07", ecoutes=1) + exo(
+2, "B1", "Dialogue, 3 locuteurs",
 "« <strong>Karim :</strong> Alors Ahmed, tu en es où avec ta demande de naturalisation ?<br>"
 "<strong>Ahmed :</strong> J'ai déposé mon dossier il y a six mois à la préfecture. On m'a dit que "
 "le délai moyen était de dix-huit mois.<br>"
@@ -122,8 +159,9 @@ Lisez le document une seule fois, comme le jour J.</p>
 "B — Dix-huit mois",
 "le piège est le « six mois », qui est mentionné juste avant mais désigne le temps écoulé "
 "<em>depuis le dépôt</em>, pas le délai moyen. En dialogue, <strong>deux chiffres proches se "
-"télescopent</strong> : c'est le mécanisme de distraction le plus courant.") + exo(
-3, "B2", "Ce que vous entendez — interview, plusieurs intervenants :",
+"télescopent</strong> : c'est le mécanisme de distraction le plus courant.",
+audio="tcf_co_020.m4a", duree="54 s", ecoutes=1) + exo(
+3, "B2", "Interview, plusieurs intervenants",
 "« <strong>Pierre Martineau :</strong> L'abstention n'a cessé d'augmenter en France depuis les "
 "années mille neuf cent quatre-vingts. Aux dernières élections législatives, près de la moitié des "
 "électeurs inscrits ne se sont pas déplacés.<br>"
@@ -135,8 +173,9 @@ Lisez le document une seule fois, comme le jour J.</p>
 "A — Plus de 60 pour cent",
 "c'est Yasmine Karim, et non l'invité principal, qui donne le chiffre. En interview à plusieurs "
 "voix, <strong>il faut suivre qui dit quoi</strong> : « près de la moitié » énoncé juste avant "
-"concerne l'ensemble des électeurs, pas les jeunes.") + exo(
-4, "B2", "Ce que vous entendez — conférence, 1 locutrice :",
+"concerne l'ensemble des électeurs, pas les jeunes.",
+audio="tcf_co_029.m4a", duree="1 min 49", ecoutes=1) + exo(
+4, "B2", "Conférence, 1 locutrice",
 "« Les prédictions les plus alarmistes estiment que l'intelligence artificielle pourrait remplacer "
 "trente à quarante pour cent des emplois actuels d'ici deux mille quarante. Mais je voudrais "
 "apporter un éclairage plus nuancé. L'histoire des révolutions technologiques nous enseigne que la "
@@ -151,7 +190,8 @@ Lisez le document une seule fois, comme le jour J.</p>
 "C — Elle reconnaît les chiffres mais les contextualise",
 "<strong>voilà le vrai niveau B2.</strong> Aucune phrase ne donne la réponse : il faut suivre le "
 "mouvement argumentatif. Elle cite les chiffres, puis « je voudrais apporter un éclairage plus "
-"nuancé », puis « cependant ». Elle ne rejette rien et ne valide rien : elle contextualise.") + """
+"nuancé », puis « cependant ». Elle ne rejette rien et ne valide rien : elle contextualise.",
+audio="tcf_co_030.m4a", duree="1 min 29", ecoutes=1) + """
 
 <h2 id="saut">Ce qui change vraiment entre B1 et B2</h2>
 

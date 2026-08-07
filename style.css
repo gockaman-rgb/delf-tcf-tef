@@ -299,3 +299,12 @@ article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
                padding: 12px 16px; }
 .decision b { display: block; font-size: .95em; }
 .decision span { display: block; color: var(--muted); font-size: .89em; margin-top: .15em; }
+
+/* Exercices de compréhension orale : lecteur audio + transcription repliée */
+.note audio { width: 100%; margin: 14px 0 4px; }
+.listen { font-size: .95em; color: var(--muted); margin: 4px 0 0; }
+.warn { border-left: 3px solid #d9822b; background: #fff8f0; padding: 10px 14px;
+        margin: 0 0 14px; font-size: .95em; border-radius: 4px; }
+@media (prefers-color-scheme: dark) {
+  .warn { background: #2a2118; border-left-color: #d9822b; }
+}

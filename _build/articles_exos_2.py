@@ -13,19 +13,49 @@ Structures de la langue.
 
 from article_template import build
 
-def exo(n, niveau, source_label, source, question, options, bonne, expl):
+def exo(n, niveau, source_label, source, question, options, bonne, expl,
+        audio=None, duree=None, ecoutes=1):
+    """Un exercice.
+
+    Avec `audio`, l'énoncé devient un lecteur et la transcription passe derrière
+    un avertissement replié : c'est une épreuve d'ÉCOUTE, lire le texte avant
+    d'avoir écouté fausse la mesure. Sans `audio`, l'énoncé reste visible
+    (compréhension écrite, sujets d'expression).
+    """
     opts = "\n".join(f"<li>{o}</li>" for o in options)
+    if audio:
+        mot = "une seule fois" if ecoutes == 1 else f"{ecoutes} fois au maximum"
+        enonce = f"""<p class="listen"><strong>🎧 Écoutez {mot}</strong>, comme le jour de l'examen —
+sans lire la transcription.</p>
+<audio controls preload="none" src="/audio/{audio}">Votre navigateur ne lit pas ce format audio.
+La transcription est disponible juste en dessous.</audio>
+<p class="listen">{source_label} · {duree}</p>"""
+        regle = ("Au TCF, au TEF et à leurs versions IRN, l'enregistrement n'est diffusé "
+                 "<strong>qu'une seule fois</strong> et vous n'avez <strong>aucune "
+                 "transcription</strong>."
+                 if ecoutes == 1 else
+                 "Au DELF B2, les deux premiers exercices sont diffusés <strong>deux fois</strong> "
+                 "— mais jamais accompagnés d'une transcription.")
+        transcription = f"""
+<details><summary>Afficher la transcription — à n'ouvrir qu'après l'écoute</summary>
+<p class="warn">⚠️ <strong>C'est un exercice de compréhension orale.</strong> {regle} Lire le texte
+avant d'avoir écouté transforme l'exercice en compréhension écrite et fausse complètement la mesure
+de votre niveau.</p>
+<p>{source}</p></details>"""
+    else:
+        enonce = f"<p><em>{source_label}</em></p>\n<p>{source}</p>"
+        transcription = ""
     return f"""
 <div class="note">
 <p><strong>Exercice {n} — niveau {niveau}</strong></p>
-<p><em>{source_label}</em></p>
-<p>{source}</p>
+{enonce}
 <p><strong>Question :</strong> {question}</p>
 <ol type="A">
 {opts}
 </ol>
 </div>
-<div class="faq"><details><summary>Voir la réponse et l'explication</summary>
+<div class="faq">{transcription}
+<details><summary>Voir la réponse et l'explication</summary>
 <p><strong>Réponse : {bonne}</strong> — {expl}</p></details></div>
 """
 
@@ -480,7 +510,7 @@ C2. Les 25 questions de compréhension orale en 20 minutes laissent environ
 <p>Les quatre exercices ci-dessous sont au <strong>niveau B2</strong> — celui exigé pour la
 naturalisation depuis le 1<sup>er</sup> janvier 2026.</p>
 
-""" + exo(1, "B2 — compréhension orale", "Ce que vous entendez — interview, 2 locuteurs :",
+""" + exo(1, "B2 — compréhension orale", "Interview, 2 locuteurs",
 "« <strong>Intervieweur :</strong> Vous êtes spécialiste en psychologie organisationnelle. Comment "
 "les entreprises peuvent-elles mieux gérer le télétravail ?<br>"
 "<strong>Psychologue :</strong> Le télétravail a créé des défis uniques. Le sentiment d'isolement "
@@ -494,7 +524,8 @@ naturalisation depuis le 1<sup>er</sup> janvier 2026.</p>
 "D — Isolement affectant la productivité",
 "la psychologue nomme explicitement « le sentiment d'isolement » comme ce qui « affecte la "
 "productivité et le bien-être ». Les trois autres options sont des difficultés <em>plausibles</em> "
-"du télétravail, mais absentes du document : <strong>le plausible n'est pas le dit</strong>."
+"du télétravail, mais absentes du document : <strong>le plausible n'est pas le dit</strong>.",
+audio="tcf_co_b2_075.m4a", duree="31 s", ecoutes=1
 ) + exo(2, "B2 — compréhension écrite", "Document — texte d'idées :",
 "« Si Victor Hugo revenait parmi nous, il serait sans doute stupéfait de constater que la misère "
 "qu'il dénonçait avec tant de force au XIX<sup>e</sup> siècle n'a pas disparu de France. Certes, "
@@ -680,7 +711,7 @@ donc un rythme légèrement plus confortable que le <a href="/tcf-canada/">TCF C
 
 <h2 id="exercices">Deux exercices de compréhension corrigés</h2>
 
-""" + exo(1, "B2 — compréhension orale", "Ce que vous entendez — débat, plusieurs intervenants :",
+""" + exo(1, "B2 — compréhension orale", "Débat, plusieurs intervenants",
 "« <strong>Lucas Berger :</strong> La France consacre environ un pour cent de son budget à la "
 "culture, un modèle envié dans le monde entier. Le ministère de la Culture, créé par Malraux en "
 "mille neuf cent cinquante-neuf, a démocratisé l'accès aux arts. Cependant, les pratiques "
@@ -695,7 +726,8 @@ donc un rythme légèrement plus confortable que le <a href="/tcf-canada/">TCF C
 "la question porte sur la <strong>fonction argumentative</strong> d'une formule, pas sur son "
 "contenu. Dire qu'un modèle est « envié » est un <em>argument d'autorité</em> : plutôt que de "
 "justifier la dépense en interne, l'orateur la valide par une reconnaissance extérieure. Les "
-"trois autres options prennent la formule au premier degré."
+"trois autres options prennent la formule au premier degré.",
+audio="tcf_co_113.m4a", duree="51 s", ecoutes=1
 ) + exo(2, "B2 — compréhension écrite", "Document — texte institutionnel :",
 "« La protection de l'enfance en France repose sur un principe fondamental : l'intérêt supérieur "
 "de l'enfant, inscrit dans la Convention internationale des droits de l'enfant ratifiée en 1990. "
@@ -884,7 +916,7 @@ grande partie des ressources en ligne est antérieure à la réforme.</p>
 
 <h2 id="exercices">Un exercice corrigé par épreuve</h2>
 
-""" + exo(1, "B2 — compréhension de l'oral", "Ce que vous entendez — interview :",
+""" + exo(1, "B2 — compréhension de l'oral", "Interview",
 "« <strong>Journaliste :</strong> Vous êtes spécialiste en santé publique. La question de la santé "
 "mentale des jeunes est devenue un sujet majeur en France. Pouvez-vous nous en dire plus ?<br>"
 "<strong>Docteur Martin :</strong> Oui, effectivement, nous observons une augmentation très "
@@ -898,7 +930,8 @@ grande partie des ressources en ligne est antérieure à la réforme.</p>
 "question de repérage, mais avec deux chiffres proches dans le document : les 40 % concernent les "
 "consultations, le « doublé » concerne les tentatives de suicide. <strong>Vérifiez toujours à quoi "
 "se rapporte le chiffre</strong> avant de cocher — c'est le mécanisme de distraction le plus "
-"courant."
+"courant.",
+audio="delf_co_001.m4a", duree="1 min 46", ecoutes=2
 ) + exo(2, "B2 — compréhension des écrits", "Document — article de presse :",
 "« <strong>La transition écologique en France : un défi collectif.</strong> Depuis l'Accord de "
 "Paris en 2015, la France s'est engagée dans une transformation profonde de son modèle économique "
