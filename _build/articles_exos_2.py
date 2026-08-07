@@ -28,7 +28,7 @@ def exo(n, niveau, source_label, source, question, options, bonne, expl,
         enonce = f"""<p class="listen"><strong>🎧 Écoutez {mot}</strong>, comme le jour de l'examen —
 sans lire la transcription.</p>
 <audio controls preload="none" src="/audio/{audio}">Votre navigateur ne lit pas ce format audio.
-La transcription est disponible juste en dessous.</audio>
+Un extrait de la transcription est disponible juste en dessous.</audio>
 <p class="listen">{source_label} · {duree}</p>"""
         regle = ("Au TCF, au TEF et à leurs versions IRN, l'enregistrement n'est diffusé "
                  "<strong>qu'une seule fois</strong> et vous n'avez <strong>aucune "
@@ -37,7 +37,7 @@ La transcription est disponible juste en dessous.</audio>
                  "Au DELF B2, les deux premiers exercices sont diffusés <strong>deux fois</strong> "
                  "— mais jamais accompagnés d'une transcription.")
         transcription = f"""
-<details><summary>Afficher la transcription — à n'ouvrir qu'après l'écoute</summary>
+<details><summary>Afficher un extrait de la transcription — à n'ouvrir qu'après l'écoute</summary>
 <p class="warn">⚠️ <strong>C'est un exercice de compréhension orale.</strong> {regle} Lire le texte
 avant d'avoir écouté transforme l'exercice en compréhension écrite et fausse complètement la mesure
 de votre niveau.</p>

@@ -29,7 +29,7 @@ def exo(n, niveau, source_label, source, question, options, bonne, expl,
         enonce = f"""<p class="listen"><strong>🎧 Écoutez {mot}</strong>, comme le jour de l'examen —
 sans lire la transcription.</p>
 <audio controls preload="none" src="/audio/{audio}">Votre navigateur ne lit pas ce format audio.
-La transcription est disponible juste en dessous.</audio>
+Un extrait de la transcription est disponible juste en dessous.</audio>
 <p class="listen">{source_label} · {duree}</p>"""
         regle = ("Au TCF, au TEF et à leurs versions IRN, l'enregistrement n'est diffusé "
                  "<strong>qu'une seule fois</strong> et vous n'avez <strong>aucune "
@@ -38,7 +38,7 @@ La transcription est disponible juste en dessous.</audio>
                  "Au DELF B2, les deux premiers exercices sont diffusés <strong>deux fois</strong> "
                  "— mais jamais accompagnés d'une transcription.")
         transcription = f"""
-<details><summary>Afficher la transcription — à n'ouvrir qu'après l'écoute</summary>
+<details><summary>Afficher un extrait de la transcription — à n'ouvrir qu'après l'écoute</summary>
 <p class="warn">⚠️ <strong>C'est un exercice de compréhension orale.</strong> {regle} Lire le texte
 avant d'avoir écouté transforme l'exercice en compréhension écrite et fausse complètement la mesure
 de votre niveau.</p>
@@ -127,7 +127,7 @@ sont de niveau B1, les deux suivants de niveau B2 — c'est-à-dire au-dessus du
 <div class="warn">
 <p><strong>Écoutez avant de lire.</strong> Ces quatre exercices sont des épreuves d'écoute :
 l'audio est là pour être écouté <strong>une seule fois</strong>, sans transcription, exactement
-comme le jour de l'examen. La transcription est disponible sous chaque exercice, mais l'ouvrir
+comme le jour de l'examen. Un extrait de la transcription est disponible sous chaque exercice, mais l'ouvrir
 avant d'avoir écouté transforme l'épreuve en compréhension écrite — et vous donne un résultat qui
 ne veut rien dire.</p>
 </div>
