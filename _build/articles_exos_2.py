@@ -569,6 +569,13 @@ une contrainte théorique.</li>
 <li><strong>Faites corriger vos expressions sur les critères officiels.</strong> Savoir si vous
 écrivez à 9 ou à 11 sur 20, c'est savoir si vous avez le B2 ou non.</li>
 </ol>
+
+<div class="note">
+<p><strong>Et l'examen civique ?</strong> Le TCF IRN ne couvre que la condition de langue. Depuis
+2026, un examen civique s'ajoute au dossier — 40 questions, 32 bonnes réponses exigées. Notre app
+sœur <a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a> le prépare avec les thèmes officiels
+en QCM expliqués — <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087">disponible sur l'App&nbsp;Store</a>.</p>
+</div>
 """,
 "cta_h2": "Savoir si vous avez le B2 avant de payer votre test",
 "cta_p": """Examens blancs au format exact du TCF IRN, notation sur l'échelle 499 avec niveau CECRL

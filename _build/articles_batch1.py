@@ -138,8 +138,9 @@ Son format est précis — <strong>40 questions</strong>, <strong>45 minutes</st
 <p>C'est un seuil élevé : huit erreurs suffisent à faire échouer. Il porte sur les valeurs, les
 institutions et l'histoire de la République, et se prépare séparément du test de langue — les
 deux n'ont ni le même contenu ni le même format. Notre app sœur
-<a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a> couvre cette
-partie du dossier.</p>
+<a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a> couvre cette partie du dossier — les
+questions officielles de culture civique, expliquées une à une,
+<a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087">disponible sur l'App&nbsp;Store</a>.</p>
 
 <p>Notez aussi le coût administratif, souvent sous-estimé : le timbre fiscal de première
 délivrance d'une carte de résident est passé à <strong>350 €</strong> depuis le
@@ -280,6 +281,11 @@ nationalité.</p>
 unique, le même jour, avec surveillance anti-fraude et vérification d'identité.</li>
 <li><strong>Attestation valable deux ans</strong> dans les deux cas.</li>
 </ul>
+
+<p>Et quel que soit votre choix, rappelez-vous que <strong>le test de langue ne fait pas tout le
+dossier</strong> : depuis 2026, un examen civique s'y ajoute — 40 questions, 32 bonnes réponses
+exigées. Notre app sœur <a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a>
+(<a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087">App&nbsp;Store</a>) prépare cette partie-là.</p>
 
 <h2 id="format">Les deux formats côte à côte</h2>
 
