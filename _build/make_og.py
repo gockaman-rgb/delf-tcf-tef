@@ -64,6 +64,18 @@ PAGES = [
     ("a-propos", "À propos", None, "Méthode éditoriale et sources"),
     ("support", "Support", None, "Contact et questions fréquentes"),
     ("confidentialite", "Confidentialité", None, "Aucun compte, aucun serveur de profil"),
+    # visuels d'origine (juillet), repris pour tenir dans le recadrage carré
+    ("difference-tcf-tef", "TCF ou TEF ?", "9", "versions comparées, épreuve par épreuve"),
+    ("tcf-canada-nclc-7", "NCLC 7 au TCF Canada", "458", "en compréhension orale"),
+    ("tcf-ou-tef-canada", "TCF ou TEF Canada", "2", "seuls tests acceptés par IRCC"),
+    ("examen-blanc-tcf-gratuit", "Examen blanc gratuit", "2", "ressources officielles, et leurs limites"),
+    ("naturalisation-2026-niveau-b2", "Naturalisation 2026", "B2", "obligatoire depuis le 1er janvier"),
+    ("carte-de-resident-b1-2026", "Carte de résident", "B1", "exigé depuis janvier 2026"),
+    ("tcf-quebec", "TCF Québec", "1→4", "épreuves au choix · Échelle québécoise"),
+    ("score-tcf-699", "Le score TCF", "699", "l'échelle officielle expliquée"),
+    ("examens", "Les examens couverts", "15", "variantes, du DELF A1 au DALF C2"),
+    ("contenu", "Le contenu de l'app", "20 000+", "questions et exercices originaux"),
+    ("correction-ia", "La correction IA", "20", "vos productions notées sur 20"),
 ]
 
 
@@ -71,46 +83,57 @@ def font(path, size):
     return ImageFont.truetype(path, size)
 
 
-def fit(draw, text, path, start, max_w):
+def fit(draw, text, path, start, max_w, floor=22):
     """Réduit la taille jusqu'à ce que `text` tienne dans `max_w`."""
     size = start
-    while size > 24:
+    while size > floor:
         f = font(path, size)
         if draw.textlength(text, font=f) <= max_w:
             return f
-        size -= 4
-    return font(path, size)
+        size -= 2
+    return font(path, floor)
+
+
+# Facebook, WhatsApp, Slack et LinkedIn affichent souvent un aperçu CARRÉ :
+# ils recadrent le 1200×630 au centre et ne gardent que la bande x 285→915.
+# Tout le contenu est donc centré et calibré pour tenir dans cette bande —
+# sinon le début des titres, le chiffre-clé et le domaine disparaissent.
+SAFE = H            # 630 px : largeur conservée par un recadrage carré centré
+PAD = 16            # marge de sécurité à l'intérieur de la bande
+
+
+def centered(d, text, f, y, fill):
+    """Écrit `text` centré horizontalement sur toute la largeur."""
+    d.text(((W - d.textlength(text, font=f)) / 2, y), text, font=f, fill=fill)
 
 
 def build(slug, title, stat, label):
     im = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(im)
+    box = SAFE - 2 * PAD          # largeur utile réelle : 598 px
 
-    # bandeau supérieur
+    # bandeau supérieur, pleine largeur (survit à tout recadrage)
     d.rectangle([0, 0, W, 10], fill=ACCENT)
 
     # surtitre
-    d.text((72, 72), "DELF · TCF · TEF", font=font(FONT_BOLD, 30), fill=MUTED)
-
-    # filet vertical du bloc de contenu
-    d.rectangle([72, 148, 79, 480], fill=ACCENT)
+    centered(d, "DELF · TCF · TEF", fit(d, "DELF · TCF · TEF", FONT_BOLD, 30, box), 74, MUTED)
 
     # titre
-    f_title = fit(d, title, FONT_BOLD, 74, W - 190)
-    d.text((112, 160), title, font=f_title, fill=TITLE)
+    f_title = fit(d, title, FONT_BOLD, 70, box)
+    centered(d, title, f_title, 150, TITLE)
+
+    # filet d'accent centré, sous le titre
+    d.rectangle([W // 2 - 46, 258, W // 2 + 46, 264], fill=ACCENT)
 
     if stat:
-        f_stat = font(FONT_BOLD, 116)
-        d.text((112, 280), stat, font=f_stat, fill=ACCENT)
-        stat_w = d.textlength(stat, font=f_stat)
-        f_label = fit(d, label, FONT_REG, 34, W - (112 + stat_w + 40) - 80)
-        d.text((112 + stat_w + 32, 318), label, font=f_label, fill=MUTED)
+        f_stat = fit(d, stat, FONT_BOLD, 112, box)
+        centered(d, stat, f_stat, 310, ACCENT)
+        centered(d, label, fit(d, label, FONT_REG, 34, box), 452, MUTED)
     else:
-        f_label = fit(d, label, FONT_REG, 38, W - 200)
-        d.text((112, 300), label, font=f_label, fill=MUTED)
+        centered(d, label, fit(d, label, FONT_REG, 36, box), 330, MUTED)
 
-    # pied
-    d.text((72, 560), "delf-tcf-tef.fr", font=font(FONT_REG, 28), fill=ACCENT)
+    # domaine
+    centered(d, "delf-tcf-tef.fr", font(FONT_REG, 28), 556, ACCENT)
 
     path = os.path.normpath(os.path.join(OUT_DIR, slug + ".png"))
     im.save(path, optimize=True)
