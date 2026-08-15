@@ -28,9 +28,9 @@ HEAD = """<!DOCTYPE html>
 <link rel="canonical" href="{base}{url}">
 <link rel="stylesheet" href="/style.css">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
-<link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48-v2.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96-v2.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192-v2.png">
 <link rel="apple-touch-icon" href="/img/icon-180.png">
 <meta name="apple-itunes-app" content="app-id=6790412304">
 <meta property="og:title" content="{title}">
