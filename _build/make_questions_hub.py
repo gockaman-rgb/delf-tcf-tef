@@ -59,13 +59,18 @@ PAGE_SECTION = {
 }
 
 HEADER = """<header class="site"><div class="wrap">
-  <a class="logo" href="/"><img src="/img/favicon-192.png" alt="" width="30" height="30">DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</a>
-  <nav class="main">
-    <a href="/tcf-canada/">TCF Canada</a>
-    <a href="/tcf-irn/">TCF IRN</a>
-    <a href="/delf-b2/">DELF</a>
-    <a href="/examens-blancs/">Examens blancs</a>
-    <a href="/blog/">Blog</a>
+  <a class="logo" href="/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>
+  <a class="store" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">App&nbsp;Store</a>
+  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menu"><span></span></button>
+  <nav class="main" id="menu" popover aria-label="Navigation principale">
+    <div class="menu-panel">
+      <a href="/tcf-canada/">TCF Canada</a>
+      <a href="/tcf-irn/">TCF IRN</a>
+      <a href="/delf-b2/">DELF</a>
+      <a href="/examens-blancs/">Examens blancs</a>
+      <a href="/blog/">Blog</a>
+    </div>
+    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Fermer le menu"></button>
   </nav>
 </div></header>"""
 
@@ -215,9 +220,9 @@ Chaque question renvoie à la page qui y répond, avec ses sources et sa date de
 vous ne trouvez pas la vôtre, <a href="/support/">écrivez-nous</a> — c'est souvent comme ça qu'un
 article naît.</p>
 
-<div class="toc"><strong>Par thème</strong><ol>
+<details class="toc"><summary>Par thème</summary><ol>
 {chr(10).join(toc)}
-</ol></div>
+</ol></details>
 
 {chr(10).join(blocks)}
 

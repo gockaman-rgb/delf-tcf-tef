@@ -21,13 +21,18 @@ AUTHOR = "Augusto Grone"
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
 HEADER = """<header class="site"><div class="wrap">
-  <a class="logo" href="/"><img src="/img/favicon-192.png" alt="" width="30" height="30">DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</a>
-  <nav class="main">
-    <a href="/tcf-canada/">TCF Canada</a>
-    <a href="/tcf-irn/">TCF IRN</a>
-    <a href="/delf-b2/">DELF</a>
-    <a href="/examens-blancs/">Examens blancs</a>
-    <a href="/blog/">Blog</a>
+  <a class="logo" href="/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>
+  <a class="store" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">App&nbsp;Store</a>
+  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menu"><span></span></button>
+  <nav class="main" id="menu" popover aria-label="Navigation principale">
+    <div class="menu-panel">
+      <a href="/tcf-canada/">TCF Canada</a>
+      <a href="/tcf-irn/">TCF IRN</a>
+      <a href="/delf-b2/">DELF</a>
+      <a href="/examens-blancs/">Examens blancs</a>
+      <a href="/blog/">Blog</a>
+    </div>
+    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Fermer le menu"></button>
   </nav>
 </div></header>"""
 
@@ -163,10 +168,10 @@ def render(a, overwrite=False):
 {facts}
 </ul></div>
 
-<div class="toc"><strong>Au sommaire</strong><ol>
+<details class="toc"><summary>Au sommaire</summary><ol>
 {toc}
 <li><a href="#faq">Questions fréquentes</a></li>
-</ol></div>
+</ol></details>
 
 {a['body']}
 

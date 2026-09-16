@@ -30,3 +30,32 @@ vérifier `git diff` après exécution — sur un site à jour, le diff doit êt
 au gabarit des visuels existants (fond `#0E1420`, accent `#34C47C`).
 Par défaut il ne crée que les images manquantes ; `--force` régénère tout.
 Ajouter une page = ajouter une entrée dans `PAGES[]` du script.
+
+## En-tête commun (mis à jour le 16/09/2026)
+
+L'en-tête (`<header class="site">…</header>`) est **recopié à l'identique** dans
+chaque page et dans les trois gabarits (`_build/generate.py`,
+`_build/article_template.py`, `_build/make_questions_hub.py`). Pour le modifier,
+remplacer le bloc entier par un script sur les 43 pages + les 3 gabarits, puis
+vérifier qu'il ne reste qu'une seule variante :
+
+```bash
+for f in $(find . -name "*.html" -not -path "./.git/*"); do awk '/<header class="site">/,/<\/header>/' "$f" | tr -d '\n' | sed 's/  */ /g'; echo; done | sort | uniq -c
+```
+
+Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
+(`popovertarget` / `popover`, sans JavaScript) ; le CSS correspondant est dans
+`style.css`, bloc `@supports selector(:popover-open)`. La page
+`/confidentialite/` est autonome (CSS en ligne, pas d'en-tête).
+
+## Accueil et articles : ce qui est partagé (16/09/2026)
+
+- **Note App Store** dans le héros (`.rating`, index.html) : valeur écrite en dur, relevée sur
+  `itunes.apple.com/lookup?id=6790412304&country=fr` (4,82 sur 44 notes le 16/09/2026).
+  À rafraîchir à la main quand elle bouge.
+- **Sommaire** des articles : `<details class="toc">` fermé par défaut ; ouvert et statique sur
+  ordinateur grâce à `::details-content` (style.css). Les gabarits `_build/` produisent ce balisage.
+- **Carte « Entraînez-vous »** (`.cta-inline`) insérée avant le 3ᵉ `<h2>` des 32 articles longs
+  (≥ 7 sections, ≥ 2 000 mots, avec bande finale). Insertion faite par script, pas par les gabarits :
+  un nouvel article n'en a pas automatiquement.
+- **Bande sombre** `#app` en bas de l'accueil : couleurs fixes (navy des visuels de partage).

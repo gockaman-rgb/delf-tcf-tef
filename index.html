@@ -52,24 +52,33 @@
 </head>
 <body>
 <header class="site"><div class="wrap">
-  <a class="logo" href="/"><img src="/img/favicon-192.png" alt="" width="30" height="30">DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</a>
-  <nav class="main">
-    <a href="/tcf-canada/">TCF Canada</a>
-    <a href="/tcf-irn/">TCF IRN</a>
-    <a href="/delf-b2/">DELF</a>
-    <a href="/examens-blancs/">Examens blancs</a>
-    <a href="/blog/">Blog</a>
+  <a class="logo" href="/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>
+  <a class="store" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">App&nbsp;Store</a>
+  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menu"><span></span></button>
+  <nav class="main" id="menu" popover aria-label="Navigation principale">
+    <div class="menu-panel">
+      <a href="/tcf-canada/">TCF Canada</a>
+      <a href="/tcf-irn/">TCF IRN</a>
+      <a href="/delf-b2/">DELF</a>
+      <a href="/examens-blancs/">Examens blancs</a>
+      <a href="/blog/">Blog</a>
+    </div>
+    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Fermer le menu"></button>
   </nav>
 </div></header>
 
 <div class="hero"><div class="wrap hero-grid">
   <div>
     <h1>Réussissez votre DELF, TCF ou TEF du premier coup</h1>
-    <p class="lead">L'application de préparation la plus complète : 15 variantes d'examens,
-    plus de 20 000 questions originales, des examens blancs au format officiel exact
-    et une correction IA de l'écrit comme de l'oral.</p>
-    <a class="btn" id="cta-appstore" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Télécharger sur l'App&nbsp;Store</a>
-    <p class="btn-note">iPhone · sans compte · sans publicité · fonctionne hors ligne</p>
+    <p class="lead">L'application de préparation la plus complète&nbsp;: examens blancs au format
+    officiel exact et correction IA de l'écrit comme de l'oral.<span class="lead-more"> 15 variantes
+    d'examens, plus de 20 000 questions originales.</span></p>
+    <div class="cta-row">
+      <a class="btn" id="cta-appstore" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Télécharger sur l'App&nbsp;Store</a>
+      <!-- Note App Store France (itunes.apple.com/lookup, storefront fr) : 4,82 sur 44 notes le 16/09/2026. À rafraîchir. -->
+      <a class="rating" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304?see-all=reviews" aria-label="Note 4,8 sur 5 sur l'App Store, voir les avis"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6L2.5 9.4l6.6-.8z"/></svg><b>4,8</b><span>sur l'App&nbsp;Store</span></a>
+    </div>
+    <p class="btn-note">iPhone · sans&nbsp;compte · sans&nbsp;publicité · fonctionne hors&nbsp;ligne</p>
     <nav class="chips" aria-label="Accès direct par examen">
       <a class="chip" href="/delf-b2/">DELF A1–B2</a><a class="chip" href="/dalf/">DALF C1–C2</a>
       <a class="chip" href="/tcf-canada/">TCF Canada</a><a class="chip" href="/tcf-irn/">TCF IRN</a>
@@ -109,19 +118,19 @@
       <p>Épreuves chronométrées : durées, consignes et nombre de questions identiques
       à l'examen réel (formats officiels 2025-2026). Scores officiels : DELF sur 100
       avec seuils éliminatoires, TCF/TEF sur l'échelle 699 avec niveau CECRL par épreuve.</p></div>
-    <div class="card card-link">
+    <div class="card card-link accent-dalf">
       <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
       <span class="tag">Correction IA</span>
       <h3><a href="/correction-ia/">Écrit et oral notés comme par un examinateur</a></h3>
       <p>Vos textes évalués selon les grilles officielles. À l'oral : parlez, l'app
       transcrit et note — prononciation et fluidité comprises. Feedback précis après chaque essai.</p></div>
-    <div class="card card-link">
+    <div class="card card-link accent-tcf">
       <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V4a2 2 0 0 0-2-2H6.5A2.5 2.5 0 0 0 4 4.5Z"/><path d="M20 17v5H6.5a2.5 2.5 0 0 1 0-5"/><path d="M9 7h7M9 11h5"/></svg></div>
       <span class="tag">20 000+ questions</span>
       <h3><a href="/contenu/">100 % original, zéro sujet fuité</a></h3>
       <p>Chaque question a son explication détaillée. Aucun sujet « fuité », aucun risque
       pour votre dossier d'immigration ou de naturalisation.</p></div>
-    <div class="card card-link">
+    <div class="card card-link accent-irn">
       <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 20v-6l4 2 4-8 4 4 2-3v11"/></svg></div>
       <span class="tag">Coach adaptatif</span>
       <h3><a href="/plan-etude/">Un plan d'étude qui s'adapte à vous</a></h3>
@@ -213,6 +222,18 @@
   <details><summary>Faut-il créer un compte ?</summary>
     <p>Non. Pas de compte, pas de publicité, pas de tracking : vos résultats restent sur
     votre iPhone, avec sauvegarde iCloud privée en option. L'app fonctionne hors ligne.</p></details>
+</div></section>
+
+<section class="band" id="app"><div class="wrap band-grid">
+  <div>
+    <h2>Arrivez prêt le jour J</h2>
+    <p>Examens blancs au format officiel, correction IA de l'écrit et de l'oral, plan d'étude
+    calé sur votre date d'examen. Téléchargement gratuit, sans compte, hors ligne.</p>
+    <a class="btn light" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Télécharger sur l'App&nbsp;Store</a>
+  </div>
+  <div class="band-shot"><div class="phone"><img src="/img/app-examens-480.jpg"
+    srcset="/img/app-examens-480.jpg 480w, /img/app-examens-960.jpg 960w" sizes="(max-width: 760px) 230px, 270px"
+    alt="Écran des examens blancs : TCF IRN B2, quatre épreuves, seuil d'admission" width="480" height="1044" loading="lazy"></div></div>
 </div></section>
 
 <footer class="site"><div class="wrap">

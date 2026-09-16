@@ -12,6 +12,11 @@
           --red: #ff8478; }
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
+/* La barre est collante : sans ce rembourrage, un lien du sommaire (#format…) ou un lien
+   profond posait le titre visé sous la barre. 72 px couvre les deux hauteurs (57 et 61 px).
+   text-size-adjust : Safari iOS gonflait le texte en paysage. */
+html { scroll-padding-top: 72px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
        background: var(--bg); color: var(--text); line-height: 1.65; font-size: 17px; }
 a { color: var(--blue); text-decoration: none; }
@@ -19,14 +24,112 @@ a:hover { text-decoration: underline; }
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
 .narrow { max-width: 760px; }
 
+/* ---- En-tête ----
+   Une seule barre, sur tous les écrans. Sur ordinateur : logo, liens en ligne,
+   pastille App Store. Sous 800 px : logo, pastille App Store, bouton menu ; les
+   liens s'ouvrent en panneau sous la barre. Le panneau est un « popover » natif
+   (attribut `popover` + `popovertarget`) : aucun script, fermeture par un tap
+   hors du panneau ou Échap, et rendu dans la couche supérieure — le
+   `backdrop-filter` de la barre ne peut donc pas le rogner. Les navigateurs qui
+   l'ignorent (iOS ≤ 16) gardent la mise en page en ligne d'avant : le bloc
+   `@supports selector(:popover-open)` n'existe pas pour eux. */
 header.site { border-bottom: 1px solid var(--line); position: sticky; top: 0;
-  background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); z-index: 10; }
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); z-index: 10; }
 header.site .wrap { display: flex; align-items: center; gap: 18px; padding: 12px 20px; flex-wrap: wrap; }
-.logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05em; color: var(--text); }
-.logo img { width: 30px; height: 30px; border-radius: 7px; }
-nav.main { display: flex; gap: 16px; margin-left: auto; flex-wrap: wrap; font-size: .95em; }
+.logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05em; color: var(--text);
+        white-space: nowrap; }
+.logo:hover { text-decoration: none; }
+.logo img { width: 30px; height: 30px; border-radius: 7px; flex: none; }
+/* La feuille de style du navigateur cache tout élément `popover` fermé et lui
+   impose position: fixed, bordure, marges automatiques… : on remet tout en flux
+   ici, le bloc téléphone plus bas ne s'applique qu'en dessous de 800 px. */
+nav.main { display: block; position: static; inset: auto; width: auto; height: auto;
+  margin: 0 0 0 auto; border: 0; padding: 0; overflow: visible; color: inherit; background: transparent;
+  font-size: .95em; order: 1; }
+.menu-panel { display: flex; gap: 16px; flex-wrap: wrap; }
 nav.main a { color: var(--muted); font-weight: 500; }
 nav.main a:hover { color: var(--text); text-decoration: none; }
+/* Voile de fermeture : n'existe que dans le panneau téléphone, plus bas. */
+.menu-scrim { display: none; }
+/* Pastille App Store : le seul appel à l'action toujours visible, y compris
+   pendant la lecture d'un article de 2 500 mots sur téléphone. */
+.store { order: 2; flex: none; display: inline-flex; align-items: center; min-height: 36px;
+         padding: 0 14px; border-radius: 99px; font-size: .88em; font-weight: 650; letter-spacing: .01em;
+         color: #fff; background: linear-gradient(180deg, var(--accent), color-mix(in srgb, var(--accent) 82%, #001a4d));
+         box-shadow: 0 4px 12px color-mix(in srgb, var(--accent) 28%, transparent);
+         transition: filter .15s ease, transform .15s ease; }
+.store:hover { filter: brightness(1.07); text-decoration: none; }
+.store:active { transform: scale(.97); }
+/* Bouton menu : n'existe que sur téléphone, dans le bloc @supports plus bas. */
+.menu-btn { display: none; }
+.logo:focus-visible, .store:focus-visible, .menu-btn:focus-visible, nav.main a:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
+
+@supports selector(:popover-open) {
+  @media (max-width: 799px) {
+    header.site { --bar: 56px; }
+    header.site .wrap { flex-wrap: nowrap; gap: 8px; height: var(--bar); padding: 0 10px 0 16px; }
+    .logo { margin-right: auto; font-size: 1em; gap: 8px; min-width: 0; }
+    .logo img { width: 28px; height: 28px; }
+    .store { order: 0; min-height: 34px; padding: 0 13px; font-size: .86em; }
+    /* Sous 350 px (iPhone SE 1re génération) le mot-symbole ne tient plus : l'icône seule. */
+    @media (max-width: 349px) { .logo span { display: none; } }
+
+    .menu-btn { display: inline-flex; order: 3; align-items: center; justify-content: center; flex: none;
+      width: 44px; height: 44px; margin-right: -6px; padding: 0; border: 0; border-radius: 12px;
+      background: transparent; color: var(--text); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .menu-btn:active { background: var(--bg2); }
+    /* Trois barres dessinées en CSS ; elles deviennent une croix quand le panneau est ouvert. */
+    .menu-btn span, .menu-btn span::before, .menu-btn span::after {
+      display: block; width: 20px; height: 2px; border-radius: 2px; background: currentColor;
+      transition: transform .2s ease, background-color .2s ease, top .2s ease; }
+    .menu-btn span { position: relative; }
+    .menu-btn span::before, .menu-btn span::after { content: ""; position: absolute; left: 0; }
+    .menu-btn span::before { top: -6px; }
+    .menu-btn span::after { top: 6px; }
+    header.site:has(nav.main:popover-open) .menu-btn span { background: transparent; }
+    header.site:has(nav.main:popover-open) .menu-btn span::before { top: 0; transform: rotate(45deg); }
+    header.site:has(nav.main:popover-open) .menu-btn span::after { top: 0; transform: rotate(-45deg); }
+
+    /* Le popover occupe tout l'écran sous la barre : la carte de liens en haut, et
+       dessous un bouton-voile (`popovertargetaction="hide"`) qui ferme le menu. Un tap
+       sur la zone assombrie est ainsi consommé par ce bouton — avec le seul ::backdrop,
+       il fermait le menu ET traversait vers le lien situé dessous. */
+    nav.main { position: fixed; inset: calc(var(--bar) + 1px) 0 0 0; width: auto; height: auto;
+      margin: 0; padding: 0; border: 0; background: transparent; color: var(--text); font-size: 1em;
+      overflow: hidden; display: flex; flex-direction: column;
+      transition: display .2s allow-discrete, overlay .2s allow-discrete; }
+    nav.main:not(:popover-open) { display: none; }
+    .menu-panel { flex: none; max-height: 100%; overflow: auto; overscroll-behavior: contain;
+      display: flex; flex-direction: column; gap: 0; padding: 6px 10px 12px;
+      border-bottom: 1px solid var(--line); border-radius: 0 0 18px 18px;
+      background: color-mix(in srgb, var(--bg) 94%, transparent);
+      -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
+      box-shadow: 0 24px 48px -16px rgba(12, 28, 68, .35);
+      transition: opacity .2s ease, translate .2s ease; }
+    .menu-scrim { display: block; flex: 1; margin: 0; padding: 0; border: 0; cursor: default;
+      background: rgba(10, 16, 30, .32); -webkit-tap-highlight-color: transparent;
+      transition: opacity .2s ease; }
+    nav.main:not(:popover-open) .menu-panel { opacity: 0; translate: 0 -10px; }
+    nav.main:not(:popover-open) .menu-scrim { opacity: 0; }
+    @starting-style {
+      nav.main:popover-open .menu-panel { opacity: 0; translate: 0 -10px; }
+      nav.main:popover-open .menu-scrim { opacity: 0; }
+    }
+    nav.main a { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      min-height: 50px; padding: 0 12px; border-radius: 12px; color: var(--text); font-weight: 600;
+      font-size: 1.02em; -webkit-tap-highlight-color: transparent; }
+    nav.main a + a { border-top: 1px solid var(--line); border-radius: 0 0 12px 12px; }
+    nav.main a::after { content: "›"; font-size: 1.3em; line-height: 1; color: var(--muted); }
+    nav.main a:active, nav.main a:hover { background: var(--bg2); color: var(--accent); text-decoration: none; }
+    nav.main a:active::after, nav.main a:hover::after { color: var(--accent); }
+    @media (prefers-reduced-motion: reduce) {
+      nav.main, .menu-panel, .menu-scrim, .menu-btn span, .menu-btn span::before, .menu-btn span::after, .store {
+        transition: none; }
+    }
+  }
+}
 
 .hero { position: relative; overflow: hidden; padding: 64px 0 48px;
   background:
@@ -34,9 +137,45 @@ nav.main a:hover { color: var(--text); text-decoration: none; }
     radial-gradient(500px 380px at 5% 90%, color-mix(in srgb, var(--orange) 9%, transparent), transparent 70%),
     linear-gradient(160deg, var(--bg2), var(--bg) 75%); }
 .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 40px; align-items: center; }
-@media (max-width: 760px) { .hero-grid { grid-template-columns: 1fr; } }
+@media (max-width: 760px) { .hero-grid { grid-template-columns: 1fr; } .hero-grid > div { min-width: 0; } }
 h1 { font-size: 2.3em; line-height: 1.15; letter-spacing: -.025em; margin-bottom: .5em; }
+/* Titres équilibrés sur deux lignes, jamais un mot orphelin ; ignoré par les vieux navigateurs. */
+h1, h2, h3, .btn-note, .cta-inline b { text-wrap: balance; }
+.hero p.lead, .card p, .band p, .stat em, .cta-inline span { text-wrap: pretty; }
+/* Tablette en portrait (761-900 px, iPad 820 px) : deux colonnes moins serrées. */
+@media (min-width: 761px) and (max-width: 900px) {
+  .hero { padding: 48px 0 40px; }
+  .hero-grid { grid-template-columns: 1.05fr .85fr; gap: 28px; }
+  h1 { font-size: 2.05em; }
+  .hero p.lead { font-size: 1.05em; }
+  .hero-shot .phone { max-width: 250px; }
+  .chips { gap: 7px; }
+  .chip { font-size: .78em; padding: 5px 10px; }
+}
 .hero p.lead { font-size: 1.15em; color: var(--muted); margin-bottom: 1.3em; max-width: 34em; }
+/* Téléphone : 64 px de marge au-dessus du titre laissaient un trou sous la barre ;
+   36 px suffisent, et 2 em tient en trois lignes sur 375 px. */
+@media (max-width: 760px) {
+  .hero { padding: 32px 0 36px; }
+  h1 { font-size: 2em; }
+  .hero p.lead { font-size: 1.02em; margin-bottom: 1.1em; }
+  /* Les chiffres du lead sont déjà dans la bande juste dessous : on ne les répète pas. */
+  .lead-more { display: none; }
+}
+/* CTA + note App Store : côte à côte sur ordinateur, empilés sur téléphone. */
+.cta-row { display: flex; align-items: center; flex-wrap: wrap; gap: 14px 22px; }
+.rating { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 0 4px;
+          color: var(--text); font-weight: 600; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
+.rating svg { width: 18px; height: 18px; fill: var(--orange); flex: none; }
+.rating b { font-size: 1.1em; letter-spacing: -.01em; }
+.rating span { color: var(--muted); font-weight: 500; }
+.rating:hover { text-decoration: none; color: var(--accent); }
+@media (max-width: 760px) {
+  .cta-row { flex-direction: column; align-items: stretch; gap: 12px; }
+  .cta-row .btn { display: block; text-align: center; }
+  .rating { justify-content: center; }
+  .btn-note { text-align: center; margin-top: 8px; }
+}
 
 .phone { background: #0d1220; border-radius: 44px; padding: 11px;
   box-shadow: 0 34px 80px rgba(12, 28, 68, .30), 0 6px 18px rgba(12, 28, 68, .16),
@@ -45,17 +184,31 @@ h1 { font-size: 2.3em; line-height: 1.15; letter-spacing: -.025em; margin-bottom
 .phone img { display: block; width: 100%; height: auto; border-radius: 34px; }
 .hero-shot { display: flex; justify-content: center; }
 .hero-shot .phone { max-width: 290px; transform: rotate(2.5deg); }
-@media (max-width: 760px) { .hero-shot .phone { max-width: 250px; transform: none; } }
+/* Téléphone : la maquette n'est plus un long écran de 550 px mais une scène rognée de 300 px,
+   le téléphone semblant monter de la scène ; le produit est visible dès le premier écran. */
+@media (max-width: 760px) {
+  .hero-grid { gap: 22px; }
+  .hero-shot { height: 300px; overflow: hidden; align-items: flex-start; padding-top: 26px;
+    border-radius: 24px;
+    background:
+      radial-gradient(120% 90% at 20% 0%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 60%),
+      radial-gradient(90% 80% at 90% 100%, color-mix(in srgb, var(--orange) 20%, transparent), transparent 60%),
+      color-mix(in srgb, var(--accent) 8%, var(--bg2)); }
+  .hero-shot .phone { max-width: 230px; transform: none; border-radius: 38px; padding: 9px; }
+  .hero-shot .phone img { border-radius: 30px; }
+}
 
 .btn { display: inline-block; background: linear-gradient(180deg, var(--accent), color-mix(in srgb, var(--accent) 82%, #001a4d));
        color: #fff; font-weight: 600; padding: 15px 30px; border-radius: 14px; font-size: 1.04em;
        box-shadow: 0 10px 24px color-mix(in srgb, var(--accent) 35%, transparent); }
 .btn:hover { filter: brightness(1.07); text-decoration: none; }
 .btn.ghost { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); box-shadow: none; }
+.btn.light { background: #fff; color: #0e1420; box-shadow: 0 10px 24px rgba(0, 0, 0, .35); }
+/* Sous 360 px le bouton passait sur deux lignes : on le laisse prendre toute la largeur. */
+@media (max-width: 359px) { .btn { display: block; text-align: center; padding: 14px 18px; } }
 .btn-note { font-size: .85em; color: var(--muted); margin-top: 10px; }
 
 .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; padding: 26px 0 0; }
-@media (max-width: 700px) { .stats { grid-template-columns: repeat(2, 1fr); } }
 .stat { display: flex; flex-direction: column; text-align: center; padding: 18px 14px;
         background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
         color: inherit; text-decoration: none;
@@ -69,6 +222,14 @@ a.stat:hover, a.stat:focus-visible { border-color: var(--accent); transform: tra
            box-shadow: 0 6px 18px rgba(0,0,0,.07); }
 a.stat:hover span { color: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .stat { transition: none; } a.stat:hover { transform: none; } }
+@media (max-width: 700px) {
+  .stats { grid-template-columns: repeat(2, 1fr); gap: 10px; padding-top: 18px; }
+  .stat { padding: 14px 10px; }
+  .stat b { font-size: 1.5em; }
+  .stat span { font-size: .8em; line-height: 1.3; }
+  /* L'explication reste à l'ordinateur : sur téléphone le nombre et son libellé suffisent. */
+  .stat em { display: none; }
+}
 
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
 .chip { font-size: .82em; font-weight: 600; padding: 5px 12px; border-radius: 99px;
@@ -76,12 +237,24 @@ a.stat:hover span { color: var(--accent); }
 a.chip { text-decoration: none; transition: color .15s ease, border-color .15s ease, background .15s ease; }
 a.chip:hover, a.chip:focus-visible { color: var(--accent); border-color: var(--accent); background: var(--card); }
 /* Cible tactile : 44px minimum sur appareil sans survol (recommandation Apple/WCAG 2.5.8). */
+@media (max-width: 760px) {
+  .chips { flex-wrap: nowrap; overflow-x: auto; margin: 16px -20px 0; padding: 2px 20px 6px;
+           scroll-padding: 0 20px; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+           overscroll-behavior-x: contain; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; }
+}
 @media (hover: none) {
   a.chip { padding: 10px 14px; }
   .chips { gap: 10px; }
+  /* Les listes « Préparer le … → » des cartes : une ligne de 36 px par lien. */
+  .card p > a { display: inline-block; padding: .28em 0; }
+  /* Retour tactile : la carte s'enfonce légèrement sous le doigt. */
+  .card-link:active, .posts li:active, a.stat:active { transform: scale(.985); transition-duration: .06s; }
 }
 
 section { padding: 44px 0; }
+@media (max-width: 760px) { section { padding: 34px 0; } }
 section.alt { background: var(--bg2); }
 h2 { font-size: 1.5em; letter-spacing: -.01em; margin-bottom: .8em; }
 h3 { font-size: 1.1em; margin: 1.4em 0 .4em; }
@@ -116,7 +289,17 @@ h3 { font-size: 1.1em; margin: 1.4em 0 .4em; }
        background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); margin-bottom: 14px; }
 .ico svg { width: 24px; height: 24px; }
 .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; }
-@media (max-width: 700px) { .shots { grid-template-columns: 1fr; max-width: 250px; margin: 0 auto; } }
+/* Téléphone : un carrousel à balayage (scroll-snap, sans script) — l'écran suivant
+   dépasse de 14 % à droite, c'est lui l'invitation à balayer. Le débord passe par les
+   marges négatives pour que le premier écran reste aligné sur le texte. */
+@media (max-width: 700px) {
+  .shots { display: flex; gap: 14px; margin: 0 -20px; padding: 6px 20px 10px;
+           overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory;
+           scroll-padding: 0 20px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .shots::-webkit-scrollbar { display: none; }
+  .shots figure { flex: 0 0 72%; scroll-snap-align: start; }
+  .shots .phone { max-width: none; }
+}
 .shots figure { margin: 0; }
 .shots .phone { max-width: 250px; margin: 0 auto; }
 .shots figcaption { text-align: center; color: var(--muted); font-size: .9em; margin-top: 14px; }
@@ -126,11 +309,40 @@ h3 { font-size: 1.1em; margin: 1.4em 0 .4em; }
 .facts ul { margin-left: 1.1em; }
 .facts li { margin: .3em 0; }
 
-.faq details { border-bottom: 1px solid var(--line); padding: 14px 0; }
-.faq summary { font-weight: 600; cursor: pointer; }
-.faq p { color: var(--muted); margin-top: .6em; }
+.faq details { border-bottom: 1px solid var(--line); }
+.faq summary { display: flex; align-items: center; justify-content: space-between; gap: 14px;
+               padding: 15px 0; font-weight: 600; cursor: pointer; list-style: none;
+               -webkit-tap-highlight-color: transparent; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: ""; flex: none; width: 9px; height: 9px; margin-right: 6px;
+                      border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted);
+                      transform: rotate(45deg); transition: transform .2s ease, border-color .2s ease; }
+.faq details[open] summary::after { transform: rotate(225deg); border-color: var(--accent); }
+.faq summary:hover, .faq details[open] summary { color: var(--accent); }
+.faq summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.faq p { color: var(--muted); margin: 0 0 16px; }
+@media (prefers-reduced-motion: reduce) { .faq summary::after { transition: none; } }
 
 article.page { padding: 40px 0 20px; }
+@supports (animation-timeline: scroll()) {
+  body:has(article.page) header.site::after { content: ""; position: absolute; left: 0; bottom: -1px;
+    width: 100%; height: 3px; background: var(--accent); transform: scaleX(0); transform-origin: 0 50%;
+    animation: read-progress linear both; animation-timeline: scroll(root); }
+  @keyframes read-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+}
+/* Appel à l'action en cours d'article : une carte discrète, jamais une bande. */
+.cta-inline { display: flex; align-items: center; gap: 14px; margin: 2em 0; padding: 14px 16px;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg2); }
+.cta-inline img { width: 44px; height: 44px; border-radius: 10px; flex: none; }
+.cta-inline div { flex: 1; min-width: 0; }
+.cta-inline b { display: block; font-size: .98em; }
+.cta-inline span { display: block; font-size: .88em; color: var(--muted); line-height: 1.45; margin-top: 2px; }
+.cta-inline .btn { flex: none; padding: 11px 18px; font-size: .92em; border-radius: 11px; }
+@media (max-width: 560px) {
+  .cta-inline { flex-wrap: wrap; }
+  .cta-inline .btn { flex: 1 1 100%; display: block; text-align: center; }
+}
+@media (max-width: 760px) { article.page { padding: 10px 0 20px; } }
 article.page h1 { font-size: 1.7em; }
 article.page .intro { font-size: 1.08em; color: var(--muted); margin-bottom: 1.4em; }
 article.page p { margin: .8em 0; }
@@ -141,6 +353,29 @@ article.page ul, article.page ol { margin: .8em 0 .8em 1.3em; }
 .cta-band h2 { margin-bottom: .4em; }
 .cta-band p { color: var(--muted); margin-bottom: 1em; }
 
+.band + footer.site { margin-top: 0; }
+/* Bande de clôture : navy des visuels de partage, même téléphone « qui monte ».
+   Couleurs fixes, identiques en mode sombre. */
+.band { position: relative; overflow: hidden; padding: 56px 0 0; color: #e8edf5;
+  background:
+    radial-gradient(70% 90% at 90% 10%, rgba(52, 196, 124, .22), transparent 60%),
+    radial-gradient(60% 70% at 0% 100%, rgba(77, 141, 255, .22), transparent 60%),
+    #0e1420; }
+.band-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: end; }
+.band h2 { color: #fff; font-size: 1.8em; letter-spacing: -.02em; margin-bottom: .5em; }
+.band p { color: #b7c2d6; max-width: 32em; margin-bottom: 1.4em; }
+.band > .wrap > div:first-child { padding-bottom: 56px; }
+.band-shot { display: flex; justify-content: center; align-items: flex-start; height: 340px; overflow: hidden; }
+.band-shot .phone { max-width: 270px; box-shadow: 0 30px 60px rgba(0, 0, 0, .5), inset 0 0 0 1.5px rgba(255,255,255,.14); }
+@media (max-width: 760px) {
+  .band { padding-top: 40px; }
+  .band-grid { grid-template-columns: 1fr; gap: 26px; }
+  .band h2 { font-size: 1.55em; }
+  .band > .wrap > div:first-child { padding-bottom: 0; }
+  .band .btn { display: block; text-align: center; }
+  .band-shot { height: 250px; }
+  .band-shot .phone { max-width: 230px; }
+}
 footer.site { border-top: 1px solid var(--line); padding: 36px 0 48px; margin-top: 30px;
               font-size: .9em; color: var(--muted); }
 footer.site .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 24px; }
@@ -158,6 +393,19 @@ footer.site a { color: var(--muted); }
 /* ---- Articles de blog ---- */
 /* Tableaux : jamais de scroll horizontal sur la page, le tableau scrolle seul. */
 .tablewrap { overflow-x: auto; margin: 1.4em 0; -webkit-overflow-scrolling: touch; }
+/* Sur téléphone, rien ne disait qu'un tableau continue à droite : ces ombres de bord
+   n'apparaissent que du côté où du contenu déborde encore. Les voiles (couleur de fond)
+   défilent avec le contenu et recouvrent l'ombre quand on est au bout. */
+.tablewrap, .cmp {
+  --edge: rgba(15, 30, 70, .22);
+  background:
+    linear-gradient(to right, var(--bg) 40%, transparent) 0 0 / 36px 100%,
+    linear-gradient(to left,  var(--bg) 40%, transparent) 100% 0 / 36px 100%,
+    radial-gradient(farthest-side at 0 50%,   var(--edge), transparent) 0 0 / 14px 100%,
+    radial-gradient(farthest-side at 100% 50%, var(--edge), transparent) 100% 0 / 14px 100%;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll; }
+@media (prefers-color-scheme: dark) { .tablewrap, .cmp { --edge: rgba(0, 0, 0, .6); } }
 .tablewrap table { border-collapse: collapse; width: 100%; min-width: 30em; font-size: .95em; }
 .tablewrap th, .tablewrap td { padding: .55em .8em; text-align: left; border-bottom: 1px solid var(--line); }
 .tablewrap thead th { background: var(--bg2); font-size: .85em; text-transform: uppercase;
@@ -178,11 +426,30 @@ footer.site a { color: var(--muted); }
 .meta { font-size: .88em; color: var(--muted); margin: -.4em 0 1.6em; }
 
 /* Sommaire */
-.toc { border: 1px solid var(--line); border-radius: var(--radius); padding: 1em 1.2em; margin: 1.6em 0; }
-.toc strong { display: block; font-size: .85em; text-transform: uppercase;
-              letter-spacing: .06em; color: var(--muted); margin-bottom: .5em; }
-.toc ol { margin: 0; padding-left: 1.2em; }
+/* Sommaire : un <details> fermé par défaut (téléphone : il occupait un écran entier avant
+   le texte). Sur ordinateur, ::details-content rend la liste visible même fermé et le
+   résumé redevient un simple intertitre — sans script ; les navigateurs sans
+   ::details-content gardent un sommaire cliquable. */
+.toc { border: 1px solid var(--line); border-radius: var(--radius); padding: 0 1.2em; margin: 1.6em 0; }
+.toc summary { display: flex; align-items: center; justify-content: space-between; gap: 12px;
+               padding: .9em 0; font-size: .85em; font-weight: 700; text-transform: uppercase;
+               letter-spacing: .06em; color: var(--muted); cursor: pointer; list-style: none;
+               -webkit-tap-highlight-color: transparent; }
+.toc summary::-webkit-details-marker { display: none; }
+.toc summary::after { content: ""; flex: none; width: 8px; height: 8px; margin: 0 6px 3px 0;
+                      border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted);
+                      transform: rotate(45deg); transition: transform .2s ease; }
+.toc[open] summary::after { transform: rotate(225deg); margin-bottom: -3px; }
+.toc summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+.toc ol { margin: 0; padding: 0 0 1em 1.2em; }
 .toc li { margin: .25em 0; }
+@supports selector(::details-content) {
+  @media (min-width: 761px) {
+    .toc::details-content { content-visibility: visible; }
+    .toc summary { pointer-events: none; padding-bottom: .4em; }
+    .toc summary::after { display: none; }
+  }
+}
 
 /* Liste d'articles : cartes entièrement cliquables (lien étiré, sans JS) */
 .posts { list-style: none; display: grid; gap: 12px; margin: 1.4em 0 0; padding: 0; }
