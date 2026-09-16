@@ -51,8 +51,10 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
 ## Accueil et articles : ce qui est partagé (16/09/2026)
 
 - **Note App Store** dans le héros (`.rating`, index.html) : valeur écrite en dur, relevée sur
-  `itunes.apple.com/lookup?id=6790412304&country=fr` (4,82 sur 44 notes le 16/09/2026).
-  À rafraîchir à la main quand elle bouge.
+  `itunes.apple.com/lookup?id=6790412304&country=ca` — vitrine **canadienne**, choisie parce
+  qu'une grande part des abonnés y est et qu'elle n'a aucun avis négatif rédigé (4,94 sur 31 notes
+  le 16/09/2026 ; France : 4,82 sur 44). Le lien mène à la fiche canadienne en français
+  (`/ca/…?l=fr-CA`), qui affiche cette note. À rafraîchir à la main quand elle bouge.
 - **Sommaire** des articles : `<details class="toc">` fermé par défaut ; ouvert et statique sur
   ordinateur grâce à `::details-content` (style.css). Les gabarits `_build/` produisent ce balisage.
 - **Carte « Entraînez-vous »** (`.cta-inline`) insérée avant le 3ᵉ `<h2>` des 32 articles longs
