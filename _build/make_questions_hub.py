@@ -30,6 +30,7 @@ SECTIONS = [
     ("quebec", "Programmes québécois", "Échelle québécoise, PSTQ, PEQ — un référentiel distinct du fédéral."),
     ("france", "Naturalisation et titres de séjour", "Les niveaux exigés depuis 2026 et les justificatifs recevables."),
     ("argent", "Prix, financement et démarches", "Ce que coûte un test, ce que le CPF finance, les délais et la validité."),
+    ("ou-passer", "Où passer l'examen", "Les centres agréés, l'inscription, les dates et les prix relevés, pays par pays."),
     ("epreuves", "S'entraîner par épreuve", "Formats, durées, consignes et méthode, épreuve par épreuve."),
     ("app", "L'application", "Contenu, correction IA, plan d'étude, abonnement et confidentialité."),
 ]
@@ -44,6 +45,9 @@ PAGE_SECTION = {
     "tcf-irn": "france", "delf-b1": "france", "delf-b2": "france", "dalf": "france",
     "blog/naturalisation-2026-niveau-b2": "france", "blog/carte-de-resident-b1-2026": "france",
     "blog/b1-ou-b2-nationalite-francaise": "france",
+    "ou-passer": "ou-passer", "blog/ou-passer-le-delf-en-france": "ou-passer",
+    "blog/ou-passer-le-tcf-irn-en-france": "ou-passer", "blog/ou-passer-le-tcf-canada-en-france": "ou-passer",
+    "blog/ou-passer-le-tcf-canada-au-canada": "ou-passer",
     "blog/prix-tcf-tef": "argent", "blog/cpf-test-francais": "argent",
     "blog/repasser-tcf-tef": "argent", "blog/validite-attestation-tcf-tef": "argent",
     "examens-blancs": "epreuves", "blog/examen-blanc-tcf-gratuit": "epreuves",
@@ -84,6 +88,7 @@ FOOTER = """<footer class="site"><div class="wrap">
       <li><a href="/delf-b2/">DELF B2</a></li>
       <li><a href="/delf-b1/">DELF B1</a></li>
       <li><a href="/dalf/">DALF C1 · C2</a></li>
+      <li><a href="/ou-passer/">Où passer l'examen</a></li>
     </ul></div>
     <div><h4>L'application</h4><ul>
       <li><a href="%s">Télécharger sur l'App&nbsp;Store</a></li>
@@ -213,7 +218,7 @@ def build():
 <article class="page"><div class="wrap narrow">
 <p class="crumb"><a href="/">Accueil</a> › Toutes les questions</p>
 <h1>Toutes vos questions sur le DELF, le TCF et le TEF</h1>
-<p class="meta">Par <a href="/a-propos/">Augusto Grone</a> · Mis à jour le 7 août 2026 · {total} questions</p>
+<p class="meta">Par <a href="/a-propos/">Augusto Grone</a> · Mis à jour le 17 septembre 2026 · {total} questions</p>
 
 <p class="intro">Les <strong>{total} questions</strong> traitées sur ce site, classées par thème.
 Chaque question renvoie à la page qui y répond, avec ses sources et sa date de vérification. Si

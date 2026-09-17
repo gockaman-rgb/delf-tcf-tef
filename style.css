@@ -575,3 +575,22 @@ article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
 @media (prefers-color-scheme: dark) {
   .warn { background: #2a2118; border-left-color: #d9822b; }
 }
+
+/* Série « Où passer » (17/09/2026) : barre de la série, bandeau de chiffres dans un article,
+   cartes des guides sur le hub. Composants existants (.chips, .stats, .card-link) réutilisés. */
+.serie-label { margin: 1.6em 0 0; font-size: .78em; font-weight: 700; text-transform: uppercase;
+               letter-spacing: .06em; color: var(--muted); }
+.chips.serie { margin-top: 8px; margin-bottom: 1.6em; }
+.chips.serie .chip[aria-current] { color: var(--accent); border-color: var(--accent);
+                                   background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.page .stats { padding: 0; margin: 1.6em 0; }
+.page .stats .stat b { font-size: 1.35em; }
+.grid.guides { margin: 1.4em 0; }
+.grid.guides .card h3 { font-size: 1.05em; margin: .35em 0 .4em; }
+.grid.guides .card p { margin: 0 1.2em 0 0; }
+.warn strong:first-child { color: #b5651d; }
+.tablewrap td[rowspan] { vertical-align: top; }
+@media (prefers-color-scheme: dark) { .warn strong:first-child { color: #f0964a; } }
+.tablewrap.matrix table { min-width: 46em; }
+.tablewrap.matrix td a { white-space: nowrap; }
+.tablewrap.wide table { min-width: 44em; }

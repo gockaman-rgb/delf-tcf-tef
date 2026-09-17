@@ -61,3 +61,26 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   (≥ 7 sections, ≥ 2 000 mots, avec bande finale). Insertion faite par script, pas par les gabarits :
   un nouvel article n'en a pas automatiquement.
 - **Bande sombre** `#app` en bas de l'accueil : couleurs fixes (navy des visuels de partage).
+
+## Série « Où passer l'examen » (17/09/2026)
+
+- Lot `_build/articles_ou_passer.py` : quatre articles (`/blog/ou-passer-le-delf-en-france/`,
+  `/blog/ou-passer-le-tcf-irn-en-france/`, `/blog/ou-passer-le-tcf-canada-en-france/`,
+  `/blog/ou-passer-le-tcf-canada-au-canada/`) et le **hub pilier `/ou-passer/`**, rendus par
+  `article_template.py`. Le gabarit accepte désormais `section=""` pour produire une page à la
+  racine (fil d'Ariane à deux niveaux) — les articles gardent `section="blog"` par défaut.
+- Relancer avec `--force` réécrit les cinq pages ; la carte `.cta-inline` (insérée par script
+  avant le 3ᵉ `<h2>`) doit alors être réinsérée à la main sur les quatre articles.
+- Faits : liste officielle des centres de FEI lue le 17/09/2026
+  (`centres-d-examen/liste?pays=<id>&type-centre=<tcf|delf_dalf>` — France 73, Canada 112,
+  Algérie 115, Maroc 117, Tunisie 118) et pages tarifs/inscription des centres. Aucun prix
+  d'agrégateur. Tout est daté dans le bloc sources de chaque page : à revérifier avant de citer.
+- Composants : `.stats` (bandeau de tuiles) et `.chips.serie` (barre de la série) dans les
+  articles, `.grid.guides` sur le hub, `.tablewrap.wide` / `.tablewrap.matrix` pour les tableaux
+  larges (défilement horizontal sur téléphone), `.badge.ok/.no/.part` dans les tableaux de centres.
+- Intégration : pied de page (lien « Où passer l'examen » sur toutes les pages et les trois
+  gabarits), rubrique « Où passer l'examen » sur `/blog/` (+ `BlogPosting`), section « Où passer »
+  sur les sept piliers, liens depuis dix articles et l'accueil, rubrique « ou-passer » dans
+  `make_questions_hub.py`, cinq URL dans `sitemap.xml`, images OG dans `make_og.py`.
+- Reste à faire : guides Algérie, Maroc, Tunisie (le hub renvoie pour l'instant aux listes FEI),
+  examen civique ; puis mettre à jour la matrice du hub.

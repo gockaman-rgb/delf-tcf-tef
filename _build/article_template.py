@@ -46,6 +46,7 @@ FOOTER = """<footer class="site"><div class="wrap">
       <li><a href="/delf-b2/">DELF B2</a></li>
       <li><a href="/delf-b1/">DELF B1</a></li>
       <li><a href="/dalf/">DALF C1 · C2</a></li>
+      <li><a href="/ou-passer/">Où passer l'examen</a></li>
     </ul></div>
     <div><h4>L'application</h4><ul>
       <li><a href="%s">Télécharger sur l'App&nbsp;Store</a></li>
@@ -59,6 +60,7 @@ FOOTER = """<footer class="site"><div class="wrap">
     </ul></div>
     <div><h4>Le site</h4><ul>
       <li><a href="/a-propos/">À propos · Mentions légales</a></li>
+      <li><a href="/questions/">Toutes les questions</a></li>
       <li><a href="/support/">Support / Contact</a></li>
       <li><a href="/confidentialite/">Politique de confidentialité</a></li>
       <li><a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a></li>
@@ -80,7 +82,9 @@ def plain(t):
 
 def render(a, overwrite=False):
     slug, title, desc = a["slug"], a["title"], a["desc"]
-    url = f"{BASE}/blog/{slug}/"
+    # section="blog" (défaut) → /blog/<slug>/ ; section="" → page pilier à la racine, /<slug>/
+    section = a.get("section", "blog")
+    url = f"{BASE}/{section}/{slug}/" if section else f"{BASE}/{slug}/"
     img = f"{BASE}/img/og/{slug}.png"
     pub = a.get("published", "2026-08-07")
     mod = a.get("modified", "2026-08-07")
@@ -100,14 +104,16 @@ def render(a, overwrite=False):
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "image": {"@type": "ImageObject", "url": img, "width": 1200, "height": 630},
     }
+    crumbs = [("Accueil", f"{BASE}/")]
+    if section:
+        crumbs.append(("Blog", f"{BASE}/blog/"))
+    crumbs.append((a["crumb"], url))
     crumb_ld = {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": f"{BASE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Blog", "item": f"{BASE}/blog/"},
-            {"@type": "ListItem", "position": 3, "name": a["crumb"], "item": url},
-        ],
+        "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n, "item": u}
+                            for i, (n, u) in enumerate(crumbs)],
     }
+    crumb_html = " › ".join(f'<a href="{u[len(BASE):]}">{n}</a>' for n, u in crumbs[:-1]) + f" › {a['crumb']}"
     j = lambda d: json.dumps(d, ensure_ascii=False)
 
     toc = "\n".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in a["toc"])
@@ -158,7 +164,7 @@ def render(a, overwrite=False):
 <body class="{a.get('accent', '')}">
 {HEADER}
 <article class="page"><div class="wrap narrow">
-<p class="crumb"><a href="/">Accueil</a> › <a href="/blog/">Blog</a> › {a['crumb']}</p>
+<p class="crumb">{crumb_html}</p>
 <h1>{a['h1']}</h1>
 <p class="meta">Par <a href="/a-propos/">{AUTHOR}</a> · Mis à jour le {a['date_fr']} · {a['read']} min de lecture</p>
 
@@ -200,7 +206,7 @@ def render(a, overwrite=False):
 </body>
 </html>
 """
-    out = os.path.join(ROOT, "blog", slug, "index.html")
+    out = os.path.join(ROOT, section, slug, "index.html") if section else os.path.join(ROOT, slug, "index.html")
     if os.path.exists(out) and not overwrite:
         raise SystemExit(f"REFUS : {out} existe déjà (ce script ne réécrit jamais l'existant)")
     os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -213,4 +219,4 @@ def render(a, overwrite=False):
 def build(articles, overwrite=False):
     for a in articles:
         out, w = render(a, overwrite)
-        print(f"  ✓ /blog/{a['slug']}/ — {w} mots")
+        print(f"  ✓ {out[len(ROOT):-len('index.html')]} — {w} mots")

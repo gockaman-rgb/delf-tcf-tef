@@ -76,6 +76,12 @@ PAGES = [
     ("examens", "Les examens couverts", "15", "variantes, du DELF A1 au DALF C2"),
     ("contenu", "Le contenu de l'app", "20 000+", "questions et exercices originaux"),
     ("correction-ia", "La correction IA", "20", "vos productions notées sur 20"),
+    # série « Où passer » (17/09/2026)
+    ("ou-passer", "Où passer l'examen ?", "144", "centres DELF et 251 centres TCF en France"),
+    ("ou-passer-le-delf-en-france", "Où passer le DELF ?", "10", "sessions par an · 144 centres en France"),
+    ("ou-passer-le-tcf-irn-en-france", "Où passer le TCF IRN ?", "140-220 €", "selon le centre, pour le même test"),
+    ("ou-passer-le-tcf-canada-en-france", "TCF Canada en France", "195-285 €", "les centres qui le proposent, et leurs dates"),
+    ("ou-passer-le-tcf-canada-au-canada", "TCF Canada au Canada", "47", "centres agréés, de Montréal à Iqaluit"),
 ]
 
 
