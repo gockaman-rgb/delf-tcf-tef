@@ -82,5 +82,10 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   gabarits), rubrique « Où passer l'examen » sur `/blog/` (+ `BlogPosting`), section « Où passer »
   sur les sept piliers, liens depuis dix articles et l'accueil, rubrique « ou-passer » dans
   `make_questions_hub.py`, cinq URL dans `sitemap.xml`, images OG dans `make_og.py`.
-- Reste à faire : guides Algérie, Maroc, Tunisie (le hub renvoie pour l'instant aux listes FEI),
-  examen civique ; puis mettre à jour la matrice du hub.
+- Lot 2 (même jour) : `/blog/tcf-canada-algerie/`, `/blog/tcf-canada-maroc/`,
+  `/blog/tcf-canada-tunisie/` et `/blog/ou-passer-l-examen-civique/` ; la matrice du hub pointe
+  vers les neuf guides. Sources propres au lot 2 : if-algerie.com (application JS, à lire au
+  navigateur ; plateforme IFAL = forms.vfsglobal.com.dz/IFAL, tarif non public), if-maroc.org
+  (sessions et prix dans le panier de chaque site), institutfrancais-tunisie.com (onglets
+  réservation / frais / FAQ), formation-civique.interieur.gouv.fr, test-civique.fr (FEI) et
+  l'outil « Trouver une session » de la CCIP.

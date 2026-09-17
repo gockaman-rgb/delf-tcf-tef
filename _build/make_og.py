@@ -82,6 +82,10 @@ PAGES = [
     ("ou-passer-le-tcf-irn-en-france", "Où passer le TCF IRN ?", "140-220 €", "selon le centre, pour le même test"),
     ("ou-passer-le-tcf-canada-en-france", "TCF Canada en France", "195-285 €", "les centres qui le proposent, et leurs dates"),
     ("ou-passer-le-tcf-canada-au-canada", "TCF Canada au Canada", "47", "centres agréés, de Montréal à Iqaluit"),
+    ("tcf-canada-algerie", "TCF Canada en Algérie", "5", "antennes de l'Institut français · plateforme IFAL"),
+    ("tcf-canada-maroc", "TCF Canada au Maroc", "2 900 Dhs", "dans les 16 centres agréés"),
+    ("tcf-canada-tunisie", "TCF Canada en Tunisie", "880 DT", "à l'Institut français · résultats en 5 semaines"),
+    ("ou-passer-l-examen-civique", "Où passer l'examen civique ?", "244", "centres FEI en France, et le réseau CCIP"),
 ]
 
 

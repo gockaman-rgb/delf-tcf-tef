@@ -23,8 +23,12 @@ SERIE = [
     ("/ou-passer/", "Tous les guides « Où passer »"),
     ("/blog/ou-passer-le-delf-en-france/", "DELF en France"),
     ("/blog/ou-passer-le-tcf-irn-en-france/", "TCF IRN en France"),
+    ("/blog/ou-passer-l-examen-civique/", "Examen civique"),
     ("/blog/ou-passer-le-tcf-canada-en-france/", "TCF Canada en France"),
     ("/blog/ou-passer-le-tcf-canada-au-canada/", "TCF Canada au Canada"),
+    ("/blog/tcf-canada-algerie/", "TCF Canada en Algérie"),
+    ("/blog/tcf-canada-maroc/", "TCF Canada au Maroc"),
+    ("/blog/tcf-canada-tunisie/", "TCF Canada en Tunisie"),
 ]
 
 
@@ -1146,7 +1150,7 @@ HUB = {
     "accent": "accent-delf",
     "crumb": "Où passer l'examen",
     "title": "Où passer le DELF, le TCF ou le TEF ? Centres par pays",
-    "desc": "Où passer le DELF, le TCF IRN et le TCF Canada en France, au Canada et au Maghreb : centres agréés, inscription, prix relevés et pièges à éviter.",
+    "desc": "Où passer le DELF, le TCF IRN, le TCF Canada et l'examen civique en France, au Canada et au Maghreb : centres agréés, inscription, prix relevés, pièges.",
     "og_title": "Où passer le DELF, le TCF ou le TEF ? Centres par pays",
     "og_desc": "Les centres agréés, l'inscription, les prix relevés et les pièges — en France, au Canada et au Maghreb.",
     "h1": "Où passer le DELF, le TCF ou le TEF&nbsp;?",
@@ -1186,9 +1190,10 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <thead><tr><th>Examen</th><th>France</th><th>Canada</th><th>Algérie</th><th>Maroc</th><th>Tunisie</th></tr></thead>
 <tbody>
 <tr><td><strong>DELF · DALF</strong> (diplômes, à vie)</td><td><a href="/blog/ou-passer-le-delf-en-france/">Guide : 144 centres, 10 sessions par an</a></td><td><a href="%(ca_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(dz_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_delf)s" rel="noopener">Liste FEI</a></td></tr>
-<tr><td><strong>TCF IRN</strong> (naturalisation, titres de séjour)</td><td><a href="/blog/ou-passer-le-tcf-irn-en-france/">Guide : centres, 140 à 220 €</a></td><td>—</td><td><a href="%(dz_tcf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_tcf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_tcf)s" rel="noopener">Liste FEI</a></td></tr>
-<tr><td><strong>TCF Canada</strong> (IRCC)</td><td><a href="/blog/ou-passer-le-tcf-canada-en-france/">Guide : centres, 195 à 285 €</a></td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Guide : les 47 centres</a></td><td><a href="%(dz_tcf)s" rel="noopener">5 antennes IFA</a></td><td><a href="%(ma_tcf)s" rel="noopener">16 centres</a></td><td><a href="%(tn_tcf)s" rel="noopener">14 centres</a></td></tr>
-<tr><td><strong>TCF Québec</strong> (MIFI)</td><td>Mêmes centres que le TCF Canada</td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Mêmes centres</a></td><td><a href="%(dz_tcf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_tcf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_tcf)s" rel="noopener">Liste FEI</a></td></tr>
+<tr><td><strong>TCF IRN</strong> (naturalisation, titres de séjour)</td><td><a href="/blog/ou-passer-le-tcf-irn-en-france/">Guide : centres, 140 à 220 €</a></td><td>—</td><td><a href="/blog/tcf-canada-algerie/#inscription">Mêmes antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/#prix">1 900 Dhs, sur place</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">625 DT à l'Institut</a></td></tr>
+<tr><td><strong>Examen civique</strong> (France, depuis 2026)</td><td><a href="/blog/ou-passer-l-examen-civique/">Guide : 244 centres FEI + réseau CCIP</a></td><td>—</td><td><a href="/blog/ou-passer-l-examen-civique/#etranger">IF Alger, 9 000 DA</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td></tr>
+<tr><td><strong>TCF Canada</strong> (IRCC)</td><td><a href="/blog/ou-passer-le-tcf-canada-en-france/">Guide : centres, 195 à 285 €</a></td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Guide : les 47 centres</a></td><td><a href="/blog/tcf-canada-algerie/">Guide : 5 antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/">Guide : 16 centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/">Guide : 14 centres, 880 DT</a></td></tr>
+<tr><td><strong>TCF Québec</strong> (MIFI)</td><td>Mêmes centres que le TCF Canada</td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Mêmes centres</a></td><td><a href="/blog/tcf-canada-algerie/">Mêmes antennes</a></td><td><a href="/blog/tcf-canada-maroc/#prix">Mêmes centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">Mêmes pôles, 880 DT</a></td></tr>
 <tr><td><strong>TEF</strong> (Canada, IRN, Québec)</td><td colspan="5"><a href="%(fda)s" rel="noopener">Annuaire des centres agréés du Français des affaires</a>, tous pays</td></tr>
 </tbody>
 </table>
@@ -1199,10 +1204,11 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <div class="card card-link"><span class="tag">France · naturalisation</span><h3><a href="/blog/ou-passer-le-tcf-irn-en-france/">Où passer le TCF IRN en France&nbsp;?</a></h3><p>Des sessions chaque semaine à Paris, 140 à 220 € selon le centre, papier ou ordinateur, et l'examen civique à ne pas oublier.</p></div>
 <div class="card card-link"><span class="tag">France · Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-en-france/">Où passer le TCF Canada en France&nbsp;?</a></h3><p>Les centres qui le proposent — pas tous —, 195 à 285 €, des sessions mensuelles et la fin des recorrections.</p></div>
 <div class="card card-link"><span class="tag">Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Où passer le TCF Canada au Canada&nbsp;?</a></h3><p>Les 47 centres agréés par province, 390 à 440 $, et la méthode pour décrocher une place quand tout affiche complet.</p></div>
+<div class="card card-link"><span class="tag">Algérie</span><h3><a href="/blog/tcf-canada-algerie/">TCF Canada en Algérie</a></h3><p>Les cinq antennes de l'Institut français, l'inscription sur la plateforme IFAL, la règle des 26 jours — et le faux site qui imite l'Institut.</p></div>
+<div class="card card-link"><span class="tag">Maroc</span><h3><a href="/blog/tcf-canada-maroc/">TCF Canada au Maroc</a></h3><p>Seize centres, 2 900 dirhams partout, des sessions plusieurs fois par semaine à Casablanca et l'inscription en ligne site par site.</p></div>
+<div class="card card-link"><span class="tag">Tunisie</span><h3><a href="/blog/tcf-canada-tunisie/">TCF Canada en Tunisie</a></h3><p>880 dinars, un rendez-vous en ligne puis l'inscription sur place, une session par mois par pôle et des résultats en cinq semaines.</p></div>
+<div class="card card-link"><span class="tag">France · titres et nationalité</span><h3><a href="/blog/ou-passer-l-examen-civique/">Où passer l'examen civique&nbsp;?</a></h3><p>Deux réseaux agréés, la pré-inscription sur test-civique.fr, 70 à 110 € selon le centre et des résultats sous 12 heures.</p></div>
 </div>
-
-<p>Les guides Algérie, Maroc et Tunisie sont en préparation ; en attendant, les liens du tableau
-ouvrent la liste officielle des centres de chaque pays, avec adresses, téléphones et sites.</p>
 
 <h2 id="listes">Les listes officielles de centres</h2>
 
@@ -1248,7 +1254,8 @@ du TEF</a> les met côte à côte.</li>
 proposait, pour 70 000 à 100 000 dinars, qu'« un candidat partenaire se présente à votre place
 pour passer l'examen, en toute discrétion ». Il figurait en troisième position sur Google pour
 « inscription TCF Algérie ». C'est une escroquerie et un délit ; une attestation ainsi obtenue
-n'existe pas dans les registres de FEI et sera détectée à l'authentification.</div>
+n'existe pas dans les registres de FEI et sera détectée à l'authentification. Le détail est dans
+notre <a href="/blog/tcf-canada-algerie/#faux-site">guide Algérie</a>.</div>
 
 <p>Les signes qui ne trompent pas : une passation « à distance » ou « depuis chez vous », un
 paiement demandé avant tout choix de date et de centre, un nom de domaine différent de celui de
@@ -1264,7 +1271,8 @@ qui entraînent des sanctions disciplinaires et des procédures pénales ».</p>
        "carte": FEI_CARTE, "fda": FDA_CENTRES,
        "ca_delf": FEI_L % (112, "delf_dalf"), "dz_delf": FEI_L % (115, "delf_dalf"),
        "ma_delf": FEI_L % (117, "delf_dalf"), "tn_delf": FEI_L % (118, "delf_dalf"),
-       "dz_tcf": FEI_L % (115, "tcf"), "ma_tcf": FEI_L % (117, "tcf"), "tn_tcf": FEI_L % (118, "tcf")},
+       "dz_tcf": FEI_L % (115, "tcf"), "ma_tcf": FEI_L % (117, "tcf"), "tn_tcf": FEI_L % (118, "tcf"),
+       "civ_carte": FEI_CARTE + "examen_civique"},
     "cta_h2": "Le centre vous donne la date ; le niveau, c'est vous",
     "cta_p": """Une session se paie en entier et, pour un test, ne se repasse pas avant trois semaines.
 Les examens blancs de l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent le format
@@ -1297,7 +1305,909 @@ et signalé. Les guides liés citent leurs propres sources, centre par centre.""
 }
 
 
-ARTICLES = [DELF, IRN, CAN_FR, CAN_CA, HUB]
+# ---------------------------------------------------------------------------
+# 6. TCF Canada en Algérie
+# ---------------------------------------------------------------------------
+DZ = {
+    "slug": "tcf-canada-algerie",
+    "accent": "accent-tcf",
+    "crumb": "TCF Canada en Algérie",
+    "title": "TCF Canada en Algérie : où le passer, comment s'inscrire",
+    "desc": "Cinq antennes de l'Institut français, l'inscription en ligne sur la plateforme IFAL, 26 jours entre deux inscriptions et un faux site à éviter.",
+    "og_title": "TCF Canada en Algérie : où le passer, comment s'inscrire",
+    "og_desc": "Cinq antennes de l'Institut français, l'inscription sur la plateforme IFAL, 26 jours entre deux inscriptions, et un faux site à éviter.",
+    "h1": "TCF Canada en Algérie : où le passer et comment s'inscrire",
+    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 9,
+    "intro": """En Algérie, le TCF Canada se passe dans les <strong>cinq antennes de l'Institut français
+d'Algérie</strong> — Alger, Oran, Constantine, Annaba et Tlemcen — et nulle part ailleurs : ce sont
+les seuls centres agréés par France Éducation international dans le pays. L'inscription et le
+paiement se font <strong>exclusivement en ligne</strong>, sur la plateforme IFAL opérée par VFS
+Global, avec des sessions <strong>ouvertes chaque mois</strong>. Un site frauduleux imite
+l'Institut : voici comment le reconnaître, et le vrai chemin, étape par étape.""",
+    "facts": [
+        "<strong>5 centres agréés</strong> en Algérie, tous des antennes de l'Institut français : Alger (Hydra), Oran, Constantine, Annaba, Tlemcen — liste FEI du 17 septembre 2026, sessions sur ordinateur partout.",
+        "Inscription <strong>en ligne uniquement</strong>, sur la plateforme <strong>IFAL</strong> (forms.vfsglobal.com.dz/IFAL) : « Les inscriptions et les paiements se font exclusivement en ligne. »",
+        "<strong>Des sessions chaque mois</strong> sur les cinq antennes ; <strong>26 jours</strong> obligatoires entre deux inscriptions au TCF.",
+        "Pièce d'identité : <strong>carte d'identité biométrique ou passeport</strong> pour les Algériens ; passeport biométrique ou carte consulaire pour les autres.",
+        "Le <strong>tarif n'est pas publié</strong> sur le site de l'Institut : il s'affiche sur la plateforme au moment de l'inscription.",
+        "⚠️ <strong>if-algerie.fr est une escroquerie</strong> ; le site officiel est <strong>if-algerie.com</strong>. Aucun TCF ne se passe « à distance » ni par « candidat partenaire ».",
+    ],
+    "toc": [
+        ("centres", "Les cinq centres agréés"),
+        ("inscription", "S'inscrire sur la plateforme IFAL, pas à pas"),
+        ("quand", "Quand : sessions mensuelles et règle des 26 jours"),
+        ("prix", "Combien ça coûte"),
+        ("resultats", "Résultats et attestation"),
+        ("faux-site", "Le faux site qui imite l'Institut français"),
+        ("pieges", "Les autres pièges"),
+    ],
+    "body": """
+<h2 id="centres">Les cinq centres agréés</h2>
+
+<p>La liste officielle de France Éducation international ne compte, en Algérie, que
+<strong>cinq centres de passation du TCF</strong>, et ce sont les cinq antennes de l'Institut
+français d'Algérie. Chacune propose l'option « sessions sur ordinateur ». Aucune école privée,
+aucun centre de langues n'est agréé : un organisme qui vous propose un TCF Canada ailleurs que
+dans l'une de ces cinq adresses ne peut pas vous délivrer une attestation reconnue par IRCC.</p>
+
+<div class="tablewrap wide">
+<table>
+<caption>Centres de passation TCF en Algérie, liste officielle de France Éducation international consultée le 17 septembre 2026.</caption>
+<thead><tr><th>Ville</th><th>Centre</th><th>Adresse</th><th>Contact</th></tr></thead>
+<tbody>
+<tr><td><strong>Alger</strong></td><td>Institut français d'Algérie, antenne d'Alger</td><td>30, rue des Frères-Kadri, Hydra</td><td>Assistance VFS : 021 99 60 08 · examens@if-algerie.com</td></tr>
+<tr><td><strong>Oran</strong></td><td>Institut français d'Algérie, antenne d'Oran</td><td>112, rue Larbi-Ben-M'hidi</td><td>041 70 73 73 · bureau-examens.oran@if-algerie.com</td></tr>
+<tr><td><strong>Constantine</strong></td><td>Institut français d'Algérie, antenne de Constantine</td><td>1, boulevard de l'Indépendance</td><td>031 91 25 91 · examens.constantine@if-algerie.com</td></tr>
+<tr><td><strong>Annaba</strong></td><td>Institut français d'Algérie, antenne d'Annaba</td><td>6, route de l'Avant-Port</td><td>038 45 12 49</td></tr>
+<tr><td><strong>Tlemcen</strong></td><td>Institut français d'Algérie, antenne de Tlemcen</td><td>1, rue du Commandant-Djaber</td><td>043 26 17 22 · examens.tlemcen@if-algerie.com</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>L'Institut organise toutes les déclinaisons du TCF : Canada, Québec, tout public, DAP et IRN.
+Pour un dossier d'immigration fédérale — Entrée express, citoyenneté —, c'est le <strong>TCF
+Canada</strong> qu'il faut cocher, pas le tout public ; pour un programme du Québec, le
+<a href="/tcf-quebec/">TCF Québec</a> ou le TCF Canada selon ce que demande votre volet.</p>
+
+%(serie)s
+
+<h2 id="inscription">S'inscrire sur la plateforme IFAL, pas à pas</h2>
+
+<p>La page TCF de l'Institut est sans ambiguïté : « Les inscriptions au TCF toutes déclinaisons
+se font en ligne sur la plateforme IFAL. » Et sa FAQ ferme la porte aux autres voies : « Peut-on
+prendre un rendez-vous TCF sur place sans passer par le site ? — Les inscriptions et les paiements
+se font exclusivement en ligne. » La plateforme, <strong>forms.vfsglobal.com.dz/IFAL</strong>, est
+opérée par VFS Global, le prestataire qui gère aussi les rendez-vous de visa ; c'est lui qui
+assure l'assistance (info.tcfalg@vfshelpline.com, 021 99 60 08).</p>
+
+<ol>
+<li><strong>Partez du site officiel</strong>, if-algerie.com, rubrique « Tests et examens › TCF »,
+et cliquez sur « Je m'inscris au TCF ». N'entrez jamais l'adresse de la plateforme depuis un lien
+reçu par messagerie ou trouvé dans une publicité.</li>
+<li><strong>Créez votre compte</strong> sur la plateforme IFAL avec une adresse e-mail que vous
+consultez : convocation et attestation y seront envoyées.</li>
+<li><strong>Choisissez la déclinaison</strong> — TCF Canada —, l'antenne et la session. Les
+sessions sont ouvertes chaque mois sur les cinq antennes ; quand une date n'apparaît plus, elle est
+pleine.</li>
+<li><strong>Payez en ligne.</strong> Le tarif s'affiche à cette étape ; il n'est publié nulle part
+ailleurs.</li>
+<li><strong>Le jour J</strong>, présentez-vous avec la convocation et votre pièce d'identité : carte
+d'identité biométrique ou passeport si vous êtes algérien, passeport biométrique ou carte consulaire
+sinon. Les quatre épreuves — 2 h 47 au total — se passent sur ordinateur, à l'antenne choisie ;
+l'expression orale, individuelle, a son propre créneau, indiqué sur la convocation.</li>
+</ol>
+
+<div class="note">
+<p><strong>Une seule exception au tout-en-ligne :</strong> les épreuves complémentaires du TCF tout
+public (expression écrite ou orale ajoutées à un TCF déjà passé) s'inscrivent directement auprès
+des antennes, hors plateforme — mais cela ne concerne pas le TCF Canada, dont les quatre épreuves
+sont indissociables.</p>
+</div>
+
+<h2 id="quand">Quand : sessions mensuelles et règle des 26 jours</h2>
+
+<p>« Des sessions TCF sont ouvertes tous les mois sur les cinq antennes de l'Institut français
+d'Algérie », indique la FAQ. Il n'y a pas de calendrier annuel publié : les dates apparaissent sur
+la plateforme à l'ouverture des inscriptions, et une session complète disparaît de la liste.
+Concrètement, si votre dossier a une échéance, connectez-vous dès le début du mois précédent, et
+acceptez l'antenne qui a de la place plutôt que d'attendre la vôtre.</p>
+
+<p>Une règle propre à l'Institut : « Vous devez respecter un <strong>délai de 26 jours entre deux
+inscriptions TCF</strong>. » C'est plus que les 20 jours qu'annoncent les pages de France
+Éducation international, moins que les 30 jours de ses fiches — et c'est la règle que la
+plateforme appliquera. Ne réservez pas une seconde session « au cas où » à moins de 26 jours de
+la première : l'inscription serait invalide. Pour le détail des règles de reprise, lisez
+<a href="/blog/repasser-tcf-tef/">repasser le TCF ou le TEF</a>.</p>
+
+<h2 id="prix">Combien ça coûte</h2>
+
+<p>L'Institut français d'Algérie ne publie <strong>aucun tarif</strong> sur son site : le prix du
+TCF Canada s'affiche sur la plateforme IFAL au moment de choisir la session, et il se paie en
+ligne. Nous ne le reproduisons donc pas ici — tout chiffre que vous lirez ailleurs vient d'un
+candidat ou d'un comparateur, jamais de l'Institut. Un repère officiel existe tout de même :
+l'examen civique français, organisé par le même Institut à Alger, coûte <strong>9 000 DA</strong>
+(page « Examen civique » de l'IFA, 17 septembre 2026). Méfiez-vous en revanche des tarifs à
+70 000 ou 100 000 DA « selon le niveau garanti » : ils ne sont pas ceux d'un test, ils sont ceux
+d'une fraude, et nous y revenons plus bas.</p>
+
+<p>Chaque tentative se paie en entier — il n'existe aucune reprise partielle au TCF Canada — et
+l'attestation vaut deux ans. Le vrai coût d'un test raté, c'est donc une seconde inscription et
+au moins 26 jours de plus. Nos <a href="/examens-blancs/">examens blancs au format officiel</a>
+servent à ça : savoir si le NCLC visé est atteint avant de payer la session.</p>
+
+<h2 id="resultats">Résultats et attestation</h2>
+
+<p>Pour le TCF tout public, la FAQ de l'Institut décrit une attestation provisoire remise à
+l'issue de la passation, puis « l'attestation originale envoyée par mail une quinzaine de
+jours » plus tard — et précise qu'« aucune attestation version papier n'est remise depuis mars
+2023 ». Le TCF Canada suit le même circuit numérique : l'attestation arrive dans votre
+messagerie, et c'est ce PDF, tel quel, que vous téléverserez dans votre dossier IRCC. Vérifiez
+immédiatement l'orthographe de votre nom et votre date de naissance. « Tous les TCF ont une
+validité de 2 ans » — et IRCC exige des résultats de moins de deux ans au moment de créer le
+profil <em>et</em> au dépôt de la demande : <a href="/blog/validite-attestation-tcf-tef/">deux ans à
+partir de quand&nbsp;?</a></p>
+
+<p>Depuis les sessions du 1<sup>er</sup> septembre 2026, France Éducation international n'accepte
+plus de demande de recorrection : le score est définitif. Ce qu'il vaut en NCLC — 458 en
+compréhension orale et 453 à l'écrit pour le NCLC 7 — est dans notre guide
+<a href="/blog/tcf-canada-nclc-7/">NCLC 7 au TCF Canada</a>.</p>
+
+<h2 id="faux-site">Le faux site qui imite l'Institut français</h2>
+
+<div class="warn"><strong>if-algerie.fr n'est pas l'Institut français d'Algérie.</strong> Le
+17 septembre 2026, ce site — classé en troisième position sur Google pour « inscription TCF
+Algérie » — proposait un « TCF Canada » à 70 000, 80 000 ou 100 000 DA « selon le niveau », avec
+cette promesse : « Un candidat partenaire se présente à votre place pour passer l'examen, en
+toute discrétion », une « attestation provisoire sous 24 heures » et l'envoi de vos papiers
+d'identité, photo et signature par e-mail. Le site officiel est <strong>if-algerie.com</strong>,
+et le seul lieu d'inscription est la plateforme IFAL.</div>
+
+<p>Ce que cette offre vous ferait perdre : l'argent, évidemment ; vos documents d'identité,
+remis à des inconnus ; et votre dossier canadien, puisqu'une attestation qui n'existe pas dans
+les registres de France Éducation international est détectée à la vérification — IRCC peut
+contrôler les résultats auprès de l'organisme. La substitution de personne est en outre une fraude que
+FEI sanctionne par une interdiction de se présenter à ses tests. Les signes qui ne trompent pas :
+un domaine différent de celui de la liste officielle, une adresse e-mail générique, un prix « selon
+le niveau », un paiement demandé avant toute date, une passation « à distance » ou « discrète ».
+Le bon réflexe : partir de la <a href="https://www.france-education-international.fr/centres-d-examen/liste?pays=115&type-centre=tcf" rel="noopener">liste
+officielle des centres</a> et ne cliquer que sur le site qui y figure.</p>
+
+<h2 id="pieges">Les autres pièges</h2>
+
+<ul>
+<li><strong>Le mauvais TCF.</strong> La plateforme propose cinq déclinaisons ; seul le TCF
+<em>Canada</em> est accepté par IRCC. Le TCF tout public, même complet, ne vaut rien pour Entrée
+express, et le TCF Québec ne sert qu'aux programmes du MIFI. Vérifiez la mention sur votre
+convocation.</li>
+<li><strong>La double inscription.</strong> 26 jours minimum entre deux inscriptions : une
+réservation « de sécurité » trop proche est annulée.</li>
+<li><strong>Le B2 qui n'est pas un NCLC 7.</strong> IRCC lit le score sur 699 converti en NCLC,
+pas la lettre : un 420 en compréhension orale est un « B2 » sur l'attestation, mais seulement un
+NCLC 6.</li>
+<li><strong>L'échéance.</strong> Deux ans de validité, comptés deux fois par IRCC ; et 15 jours
+environ pour recevoir l'attestation. Un test passé trop tard bloque un dossier autant qu'un test
+raté.</li>
+<li><strong>Le TEF Canada.</strong> C'est l'autre test accepté par IRCC ; en Algérie, il relève du
+réseau du Français des affaires (CCI Paris Île-de-France), avec son propre
+<a href="%(fda)s" rel="noopener">annuaire de centres</a>. Notre comparatif
+<a href="/blog/tcf-ou-tef-canada/">TCF ou TEF Canada</a> aide à choisir.</li>
+</ul>
+""" % {"serie": serie("/blog/tcf-canada-algerie/"), "fda": FDA_CENTRES},
+    "cta_h2": "Le score, avant la session",
+    "cta_p": """Une session par mois, 26 jours entre deux inscriptions, un score désormais définitif :
+en Algérie, on ne passe pas le TCF Canada « pour voir ». Les examens blancs de l'app «&nbsp;TCF
+DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent les quatre épreuves au format officiel, notées sur
+699 et converties en NCLC, avec la correction IA de l'écrit et de l'oral.""",
+    "faq": [
+        ("Où passer le TCF Canada en Algérie&nbsp;?",
+         "Dans l'une des cinq antennes de l'Institut français d'Algérie — Alger (Hydra), Oran, Constantine, Annaba et Tlemcen —, seuls centres agréés par France Éducation international dans le pays au 17 septembre 2026. Toutes proposent des sessions sur ordinateur. Aucune école privée n'est agréée."),
+        ("Comment s'inscrire au TCF Canada à l'Institut français d'Algérie&nbsp;?",
+         "Uniquement en ligne, sur la plateforme IFAL (forms.vfsglobal.com.dz/IFAL), opérée par VFS Global, accessible depuis la page TCF de if-algerie.com : création de compte, choix de la déclinaison, de l'antenne et de la session, paiement en ligne. L'Institut précise que « les inscriptions et les paiements se font exclusivement en ligne » ; aucune inscription sur place n'est possible."),
+        ("Combien coûte le TCF Canada en Algérie&nbsp;?",
+         "L'Institut français d'Algérie ne publie pas le tarif sur son site : le prix s'affiche sur la plateforme IFAL au moment de choisir la session et se paie en ligne. Les montants de 70 000 à 100 000 DA « selon le niveau » qui circulent sont ceux d'un site frauduleux, pas ceux du test. Pour repère, l'examen civique organisé par le même Institut coûte 9 000 DA."),
+        ("Quand ont lieu les sessions&nbsp;?",
+         "« Des sessions TCF sont ouvertes tous les mois sur les cinq antennes », indique la FAQ de l'Institut. Il n'y a pas de calendrier annuel : les dates apparaissent sur la plateforme à l'ouverture des inscriptions et disparaissent quand la session est pleine. Un délai de 26 jours est obligatoire entre deux inscriptions."),
+        ("Quelle pièce d'identité faut-il&nbsp;?",
+         "Pour les candidats algériens, la carte d'identité biométrique ou le passeport ; pour les autres nationalités, le passeport biométrique ou la carte consulaire. La pièce présentée à l'inscription doit être celle du jour de l'examen, et c'est son identité qui figurera sur l'attestation lue par IRCC."),
+        ("Comment reconnaître le faux site if-algerie.fr&nbsp;?",
+         "Par son domaine, différent du site officiel if-algerie.com ; par son offre — un « candidat partenaire » qui passe l'examen à votre place, une attestation « sous 24 heures », un prix de 70 000 à 100 000 DA « selon le niveau » — et par la demande d'envoyer vos papiers d'identité par e-mail. Une attestation ainsi obtenue n'existe pas dans les registres de FEI et sera détectée par IRCC."),
+        ("Combien de temps pour recevoir l'attestation, et combien de temps est-elle valable&nbsp;?",
+         "L'Institut envoie l'attestation originale par e-mail, environ quinze jours après la passation pour le TCF tout public ; aucune version papier n'est remise depuis mars 2023. Elle est valable deux ans, et IRCC exige des résultats de moins de deux ans à la création du profil Entrée express comme au dépôt de la demande."),
+    ],
+    "also": [
+        ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "Les quatre épreuves, la conversion NCLC, les seuils pour Entrée express."),
+        ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", "458 en compréhension orale, 453 à l'écrit — la table de conversion officielle complète."),
+        ("/blog/tcf-canada-maroc/", "TCF Canada au Maroc : les 16 centres et l'inscription", "2 900 dirhams, des sessions plusieurs fois par semaine à Casablanca, l'inscription en ligne."),
+        ("/blog/ou-passer-le-tcf-canada-en-france/", "Où passer le TCF Canada en France&nbsp;?", "Les centres qui le proposent, de 195 à 285 €, et leurs dates de session."),
+    ],
+    "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
+international (filtre « Algérie »), consultée le 17 septembre 2026 ; site de l'Institut français
+d'Algérie (if-algerie.com) — pages « TCF », « FAQ » et « Examen civique », consultées le
+17 septembre 2026 ; plateforme d'inscription IFAL (forms.vfsglobal.com.dz/IFAL), page d'accueil
+consultée le 17 septembre 2026 ; site frauduleux if-algerie.fr constaté le 17 septembre 2026.
+Les modalités et tarifs changent sans préavis : vérifiez-les sur if-algerie.com avant de payer.""",
+}
+
+# ---------------------------------------------------------------------------
+# 7. TCF Canada au Maroc
+# ---------------------------------------------------------------------------
+MA = {
+    "slug": "tcf-canada-maroc",
+    "accent": "accent-tcf",
+    "crumb": "TCF Canada au Maroc",
+    "title": "TCF Canada au Maroc : les 16 centres et l'inscription",
+    "desc": "2 900 dirhams, des sessions plusieurs fois par semaine à Casablanca, l'inscription en ligne sur le site de chaque Institut : le guide des 16 centres.",
+    "og_title": "TCF Canada au Maroc : les 16 centres et l'inscription",
+    "og_desc": "2 900 dirhams, des sessions plusieurs fois par semaine à Casablanca, l'inscription en ligne sur le site de chaque Institut français.",
+    "h1": "TCF Canada au Maroc : les 16 centres agréés, le prix et l'inscription",
+    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 9,
+    "intro": """Au Maroc, le TCF Canada se passe dans le réseau de l'<strong>Institut français du Maroc</strong>
+— douze sites, de Tanger à Agadir — et dans deux Alliances françaises, Safi et Ouarzazate : seize
+centres agréés par France Éducation international. Le tarif est le même partout,
+<strong>2 900 dirhams</strong>, le test se passe <strong>sur ordinateur</strong>, et l'inscription se
+fait <strong>en ligne, sur le site de l'Institut de votre ville</strong>, session par session. À
+Casablanca, il y en a plusieurs par semaine.""",
+    "facts": [
+        "<strong>16 centres agréés</strong> (liste FEI du 17 septembre 2026) : les Instituts français d'Agadir, Béni Mellal, Casablanca, El Jadida, Essaouira, Fès, Kénitra, Marrakech, Meknès, Nador, Oujda, Rabat, Tanger et Tétouan, plus les Alliances françaises de Safi et de Ouarzazate.",
+        "<strong>2 900 Dhs</strong> pour le TCF Canada, tarif national de l'Institut français du Maroc (relevé à Casablanca et Rabat le 17 septembre 2026) ; TCF Québec et TEF Canada au même prix, TCF IRN et tout public à 1 900 Dhs.",
+        "Inscription <strong>en ligne, sur le site de l'Institut de votre ville</strong> : on choisit la session et on paie dans le panier ; seul le TCF IRN s'inscrit sur place.",
+        "<strong>Plusieurs sessions par semaine à Casablanca</strong> (mardi, jeudi, samedi, deux créneaux), neuf à Rabat d'ici fin novembre ; certaines affichaient déjà « complet » le 17 septembre.",
+        "<strong>20 jours</strong> minimum entre deux TCF, « toute version confondue », sous peine d'annulation sans remboursement.",
+        "⚠️ Frais <strong>non remboursables</strong> ; report possible uniquement sur justificatif, sous 5 jours ouvrés, et <strong>facturé 500 Dhs</strong>.",
+    ],
+    "toc": [
+        ("centres", "Les seize centres agréés"),
+        ("inscription", "S'inscrire en ligne, pas à pas"),
+        ("sessions", "Les sessions relevées : Casablanca, Rabat, Tanger, Marrakech"),
+        ("prix", "Combien ça coûte"),
+        ("regles", "Les règles à connaître avant de payer"),
+        ("pieges", "Les pièges"),
+    ],
+    "body": """
+<h2 id="centres">Les seize centres agréés</h2>
+
+<p>Au 17 septembre 2026, la liste de France Éducation international compte seize centres de
+passation du TCF au Maroc. Quatorze appartiennent au réseau de l'Institut français du Maroc — dont
+Béni Mellal, hébergé par Universal Sup et rattaché à Casablanca, et Nador, rattaché à Oujda — ;
+les deux autres sont les Alliances françaises de Safi et de Ouarzazate. Tous proposent des sessions
+sur ordinateur, sauf Ouarzazate.</p>
+
+<div class="tablewrap wide">
+<table>
+<caption>Centres de passation TCF au Maroc, liste officielle de FEI consultée le 17 septembre 2026. SO = sessions sur ordinateur.</caption>
+<thead><tr><th>Ville</th><th>Centre</th><th>SO</th><th>Relevé le 17 septembre 2026</th></tr></thead>
+<tbody>
+<tr><td><strong>Casablanca</strong></td><td>Institut français, 123 bd Zerktouni</td><td><span class="badge ok">oui</span></td><td>TCF Canada 2 900 Dhs ; sessions les mardis, jeudis et samedis, deux créneaux (8 h 30 et 10 h), du 26 septembre à décembre 2026 ; trois affichaient « complet ».</td></tr>
+<tr><td><strong>Rabat</strong></td><td>Institut français, 15 rue Al Madina, Hassan</td><td><span class="badge ok">oui</span></td><td>2 900 Dhs ; neuf sessions du 25 septembre au 24 novembre 2026, toutes ouvertes.</td></tr>
+<tr><td><strong>Marrakech</strong></td><td>Institut français, route de Targa, Guéliz</td><td><span class="badge ok">oui</span></td><td>2 900 Dhs ; session du mardi 20 octobre 2026, 9 h-12 h 30.</td></tr>
+<tr><td><strong>Tanger</strong></td><td>Institut français, 41 rue Hassan-Ibn-Ouazzane</td><td><span class="badge ok">oui</span></td><td>2 900 Dhs ; session du jeudi 15 octobre 2026.</td></tr>
+<tr><td><strong>Béni Mellal</strong></td><td>Universal Sup, 210 bd Ibn-Khaldoun (via IF Casablanca)</td><td><span class="badge ok">oui</span></td><td>Sessions des samedis 24 octobre et 14 novembre 2026, à réserver sur le site de Casablanca.</td></tr>
+<tr><td><strong>Fès</strong></td><td>Institut français, 12 rue Serghini</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>Agadir</strong></td><td>Institut français, rue de l'Entraide, Talborjt</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>Meknès</strong></td><td>Institut français, rue Ferhat-Hachad</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>Oujda · Nador</strong></td><td>Institut français d'Oujda (Nador : école Paul-Riquet)</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site d'Oujda.</td></tr>
+<tr><td><strong>Kénitra</strong></td><td>Institut français, rue Khalid-Ibn-Walid</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>Tétouan</strong></td><td>Institut français, 13 rue Chakib-Arsalane</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>El Jadida</strong></td><td>Institut français, 3 rue du Caire</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>Essaouira</strong></td><td>Institut français, 9 rue Mohammed-Diouri</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada du site.</td></tr>
+<tr><td><strong>Safi</strong></td><td>Alliance française de Safi</td><td><span class="badge ok">oui</span></td><td>Page TCF Canada sur if-maroc.org/safi.</td></tr>
+<tr><td><strong>Ouarzazate</strong></td><td>Alliance française de Ouarzazate</td><td><span class="badge no">non</span></td><td>Papier ; contact par le centre.</td></tr>
+</tbody>
+</table>
+</div>
+
+%(serie)s
+
+<h2 id="inscription">S'inscrire en ligne, pas à pas</h2>
+
+<p>La consigne de l'Institut est la même sur tous ses sites : « Pour les TCF et TEF :
+simplifiez-vous la vie et inscrivez-vous exclusivement en ligne sur le site web de l'IF où vous
+souhaitez passer votre examen. » Chaque site — if-maroc.org/casablanca, /rabat, /marrakech… — a sa
+page « TCF Canada » avec ses propres sessions et un panier.</p>
+
+<ol>
+<li><strong>Ouvrez la page « TCF Canada » de l'Institut de votre ville</strong> (menu
+« Certifications »). Elle affiche la prochaine session — date, horaire, adresse, prix — et un
+lien « Choisissez une autre session » qui liste toutes les dates ouvertes, avec la mention
+« Complet » pour celles qui le sont.</li>
+<li><strong>Ajoutez la session au panier et payez en ligne.</strong> L'inscription n'est
+définitive qu'une fois payée. Les conditions d'inscription de l'Institut demandent une
+<strong>pièce d'identité</strong> et une <strong>photo format passeport</strong>, et vous
+remettent une convocation personnelle dès l'inscription.</li>
+<li><strong>Vérifiez vos données.</strong> Nom, prénom, date de naissance : ils figureront tels
+quels sur l'attestation, et l'Institut facture <strong>110 Dhs</strong> toute modification après
+l'épreuve.</li>
+<li><strong>Le jour J</strong>, la convocation et la carte d'identité nationale (ou le passeport)
+sont exigées à l'entrée ; « les candidats sans pièce d'identité avec photo ne seront pas
+acceptés ». Le test se passe sur ordinateur, dans les locaux de l'Institut ; les créneaux de
+Casablanca s'étendent de 8 h 30 à 15 h, l'expression orale étant planifiée dans la journée.</li>
+<li><strong>Récupérez l'attestation</strong> à l'accueil de votre centre : « Chaque candidat
+présent aux épreuves se verra remettre une attestation ou un diplôme nominatif en se rendant à
+l'accueil de son centre d'examen de rattachement. »</li>
+</ol>
+
+<div class="note">
+<p><strong>Deux exceptions à l'inscription en ligne :</strong> le TCF IRN — « inscription
+uniquement sur place, à l'accueil de l'Institut français » — et les candidats à besoins
+spécifiques (tiers-temps, aménagements), qui doivent s'inscrire à l'accueil avec un certificat
+médical, « pas d'inscription en ligne possible ».</p>
+</div>
+
+<h2 id="sessions">Les sessions relevées : Casablanca, Rabat, Tanger, Marrakech</h2>
+
+<p>Contrairement à l'Algérie, où les places sont comptées, le Maroc offre de la
+<strong>fréquence</strong>. Le 17 septembre 2026, le site de Casablanca listait des sessions de
+TCF Canada sur ordinateur <strong>les mardis, jeudis et samedis</strong>, avec deux créneaux
+chacune (8 h 30-15 h et 10 h-15 h), du 26 septembre jusqu'en décembre — soit plus de vingt-quatre
+sessions d'ici la fin novembre —, trois seulement affichant « Complet » (le 26 septembre à 10 h,
+le 10 octobre aux deux créneaux). Le même site vend les sessions de Béni Mellal, les samedis
+24 octobre et 14 novembre.</p>
+
+<p>Rabat listait <strong>neuf sessions</strong>, toutes ouvertes, du vendredi 25 septembre au
+mardi 24 novembre ; Tanger, le jeudi 15 octobre ; Marrakech, le mardi 20 octobre. Le calendrier
+annuel 2026 publié par l'Institut ne couvre que le DELF-DALF et le TCF tout public : pour le TCF
+Canada, la seule source est la page de chaque site, et elle change chaque semaine.</p>
+
+<h2 id="prix">Combien ça coûte</h2>
+
+<div class="tablewrap">
+<table>
+<caption>Grille de l'Institut français du Maroc, relevée sur les pages « Certifications » de Casablanca et de Rabat le 17 septembre 2026 — identique sur les deux sites.</caption>
+<thead><tr><th>Test</th><th>Tarif</th><th>Inscription</th></tr></thead>
+<tbody>
+<tr><td><strong>TCF Canada</strong></td><td><strong>2 900 Dhs</strong></td><td>En ligne, sur ordinateur</td></tr>
+<tr><td><a href="/tcf-quebec/">TCF Québec</a></td><td>2 900 Dhs</td><td>En ligne</td></tr>
+<tr><td><a href="/tef-canada/">TEF Canada</a></td><td>2 900 Dhs</td><td>En ligne</td></tr>
+<tr><td><a href="/tcf-irn/">TCF IRN</a></td><td>1 900 Dhs</td><td>Sur place uniquement</td></tr>
+<tr><td>TCF tout public</td><td>1 900 Dhs</td><td>En ligne</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Soit de l'ordre de 270 € pour le TCF Canada — entre le tarif d'un
+centre français (195 à 285 €) et celui d'un centre canadien (390 à 440 $). Un TCF raté se repaie
+en entier : il n'existe aucune reprise partielle, et le report d'une session est lui-même payant
+(voir ci-dessous). Nos <a href="/examens-blancs/">examens blancs</a> notés sur 699 et convertis en
+NCLC vous disent si la session de la semaine prochaine est la bonne.</p>
+
+<h2 id="regles">Les règles à connaître avant de payer</h2>
+
+<ul>
+<li><strong>Vingt jours de carence.</strong> « Le candidat ne peut se présenter deux fois à un test
+du TCF toute version confondue dans un délai inférieur à 20 jours. Si un candidat contrevient à
+cette règle, son inscription sera annulée sans remboursement possible. » Cet avertissement est en
+tête de chaque page TCF Canada.</li>
+<li><strong>Aucun remboursement.</strong> « En cas d'annulation d'inscription, le candidat ne
+pourra, en aucun cas, être remboursé des frais d'inscription versés. »</li>
+<li><strong>Changement de date : avant la clôture seulement.</strong> Tant que la période
+d'inscription de la session n'est pas close, on peut changer de date ou de version ; après, plus
+rien — sauf maladie, décès d'un proche, accident ou examen officiel, sur justificatif envoyé
+« au plus tard dans les 5 jours ouvrés suivant le jour de l'épreuve », et « ce report de session
+d'examen sera facturé à 500,00 Dhs au candidat ».</li>
+<li><strong>Les résultats.</strong> L'attestation se retire à l'accueil du centre. L'Institut ne
+donne pas de délai précis pour le TCF Canada ; son calendrier 2026 annonce « 1 mois plus tard »
+pour le TCF tout public sur papier. Comptez donc un mois, et calez votre date d'examen sur
+l'échéance de votre dossier en conséquence.</li>
+<li><strong>Plus de recorrection</strong> pour les sessions à partir du 1<sup>er</sup> septembre
+2026 : le score est définitif.</li>
+</ul>
+
+<h2 id="pieges">Les pièges</h2>
+
+<ul>
+<li><strong>TCF Canada ou TCF Québec ?</strong> Même prix, même plateforme, deux tests : le TCF
+Québec, modulaire, sert aux programmes du MIFI ; IRCC ne l'accepte pas. Pour Entrée express,
+c'est le TCF Canada, ou le TEF Canada.</li>
+<li><strong>Le B2 qui n'est pas un NCLC 7.</strong> IRCC convertit le score sur 699 en NCLC : il faut
+458 en compréhension orale et 453 à l'écrit pour le NCLC 7, pas « un B2 ». Le détail est dans
+<a href="/blog/tcf-canada-nclc-7/">NCLC 7 au TCF Canada</a>.</li>
+<li><strong>La validité.</strong> Deux ans, et IRCC les compte à la création du profil comme au
+dépôt : <a href="/blog/validite-attestation-tcf-tef/">deux ans à partir de quand&nbsp;?</a></li>
+<li><strong>Les intermédiaires.</strong> L'inscription se fait sur if-maroc.org, sans frais de
+dossier ni « agent ». Un site qui vous vend une place, une attestation « garantie » ou un TCF
+« à distance » vend une fraude — voir notre guide sur
+<a href="/blog/tcf-canada-algerie/#faux-site">le faux Institut français d'Algérie</a>, dont le
+modèle circule aussi au Maroc.</li>
+</ul>
+""" % {"serie": serie("/blog/tcf-canada-maroc/")},
+    "cta_h2": "2 900 dirhams par tentative, et un score définitif",
+    "cta_p": """Les sessions ne manquent pas au Maroc ; ce qui manque, c'est la certitude d'avoir le score.
+Les examens blancs de l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent les quatre
+épreuves du TCF Canada au format officiel, notées sur 699 et converties en NCLC, avec la
+correction IA de l'écrit et de l'oral — pour choisir sa date en connaissance de cause.""",
+    "faq": [
+        ("Où passer le TCF Canada au Maroc&nbsp;?",
+         "Dans l'un des seize centres agréés par France Éducation international : les Instituts français d'Agadir, Béni Mellal, Casablanca, El Jadida, Essaouira, Fès, Kénitra, Marrakech, Meknès, Nador, Oujda, Rabat, Tanger et Tétouan, et les Alliances françaises de Safi et de Ouarzazate. Tous le proposent sur ordinateur, sauf Ouarzazate."),
+        ("Combien coûte le TCF Canada au Maroc&nbsp;?",
+         "2 900 dirhams, tarif de l'Institut français du Maroc relevé à Casablanca et à Rabat le 17 septembre 2026 — identique pour le TCF Québec et le TEF Canada. Le TCF IRN et le TCF tout public coûtent 1 900 dirhams. Les frais ne sont pas remboursables, et un report de session sur justificatif est facturé 500 dirhams."),
+        ("Comment s'inscrire&nbsp;?",
+         "En ligne, sur le site de l'Institut français de votre ville (if-maroc.org/casablanca, /rabat, etc.), page « TCF Canada » : on choisit une session dans la liste, on l'ajoute au panier et on paie. Une convocation est remise dès l'inscription ; pièce d'identité et photo format passeport sont demandées. Seuls le TCF IRN et les candidats à besoins spécifiques s'inscrivent sur place."),
+        ("Quand ont lieu les sessions&nbsp;?",
+         "Elles dépendent de chaque site. Le 17 septembre 2026, Casablanca proposait des sessions les mardis, jeudis et samedis jusqu'en décembre, avec deux créneaux par jour ; Rabat neuf sessions entre le 25 septembre et le 24 novembre ; Tanger le 15 octobre ; Marrakech le 20 octobre. Il n'existe pas de calendrier annuel du TCF Canada : la page du site fait foi."),
+        ("Peut-on repasser le TCF Canada rapidement&nbsp;?",
+         "Pas avant vingt jours : « Le candidat ne peut se présenter deux fois à un test du TCF toute version confondue dans un délai inférieur à 20 jours », sous peine d'annulation sans remboursement. Et depuis les sessions du 1er septembre 2026, aucune recorrection n'est possible : améliorer son score, c'est repasser les quatre épreuves et repayer 2 900 dirhams."),
+        ("Combien de temps pour les résultats&nbsp;?",
+         "L'attestation se retire à l'accueil du centre d'examen. L'Institut ne publie pas de délai pour le TCF Canada ; son calendrier 2026 indique « 1 mois plus tard » pour le TCF tout public. Comptez un mois, puis deux ans de validité — qu'IRCC exige à la création du profil et au dépôt de la demande."),
+        ("Quels documents apporter le jour de l'examen&nbsp;?",
+         "La convocation et une pièce d'identité avec photo — carte d'identité nationale ou passeport — sont obligatoires ; sans elles, l'accès à la salle est refusé. Vérifiez avant l'épreuve l'orthographe de vos nom, prénom et date de naissance : toute modification ultérieure sur l'attestation est facturée 110 dirhams."),
+    ],
+    "also": [
+        ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "Les quatre épreuves, la conversion NCLC, les seuils pour Entrée express."),
+        ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir pour votre dossier&nbsp;?", "Les deux tables NCLC, le comparatif de format, et le piège de l'« ancien score »."),
+        ("/blog/tcf-canada-algerie/", "TCF Canada en Algérie : où le passer, comment s'inscrire", "Cinq antennes, la plateforme IFAL, 26 jours entre deux inscriptions et un faux site à éviter."),
+        ("/blog/tcf-canada-tunisie/", "TCF Canada en Tunisie : centres, calendrier, inscription", "880 dinars, un rendez-vous en ligne puis l'inscription sur place, des résultats en cinq semaines."),
+    ],
+    "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
+international (filtre « Maroc »), consultée le 17 septembre 2026 ; site de l'Institut français du
+Maroc (if-maroc.org) — page nationale « TCF Canada », pages « Certifications » et « TCF Canada » des
+sites de Casablanca, Rabat, Marrakech et Tanger, liste des sessions de Casablanca, Rabat et
+Marrakech, « Conditions d'inscription à un examen TCF, TEF, DELF/DALF » (juillet 2024) et
+calendrier des certifications 2026, consultés le 17 septembre 2026. Les tarifs et sessions
+changent sans préavis : vérifiez-les sur le site de votre Institut avant de payer.""",
+}
+
+# ---------------------------------------------------------------------------
+# 8. TCF Canada en Tunisie
+# ---------------------------------------------------------------------------
+TN = {
+    "slug": "tcf-canada-tunisie",
+    "accent": "accent-tcf",
+    "crumb": "TCF Canada en Tunisie",
+    "title": "TCF Canada en Tunisie : centres, calendrier, inscription",
+    "desc": "880 dinars, un rendez-vous en ligne puis l'inscription sur place, une session par mois dans sept pôles, des résultats en cinq semaines : le guide vérifié.",
+    "og_title": "TCF Canada en Tunisie : centres, calendrier, inscription",
+    "og_desc": "880 dinars, un rendez-vous en ligne puis l'inscription sur place, une session par mois dans sept pôles, des résultats en cinq semaines.",
+    "h1": "TCF Canada en Tunisie : les centres, le calendrier et l'inscription",
+    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 9,
+    "intro": """En Tunisie, le TCF Canada se passe à l'<strong>Institut français de Tunisie</strong> — sept
+pôles, de Tunis à Kébili — et dans le réseau des <strong>Alliances françaises</strong> (Tunis,
+Bizerte, Djerba, Gabès, Gafsa, Kairouan) : quatorze centres agréés par France Éducation
+international. À l'Institut, le test coûte <strong>880 dinars</strong>, se réserve <strong>en
+ligne</strong> puis se finalise <strong>sur place</strong> à une date d'inscription fixée par pôle,
+avec <strong>une session par mois</strong> et des résultats <strong>cinq semaines</strong> plus tard.""",
+    "facts": [
+        "<strong>14 centres agréés</strong> (liste FEI du 17 septembre 2026) : 8 pôles de l'Institut français de Tunisie et 6 Alliances françaises, tous avec des sessions sur ordinateur.",
+        "<strong>880 DT</strong> à l'Institut français pour le TCF Canada (17 septembre 2026) ; TCF Québec 880 DT, TCF IRN 625 DT, TCF tout public 335 DT + 220 DT par épreuve d'expression.",
+        "Procédure en deux temps : <strong>rendez-vous en ligne</strong> pendant une fenêtre d'une semaine, puis <strong>inscription et paiement sur place</strong> le jour fixé — un mandataire muni d'une copie de votre carte d'identité peut y aller pour vous.",
+        "<strong>Une session par mois</strong> dans chaque pôle : à Tunis, 24-25 septembre, 22-23 octobre, 26-27 novembre et 16-18 décembre 2026.",
+        "Résultats <strong>cinq semaines</strong> après la passation ; <strong>30 jours</strong> entre deux sessions de TCF ou de TEF.",
+        "⚠️ Frais <strong>non remboursables</strong> ; paiement en espèces (carte bancaire à Tunis seulement), chèques suspendus.",
+    ],
+    "toc": [
+        ("centres", "Les quatorze centres agréés"),
+        ("inscription", "S'inscrire à l'Institut français, pas à pas"),
+        ("calendrier", "Le calendrier 2026 de Tunis, et le rythme des autres pôles"),
+        ("prix", "Combien ça coûte"),
+        ("resultats", "Résultats, délais et reprise"),
+        ("alliances", "Les Alliances françaises"),
+        ("pieges", "Les pièges"),
+    ],
+    "body": """
+<h2 id="centres">Les quatorze centres agréés</h2>
+
+<p>La liste officielle de France Éducation international recense quatorze centres de passation
+du TCF en Tunisie. Huit relèvent de l'Institut français de Tunisie (IFT) — le centre de langue de
+Tunis, avenue de Paris, et ses pôles d'El Mourouj, Nabeul-Hammamet, Béja, Sousse, Sfax, Kébili
+et Médenine — et six sont des Alliances françaises : Tunis (Ariana), Bizerte, Djerba, Gabès,
+Gafsa et Kairouan. Sur le site de l'IFT, le <strong>TCF Canada</strong> est proposé dans sept
+pôles ; Médenine n'apparaît que pour le TCF tout public.</p>
+
+<div class="tablewrap wide">
+<table>
+<caption>Centres de passation TCF en Tunisie, liste officielle de FEI consultée le 17 septembre 2026, et ce que le site de l'Institut français indiquait ce jour-là.</caption>
+<thead><tr><th>Ville</th><th>Centre</th><th>TCF Canada</th><th>Relevé le 17 septembre 2026</th></tr></thead>
+<tbody>
+<tr><td><strong>Tunis</strong></td><td>Institut français de Tunisie, centre de langue, 20-22 av. de Paris</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions 24-25 sept., 22-23 oct., 26-27 nov., 16 et 18 déc. 2026 ; paiement espèces ou carte.</td></tr>
+<tr><td><strong>El Mourouj</strong></td><td>IFT, pôle d'El Mourouj 1</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions mensuelles ; paiement en espèces.</td></tr>
+<tr><td><strong>Nabeul · Hammamet</strong></td><td>IFT, pôle de Nabeul-Hammamet</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions mensuelles ; espèces.</td></tr>
+<tr><td><strong>Sousse</strong></td><td>IFT, pôle de Sousse, 15 rue Hamed-El-Ghazeli</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions mensuelles ; espèces.</td></tr>
+<tr><td><strong>Sfax</strong></td><td>IFT, centre de langue, 9 av. Habib-Bourguiba</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions mensuelles.</td></tr>
+<tr><td><strong>Béja</strong></td><td>IFT, pôle de Béja (lycée privé L'Avenir)</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions mensuelles ; espèces.</td></tr>
+<tr><td><strong>Kébili</strong></td><td>IFT, pôle de Kébili (lycée privé Ibnou-Khaldoun)</td><td><span class="badge ok">oui</span></td><td>880 DT ; sessions mensuelles.</td></tr>
+<tr><td><strong>Médenine</strong></td><td>IFT, pôle de Médenine-Tataouine (centre TUTECH)</td><td><span class="badge part">TP seulement</span></td><td>Pas de TCF Canada dans la liste des pôles du site.</td></tr>
+<tr><td><strong>Tunis (Ariana)</strong></td><td>Alliance française de Tunis, El Menzah 6</td><td><span class="badge ok">oui</span></td><td>TCF Canada, Québec et tout public ; calendrier sur alliancefr.tn ; tarif non relevé.</td></tr>
+<tr><td><strong>Bizerte</strong></td><td>Alliance française de Bizerte</td><td>—</td><td>Sur le site du centre.</td></tr>
+<tr><td><strong>Djerba</strong></td><td>Alliance française de Djerba (Houmt Souk)</td><td>—</td><td>Sur le site du centre.</td></tr>
+<tr><td><strong>Gabès</strong></td><td>Alliance française de Gabès</td><td>—</td><td>Contact par le centre.</td></tr>
+<tr><td><strong>Gafsa</strong></td><td>Alliance française de Gafsa</td><td>—</td><td>Contact par le centre.</td></tr>
+<tr><td><strong>Kairouan</strong></td><td>Alliance française de Kairouan</td><td>—</td><td>Page Facebook du centre.</td></tr>
+</tbody>
+</table>
+</div>
+
+%(serie)s
+
+<h2 id="inscription">S'inscrire à l'Institut français, pas à pas</h2>
+
+<p>L'Institut a un système en deux temps, différent de tout ce qui se fait en France ou au
+Maroc : « Prenez un rendez-vous en ligne pour réserver votre test et finaliser votre inscription
+sur place. » Chaque session a donc trois dates, publiées à l'avance sur la page TCF Canada de
+l'IFT : une fenêtre de <strong>prise de rendez-vous en ligne</strong>, un <strong>jour
+d'inscription</strong> au pôle, et les <strong>jours du test</strong>.</p>
+
+<ol>
+<li><strong>Choisissez votre pôle</strong> sur la page « TCF Canada » de institutfrancais-tunisie.com
+et lisez son tableau « Sessions 2026 » : dates de rendez-vous, d'inscription, de test.</li>
+<li><strong>Réservez en ligne pendant la fenêtre de rendez-vous</strong> (environ une semaine, trois
+à quatre semaines avant le test). « Les inscriptions sont ouvertes dans la limite des places
+disponibles » : une fenêtre passée, c'est la session suivante.</li>
+<li><strong>Le jour d'inscription, présentez-vous au pôle</strong> avec votre pièce d'identité et
+le montant — <strong>880 DT</strong>, en espèces ou par carte bancaire à Tunis, en espèces
+seulement dans les autres pôles ; « le paiement par chèque est suspendu temporairement ».
+Vous ne pouvez pas venir ? « Le candidat peut être représenté par une autre personne munie de la
+photocopie de la carte d'identité du candidat. »</li>
+<li><strong>Le jour du test</strong>, convocation et pièce d'identité. La session s'étend sur deux
+jours ; votre convocation précise vos créneaux.</li>
+<li><strong>Cinq semaines plus tard</strong>, les résultats — puis l'attestation, valable deux
+ans.</li>
+</ol>
+
+<h2 id="calendrier">Le calendrier 2026 de Tunis, et le rythme des autres pôles</h2>
+
+<div class="tablewrap">
+<table>
+<caption>Sessions de TCF Canada du pôle de Tunis, page « TCF Canada » de l'Institut français de Tunisie consultée le 17 septembre 2026.</caption>
+<thead><tr><th>Session</th><th>Rendez-vous en ligne</th><th>Inscription sur place</th><th>Test</th></tr></thead>
+<tbody>
+<tr><td>Septembre 2026</td><td>24-30 août</td><td>3 septembre</td><td><strong>24 et 25 septembre</strong></td></tr>
+<tr><td>Octobre 2026</td><td>14-20 septembre</td><td>24 septembre</td><td><strong>22 et 23 octobre</strong></td></tr>
+<tr><td>Novembre 2026</td><td>26-31 octobre</td><td>5 novembre</td><td><strong>26 et 27 novembre</strong></td></tr>
+<tr><td>Décembre 2026</td><td>9-15 novembre</td><td>19 novembre</td><td><strong>16 et 18 décembre</strong></td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Le mécanisme est le même dans les six autres pôles, avec leurs propres dates — Sousse, Sfax,
+Nabeul-Hammamet, El Mourouj, Béja et Kébili affichent chacun une session par mois jusqu'en
+décembre, parfois jusqu'en janvier 2027. Un rendez-vous manqué se rattrape le mois suivant, dans
+le même pôle ou dans un autre. Le tableau de chaque pôle indique aussi les dates de l'atelier de
+préparation de 20 heures que l'Institut propose avant chaque session (270 DT, ou 1 100 DT avec le
+test).</p>
+
+<h2 id="prix">Combien ça coûte</h2>
+
+<div class="tablewrap">
+<table>
+<caption>Frais d'inscription de l'Institut français de Tunisie, pages TCF Canada, TCF Québec et TCF TP-SO / IRN, consultées le 17 septembre 2026.</caption>
+<thead><tr><th>Test</th><th>Tarif IFT</th></tr></thead>
+<tbody>
+<tr><td><strong>TCF Canada</strong>, 4 épreuves</td><td><strong>880 DT</strong></td></tr>
+<tr><td><a href="/tcf-quebec/">TCF Québec</a>, 4 épreuves</td><td>880 DT (packs à 2 ou 3 épreuves avec atelier : 660 et 880 DT)</td></tr>
+<tr><td><a href="/tcf-irn/">TCF IRN</a></td><td>625 DT</td></tr>
+<tr><td>TCF tout public sur ordinateur, épreuves obligatoires</td><td>335 DT (+ 220 DT par épreuve d'expression)</td></tr>
+<tr><td>Atelier de préparation (20 h)</td><td>270 DT</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Soit de l'ordre de 260 € pour le TCF Canada — comparable au Maroc (2 900 Dhs) et à la France
+(195 à 285 €). Les frais « ne sont pas remboursables » ; seul un cas de force majeure — maladie,
+décès d'un proche, grève — justifié « dans un délai de 48 heures » ouvre droit à un report.</p>
+
+<h2 id="resultats">Résultats, délais et reprise</h2>
+
+<p>« Les résultats sont disponibles 5 semaines après la date de passation », indique la FAQ de
+l'Institut — c'est le délai le plus long que nous ayons relevé, deux fois celui des centres
+français. Avec une session par mois, un candidat qui rate son NCLC en septembre ne connaît son
+score que fin octobre, se réinscrit pour décembre, et reçoit la nouvelle attestation fin janvier.
+Prévoyez cette chaîne dans le calendrier de votre dossier — d'autant qu'IRCC exige des résultats
+de moins de deux ans à deux moments, comme l'explique
+<a href="/blog/validite-attestation-tcf-tef/">deux ans à partir de quand&nbsp;?</a></p>
+
+<p>Entre deux tests, l'Institut applique <strong>30 jours</strong> — « il faut respecter un délai
+de 30 jours entre deux sessions de TCF ou de TEF » —, le chiffre haut de la fourchette de FEI. Et
+depuis les sessions du 1<sup>er</sup> septembre 2026, aucune recorrection n'est possible : le
+score est définitif. Ce qu'il vaut en NCLC — 458 en compréhension orale, 453 à l'écrit pour le
+NCLC 7 — est dans <a href="/blog/tcf-canada-nclc-7/">NCLC 7 au TCF Canada</a>.</p>
+
+<h2 id="alliances">Les Alliances françaises</h2>
+
+<p>L'Alliance française de Tunis, à El Menzah 6 (Ariana), « propose le TCF Canada, le TCF Québec et
+le TCF tout public », avec un calendrier des examens sur son site ; les Alliances de Bizerte,
+Djerba, Gabès, Gafsa et Kairouan figurent sur la liste de FEI avec l'option « sessions sur
+ordinateur ». Leur procédure et leurs tarifs ne sont pas publiés de façon lisible en ligne : appelez
+le centre. Pour un candidat de Bizerte ou de Djerba, c'est l'alternative aux déplacements vers
+Tunis ou Sfax.</p>
+
+<h2 id="pieges">Les pièges</h2>
+
+<ul>
+<li><strong>Manquer la fenêtre de rendez-vous.</strong> Une semaine, un mois avant le test : c'est
+elle qu'il faut noter, pas la date de l'examen.</li>
+<li><strong>Venir sans espèces.</strong> Hors Tunis, l'inscription se paie en espèces ; les chèques
+sont refusés.</li>
+<li><strong>Confondre TCF Canada et TCF Québec.</strong> Même prix à l'Institut, deux usages : le
+Québec pour le MIFI, le Canada pour IRCC.</li>
+<li><strong>Sous-estimer le délai.</strong> Cinq semaines de résultats plus 30 jours de carence :
+une deuxième tentative, c'est deux à trois mois.</li>
+<li><strong>Les intermédiaires.</strong> L'Institut n'a ni agent ni revendeur ; toute offre de
+place « garantie » ou de TCF « à distance » est une fraude — voir
+<a href="/blog/tcf-canada-algerie/#faux-site">le faux Institut français d'Algérie</a>.</li>
+</ul>
+""" % {"serie": serie("/blog/tcf-canada-tunisie/")},
+    "cta_h2": "Cinq semaines de résultats : pas de place pour l'essai",
+    "cta_p": """En Tunisie, un score insuffisant se découvre cinq semaines après, et la session suivante
+est un mois plus loin. Les examens blancs de l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;»
+reproduisent les quatre épreuves du TCF Canada au format officiel, notées sur 699 et converties en
+NCLC, avec la correction IA de l'écrit et de l'oral — pour ne réserver que la session utile.""",
+    "faq": [
+        ("Où passer le TCF Canada en Tunisie&nbsp;?",
+         "Dans l'un des quatorze centres agréés par France Éducation international : l'Institut français de Tunisie — Tunis, El Mourouj, Nabeul-Hammamet, Sousse, Sfax, Béja et Kébili pour le TCF Canada — et les Alliances françaises de Tunis (Ariana), Bizerte, Djerba, Gabès, Gafsa et Kairouan. Le pôle de Médenine ne figure pas parmi ceux qui proposent le TCF Canada sur le site de l'Institut."),
+        ("Combien coûte le TCF Canada en Tunisie&nbsp;?",
+         "880 dinars à l'Institut français de Tunisie, relevés le 17 septembre 2026 — le même prix que le TCF Québec. Le TCF IRN coûte 625 dinars, le TCF tout public sur ordinateur 335 dinars pour les épreuves obligatoires. Les frais ne sont pas remboursables. Les Alliances françaises ne publient pas de tarif lisible en ligne."),
+        ("Comment s'inscrire&nbsp;?",
+         "En deux temps : un rendez-vous en ligne pendant la fenêtre ouverte pour la session (environ une semaine, un mois avant le test), puis l'inscription et le paiement sur place, au pôle choisi, le jour fixé — en espèces, ou par carte à Tunis. Le candidat peut se faire représenter par une personne munie de la photocopie de sa carte d'identité."),
+        ("Quand ont lieu les sessions&nbsp;?",
+         "Une par mois dans chaque pôle. À Tunis en 2026 : 24-25 septembre, 22-23 octobre, 26-27 novembre, 16 et 18 décembre, avec des rendez-vous en ligne respectivement du 24 au 30 août, du 14 au 20 septembre, du 26 au 31 octobre et du 9 au 15 novembre. Les autres pôles publient leurs propres dates sur la même page."),
+        ("Combien de temps pour les résultats&nbsp;?",
+         "« Les résultats sont disponibles 5 semaines après la date de passation », indique l'Institut français de Tunisie — le délai le plus long relevé dans nos guides. L'attestation est ensuite valable deux ans, et IRCC exige des résultats de moins de deux ans à la création du profil et au dépôt de la demande."),
+        ("Peut-on repasser le test rapidement&nbsp;?",
+         "Non : l'Institut impose « un délai de 30 jours entre deux sessions de TCF ou de TEF », et avec des résultats à cinq semaines et une session par mois, une seconde tentative prend deux à trois mois. Depuis le 1er septembre 2026, aucune recorrection n'est possible ; le score est définitif."),
+        ("Que se passe-t-il si je ne peux pas venir le jour du test&nbsp;?",
+         "Les frais ne sont pas remboursés. En cas de force majeure — maladie, décès d'un proche, grève —, un report est possible à condition d'adresser un justificatif au centre de langue dans un délai de 48 heures."),
+    ],
+    "also": [
+        ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "Les quatre épreuves, la conversion NCLC, les seuils pour Entrée express."),
+        ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", "458 en compréhension orale, 453 à l'écrit — la table de conversion officielle complète."),
+        ("/blog/tcf-canada-maroc/", "TCF Canada au Maroc : les 16 centres et l'inscription", "2 900 dirhams, des sessions plusieurs fois par semaine à Casablanca, l'inscription en ligne."),
+        ("/blog/tcf-canada-algerie/", "TCF Canada en Algérie : où le passer, comment s'inscrire", "Cinq antennes, la plateforme IFAL, 26 jours entre deux inscriptions et un faux site à éviter."),
+    ],
+    "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
+international (filtre « Tunisie »), consultée le 17 septembre 2026 ; site de l'Institut français de
+Tunisie — pages « TCF-Canada » (présentation, calendrier par pôle, réservation en ligne, frais
+d'inscription, frais de paiement, FAQ), « TCF-Québec » et « TCF/TP-SO & TCF/IRN », consultées le
+17 septembre 2026 ; site de l'Alliance française de Tunis (pages TCF et calendriers des examens),
+consulté le 17 septembre 2026. Tarifs et dates changent sans préavis : vérifiez-les sur le site de
+l'Institut avant de vous déplacer.""",
+}
+
+# ---------------------------------------------------------------------------
+# 9. Où passer l'examen civique ?
+# ---------------------------------------------------------------------------
+CIV = {
+    "slug": "ou-passer-l-examen-civique",
+    "accent": "accent-irn",
+    "crumb": "Où passer l'examen civique",
+    "title": "Où passer l'examen civique ? Centres et inscription 2026",
+    "desc": "Deux réseaux agréés, 244 centres FEI, une pré-inscription en ligne, 70 à 110 € selon le centre, des résultats sous 12 heures : où passer l'examen civique.",
+    "og_title": "Où passer l'examen civique ? Centres et inscription 2026",
+    "og_desc": "Deux réseaux agréés, 244 centres FEI, une pré-inscription en ligne, 70 à 110 € selon le centre : où et comment passer l'examen civique.",
+    "h1": "Où passer l'examen civique&nbsp;? Les centres, l'inscription et le prix",
+    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 10,
+    "intro": """L'examen civique se passe <strong>sur ordinateur, dans un centre agréé</strong> par l'un des
+deux organismes habilités par le ministère de l'Intérieur : <strong>France Éducation international</strong>
+— 244 centres en France, pré-inscription sur test-civique.fr — et la <strong>CCI Paris
+Île-de-France</strong>, dont l'outil « Trouver une session » liste les dates centre par centre.
+Obligatoire depuis le 1<sup>er</sup> janvier 2026 pour une première carte de séjour pluriannuelle,
+une première carte de résident et la naturalisation, il coûte <strong>70 à 110 €</strong> selon le
+centre et se repasse sans limite.""",
+    "facts": [
+        "<strong>Deux réseaux agréés</strong> : France Éducation international (<strong>244 centres</strong> dans 94 départements au 17 septembre 2026, dont 7 à Paris) et la CCI Paris Île-de-France (Le français des affaires).",
+        "<strong>Trois mentions</strong> — carte de séjour pluriannuelle, carte de résident, naturalisation — à choisir à l'inscription ; la mention « carte de résident » vaut pour la carte pluriannuelle.",
+        "<strong>40 questions</strong> à choix multiples (28 de connaissances, 12 de mise en situation), <strong>45 minutes</strong>, <strong>32 bonnes réponses</strong> pour réussir.",
+        "Inscription FEI : <strong>pré-inscription en ligne sur test-civique.fr</strong>, avec votre numéro étranger (AGDREF) ; inscription CCIP : par le centre, via « Trouver une session ».",
+        "Prix libre : <strong>70 € (Nantes), 75 € (Montpellier), 80-90 € (Etoile, Paris), 110 € (ACCORD, Paris)</strong> ; résultats « sous 12 heures » dans plusieurs centres.",
+        "Attestation <strong>sans durée de validité</strong>, tentatives <strong>illimitées</strong> ; la préparation officielle est <strong>gratuite</strong>.",
+    ],
+    "toc": [
+        ("qui", "Qui doit le passer, et lequel"),
+        ("reseaux", "Deux organismes, deux réseaux de centres"),
+        ("fei", "S'inscrire dans un centre FEI : test-civique.fr"),
+        ("ccip", "S'inscrire dans un centre CCIP : « Trouver une session »"),
+        ("paris", "À Paris : les centres et leurs sessions"),
+        ("prix", "Combien ça coûte"),
+        ("etranger", "Le passer à l'étranger"),
+        ("pieges", "Les pièges : préparation payante, mauvaise mention, fraude"),
+    ],
+    "body": """
+<h2 id="qui">Qui doit le passer, et lequel</h2>
+
+<p>Depuis le 1<sup>er</sup> janvier 2026, l'attestation de réussite à l'examen civique est exigée
+pour trois démarches : une <strong>première carte de séjour pluriannuelle</strong>, une
+<strong>première carte de résident</strong>, et la <strong>naturalisation</strong> par décret.
+Le ministère de l'Intérieur le précise : « Tout étranger majeur, signataire du contrat
+d'intégration républicaine (CIR), qui souhaite s'installer en France durablement. » Il n'est pas
+exigé pour un renouvellement, ni des bénéficiaires d'une protection internationale, ni des
+ressortissants relevant de certains accords bilatéraux. Notre guide sur
+<a href="/blog/carte-de-resident-b1-2026/">la carte de résident</a> et celui sur
+<a href="/blog/naturalisation-2026-niveau-b2/">la naturalisation</a> détaillent qui est concerné
+et les cas de dispense.</p>
+
+<p>L'examen existe en <strong>trois mentions</strong>, fixées par l'arrêté du 10 octobre 2025 :
+« carte de séjour pluriannuelle », « carte de résident » et « naturalisation ». On choisit la
+sienne à l'inscription. Le niveau de difficulté diffère, pas le seuil : dans les trois cas,
+<strong>40 questions</strong> — 28 de connaissances, 12 de mise en situation, une seule bonne
+réponse sur quatre —, <strong>45 minutes</strong> au plus, sur tablette ou ordinateur, et
+<strong>32 bonnes réponses</strong> pour réussir. Une règle utile : « L'attestation de réussite à
+l'examen civique mention CR vaut attestation de réussite mention CSP. » L'inverse n'est pas
+vrai.</p>
+
+<h2 id="reseaux">Deux organismes, deux réseaux de centres</h2>
+
+<p>« Deux organismes ont été agréés par le ministère de l'Intérieur pour la mise en œuvre de
+l'examen civique », indique le site officiel formation-civique.interieur.gouv.fr : la
+<strong>Chambre de commerce et d'industrie de Paris Île-de-France</strong> — l'opérateur du TEF —
+et <strong>France Éducation international</strong> — l'opérateur du TCF et du DELF. Chacun a son
+réseau de centres agréés, souvent les mêmes écoles de langue et Alliances françaises que pour les
+tests de français, et sa propre procédure d'inscription. L'attestation vaut la même chose dans les
+deux cas.</p>
+
+<p>Au 17 septembre 2026, la liste de FEI comptait <strong>244 centres d'examen civique en
+France</strong>, dans 94 départements — sept à Paris, huit dans le Rhône, sept dans les
+Bouches-du-Rhône, six en Haute-Garonne, dans l'Hérault et en Moselle. Le réseau CCIP se consulte
+session par session, ville par ville, dans son outil de recherche. Un organisme absent de ces
+deux listes ne peut pas vous délivrer d'attestation.</p>
+
+%(serie)s
+
+<h2 id="fei">S'inscrire dans un centre FEI : test-civique.fr</h2>
+
+<p>Pour les centres de France Éducation international, le ministère renvoie vers un formulaire
+unique de pré-inscription : <strong>test-civique.fr/inscription</strong>. Vous y choisissez le
+<strong>département</strong>, la <strong>ville</strong> et le <strong>centre</strong>, puis l'examen
+souhaité — carte de résident, carte de séjour pluriannuelle ou naturalisation, chacun avec ou sans
+aménagements — et vous renseignez vos coordonnées, votre <strong>numéro étranger (AGDREF)</strong>,
+votre date et lieu de naissance. Le formulaire affiche les coordonnées du centre choisi ; c'est lui
+qui vous propose ensuite une date et encaisse le paiement. Les candidats en situation de handicap
+doivent contacter le centre <em>avant</em> toute inscription pour les aménagements.</p>
+
+<div class="note">
+<p><strong>Où trouver les centres FEI.</strong> Sur la
+<a href="https://www.france-education-international.fr/centres-d-examen/carte?type-centre=examen_civique" rel="noopener">carte
+des centres de passation de l'examen civique</a>, catégorie à part sur le site de FEI, avec
+l'adresse, le téléphone et le site de chaque centre. Le formulaire de test-civique.fr reprend la
+même liste, département par département.</p>
+</div>
+
+<h2 id="ccip">S'inscrire dans un centre CCIP : « Trouver une session »</h2>
+
+<p>Le réseau de la CCI Paris Île-de-France fonctionne par sessions : sur
+<strong>francais.cci-paris-idf.fr</strong>, l'outil « Trouver une session » demande une ville et
+l'examen — « Examen civique mention carte de résident », « … carte de séjour pluriannuelle » ou
+« … naturalisation » — et affiche les centres avec leur nombre de sessions disponibles, une
+carte, et deux boutons : « Contacter le centre » et « Choisir ». L'inscription et le paiement se
+font ensuite auprès du centre. Le même outil sert au TEF : les centres TEF IRN sont souvent aussi
+centres d'examen civique CCIP.</p>
+
+<h2 id="paris">À Paris : les centres et leurs sessions</h2>
+
+<p>Paris est la ville la mieux dotée, et aussi celle où l'on trouve des sessions
+<strong>complètes</strong>. Côté FEI, les sept centres agréés sont ceux du TCF : ACTE (10<sup>e</sup>),
+ILE International (12<sup>e</sup>), l'Alliance française Paris Île-de-France (6<sup>e</sup>), les
+Cours de civilisation française de la Sorbonne (17<sup>e</sup>), ELFE (1<sup>er</sup>), Etoile Institut
+(7<sup>e</sup>) et ACCORD (15<sup>e</sup>). Le 17 septembre 2026, l'Alliance française affichait sur sa
+page examen civique : « Toutes nos sessions sont complètes pour le moment. » Côté CCIP, la
+recherche « mention naturalisation » à Paris renvoyait, pour septembre-décembre 2026 :</p>
+
+<div class="tablewrap wide">
+<table>
+<caption>Centres CCIP proposant l'examen civique mention « naturalisation » à Paris, outil « Trouver une session » du Français des affaires, sessions de septembre à décembre 2026, consulté le 17 septembre 2026.</caption>
+<thead><tr><th>Centre</th><th>Arrondissement</th><th>Sessions affichées</th></tr></thead>
+<tbody>
+<tr><td>Emploi Services Formation (ESF)</td><td>19<sup>e</sup>, rue d'Hautpoul</td><td><strong>300</strong></td></tr>
+<tr><td>ASPLEF</td><td>10<sup>e</sup>, boulevard de Magenta</td><td>44</td></tr>
+<tr><td>AVD Formation</td><td>17<sup>e</sup>, rue Catulle-Mendès</td><td>34</td></tr>
+<tr><td>Kangourou</td><td>16<sup>e</sup>, rue du Général-Clergerie</td><td>11</td></tr>
+<tr><td>ALIP</td><td>15<sup>e</sup>, rue Ginoux</td><td>5</td></tr>
+<tr><td>Etoile Institut de langue</td><td>7<sup>e</sup>, boulevard Raspail</td><td>3</td></tr>
+<tr><td>CCI Paris République</td><td>10<sup>e</sup>, rue Léon-Jouhaux</td><td>2</td></tr>
+<tr><td>Institut Aritas Formation</td><td>17<sup>e</sup>, rue Cardinet</td><td>1</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Etoile Institut, agréé par les deux organismes, organisait des sessions <strong>presque tous
+les jours</strong> en septembre 2026, à 80 € en semaine et 90 € le samedi. Avec des sessions de
+40 questions en 45 minutes, un centre peut en enchaîner plusieurs par jour : la rareté que
+connaissent le DELF ou le TCF Canada n'a pas lieu d'être ici, sauf dans les centres qui n'ouvrent
+que quelques dates par mois.</p>
+
+<h2 id="prix">Combien ça coûte</h2>
+
+<p>Aucun texte ne fixe le prix de l'examen civique — ni l'arrêté du 10 octobre 2025, ni les fiches
+de Service-Public, ni le site du ministère. Chaque centre agréé décide. Sur les centres relevés le
+17 septembre 2026 :</p>
+
+<div class="tablewrap">
+<table>
+<caption>Tarifs de l'examen civique affichés par les centres le 17 septembre 2026. Prix libre ; ces tarifs changent sans préavis.</caption>
+<thead><tr><th>Centre</th><th>Ville</th><th>Tarif</th><th>Résultats</th></tr></thead>
+<tbody>
+<tr><td>Espaces Formation</td><td>Nantes</td><td><strong>70 €</strong></td><td>« généralement sous 12 heures »</td></tr>
+<tr><td>Alliance française de Montpellier</td><td>Montpellier</td><td><strong>75 €</strong></td><td>non relevé</td></tr>
+<tr><td>Etoile Institut de langue</td><td>Paris 7<sup>e</sup></td><td><strong>80 €</strong> (90 € le samedi)</td><td>non relevé</td></tr>
+<tr><td>ACCORD</td><td>Paris 15<sup>e</sup></td><td><strong>110 €</strong></td><td>« attestation définitive sous 12 heures »</td></tr>
+<tr><td>Alliance française Paris Île-de-France</td><td>Paris 6<sup>e</sup></td><td>non relevé</td><td>« toutes nos sessions sont complètes »</td></tr>
+</tbody>
+</table>
+</div>
+
+<p>Du simple au presque double pour un examen strictement identique, et des résultats souvent
+le jour même : l'attestation est délivrée par l'organisme agréé, sans durée de validité — « elle
+n'a pas de durée de validité », écrit le ministère —, et « il est possible de passer l'examen
+civique à tout moment et autant de fois que nécessaire ». Chaque tentative se paie.</p>
+
+<h2 id="etranger">Le passer à l'étranger</h2>
+
+<p>L'examen civique se passe aussi hors de France, dans les Instituts français, les Alliances
+françaises et auprès des autorités consulaires — utile pour une demande de naturalisation ou de
+titre préparée depuis l'étranger. L'Institut français d'Algérie, par exemple, l'organise à
+Alger (30, rue des Frères-Kadri, Hydra) : pré-inscription sur test-civique.fr via son lien dédié,
+<strong>9 000 DA</strong> payables par carte bancaire ou Dahabia sur place ou par virement,
+confirmation sous 48 heures, convocation par e-mail, carte d'identité biométrique ou passeport
+le jour J. La carte des centres de FEI a un filtre par pays pour l'examen civique.</p>
+
+<h2 id="pieges">Les pièges : préparation payante, mauvaise mention, fraude</h2>
+
+<div class="warn"><strong>La préparation est gratuite.</strong> Le ministère l'écrit en gras :
+« La préparation à l'examen civique peut se faire de manière totalement gratuite. Il n'est pas
+nécessaire de payer pour accéder à des questions ou à des tests d'entraînement. » Le site
+formation-civique.interieur.gouv.fr publie le programme, les fiches par thème et la
+<strong>liste officielle des questions de connaissance</strong> pour les mentions carte de séjour
+pluriannuelle et carte de résident ; celle de la mention naturalisation est sur le site du
+ministère. Seules les 12 questions de mise en situation ne sont pas publiées.</div>
+
+<ul>
+<li><strong>La mauvaise mention.</strong> Une attestation « carte de séjour pluriannuelle » ne
+vaut pas pour la carte de résident ni pour la naturalisation ; l'inverse fonctionne pour la carte
+de résident vers la pluriannuelle. En cas de doute, passez la mention la plus haute dont vous
+aurez besoin.</li>
+<li><strong>Le test de français, en plus.</strong> L'examen civique ne remplace pas le niveau de
+langue : A2 pour la carte pluriannuelle, B1 pour la carte de résident, B2 pour la naturalisation,
+à prouver par un <a href="/blog/ou-passer-le-tcf-irn-en-france/">TCF IRN</a>, un TEF IRN ou un
+<a href="/blog/ou-passer-le-delf-en-france/">diplôme DELF</a>. Deux inscriptions, deux dates.</li>
+<li><strong>L'attestation de complaisance.</strong> Les centres contrôlent l'identité ; l'arrêté du
+10 octobre 2025 prévoit qu'en cas de fraude ou de tentative de fraude, le candidat ne peut plus se
+présenter pendant deux ans, et l'examen est annulé en cas de fausse identité ou de substitution
+de personne. Un site qui promet une attestation « sans passer l'examen » vend un faux.</li>
+<li><strong>Le mauvais réseau.</strong> Un centre TCF n'est pas automatiquement un centre d'examen
+civique, et réciproquement : vérifiez la catégorie « examen civique » sur la carte de FEI ou la
+présence du centre dans l'outil de la CCIP.</li>
+</ul>
+""" % {"serie": serie("/blog/ou-passer-l-examen-civique/")},
+    "cta_h2": "Le civique se prépare gratuitement ; le B2, lui, se travaille",
+    "cta_p": """L'examen civique a ses questions publiées ; le test de français qui l'accompagne, non. Les
+examens blancs de l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent le TCF IRN, le
+TEF IRN et le DELF au format officiel, avec la correction IA de l'écrit et de l'oral — pour arriver
+au B2 exigé depuis 2026 avant de payer la session.""",
+    "faq": [
+        ("Où passer l'examen civique&nbsp;?",
+         "Dans un centre agréé par l'un des deux organismes habilités par le ministère de l'Intérieur : France Éducation international — 244 centres en France au 17 septembre 2026, sur sa carte des centres « examen civique », pré-inscription sur test-civique.fr — ou la CCI Paris Île-de-France, dont l'outil « Trouver une session » liste les centres et leurs dates. L'examen se passe sur place, sur ordinateur ou tablette."),
+        ("Comment s'inscrire à l'examen civique&nbsp;?",
+         "Pour un centre FEI, par le formulaire de pré-inscription test-civique.fr : département, ville, centre, mention (carte de séjour pluriannuelle, carte de résident ou naturalisation), coordonnées et numéro étranger AGDREF ; le centre vous propose ensuite une date et encaisse le paiement. Pour un centre CCIP, par l'outil « Trouver une session » de francais.cci-paris-idf.fr, puis auprès du centre."),
+        ("Combien coûte l'examen civique&nbsp;?",
+         "Aucun texte ne fixe de tarif : chaque centre décide. Relevés le 17 septembre 2026 : 70 € à Espaces Formation (Nantes), 75 € à l'Alliance française de Montpellier, 80 € en semaine et 90 € le samedi chez Etoile Institut (Paris), 110 € chez ACCORD (Paris). La préparation, elle, est gratuite sur le site du ministère."),
+        ("Quelle mention choisir&nbsp;?",
+         "Celle de votre démarche : « carte de séjour pluriannuelle », « carte de résident » ou « naturalisation ». La mention carte de résident vaut aussi pour la carte pluriannuelle, mais pas l'inverse, et aucune des deux ne vaut pour la naturalisation. Le format est le même — 40 questions, 45 minutes, 32 bonnes réponses —, seule la difficulté change."),
+        ("Combien de temps pour recevoir l'attestation, et combien de temps est-elle valable&nbsp;?",
+         "Plusieurs centres annoncent l'attestation « sous 12 heures » (ACCORD à Paris, Espaces Formation à Nantes). Elle n'a pas de durée de validité, et l'examen peut être repassé « à tout moment et autant de fois que nécessaire » — chaque passage étant payant."),
+        ("Peut-on passer l'examen civique à l'étranger&nbsp;?",
+         "Oui, dans les Instituts français, les Alliances françaises et auprès des autorités consulaires. L'Institut français d'Algérie l'organise à Alger pour 9 000 dinars, avec une pré-inscription sur test-civique.fr et un paiement sur place ou par virement. La carte des centres de FEI se filtre par pays."),
+        ("Faut-il aussi passer un test de français&nbsp;?",
+         "Oui, l'examen civique s'ajoute au niveau de langue exigé : A2 pour une première carte pluriannuelle, B1 pour une première carte de résident, B2 pour la naturalisation. Le niveau se prouve par un TCF IRN, un TEF IRN ou un diplôme DELF-DALF — dans un centre qui n'est pas forcément le même."),
+    ],
+    "also": [
+        ("/blog/naturalisation-2026-niveau-b2/", "Naturalisation 2026 : le niveau B2 est devenu obligatoire", "Ce qui change depuis janvier 2026, les justificatifs, l'examen civique, le régime transitoire."),
+        ("/blog/carte-de-resident-b1-2026/", "Carte de résident : le B1 exigé depuis janvier 2026", "Qui est concerné, les dispenses, l'examen civique et le coût réel de la démarche."),
+        ("/blog/ou-passer-le-tcf-irn-en-france/", "Où passer le TCF IRN en France&nbsp;?", "Sept centres à Paris, des sessions chaque semaine, 140 à 220 € selon le centre."),
+        ("/tcf-irn/", "TCF IRN : le test de français pour votre naturalisation", "Niveaux exigés depuis 2026, format des quatre épreuves, échelle sur 499."),
+    ],
+    "sources": """<strong>Sources.</strong> Ministère de l'Intérieur, formation-civique.interieur.gouv.fr,
+page « Informations générales sur l'examen civique » (organismes agréés, liens d'inscription,
+format, seuil, validité, gratuité de la préparation), consultée le 17 septembre 2026 ; arrêté du
+10 octobre 2025 relatif au programme, aux épreuves et aux modalités d'organisation de l'examen
+civique (Légifrance) ; fiches Service-Public F39426 et F39530 ; liste et carte des centres
+d'examen civique de France Éducation international (filtre « France ») et formulaire de
+pré-inscription test-civique.fr, consultés le 17 septembre 2026 ; outil « Trouver une session »
+du Français des affaires (CCI Paris Île-de-France), recherche « Paris, examen civique mention
+naturalisation », consulté le 17 septembre 2026 ; pages examen civique d'ACCORD (grille tarifaire
+2026), d'Etoile Institut, de l'Alliance française de Montpellier, d'Espaces Formation, de
+l'Alliance française Paris Île-de-France et de l'Institut français d'Algérie, consultées le
+17 septembre 2026. Les tarifs et sessions changent sans préavis.""",
+}
+
+
+ARTICLES = [DELF, IRN, CAN_FR, CAN_CA, HUB, DZ, MA, TN, CIV]
 
 if __name__ == "__main__":
     force = "--force" in sys.argv
