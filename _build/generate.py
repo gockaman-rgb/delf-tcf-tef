@@ -236,7 +236,7 @@ par rapport à son premier essai, à français égal.</p>
 {"url": "/delf-b2/", "accent": "accent-delf", "crumb": "DELF B2",
  "title": "DELF B2 2026 : épreuves, barème et méthode pour réussir",
  "desc": "Tout sur le DELF B2 : les 4 épreuves sur 100 points, les seuils à connaître, le format 2020 en QCM et une méthode de préparation épreuve par épreuve.",
- "h1": "DELF B2 : le diplôme qui ouvre les universités françaises",
+ "h1": "DELF B2 : le diplôme à vie pour la naturalisation, le titre de séjour et l'université",
  "intro": "Le DELF B2 est le sésame le plus demandé : admission à l'université française, candidatures, preuve de niveau valable à vie. C'est aussi un examen exigeant, où la méthode compte autant que le niveau de langue.",
  "body": """<div class="facts"><strong>L'essentiel</strong><ul>
 <li>4 épreuves notées chacune sur 25 : compréhension orale, compréhension écrite, production écrite, production orale. Total sur <strong>100</strong>.</li>

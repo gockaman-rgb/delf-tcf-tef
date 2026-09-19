@@ -223,7 +223,7 @@ identifier ce que votre dossier demande réellement avant de cumuler."""),
  "Si vous avez tranché pour un test : les neuf versions côte à côte."),
 ("/blog/b1-ou-b2-nationalite-francaise/", "B1 ou B2 pour la nationalité française ?",
  "Quel niveau pour quelle démarche française, et comment le prouver."),
-("/delf-b2/", "DELF B2 : le diplôme qui ouvre les universités françaises",
+("/delf-b2/", "DELF B2 : le diplôme à vie pour la naturalisation, le titre de séjour et l'université",
  "Format réformé, barème sur 100 et méthode épreuve par épreuve."),
 ],
 "sources": """<strong>Les listes de justificatifs évoluent.</strong> Cette page est à jour au

@@ -219,7 +219,7 @@ pas recevables pour un titre de séjour."""),
  "Format, échelle sur 499, prix et CPF du test conçu pour ces démarches."),
 ("/blog/tcf-irn-ou-tef-irn/", "TCF IRN ou TEF IRN : lequel choisir ?",
  "Les deux tests de naturalisation comparés, format et prix à l'appui."),
-("/delf-b2/", "DELF B2 : le diplôme qui ouvre les universités françaises",
+("/delf-b2/", "DELF B2 : le diplôme à vie pour la naturalisation, le titre de séjour et l'université",
  "L'alternative « diplôme » : plus longue à passer, mais elle n'expire jamais."),
 ],
 "sources": """<strong>La réglementation évolue.</strong> Cette page est à jour au 7 août 2026 et ne
