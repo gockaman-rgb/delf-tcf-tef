@@ -100,6 +100,9 @@ PAGES = [
     ("centres-tcf-ameriques", "Centres TCF aux Amériques", "51", "États-Unis · Brésil · Mexique · Colombie"),
     ("centres-tcf-moyen-orient", "Centres TCF au Moyen-Orient", "16", "Liban · Émirats · Égypte · Turquie"),
     ("centres-tcf-inde", "Centres TCF en Inde", "7", "Alliances françaises agréées"),
+    # dates (19/09/2026)
+    ("tcf-canada-dates-2026", "Dates TCF Canada 2026", "0", "calendrier national : les dates sont celles des centres"),
+    ("calendrier-delf-dalf-2026-2027", "Calendrier DELF-DALF 2026-2027", "10", "sessions par an, jamais en avril ni en septembre"),
 ]
 
 

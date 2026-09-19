@@ -8,10 +8,13 @@ Les indices `faq` renvoient à la FAQ du pilier source (ordre d'origine) ; une q
 figure que sur une page.
 """
 
+from nclc_calc import CALC as NCLC_CALC  # noqa: E402
+
 EXAMS = {}
 
 # ---------------------------------------------------------------------------
 EXAMS["tcf-canada"] = dict(
+    villes=['tcf-montreal', 'tcf-toronto', 'tcf-quebec-ville', 'tcf-ottawa', 'tcf-vancouver', 'tcf-paris', 'tcf-lyon', 'tcf-montpellier', 'tcf-alger', 'tcf-oran', 'tcf-casablanca', 'tcf-rabat', 'tcf-tunis'],
     name="TCF Canada",
     landing_short="Ce qu'est le test, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le TCF Canada ?",
@@ -71,10 +74,11 @@ points avant même que le niveau de français n'entre en jeu.""",
                     "Pour la citoyenneté, seules les deux épreuves orales sont exigées."],
              faq=[0, 6]),
         dict(slug="score-nclc", crumb="Score et NCLC", sections=["notation", "nclc"],
-             title="Score TCF Canada et NCLC : la table de conversion",
-             desc="Compréhensions sur 699, expressions sur 20, et la table officielle de conversion en NCLC : 458 en compréhension orale et 453 à l'écrit pour le NCLC 7.",
-             desc_short="Les bandes de scores et la conversion en NCLC.",
-             h1="Score TCF Canada et niveau NCLC : comment vous êtes noté",
+             extra_top=NCLC_CALC, toc_top=[("calculateur-titre", "Calculateur TCF Canada → NCLC")],
+             title="Score TCF Canada et NCLC : calculateur et table",
+             desc="Convertissez vos scores TCF Canada en NCLC avec le calculateur, et la table officielle d'IRCC : 458 en compréhension orale et 453 à l'écrit pour le NCLC 7.",
+             desc_short="Le calculateur, les bandes de scores et la table NCLC.",
+             h1="Score TCF Canada et niveau NCLC : le calculateur et la table",
              intro="""Au TCF Canada, les deux compréhensions sont notées de <strong>100 à 699</strong> et les deux
 expressions de <strong>1 à 20</strong> ; chaque note correspond à un niveau du CECRL, puis à un
 <strong>niveau NCLC</strong>, le seul qu'IRCC lise. Le NCLC 7 exige <strong>458 en compréhension orale,
@@ -123,6 +127,7 @@ relevés, les centres avec leurs contacts, et les règles à connaître avant de
 
 # ---------------------------------------------------------------------------
 EXAMS["tcf-irn"] = dict(
+    villes=['tcf-paris', 'tcf-lyon', 'tcf-marseille', 'tcf-toulouse', 'tcf-montpellier', 'tcf-bordeaux', 'tcf-nantes', 'tcf-rennes', 'tcf-strasbourg', 'tcf-lille', 'tcf-nice'],
     name="TCF IRN",
     landing_short="Ce qu'est le test de naturalisation, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le TCF IRN ?",
@@ -216,6 +221,7 @@ pièges, et six centres avec leurs contacts.""",
 
 # ---------------------------------------------------------------------------
 EXAMS["tcf-quebec"] = dict(
+    villes=['tcf-montreal', 'tcf-quebec-ville', 'tcf-toronto', 'tcf-ottawa', 'tcf-vancouver', 'tcf-paris', 'tcf-lyon', 'tcf-montpellier', 'tcf-marseille'],
     name="TCF Québec",
     landing_short="Ce qu'est le test modulaire du Québec, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le TCF Québec ?",
@@ -417,6 +423,7 @@ parisiens relevés.""",
 
 # ---------------------------------------------------------------------------
 EXAMS["delf-b1"] = dict(
+    villes=['delf-paris', 'delf-lyon', 'delf-lille', 'delf-nantes', 'delf-bordeaux', 'delf-marseille', 'delf-toulouse', 'delf-montpellier', 'delf-strasbourg'],
     name="DELF B1",
     landing_short="Ce qu'est le diplôme de niveau seuil, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le DELF B1 ?",
@@ -528,6 +535,7 @@ sessions, six centres avec leurs contacts, et le chemin vers l'annuaire complet.
 
 # ---------------------------------------------------------------------------
 EXAMS["delf-b2"] = dict(
+    villes=['delf-paris', 'delf-lyon', 'delf-lille', 'delf-nantes', 'delf-bordeaux', 'delf-marseille', 'delf-toulouse', 'delf-montpellier', 'delf-strasbourg'],
     name="DELF B2",
     landing_short="Ce qu'est le diplôme B2, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le DELF B2 ?",
@@ -641,6 +649,7 @@ sessions, six centres avec leurs contacts, et le chemin vers l'annuaire complet.
 
 # ---------------------------------------------------------------------------
 EXAMS["dalf"] = dict(
+    villes=['delf-paris', 'delf-lyon', 'delf-lille', 'delf-nantes', 'delf-bordeaux', 'delf-marseille', 'delf-toulouse', 'delf-montpellier', 'delf-strasbourg'],
     name="DALF C1 · C2",
     landing_short="Ce que sont les diplômes avancés, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le DALF ?",

@@ -122,3 +122,33 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   page. Pour retoucher un texte : éditer la source ou la configuration, puis
   `python3 _build/exam_hubs.py` — jamais les pages générées.
 - En-tête : lien « Centres » ajouté (6 liens) sur toutes les pages et les trois gabarits.
+
+## Pages par ville, dates, calculateur NCLC (19/09/2026, soir)
+
+- **39 pages par ville** sous `/centres/` — ce que les gens tapent (« tcf canada paris »,
+  « centre tcf alger », « où passer le delf b2 à paris »…) : TCF à Paris, Lyon, Marseille,
+  Toulouse, Montpellier, Bordeaux, Nantes, Rennes, Strasbourg, Lille, Nice ; Montréal, Toronto,
+  Québec, Ottawa, Vancouver ; Alger, Oran, Constantine, Annaba, Tlemcen ; Casablanca, Rabat,
+  Marrakech, Tanger, Fès, Agadir ; Tunis, Sousse, Sfax ; DELF à Paris, Lyon, Lille, Nantes,
+  Bordeaux, Marseille, Toulouse, Montpellier, Strasbourg. Générées par `python3 _build/make_villes.py
+  [--force]` à partir de `_build/villes_config.py` (textes, relevés du 17/09, FAQ) et des données
+  FEI de `_build/data/` (cartes des centres, contacts). Chaque page : chiffres-clés, centres agréés
+  de la ville (+ « À proximité »), tableau « ce que nous avons relevé », procédure d'inscription du
+  pays, guides, FAQ. Reliées depuis : l'annuaire et ses pages pays (bloc « Les guides par ville »,
+  `make_centres.py`), les guides « Où passer » (bloc en fin de corps, `articles_ou_passer.py`, qui
+  réinsère aussi la carte `.cta-inline` : plus rien à recoller après `--force`), les accueils
+  d'examen (chips sous la grille des modules, clé `villes` d'`exam_hubs_config.py`), l'accueil du
+  site et l'index du blog.
+- **Deux pages « dates »** (`_build/articles_dates.py`) : `/blog/tcf-canada-dates-2026/` (les sessions
+  relevées centre par centre, France · Maghreb · Canada) et `/blog/calendrier-delf-dalf-2026-2027/`
+  (les dix sessions nationales, écrits 2026 et 2027, fenêtres d'inscription).
+- **Calculateur TCF Canada → NCLC** en tête de `/tcf-canada/score-nclc/` (`_build/nclc_calc.py`,
+  inséré par la clé `extra_top` du module ; seuils = table IRCC de la page, tout se calcule dans le
+  navigateur). CSS `.calc*` en fin de `style.css`.
+- `/blog/prix-tcf-tef/` : section « Au Maghreb » (2 900 Dhs, 880 DT, Algérie non publié + faux
+  site), 390 $ Vancouver, FAQ enrichie — édité à la main (article du 07/08, hors générateur).
+- Données : trois adresses e-mail nominatives retirées de `_build/data/` (jamais de prénom.nom),
+  « nstitut français » (Fès) corrigé ; compte DELF harmonisé à **143** centres distincts (la liste
+  FEI en affiche 144, dont un doublon).
+- `python3 _build/check_site.py` : vérification de tout le site (balises, JSON-LD, liens, ancres,
+  images, OG, ids, h1, longueurs title/description) — à lancer avant chaque commit.

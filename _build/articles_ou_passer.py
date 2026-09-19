@@ -10,6 +10,7 @@ Usage : python3 _build/articles_ou_passer.py   (refuse d'écraser l'existant)
         python3 _build/articles_ou_passer.py --force
 """
 
+import re
 import sys
 from article_template import build, APP
 
@@ -58,19 +59,19 @@ DELF = {
     "accent": "accent-delf",
     "crumb": "Où passer le DELF en France",
     "title": "Où passer le DELF en France ? Centres, dates, inscription",
-    "desc": "144 centres agréés, 10 sessions par an, un DELF B2 de 125 à 280 € selon le centre : où passer le DELF en France et comment s'inscrire, ville par ville.",
+    "desc": "143 centres agréés, 10 sessions par an, un DELF B2 de 125 à 280 € selon le centre : où passer le DELF en France et comment s'inscrire, ville par ville.",
     "og_title": "Où passer le DELF en France ? Centres, dates, inscription",
-    "og_desc": "144 centres agréés, 10 sessions par an, un B2 de 125 à 280 € selon le centre. Où et comment s'inscrire, ville par ville.",
+    "og_desc": "143 centres agréés, 10 sessions par an, un B2 de 125 à 280 € selon le centre. Où et comment s'inscrire, ville par ville.",
     "h1": "Où passer le DELF en France&nbsp;? Les centres, les dates et l'inscription",
     "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 11,
-    "intro": """Le DELF se passe dans l'un des <strong>144 centres d'examen agréés</strong> par France
+    "intro": """Le DELF se passe dans l'un des <strong>143 centres d'examen agréés</strong> par France
 Éducation international en France — universités, Alliances françaises, GRETA, écoles de langue —,
 lors de l'une des <strong>dix sessions nationales</strong> de l'année. On s'inscrit <strong>auprès du
 centre</strong>, jamais auprès de FEI ni du rectorat, et c'est le centre qui fixe son prix, les
 sessions qu'il ouvre et sa fenêtre d'inscription. Sept centres à Paris, un à sept par grande ville
 en région — et des fenêtres d'inscription qui se referment parfois en deux jours.""",
     "facts": [
-        "<strong>144 centres agréés</strong> en France (liste officielle FEI, relevée le 17 septembre 2026) : 7 à Paris, 7 à Lyon, 5 à Toulouse, 3 à Marseille, Bordeaux et Strasbourg.",
+        "<strong>143 centres agréés</strong> en France (liste officielle FEI, relevée le 17 septembre 2026) : 7 à Paris, 7 à Lyon, 5 à Toulouse, 3 à Marseille, Bordeaux et Strasbourg.",
         "<strong>10 sessions par an</strong>, en 2026 comme en 2027 — jamais en avril ni en septembre. Prochaines : <strong>6-8 octobre, 3-5 novembre, 1-3 décembre 2026</strong>.",
         "Prix libre, fixé par chaque centre : <strong>DELF B2 de 125 € à 280 €</strong>, B1 de 125 € à 230 €, sur les centres relevés.",
         "⚠️ <strong>L'inscription ferme tôt</strong> : quatre à huit semaines avant l'écrit, parfois sur deux jours seulement — et des sessions affichent complet des mois à l'avance.",
@@ -105,7 +106,7 @@ lieux d'examen. » Il n'existe donc <strong>ni inscription centrale, ni tarif na
 calendrier unique par centre</strong> — seulement un calendrier national de dates possibles, dans
 lequel chaque centre pioche.</p>
 
-<p>Les 144 centres agréés en France se répartissent en quatre familles : les
+<p>Les 143 centres agréés en France se répartissent en quatre familles : les
 <strong>universités</strong> (services universitaires de langues, comme le DEFLE de Bordeaux
 Montaigne ou l'i-FLE de Nantes Université), les <strong>Alliances françaises</strong> (Paris, Lyon,
 Lille, Bordeaux, Grenoble, Strasbourg, Aix-Marseille, Toulouse…), les <strong>GRETA</strong> et
@@ -322,7 +323,7 @@ la publication des résultats. Les examens blancs de l'app «&nbsp;TCF DELF TEF&
 de 50 et la correction IA de la production écrite et de l'oral.""",
     "faq": [
         ("Où s'inscrire au DELF en France&nbsp;?",
-         "Uniquement auprès d'un centre d'examen agréé par France Éducation international — il y en a 144 en France, dont sept à Paris. C'est le centre qui prend l'inscription, fixe le tarif et convoque ; ni FEI ni le rectorat n'inscrivent de candidats. La liste officielle des centres, avec téléphone et site, est publiée par FEI."),
+         "Uniquement auprès d'un centre d'examen agréé par France Éducation international — il y en a 143 en France, dont sept à Paris. C'est le centre qui prend l'inscription, fixe le tarif et convoque ; ni FEI ni le rectorat n'inscrivent de candidats. La liste officielle des centres, avec téléphone et site, est publiée par FEI."),
         ("Quand ont lieu les sessions du DELF en 2026 et 2027&nbsp;?",
          "Dix sessions par an, jamais en avril ni en septembre. En 2026, il reste les sessions des 6-8 octobre, 3-5 novembre et 1-3 décembre ; en 2027 : 12-14 janvier, 2-4 février, 16-18 mars, 25-27 mai, 15-17 juin, 6-8 juillet, 3-5 août, 5-7 octobre, 16-18 novembre et 7-9 décembre. Le DELF B1 et le DELF B2 se passent toujours le mercredi. Chaque centre choisit les sessions qu'il ouvre."),
         ("Combien coûte le DELF B2&nbsp;?",
@@ -588,7 +589,7 @@ atteint, et corrigent votre écrit et votre oral sur les critères du test.""",
         ("/tcf-irn/", "TCF IRN : le test de français pour votre naturalisation", "Niveaux exigés depuis 2026, format des quatre épreuves, échelle sur 499, prix et CPF."),
         ("/blog/tcf-irn-ou-tef-irn/", "TCF IRN ou TEF IRN : le comparatif", "Même usage, même échelle, deux réseaux de centres — et un test adaptatif de l'autre côté."),
         ("/blog/exercices-tcf-irn/", "Exercices TCF IRN : les 4 épreuves corrigées", "Un exercice corrigé par épreuve, au niveau B2 exigé pour la naturalisation."),
-        ("/blog/ou-passer-le-delf-en-france/", "Où passer le DELF en France&nbsp;?", "Le diplôme valable à vie : 144 centres, dix sessions par an, et des fenêtres d'inscription à ne pas manquer."),
+        ("/blog/ou-passer-le-delf-en-france/", "Où passer le DELF en France&nbsp;?", "Le diplôme valable à vie : 143 centres, dix sessions par an, et des fenêtres d'inscription à ne pas manquer."),
     ],
     "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
 international (filtre « France ») et page « TCF IRN », consultées le 17 septembre 2026 ; pages
@@ -1162,7 +1163,7 @@ s'inscrit auprès du centre, qui fixe ses dates et son prix ; ni FEI ni la CCI n
 candidats. Choisissez votre examen et votre pays : chaque guide donne les centres, les prix
 relevés, les dates et le pas-à-pas.""",
     "facts": [
-        "<strong>144 centres DELF-DALF</strong> et <strong>251 centres TCF</strong> en France, <strong>47 centres TCF</strong> au Canada, 16 au Maroc, 14 en Tunisie, 5 en Algérie (liste FEI, 17 septembre 2026).",
+        "<strong>143 centres DELF-DALF</strong> et <strong>251 centres TCF</strong> en France, <strong>47 centres TCF</strong> au Canada, 16 au Maroc, 14 en Tunisie, 5 en Algérie (liste FEI, 17 septembre 2026).",
         "Un centre est agréé ou ne l'est pas : la seule preuve est la <strong>liste officielle</strong> de FEI (DELF, DALF, TCF) ou du Français des affaires (TEF).",
         "<strong>Aucun tarif national</strong> : du simple au double pour le même examen, parfois dans la même ville.",
         "⚠️ La <strong>place</strong> est le vrai goulot : fenêtres d'inscription de deux jours pour le DELF, sessions complètes en minutes pour le TCF Canada à Toronto ou Vancouver.",
@@ -1189,7 +1190,7 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <caption>Où passer chaque examen, pays par pays. Les guides sont datés ; les listes officielles de France Éducation international sont mises à jour par FEI.</caption>
 <thead><tr><th>Examen</th><th>France</th><th>Canada</th><th>Algérie</th><th>Maroc</th><th>Tunisie</th></tr></thead>
 <tbody>
-<tr><td><strong>DELF · DALF</strong> (diplômes, à vie)</td><td><a href="/blog/ou-passer-le-delf-en-france/">Guide : 144 centres, 10 sessions par an</a></td><td><a href="%(ca_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(dz_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_delf)s" rel="noopener">Liste FEI</a></td></tr>
+<tr><td><strong>DELF · DALF</strong> (diplômes, à vie)</td><td><a href="/blog/ou-passer-le-delf-en-france/">Guide : 143 centres, 10 sessions par an</a></td><td><a href="%(ca_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(dz_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_delf)s" rel="noopener">Liste FEI</a></td></tr>
 <tr><td><strong>TCF IRN</strong> (naturalisation, titres de séjour)</td><td><a href="/blog/ou-passer-le-tcf-irn-en-france/">Guide : centres, 140 à 220 €</a></td><td>—</td><td><a href="/blog/tcf-canada-algerie/#inscription">Mêmes antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/#prix">1 900 Dhs, sur place</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">625 DT à l'Institut</a></td></tr>
 <tr><td><strong>Examen civique</strong> (France, depuis 2026)</td><td><a href="/blog/ou-passer-l-examen-civique/">Guide : 244 centres FEI + réseau CCIP</a></td><td>—</td><td><a href="/blog/ou-passer-l-examen-civique/#etranger">IF Alger, 9 000 DA</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td></tr>
 <tr><td><strong>TCF Canada</strong> (IRCC)</td><td><a href="/blog/ou-passer-le-tcf-canada-en-france/">Guide : centres, 195 à 285 €</a></td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Guide : les 47 centres</a></td><td><a href="/blog/tcf-canada-algerie/">Guide : 5 antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/">Guide : 16 centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/">Guide : 14 centres, 880 DT</a></td></tr>
@@ -1200,7 +1201,7 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 </div>
 
 <div class="grid c2 guides">
-<div class="card card-link"><span class="tag">France · diplôme</span><h3><a href="/blog/ou-passer-le-delf-en-france/">Où passer le DELF en France&nbsp;?</a></h3><p>144 centres, le calendrier 2026-2027, les 7 centres parisiens, un B2 de 125 à 280 € et des fenêtres d'inscription de deux jours.</p></div>
+<div class="card card-link"><span class="tag">France · diplôme</span><h3><a href="/blog/ou-passer-le-delf-en-france/">Où passer le DELF en France&nbsp;?</a></h3><p>143 centres, le calendrier 2026-2027, les 7 centres parisiens, un B2 de 125 à 280 € et des fenêtres d'inscription de deux jours.</p></div>
 <div class="card card-link"><span class="tag">France · naturalisation</span><h3><a href="/blog/ou-passer-le-tcf-irn-en-france/">Où passer le TCF IRN en France&nbsp;?</a></h3><p>Des sessions chaque semaine à Paris, 140 à 220 € selon le centre, papier ou ordinateur, et l'examen civique à ne pas oublier.</p></div>
 <div class="card card-link"><span class="tag">France · Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-en-france/">Où passer le TCF Canada en France&nbsp;?</a></h3><p>Les centres qui le proposent — pas tous —, 195 à 285 €, des sessions mensuelles et la fin des recorrections.</p></div>
 <div class="card card-link"><span class="tag">Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Où passer le TCF Canada au Canada&nbsp;?</a></h3><p>Les 47 centres agréés par province, 390 à 440 $, et la méthode pour décrocher une place quand tout affiche complet.</p></div>
@@ -1276,7 +1277,7 @@ pour un test qui n'a pas eu lieu. Le bon réflexe tient en une étape : partir d
 du Français des affaires, et ne cliquer que sur le site qui y figure. FEI rappelle que « la fraude
 et la tentative de fraude à un examen ou un test officiel du gouvernement français sont des délits
 qui entraînent des sanctions disciplinaires et des procédures pénales ».</p>
-""" % {"stats": stats([("144", "centres DELF en France", "liste FEI du 17/09/2026"),
+""" % {"stats": stats([("143", "centres DELF en France", "liste FEI du 17/09/2026"),
                        ("251", "centres TCF en France", "dont 126 sur ordinateur"),
                        ("47", "centres TCF au Canada", "neuf provinces et le Nunavut"),
                        ("35", "centres TCF au Maghreb", "Maroc 16 · Tunisie 14 · Algérie 5")]),
@@ -2221,9 +2222,56 @@ l'Alliance française Paris Île-de-France et de l'Institut français d'Algérie
 
 ARTICLES = [DELF, IRN, CAN_FR, CAN_CA, HUB, DZ, MA, TN, CIV]
 
+# Pages par ville (make_villes.py) reliées depuis chaque guide : (pays, examen) → chips en fin de corps.
+VILLES_DE = {"ou-passer-le-delf-en-france": [("fr", "delf")], "ou-passer-le-tcf-irn-en-france": [("fr", "tcf")],
+             "ou-passer-le-tcf-canada-en-france": [("fr", "tcf")], "ou-passer-le-tcf-canada-au-canada": [("ca", "tcf")],
+             "tcf-canada-algerie": [("dz", "tcf")], "tcf-canada-maroc": [("ma", "tcf")], "tcf-canada-tunisie": [("tn", "tcf")],
+             "ou-passer-l-examen-civique": [("fr", "tcf")],
+             "ou-passer": [("fr", "tcf"), ("fr", "delf"), ("ca", "tcf"), ("dz", "tcf"), ("ma", "tcf"), ("tn", "tcf")]}
+VILLES_LABEL = {("fr", "tcf"): "TCF en France", ("fr", "delf"): "DELF en France", ("ca", "tcf"): "TCF au Canada",
+                ("dz", "tcf"): "TCF en Algérie", ("ma", "tcf"): "TCF au Maroc", ("tn", "tcf"): "TCF en Tunisie"}
+
+# Carte « Entraînez-vous » insérée avant le 3e h2 de chaque guide (le hub n'en a pas).
+CTA_INLINE = ('<aside class="cta-inline"><img src="/img/favicon-192.png" alt="" width="44" height="44" loading="lazy"><div>'
+              '<b>Entraînez-vous dans les conditions réelles</b><span>Examens blancs au format officiel et correction IA de l\'écrit '
+              'et de l\'oral, dans l\'app TCF DELF TEF — sans compte.</span></div>'
+              '<a class="btn" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Télécharger</a></aside>\n')
+
+
+def villes_chips(slug):
+    from villes_config import VILLES
+    keys = VILLES_DE.get(slug, [])
+    blocks = []
+    for key in keys:
+        items = [(f"/centres/{v['slug']}/", v["crumb"]) for v in VILLES if (v["country"], v["exam"]) == key]
+        if not items:
+            continue
+        head = f'<p class="serie-label">{VILLES_LABEL[key]}</p>\n' if len(keys) > 1 else ""
+        blocks.append(head + '<div class="chips">\n' + "\n".join(f'<a class="chip" href="{u}">{t}</a>' for u, t in items) + "\n</div>")
+    if not blocks:
+        return ""
+    return ('\n<h2 id="guides-villes">Les guides par ville</h2>\n<p>Pour les grandes villes, une page réunit les centres agréés avec '
+            'leurs contacts, ce que leurs sites affichaient le 17 septembre 2026 — examens proposés, prix, dates — et la '
+            'procédure d\'inscription :</p>\n' + "\n".join(blocks) + "\n")
+
+
+def finalize(a):
+    a = dict(a)
+    vc = villes_chips(a["slug"])
+    if vc:
+        a["body"] = a["body"].rstrip() + "\n" + vc
+        a["toc"] = list(a.get("toc", [])) + [("guides-villes", "Les guides par ville")]
+    if a["slug"] != "ou-passer" and "cta-inline" not in a["body"]:
+        parts = re.split(r'(?=<h2 id=")', a["body"])
+        if len(parts) > 3:
+            parts[3] = CTA_INLINE + parts[3]
+            a["body"] = "".join(parts)
+    return a
+
+
 if __name__ == "__main__":
     force = "--force" in sys.argv
     for a in ARTICLES:
         assert len(a["title"]) <= 60, (a["slug"], len(a["title"]))
         assert len(a["desc"]) <= 160, (a["slug"], len(a["desc"]))
-    build(ARTICLES, overwrite=force)
+    build([finalize(a) for a in ARTICLES], overwrite=force)

@@ -81,6 +81,8 @@ PAGE_SECTION = {
     "centres/tcf-algerie": "ou-passer", "centres/tcf-maroc": "ou-passer", "centres/tcf-tunisie": "ou-passer",
     "centres/tcf-afrique": "ou-passer", "centres/tcf-europe": "ou-passer", "centres/tcf-ameriques": "ou-passer",
     "centres/tcf-moyen-orient": "ou-passer", "centres/tcf-inde": "ou-passer",
+    "centres/tcf-paris": "ou-passer", "centres/tcf-lyon": "ou-passer", "centres/tcf-marseille": "ou-passer", "centres/tcf-toulouse": "ou-passer", "centres/tcf-montpellier": "ou-passer", "centres/tcf-bordeaux": "ou-passer", "centres/tcf-nantes": "ou-passer", "centres/tcf-rennes": "ou-passer", "centres/tcf-strasbourg": "ou-passer", "centres/tcf-lille": "ou-passer", "centres/tcf-nice": "ou-passer", "centres/tcf-montreal": "ou-passer", "centres/tcf-toronto": "ou-passer", "centres/tcf-quebec-ville": "ou-passer", "centres/tcf-ottawa": "ou-passer", "centres/tcf-vancouver": "ou-passer", "centres/tcf-alger": "ou-passer", "centres/tcf-oran": "ou-passer", "centres/tcf-constantine": "ou-passer", "centres/tcf-annaba": "ou-passer", "centres/tcf-tlemcen": "ou-passer", "centres/tcf-casablanca": "ou-passer", "centres/tcf-rabat": "ou-passer", "centres/tcf-marrakech": "ou-passer", "centres/tcf-tanger": "ou-passer", "centres/tcf-fes": "ou-passer", "centres/tcf-agadir": "ou-passer", "centres/tcf-tunis": "ou-passer", "centres/tcf-sousse": "ou-passer", "centres/tcf-sfax": "ou-passer", "centres/delf-paris": "ou-passer", "centres/delf-lyon": "ou-passer", "centres/delf-lille": "ou-passer", "centres/delf-nantes": "ou-passer", "centres/delf-bordeaux": "ou-passer", "centres/delf-marseille": "ou-passer", "centres/delf-toulouse": "ou-passer", "centres/delf-montpellier": "ou-passer", "centres/delf-strasbourg": "ou-passer",
+    "blog/tcf-canada-dates-2026": "ou-passer", "blog/calendrier-delf-dalf-2026-2027": "ou-passer",
     "blog/prix-tcf-tef": "argent", "blog/cpf-test-francais": "argent",
     "blog/repasser-tcf-tef": "argent", "blog/validite-attestation-tcf-tef": "argent",
     "examens-blancs": "epreuves", "blog/examen-blanc-tcf-gratuit": "epreuves",
@@ -253,7 +255,7 @@ def build():
 <article class="page"><div class="wrap narrow">
 <p class="crumb"><a href="/">Accueil</a> › Toutes les questions</p>
 <h1>Toutes vos questions sur le DELF, le TCF et le TEF</h1>
-<p class="meta">Par <a href="/a-propos/">Augusto Grone</a> · Mis à jour le 17 septembre 2026 · {total} questions</p>
+<p class="meta">Par <a href="/a-propos/">Augusto Grone</a> · Mis à jour le 19 septembre 2026 · {total} questions</p>
 
 <p class="intro">Les <strong>{total} questions</strong> traitées sur ce site, classées par thème.
 Chaque question renvoie à la page qui y répond, avec ses sources et sa date de vérification. Si

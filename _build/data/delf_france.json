@@ -599,9 +599,7 @@
    "city_cp": "Istres",
    "address": "Allée des Échoppes, Bâtiment A4",
    "phone": "07 49 14 23 64",
-   "emails": [
-    "monica.lafarandole@gmail.com"
-   ],
+   "emails": [],
    "url": "https://languesfarandole.wordpress.com/",
    "so": false
   },
@@ -1168,9 +1166,7 @@
    "city_cp": "Paris",
    "address": "7-11, avenue des Chasseurs",
    "phone": "+33144107725",
-   "emails": [
-    "yves.delafoy@ccfs-sorbonne.fr"
-   ],
+   "emails": [],
    "url": "http://www.ccfs-sorbonne.fr",
    "so": false
   },

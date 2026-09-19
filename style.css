@@ -632,3 +632,18 @@ article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
   .steps li { padding-left: 54px; }
   .steps li::before { left: 12px; width: 28px; height: 28px; font-size: .9em; }
 }
+
+/* Calculateur NCLC (2026-09-19) */
+.calc { border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 6px; margin: 1.6em 0 2em; background: var(--bg2); }
+.calc h2 { margin-top: 0; }
+.calc-form { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 18px; margin: 14px 0 18px; }
+.calc-form label { display: flex; flex-direction: column; gap: 6px; font-size: .9em; font-weight: 600; }
+.calc-form label b { font-weight: 600; }
+.calc-form label span { font-weight: 400; color: var(--muted); font-size: .9em; }
+.calc-form input { font: inherit; font-size: 1.05em; padding: 9px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); width: 100%; box-sizing: border-box; }
+.calc-form input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.calc-out table { margin: 0; }
+.calc-out td[data-out$="-nclc"] { font-weight: 700; color: var(--accent); }
+.calc-verdict { font-weight: 600; margin: 14px 0 6px; }
+.calc-note { color: var(--muted); margin: 8px 0 12px; }
+@media (max-width: 560px) { .calc-form { grid-template-columns: 1fr; } }

@@ -110,11 +110,13 @@ def build_exam(slug, cfg):
             keep |= set(re.findall(r'\sid="([^"]+)"', src["sections"][sec][1]))
         body = "\n\n".join(f'<h2 id="{sec}">{src["sections"][sec][0]}</h2>\n{src["sections"][sec][1]}' for sec in sp["sections"])
         body = remap(body, amap, keep)
+        if sp.get("extra_top"):
+            body = sp["extra_top"] + "\n" + body
         faq = [src["faq"][i] for i in sp["faq"]] + [(q, a) for q, a in sp.get("faq_extra", [])]
         faq_used.update(sp["faq"])
         siblings = [(f"/{slug}/{o['slug']}/", o["crumb"], o["desc_short"]) for o in spokes if o is not sp]
         also = [(f"/{slug}/", f"{name} : la page d'accueil", cfg["landing_short"])] + siblings[:3]
-        toc = [(sec, re.sub(r"<[^>]+>", "", src["sections"][sec][0])) for sec in sp["sections"]]
+        toc = list(sp.get("toc_top", [])) + [(sec, re.sub(r"<[^>]+>", "", src["sections"][sec][0])) for sec in sp["sections"]]
         a = {
             "section": slug, "section_name": name, "og_slug": slug,
             "slug": sp["slug"], "accent": src["accent"], "crumb": sp["crumb"],
@@ -136,6 +138,12 @@ def build_exam(slug, cfg):
     mods = '<div class="grid c2 modules">\n' + "\n".join(
         f'<div class="card card-link"><span class="tag">{t}</span><h3><a href="{h}">{ti}</a></h3><p>{d}</p></div>'
         for t, ti, h, d in cfg["modules"]) + "\n</div>"
+    if cfg.get("villes"):
+        from villes_config import VILLES
+        by = {v["slug"]: v for v in VILLES}
+        mods += ('\n<p class="serie-label">Où passer, ville par ville</p>\n<div class="chips">\n'
+                 + "\n".join(f'<a class="chip" href="/centres/{sl}/">{by[sl]["crumb"]}</a>' for sl in cfg["villes"])
+                 + '\n<a class="chip" href="/centres/">Toutes les villes →</a>\n</div>')
     body = (f"{stats(pil['stats'])}\n\n<h2 id=\"quest-ce\">{cfg['what_h2']}</h2>\n{cfg['what']}\n\n"
             f"<h2 id=\"parcours\">Votre parcours en 5 étapes</h2>\n{steps(pil['steps'])}\n\n"
             f"<h2 id=\"modules\">Le dossier, module par module</h2>\n{mods}\n")

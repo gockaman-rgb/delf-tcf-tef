@@ -236,6 +236,32 @@ def chips(index):
     return '<div class="chips index">\n' + "\n".join(f'<a class="chip" href="#{i}">{esc(t)}</a>' for i, t in index) + "\n</div>"
 
 
+VILLES_KEY = {"tcf-france": ("fr", "tcf"), "delf-france": ("fr", "delf"), "tcf-canada": ("ca", "tcf"),
+              "tcf-algerie": ("dz", "tcf"), "tcf-maroc": ("ma", "tcf"), "tcf-tunisie": ("tn", "tcf")}
+
+
+def villes_of(key):
+    """Les pages par ville (make_villes.py) d'un pays et d'un examen : [(url, libellé)]."""
+    from villes_config import VILLES
+    country, exam = key
+    return [(f"/centres/{v['slug']}/", v["crumb"]) for v in VILLES if v["country"] == country and v["exam"] == exam]
+
+
+def villes_block(slug):
+    key = VILLES_KEY.get(slug)
+    if not key:
+        return ""
+    items = villes_of(key)
+    if not items:
+        return ""
+    exam = "TCF" if key[1] == "tcf" else "DELF"
+    what = "déclinaisons, prix, dates" if key[1] == "tcf" else "niveaux, prix, dates"
+    return (f'\n<h2 id="villes">Les guides par ville</h2>\n<p>Pour les grandes villes, une page réunit les centres {exam} '
+            f'agréés avec leurs contacts, ce que leurs sites affichaient le 17 septembre 2026 — {what} — '
+            'et la procédure d\'inscription :</p>\n<div class="chips">\n'
+            + "\n".join(f'<a class="chip" href="{u}">{esc(t)}</a>' for u, t in items) + "\n</div>\n")
+
+
 def stats(items):
     return '<div class="stats">\n' + "\n".join(
         f"<div class=\"stat\"><b>{b}</b><span>{s}</span>{('<em>' + e + '</em>') if e else ''}</div>"
@@ -308,7 +334,7 @@ def page(spec, datasets):
 <ul class="posts">
 {guides}
 </ul>
-
+{villes_block(spec["slug"])}
 <h2 id="liste">La liste, {spec['liste_label']}</h2>
 {chips(index)}
 
@@ -318,7 +344,8 @@ def page(spec, datasets):
 <p>{src_links}. Ces listes évoluent : FEI ajoute et retire des centres au fil des agréments — la
 nôtre est datée du {DATE_FR} ; en cas de doute, la liste de FEI fait foi.</p>
 """
-    toc = [("utiliser", "Avant de choisir un centre"), ("liste", f"La liste, {spec['liste_label']}")] + \
+    toc = [("utiliser", "Avant de choisir un centre")] + ([("villes", "Les guides par ville")] if villes_block(spec["slug"]) else []) + \
+          [("liste", f"La liste, {spec['liste_label']}")] + \
           [(i, t.split(" (")[0]) for i, t in index[:12]] + [("sources-officielles", "Les listes officielles")]
     a = {
         "section": "centres", "section_name": "Centres", "og_slug": "centres-" + spec["slug"],
@@ -747,6 +774,17 @@ relève du réseau du Français des affaires, souvent dans les mêmes Alliances.
 ]
 
 
+def villes_hub():
+    groups = [("France — TCF", ("fr", "tcf")), ("France — DELF", ("fr", "delf")), ("Canada", ("ca", "tcf")),
+              ("Algérie", ("dz", "tcf")), ("Maroc", ("ma", "tcf")), ("Tunisie", ("tn", "tcf"))]
+    out = []
+    for label, key in groups:
+        items = villes_of(key)
+        if items:
+            out.append(f'<p class="serie-label">{label}</p>\n<div class="chips">\n' + "\n".join(f'<a class="chip" href="{u}">{esc(t)}</a>' for u, t in items) + "\n</div>")
+    return "\n".join(out)
+
+
 def hub(pages_built):
     rows = []
     for spec, (n, so, ncity) in pages_built:
@@ -766,6 +804,12 @@ def hub(pages_built):
 </div>
 
 {table}
+
+<h2 id="villes">Les guides par ville</h2>
+<p>Pour {sum(len(villes_of(k)) for k in VILLES_KEY.values())} grandes villes, une page réunit les centres agréés avec leurs
+contacts, ce que leurs sites affichaient le 17 septembre 2026 — déclinaisons, prix, dates — et la
+procédure d'inscription du pays.</p>
+{villes_hub()}
 
 <h2 id="methode">D'où viennent ces listes</h2>
 <p>Toutes reprennent la <strong>liste officielle des centres d'examen de France Éducation
@@ -807,7 +851,7 @@ liste, puis vérifiez sur le site du centre la déclinaison, la date et le prix.
                   "Chaque liste dit qu'un centre est agréé, pas quelle déclinaison il organise : à vérifier sur son site.",
                   "Les prix et dates sont ceux du centre ; nos guides « Où passer » les ont relevés pour les principaux.",
                   "Un organisme absent de ces listes n'est pas agréé."],
-        "toc": [("listes", "Les listes, par examen et par pays"), ("methode", "D'où viennent ces listes"), ("regles", "Trois règles avant d'appeler un centre")],
+        "toc": [("listes", "Les listes, par examen et par pays"), ("villes", "Les guides par ville"), ("methode", "D'où viennent ces listes"), ("regles", "Trois règles avant d'appeler un centre")],
         "body": body,
         "cta_h2": "Le centre vous donne la date ; le score, c'est vous",
         "cta_p": """Une session se paie en entier et se repasse après un délai. Les examens blancs de l'app
