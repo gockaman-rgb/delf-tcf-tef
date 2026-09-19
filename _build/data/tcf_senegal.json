@@ -1,0 +1,48 @@
+{
+ "country": "Sénégal",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Dakar",
+   "cp": "",
+   "city_cp": "",
+   "address": "3, rue Parchappe BP 4003 - Dakar",
+   "phone": "221-33-821-08-22",
+   "emails": [
+    "examens@ifs.sn"
+   ],
+   "url": "http://www.institutfrancais-senegal.com",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Saint-Louis",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier nord Av Jean Mermoz BP 368 - Saint-Louis",
+   "phone": "221-33-938-26-26",
+   "emails": [
+    "secretariat.pedagogique@ifs.sn"
+   ],
+   "url": "https://ifs.sn/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Ziguinchor",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Djinabo BP 213 - Ziguinchor",
+   "phone": "221-78-597-84-48",
+   "emails": [
+    "secretariat@afziguinchor.org"
+   ],
+   "url": "http://www.afziguinchor.org",
+   "so": true
+  }
+ ]
+}

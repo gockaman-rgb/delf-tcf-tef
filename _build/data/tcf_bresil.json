@@ -1,0 +1,177 @@
+{
+ "country": "Brésil",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 14,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "PA - Alliance française",
+   "city": "Belém",
+   "cp": "",
+   "city_cp": "",
+   "address": "Trav. Rui Barbosa,1851 Batista Campos CNPJ 05.073.077/0001-05 66350-220 Belém - PA",
+   "phone": "559198441-8692",
+   "emails": [],
+   "url": "http://www.afbelem.com",
+   "so": true
+  },
+  {
+   "name": "MG - Alliance française",
+   "city": "Belo Horizonte",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Sergipe, 779 Funcionarios 30130-131 Belo Horizonte - MG",
+   "phone": "55-31-3291-5187",
+   "emails": [
+    "afbh@aliancafrancesabh.com.br"
+   ],
+   "url": "http://www.aliancafrancesabh.com.br",
+   "so": true
+  },
+  {
+   "name": "DF - Alliance française",
+   "city": "Brasilia",
+   "cp": "",
+   "city_cp": "",
+   "address": "SEPS EQ. 708/907 - Lote A 70390-079 Brasilia - DF",
+   "phone": "55-61-3262-7600",
+   "emails": [],
+   "url": "http://www.afbrasilia.org.br",
+   "so": true
+  },
+  {
+   "name": "PR - Alliance française",
+   "city": "Curitiba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Prudente de Moraes 1101 Centro 80430-234 Curitiba - PR",
+   "phone": "55-41-3223-4457",
+   "emails": [],
+   "url": "http://www.afcuritiba.com.br",
+   "so": true
+  },
+  {
+   "name": "SC - Alliance française",
+   "city": "Florianopolis",
+   "cp": "",
+   "city_cp": "",
+   "address": "rue Visconde de Ouro Preto 282 Centro 88020-040 Florianopolis - SC",
+   "phone": "55-48-3222-8925",
+   "emails": [
+    "affloripa@affloripa.com.br"
+   ],
+   "url": "http://www.affloripa.com.br",
+   "so": true
+  },
+  {
+   "name": "CE - Alliance française",
+   "city": "Fortaleza",
+   "cp": "",
+   "city_cp": "",
+   "address": "rua Catão Mamede, 900 Aldeota 60140-110 Fortaleza - CE",
+   "phone": "55-85-8180-4371",
+   "emails": [
+    "exames.oficiais@affortaleza.com"
+   ],
+   "url": "http://www.affortaleza.com/",
+   "so": true
+  },
+  {
+   "name": "SP - Alliance française",
+   "city": "Guanabara",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Candido Gomide , 65 Guanabara 130703-200 Guanabara - SP",
+   "phone": "55-19-3252-1063",
+   "emails": [],
+   "url": "http://www.afcampinas.com.br",
+   "so": true
+  },
+  {
+   "name": "RJ - Alliance française",
+   "city": "Niteroi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lopes Trovao, 52 2°andar, Icarai 24220-071 Niteroi - RJ",
+   "phone": "55-21-2710-9619",
+   "emails": [
+    "exame@aliancafrancesa.niteroi.br"
+   ],
+   "url": "http://www.aliancafrancesa.niteroi.br",
+   "so": true
+  },
+  {
+   "name": "RS - Alliance française",
+   "city": "Porto Alegre",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av.Cristóvão Colombo, 2240-402 90560-002 Porto Alegre - RS",
+   "phone": "55-51-984752606",
+   "emails": [],
+   "url": "http://www.afpoa.com.br",
+   "so": true
+  },
+  {
+   "name": "PE - Alliance française",
+   "city": "Recife",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Amaro Bezerra, 466 - Derby 52010-050 Recife - PE",
+   "phone": "55-81-3202-6262",
+   "emails": [
+    "info@af.rec.br"
+   ],
+   "url": "http://www.af.rec.br",
+   "so": true
+  },
+  {
+   "name": "RJ - Alliance française",
+   "city": "Rio de Janeiro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Muniz Barreto 746 / 746-A, Botafogo 22251.090 Rio de Janeiro - RJ",
+   "phone": "55-21-3299-2000",
+   "emails": [
+    "examens@rioaliancafrancesa.com.br"
+   ],
+   "url": "http://www.rioaliancafrancesa.com.br",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Salvador-BA",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. 7 de Setembro, 2726 Ladeira da Barra 40130-001 Salvador-BA",
+   "phone": "55-71-3336-7599",
+   "emails": [],
+   "url": "http://www.afbahia.com.br/",
+   "so": false
+  },
+  {
+   "name": "SP - Alliance française",
+   "city": "São Carlos",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua São Sebastião, 1572-Centro 13560-230 São Carlos - SP",
+   "phone": "55-8138-0377",
+   "emails": [],
+   "url": "https://www.afsaocarlos.com.br",
+   "so": true
+  },
+  {
+   "name": "SP - Alliance française",
+   "city": "São Paulo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Brig. Faria Lima, 2421 Pinheiros 01452-000 São Paulo - SP",
+   "phone": "55-11-3017-5699 / 55-11-3017-5694",
+   "emails": [
+    "exames@aliancafrancesa.com.br"
+   ],
+   "url": "http://www.aliancafrancesa.com.br",
+   "so": true
+  }
+ ]
+}

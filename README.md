@@ -89,3 +89,20 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   (sessions et prix dans le panier de chaque site), institutfrancais-tunisie.com (onglets
   réservation / frais / FAQ), formation-civique.interieur.gouv.fr, test-civique.fr (FEI) et
   l'outil « Trouver une session » de la CCIP.
+
+## Annuaire des centres et piliers en modules (19/09/2026)
+
+- `_build/data/*.json` : la liste officielle des centres de FEI, lue pays par pays le 19/09/2026
+  (`liste?pays=<id>&type-centre=<tcf|delf_dalf|examen_civique>`, extraction JS dans le navigateur
+  intégré, parsée par `data/parse_fei.py`). 832 centres, 32 listes. Les e-mails ne sont repris que
+  s'ils sont génériques (liste blanche de jetons : contact, examens, certifications…).
+- `_build/make_centres.py` : le hub `/centres/` et 12 listes (`/centres/tcf-france/`,
+  `delf-france`, `examen-civique-france`, `tcf-canada`, `tcf-algerie`, `tcf-maroc`, `tcf-tunisie`,
+  `tcf-afrique`, `tcf-europe`, `tcf-ameriques`, `tcf-moyen-orient`, `tcf-inde`), rendues par
+  `article_template.py` (`section="centres"`, `section_name`, `og_slug`). Relancer avec `--force`
+  après toute relecture de la liste FEI ; mettre à jour la date et les chiffres des `facts` calculés.
+- `_build/pillar_modules.py` : injecte dans les sept piliers, entre marqueurs `<!-- modules:… -->`
+  et `<!-- centres:… -->` (idempotent), le bandeau `.stats`, « Votre parcours en 5 étapes »
+  (`.steps`), la grille des modules et les principaux centres avec contacts dans la section
+  « Où passer ». Le texte rédigé des piliers n'est pas touché ; relancer après toute retouche.
+- En-tête : lien « Centres » ajouté (6 liens) sur toutes les pages et les trois gabarits.

@@ -1,0 +1,1761 @@
+{
+ "country": "France",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 144,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Syllabe",
+   "city": "Agen",
+   "cp": "47000",
+   "city_cp": "Agen",
+   "address": "145, avenue Henri Barbusse",
+   "phone": "0553878467",
+   "emails": [
+    "accueil2@syllabe47.fr"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "IS Aix-en-Provence",
+   "city": "Aix-En-Provence",
+   "cp": "13100",
+   "city_cp": "Aix-En-Provence",
+   "address": "30 avenue des Ecoles Militaires",
+   "phone": "0442934790",
+   "emails": [
+    "info@is-aix.com"
+   ],
+   "url": "http://www.is-aix.com",
+   "so": false
+  },
+  {
+   "name": "Université d’Aix-Marseille - SUL",
+   "city": "Aix-En-Provence",
+   "cp": "13621",
+   "city_cp": "Aix-En-Provence",
+   "address": "SUL- Service Universitaire des Langues, 29 avenue Robert Schuman, Bât. Porte T3, bureau 2.14",
+   "phone": "0413553220",
+   "emails": [
+    "sul-certifications@univ-amu.fr"
+   ],
+   "url": "https://www.univ-amu.fr/fr/public/sul-service-universitaire-des-langues",
+   "so": false
+  },
+  {
+   "name": "GRETA-CFA de Corse-du-Sud",
+   "city": "Ajaccio Cedex 1",
+   "cp": "20184",
+   "city_cp": "Ajaccio Cedex 1",
+   "address": "Avenue Napoléon III",
+   "phone": "0495296878",
+   "emails": [
+    "greta2a@ac-corse.fr"
+   ],
+   "url": "https://2a.gretacfa.corsica/",
+   "so": false
+  },
+  {
+   "name": "GO-ON Formation",
+   "city": "Ambérieu-En-Bugey",
+   "cp": "01500",
+   "city_cp": "Ambérieu-En-Bugey",
+   "address": "72 Avenue Roger Salengro",
+   "phone": "06 95 37 21 06",
+   "emails": [
+    "contact@go-on-formation.fr"
+   ],
+   "url": "https://go-on-formation.fr/",
+   "so": false
+  },
+  {
+   "name": "ISPA",
+   "city": "Amiens",
+   "cp": "80000",
+   "city_cp": "Amiens",
+   "address": "5 RUE DES FRANCS MURIERS",
+   "phone": "03 22 91 08 66",
+   "emails": [
+    "certifications@amiens-ispa.fr"
+   ],
+   "url": "http://www.amiens-ispa.fr",
+   "so": false
+  },
+  {
+   "name": "CeLFE - Direction de l'International - Université d'Angers",
+   "city": "Angers",
+   "cp": "49045",
+   "city_cp": "Angers",
+   "address": "La Passerelle 2 rue Lakanal",
+   "phone": "02 44 68 86 53",
+   "emails": [
+    "celfe@univ-angers.fr"
+   ],
+   "url": "https://www.univ-angers.fr/fr/international/apprendre-le-francais-au-celfe.html",
+   "so": false
+  },
+  {
+   "name": "LE CLUB DES LANGUES",
+   "city": "Anglet",
+   "cp": "64600",
+   "city_cp": "Anglet",
+   "address": "12 RUE DE L'INDUSTRIE",
+   "phone": "0559086774",
+   "emails": [
+    "leclubdeslangues@gmail.com"
+   ],
+   "url": "http://leclubdeslangues.com/",
+   "so": false
+  },
+  {
+   "name": "CILFA (Centre international de langue française d'Annecy)",
+   "city": "Annecy",
+   "cp": "74940",
+   "city_cp": "Annecy",
+   "address": "3 RUE DES MARTYRS",
+   "phone": "04 50 09 15 44",
+   "emails": [],
+   "url": "http://www.cilfa.fr",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Annecy",
+   "city": "Annecy",
+   "cp": "74000",
+   "city_cp": "Annecy",
+   "address": "12 BOULEVARD DU LYCEE",
+   "phone": "04 50 05 43 30",
+   "emails": [
+    "contact@alliance-francaise-annecy.com"
+   ],
+   "url": "http://www.alliance-francaise-annecy.com",
+   "so": false
+  },
+  {
+   "name": "IFALPES",
+   "city": "Annecy",
+   "cp": "74000",
+   "city_cp": "Annecy",
+   "address": "14 Avenue du Rhône",
+   "phone": "04 50 45 38 37",
+   "emails": [],
+   "url": "http://www.ifalpes.com",
+   "so": false
+  },
+  {
+   "name": "GRETA AUVERGNE Agence 15",
+   "city": "Aurillac",
+   "cp": "15000",
+   "city_cp": "Aurillac",
+   "address": "10 rue du Docteur Chibret",
+   "phone": "04 71 45 49 50",
+   "emails": [
+    "www.greta-auvergne.agence15@ac-clermont.fr"
+   ],
+   "url": "https://greta.ac-clermont.fr/nos-greta/greta-auvergne-agence-15/",
+   "so": false
+  },
+  {
+   "name": "GRETA 89",
+   "city": "Auxerre",
+   "cp": "89000",
+   "city_cp": "Auxerre",
+   "address": "46 boulevard Lyautey",
+   "phone": "0386721049",
+   "emails": [
+    "ce.greta.auxerre@ac-dijon.fr"
+   ],
+   "url": "https://www.bourgogne-greta.fr/",
+   "so": false
+  },
+  {
+   "name": "Institut de Formation Interprofessionnel de l'Allier - IFI03/Ecole de la 2ème Chance",
+   "city": "Avermes",
+   "cp": "03000",
+   "city_cp": "Avermes",
+   "address": "11 route de Paris",
+   "phone": "0470205471",
+   "emails": [],
+   "url": "http://www.ifi03.fr",
+   "so": false
+  },
+  {
+   "name": "Fédération des centres sociaux 84, PAAFV",
+   "city": "Avignon",
+   "cp": "84000",
+   "city_cp": "Avignon",
+   "address": "Immeuble l'Aquilon-4ème étage  1, rue Antoine Le Moiturier",
+   "phone": "0490870581",
+   "emails": [
+    "accueil.plateforme@vaucluse-centres-sociaux.fr"
+   ],
+   "url": "https://vaucluse-centres-sociaux.fr/plateforme-dacces-au-francais/",
+   "so": false
+  },
+  {
+   "name": "Université d'Avignon - Direction des Relations Internationales - Service des Langues",
+   "city": "Avignon",
+   "cp": "84029",
+   "city_cp": "Avignon",
+   "address": "74 Rue Louis Pasteur",
+   "phone": "04 90 16 29 89",
+   "emails": [],
+   "url": "https://univ-avignon.fr/international/cours-de-francais-fle-/delf-dalf/",
+   "so": false
+  },
+  {
+   "name": "GRETA-CFA de Haute-Corse - Lycée Paul Vincensini",
+   "city": "Bastia",
+   "cp": "20600",
+   "city_cp": "Bastia",
+   "address": "Avenue de la 4ème DMM",
+   "phone": "0495545330",
+   "emails": [
+    "greta2b@ac-corse.fr"
+   ],
+   "url": "http://www.gretacfa.corsica",
+   "so": false
+  },
+  {
+   "name": "GRETA 21 - Site de Beaune",
+   "city": "Beaune",
+   "cp": "21200",
+   "city_cp": "Beaune",
+   "address": "Lycée Marey – 7 avenue Maréchal de Lattre de Tassigny",
+   "phone": "03 80 24 83 24",
+   "emails": [
+    "agencecom.greta21@ac-dijon.fr"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "AF2P Ligue de l'Enseignement 24",
+   "city": "Bergerac",
+   "cp": "24100",
+   "city_cp": "Bergerac",
+   "address": "8, Place Louis de la Bardonnie",
+   "phone": "0553631493",
+   "emails": [
+    "af2p@laligue24.org"
+   ],
+   "url": "https://laligue24.org/service-formation/af2p",
+   "so": false
+  },
+  {
+   "name": "Centre de Linguistique Appliquée (CLA) - Université Marie et Louis Pasteur",
+   "city": "Besançon",
+   "cp": "25000",
+   "city_cp": "Besançon",
+   "address": "6 rue Gabriel Plançon",
+   "phone": "0381665200",
+   "emails": [
+    "certif-fle-cla@univ-fcomte.fr"
+   ],
+   "url": "http://cla.univ-fcomte.fr/",
+   "so": false
+  },
+  {
+   "name": "GIP FTLV de Franche-Comté",
+   "city": "Besancon",
+   "cp": "25000",
+   "city_cp": "Besancon",
+   "address": "11 bis rue Nicolas Bruand",
+   "phone": "0381481230",
+   "emails": [
+    "delfdalf@gipftlv-fcomte.fr"
+   ],
+   "url": "https://gipftlv-fcomte.fr/",
+   "so": false
+  },
+  {
+   "name": "Centre Zénith",
+   "city": "Bezons",
+   "cp": "95870",
+   "city_cp": "Bezons",
+   "address": "50 rue de Pontoise",
+   "phone": "0778645316",
+   "emails": [
+    "formation@centrezenith.com"
+   ],
+   "url": "http://www.godelf.com",
+   "so": false
+  },
+  {
+   "name": "Les ateliers - ESLF",
+   "city": "Biarritz",
+   "cp": "64200",
+   "city_cp": "Biarritz",
+   "address": "6 avenue Jaulerry",
+   "phone": "05 24 67 11 00",
+   "emails": [],
+   "url": "https://sejour.fl-france.fr/examens/delf/",
+   "so": false
+  },
+  {
+   "name": "OXMOZ FORMATION",
+   "city": "Bobigny",
+   "cp": "93000",
+   "city_cp": "Bobigny",
+   "address": "34 RUE DE MOSCOU",
+   "phone": "09 82 28 58 04",
+   "emails": [
+    "contact@oxmoz-formation.com"
+   ],
+   "url": "http://www.oxmoz-formation.fr",
+   "so": false
+  },
+  {
+   "name": "Chambre de Métiers et de l'Artisanat Ile de France Seine-St-Denis (CMA 93)",
+   "city": "Bobigny Cedex",
+   "cp": "93013",
+   "city_cp": "Bobigny Cedex",
+   "address": "91-129 rue Edouard Renard",
+   "phone": "0141833363",
+   "emails": [],
+   "url": "https://www.cma93.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA Savoie Haute-Savoie",
+   "city": "Bonneville Cedex",
+   "cp": "74130",
+   "city_cp": "Bonneville Cedex",
+   "address": "210 QUAI DU PARQUET",
+   "phone": "04 50 25 15 15",
+   "emails": [
+    "accueil.bonneville@greta73-74.fr"
+   ],
+   "url": "https://greta-savoiehautesavoie.fr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Bordeaux Nouvelle-Aquitaine (AFBNA)",
+   "city": "Bordeaux",
+   "cp": "33000",
+   "city_cp": "Bordeaux",
+   "address": "126, rue Abbé de l'Epée",
+   "phone": "0556793280",
+   "emails": [
+    "af@alliance-bordeaux.org"
+   ],
+   "url": "http://www.alliance-bordeaux.org",
+   "so": false
+  },
+  {
+   "name": "Newdeal Institut",
+   "city": "Bordeaux",
+   "cp": "33800",
+   "city_cp": "Bordeaux",
+   "address": "2 Parvis Gattebourse",
+   "phone": "0953031620",
+   "emails": [
+    "contact@newdealinstitut.com"
+   ],
+   "url": "http://francais.newdealinstitut.com",
+   "so": false
+  },
+  {
+   "name": "GRETA NORD-ISERE",
+   "city": "Bourgoin-Jallieu",
+   "cp": "38307",
+   "city_cp": "Bourgoin-Jallieu",
+   "address": "33 Avenue d'Italie",
+   "phone": "0474280486",
+   "emails": [
+    "Gretanisere@gretani.com"
+   ],
+   "url": "http://gretani.fr",
+   "so": false
+  },
+  {
+   "name": "Université de Bretagne Occidentale - Formation Continue et Alternance",
+   "city": "Brest Cedex 3",
+   "cp": "29238",
+   "city_cp": "Brest Cedex 3",
+   "address": "20 avenue Victor Le Gorgeu - CS 93837",
+   "phone": "0298016778",
+   "emails": [
+    "fle.ubo@univ-brest.fr"
+   ],
+   "url": "http://www.univ-brest.fr/fc",
+   "so": false
+  },
+  {
+   "name": "Culture Education Formation Individualisée (CEFI)",
+   "city": "Bron",
+   "cp": "69500",
+   "city_cp": "Bron",
+   "address": "11, rue d'Alsace Lorraine",
+   "phone": "0472374897",
+   "emails": [],
+   "url": "http://www.cefi-formation.fr",
+   "so": false
+  },
+  {
+   "name": "GRETA VAL DE MARNE - Collège Victor Hugo",
+   "city": "Cachan",
+   "cp": "94230",
+   "city_cp": "Cachan",
+   "address": "5 rue Pierre Curie",
+   "phone": "0149085980",
+   "emails": [
+    "greta94.hugo@ac-creteil.fr"
+   ],
+   "url": "http://www.forpro-creteil.org",
+   "so": false
+  },
+  {
+   "name": "Université de Caen Basse Normandie - Carré international - PFL - Bureau certifications",
+   "city": "Caen Cedex 5",
+   "cp": "14032",
+   "city_cp": "Caen Cedex 5",
+   "address": "Esplanade de la Paix",
+   "phone": "02 31 56 60 38",
+   "emails": [
+    "intl.certifications@unicaen.fr"
+   ],
+   "url": "http://international.unicaen.fr/certifications",
+   "so": false
+  },
+  {
+   "name": "GRETA-CFA de l'Aude - site de Carcassonne",
+   "city": "Carcassonne",
+   "cp": "11000",
+   "city_cp": "Carcassonne",
+   "address": "750 Avenue Antoine Durand",
+   "phone": "04 68 25 00 19",
+   "emails": [],
+   "url": "https://maforpro-occitanie.fr/nos-formations?domaine=All&dependance_territorial…",
+   "so": false
+  },
+  {
+   "name": "CAP FORMATION",
+   "city": "Carpentras",
+   "cp": "84200",
+   "city_cp": "Carpentras",
+   "address": "89 avenue Notre Dame de Santé",
+   "phone": "04 90 60 32 72",
+   "emails": [
+    "contact@cap-formation.com"
+   ],
+   "url": "http://www.cap-formation.com",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cayenne",
+   "city": "Cayenne",
+   "cp": "97300",
+   "city_cp": "Cayenne",
+   "address": "2 place du Marché",
+   "phone": "594309872",
+   "emails": [
+    "direction@afcayenne.org"
+   ],
+   "url": "https://afcayenne.org/",
+   "so": false
+  },
+  {
+   "name": "CY Cergy Paris Université - Centre de Langue Française (CLF)",
+   "city": "Cergy-Pontoise",
+   "cp": "95011",
+   "city_cp": "Cergy-Pontoise",
+   "address": "33, boulevard du port",
+   "phone": "01 34 25 64 39",
+   "emails": [
+    "languefrancaise@ml.u-cergy.fr"
+   ],
+   "url": "https://www.u-cergy.fr/fr/index.html",
+   "so": false
+  },
+  {
+   "name": "Cedex - GRETA 71 - Sud Bourgogne - Antenne de Chalon-sur-Saône",
+   "city": "Chalon-Sur-Saône",
+   "cp": "71321",
+   "city_cp": "Chalon-Sur-Saône - Cedex",
+   "address": "141 Avenue Boucicaut",
+   "phone": "03 85 99 19 77",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "ACCENTS",
+   "city": "Chambery Cedex",
+   "cp": "73011",
+   "city_cp": "Chambery Cedex",
+   "address": "DOMAINE UNIVERSITAIRE DE JACOB BELLECOMBETTE - BP 1104",
+   "phone": "04 79 75 84 15",
+   "emails": [
+    "certifications.accents@univ-smb.fr"
+   ],
+   "url": "https://www.univ-smb.fr/accents/",
+   "so": false
+  },
+  {
+   "name": "Université Clermont Auvergne - Centre Fleura",
+   "city": "Clermont-Ferrand",
+   "cp": "63001",
+   "city_cp": "Clermont-Ferrand",
+   "address": "49 boulevard François Mitterrand",
+   "phone": "0473406493",
+   "emails": [
+    "centre-fleura@uca.fr"
+   ],
+   "url": "https://www.uca.fr/international/apprendre-le-francais/centre-fleura",
+   "so": false
+  },
+  {
+   "name": "GRETA 21",
+   "city": "Dijon",
+   "cp": "21000",
+   "city_cp": "Dijon",
+   "address": "Lycée Le Castel - 22 rue Daubenton",
+   "phone": "03 80 59 61 80",
+   "emails": [
+    "agencecom.greta21@ac-dijon.fr"
+   ],
+   "url": "http://www.bourgogne-greta.fr/vos-greta-en-bourgogne",
+   "so": false
+  },
+  {
+   "name": "Centre International d'Etudes Françaises (CIEF)",
+   "city": "Dijon Cedex",
+   "cp": "21078",
+   "city_cp": "Dijon Cedex",
+   "address": "Maison de l'université - BP 87874",
+   "phone": "0380393560",
+   "emails": [],
+   "url": "http://www.u-bourgogne.fr/CIEF",
+   "so": false
+  },
+  {
+   "name": "Centrale Lyon",
+   "city": "Écully Cedex",
+   "cp": "69134",
+   "city_cp": "Écully Cedex",
+   "address": "36, av. Guy de Collongue",
+   "phone": "0609141378",
+   "emails": [],
+   "url": "https://www.ec-lyon.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA CFA DE L'AIN - SITE DE FERNEY VOLTAIRE",
+   "city": "Ferney-Voltaire",
+   "cp": "01210",
+   "city_cp": "Ferney-Voltaire",
+   "address": "48 rue de Vessy",
+   "phone": "04.50.42.87.54",
+   "emails": [
+    "greta.ain.ferney@ac-lyon.fr"
+   ],
+   "url": "http://www1.ac-lyon.fr/greta/ain",
+   "so": false
+  },
+  {
+   "name": "PROSODIA",
+   "city": "Gennevilliers",
+   "cp": "92230",
+   "city_cp": "Gennevilliers",
+   "address": "3, promenade de la Bonnette",
+   "phone": "0147940015",
+   "emails": [
+    "contact@prosodia.fr"
+   ],
+   "url": "http://www.prosodia.fr",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Grenoble Alpes",
+   "city": "Grenoble",
+   "cp": "38000",
+   "city_cp": "Grenoble",
+   "address": "2 rue de sault",
+   "phone": "04 76 56 25 84",
+   "emails": [
+    "examens@afgrenoble.org"
+   ],
+   "url": "http://www.afgrenoble.org",
+   "so": false
+  },
+  {
+   "name": "Université de Versailles Saint Quentin en Yvelines - CEREL",
+   "city": "Guyancourt",
+   "cp": "78280",
+   "city_cp": "Guyancourt",
+   "address": "5,7 boulevard d'Alembert",
+   "phone": "01 39 25 42 51",
+   "emails": [],
+   "url": "http://www.cerel.uvsq.fr",
+   "so": false
+  },
+  {
+   "name": "LA FARANDOLE",
+   "city": "Istres",
+   "cp": "13800",
+   "city_cp": "Istres",
+   "address": "Allée des Échoppes, Bâtiment A4",
+   "phone": "07 49 14 23 64",
+   "emails": [
+    "monica.lafarandole@gmail.com"
+   ],
+   "url": "https://languesfarandole.wordpress.com/",
+   "so": false
+  },
+  {
+   "name": "Ressources Formation",
+   "city": "Ivry Sur Seine",
+   "cp": "94200",
+   "city_cp": "Ivry Sur Seine",
+   "address": "23 rue Raspail",
+   "phone": "0146725786",
+   "emails": [],
+   "url": "http://www.ressourcesformation.fr",
+   "so": false
+  },
+  {
+   "name": "LE POLE",
+   "city": "La Courneuve",
+   "cp": "93120",
+   "city_cp": "La Courneuve",
+   "address": "139–147 avenue Paul Vaillant Couturier",
+   "phone": "01 48 13 02 66",
+   "emails": [],
+   "url": "https://lepole-formation.fr/",
+   "so": false
+  },
+  {
+   "name": "LE POLE",
+   "city": "La Courneuve",
+   "cp": "93120",
+   "city_cp": "La Courneuve",
+   "address": "139-147 avenue Paul Vaillant Couturier",
+   "phone": "0148130266",
+   "emails": [],
+   "url": "http://lepole-formation.fr/",
+   "so": false
+  },
+  {
+   "name": "LE POLE",
+   "city": "La Courneuve",
+   "cp": "93120",
+   "city_cp": "La Courneuve",
+   "address": "139/147 avenue Paul Vaillant Couturier",
+   "phone": "01 48 13 02 66",
+   "emails": [],
+   "url": "http://www.lepole-formation.fr",
+   "so": false
+  },
+  {
+   "name": "IUL-FLE ( Institut Universitaire des Langues-FLE) La Rochelle Université",
+   "city": "La Rochelle Cedex 1",
+   "cp": "17042",
+   "city_cp": "La Rochelle Cedex 1",
+   "address": "1, parvis Fernand Braudel",
+   "phone": "0546456823",
+   "emails": [
+    "IUL-FLE@univ-lr.fr"
+   ],
+   "url": "https://www.univ-larochelle.fr/international/apprendre-le-francais/",
+   "so": false
+  },
+  {
+   "name": "Collège Alain Gerbault",
+   "city": "Laval",
+   "cp": "53000",
+   "city_cp": "Laval",
+   "address": "4 rue Mortier",
+   "phone": "02 43 53 14 24",
+   "emails": [],
+   "url": "http://.",
+   "so": false
+  },
+  {
+   "name": "RECIFE",
+   "city": "Le Havre",
+   "cp": "76600",
+   "city_cp": "Le Havre",
+   "address": "45, rue d'Iéna",
+   "phone": "02.35.24.68.68",
+   "emails": [
+    "contact@recife-formation.fr"
+   ],
+   "url": "http://www.recife-formation.fr",
+   "so": false
+  },
+  {
+   "name": "Ressources Formation",
+   "city": "Le Mée Sur Seine",
+   "cp": "77350",
+   "city_cp": "Le Mée Sur Seine",
+   "address": "335 rue du Bois Guyot",
+   "phone": "0160682618",
+   "emails": [],
+   "url": "https://ressourcesformation.fr/",
+   "so": false
+  },
+  {
+   "name": "UPROMI",
+   "city": "Le Mée-sur-Seine",
+   "cp": "77350",
+   "city_cp": "Le Mée-sur-Seine",
+   "address": "335 rue du Bois Guyot",
+   "phone": "01 64 39 47 48",
+   "emails": [
+    "contact@upromi.fr"
+   ],
+   "url": "http://www.upromi.com",
+   "so": false
+  },
+  {
+   "name": "GRETA AUVERGNE Agence 43",
+   "city": "Le Puy-En-Velay",
+   "cp": "43000",
+   "city_cp": "Le Puy-En-Velay",
+   "address": "27 boulevard du Président Bertrand",
+   "phone": "0471098020",
+   "emails": [
+    "greta-auvergne.agence43@ac-clermont.fr"
+   ],
+   "url": "https://greta.ac-clermont.fr/nos-greta/greta-auvergne-agence-43/",
+   "so": false
+  },
+  {
+   "name": "CASNAV de la Guadeloupe",
+   "city": "Les Abymes",
+   "cp": "97110",
+   "city_cp": "Les Abymes",
+   "address": "Rectorat - Académie de Guadeloupe-BP 480 Parc d'activités La Providence ZAC de Dothémare",
+   "phone": "0590478453",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "CASNAV de la Guadeloupe",
+   "city": "Les Abymes",
+   "cp": "97110",
+   "city_cp": "Les Abymes",
+   "address": "Rectorat - Académie de Guadeloupe - BP 480 Parc d'activités La Providence ZAC de Dothémare",
+   "phone": "0590478453",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "JIELLE FORMATION",
+   "city": "Les Abymes",
+   "cp": "97139",
+   "city_cp": "Les Abymes",
+   "address": "IMMEUBLE LAVANDA - RUE ROLIERE ARNOUX",
+   "phone": "+590590486558",
+   "emails": [
+    "secretariat@jielleformation.com"
+   ],
+   "url": "http://www.jielleformation.com",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Lille Métropole",
+   "city": "Lille",
+   "cp": "59800",
+   "city_cp": "Lille",
+   "address": "2 rue Bernos",
+   "phone": "03 74 67 78 95",
+   "emails": [
+    "direction@aflille.org"
+   ],
+   "url": "http://www.aflille.org",
+   "so": false
+  },
+  {
+   "name": "UNIVERSITÉ DE LIMOGES - POLE INTERNATIONAL",
+   "city": "Limoges",
+   "cp": "87036",
+   "city_cp": "Limoges",
+   "address": "Campus de Vanteaux - 39H rue Camille Guérin - Maison des langues - Service des certifications",
+   "phone": "05 55 43 56 59",
+   "emails": [
+    "mlangues-delfdalf@unilim.fr"
+   ],
+   "url": "https://www.unilim.fr/mdl/",
+   "so": false
+  },
+  {
+   "name": "Ecoles des Métiers de Dijon Métropole",
+   "city": "Longvic",
+   "cp": "21602",
+   "city_cp": "Longvic",
+   "address": "1 Chemin de la Noue CS 10080",
+   "phone": "03 45 34 62 00",
+   "emails": [],
+   "url": "https://www.ecoledesmetiers.fr/#",
+   "so": false
+  },
+  {
+   "name": "Centre de Langues de l'Université Bretagne Sud (CLUBS)",
+   "city": "Lorient Cedex",
+   "cp": "56321",
+   "city_cp": "Lorient Cedex",
+   "address": "4 rue Jean Zay - CS 7030",
+   "phone": "0297872919",
+   "emails": [],
+   "url": "http://www.univ-ubs.fr/clubs",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Lyon",
+   "city": "Lyon",
+   "cp": "69003",
+   "city_cp": "Lyon",
+   "address": "11 rue Pierre Bourdan",
+   "phone": "0478952472",
+   "emails": [
+    "tests_examens@aflyon.org"
+   ],
+   "url": "http://www.aflyon.org/",
+   "so": false
+  },
+  {
+   "name": "ALPES Formation",
+   "city": "Lyon",
+   "cp": "69002",
+   "city_cp": "Lyon",
+   "address": "13 Rue Delandine",
+   "phone": "0472416434",
+   "emails": [],
+   "url": "http://www.alpes-formation.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA CFA Lyon Métropole",
+   "city": "Lyon",
+   "cp": "69002",
+   "city_cp": "Lyon",
+   "address": "27 rue Gentil",
+   "phone": "04 78 78 84 84",
+   "emails": [
+    "greta.lyonmetropole@ac-lyon.fr"
+   ],
+   "url": "https://greta-cfa.ac-lyon.fr/greta/greta-cfa-lyon-metropole",
+   "so": false
+  },
+  {
+   "name": "INFLEXYON",
+   "city": "Lyon",
+   "cp": "69002",
+   "city_cp": "Lyon",
+   "address": "48 rue Quivogne",
+   "phone": "0478397702",
+   "emails": [
+    "contact@lyon-exam.com"
+   ],
+   "url": "https://lyon-exam.com/",
+   "so": false
+  },
+  {
+   "name": "Institut de langue et de culture françaises (ILCF)",
+   "city": "Lyon",
+   "cp": "69002",
+   "city_cp": "Lyon",
+   "address": "23, place Carnot",
+   "phone": "04 72 32 50 53",
+   "emails": [
+    "ilcf@univ-catholyon.fr"
+   ],
+   "url": "http://www.ilcf.net",
+   "so": false
+  },
+  {
+   "name": "Lyon Bleu International",
+   "city": "Lyon",
+   "cp": "69006",
+   "city_cp": "Lyon",
+   "address": "82 rue Duguesclin",
+   "phone": "0437480026",
+   "emails": [
+    "exam@lyon-bleu.fr"
+   ],
+   "url": "http://lyon-bleu.com",
+   "so": false
+  },
+  {
+   "name": "REN Formation",
+   "city": "Lyon",
+   "cp": "69009",
+   "city_cp": "Lyon",
+   "address": "38 grande rue de Vaise",
+   "phone": "04 78 83 76 53",
+   "emails": [
+    "contact.ren@groupe-geim.fr"
+   ],
+   "url": "http://renformation.groupe-geim.fr/",
+   "so": false
+  },
+  {
+   "name": "Calad'Impulsion Formation",
+   "city": "Mâcon",
+   "cp": "71000",
+   "city_cp": "Mâcon",
+   "address": "SCRIBES 71 e-TIC Place, Cité de l'Entreprise, 200 Bvd de la Résistance - Bât MB",
+   "phone": "04 74 02 53 53",
+   "emails": [
+    "formation@calad-impulsion.fr"
+   ],
+   "url": "https://calad-impulsion-formation.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA-CFA de Mayotte",
+   "city": "Mamoudzou-Cedex",
+   "cp": "97646",
+   "city_cp": "Mamoudzou-Cedex",
+   "address": "LPO Lycée des Métiers des goûts et de saveurs - Kawéni - BP 205",
+   "phone": "0269610803",
+   "emails": [
+    "greta@ac-mayotte.fr"
+   ],
+   "url": "http://greta.ac-mayotte.fr",
+   "so": false
+  },
+  {
+   "name": "Alliance française Aix-Marseille Provence",
+   "city": "Marseille",
+   "cp": "13006",
+   "city_cp": "Marseille",
+   "address": "72-74, rue Saint Suffren",
+   "phone": "0496102460",
+   "emails": [],
+   "url": "https://afaixmarseille.org/fr/",
+   "so": false
+  },
+  {
+   "name": "Ecole de la 2e chance de Marseille",
+   "city": "Marseille",
+   "cp": "13015",
+   "city_cp": "Marseille",
+   "address": "360 Chemin de la Madrague Ville",
+   "phone": "04 96 15 80 40",
+   "emails": [
+    "contactdelf@e2c-marseille.net"
+   ],
+   "url": "http://www.e2c-marseille.net/",
+   "so": false
+  },
+  {
+   "name": "Espace Pédagogie Formation France",
+   "city": "Marseille",
+   "cp": "13006",
+   "city_cp": "Marseille",
+   "address": "21 rue Roux de Brignoles",
+   "phone": "04 91 37 33 24",
+   "emails": [
+    "delf@epff.eu"
+   ],
+   "url": "http://www.epff.eu",
+   "so": false
+  },
+  {
+   "name": "Maison des Langues - Université de Rouen",
+   "city": "Mont Saint Aignan",
+   "cp": "76821",
+   "city_cp": "Mont Saint Aignan",
+   "address": "17, rue Lavoisier - bâtiment 7c",
+   "phone": "02.35.14.93.83",
+   "emails": [],
+   "url": "https://mdl.univ-rouen.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA 71 Sud Bourgogne - Antenne CCM Site Creusot",
+   "city": "Montcenis",
+   "cp": "71710",
+   "city_cp": "Montcenis",
+   "address": "2 impasse Bel Air",
+   "phone": "0385553068",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université de Montpellier Paul-Valéry - Centre DELF-DALF",
+   "city": "Montpellier",
+   "cp": "34199",
+   "city_cp": "Montpellier",
+   "address": "Route de Mende",
+   "phone": "04 67 14 21 89",
+   "emails": [],
+   "url": "https://iefe.univ-montp3.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA CFA Montpellier Littoral",
+   "city": "Montpellier Cedex 02",
+   "cp": "34060",
+   "city_cp": "Montpellier Cedex 02",
+   "address": "Lycée Jean Mermoz - 717 avenue Jean Mermoz - CS 29007",
+   "phone": "0467203600",
+   "emails": [
+    "accueil@gretacfa-montpellier.fr"
+   ],
+   "url": "https://www.gretacfa-montpellier.fr/",
+   "so": false
+  },
+  {
+   "name": "Association Ambroise Croizat",
+   "city": "Montreuil",
+   "cp": "93100",
+   "city_cp": "Montreuil",
+   "address": "60 rue de la République",
+   "phone": "01 48 18 57 24",
+   "emails": [
+    "centredexamen-dlf@asso-croizat.org"
+   ],
+   "url": "http://www.asso-croizat.org",
+   "so": false
+  },
+  {
+   "name": "CEL - GIP FORMATION",
+   "city": "Nancy Cedex",
+   "cp": "54012",
+   "city_cp": "Nancy Cedex",
+   "address": "28 rue de Saurupt BP 3039",
+   "phone": "03 83 55 65 55",
+   "emails": [],
+   "url": "http://www.cel-gip.fr",
+   "so": false
+  },
+  {
+   "name": "DéFLE Lorraine",
+   "city": "Nancy Cedex",
+   "cp": "54001",
+   "city_cp": "Nancy Cedex",
+   "address": "23 boulevard Albert 1er - BP 60446",
+   "phone": "03 72 74 31 80",
+   "emails": [],
+   "url": "http://www.defle.univ-lorraine.fr/",
+   "so": false
+  },
+  {
+   "name": "NANTES UNIVERSITE - Service Universitaire des Langues - Institut de Français Langue Etrangère",
+   "city": "Nantes Cedex 3",
+   "cp": "44312",
+   "city_cp": "Nantes Cedex 3",
+   "address": "Chemin de la Censive du Tertre - BP 81227",
+   "phone": "02 53 48 77 19",
+   "emails": [
+    "sul-fle@univ-nantes.fr"
+   ],
+   "url": "http://www.i-fle.univ-nantes.fr/",
+   "so": false
+  },
+  {
+   "name": "Centre Universitaire d'Etudes en Français Langue Etrangère (CUEFLE) - Université Côte D'Azur",
+   "city": "Nice",
+   "cp": "06200",
+   "city_cp": "Nice",
+   "address": "98 BOULEVARD EDOUARD HERRIOT",
+   "phone": "0489151976",
+   "emails": [],
+   "url": "http://www.unice.fr/scl/cuefle/index.php?lang=fr",
+   "so": false
+  },
+  {
+   "name": "Greta CFA du Gard Espace Diderot",
+   "city": "Nimes",
+   "cp": "30900",
+   "city_cp": "Nimes",
+   "address": "663 rue Neper",
+   "phone": "0466680011",
+   "emails": [
+    "greta-cfa-nimes@greta-gard.com"
+   ],
+   "url": "http://www.greta-gard.com",
+   "so": false
+  },
+  {
+   "name": "Centre de Rencontres et d'Echanges Internationaux du Pacifique (CREIPAC)",
+   "city": "Nouméa",
+   "cp": "98846",
+   "city_cp": "Nouméa",
+   "address": "100 avenue James Cook, Nouville- BP 3755 Nouméa",
+   "phone": "687254124",
+   "emails": [],
+   "url": "http://Creipac.nc",
+   "so": false
+  },
+  {
+   "name": "Université de la Nouvelle-Calédonie - Maison des Langues et des Mobilités",
+   "city": "Nouméa",
+   "cp": "98851",
+   "city_cp": "Nouméa",
+   "address": "Campus de Nouville - BP R4",
+   "phone": "290480",
+   "emails": [],
+   "url": "http://www.univ-nc.nc",
+   "so": false
+  },
+  {
+   "name": "ESPACE C2B - CRIA 45",
+   "city": "Orleans",
+   "cp": "45100",
+   "city_cp": "Orleans",
+   "address": "3 rue Edouard Branly",
+   "phone": "0238637722",
+   "emails": [
+    "examens@cria45.com"
+   ],
+   "url": "http://www.cria45.com/examens/",
+   "so": false
+  },
+  {
+   "name": "Institut de français de l'Université d'Orléans",
+   "city": "Orleans Cedex2",
+   "cp": "45065",
+   "city_cp": "Orleans Cedex2",
+   "address": "10, rue de Tours - BP 46527",
+   "phone": "0238494846",
+   "emails": [
+    "idf.delf-dalf@univ-orleans.fr"
+   ],
+   "url": "http://www.univ-orleans.fr/idf/delfdalf",
+   "so": false
+  },
+  {
+   "name": "Horizons Francophones",
+   "city": "Papeete",
+   "cp": "98731",
+   "city_cp": "Papeete",
+   "address": "BP 42 937 Fare Tony",
+   "phone": "40852047",
+   "emails": [
+    "formation@horizons-francophones.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Paris",
+   "city": "PARIS",
+   "cp": "75006",
+   "city_cp": "PARIS",
+   "address": "101, boulevard Raspail",
+   "phone": "0142849000",
+   "emails": [
+    "examens@alliancefr.org"
+   ],
+   "url": "http://www.alliancefr.org/",
+   "so": false
+  },
+  {
+   "name": "CASNAV de Paris",
+   "city": "Paris",
+   "cp": "75019",
+   "city_cp": "Paris",
+   "address": "14 Boulevard d'Indochine",
+   "phone": "0144623596",
+   "emails": [],
+   "url": "http://www.ac-paris.fr",
+   "so": false
+  },
+  {
+   "name": "Cours de Civilisation Française de la Sorbonne - CCFS",
+   "city": "Paris",
+   "cp": "75017",
+   "city_cp": "Paris",
+   "address": "7-11, avenue des Chasseurs",
+   "phone": "+33144107725",
+   "emails": [
+    "yves.delafoy@ccfs-sorbonne.fr"
+   ],
+   "url": "http://www.ccfs-sorbonne.fr",
+   "so": false
+  },
+  {
+   "name": "Faculté des Lettres de Sorbonne Université SELFEE-Sorbonne",
+   "city": "Paris",
+   "cp": "75005",
+   "city_cp": "Paris",
+   "address": "1 rue Victor Cousin",
+   "phone": "0140463221",
+   "emails": [
+    "lettres-selfee@sorbonne-universite.fr"
+   ],
+   "url": "https://lettres.sorbonne-universite.fr/selfee",
+   "so": false
+  },
+  {
+   "name": "PROSODIA",
+   "city": "Paris",
+   "cp": "75020",
+   "city_cp": "Paris",
+   "address": "256 rue de Belleville",
+   "phone": "01 47 94 00 15",
+   "emails": [
+    "contact@prosodia.fr"
+   ],
+   "url": "http://www.prosodia.fr",
+   "so": false
+  },
+  {
+   "name": "THOT - Transmettre un Horizon à Tous",
+   "city": "Paris",
+   "cp": "75001",
+   "city_cp": "Paris",
+   "address": "5 bis rue du Louvre",
+   "phone": "0781671723",
+   "emails": [
+    "examen@thot-fle.fr"
+   ],
+   "url": "https://thot-fle.fr/fr/",
+   "so": false
+  },
+  {
+   "name": "Université Sorbonne Nouvelle - DFTLVIP - SFC",
+   "city": "Paris",
+   "cp": "75012",
+   "city_cp": "Paris",
+   "address": "8 Avenue de Saint-Mandé",
+   "phone": "01 45 87 41 97",
+   "emails": [
+    "delfdalf.sfc@sorbonne-nouvelle.fr"
+   ],
+   "url": "https://www.sorbonne-nouvelle.fr/diplomes-delf-dalf-tout-public-887556.kjsp?RH=…",
+   "so": false
+  },
+  {
+   "name": "International School of Béarn",
+   "city": "Pau",
+   "cp": "64000",
+   "city_cp": "Pau",
+   "address": "200 boulevard du Cami Salié",
+   "phone": "0559900974",
+   "emails": [
+    "contact@isbearn.com"
+   ],
+   "url": "http://www.isbearn.com",
+   "so": false
+  },
+  {
+   "name": "IEFE- Université de Pau",
+   "city": "Pau Cedex",
+   "cp": "64013",
+   "city_cp": "Pau Cedex",
+   "address": "Bâtiment des Lettres, avenue du Doyen Poplawski BP 1160",
+   "phone": "0559407385",
+   "emails": [],
+   "url": "http://iefe.univ-pau.fr/fr/index.html",
+   "so": false
+  },
+  {
+   "name": "APARE",
+   "city": "Périgueux",
+   "cp": "24000",
+   "city_cp": "Périgueux",
+   "address": "141-143, rue Combe des Dames",
+   "phone": "0553026500",
+   "emails": [],
+   "url": "http://neant",
+   "so": false
+  },
+  {
+   "name": "Département Centre Universitaire d’Etudes Françaises - CUEF",
+   "city": "Perpignan",
+   "cp": "66000",
+   "city_cp": "Perpignan",
+   "address": "Université de Perpignan Via Domitia, 52, avenue P. Alduy",
+   "phone": "0468662010",
+   "emails": [],
+   "url": "http://www.cuef.fr",
+   "so": false
+  },
+  {
+   "name": "Université Bordeaux Montaigne-Domaine universitaire, Département d'études de FLE",
+   "city": "Pessac Cedex",
+   "cp": "33607",
+   "city_cp": "Pessac Cedex",
+   "address": "Esplanade des Antilles",
+   "phone": "0557124444",
+   "emails": [
+    "defle@u-bordeaux-montaigne.fr"
+   ],
+   "url": "http://www.defle.u-bordeaux-montaigne.fr",
+   "so": false
+  },
+  {
+   "name": "Centre de Français Langue Etrangère (CFLE) - Université de Poitiers - UFR Lettres et langues",
+   "city": "Poitiers Cedex 9",
+   "cp": "86073",
+   "city_cp": "Poitiers Cedex 9",
+   "address": "Secteur A3 - 1 rue Raymond Cantel - TSA 11102",
+   "phone": "0549453294",
+   "emails": [
+    "centre.fle@univ-poitiers.fr"
+   ],
+   "url": "http://cfle.univ-poitiers.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA du Haut-Doubs",
+   "city": "Pontarlier",
+   "cp": "25300",
+   "city_cp": "Pontarlier",
+   "address": "48 rue de Besançon",
+   "phone": "0381393531",
+   "emails": [
+    "gretahd.pontarlier@ac-besancon.fr"
+   ],
+   "url": "http://www.greta.ac-besancon.fr",
+   "so": false
+  },
+  {
+   "name": "Rectorat de l'académie de Reims",
+   "city": "Reims Cedex",
+   "cp": "51082",
+   "city_cp": "Reims Cedex",
+   "address": "1 rue Navier",
+   "phone": "0326056876",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre International d'Etudes Françaises (CIEF)",
+   "city": "Reims Cedex 2",
+   "cp": "51687",
+   "city_cp": "Reims Cedex 2",
+   "address": "Campus Moulin de la Housse - Bâtiment 5ter - B.P. 1039",
+   "phone": "0326918195",
+   "emails": [],
+   "url": "http://univ-reims.fr/cief",
+   "so": false
+  },
+  {
+   "name": "Université Rennes 2 - CIREFE",
+   "city": "Rennes Cedex",
+   "cp": "35043",
+   "city_cp": "Rennes Cedex",
+   "address": "Place du recteur Henri Le Moal - CS 24307",
+   "phone": "02 23 22 58 20",
+   "emails": [],
+   "url": "https://sites-formations.univ-rennes2.fr/cirefe/",
+   "so": false
+  },
+  {
+   "name": "CRAISAF",
+   "city": "Rodez",
+   "cp": "12000",
+   "city_cp": "Rodez",
+   "address": "Maison des Associations 15, avenue TARAYRE",
+   "phone": "0565770974",
+   "emails": [
+    "craisaf@orange.fr"
+   ],
+   "url": "http://www.craisaf.fr",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Normandie",
+   "city": "Rouen",
+   "cp": "76000",
+   "city_cp": "Rouen",
+   "address": "80 boulevard de l'Yser",
+   "phone": "02.35.98.55.99",
+   "emails": [
+    "contact@afnormandie.org"
+   ],
+   "url": "http://www.afnormandie.org/",
+   "so": false
+  },
+  {
+   "name": "Education et Formation",
+   "city": "Rouen",
+   "cp": "76000",
+   "city_cp": "Rouen",
+   "address": "13, boulevard de Verdun",
+   "phone": "02.76.51.76.76",
+   "emails": [],
+   "url": "http://www.educationetformation.fr",
+   "so": false
+  },
+  {
+   "name": "CAREL",
+   "city": "Royan",
+   "cp": "17200",
+   "city_cp": "Royan",
+   "address": "48 boulevard Franck LAMY",
+   "phone": "0546395000",
+   "emails": [],
+   "url": "http://www.carel-royan.fr/",
+   "so": false
+  },
+  {
+   "name": "GRETA 93 SEINE ST DENIS",
+   "city": "Saint Denis",
+   "cp": "93200",
+   "city_cp": "Saint Denis",
+   "address": "Espace projets Jean Lurçat 2 rue Diderot",
+   "phone": "0149208990",
+   "emails": [],
+   "url": "http://www.forpro-creteil.org/GMTE93.html",
+   "so": false
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "Saint Denis",
+   "cp": "93200",
+   "city_cp": "Saint Denis",
+   "address": "8 rue Charles Michels",
+   "phone": "0148409980",
+   "emails": [],
+   "url": "http://www.leo lagrange.org",
+   "so": false
+  },
+  {
+   "name": "CASNAV des Yvelines",
+   "city": "Saint Quentin En Yvelines Cedex",
+   "cp": "78053",
+   "city_cp": "Saint Quentin En Yvelines Cedex",
+   "address": "DSDEN des Yvelines- Casnav 78- BP 100",
+   "phone": "0139236376",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de La Réunion",
+   "city": "Saint-Denis",
+   "cp": "97400",
+   "city_cp": "Saint-Denis",
+   "address": "4 RUELLE TORTUE",
+   "phone": "0692200210",
+   "emails": [
+    "aflareunion@gmail.com"
+   ],
+   "url": "https://www.facebook.com/AFlareunion/",
+   "so": false
+  },
+  {
+   "name": "CASNAV Académie de La Réunion",
+   "city": "Saint-Denis",
+   "cp": "97743",
+   "city_cp": "Saint-Denis",
+   "address": "24 Avenue Georges Brassens CS 71003",
+   "phone": "262481303",
+   "emails": [],
+   "url": "https://www.ac-reunion.fr/casnav.htlm",
+   "so": false
+  },
+  {
+   "name": "CASNAV Académie de La Réunion",
+   "city": "Saint-Denis",
+   "cp": "97743",
+   "city_cp": "Saint-Denis",
+   "address": "24 Avenue Georges Brassens CS 71003",
+   "phone": "262209604",
+   "emails": [],
+   "url": "https://www.ac-reunion.fr/casnav.htlm",
+   "so": false
+  },
+  {
+   "name": "Université de La Réunion - Maison des Langues",
+   "city": "Saint-Denis Cedex 9",
+   "cp": "97744",
+   "city_cp": "Saint-Denis Cedex 9",
+   "address": "15 Avenue René Cassin CS 92003",
+   "phone": "0262938317",
+   "emails": [
+    "maisondeslangues@univ-reunion.fr"
+   ],
+   "url": "http://maisondeslangues.univ-reunion.fr/",
+   "so": false
+  },
+  {
+   "name": "CILEC - Université Jean Monnet",
+   "city": "Saint-Etienne Cedex 2",
+   "cp": "42023",
+   "city_cp": "Saint-Etienne Cedex 2",
+   "address": "21 rue Denis Papin",
+   "phone": "0477437973",
+   "emails": [],
+   "url": "https://cilec.univ-st-etienne.fr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Saint Malo Bretagne",
+   "city": "Saint-Malo",
+   "cp": "35400",
+   "city_cp": "Saint-Malo",
+   "address": "Immeuble Le Rivoli - 8 Bd Villebois Mareuil",
+   "phone": "02 23 18 25 94",
+   "emails": [
+    "alliancefrancaise.saintmalo@gmail.com"
+   ],
+   "url": "http://www.alliancefr-saintmalo.org/",
+   "so": false
+  },
+  {
+   "name": "Centre universitaire d'études françaises (CUEF) - Université Grenoble Alpes",
+   "city": "Saint-Martin-D'Heres",
+   "cp": "38400",
+   "city_cp": "Saint-Martin-D'Heres",
+   "address": "1491 RUE DES RESIDENCES",
+   "phone": "04 76 74 87 82",
+   "emails": [],
+   "url": "https://cuef.univ-grenoble-alpes.fr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Strasbourg Europe",
+   "city": "Strasbourg",
+   "cp": "67000",
+   "city_cp": "Strasbourg",
+   "address": "12 rue des Pontonniers",
+   "phone": "03 88 75 62 55",
+   "emails": [
+    "accueil@afstrasbourg.eu"
+   ],
+   "url": "http://www.afstrasbourg.eu/fr",
+   "so": false
+  },
+  {
+   "name": "Ecole Européenne de Strasbourg",
+   "city": "Strasbourg",
+   "cp": "67000",
+   "city_cp": "Strasbourg",
+   "address": "2 rue Peter Schwarber",
+   "phone": "0388348220",
+   "emails": [
+    "ecole.europeenne@stra-edu.eu"
+   ],
+   "url": "http://www.ee-strasbourg.fr",
+   "so": false
+  },
+  {
+   "name": "Pôle FLE - Institut international d'études françaises, Université de Strasbourg",
+   "city": "Strasbourg",
+   "cp": "67081",
+   "city_cp": "Strasbourg",
+   "address": "4 rue Blaise Pascal, CS 90032, FR-67081, Université de Strasbourg, Faculté des langues, Le Pangloss",
+   "phone": "0368856053",
+   "emails": [],
+   "url": "https://fle-iief.unistra.fr/",
+   "so": false
+  },
+  {
+   "name": "INFREP",
+   "city": "Torcy",
+   "cp": "77200",
+   "city_cp": "Torcy",
+   "address": "4 allée Emile Reynaud",
+   "phone": "0160179523",
+   "emails": [],
+   "url": "http://www.infrep.org",
+   "so": false
+  },
+  {
+   "name": "CREPT Formation",
+   "city": "Toulouse",
+   "cp": "31100",
+   "city_cp": "Toulouse",
+   "address": "130 rue Henri Desbals",
+   "phone": "0562729393",
+   "emails": [],
+   "url": "http://www.creptformation.com",
+   "so": false
+  },
+  {
+   "name": "Langue Onze Toulouse Ecole de langues",
+   "city": "Toulouse",
+   "cp": "31000",
+   "city_cp": "Toulouse",
+   "address": "10 rue des Arts",
+   "phone": "0561625458",
+   "emails": [
+    "info@langueonze.com"
+   ],
+   "url": "http://www.langueonze.com",
+   "so": false
+  },
+  {
+   "name": "SPLE Centre International de Langues VIDAL",
+   "city": "Toulouse",
+   "cp": "31000",
+   "city_cp": "Toulouse",
+   "address": "3 ter boulevard Lascrosses",
+   "phone": "0561239091",
+   "emails": [],
+   "url": "http://www.sple.fr",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Toulouse",
+   "city": "Toulouse Cedex 4",
+   "cp": "31400",
+   "city_cp": "Toulouse Cedex 4",
+   "address": "3 Bis Guy Hersant",
+   "phone": "0534452610",
+   "emails": [],
+   "url": "http://www.alliance-toulouse.org",
+   "so": false
+  },
+  {
+   "name": "Université Toulouse Jean Jaurès - DEFLE",
+   "city": "Toulouse Cedex 9",
+   "cp": "31058",
+   "city_cp": "Toulouse Cedex 9",
+   "address": "LLCE - DEFLE - Bât Erasme 1er étage - Bureau LA169 - 5 allées Antonio Machado",
+   "phone": "0561504694",
+   "emails": [
+    "certification-fle@univ-tlse2.fr"
+   ],
+   "url": "http://defle.univ-tlse2.fr/",
+   "so": false
+  },
+  {
+   "name": "Centre de Formation CEFORA",
+   "city": "Tournon Sur Rhone",
+   "cp": "07300",
+   "city_cp": "Tournon Sur Rhone",
+   "address": "20 RUE DU 14 JUILLET",
+   "phone": "04 75 07 14 06",
+   "emails": [
+    "centredelfdalf@cefora.org"
+   ],
+   "url": "http://www.cefora.org/",
+   "so": false
+  },
+  {
+   "name": "AFFIC CRIA 37",
+   "city": "Tours",
+   "cp": "37000",
+   "city_cp": "Tours",
+   "address": "3 Place Raspail",
+   "phone": "0247471287",
+   "emails": [],
+   "url": "http://cria37.com/",
+   "so": false
+  },
+  {
+   "name": "Ecole Tourangelle Supérieure",
+   "city": "Tours",
+   "cp": "37000",
+   "city_cp": "Tours",
+   "address": "5 rue Simier",
+   "phone": "0247612412",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut de Touraine",
+   "city": "Tours",
+   "cp": "37020",
+   "city_cp": "Tours",
+   "address": "1 Rue de la Grandière - BP 72047",
+   "phone": "0247057683",
+   "emails": [
+    "elisabethjaffre@institutdetouraine.com"
+   ],
+   "url": "http://institutdetouraine.com/",
+   "so": false
+  },
+  {
+   "name": "Y SCHOOLS-GROUPE ADPS",
+   "city": "Troyes",
+   "cp": "10000",
+   "city_cp": "Troyes",
+   "address": "18 Avenue des Lombards",
+   "phone": "0325711075",
+   "emails": [],
+   "url": "https://pfep.yschools.fr/",
+   "so": false
+  },
+  {
+   "name": "Centre international de Valbonne (CIV)",
+   "city": "Valbonne",
+   "cp": "06560",
+   "city_cp": "Valbonne",
+   "address": "190 Rue Frédéric Mistral",
+   "phone": "0492965200",
+   "emails": [
+    "civ.delf@ac-nice.fr"
+   ],
+   "url": "http://www.civfrance.com/",
+   "so": false
+  },
+  {
+   "name": "Maison des Solidarités Nelson Mandela",
+   "city": "Valence",
+   "cp": "26000",
+   "city_cp": "Valence",
+   "address": "25 Rue Charles Gounod",
+   "phone": "04 75 55 37 96",
+   "emails": [
+    "accueil@mds-mandela.org"
+   ],
+   "url": "http://www.mds-mandela.org",
+   "so": false
+  },
+  {
+   "name": "CAVILAM - Alliance Française",
+   "city": "Vichy",
+   "cp": "03200",
+   "city_cp": "Vichy",
+   "address": "1 avenue des Célestins",
+   "phone": "0470308390",
+   "emails": [
+    "examens@cavilam.com"
+   ],
+   "url": "https://www.cavilam.com/",
+   "so": false
+  },
+  {
+   "name": "Accompagnement, Loisirs et Formation",
+   "city": "Vierzon",
+   "cp": "18100",
+   "city_cp": "Vierzon",
+   "address": "26 place Vaillant Couturier",
+   "phone": "0951020484",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Calad'impulsion Formation",
+   "city": "Villefranche-Sur-Saône",
+   "cp": "69400",
+   "city_cp": "Villefranche-Sur-Saône",
+   "address": "847 route de Frans",
+   "phone": "0474025353",
+   "emails": [],
+   "url": "http://www.calad-impulsion.fr",
+   "so": false
+  },
+  {
+   "name": "Université de Lille - Site Flers-Château",
+   "city": "Villeneuve D'Ascq",
+   "cp": "59658",
+   "city_cp": "Villeneuve D'Ascq",
+   "address": "365 bis rue Jules Guesde - bâtiment A - BP 50458",
+   "phone": "03 20 79 87 27",
+   "emails": [],
+   "url": "https://clil.univ-lille.fr/certifications/",
+   "so": false
+  },
+  {
+   "name": "Université Paris 13 - Espace Langues",
+   "city": "Villetaneuse",
+   "cp": "93430",
+   "city_cp": "Villetaneuse",
+   "address": "99 avenue Jean-Baptiste Clément",
+   "phone": "0149403161",
+   "emails": [],
+   "url": "https://www.univ-spn.fr/certifications-en-langues/",
+   "so": false
+  }
+ ]
+}

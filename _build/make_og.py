@@ -86,6 +86,20 @@ PAGES = [
     ("tcf-canada-maroc", "TCF Canada au Maroc", "2 900 Dhs", "dans les 16 centres agréés"),
     ("tcf-canada-tunisie", "TCF Canada en Tunisie", "880 DT", "à l'Institut français · résultats en 5 semaines"),
     ("ou-passer-l-examen-civique", "Où passer l'examen civique ?", "244", "centres FEI en France, et le réseau CCIP"),
+    # annuaire des centres (19/09/2026)
+    ("centres", "L'annuaire des centres", "830", "centres agréés · 32 pays · contacts"),
+    ("centres-tcf-france", "Centres TCF en France", "251", "centres agréés, région par région"),
+    ("centres-delf-france", "Centres DELF-DALF en France", "143", "centres d'examen, région par région"),
+    ("centres-examen-civique-france", "Centres d'examen civique", "245", "centres FEI en France"),
+    ("centres-tcf-canada", "Centres TCF au Canada", "47", "centres agréés, par province"),
+    ("centres-tcf-algerie", "Centres TCF en Algérie", "5", "antennes de l'Institut français"),
+    ("centres-tcf-maroc", "Centres TCF au Maroc", "16", "centres agréés, avec contacts"),
+    ("centres-tcf-tunisie", "Centres TCF en Tunisie", "14", "centres agréés, avec contacts"),
+    ("centres-tcf-afrique", "Centres TCF en Afrique", "23", "centres dans 12 pays"),
+    ("centres-tcf-europe", "Centres TCF en Europe", "12", "Belgique · Suisse · Royaume-Uni"),
+    ("centres-tcf-ameriques", "Centres TCF aux Amériques", "51", "États-Unis · Brésil · Mexique · Colombie"),
+    ("centres-tcf-moyen-orient", "Centres TCF au Moyen-Orient", "16", "Liban · Émirats · Égypte · Turquie"),
+    ("centres-tcf-inde", "Centres TCF en Inde", "7", "Alliances françaises agréées"),
 ]
 
 

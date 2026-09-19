@@ -1,0 +1,46 @@
+{
+ "country": "Royaume-Uni",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Glasgow",
+   "cp": "G36AX",
+   "city_cp": "Glasgow",
+   "address": "3 Park Circus Null",
+   "phone": "44-14-13-31-40-80",
+   "emails": [],
+   "url": "http://www.afglasgow.org.uk",
+   "so": false
+  },
+  {
+   "name": "Institut français du Royaume Uni",
+   "city": "Londres",
+   "cp": "SW72JR",
+   "city_cp": "Londres",
+   "address": "Centre Molière 14 Cromwell Place",
+   "phone": "44-20-39-24-35-57",
+   "emails": [
+    "examination.centre@institut-francais.org.uk"
+   ],
+   "url": "http://www.institut-francais.org.uk/courses/french-diplomas",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Jersey",
+   "city": "Saint-Hélier",
+   "cp": "JE23NL",
+   "city_cp": "Saint-Hélier",
+   "address": "5 Library Place",
+   "phone": "44-153-487-5655",
+   "emails": [
+    "info@afjersey.com"
+   ],
+   "url": "http://www.afjersey.com",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "country": "Algérie",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 5,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français d'Algérie, antenne d'Alger",
+   "city": "Alger",
+   "cp": "16000",
+   "city_cp": "Alger",
+   "address": "30 rue des frères Kadri - Hydra",
+   "phone": "213-21-99-60-08",
+   "emails": [
+    "info.tcfalg@vfshelpline.com",
+    "examens@if-algerie.com"
+   ],
+   "url": "https://www.if-algerie.com/tests-et-examens/tcf#/",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, antenne d'Annaba",
+   "city": "Annaba",
+   "cp": "23000",
+   "city_cp": "Annaba",
+   "address": "6, route de l'avant port",
+   "phone": "213-38-45-12-49",
+   "emails": [],
+   "url": "http://www.if-algerie.com/annaba#/",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, ant. Constantine",
+   "city": "Constantine",
+   "cp": "25000",
+   "city_cp": "Constantine",
+   "address": "1, boulevard de l'Indépendance",
+   "phone": "21331912591",
+   "emails": [
+    "examens.constantine@if-algerie.com"
+   ],
+   "url": "http://www.if-algerie.com/constantine",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, antenne d'Oran",
+   "city": "Oran",
+   "cp": "31000",
+   "city_cp": "Oran",
+   "address": "112, rue Larbi Ben M'hidi",
+   "phone": "213-41707373",
+   "emails": [
+    "bureau-examens.oran@if-algerie.com"
+   ],
+   "url": "http://www.if-algerie.com/oran",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, antenne Tlemcen",
+   "city": "Tlemcen",
+   "cp": "13000",
+   "city_cp": "Tlemcen",
+   "address": "1, rue du commandant Djaber",
+   "phone": "213-43-26-17-22",
+   "emails": [
+    "examens.tlemcen@if-algerie.com"
+   ],
+   "url": "http://www.if-algerie.com/tlemcen",
+   "so": true
+  }
+ ]
+}

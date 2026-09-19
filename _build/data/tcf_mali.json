@@ -1,0 +1,22 @@
+{
+ "country": "Mali",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français du Mali",
+   "city": "Bamako",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard de l'Indépendance BP 1547 - Bamako",
+   "phone": "223-71-70-77-77",
+   "emails": [
+    "info.cdl@institutfrancaismali.org"
+   ],
+   "url": "http://www.institutfrancaismali.org",
+   "so": true
+  }
+ ]
+}

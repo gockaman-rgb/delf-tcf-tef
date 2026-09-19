@@ -1,0 +1,92 @@
+{
+ "country": "Inde",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 7,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Ahmedabad",
+   "cp": "380015",
+   "city_cp": "Ahmedabad",
+   "address": "Beside Food corporation of India, Himali Tower Lane Manekbaug-Shyamal road Satellite",
+   "phone": "091-98-25-08-25-51",
+   "emails": [],
+   "url": "http://www.afindia.org/ahmedabad",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Bangalore",
+   "cp": "560052",
+   "city_cp": "Bangalore",
+   "address": "Thimmaiah Road Opposite UNI Building Vasanth Nagar",
+   "phone": "91-7338-02-6885",
+   "emails": [
+    "coursesdir.blr@afindia.org"
+   ],
+   "url": "http://www.bangalore.afindia.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Bhopal",
+   "cp": "462016",
+   "city_cp": "Bhopal",
+   "address": "B-75, Shahpura B Sector Madhya Pradesh",
+   "phone": "91-755-246-65-95",
+   "emails": [],
+   "url": "http://www.bhopal.afindia.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française du Bengale",
+   "city": "Calcutta",
+   "cp": "",
+   "city_cp": "",
+   "address": "57A Park street, Park Mansions gate 3, flat 15 700-016 Calcutta",
+   "phone": "91-86-97-73-67-68",
+   "emails": [
+    "course.assistant.kolkata@afindia.org"
+   ],
+   "url": "https://bengale.afindia.org/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Lucknow",
+   "cp": "226001",
+   "city_cp": "Lucknow",
+   "address": "La Martinière Girls College, Rana Pratap Marg, Hazratganj Uttar Pradesh",
+   "phone": "91-85430-37737",
+   "emails": [],
+   "url": "https://lucknow.afindia.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "New Delhi",
+   "cp": "110003",
+   "city_cp": "New Delhi",
+   "address": "72, Lodhi Estate",
+   "phone": "91-11-43-500-200",
+   "emails": [],
+   "url": "http://www.delhi.afindia.org/",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Trivandrum",
+   "city": "Trivandrum",
+   "cp": "695014",
+   "city_cp": "Trivandrum",
+   "address": "Forest Office Lane, Nandavanam Vazhuthacaud, Thiruvananthapuram Kerala",
+   "phone": "917-034-988-666",
+   "emails": [
+    "courses.trivandrum@afindia.org"
+   ],
+   "url": "https://trivandrum.afindia.org/",
+   "so": false
+  }
+ ]
+}

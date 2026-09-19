@@ -1,0 +1,61 @@
+{
+ "country": "Émirats arabes unis",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 4,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "French Ambassy/ Institut français Antenne AFAD",
+   "city": "Abou Dhabi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Villa 99,Al Qou' St-Al Bateen In front of Nissan Showroom - Abou Dhabi",
+   "phone": "971-150-747-38-65",
+   "emails": [
+    "exams@afabudhabi.org"
+   ],
+   "url": "http://www.afabudhabi.org",
+   "so": true
+  },
+  {
+   "name": "Alliance français d'Abu Dhabi-Antenne Al Ain",
+   "city": "Al Ain",
+   "cp": "",
+   "city_cp": "",
+   "address": "Continuing Education Center UAE University, First Floor - Al Ain",
+   "phone": "0971-566-880-484",
+   "emails": [
+    "adminalain@afabudhabi.org"
+   ],
+   "url": "https://www.afabudhabi.org/#/",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Dubai (centre 1)",
+   "city": "Dubai",
+   "cp": "",
+   "city_cp": "",
+   "address": "Street 18, Oud Metha POBox 4605 - Dubai",
+   "phone": "971-4-335-87-12",
+   "emails": [
+    "info@afdubai.org"
+   ],
+   "url": "http://www.afdubai.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Dubai (centre 2)",
+   "city": "Dubai",
+   "cp": "",
+   "city_cp": "",
+   "address": "Block 2B, Groundfloor Unit G04 Al Bourooj street, Knowledge Park - Dubai",
+   "phone": "97-14-33-58-71-2",
+   "emails": [
+    "info@afdubai.org"
+   ],
+   "url": "http://www.afdubai.org",
+   "so": true
+  }
+ ]
+}

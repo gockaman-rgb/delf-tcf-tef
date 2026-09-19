@@ -1,0 +1,213 @@
+{
+ "country": "Maroc",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 16,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut Français du Maroc",
+   "city": "Agadir",
+   "cp": "80001",
+   "city_cp": "Agadir",
+   "address": "Rue de l'entraide, Talborjt BP 341",
+   "phone": "212-5-28-84-13-13",
+   "emails": [
+    "certifications.agadir@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/agadir",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Béni Mellal",
+   "cp": "23000",
+   "city_cp": "Béni Mellal",
+   "address": "Universal Sup 210 bd Ibn Khaldoun",
+   "phone": "212-5-22-77-98-95",
+   "emails": [
+    "certifications.casa@ifmaroc.com"
+   ],
+   "url": "https://if-maroc.org/casablanca/certifications/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Casablanca",
+   "cp": "20340",
+   "city_cp": "Casablanca",
+   "address": "123 Boulevard Zerktouni",
+   "phone": "212-522-77-98-95",
+   "emails": [
+    "certifications.casa@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "El Jadida",
+   "cp": "24000",
+   "city_cp": "El Jadida",
+   "address": "3, rue du Caire",
+   "phone": "212-523-353-29",
+   "emails": [
+    "certification.eljadida@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/el-jadida/",
+   "so": true
+  },
+  {
+   "name": "Institut français - site d'Essaouira",
+   "city": "Essaouira",
+   "cp": "44000",
+   "city_cp": "Essaouira",
+   "address": "9 rue Mohammed Diouri Derb Lâalouj",
+   "phone": "212-5-24-47-61-97",
+   "emails": [
+    "cdl.essaouira@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/essaouira",
+   "so": true
+  },
+  {
+   "name": "nstitut français",
+   "city": "Fès",
+   "cp": "30000",
+   "city_cp": "Fès",
+   "address": "12, rue Serghini Boulevard Cherfchaouni VN",
+   "phone": "212-5-35-62-39-21",
+   "emails": [
+    "cdl.fes@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/fes",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Kenitra",
+   "cp": "14000",
+   "city_cp": "Kenitra",
+   "address": "Rue Khalid Ibn Walid",
+   "phone": "212-668-08-78-07",
+   "emails": [
+    "certifications.kenitra@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/kenitra",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Marrakech",
+   "cp": "40001",
+   "city_cp": "Marrakech",
+   "address": "Route de Targa, Jbel Guéliz BP 566",
+   "phone": "212-524-44-69-30",
+   "emails": [
+    "certifications.marrakech@ifmaroc.com"
+   ],
+   "url": "https://if-maroc.org/marrakech/#/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Meknès",
+   "cp": "50000",
+   "city_cp": "Meknès",
+   "address": "rue Ferhat Hechad BP 337",
+   "phone": "212-535-51-65-00",
+   "emails": [
+    "cdl.meknes@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/meknes/",
+   "so": true
+  },
+  {
+   "name": "Institut français du Maroc",
+   "city": "Nador",
+   "cp": "62000",
+   "city_cp": "Nador",
+   "address": "Ecole française Paul Riquet Nationale 15 Onda Ilot n°4",
+   "phone": "212-5-36-68-44-04",
+   "emails": [
+    "contact.oujda@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/oujda",
+   "so": true
+  },
+  {
+   "name": "Alliance Française de Ouarzazate (AFO)",
+   "city": "Ouarzazate",
+   "cp": "45000",
+   "city_cp": "Ouarzazate",
+   "address": "Centre Ibn Khaldoun Bvd Al Auyoune zone hôtelière",
+   "phone": "212-07-11-18-68-20",
+   "emails": [
+    "contact.af.ozte@gmail.com"
+   ],
+   "url": "https://www.facebook.com/association.aesd",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Oujda",
+   "cp": "60000",
+   "city_cp": "Oujda",
+   "address": "Espace langue 16 rue Imam Echafii",
+   "phone": "212-5-36-68-44-04",
+   "emails": [
+    "contact.oujda@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/oujda",
+   "so": true
+  },
+  {
+   "name": "Institut français de Rabat",
+   "city": "Rabat",
+   "cp": "10000",
+   "city_cp": "Rabat",
+   "address": "15, Rue Al Madina Hassan",
+   "phone": "212-537-68-96-50",
+   "emails": [],
+   "url": "http://www.if-maroc.org/rabat",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Safi",
+   "city": "Safi",
+   "cp": "46000",
+   "city_cp": "Safi",
+   "address": "Boulevard Zerktouni Ville nouvelle",
+   "phone": "212-6-66-19-33-05",
+   "emails": [],
+   "url": "http://www.af-safi.com",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Tanger",
+   "cp": "90000",
+   "city_cp": "Tanger",
+   "address": "41, rue Hassan Ibn Ouazzane BP 409",
+   "phone": "212-5-39-94-10-54",
+   "emails": [
+    "cdl.tanger@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/tanger",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Tétouan",
+   "cp": "93000",
+   "city_cp": "Tétouan",
+   "address": "13, rue Chakib Arsalane BP 701",
+   "phone": "212-539-71-43-11",
+   "emails": [
+    "contact.tetouan@ifmaroc.com"
+   ],
+   "url": "http://www.if-maroc.org/tetouan",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "country": "Suisse",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 7,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Swiss Exams",
+   "city": "Berne",
+   "cp": "3013",
+   "city_cp": "Berne",
+   "address": "Hildanusstrasse 3",
+   "phone": "00-41-52-209-04-50",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "Centre de langues de l'Université",
+   "city": "Fribourg",
+   "cp": "1700",
+   "city_cp": "Fribourg",
+   "address": "Rue de Rome 1",
+   "phone": "41-26-300-79-60",
+   "emails": [
+    "tcf@unifr.ch"
+   ],
+   "url": "http://www.unifr.ch/centredelangues/fr",
+   "so": true
+  },
+  {
+   "name": "Swiss Exams",
+   "city": "Genève",
+   "cp": "",
+   "city_cp": "",
+   "address": "inlingua Léman Rue des Gares 7 CH-1201 Genève",
+   "phone": "41-52-209-04-50",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "Swiss Exams",
+   "city": "Lausanne",
+   "cp": "1003",
+   "city_cp": "Lausanne",
+   "address": "Inlingua Léman Rue des Terreaux 17",
+   "phone": "00-41-52-209-04-50",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "ALPADIA Language Schools",
+   "city": "Montreux",
+   "cp": "1820",
+   "city_cp": "Montreux",
+   "address": "Grand-Rue 42 - CP 1206",
+   "phone": "0041-621-84-88",
+   "emails": [],
+   "url": "http://www.alpadia.com",
+   "so": false
+  },
+  {
+   "name": "Swiss Exams",
+   "city": "Winterthur",
+   "cp": "8400",
+   "city_cp": "Winterthur",
+   "address": "Zürcherstrasse 46",
+   "phone": "41-52-511-81-51",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Zurich",
+   "cp": "8032",
+   "city_cp": "Zurich",
+   "address": "Merkurstrasse 34",
+   "phone": "041-44-261-93-06",
+   "emails": [
+    "ecole@afzurich.ch"
+   ],
+   "url": "https://afzurich.ch/",
+   "so": false
+  }
+ ]
+}

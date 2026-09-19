@@ -1,0 +1,183 @@
+{
+ "country": "Tunisie",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 14,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française de Tunis",
+   "city": "Ariana",
+   "cp": "2091",
+   "city_cp": "Ariana",
+   "address": "29 rue Ali Ibn Abi Taleb El Menzah 6",
+   "phone": "216-024-897-751",
+   "emails": [
+    "contact@alliancefr.tn"
+   ],
+   "url": "http://alliancefr.tn",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Tunisie, Pôle de Béja",
+   "city": "Béja",
+   "cp": "9000",
+   "city_cp": "Béja",
+   "address": "Lycée Privé l'Avenir Rue Habib Thameur",
+   "phone": "216-58-274-032",
+   "emails": [],
+   "url": "http://www.institutfrancais-tunisie.com",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Bizerte",
+   "cp": "7000",
+   "city_cp": "Bizerte",
+   "address": "26, rue Ali Khamessi",
+   "phone": "216-98-186-887",
+   "emails": [
+    "direction.afbizerte@gmail.com"
+   ],
+   "url": "https://www.alliancefr-bizerte.tn",
+   "so": true
+  },
+  {
+   "name": "Alliance Française de Djerba - Tunisie",
+   "city": "Djerba",
+   "cp": "4180",
+   "city_cp": "Djerba",
+   "address": "7 rue Ettaamir Houmt Souk",
+   "phone": "216-537-373-96",
+   "emails": [
+    "direction.afdjerba@gmail.com"
+   ],
+   "url": "https://www.alliancefr-djerba.tn",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Tunisie, Pôle de El Mourouj",
+   "city": "El Mourouj",
+   "cp": "2074",
+   "city_cp": "El Mourouj",
+   "address": "Résidence Thabet 2 rue de Tunis",
+   "phone": "216-58-440-308",
+   "emails": [
+    "centredelangue.mourouj@institutfrancais-tunisie.com"
+   ],
+   "url": "http://www.institutfrancais-tunisie.com",
+   "so": true
+  },
+  {
+   "name": "Alliance française de GABES",
+   "city": "GABES",
+   "cp": "6000",
+   "city_cp": "GABES",
+   "address": "308-310 Avenue Farhat Hached",
+   "phone": "216-29-86-98-96",
+   "emails": [
+    "direction.afgabes@gmail.com"
+   ],
+   "url": "",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Gafsa",
+   "cp": "2100",
+   "city_cp": "Gafsa",
+   "address": "Cité Echrif, rue Platon",
+   "phone": "216-22-138-334",
+   "emails": [
+    "af.gafsa@gmail.com"
+   ],
+   "url": "",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Kairouan",
+   "cp": "3100",
+   "city_cp": "Kairouan",
+   "address": "15, avenue de la Victoire",
+   "phone": "21654544243",
+   "emails": [
+    "afk.kairouan@gmail.com"
+   ],
+   "url": "https://www.facebook.com/AFKairouan",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Tunisie, Pôle de Kebili",
+   "city": "Kebili",
+   "cp": "4200",
+   "city_cp": "Kebili",
+   "address": "Lycée privé IBNOU KHALDOUN Rue HABIB BOURGUIBA",
+   "phone": "216-585-893-98",
+   "emails": [],
+   "url": "http://www.institutfrancais-tunisie.com/lequipe#/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "MEDNINE",
+   "cp": "4100",
+   "city_cp": "MEDNINE",
+   "address": "Centre de langues TUTECH Université privée 75 avenue Hbib Bourguiba",
+   "phone": "00216-58-440-309",
+   "emails": [],
+   "url": "https://www.institutfrancaix-tunisie.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Tunisie, Pôle de Nabeul-Hamma",
+   "city": "Nabeul",
+   "cp": "8000",
+   "city_cp": "Nabeul",
+   "address": "Centre de formation touristique de Nabeul Avenue Taieb Mehiri",
+   "phone": "216-058-440-339",
+   "emails": [],
+   "url": "http://www.institutfrancais-tunisie.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Sfax",
+   "cp": "3000",
+   "city_cp": "Sfax",
+   "address": "Centre de langue 9, avenue Habib Bourguiba",
+   "phone": "216-58-440-336",
+   "emails": [
+    "centredelangue.sfax@institutfrancais-tunisie.com"
+   ],
+   "url": "http://www.institutfrancais-tunisie.com/",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Tunisie Pôle de Sousse",
+   "city": "Sousse",
+   "cp": "4000",
+   "city_cp": "Sousse",
+   "address": "15, rue Hamed El Ghazeli Bouhsina",
+   "phone": "216-28-58-55-08",
+   "emails": [
+    "wafa.zid@institutfrancais-tunisie.com"
+   ],
+   "url": "http://www.institutfrancais-tunisie.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Tunisie, Pôle de Tunis (1)",
+   "city": "Tunis",
+   "cp": "1080",
+   "city_cp": "Tunis",
+   "address": "Ambassade de France en Tunisie Centre de langue- BP 180 20-22, avenue de Paris",
+   "phone": "216-31-325-248",
+   "emails": [
+    "centredelangue.petit-carnot@institutfrancais-tunisie.com"
+   ],
+   "url": "http://www.institutfrancais-tunisie.com/",
+   "so": true
+  }
+ ]
+}

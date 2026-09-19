@@ -594,3 +594,41 @@ article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
 .tablewrap.matrix table { min-width: 46em; }
 .tablewrap.matrix td a { white-space: nowrap; }
 .tablewrap.wide table { min-width: 44em; }
+
+/* Annuaire des centres (19/09/2026) : cartes compactes, index par région, en-têtes de ville. */
+.grid.centres { gap: 12px; margin: .6em 0 1.6em; }
+.card.centre { padding: 14px 16px; }
+.card.centre:hover { transform: none; box-shadow: none; border-color: var(--accent); }
+.card.centre h4 { margin: 0 0 .3em; font-size: 1em; line-height: 1.3; }
+.card.centre p { margin: .15em 0; font-size: .9em; color: var(--muted); }
+.card.centre .addr { color: var(--text); }
+.card.centre .contact { word-break: break-word; overflow-wrap: anywhere; }
+.card.centre .contact { margin: .1em 0; }
+.card.centre .contact a { white-space: nowrap; }
+.card.centre .badges { margin-top: .45em; }
+.page h3 .count, .page h2 .count { font-weight: 500; color: var(--muted); font-size: .8em; }
+.chips.index { margin: 10px 0 1.4em; }
+.page .src { font-size: .88em; color: var(--muted); margin: -.4em 0 .8em; }
+@media (max-width: 700px) {
+  .chips.index { flex-wrap: wrap; overflow: visible; margin-left: 0; margin-right: 0; padding: 0; }
+  .chips.index .chip { flex: 0 1 auto; }
+}
+
+/* Piliers en modules (19/09/2026) : parcours numéroté, grille des modules, centres relevés. */
+.steps { list-style: none; counter-reset: step; margin: 1.2em 0 1.6em; padding: 0; display: grid; gap: 10px; }
+.steps li { counter-increment: step; position: relative; padding: 14px 16px 14px 62px; background: var(--card);
+            border: 1px solid var(--line); border-radius: var(--radius); }
+.steps li::before { content: counter(step); position: absolute; left: 16px; top: 14px; width: 32px; height: 32px;
+            border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: grid;
+            place-items: center; font-size: .95em; }
+.steps b { display: block; margin-bottom: .2em; }
+.steps span { display: block; color: var(--muted); font-size: .93em; line-height: 1.5; }
+.grid.modules { margin: 1.2em 0 1.8em; }
+.grid.modules .card h3 { font-size: 1em; margin: .3em 0 .35em; }
+.grid.modules .card p { margin: 0 1.2em 0 0; font-size: .9em; }
+.grid.modules .card { padding: 16px 18px; }
+.page p.more { font-size: .95em; }
+@media (max-width: 700px) {
+  .steps li { padding-left: 54px; }
+  .steps li::before { left: 12px; width: 28px; height: 28px; font-size: .9em; }
+}

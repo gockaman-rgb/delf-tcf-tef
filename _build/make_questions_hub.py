@@ -50,6 +50,11 @@ PAGE_SECTION = {
     "blog/ou-passer-le-tcf-canada-au-canada": "ou-passer", "blog/tcf-canada-algerie": "ou-passer",
     "blog/tcf-canada-maroc": "ou-passer", "blog/tcf-canada-tunisie": "ou-passer",
     "blog/ou-passer-l-examen-civique": "ou-passer",
+    "centres": "ou-passer", "centres/tcf-france": "ou-passer", "centres/delf-france": "ou-passer",
+    "centres/examen-civique-france": "ou-passer", "centres/tcf-canada": "ou-passer",
+    "centres/tcf-algerie": "ou-passer", "centres/tcf-maroc": "ou-passer", "centres/tcf-tunisie": "ou-passer",
+    "centres/tcf-afrique": "ou-passer", "centres/tcf-europe": "ou-passer", "centres/tcf-ameriques": "ou-passer",
+    "centres/tcf-moyen-orient": "ou-passer", "centres/tcf-inde": "ou-passer",
     "blog/prix-tcf-tef": "argent", "blog/cpf-test-francais": "argent",
     "blog/repasser-tcf-tef": "argent", "blog/validite-attestation-tcf-tef": "argent",
     "examens-blancs": "epreuves", "blog/examen-blanc-tcf-gratuit": "epreuves",
@@ -73,6 +78,7 @@ HEADER = """<header class="site"><div class="wrap">
       <a href="/tcf-canada/">TCF Canada</a>
       <a href="/tcf-irn/">TCF IRN</a>
       <a href="/delf-b2/">DELF</a>
+      <a href="/centres/">Centres</a>
       <a href="/examens-blancs/">Examens blancs</a>
       <a href="/blog/">Blog</a>
     </div>
@@ -91,6 +97,7 @@ FOOTER = """<footer class="site"><div class="wrap">
       <li><a href="/delf-b1/">DELF B1</a></li>
       <li><a href="/dalf/">DALF C1 · C2</a></li>
       <li><a href="/ou-passer/">Où passer l'examen</a></li>
+      <li><a href="/centres/">Annuaire des centres</a></li>
     </ul></div>
     <div><h4>L'application</h4><ul>
       <li><a href="%s">Télécharger sur l'App&nbsp;Store</a></li>

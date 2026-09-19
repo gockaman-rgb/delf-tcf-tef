@@ -1,0 +1,94 @@
+{
+ "country": "Cameroun",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 7,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Bamenda",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 190 Veterinary Junction Null Bamenda",
+   "phone": "237-689-843-307",
+   "emails": [],
+   "url": "http://www.afbam.cm",
+   "so": true
+  },
+  {
+   "name": "Dépt. de français - Université de Buéa",
+   "city": "Buéa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Functional French Coordinator French Dpt- Faculty of Arts BP 63 - Buéa",
+   "phone": "237-693670811",
+   "emails": [
+    "centredelangue.buea@gmail.com"
+   ],
+   "url": "http://www.ubuea.cm",
+   "so": true
+  },
+  {
+   "name": "Institut français du Cameroun",
+   "city": "Douala",
+   "cp": "",
+   "city_cp": "",
+   "address": "61 bis Boulevard de la Liberté BP 01 Akwa Douala",
+   "phone": "237-655-667-299",
+   "emails": [],
+   "url": "http://www.ifcameroun.com",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Garoua",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue du Mgr Yves Plumey en face du relais St Hubert BP 127 Null Garoua",
+   "phone": "237-222-27-12-21",
+   "emails": [
+    "info.examens@afgaroua.net"
+   ],
+   "url": "http://www.alliancefrancaisegaroua.org/",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Maroua",
+   "city": "Garoua",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Mgr Yves Plumey S/C Agence consulaire BP127 - Garoua",
+   "phone": "2-22-27-12-21",
+   "emails": [
+    "info.examens@afgaroua.net"
+   ],
+   "url": "https://alliancefrancaisegaroua.org/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Ngaoundere",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier Baladji 2 BP 512 - Ngaoundere",
+   "phone": "237-222-271-221",
+   "emails": [
+    "info.examens@afgaroua.net"
+   ],
+   "url": "http://www.alliancefrancaisegaroua.org",
+   "so": true
+  },
+  {
+   "name": "Institut français du Cameroun",
+   "city": "Yaoundé",
+   "cp": "",
+   "city_cp": "",
+   "address": "127 AV. du Président Ahmadou Ahidjo B.P-513 Yaoundé",
+   "phone": "237-690-261-970",
+   "emails": [],
+   "url": "http://www.ifcameroun.com",
+   "so": true
+  }
+ ]
+}

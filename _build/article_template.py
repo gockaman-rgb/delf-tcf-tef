@@ -29,6 +29,7 @@ HEADER = """<header class="site"><div class="wrap">
       <a href="/tcf-canada/">TCF Canada</a>
       <a href="/tcf-irn/">TCF IRN</a>
       <a href="/delf-b2/">DELF</a>
+      <a href="/centres/">Centres</a>
       <a href="/examens-blancs/">Examens blancs</a>
       <a href="/blog/">Blog</a>
     </div>
@@ -47,6 +48,7 @@ FOOTER = """<footer class="site"><div class="wrap">
       <li><a href="/delf-b1/">DELF B1</a></li>
       <li><a href="/dalf/">DALF C1 · C2</a></li>
       <li><a href="/ou-passer/">Où passer l'examen</a></li>
+      <li><a href="/centres/">Annuaire des centres</a></li>
     </ul></div>
     <div><h4>L'application</h4><ul>
       <li><a href="%s">Télécharger sur l'App&nbsp;Store</a></li>
@@ -85,7 +87,7 @@ def render(a, overwrite=False):
     # section="blog" (défaut) → /blog/<slug>/ ; section="" → page pilier à la racine, /<slug>/
     section = a.get("section", "blog")
     url = f"{BASE}/{section}/{slug}/" if section else f"{BASE}/{slug}/"
-    img = f"{BASE}/img/og/{slug}.png"
+    img = f"{BASE}/img/og/{a.get('og_slug', slug)}.png"
     pub = a.get("published", "2026-08-07")
     mod = a.get("modified", "2026-08-07")
 
@@ -106,7 +108,8 @@ def render(a, overwrite=False):
     }
     crumbs = [("Accueil", f"{BASE}/")]
     if section:
-        crumbs.append(("Blog", f"{BASE}/blog/"))
+        # libellé du niveau intermédiaire : « Blog » par défaut, sinon a["section_name"] (ex. « Centres »)
+        crumbs.append((a.get("section_name", "Blog" if section == "blog" else section.capitalize()), f"{BASE}/{section}/"))
     crumbs.append((a["crumb"], url))
     crumb_ld = {
         "@context": "https://schema.org", "@type": "BreadcrumbList",

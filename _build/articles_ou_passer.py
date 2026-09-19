@@ -1171,7 +1171,7 @@ relevés, les dates et le pas-à-pas.""",
     ],
     "toc": [
         ("guides", "Les guides par examen et par pays"),
-        ("listes", "Les listes officielles de centres"),
+        ("listes", "L'annuaire des centres, avec leurs contacts"),
         ("regles", "Les cinq règles qui valent partout"),
         ("fraude", "Reconnaître un faux centre"),
     ],
@@ -1210,8 +1210,20 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <div class="card card-link"><span class="tag">France · titres et nationalité</span><h3><a href="/blog/ou-passer-l-examen-civique/">Où passer l'examen civique&nbsp;?</a></h3><p>Deux réseaux agréés, la pré-inscription sur test-civique.fr, 70 à 110 € selon le centre et des résultats sous 12 heures.</p></div>
 </div>
 
-<h2 id="listes">Les listes officielles de centres</h2>
+<h2 id="listes">L'annuaire des centres, avec leurs contacts</h2>
 
+<p>Nous avons repris la liste officielle de France Éducation international, pays par pays, avec
+l'adresse, le téléphone, l'e-mail et le site de chaque centre — <strong>830 centres dans 32 pays</strong>
+au 19 septembre 2026 — dans un <a href="/centres/">annuaire des centres</a> :
+<a href="/centres/tcf-france/">TCF en France</a> (251), <a href="/centres/delf-france/">DELF-DALF en
+France</a> (143), <a href="/centres/examen-civique-france/">examen civique en France</a> (245),
+<a href="/centres/tcf-canada/">TCF au Canada</a> (47), <a href="/centres/tcf-maroc/">Maroc</a> (16),
+<a href="/centres/tcf-tunisie/">Tunisie</a> (14), <a href="/centres/tcf-algerie/">Algérie</a> (5),
+<a href="/centres/tcf-afrique/">Afrique subsaharienne</a> (23), <a href="/centres/tcf-europe/">Belgique,
+Suisse, Royaume-Uni</a> (12), <a href="/centres/tcf-ameriques/">États-Unis et Amérique latine</a> (51),
+<a href="/centres/tcf-moyen-orient/">Liban, Émirats, Égypte, Turquie</a> (16), <a href="/centres/tcf-inde/">Inde</a> (7).</p>
+
+<p>Les listes officielles restent la référence en cas de doute :</p>
 <ul>
 <li><strong>DELF, DALF, TCF</strong> — France Éducation international :
 <a href="https://www.france-education-international.fr/centres-d-examen/liste?type-centre=delf_dalf" rel="noopener">liste des centres DELF-DALF</a>,
@@ -1294,7 +1306,7 @@ notation du vrai test et la correction IA de l'écrit et de l'oral.""",
         ("/blog/diplome-ou-test-delf-tcf/", "Diplôme ou test : DELF, DALF, TCF ou TEF, lequel vous faut-il&nbsp;?", "Un diplôme s'obtient à vie et peut se rater ; un test vous situe pour deux ans."),
         ("/blog/prix-tcf-tef/", "Combien coûte vraiment le TCF ou le TEF&nbsp;?", "Aucun tarif national : les prix relevés centre par centre, en France et au Canada."),
         ("/blog/difference-tcf-tef/", "TCF ou TEF : les 9 versions comparées", "Formats, échelles, reconnaissance administrative de chaque déclinaison."),
-        ("/examens-blancs/", "Examens blancs au format officiel", "Onze formats chronométrés, notés sur l'échelle du vrai test."),
+        ("/centres/", "L'annuaire des centres d'examen", "830 centres agréés dans 32 pays, avec adresse, téléphone, e-mail et site."),
     ],
     "sources": """<strong>Sources.</strong> Listes et carte des centres d'examen de France Éducation
 international (DELF-DALF, TCF, examen civique), par pays, consultées le 17 septembre 2026 ;

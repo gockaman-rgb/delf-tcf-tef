@@ -1,0 +1,46 @@
+{
+ "country": "Égypte",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français d'Egypte à Alexandrie",
+   "city": "Alexandrie",
+   "cp": "21500",
+   "city_cp": "Alexandrie",
+   "address": "30 rue Nabi Daniel Mahatet El-Raml",
+   "phone": "20-1220164777",
+   "emails": [
+    "cours.alex@ifegypte.com"
+   ],
+   "url": "http://ifegypte.com/",
+   "so": true
+  },
+  {
+   "name": "Héliopolis, Institut français",
+   "city": "Le Caire",
+   "cp": "",
+   "city_cp": "",
+   "address": "5, rue Chafik El Dib Ard El Golf Héliopolis - Le Caire",
+   "phone": "20-12-86-80-30-43",
+   "emails": [],
+   "url": "http://ifegypte.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Egypte",
+   "city": "Le Caire",
+   "cp": "11562",
+   "city_cp": "Le Caire",
+   "address": "1 Rue Madrasset Al Huquq El Frinseya - Mounira",
+   "phone": "20-22-79-15-800",
+   "emails": [
+    "infoexamens@ifegypte.com"
+   ],
+   "url": "http://ifegypte.com/",
+   "so": true
+  }
+ ]
+}

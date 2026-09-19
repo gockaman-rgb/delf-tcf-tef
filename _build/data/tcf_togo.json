@@ -1,0 +1,20 @@
+{
+ "country": "Togo",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut Français du Togo",
+   "city": "Lomé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier administratif Avenue Charles de Gaulle BP 2090 - Lomé",
+   "phone": "228-22-53-58-00",
+   "emails": [],
+   "url": "http://institutfrancais-togo.com",
+   "so": true
+  }
+ ]
+}

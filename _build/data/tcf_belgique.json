@@ -1,0 +1,35 @@
+{
+ "country": "Belgique",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française de Bruxelles-Europe",
+   "city": "Bruxelles",
+   "cp": "1000",
+   "city_cp": "Bruxelles",
+   "address": "Avenue des Arts, 46",
+   "phone": "32-2-788-21-00",
+   "emails": [
+    "examens@alliancefr.be"
+   ],
+   "url": "http://www.alliancefr.be",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Flandre Orientale",
+   "city": "Gand",
+   "cp": "9000",
+   "city_cp": "Gand",
+   "address": "Henleykaai 86",
+   "phone": "32-9-225-25-29",
+   "emails": [
+    "examens@af-ovl.be"
+   ],
+   "url": "https://www.af-ovl.be/tcf",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "country": "Liban",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 6,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut Français du Liban",
+   "city": "Beyrouth",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ambassade de France au Liban Espace des Lettres Rue de Damas - BP -11477 - Beyrouth",
+   "phone": "961-1-420-272",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Deir El Kamar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Place Dany Chamoun Palais de l'Emir Fakhreddine 2 - Deir El Kamar",
+   "phone": "961-25-510-016",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Jounieh",
+   "cp": "",
+   "city_cp": "",
+   "address": "Collège des Apôtres rue du Père Abi Akl - Jounieh",
+   "phone": "961-9-644-427",
+   "emails": [
+    "cdl.jounieh@if-liban.com"
+   ],
+   "url": "http://www.institutfrancais-liban.com",
+   "so": false
+  },
+  {
+   "name": "Institut Français",
+   "city": "Saida",
+   "cp": "",
+   "city_cp": "",
+   "address": "Khan El Franj, route côtière en face de l'ancien port de Saida à côté de la mosquée ElBaher - Saida",
+   "phone": "961-7-720-192",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com",
+   "so": false
+  },
+  {
+   "name": "Institut Français",
+   "city": "Tripoli",
+   "cp": "",
+   "city_cp": "",
+   "address": "Immeuble City Complex 529 avenue El Mina BP395 - Tripoli",
+   "phone": "961-6-442-590",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Zahlé",
+   "cp": "",
+   "city_cp": "",
+   "address": "rue du Brésil à côté de Wooden Bakery - Zahlé",
+   "phone": "961-8-802-803",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com",
+   "so": false
+  }
+ ]
+}

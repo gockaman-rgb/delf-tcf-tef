@@ -1,0 +1,20 @@
+{
+ "country": "Bénin",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Cotonou, Institut français",
+   "city": "Cotonou",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Jean Paul II 01 BP 416 - Cotonou",
+   "phone": "229-01-60-14-86-86",
+   "emails": [],
+   "url": "http://www.if-benin.com",
+   "so": true
+  }
+ ]
+}

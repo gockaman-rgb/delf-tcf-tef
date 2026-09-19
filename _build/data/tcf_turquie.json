@@ -1,0 +1,42 @@
+{
+ "country": "Turquie",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Ankara",
+   "cp": "06550",
+   "city_cp": "Ankara",
+   "address": "Konrad Adenauer Cad N°30 Sancak Mahallesi / Yildiz",
+   "phone": "0312-408-82-00 / 0312-408-82-26",
+   "emails": [],
+   "url": "https://www.ifturquie.org/ankara/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Istanbul",
+   "cp": "34435",
+   "city_cp": "Istanbul",
+   "address": "Istiklal Caddesi n°4 Taksim - Beyoglu",
+   "phone": "90-850-755-68-00",
+   "emails": [],
+   "url": "http://www.ifturquie.org/fr/istanbul",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Izmir",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cumhuriyet Bulvari 152 Alsancak - Izmir",
+   "phone": "90-232-466-00-13",
+   "emails": [],
+   "url": "https://www.ifturquie.org/fr/izmir/",
+   "so": true
+  }
+ ]
+}

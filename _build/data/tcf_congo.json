@@ -1,0 +1,33 @@
+{
+ "country": "Congo",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français du Congo",
+   "city": "Brazzaville",
+   "cp": "",
+   "city_cp": "",
+   "address": "Espace André Malraux Place de la République BP 2141 - Brazzaville",
+   "phone": "242-06-917-88-80",
+   "emails": [
+    "direction.brazzaville@ifcongo.com"
+   ],
+   "url": "http://www.institutfrancais-congo.com",
+   "so": true
+  },
+  {
+   "name": "Institut français du Congo",
+   "city": "Pointe-Noire",
+   "cp": "12088",
+   "city_cp": "Pointe-Noire",
+   "address": "11, avenue Moé Kaat Matou",
+   "phone": "242-06621-86-88",
+   "emails": [],
+   "url": "https://www.ifc-pointenoire.com/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "country": "Guinée",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français de Guinée",
+   "city": "Conakry",
+   "cp": "",
+   "city_cp": "",
+   "address": "sis au Centre franco-Guinéen au pied du pont 8 Novembre BP 492 - Conakry",
+   "phone": "224-628-60-37-73",
+   "emails": [
+    "infocours@institutfrancais-guinee.fr"
+   ],
+   "url": "https://institutfrancais-guinee.fr/",
+   "so": true
+  }
+ ]
+}

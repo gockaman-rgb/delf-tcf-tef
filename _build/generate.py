@@ -49,6 +49,7 @@ HEAD = """<!DOCTYPE html>
       <a href="/tcf-canada/">TCF Canada</a>
       <a href="/tcf-irn/">TCF IRN</a>
       <a href="/delf-b2/">DELF</a>
+      <a href="/centres/">Centres</a>
       <a href="/examens-blancs/">Examens blancs</a>
       <a href="/blog/">Blog</a>
     </div>
@@ -80,6 +81,7 @@ FOOT = """</div></article>
       <li><a href="/delf-b1/">DELF B1</a></li>
       <li><a href="/dalf/">DALF C1 · C2</a></li>
       <li><a href="/ou-passer/">Où passer l'examen</a></li>
+      <li><a href="/centres/">Annuaire des centres</a></li>
     </ul></div>
     <div><h4>Ressources</h4><ul>
       <li><a href="/examens-blancs/">Examens blancs</a></li>

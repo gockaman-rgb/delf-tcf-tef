@@ -1,0 +1,20 @@
+{
+ "country": "Mauritanie",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Nouakchott",
+   "cp": "",
+   "city_cp": "",
+   "address": "Villa 240 F - Nord Tevragh Zeina BP 5022 - Nouakchott",
+   "phone": "222-36-34-82-08",
+   "emails": [],
+   "url": "http://www.reseauafmauritanie.org",
+   "so": true
+  }
+ ]
+}

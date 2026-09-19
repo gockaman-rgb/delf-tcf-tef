@@ -1,0 +1,22 @@
+{
+ "country": "Maurice",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Rose Hill",
+   "cp": "71366",
+   "city_cp": "Rose Hill",
+   "address": "30 avenue Julius Nyerere",
+   "phone": "230-467-42-22",
+   "emails": [
+    "formation@ifmaurice.org"
+   ],
+   "url": "http://www.institutfrancais.mu/fr",
+   "so": true
+  }
+ ]
+}

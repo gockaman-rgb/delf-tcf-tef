@@ -1,0 +1,48 @@
+{
+ "country": "République démocratique du Congo",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Bukavu Kivu Sud",
+   "cp": "",
+   "city_cp": "",
+   "address": "121 avenue P. E Lumumba Commune d'Ibanda - Bukavu Kivu Sud",
+   "phone": "243-97-52-72-384",
+   "emails": [
+    "accueilifbukavu@gmail.com"
+   ],
+   "url": "http://www.institutfrancaisbukavu.org",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Kinshasa",
+   "cp": "",
+   "city_cp": "",
+   "address": "33 avenue de la Gombe B.P. 5236 - Kinshasa",
+   "phone": "243-0-843-964-802",
+   "emails": [
+    "cdl@kinshasa.ifrdc.org"
+   ],
+   "url": "http://www.institutfrancais-kinshasa.org",
+   "so": false
+  },
+  {
+   "name": "Institut Français",
+   "city": "Lubumbashi",
+   "cp": "",
+   "city_cp": "",
+   "address": "63, Chaussée Laurent Désiré KABILA - Lubumbashi",
+   "phone": "243-89-79-90-37",
+   "emails": [
+    "centredelangues@institutfrancais-lubumbashi.com"
+   ],
+   "url": "http://www.institutfrancais-lumbashi.com",
+   "so": true
+  }
+ ]
+}

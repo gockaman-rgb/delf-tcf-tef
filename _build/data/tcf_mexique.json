@@ -1,0 +1,138 @@
+{
+ "country": "Mexique",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 11,
+ "date": "2026-09-19",
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Aguascalientes, Ags.",
+   "cp": "20230",
+   "city_cp": "Aguascalientes, Ags.",
+   "address": "República Dominicana # 409 Fracc. Las Américas",
+   "phone": "52-449-268-31-43",
+   "emails": [],
+   "url": "http://alianzafrancesa.org.mx/aguascalientes/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Guadalajara",
+   "city": "Guadalajara, Jalisco",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Netzahualcóyotl nº650 Colonia Ciudad del Sol Zapopan C.P.45050 Guadalajara, Jalisco",
+   "phone": "52-33--31-22-61-35",
+   "emails": [
+    "tcf@alianzafrancesagdl.mx"
+   ],
+   "url": "http://www.alianzafrancesagdl.mx",
+   "so": true
+  },
+  {
+   "name": "Proulex - Université de Guadalajara",
+   "city": "Guadalajara, Jalisco",
+   "cp": "CP44270",
+   "city_cp": "Guadalajara, Jalisco",
+   "address": "Avenida Alcalde #1916 Colonia Jardines Alcalde",
+   "phone": "52-33-38-54-71-17",
+   "emails": [],
+   "url": "http://www.proulex.com/cei",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Guanajuato",
+   "cp": "36000",
+   "city_cp": "Guanajuato",
+   "address": "Terremoto #1 Centro Guanajuato",
+   "phone": "00-524-737-321-326",
+   "emails": [
+    "afguanajuato@gmail.com"
+   ],
+   "url": "https://alianzafrancesa.org.mx/guanajuato/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Mexicali",
+   "cp": "21270",
+   "city_cp": "Mexicali",
+   "address": "Avenida Benito Juàres1298 Local A2 Colonia jardines del valle",
+   "phone": "+52-686-385-0052",
+   "emails": [
+    "alianzafrancesa@afmexicali.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français Amérique latine",
+   "city": "Mexico DF",
+   "cp": "06500",
+   "city_cp": "Mexico DF",
+   "address": "Rio Nazas 43 Colonia Cuauhtémoc",
+   "phone": "52-55-55-66-07-77",
+   "emails": [],
+   "url": "http://www.ifal.mx",
+   "so": true
+  },
+  {
+   "name": "Centre Pachuca Université Autonome",
+   "city": "Mineral de la Reforma, Hidalgo",
+   "cp": "42184",
+   "city_cp": "Mineral de la Reforma, Hidalgo",
+   "address": "Ciudad del Conocimiento Carretera Pachuca Tulancingo km. 4.5",
+   "phone": "521-77-17-17-20-00",
+   "emails": [],
+   "url": "https://www.uaeh.edu.mx/cel/certificacion-delf.html",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Puebla",
+   "cp": "72550",
+   "city_cp": "Puebla",
+   "address": "2 sur 4920 San Baltazar Campeche",
+   "phone": "52-22-22-40-41-37",
+   "emails": [
+    "info@afpuebla.mx"
+   ],
+   "url": "https://afpuebla.mx/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "San Luis Potosi",
+   "cp": "78270",
+   "city_cp": "San Luis Potosi",
+   "address": "Av Scop # 535, Col. Jardin",
+   "phone": "52-44-48-11-34-45",
+   "emails": [],
+   "url": "http://alianzafrancesa.org.mx",
+   "so": false
+  },
+  {
+   "name": "NAYARIT - Colegio de ciencas y letras de Tepic",
+   "city": "Tepic",
+   "cp": "63190",
+   "city_cp": "Tepic - NAYARIT",
+   "address": "Avenida Bonaterra N°30 Fraccionamiento",
+   "phone": "52-311-668-10-85",
+   "emails": [],
+   "url": "https://cclt.edu.mx",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Zacatecas",
+   "cp": "9800",
+   "city_cp": "Zacatecas",
+   "address": "404, rue Fernando Villalpando",
+   "phone": "52-492-869-2203",
+   "emails": [],
+   "url": "https://alianzafrancesa.org.mx/zacatecas/",
+   "so": true
+  }
+ ]
+}
