@@ -227,5 +227,6 @@ def inject(slug, spec):
 
 
 if __name__ == "__main__":
-    for slug, spec in PILLARS.items():
-        inject(slug, spec)
+    # Depuis le 19/09/2026 (après-midi), les piliers sont générés par exam_hubs.py, qui importe
+    # PILLARS (chiffres, étapes, centres) : ne plus injecter ici.
+    raise SystemExit("Obsolète : lancer python3 _build/exam_hubs.py (voir README).")

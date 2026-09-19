@@ -101,8 +101,24 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   `tcf-afrique`, `tcf-europe`, `tcf-ameriques`, `tcf-moyen-orient`, `tcf-inde`), rendues par
   `article_template.py` (`section="centres"`, `section_name`, `og_slug`). Relancer avec `--force`
   après toute relecture de la liste FEI ; mettre à jour la date et les chiffres des `facts` calculés.
-- `_build/pillar_modules.py` : injecte dans les sept piliers, entre marqueurs `<!-- modules:… -->`
-  et `<!-- centres:… -->` (idempotent), le bandeau `.stats`, « Votre parcours en 5 étapes »
-  (`.steps`), la grille des modules et les principaux centres avec contacts dans la section
-  « Où passer ». Le texte rédigé des piliers n'est pas touché ; relancer après toute retouche.
+- `_build/pillar_modules.py` : ne contient plus que les DONNÉES des piliers (`PILLARS` : chiffres,
+  étapes, centres) et les fonctions de rendu ; son `__main__` est désactivé.
+
+## Pages d'examen en hub + modules (19/09/2026, après-midi)
+
+- Les sept entrées du menu mènent à une **page d'accueil courte** générée par
+  `_build/exam_hubs.py` : ce qu'est l'examen, pour qui, chiffres-clés, parcours en 5 étapes,
+  grille des modules, FAQ courte. Le texte vérifié de l'ancien pilier est découpé en
+  **modules** (sous-pages) : `/tcf-canada/format/`, `/tcf-canada/score-nclc/`,
+  `/tcf-canada/preparation/`, `/tcf-canada/prix-inscription/`, `/tcf-irn/niveaux/`, `…/format/`,
+  `…/prix-inscription/`, `/tcf-quebec/format-modulaire/`, `…/echelle-quebecoise/`,
+  `…/prix-inscription/`, `/tef-canada/format/`, `…/score-nclc/`, `…/tefaq/`,
+  `…/preparation-inscription/`, `/delf-b1/format-bareme/`, `…/carte-de-resident/`,
+  `…/ecrit-oral/`, `…/inscription/`, `/delf-b2/format-bareme/`, `…/a-quoi-sert/`, `…/ecrit-oral/`,
+  `…/inscription/`, `/dalf/format/`, `…/synthese-preparation/`, `…/c1-ou-c2/`, `…/inscription/`.
+- Source du texte : `_build/data/pillars_src/<slug>.html` (piliers figés le 19/09/2026) ; contenu
+  des accueils et découpage : `_build/exam_hubs_config.py`. Les ancres `#section` des anciens
+  piliers sont réécrites vers le module qui les porte. Une question de FAQ ne figure que sur une
+  page. Pour retoucher un texte : éditer la source ou la configuration, puis
+  `python3 _build/exam_hubs.py` — jamais les pages générées.
 - En-tête : lien « Centres » ajouté (6 liens) sur toutes les pages et les trois gabarits.
