@@ -139,7 +139,7 @@ def render(a, overwrite=False):
 <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48-v2.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96-v2.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192-v2.png">
-<link rel="apple-touch-icon" href="/img/icon-180.png">
+<link rel="apple-touch-icon" href="/img/icon-180-v2.png">
 <meta name="apple-itunes-app" content="app-id=6790412304">
 <meta property="og:title" content="{a.get('og_title', title)}">
 <meta property="og:description" content="{a.get('og_desc', desc)}">
