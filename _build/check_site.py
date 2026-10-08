@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Vérification du site statique avant commit (19/09/2026) : équilibre des balises, JSON-LD valide,
-liens internes et ancres, images, OG, ids dupliqués, un seul h1, titre ≤ 60, description ≤ 160.
+liens internes et ancres, images, OG, ids dupliqués, un seul h1, titre ≤ 60, description ≤ 160,
+cibles des balises hreflang (08/10/2026).
 
 Usage : python3 _build/check_site.py
 """
@@ -83,6 +84,12 @@ def main():
             path = og.group(1).replace("https://delf-tcf-tef.fr", "")
             if not os.path.exists(os.path.join(ROOT, path.lstrip("/"))):
                 errs.append(f"og:image absente : {path}")
+        # hreflang (pages /es/ et /en/, 08/10/2026) : chaque cible doit exister ; la réciprocité est
+        # vérifiée par check_i18n.py
+        for lang, href in re.findall(r'<link rel="alternate" hreflang="([^"]+)" href="([^"]+)">', s):
+            path = href.replace("https://delf-tcf-tef.fr", "")
+            if not os.path.exists(os.path.join(ROOT, path.lstrip("/"), "index.html")):
+                errs.append(f"hreflang {lang} : cible absente {path}")
         anchors[rel] = set(p.ids)
         pages[rel] = (f, p, errs)
     for rel, (f, p, errs) in pages.items():

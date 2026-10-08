@@ -18,7 +18,7 @@ from collections import OrderedDict
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from article_template import build  # noqa: E402
-from make_centres import card, clean_city, load, esc, stats, slug as slugify  # noqa: E402
+from make_centres import card, clean_city, langs_of, load, esc, stats, slug as slugify  # noqa: E402
 from villes_config import VILLES, PROCEDURES  # noqa: E402
 
 DATE = "2026-09-19"
@@ -116,6 +116,9 @@ avant de payer.""",
     }
     assert len(a["title"]) <= 60, (v["slug"], len(a["title"]))
     assert len(a["desc"]) <= 158, (v["slug"], len(a["desc"]))
+    alts, links = langs_of(f"/centres/{v['slug']}/")
+    if alts:
+        a["alternates"], a["lang_links"] = alts, links
     return a
 
 

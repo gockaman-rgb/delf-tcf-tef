@@ -1149,6 +1149,7 @@ HUB = {
     "section": "",
     "slug": "ou-passer",
     "accent": "accent-delf",
+    "lang_links": '<p class="langs"><a href="/es/" hreflang="es" lang="es">En español</a> · <a href="/en/" hreflang="en" lang="en">In English</a></p>',   # pages /es/ et /en/ (08/10/2026)
     "crumb": "Où passer l'examen",
     "title": "Où passer le DELF, le TCF ou le TEF ? Centres par pays",
     "desc": "Où passer le DELF, le TCF Canada, le TCF IRN et l'examen civique : France, Canada, Maghreb, Espagne, Royaume-Uni, États-Unis, Amérique latine.",

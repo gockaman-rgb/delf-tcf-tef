@@ -75,6 +75,29 @@ FOOTER = """<footer class="site"><div class="wrap">
 </div></footer>""" % APP
 
 
+# Langues (08/10/2026). Le français reste la valeur par défaut et doit sortir à l'octet près comme avant ;
+# « es » et « en » servent aux pages /es/ et /en/ (make_pays.py). Libellés du gabarit seulement : le
+# contenu, lui, vient de chaque page. Lien App Store sans vitrine : Apple redirige vers celle du visiteur.
+APP_INTL = 'https://apps.apple.com/app/id6790412304'
+HEADER_ES = '<header class="site"><div class="wrap">\n  <a class="logo" href="/es/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>\n  <a class="store" href="https://apps.apple.com/app/id6790412304">App&nbsp;Store</a>\n  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menú"><span></span></button>\n  <nav class="main" id="menu" popover aria-label="Navegación principal">\n    <div class="menu-panel">\n      <a href="/es/">Centros</a>\n      <a href="/es/#tcf-canada">TCF Canada</a>\n      <a href="/es/#delf">DELF</a>\n      <a href="/en/" lang="en">English</a>\n      <a href="/" lang="fr">Français</a>\n    </div>\n    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Cerrar el menú"></button>\n  </nav>\n</div></header>'
+HEADER_EN = '<header class="site"><div class="wrap">\n  <a class="logo" href="/en/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>\n  <a class="store" href="https://apps.apple.com/app/id6790412304">App&nbsp;Store</a>\n  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menu"><span></span></button>\n  <nav class="main" id="menu" popover aria-label="Main navigation">\n    <div class="menu-panel">\n      <a href="/en/">All locations</a>\n      <a href="/en/tcf-canada-test-centres/">Canada</a>\n      <a href="/en/tcf-canada-usa/">USA</a>\n      <a href="/en/tcf-canada-uk/">UK</a>\n      <a href="/es/" lang="es">Español</a>\n      <a href="/" lang="fr">Français</a>\n    </div>\n    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Close menu"></button>\n  </nav>\n</div></header>'
+FOOTER_ES = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF Canada</h4><ul>\n      <li><a href="/es/tcf-canada-espana/">España</a></li>\n      <li><a href="/es/tcf-canada-mexico/">México</a></li>\n      <li><a href="/es/tcf-canada-colombia/">Colombia</a></li>\n      <li><a href="/es/tcf-canada-argentina/">Argentina</a></li>\n      <li><a href="/es/tcf-canada-chile/">Chile</a></li>\n      <li><a href="/es/tcf-canada-peru/">Perú</a></li>\n      <li><a href="/es/tcf-canada-ecuador/">Ecuador</a></li>\n    </ul></div>\n    <div><h4>DELF y DALF</h4><ul>\n      <li><a href="/es/delf-espana/">España</a></li>\n      <li><a href="/es/delf-mexico/">México</a></li>\n      <li><a href="/es/delf-colombia/">Colombia</a></li>\n      <li><a href="/es/delf-argentina/">Argentina</a></li>\n      <li><a href="/es/delf-chile/">Chile</a></li>\n      <li><a href="/es/delf-peru/">Perú</a></li>\n      <li><a href="/es/delf-ecuador/">Ecuador</a></li>\n    </ul></div>\n    <div><h4>El sitio</h4><ul>\n      <li><a href="/es/">Centros de examen</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">La app en el App&nbsp;Store</a></li>\n      <li><a href="/" lang="fr">Versión en francés</a></li>\n      <li><a href="/en/" lang="en">English</a></li>\n      <li><a href="/confidentialite/">Privacidad</a></li>\n      <li><a href="/support/">Contacto</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">Aplicación no oficial, sin vínculo con France Éducation International\n  (DELF, DALF, TCF) ni con Le français des affaires — CCI Paris Île-de-France (TEF). Los nombres\n  de los exámenes se citan solo para describir el contenido de preparación.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
+FOOTER_EN = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF Canada</h4><ul>\n      <li><a href="/en/tcf-canada-test-centres/">Canada: all provinces</a></li>\n      <li><a href="/en/tcf-canada-toronto/">Toronto</a></li>\n      <li><a href="/en/tcf-canada-montreal/">Montreal</a></li>\n      <li><a href="/en/tcf-canada-vancouver/">Vancouver</a></li>\n      <li><a href="/en/tcf-canada-ottawa/">Ottawa</a></li>\n      <li><a href="/en/tcf-canada-quebec-city/">Quebec City</a></li>\n      <li><a href="/en/tcf-canada-usa/">United States</a></li>\n      <li><a href="/en/tcf-canada-uk/">United Kingdom</a></li>\n    </ul></div>\n    <div><h4>DELF and DALF</h4><ul>\n      <li><a href="/en/delf-usa/">United States</a></li>\n      <li><a href="/en/delf-uk/">United Kingdom</a></li>\n    </ul></div>\n    <div><h4>The site</h4><ul>\n      <li><a href="/en/">All locations</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">The app on the App&nbsp;Store</a></li>\n      <li><a href="/" lang="fr">French version</a></li>\n      <li><a href="/es/" lang="es">Español</a></li>\n      <li><a href="/confidentialite/">Privacy</a></li>\n      <li><a href="/support/">Contact</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">Unofficial app, not affiliated with France Éducation International\n  (DELF, DALF, TCF) or Le français des affaires — CCI Paris Île-de-France (TEF). Exam names\n  are cited only to describe the preparation content.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
+UI = {
+    "fr": dict(html="fr", locale="fr_FR", in_language="fr-FR", home="Accueil", by="Par", updated="Mis à jour le",
+               read="min de lecture", essentials="L'essentiel", toc="Au sommaire", faq="Questions fréquentes",
+               also="À lire aussi", download="Télécharger sur l'App&nbsp;Store", app=APP, header=HEADER, footer=FOOTER),
+    "es": dict(html="es", locale="es_ES", in_language="es", home="Inicio", by="Por", updated="Actualizado el",
+               read="min de lectura", essentials="Lo esencial", toc="Contenido", faq="Preguntas frecuentes",
+               also="Para seguir leyendo", download="Descargar en el App&nbsp;Store", app=APP_INTL,
+               header=HEADER_ES, footer=FOOTER_ES),
+    "en": dict(html="en", locale="en_US", in_language="en", home="Home", by="By", updated="Updated",
+               read="min read", essentials="Key facts", toc="Contents", faq="Frequently asked questions",
+               also="Related pages", download="Download on the App&nbsp;Store", app=APP_INTL,
+               header=HEADER_EN, footer=FOOTER_EN),
+}
+
+
 def plain(t):
     """HTML → texte nu, pour le JSON-LD (mêmes mots que la page visible)."""
     t = re.sub(r"<[^>]+>", "", t)
@@ -84,6 +107,7 @@ def plain(t):
 
 def render(a, overwrite=False):
     slug, title, desc = a["slug"], a["title"], a["desc"]
+    L = UI[a.get("lang", "fr")]
     # section="blog" (défaut) → /blog/<slug>/ ; section="" → page pilier à la racine, /<slug>/
     section = a.get("section", "blog")
     url = f"{BASE}/{section}/{slug}/" if section else f"{BASE}/{slug}/"
@@ -100,14 +124,18 @@ def render(a, overwrite=False):
     article_ld = {
         "@context": "https://schema.org", "@type": "Article",
         "headline": title, "description": desc,
-        "datePublished": pub, "dateModified": mod, "inLanguage": "fr-FR",
+        "datePublished": pub, "dateModified": mod, "inLanguage": a.get("in_language", L["in_language"]),
         "author": {"@type": "Person", "name": AUTHOR, "url": f"{BASE}/a-propos/"},
         "publisher": {"@type": "Organization", "name": "delf-tcf-tef.fr", "url": f"{BASE}/"},
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "image": {"@type": "ImageObject", "url": img, "width": 1200, "height": 630},
     }
-    crumbs = [("Accueil", f"{BASE}/")]
-    if section:
+    if "crumbs" in a:
+        # pages /es/ et /en/ : fil d'Ariane fourni par le générateur, [(libellé, chemin)]
+        crumbs = [(n, f"{BASE}{p}") for n, p in a["crumbs"]]
+    else:
+        crumbs = [("Accueil", f"{BASE}/")]
+    if section and "crumbs" not in a:
         # libellé du niveau intermédiaire : « Blog » par défaut, sinon a["section_name"] (ex. « Centres »)
         crumbs.append((a.get("section_name", "Blog" if section == "blog" else section.capitalize()), f"{BASE}/{section}/"))
     crumbs.append((a["crumb"], url))
@@ -121,20 +149,22 @@ def render(a, overwrite=False):
 
     toc = "\n".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in a["toc"])
     facts = "\n".join(f"<li>{f}</li>" for f in a["facts"])
+    alts = "".join(f'<link rel="alternate" hreflang="{h}" href="{BASE}{p}">\n' for h, p in a.get("alternates", []))
+    lang_links = f'{a["lang_links"]}\n' if a.get("lang_links") else ""
     faq = "\n\n".join(
         f"<details><summary>{q}</summary>\n<p>{ans}</p></details>" for q, ans in a["faq"])
     also = "\n".join(
         f'<li><a href="{u}">{t}</a>\n<p>{d}</p></li>' for u, t, d in a["also"])
 
     doc = f"""<!DOCTYPE html>
-<html lang="fr">
+<html lang="{L['html']}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{url}">
-<link rel="stylesheet" href="/style.css">
+{alts}<link rel="stylesheet" href="/style.css">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon-48-v2.png">
 <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96-v2.png">
@@ -148,7 +178,7 @@ def render(a, overwrite=False):
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="{url}">
 <meta property="og:type" content="article">
-<meta property="og:locale" content="fr_FR">
+<meta property="og:locale" content="{a.get('og_locale', L['locale'])}">
 <meta property="og:site_name" content="delf-tcf-tef.fr">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{a.get('og_title', title)}">
@@ -165,21 +195,21 @@ def render(a, overwrite=False):
 </script>
 </head>
 <body class="{a.get('accent', '')}">
-{HEADER}
+{L['header']}
 <article class="page"><div class="wrap narrow">
 <p class="crumb">{crumb_html}</p>
 <h1>{a['h1']}</h1>
-<p class="meta">Par <a href="/a-propos/">{AUTHOR}</a> · Mis à jour le {a['date_fr']} · {a['read']} min de lecture</p>
-
+<p class="meta">{L['by']} <a href="/a-propos/">{AUTHOR}</a> · {L['updated']} {a['date_fr']} · {a['read']} {L['read']}</p>
+{lang_links}
 <p class="intro">{a['intro']}</p>
 
-<div class="facts"><strong>L'essentiel</strong><ul>
+<div class="facts"><strong>{L['essentials']}</strong><ul>
 {facts}
 </ul></div>
 
-<details class="toc"><summary>Au sommaire</summary><ol>
+<details class="toc"><summary>{L['toc']}</summary><ol>
 {toc}
-<li><a href="#faq">Questions fréquentes</a></li>
+<li><a href="#faq">{L['faq']}</a></li>
 </ol></details>
 
 {a['body']}
@@ -187,15 +217,15 @@ def render(a, overwrite=False):
 <div class="cta-band">
 <h2>{a['cta_h2']}</h2>
 <p>{a['cta_p']}</p>
-<a class="btn" href="{APP}">Télécharger sur l'App&nbsp;Store</a>
+<a class="btn" href="{L['app']}">{L['download']}</a>
 </div>
 
-<h2 id="faq">Questions fréquentes</h2>
+<h2 id="faq">{L['faq']}</h2>
 <div class="faq">
 {faq}
 </div>
 
-<h2 id="a-lire">À lire aussi</h2>
+<h2 id="a-lire">{L['also']}</h2>
 <ul class="posts">
 {also}
 </ul>
@@ -205,7 +235,7 @@ def render(a, overwrite=False):
 </div>
 
 </div></article>
-{FOOTER}
+{L['footer']}
 </body>
 </html>
 """

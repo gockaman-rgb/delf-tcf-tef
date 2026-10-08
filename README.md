@@ -172,3 +172,31 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   « pays par pays » des accueils d'examen (clé `pays` d'exam_hubs_config.py) ; sitemap, `/questions/`, images OG.
 - `style.css` : seul un lien `tel:` reste insécable dans une carte de centre — un e-mail long faisait déborder la
   page sur téléphone (y compris `/centres/tcf-france/` avant le 08/10/2026).
+
+## Pages en espagnol et en anglais : /es/ et /en/ (08/10/2026)
+
+- **26 pages** : `/es/` + 14 pages espagnoles (TCF Canada et DELF × Espagne, Mexique, Colombie, Argentine,
+  Chili, Pérou, Équateur) ; `/en/` + 4 pages États-Unis / Royaume-Uni + 6 pages Canada (le pays et Toronto,
+  Montréal, Vancouver, Ottawa, Québec). Sous-dossiers du même domaine ; chaque traduction est liée à sa page
+  française par `hreflang` (fr ↔ es/en, `x-default` = la page française) et par une ligne « Read in English »
+  sous la méta (`.langs`). Les hubs `/es/` et `/en/` n'ont pas d'équivalent français : liens seulement.
+- **Moteur** : `make_pays.py` (couche de langue : badges, villes et régions traduites à l'affichage, phrases
+  fixes par langue dans `texts()`, mode « ville » pour le Canada, `hub()`), `article_template.py` (`UI` : en-têtes,
+  pieds, libellés, `<html lang>`, og:locale, `inLanguage` ; champs `alternates`, `lang_links`, `crumbs`). Le
+  français sort **à l'octet près** : toute modification du moteur se vérifie par `git diff` après régénération.
+- **Texte** : `pays_config_es.py`, `pays_config_en.py` (une spec par page + `HUB`). Le partagé avec la page
+  française — fichier FEI, sites corrigés, clés des badges — vient de `pays_i18n.py` (`from_fr()`, `canada()`) ;
+  les libellés des badges se traduisent par `BADGES` (un libellé absent fait échouer la génération).
+  Règles et glossaire : `_build/i18n_glossary.md` (variantes es-ES / es-419 / en-US / en-GB / en-CA, formats).
+- **Mettre à jour un prix ou une date** : la page française d'abord, puis la traduction, puis
+  `python3 _build/make_pays.py --force` (+ `make_centres.py --force`, `make_villes.py --force` pour le Canada),
+  `python3 _build/check_i18n.py` (chaque nombre du texte français doit se retrouver dans la traduction :
+  c'est la garde contre une mise à jour faite d'un seul côté ; `--strict` en fait une erreur), `check_site.py`.
+- **Canada en anglais** : liste FEI du 19/09/2026 et relevé du 17/09, comme les pages françaises. La liste FEI
+  relue le 08/10/2026 ajoute Collège Boréal (Windsor, Ontario) : signalé sur `/en/tcf-canada-test-centres/`, à
+  intégrer dans les deux langues au prochain rafraîchissement (le « 47 » se propage sur ~25 pages françaises).
+- **En-tête** : trois variantes attendues au contrôle de la section « En-tête commun » — français (toutes les
+  pages françaises), espagnol (`/es/`), anglais (`/en/`). Même balisage popover ; seuls les liens changent.
+- **Mesure** : Search Console à 2, 4 et 8 semaines, pages contenant `/es/` ou `/en/`, par pays et par requête.
+  Si le Canada anglais et les États-Unis prennent des impressions et pas l'espagnol, le domaine .fr est le frein
+  probable (option .com, avec redirections 301).

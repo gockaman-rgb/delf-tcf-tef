@@ -386,7 +386,16 @@ réserver que la session utile."""),
 adresses e-mail génériques (contact, examens, certifications…) sont reprises. Signalez-nous une
 erreur ou une fermeture : la liste est mise à jour à chaque nouvelle lecture de la source.""",
     }
+    alts, links = langs_of(f"/centres/{spec['slug']}/")
+    if alts:
+        a["alternates"], a["lang_links"] = alts, links
     return a
+
+
+def langs_of(fr_path):
+    """hreflang et lien « Read in English » d'une page qui a une traduction /es/ ou /en/ (08/10/2026)."""
+    from make_pays import alternates_for   # import tardif : make_pays importe ce module
+    return alternates_for(fr_path)
 
 
 def pays_pointers(*countries):
@@ -907,6 +916,7 @@ nom — et une attestation « à distance » n'existe pas. En cas de doute, la l
 """
     return {
         "section": "", "slug": "centres", "accent": "accent-delf", "crumb": "Centres d'examen",
+        "lang_links": '<p class="langs"><a href="/es/" hreflang="es" lang="es">En español</a> · <a href="/en/" hreflang="en" lang="en">In English</a></p>',   # pages /es/ et /en/ (08/10/2026)
         "title": "Centres d'examen DELF, TCF et examen civique : l'annuaire",
         "desc": f"{fr_int(total)} centres agréés par FEI dans {npays} pays, avec adresse, téléphone, e-mail et site : France, Canada, Maghreb, Europe, Amériques, Afrique.",
         "og_title": "Centres d'examen DELF, TCF et examen civique : l'annuaire", "og_desc": f"{fr_int(total)} centres agréés dans {npays} pays, avec leurs contacts, d'après la liste officielle de FEI.",

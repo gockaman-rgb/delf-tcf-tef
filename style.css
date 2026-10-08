@@ -424,6 +424,9 @@ footer.site a { color: var(--muted); }
 
 /* Méta d'article : date de mise à jour + temps de lecture */
 .meta { font-size: .88em; color: var(--muted); margin: -.4em 0 1.6em; }
+/* La même page dans une autre langue (08/10/2026) : une ligne sous la méta */
+.langs { font-size: .88em; margin: -1.2em 0 1.6em; }
+.langs a { font-weight: 600; }
 
 /* Sommaire */
 /* Sommaire : un <details> fermé par défaut (téléphone : il occupait un écran entier avant
