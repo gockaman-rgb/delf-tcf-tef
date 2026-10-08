@@ -379,7 +379,8 @@ article.page ul, article.page ol { margin: .8em 0 .8em 1.3em; }
 footer.site { border-top: 1px solid var(--line); padding: 36px 0 48px; margin-top: 30px;
               font-size: .9em; color: var(--muted); }
 footer.site .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 24px; }
-@media (max-width: 700px) { footer.site .cols { grid-template-columns: 1fr; } }
+footer.site .cols:has(> div:nth-child(4)) { grid-template-columns: repeat(4, 1fr); }   /* pied anglais à 4 colonnes (08/10/2026) */
+@media (max-width: 700px) { footer.site .cols, footer.site .cols:has(> div:nth-child(4)) { grid-template-columns: 1fr; } }
 footer.site h4 { font-size: .85em; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .6em; color: var(--text); }
 footer.site ul { list-style: none; }
 footer.site li { margin: .35em 0; }

@@ -640,6 +640,152 @@ test day, bring a valid passport and your printed test-day notice (admission let
 
 
 # ===========================================================================
+# INDIA (FEI list and centre websites read on 8 October 2026)
+# ===========================================================================
+_CA = [("ok", "TCF Canada")]
+PAGES.append(dict(
+    lang="en", variant="en-GB", og_locale="en_IN", fr_path="/centres/tcf-inde/", slug="tcf-canada-india",
+    country_name="India", exam="tcf", file="tcf_inde", layout="cities",
+    crumb="TCF Canada in India",
+    title="TCF Canada exam in India: centres, ₹26,000 fee, dates",
+    desc="TCF Canada exam centres in India: New Delhi, Kolkata, Ahmedabad, Bangalore, Bhopal. Fee ₹26,000 where published; next dates and how to register.",
+    h1="TCF Canada in India: the centres that offer it, the fee and the next dates",
+    intro="""In India, {n} Alliances Françaises are approved for the TCF by France Éducation international, but on 8 October
+2026 <strong>five offered the TCF Canada</strong> on their websites: New Delhi, Kolkata, Ahmedabad, Bangalore and Bhopal.
+Where the fee is published, it is <strong>₹26,000</strong> (GST included in New Delhi and Kolkata). Seats are scarce: Delhi’s October sessions and
+Bangalore’s 14 November session were full; the next dates were <strong>18 and 25 November</strong> in Delhi (registration
+4–11 November) and <strong>4 December</strong> in Bhopal (one seat left). Lucknow points Canada candidates to the TEF
+Canada, and Trivandrum announces the TCF as “coming soon”.""",
+    facts=["<strong>{n} approved centres</strong> (FEI list of 8 October 2026), all Alliances Françaises; <strong>5 offer the TCF Canada</strong>: New Delhi, Kolkata, Ahmedabad, Bangalore and Bhopal.",
+           "Fee: <strong>₹26,000</strong> in New Delhi, Kolkata and Bhopal (GST included in New Delhi and Kolkata; Bhopal doesn’t say); not published in Ahmedabad or Bangalore.",
+           "Next dates on 8 October 2026: New Delhi <strong>18 and 25 November</strong> (registration 4–11 November), then 16 December; Bhopal <strong>4 December</strong> (one seat left), then February–March 2027; Ahmedabad “to be confirmed”.",
+           "⚠️ <strong>Full</strong>: New Delhi on 14 and 28 October, Bangalore on 14 November.",
+           "No TCF Canada in Lucknow (TEF Canada only) or Trivandrum (“TCF Exam Coming Soon!”, e-TEF Canada for now); Mumbai and Chennai are not on FEI’s TCF list.",
+           "Computer-based in New Delhi, Kolkata and Ahmedabad, paper-based in Bhopal; re-marking has stopped for sessions held since 1 September 2026."],
+    stats=[("5", "centres offering the TCF Canada", "out of {n} approved"), ("₹26,000", "TCF Canada fee", "where published"),
+           ("18 Nov", "next date in New Delhi", "registration 4–11 Nov"), ("2 years", "validity", "results in 2 to 8 weeks")],
+    sections=[
+        ("tcf-canada-centres", "Who offers the TCF Canada in India", releve([
+            ("Alliance Française de Delhi (New Delhi)", "<strong>Canada</strong> only", "<strong>₹26,000</strong> incl. GST",
+             "14 and 28 Oct <strong>full</strong>; <strong>18 and 25 Nov</strong> (registration 4–11 Nov, “to be confirmed”), 16 Dec (registration 2–9 Dec). Computer-based; a valid passport is required at registration; results in 2–4 weeks."),
+            ("Alliance Française du Bengale (Kolkata)", "<strong>Canada</strong>, Québec, tout public, IRN",
+             "Canada <strong>₹26,000</strong> incl. GST · Québec ₹6,500 per test · tout public ₹13,000 (+ ₹6,500 per optional test)",
+             "Dates on an external booking calendar; register at least 15 days before; computer-based; for sessions from January 2027, one postponement of up to 3 months for 50% of the fee (₹13,000)."),
+            ("Alliance Française d’Ahmedabad", "<strong>Canada</strong>", "not published",
+             "“New upcoming sessions to be confirmed”; online form, then a payment link by email; computer-based; certificate within 15 working days."),
+            ("Alliance Française de Bangalore", "<strong>Canada</strong>", "not published",
+             "14 Nov 2026 <strong>full</strong>; no other date published; at least 20 days between attempts."),
+            ("Alliance Française de Bhopal", "<strong>Canada</strong>", "<strong>₹26,000</strong>",
+             "<strong>4 Dec 2026</strong> (one seat left), then 12, 19, 26 Feb and 12, 19, 25 Mar 2027; registration closes one month before; paper-based; 30 days between attempts; results in 4–8 weeks."),
+            ("Alliance Française de Lucknow", "no TCF page — <strong>TEF Canada</strong>", "TEF Canada ₹26,000 incl. GST",
+             "Presents the TEF Canada as its test for Canadian immigration."),
+            ("Alliance Française de Trivandrum", "“TCF Exam Coming Soon!”", "—", "e-TEF Canada on computer for now."),
+        ], "en-GB", "What each centre’s website showed on 8 October 2026, fees in Indian rupees. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ("registration", "Registering for the TCF Canada in India", """<p>Each Alliance sells the test itself: an online
+shop in Bhopal, an online form followed by a payment link in Ahmedabad, an online form that includes payment in Kolkata, an online account or the front desk
+in New Delhi — and a seat only counts once it is paid. Register with the passport you will use for your IRCC
+application: New Delhi has accepted <strong>only a valid passport</strong> since January 2026; Bhopal asks for a scanned
+photo ID (passport or Aadhaar). In Delhi, registration opens at 9:30 am online and 9 am at the desk, and the page warns
+that seats “often fill within minutes”.</p>
+
+<p>Refunds are rare: Ahmedabad and New Delhi refund nothing once you are registered (unless Delhi cancels the session),
+and Bhopal refunds nothing if you arrive late or without your original photo ID. Leave <strong>20 to 30 days</strong>
+between two attempts — 20 in Bangalore and Kolkata, 30 in Bhopal. Results take 15 working days in Ahmedabad, 2 to 4
+weeks in Delhi and 4 to 8 weeks in Bhopal; the results certificate is valid for two years, and re-marking has stopped
+for sessions held since 1 September 2026. For Express Entry, aim for CLB 7: 458 in listening, 453 in reading.</p>
+
+<p>The <a href="/en/tcf-vs-tef-canada/">TEF Canada</a>, the other French test IRCC accepts, is the alternative where the TCF
+is full or not offered: Lucknow and Trivandrum (e-TEF) run it, and Ahmedabad and Bhopal offer it alongside the TCF.
+Lucknow’s page says the TEF Canada fee — ₹26,000 including GST — is the same at every Alliance Française in India.</p>"""),
+    ],
+    list_title="The {n} approved TCF centres in India, city by city",
+    faq=[("Where can I take the TCF Canada in India?", "At one of the five Alliances Françaises that offered it on 8 October 2026: New Delhi, Kolkata, Ahmedabad, Bangalore and Bhopal. Lucknow and Trivandrum are approved for the TCF but only offer the TEF Canada for now; Mumbai and Chennai are not on France Éducation international’s TCF list."),
+         ("How much does the TCF Canada cost in India?", "₹26,000 at New Delhi, Kolkata and Bhopal (GST included in Delhi and Kolkata), as published on 8 October 2026; Ahmedabad and Bangalore don’t show their fee. Kolkata also lists the TCF Québec at ₹6,500 per test."),
+         ("When are the next TCF Canada dates in India?", "On 8 October 2026: 18 and 25 November in New Delhi (registration 4–11 November, marked “to be confirmed”) and 16 December; 4 December in Bhopal (one seat left), then six dates in February and March 2027. Delhi’s October sessions and Bangalore’s 14 November session were full."),
+         ("Is the TCF Canada computer-based in India?", "In New Delhi, Kolkata and Ahmedabad, yes. Bhopal runs a paper-based (“Pen & Paper”) TCF Canada."),
+         ("Is a TCF Canada taken in India accepted by IRCC?", "Yes: the results certificate is issued by France Éducation international whichever approved centre you test at, and it is valid for two years.")],
+    also=[("/en/tcf-canada-dubai/", "TCF Canada in Dubai and Abu Dhabi", "1,800 AED, sessions from 23 October 2026."),
+          ("/en/tcf-canada/fees-registration/", "TCF Canada fees and registration", "Fees country by country, and how booking works."),
+          ("/en/tcf-vs-tef-canada/", "TCF vs TEF Canada", "The two French tests IRCC accepts, side by side.")],
+    sources="the websites of the Alliances Françaises of New Delhi (afdelhi.org), Kolkata, Ahmedabad, Bangalore, Bhopal, Lucknow and Trivandrum (TCF and TEF pages, schedules, registration forms and online shops), checked on 8 October 2026.",
+    badges={"ahmedabad-alliance-francaise": _CA + [("part", "dates to be confirmed")],
+            "bangalore-alliance-francaise": _CA + [("part", "14 Nov full")],
+            "bhopal-alliance-francaise": _CA, "calcutta-alliance-francaise-du-bengale": _CA, "new-delhi-alliance-francaise": _CA,
+            "lucknow-alliance-francaise": [("no", "TEF Canada only")],
+            "trivandrum-alliance-francaise-de-trivandrum": [("part", "TCF coming soon")]},
+    urls={"ahmedabad-alliance-francaise": "https://ahmedabad.afindia.org/tcf/",
+          "bangalore-alliance-francaise": "https://bangalore.afindia.org/tcf-cannada/",
+          "bhopal-alliance-francaise": "https://bhopal.afindia.org/tcfcanada/",
+          "calcutta-alliance-francaise-du-bengale": "https://bengale.afindia.org/tcf/",
+          "lucknow-alliance-francaise": "https://lucknow.afindia.org/",
+          "new-delhi-alliance-francaise": "https://afdelhi.org/tcf-exams/"},
+))
+
+# ===========================================================================
+# UNITED ARAB EMIRATES (no French equivalent page: no hreflang)
+# ===========================================================================
+PAGES.append(dict(
+    lang="en", variant="en-GB", og_locale="en_AE", fr_path=None, slug="tcf-canada-dubai",
+    country_name="United Arab Emirates", exam="tcf", file="tcf_emirats", layout="cities",
+    crumb="TCF Canada in Dubai and Abu Dhabi",
+    title="TCF Canada in Dubai and Abu Dhabi: 1,800 AED, dates",
+    desc="TCF Canada in the UAE: the Alliance Française de Dubai (two centres) and Abu Dhabi, 1,800 AED, on computer. Next open sessions, deadlines, booking rules.",
+    h1="TCF Canada in Dubai and Abu Dhabi: the centres, the fee and the dates",
+    intro="""In the United Arab Emirates, {n} centres are approved for the TCF by France Éducation international, and on
+8 October 2026 the TCF Canada was offered by the <strong>Alliance Française de Dubai</strong> — at Oud Metha and Dubai
+Knowledge Park — and the <strong>Alliance Française Abu Dhabi</strong>: <strong>1,800 AED</strong> everywhere, on
+computer. In Dubai, the 20, 21 and 27 October sessions were full and the first open date was <strong>Friday 30
+October</strong> (registration until 21 October); in Abu Dhabi, the next session was <strong>Friday 23 October</strong>
+(registration until 12 October). The 2026 calendar lists the TCF only at the Abu Dhabi centre, not at Al Ain.""",
+    facts=["<strong>{n} approved centres</strong> (FEI list of 8 October 2026); the TCF Canada is held in <strong>Dubai</strong> (Oud Metha, Dubai Knowledge Park) and <strong>Abu Dhabi</strong>; Al Ain is on FEI’s list, but the Alliance’s 2026 calendar doesn’t schedule the TCF there.",
+           "Fee: <strong>1,800 AED</strong> in Dubai and in Abu Dhabi (TCF IRN 1,380 AED, TCF tout public 900 AED in Abu Dhabi).",
+           "Dubai: 20, 21 and 27 October <strong>full</strong>; nine open sessions from <strong>30 October</strong> to 22 December 2026.",
+           "Abu Dhabi: <strong>23 October</strong> (registration until 12 October), 20 November, 16 December.",
+           "Computer-based in both cities; in Dubai, no re-marking and no refund once the registration period has closed."],
+    stats=[("1,800 AED", "TCF Canada", "Dubai and Abu Dhabi"), ("30 Oct", "first open date in Dubai", "registration until 21 Oct"),
+           ("23 Oct", "next date in Abu Dhabi", "registration until 12 Oct"), ("2 years", "validity", "results a few weeks later")],
+    sections=[
+        ("dubai", "Alliance Française de Dubai: the sessions", table(
+            "TCF Canada sessions on the Alliance Française de Dubai booking page on 8 October 2026. OM = Oud Metha (18th Street), DKP = Dubai Knowledge Park (Block 2B).",
+            ["Date", "Centre", "Registration until", "Status"],
+            [("Tue 20 Oct 2026", "OM", "11 Oct", "<strong>full</strong>"), ("Wed 21 Oct", "DKP", "11 Oct", "<strong>full</strong>"),
+             ("Tue 27 Oct", "OM", "18 Oct", "<strong>full</strong>"), ("<strong>Fri 30 Oct</strong>", "OM", "21 Oct", "open"),
+             ("Tue 3 Nov", "OM", "25 Oct", "open"), ("Tue 10 Nov", "OM", "1 Nov", "open"), ("Tue 24 Nov", "OM", "15 Nov", "open"),
+             ("Wed 25 Nov", "DKP", "15 Nov", "open"), ("Tue 8 Dec", "OM", "29 Nov", "open"), ("Tue 15 Dec", "OM", "6 Dec", "open"),
+             ("Wed 16 Dec", "OM", "6 Dec", "open"), ("Tue 22 Dec", "OM", "13 Dec", "open")], wide=False) + """
+<p>The Alliance’s PDF calendar (dated 24 September) doesn’t yet show the 30 October session and puts 16 December at
+Dubai Knowledge Park: when they differ, the booking page — where you pay — is the one to trust. You book online or at the
+offices, during the registration window only; registration is confirmed once you have paid and uploaded a copy of your
+passport, and the test-day notice is emailed a week before. Fees are refundable only if you cancel during the
+registration period; after it closes, there is no refund or credit, including if you are absent, and re-marking is not
+accepted.</p>"""),
+        ("abu-dhabi", "Alliance Française Abu Dhabi", """<p>The Alliance Française Abu Dhabi holds the TCF Canada at its
+Abu Dhabi centre (Al Bateen), on computer, for <strong>1,800 AED</strong>: <strong>Friday 23 October</strong>
+(registration 1 September–12 October), <strong>Friday 20 November</strong> (1 October–9 November) and
+<strong>Wednesday 16 December 2026</strong> (15 October–6 December). Its calendar also lists the TCF IRN (1,380 AED) and
+the TCF tout public (900 AED). You pick a date and book online; results come “a few weeks later”. The site publishes no
+cancellation or re-marking rule. The TCF row of its calendar lists only the Abu Dhabi centre.</p>"""),
+    ],
+    list_title="The {n} approved TCF centres in the UAE",
+    faq=[("Where can I take the TCF Canada in Dubai?", "At the Alliance Française de Dubai, which holds it at Oud Metha (18th Street) and Dubai Knowledge Park (Block 2B), on computer, for 1,800 AED. On 8 October 2026 the 20, 21 and 27 October sessions were full; the first open session was Friday 30 October, with registration until 21 October."),
+         ("How much does the TCF Canada cost in the UAE?", "1,800 AED at the Alliance Française de Dubai and at the Alliance Française Abu Dhabi, as published on 8 October 2026."),
+         ("Can I take the TCF Canada in Abu Dhabi or Al Ain?", "In Abu Dhabi, yes: 23 October, 20 November and 16 December 2026 at the Alliance Française Abu Dhabi. Its 2026 calendar doesn’t list the TCF at the Al Ain branch."),
+         ("Can I get a refund if I can’t attend?", "In Dubai, only if you cancel during the registration period; after it closes, there is no refund or credit, including if you are absent. Abu Dhabi publishes no rule."),
+         ("Is a TCF Canada taken in the UAE accepted by IRCC?", "Yes: the results certificate is issued by France Éducation international whichever approved centre you test at, and it is valid for two years.")],
+    also=[("/en/tcf-canada-india/", "TCF Canada in India", "Five Alliances, ₹26,000, the next dates."),
+          ("/en/tcf-canada/fees-registration/", "TCF Canada fees and registration", "Fees country by country, and how booking works."),
+          ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Measure your level before you pay 1,800 AED.")],
+    sources="the websites of the Alliance Française de Dubai (Canada immigration exams page, TCF Canada booking page, September–December 2026 calendar) and of the Alliance Française Abu Dhabi (TCF page, TCF Canada booking page, 2026 exam calendar), checked on 8 October 2026.",
+    badges={"abou-dhabi-french-ambassy-institut-francais-antenne-afad": _CA,
+            "dubai-alliance-francaise-de-dubai-centre-1": _CA, "dubai-alliance-francaise-de-dubai-centre-2": _CA,
+            "al-ain-alliance-francais-d-abu-dhabi-antenne-al-ain": [("part", "TCF not listed at Al Ain")]},
+    urls={"abou-dhabi-french-ambassy-institut-francais-antenne-afad": "https://www.afabudhabi.org/tcf/",
+          "dubai-alliance-francaise-de-dubai-centre-1": "https://www.afdubai.org/canada-immigration-exams-alliance-francaise-dubai/tcf-canada-exam/",
+          "dubai-alliance-francaise-de-dubai-centre-2": "https://www.afdubai.org/canada-immigration-exams-alliance-francaise-dubai/tcf-canada-exam/"},
+))
+
+
+# ===========================================================================
 # /en/ — landing page (make_pays.hub("en")). Figures taken from each country page.
 # ===========================================================================
 def _hub_table():
@@ -650,9 +796,11 @@ def _hub_table():
                        '<a href="/en/tcf-canada-ottawa/">Ottawa</a>, <a href="/en/tcf-canada-quebec-city/">Quebec City</a>',
              f'<a href="{fei_ca_delf}" rel="noopener">FEI’s official list</a>'),
             ("United States", '<a href="/en/tcf-canada-usa/">9 of 18 centres, US$330 to US$460</a>', '<a href="/en/delf-usa/">40 centres, B2 US$190</a>'),
-            ("United Kingdom", '<a href="/en/tcf-canada-uk/">London £260, Glasgow £325</a>', '<a href="/en/delf-uk/">11 centres, B2 £160</a>')]
-    return table("The TCF Canada and the DELF-DALF in three countries, from each centre’s website (Canada: 17 September 2026; "
-                 "United States and United Kingdom: 8 October 2026). Fees in local currency, for an individual candidate.",
+            ("United Kingdom", '<a href="/en/tcf-canada-uk/">London £260, Glasgow £325</a>', '<a href="/en/delf-uk/">11 centres, B2 £160</a>'),
+            ("India", '<a href="/en/tcf-canada-india/">5 Alliances, ₹26,000</a>', "—"),
+            ("United Arab Emirates", '<a href="/en/tcf-canada-dubai/">Dubai and Abu Dhabi, 1,800 AED</a>', "—")]
+    return table("The TCF Canada and the DELF-DALF, from each centre’s website (Canada: 17 September 2026; United States, "
+                 "United Kingdom, India and the UAE: 8 October 2026). Fees in local currency, for an individual candidate.",
                  ["Country", "TCF Canada", "DELF · DALF"], [(f"<strong>{p}</strong>", a, b) for p, a, b in rows], wide=False)
 
 
@@ -671,8 +819,10 @@ The United States and the United Kingdom: the TCF Canada and the DELF.""",
            "⚠️ Sessions in Toronto and Vancouver <strong>fill up within minutes</strong>: register the moment bookings open.",
            "<strong>United States</strong>: 9 of the 18 approved TCF centres offer the TCF Canada, for US$330 to US$460 (8 October 2026).",
            "<strong>United Kingdom</strong>: the TCF Canada at the Institut français in London (£260) and the Alliance française de Glasgow (£325); when we checked on 8 October 2026, the earliest free seat in London was on 23 April 2027.",
+           "<strong>India</strong>: 5 Alliances Françaises offer the TCF Canada (₹26,000 where published); <strong>UAE</strong>: Dubai and Abu Dhabi, 1,800 AED.",
            "A DELF or DALF diploma is valid for life; TCF Canada results, for two years."],
-    toc=[("countries", "Three countries, two exams"), ("tcf-canada", "TCF Canada"), ("delf", "DELF and DALF")],
+    toc=[("countries", "Where to take the exams"), ("prepare", "Prepare for the TCF Canada"), ("tcf-canada", "TCF Canada"),
+         ("delf", "DELF and DALF"), ("france", "Living in France")],
     body="""
 <div class="stats">
 <div class="stat"><b>47</b><span>TCF centres in Canada</span><em>nine provinces and Nunavut</em></div>
@@ -680,8 +830,22 @@ The United States and the United Kingdom: the TCF Canada and the DELF.""",
 <div class="stat"><b>£260</b><span>TCF Canada in London</span><em>earliest free seat: 23 April 2027</em></div>
 </div>
 
-<h2 id="countries">Three countries, two exams</h2>
+<h2 id="countries">Where to take the exams</h2>
 """ + _hub_table() + """
+
+<h2 id="prepare">Prepare for the TCF Canada</h2>
+<p>The guides behind the scores: what each of the four tests looks like, how scores convert to CLB levels, and practice
+material in the official format.</p>
+<ul class="posts">
+<li><a href="/en/tcf-canada/">The TCF Canada exam</a><p>What it is, who it is for, the four tests and the CLB levels IRCC reads.</p></li>
+<li><a href="/en/tcf-canada/score-clb/">Score chart and CLB calculator</a><p>CLB 7 is 458 in listening, 453 in reading, 10/20 in speaking and writing.</p></li>
+<li><a href="/en/tcf-canada-practice-test/">Free TCF Canada practice test</a><p>Measure your level on the real format before you book.</p></li>
+<li><a href="/en/tcf-canada-writing-tasks/">Writing tasks 1, 2 and 3</a><p>Word limits, sample topics and how to split the 60 minutes.</p></li>
+<li><a href="/en/tcf-canada-speaking-topics/">Speaking topics</a><p>The three tasks in 12 minutes.</p></li>
+<li><a href="/en/tcf-vs-tef-canada/">TCF vs TEF Canada</a><p>The two French tests IRCC accepts, side by side.</p></li>
+<li><a href="/en/tef-canada/">TEF Canada</a><p>The other test: format, scoring and CLB levels.</p></li>
+<li><a href="/en/tcf-quebec/">TCF Québec</a><p>The modular test for Quebec immigration, compared with the TCF Canada.</p></li>
+</ul>
 
 <h2 id="tcf-canada">TCF Canada: before you register</h2>
 <p>The TCF Canada is a <strong>test</strong>, not a diploma: there is no pass or fail — it places your level in each
@@ -694,7 +858,14 @@ centres advertised it on their website — and seats are scarce in the big citie
 <p>The DELF (A1 to B2) and the DALF (C1, C2) are official <strong>diplomas</strong> of the French Ministry of
 Education: you pass them level by level, and they are valid for life. In each country, a central management body
 sets the session calendar, and you register directly with a centre — an Alliance française, an Institut français, a
-university. Pages: <a href="/en/delf-usa/">DELF in the USA</a> · <a href="/en/delf-uk/">DELF in the UK</a>.</p>
+university. Guides: <a href="/en/delf-b2/">DELF B2 exam</a> · <a href="/en/delf-b1/">DELF B1</a> ·
+<a href="/en/dalf-c1/">DALF C1</a> · <a href="/en/delf-b2-practice-test/">DELF B2 practice test</a>. Centres:
+<a href="/en/delf-usa/">DELF in the USA</a> · <a href="/en/delf-uk/">DELF in the UK</a>.</p>
+
+<h2 id="france">Living in France: residence and citizenship</h2>
+<p>Since 2026, French citizenship requires B2 in French, and the resident card B1. What the rules ask for, and the
+tests that prove it: <a href="/en/french-citizenship-b2/">French citizenship language requirement: B2</a> ·
+<a href="/en/tcf-irn/">TCF IRN</a>.</p>
 
 <p>Spain and Latin America, in Spanish: <a href="/es/" lang="es">TCF Canada y DELF en español</a>.</p>
 """,

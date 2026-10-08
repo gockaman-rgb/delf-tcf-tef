@@ -394,7 +394,7 @@ erreur ou une fermeture : la liste est mise à jour à chaque nouvelle lecture d
 
 def langs_of(fr_path):
     """hreflang et lien « Read in English » d'une page qui a une traduction /es/ ou /en/ (08/10/2026)."""
-    from make_pays import alternates_for   # import tardif : make_pays importe ce module
+    from i18n_registry import alternates_for   # import tardif : le registre lit les configs traduites
     return alternates_for(fr_path)
 
 
@@ -782,30 +782,35 @@ Voici leurs coordonnées, pays par pays.""",
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", ""),
                ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "")]),
     dict(slug="tcf-inde", files=["tcf_inde"], layout="cities", exam="TCF", accent="accent-tcf",
+         modified="2026-10-08", date_fr="8 octobre 2026", list_date_fr="8 octobre 2026",
          crumb="Centres TCF en Inde",
          title="Centres TCF en Inde : les 7 centres agréés, contacts",
-         desc="Les sept centres TCF agréés en Inde — Alliances françaises de Delhi, Mumbai, Bangalore, Chennai, Ahmedabad… — avec adresse, téléphone, e-mail et site.",
+         desc="Les sept centres TCF agréés en Inde — Alliances françaises de New Delhi, Calcutta, Bangalore, Ahmedabad, Bhopal, Lucknow, Trivandrum —, leurs contacts.",
          h1="Centres TCF en Inde : les 7 centres agréés et leurs contacts",
          intro="""En Inde, le TCF Canada se passe dans l'un des <strong>%(n)d centres agréés</strong> par France Éducation
-international au 19 septembre 2026 — les Alliances françaises —, dont %(so)d avec des sessions sur
+international au 8 octobre 2026 — les Alliances françaises —, dont %(so)d avec des sessions sur
 ordinateur. Voici leurs coordonnées, ville par ville. Le TEF Canada, l'autre test accepté par IRCC,
 relève du réseau du Français des affaires, souvent dans les mêmes Alliances.""",
-         facts=["<strong>7 centres agréés</strong>, tous des Alliances françaises (liste FEI du 19 septembre 2026), 3 avec des sessions sur ordinateur.",
+         facts=["<strong>7 centres agréés</strong>, tous des Alliances françaises (liste FEI du 8 octobre 2026), 3 avec des sessions sur ordinateur : New Delhi, Calcutta, Ahmedabad.",
+                "Ni Mumbai ni Chennai ne figurent dans la liste du TCF.",
+                "<strong>5 Alliances affichent le TCF Canada</strong> le 8 octobre 2026 : New Delhi, Calcutta, Ahmedabad, Bangalore, Bhopal ; Lucknow ne propose que le TEF Canada et Trivandrum annonce le TCF « bientôt ».",
+                "Prix : <strong>26 000 roupies</strong> à New Delhi, Calcutta et Bhopal (TTC à New Delhi et Calcutta) ; non publié à Ahmedabad et Bangalore.",
+                "Prochaines dates relevées : <strong>18 et 25 novembre</strong> à New Delhi (inscriptions du 4 au 11 novembre), <strong>4 décembre</strong> à Bhopal (une place) ; complet à New Delhi les 14 et 28 octobre et à Bangalore le 14 novembre.",
                 "Chaque Alliance fixe ses dates et son tarif ; l'inscription se fait sur son site.",
                 "Le TCF Canada passé en Inde est accepté par IRCC comme partout : même attestation, valable deux ans.",
                 "20 à 30 jours entre deux passations.",
                 "Pour Entrée express, visez le NCLC 7 : 458 en compréhension orale, 453 à l'écrit.",
                 "Un organisme absent de cette liste n'est pas agréé."],
-         stat4=("7", "Alliances françaises", "de Delhi à Chennai"), cities_note="Delhi, Mumbai, Bangalore…",
+         stat4=("7", "Alliances françaises", "de Delhi à Trivandrum"), cities_note="Delhi, Calcutta, Bangalore…",
          liste_label="ville par ville", decl="Canada, Québec, tout public, DAP",
          guides=[("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
                  ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", ""),
                  ("/ou-passer/", "Où passer le DELF, le TCF ou le TEF ? Le hub", "")],
          sources_links=[("Liste des centres TCF en Inde", FEI_LISTE % (45, "tcf")), ("Carte des centres TCF", FEI_CARTE % "tcf")],
-         sources_text="filtre « Inde », type « TCF »",
-         faq=[("Où passer le TCF Canada en Inde ?", "Dans l'une des sept Alliances françaises agréées listées ci-dessous — à Delhi, Mumbai, Bangalore, Chennai, Ahmedabad et d'autres villes."),
+         sources_text="filtre « Inde », type « TCF », et sites des Alliances françaises de New Delhi, Calcutta, Ahmedabad, Bangalore, Bhopal, Lucknow et Trivandrum (pages TCF et TEF, calendriers, boutiques)",
+         faq=[("Où passer le TCF Canada en Inde ?", "Dans l'une des sept Alliances françaises agréées listées ci-dessous — à New Delhi, Calcutta, Bangalore, Ahmedabad, Bhopal, Lucknow et Trivandrum. Mumbai et Chennai ne figurent pas dans la liste du TCF de France Éducation international (8 octobre 2026)."),
               ("Le TCF Canada passé en Inde est-il accepté par IRCC ?", "Oui : l'attestation est délivrée par France Éducation international quel que soit le centre agréé, et vaut deux ans."),
-              ("Combien coûte le TCF en Inde ?", "Chaque Alliance fixe son tarif en roupies et le publie sur son site ; il n'existe pas de tarif national."),
+              ("Combien coûte le TCF en Inde ?", "26 000 roupies pour le TCF Canada à New Delhi, Calcutta et Bhopal (TTC à New Delhi et Calcutta) le 8 octobre 2026 ; Ahmedabad et Bangalore ne publient pas leur tarif. Calcutta affiche aussi le TCF Québec à 6 500 roupies par épreuve."),
               ("TCF Canada ou TEF Canada ?", "Les deux sont acceptés par IRCC ; le TEF relève du réseau du Français des affaires, souvent proposé par les mêmes Alliances. Notre comparatif TCF ou TEF Canada les met côte à côte."),
               ("Comment vérifier qu'un centre est agréé ?", "Dans la liste officielle de FEI, filtre « Inde ».")],
          also=[("/centres/tcf-moyen-orient/", "Centres TCF au Liban, aux Émirats, en Égypte, en Turquie", ""),

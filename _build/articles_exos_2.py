@@ -111,7 +111,7 @@ décide de votre note — et celle que les candidats bâclent, faute d'avoir gé
 <thead><tr><th>Tâche</th><th>Genre</th><th>Longueur</th></tr></thead>
 <tbody>
 <tr><td><strong>1</strong></td><td>Message</td><td><strong>60 à 120 mots</strong></td></tr>
-<tr><td><strong>2</strong></td><td>Article ou récit</td><td><strong>120 à 150 mots</strong></td></tr>
+<tr><td><strong>2</strong></td><td>Article, lettre ou récit</td><td><strong>120 à 150 mots</strong></td></tr>
 <tr><td><strong>3</strong></td><td>Comparaison de deux points de vue, avec avis argumenté</td><td><strong>120 à 180 mots</strong></td></tr>
 <tr><td colspan="2"><strong>Total</strong></td><td><strong>60 minutes</strong></td></tr>
 </tbody>
@@ -139,7 +139,7 @@ qualité de la langue.</p>
 "faute de langue. Ajoutez les conventions du genre : objet, formule d'appel, formule de "
 "politesse. Le registre attendu ici est <em>formel</em> : « je vous écris », pas « je vous "
 "écris pour vous dire que »."
-) + sujet("Tâche 2 — Article ou récit", "120 à 150 mots · narration structurée",
+) + sujet("Tâche 2 — Article, lettre ou récit", "120 à 150 mots · narration structurée",
 "Le maire de votre ville souhaite recueillir l'avis des habitants sur les transports en commun. "
 "Écrivez une lettre au maire pour donner votre avis : ce qui fonctionne bien, ce qui doit être "
 "amélioré, et vos propositions.",
@@ -236,7 +236,7 @@ sont des planchers et des plafonds, pas des indications."""),
 la tâche 1, facile, au détriment de la tâche 3, qui vaut davantage."""),
 ("Quelle est la tâche la plus importante ?",
  """La tâche 3, la comparaison de deux points de vue avec avis argumenté. C'est elle qui mobilise la
-compétence B2 et qui fait la différence entre 10 et 14 sur 20 — donc entre NCLC 7 et NCLC 8. Sauter
+compétence B2 et qui fait la différence entre 10 et 14 sur 20 — donc entre NCLC 7 et NCLC 9. Sauter
 la présentation du point de vue adverse est l'erreur la plus coûteuse de l'épreuve."""),
 ("Que se passe-t-il si j'écris moins que le minimum ?",
  """Vous perdez des points sur la conformité à la consigne, indépendamment de la qualité de votre
@@ -289,7 +289,7 @@ la plus facile, et bâclent la tâche 3, celle qui rapporte le plus.""",
 "<strong>Tâche 1</strong> : entretien dirigé — <strong>sans préparation</strong>.",
 "<strong>Tâche 2</strong> : exercice en interaction — <strong>2 minutes de préparation</strong>.",
 "<strong>Tâche 3</strong> : expression d'un point de vue à partir d'un document.",
-"⚠️ La tâche 1 est <strong>prévisible</strong> : elle se prépare mot pour mot à l'avance.",
+"⚠️ La tâche 1 est <strong>prévisible</strong> : elle se prépare à l'avance — la structure, pas le texte.",
 "<strong>NCLC 7</strong> demande <strong>10/20</strong> en expression orale.",
 ],
 "toc": [
@@ -777,8 +777,8 @@ typées, qu'un candidat entraîné sur des annales de TCF découvre le jour J.</
 "Devrait-on rendre les transports en commun gratuits dans les grandes villes ? Présentez une "
 "argumentation équilibrée en examinant les conséquences économiques, sociales et écologiques de "
 "cette mesure.",
-"Le mot important est <strong>« convaincre »</strong> : il ne s'agit pas d'exposer les deux "
-"côtés puis de conclure, mais de défendre une position en anticipant les objections. La consigne "
+"Cette section récompense la capacité à <strong>convaincre</strong> : examinez les deux côtés, "
+"comme le demande la consigne, puis défendez une position en anticipant les objections. La consigne "
 "nomme trois angles — économique, social, écologique : les traiter tous les trois est le moyen "
 "le plus simple de remplir les dix minutes avec une structure audible."
 ) + """

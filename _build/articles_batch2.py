@@ -80,7 +80,7 @@ avec précision, parce qu'il ne s'applique pas partout de la même façon.</p>
 <tr><td>Durée de validité</td><td><strong>à vie</strong></td><td><strong>2 ans</strong></td></tr>
 <tr><td>Peut-on échouer ?</td><td>oui — 50/100, éliminatoire sous 5/25</td><td>non — un score, pas un seuil</td></tr>
 <tr><td>Compensation entre épreuves</td><td>oui, au-delà du plancher</td><td><strong>aucune</strong></td></tr>
-<tr><td>Durée de l'examen</td><td>2 h 10 (B1) à 4 h (DALF)</td><td>1 h 30 (IRN) à 2 h 55 (TEF Canada)</td></tr>
+<tr><td>Durée de l'examen</td><td>2 h 10 (B1) à 4 h 30 (DALF C1)</td><td>1 h 30 (IRN) à 2 h 55 (TEF Canada)</td></tr>
 </tbody>
 </table>
 </div>
@@ -121,7 +121,7 @@ Cette asymétrie surprend au moment précis où la concentration est déjà enta
 <tr><td>Naturalisation française</td><td>oui <em>(B2 exigé)</em></td><td>oui <em>(versions IRN)</em></td></tr>
 <tr><td>Carte de résident française</td><td>oui <em>(B1 exigé)</em></td><td>oui <em>(versions IRN)</em></td></tr>
 <tr><td><strong>Entrée express (fédéral canadien)</strong></td><td><strong>non</strong></td><td>oui — TCF Canada et TEF Canada <strong>seulement</strong></td></tr>
-<tr><td>Citoyenneté canadienne</td><td>oui</td><td>oui <em>(liste plus large)</em></td></tr>
+<tr><td>Citoyenneté canadienne</td><td>non cité <em>(questionnaire d'IRCC, 8 octobre 2026)</em></td><td>oui <em>(TCF Canada, TEF Canada)</em></td></tr>
 <tr><td>Programmes québécois</td><td>oui, <strong>sous conditions</strong></td><td>oui</td></tr>
 <tr><td>Université française</td><td>oui — le DALF C1 dispense de test</td><td>oui <em>(TCF Tout Public)</em></td></tr>
 </tbody>
@@ -137,10 +137,9 @@ l'immigration fédérale canadienne, la question « diplôme ou test » ne se po
 </div>
 
 <p>Notez la nuance pour la <strong>citoyenneté</strong> canadienne, souvent confondue avec
-l'immigration : la liste y est plus large et comprend le DALF, le DELF, le TCF, le TCFQ, le TEF
-Canada, le TEFAQ et le TEF IRN. Vérifiez-la sur le site d'IRCC au moment de votre demande, car
-elle désigne des noms de tests qui ne recouvrent pas exactement les noms commerciaux des
-déclinaisons.</p>
+l'immigration : le questionnaire d'IRCC, consulté le 8 octobre 2026, cite le TEF Canada et le
+TCF Canada ; d'anciens guides en nommaient davantage (DALF, DELF, TCFQ, TEFAQ, TEF IRN).
+Vérifiez la liste sur le site d'IRCC au moment de votre demande.</p>
 
 <h2 id="quebec">Le cas où « à vie » ne sert à rien</h2>
 
@@ -194,7 +193,9 @@ si votre score suffit."""),
  """Pas pour l'immigration économique fédérale. Pour Entrée express, IRCC n'accepte que deux tests
 de français : le TCF Canada et le TEF Canada. Ni le DELF, ni le DALF, ni le TCF Tout Public n'y
 figurent — même un DALF C2 ne vaut rien pour un profil Entrée express. Pour la demande de
-citoyenneté canadienne, en revanche, la liste est plus large et comprend le DELF et le DALF."""),
+citoyenneté canadienne, le questionnaire d'IRCC, consulté le 8 octobre 2026, cite le TEF Canada et
+le TCF Canada ; d'anciens guides nommaient aussi le DELF et le DALF : vérifiez la liste sur le site
+d'IRCC."""),
 ("Mon DELF ne périme-t-il vraiment jamais ?",
  """Le diplôme lui-même n'a pas de date d'expiration, et c'est son avantage central pour un dossier
 français qui s'étale. Mais certaines démarches ajoutent leur propre condition de fraîcheur : le
@@ -208,7 +209,7 @@ différence pratique la plus sous-estimée : beaucoup de candidats entraînés s
 la découvrent le jour de l'examen."""),
 ("Un test est-il plus rapide à passer qu'un diplôme ?",
  """Oui, nettement, pour les versions conçues pour les démarches administratives : 1 h 30 pour un
-TEF IRN et 1 h 35 pour un TCF IRN, contre 2 h 10 pour un DELF B1, 2 h 50 pour un DELF B2 et 4 h
+TEF IRN et 1 h 35 pour un TCF IRN, contre 2 h 10 pour un DELF B1, 2 h 50 pour un DELF B2 et 4 h 30
 pour un DALF C1. Les versions Canada, elles, sont plus longues : 2 h 47 pour le TCF Canada et
 2 h 55 pour le TEF Canada."""),
 ("Peut-on avoir les deux ?",

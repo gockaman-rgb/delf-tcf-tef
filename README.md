@@ -200,3 +200,28 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
 - **Mesure** : Search Console à 2, 4 et 8 semaines, pages contenant `/es/` ou `/en/`, par pays et par requête.
   Si le Canada anglais et les États-Unis prennent des impressions et pas l'espagnol, le domaine .fr est le frein
   probable (option .com, avec redirections 301).
+
+## Guides en anglais et en espagnol : 2e vague (08/10/2026)
+
+- **38 pages de plus** : préparation au TCF Canada en anglais (`/en/tcf-canada/` et ses modules `format/`,
+  `score-clb/` — calculateur CLB —, `preparation/`, `fees-registration/` ; CLB 7, TCF vs TEF, examen blanc, écoute,
+  lecture, écrit, oral, dates, résultats), TEF Canada, TCF Québec, DELF B2/B1, DALF C1, citoyenneté française (B2),
+  TCF IRN, examen civique, Inde et Dubaï (relevé des sites des centres du 08/10/2026) ; en espagnol : DELF B2/B1,
+  DALF C1, exemples, « certificado de francés », DELF à Madrid, Barcelone, Séville, Valence, Grenade, examen TCF
+  Canada, TCF ou TEF pour le Canada.
+- **Moteur** : `i18n_registry.py` (registre unique fr ↔ es/en, lu par tous les générateurs) ; `article_template.render()`
+  pose seul hreflang et lien de langue sur toute page française traduite ; `i18n_static.py` fait de même, à l'octet
+  près, sur les pages écrites ou retouchées à la main (`--check` pour vérifier) ; `make_i18n.py` rend les guides de
+  `i18n_pages_en.py` / `i18n_pages_es.py` ; `i18n_blocks.py` garde la matière d'examen en français (`lang="fr"`) et
+  porte le calculateur anglais et la carte « Practise » (posée avant le 3e h2).
+- **Après toute modification** : `make_i18n.py --force`, `make_pays.py --force`, `exam_hubs.py`, `make_centres.py --force`,
+  `make_villes.py --force`, puis `i18n_static.py`, `check_i18n.py`, `check_site.py`.
+- **Corrections françaises faites en traduisant** (08/10/2026) : fin des recorrections au TCF (sessions depuis le
+  1er septembre 2026) sur `/tcf-canada/prix-inscription/`, `/blog/tcf-canada-nclc-7/`, `/blog/repasser-tcf-tef/` ;
+  « 9 ou 10 sur 20 » (et non 12) à la frontière NCLC 6/7 ; NCLC 9 (et non 8) pour 14/20 ; Inde (ni Mumbai ni Chennai
+  dans la liste TCF, liste du 08/10) ; clôture de Barcelone au 10 janvier ; note minimale du DELF (5/25 partout) ;
+  exemple du DALF C2 ; neuf erreurs (et non huit) à l'examen civique ; liste IRCC des tests pour la citoyenneté
+  (questionnaire du 08/10 : TEF Canada et TCF Canada).
+- **Restent à trancher sur le français** : le sujet type de la tâche 2 de l'oral du TCF Canada (un récit de voyage,
+  alors que la tâche est une interaction) ; le niveau exigé pour la carte pluriannuelle avant 2026 (« aucun » ou
+  « A2 » selon les pages) ; l'échelle du TEF IRN (699 ou 499).

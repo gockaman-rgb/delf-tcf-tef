@@ -680,8 +680,8 @@ communauté par communauté.""",
 <p>Les oraux s'étalent sur plusieurs semaines autour des écrits. La session de septembre est réservée aux adultes et
 au DALF. DELF junior : 13 février, 5 et 12 juin, 23 octobre 2027 ; DELF Prim : 21 mai ou 10 juin 2027 (inscriptions
 du 1<sup>er</sup> mars au 16 avril) ; DELF scolaire : 28 et 29 avril 2027, réservé aux élèves des établissements
-publics sous convention. Tous les centres n'ouvrent pas toutes les sessions, et certains ferment plus tôt :
-l'université de Castille-La Manche clôt février le 2 janvier, l'Institut français de Barcelone le 10 janvier. La
+publics sous convention. Tous les centres n'ouvrent pas toutes les sessions, et certains ont leur propre date de
+clôture : l'université de Castille-La Manche clôt février le 2 janvier, l'Institut français de Barcelone le 10 janvier. La
 session d'octobre 2026 (écrits du 19 au 24 octobre) est close ; ses résultats tombent le 10 décembre 2026.</p>"""),
         ("prix", "Combien coûte le DELF en Espagne ?", table(
             "Tarifs nationaux du Centro Nacional de Exámenes : grille 2027 (PDF du 22 septembre 2026) et grille 2026 relevée dans les documents de plusieurs centres, consultés le 8 octobre 2026.",
@@ -713,7 +713,7 @@ des communautés autonomes, et le B2 est le minimum requis pour une bourse Erasm
     ],
     list_title="Les {n} centres d'examen, communauté par communauté",
     toc_regions=6,
-    faq=[("Quand a lieu la prochaine session du DELF en Espagne ?", "En février 2027 : DALF C1 et DELF A1 le 10 février, B2 et C2 le 11, B1 et A2 le 12, DELF junior le 13. Les inscriptions sont ouvertes du 1er décembre 2026 au 9 janvier 2027 dans tous les centres — certains ferment plus tôt —, et les résultats sont publiés le 17 mars 2027."),
+    faq=[("Quand a lieu la prochaine session du DELF en Espagne ?", "En février 2027 : DALF C1 et DELF A1 le 10 février, B2 et C2 le 11, B1 et A2 le 12, DELF junior le 13. Les inscriptions sont ouvertes du 1er décembre 2026 au 9 janvier 2027 — quelques centres ont leur propre date de clôture, comme l'université de Castille-La Manche (2 janvier) ou l'Institut français de Barcelone (10 janvier) —, et les résultats sont publiés le 17 mars 2027."),
          ("Combien coûte le DELF B2 en Espagne ?", "192 € en 2027 (188 € en 2026), dans tous les centres : le tarif est fixé au niveau national par le service de coopération de l'ambassade de France. Le DALF C1 coûte 249 €, le C2 259 €."),
          ("Le prix du DELF change-t-il d'un centre à l'autre en Espagne ?", "Non : le Centro Nacional de Exámenes applique exactement les mêmes tarifs partout. Seules varient les réductions propres à un centre, comme les 94 € de l'université de Cadix pour ses étudiants de dernière année."),
          ("Le DELF est-il reconnu par les universités espagnoles ?", "Oui : les diplômes DELF et DALF figurent dans la table d'équivalences de la CRUE, la conférence des recteurs des universités espagnoles, qui retient aussi le TCF tout public par tranches de points. Seuls les examens passés en présentiel sont acceptés."),

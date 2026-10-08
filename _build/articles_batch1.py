@@ -102,7 +102,7 @@ inscrire.</p>
 <thead><tr><th></th><th>Les tests</th><th>Les diplômes</th></tr></thead>
 <tbody>
 <tr><td>Lesquels</td><td><a href="/tcf-irn/">TCF IRN</a> · TEF IRN</td><td><a href="/delf-b1/">DELF</a> · <a href="/dalf/">DALF</a></td></tr>
-<tr><td>Durée</td><td>1 h 30 à 1 h 35</td><td>2 h 10 à 4 h selon le niveau</td></tr>
+<tr><td>Durée</td><td>1 h 30 à 1 h 35</td><td>2 h 10 à 4 h 30 selon le niveau</td></tr>
 <tr><td>Validité</td><td><strong>2 ans</strong></td><td><strong>à vie</strong></td></tr>
 <tr><td>Conçu pour</td><td>ces démarches administratives</td><td>l'usage académique et professionnel</td></tr>
 </tbody>
@@ -135,7 +135,7 @@ acheté en ligne est bien recevable avant de le passer.</p>
 Son format est précis — <strong>40 questions</strong>, <strong>45 minutes</strong> maximum, et
 <strong>32 bonnes réponses exigées</strong>, soit un seuil de 80 %.</p>
 
-<p>C'est un seuil élevé : huit erreurs suffisent à faire échouer. Il porte sur les valeurs, les
+<p>C'est un seuil élevé : neuf erreurs suffisent à faire échouer. Il porte sur les valeurs, les
 institutions et l'histoire de la République, et se prépare séparément du test de langue — les
 deux n'ont ni le même contenu ni le même format. Notre app sœur
 <a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a> couvre cette partie du dossier — les

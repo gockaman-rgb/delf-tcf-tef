@@ -172,7 +172,7 @@ PILLARS = {
                  ("delf_france", "Alliance Française de Lyon", "Lyon"), ("delf_france", "NANTES UNIVERSITE", "Nantes"), ("delf_france", "Alliance Française de Lille", "Lille")],
         directory=[("/centres/delf-france/", "Les 143 centres DELF-DALF en France"), ("/centres/", "tous les centres")]),
     "dalf": dict(
-        stats=[("4 h", "+ 1 h de préparation", "C1 comme C2"),
+        stats=[("4 h 30", "d'épreuves au C1", "+ 1 h de préparation ; 4 h au C2"),
                ("C1 · C2", "deux diplômes indépendants", "on s'inscrit directement au C2"),
                ("50 / 100", "pour être admis", "5/25 éliminatoire au C1"),
                ("À vie", "validité du diplôme", "dispense de test à l'université")],

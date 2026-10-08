@@ -227,7 +227,7 @@ los centros, comunidad por comunidad.""",
 está reservada a los adultos y al DALF. DELF junior: 13 de febrero, 5 y 12 de junio y 23 de octubre de 2027; DELF Prim:
 21 de mayo o 10 de junio de 2027 (matrícula del 1 de marzo al 16 de abril); DELF escolar: 28 y 29 de abril de 2027,
 reservado al alumnado de centros públicos con convenio. No todos los centros abren todas las convocatorias, y algunos
-cierran antes la matrícula: la Universidad de Castilla-La Mancha cierra la de febrero el 2 de enero, y el Institut
+tienen su propia fecha de cierre: la Universidad de Castilla-La Mancha cierra la de febrero el 2 de enero, y el Institut
 français de Barcelona, el 10 de enero. La convocatoria de octubre de 2026 (pruebas escritas del 19 al 24 de octubre)
 está cerrada; sus resultados se publican el 10 de diciembre de 2026.</p>"""),
         ("precios", "¿Cuánto cuesta el DELF en España?", table(
@@ -259,7 +259,7 @@ universidades; según el CNE, el B1 permite acreditar el nivel exigido para el t
 las comunidades autónomas, y el B2 es el mínimo requerido para una beca Erasmus.</p>"""),
     ],
     list_title="Los {n} centros de examen, comunidad por comunidad",
-    faq=[("¿Cuándo es la próxima convocatoria del DELF en España?", "En febrero de 2027: DALF C1 y DELF A1 el 10 de febrero, B2 y C2 el 11, B1 y A2 el 12, DELF junior el 13. La matrícula está abierta del 1 de diciembre de 2026 al 9 de enero de 2027 en todos los centros —algunos la cierran antes—, y los resultados se publican el 17 de marzo de 2027."),
+    faq=[("¿Cuándo es la próxima convocatoria del DELF en España?", "En febrero de 2027: DALF C1 y DELF A1 el 10 de febrero, B2 y C2 el 11, B1 y A2 el 12, DELF junior el 13. La matrícula está abierta del 1 de diciembre de 2026 al 9 de enero de 2027 —algunos centros tienen su propia fecha de cierre, como la Universidad de Castilla-La Mancha (2 de enero) o el Institut français de Barcelona (10 de enero)—, y los resultados se publican el 17 de marzo de 2027."),
          ("¿Cuánto cuesta el DELF B2 en España?", "192 € en 2027 (188 € en 2026), en todos los centros: la tarifa la fija a nivel nacional el servicio de cooperación de la Embajada de Francia. El DALF C1 cuesta 249 €, y el C2, 259 €."),
          ("¿El precio del examen DELF cambia de un centro a otro?", "No: el Centro Nacional de Exámenes aplica exactamente las mismas tarifas en todas partes. Solo cambian los descuentos propios de un centro, como los 94 € de la Universidad de Cádiz para sus estudiantes de último curso."),
          ("¿Las universidades españolas reconocen el DELF?", "Sí: los diplomas DELF y DALF figuran en la tabla de equivalencias de la CRUE, la Conferencia de Rectores de las Universidades Españolas, que también admite el TCF tout public por tramos de puntuación. Solo se aceptan los exámenes hechos de forma presencial."),
@@ -1008,6 +1008,348 @@ trámite —admisión en la universidad, solicitud de visa— tiene una fecha l�
 
 
 # ===========================================================================
+# ESPAÑA — DELF por ciudad (es-ES): calendario y tarifas nacionales, comunes a las cinco páginas
+# (mismos datos que la página /es/delf-espana/; el texto de cada ciudad es propio)
+# ===========================================================================
+def _delf_es_calendario(where):
+    return table(
+        "Calendario DELF-DALF 2027 del Centro Nacional de Exámenes (PDF del 22 de septiembre de 2026), consultado el 8 de "
+        f"octubre de 2026: fechas de las pruebas escritas del DELF tout public y del DALF, las mismas {where}.",
+        ["Convocatoria", "Matrícula", "DELF B2", "A1 · A2 · B1 · C1 · C2", "Resultados"],
+        [("<strong>Febrero de 2027</strong>", "<strong>1 dic. 2026 – 9 ene. 2027</strong>", "<strong>11/02</strong>", "10/02 · 12/02 · 12/02 · 10/02 · 11/02", "17 de marzo"),
+         ("Junio de 2027", "1 de marzo – 16 de abril", "02/06", "01/06 · 03/06 · 03/06 · 01/06 · 02/06", "19 de julio"),
+         ("Septiembre de 2027", "1 de julio – 1 de sept.", "28/09", "28/09 · 29/09 · 29/09 · 27/09 · 30/09", "2 de noviembre"),
+         ("Octubre de 2027", "30 de agosto – 22 de sept.", "19/10", "21/10 · 21/10 · 20/10 · 18/10 · 21/10", "13 de diciembre")])
+
+
+def _delf_es_tarifas(where):
+    return table(
+        f"Tarifas nacionales del Centro Nacional de Exámenes, las mismas {where}: tabla de 2027 (PDF del 22 de septiembre "
+        "de 2026) y tabla de 2026 tomada de los documentos de varios centros, consultadas el 8 de octubre de 2026.",
+        ["Examen", "2026", "2027"],
+        [("DELF A1", "87 €", "89 €"), ("DELF A2", "115 €", "118 €"), ("DELF B1", "160 €", "162 €"),
+         ("<strong>DELF B2</strong>", "<strong>188 €</strong>", "<strong>192 €</strong>"), ("DALF C1", "244 €", "249 €"),
+         ("DALF C2", "256 €", "259 €")], wide=False)
+
+
+_DELF_ES_FUENTES = ("web del Centro Nacional de Exámenes (delf-dalf.es: calendarios de 2026 y 2027, tarifas, preguntas frecuentes, "
+                    "matrícula), tabla de equivalencias de la CRUE para el francés y webs de los centros de examen (calendarios, "
+                    "tarifas y condiciones del DELF-DALF), consultadas el 8 de octubre de 2026.")
+_DELF_ES_B2 = ("/es/delf-b2/", "El examen DELF B2", "El formato, el baremo (50 sobre 100) y la preparación.")
+_DELF_ES_PAIS = ("/es/delf-espana/", "DELF y DALF en España", "Los 32 centros, el calendario nacional de 2027 y las tarifas.")
+
+# ===========================================================================
+# MADRID — DELF (es-ES)
+# ===========================================================================
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Madrid"], nearby=[],
+    slug="delf-madrid", country_name="España",
+    crumb="DELF en Madrid",
+    title="Examen DELF B2 en Madrid: fechas 2027, precio y centros",
+    desc="Examen DELF B2 en Madrid, en la Alianza Francesa o el Institut français: 11 de febrero de 2027, matrícula hasta el 9 de enero, 192 €. Todas las fechas.",
+    h1="Examen DELF B2 en Madrid: los {n} centros, las fechas de 2027 y el precio",
+    intro="""En Madrid, el DELF B2 —como los demás niveles del DELF y del DALF— se hace en <strong>{n} centros autorizados</strong>
+por France Éducation international: la <strong>Alianza Francesa de Madrid</strong> y el <strong>Institut français de
+Madrid</strong>, los dos con matrícula online. Fechas y precios son nacionales: la próxima convocatoria es la de
+<strong>febrero de 2027</strong> —el B2, el <strong>11 de febrero</strong>—, con matrícula del <strong>1 de diciembre de
+2026 al 9 de enero de 2027</strong>, y el B2 cuesta <strong>192 €</strong> (el B1, 162 €, y el DALF C1, 249 €) en
+cualquiera de los dos centros.""",
+    facts=["<strong>{n} centros en Madrid</strong> (lista de FEI del 8 de octubre de 2026): la Alianza Francesa de Madrid y el Institut français de Madrid; en los dos, la matrícula se hace online.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>, con matrícula del <strong>1 de diciembre de 2026 al 9 de enero de 2027</strong>; resultados el 17 de marzo.",
+           "Las otras fechas del B2 en 2027: 2 de junio, 28 de septiembre y 19 de octubre. La convocatoria de septiembre está reservada a los adultos y al DALF.",
+           "Precios de 2027, los mismos en los dos centros: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong> (el B2 costaba 188 € en 2026).",
+           "El Institut français de Madrid concede <strong>14 días de desistimiento</strong>; en general, no se devuelve el dinero, pero se puede pasar a la convocatoria siguiente por un motivo médico o de fuerza mayor justificado.",
+           "La convocatoria de octubre de 2026 (pruebas escritas del 19 al 24 de octubre) está cerrada; sus resultados se publican el 10 de diciembre de 2026."],
+    stats=[("{n}", "centros en Madrid", "Alianza Francesa e Institut français"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "el mismo precio en los dos centros"), ("9 ene.", "cierre de la matrícula", "para la convocatoria de febrero")],
+    sections=[
+        ("centros", "Dónde hacer el DELF B2 en Madrid", """<p>La lista de France Éducation international (FEI) da dos centros de examen DELF-DALF en Madrid: la
+<strong>Alianza Francesa de Madrid</strong>, en la Cuesta de Santo Domingo, 13, y el <strong>Institut français de
+Madrid</strong>, en la calle Marqués de la Ensenada, 12. Elegir uno u otro no cambia ni el examen ni el precio: el
+Centro Nacional de Exámenes (delf-dalf.es), vinculado a la Embajada de Francia, fija el mismo calendario y las mismas
+tarifas para toda España. El CNE, eso sí, no matricula a nadie: la matrícula se hace siempre en un centro.</p>
+
+<p>Lo que cambia son las condiciones de cada centro. Los dos matriculan online, y la matrícula solo es efectiva con el
+pago; el Institut français de Madrid concede además 14 días de desistimiento. Y como no todos los centros abren todas
+las convocatorias, comprueba en la web del que elijas que la tuya está abierta antes de organizarte.</p>"""),
+        ("fechas", "Fechas del DELF en Madrid: el calendario de 2027", _delf_es_calendario("en los dos centros de Madrid") + """
+<p>Las pruebas orales se reparten a lo largo de varias semanas en torno a las escritas de la tabla, así que la
+expresión oral puede caer otro día. El DELF junior tiene sus propias fechas: 13 de febrero, 5 y 12 de junio y 23 de
+octubre de 2027. ¿Buscas una fecha en 2026? La convocatoria de octubre (pruebas escritas del 19 al 24 de octubre) ya
+está cerrada, y la siguiente es la de febrero de 2027; los resultados de octubre se publican el 10 de diciembre de
+2026.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Madrid?", _delf_es_tarifas("en la Alianza Francesa y en el Institut français") + """
+<p>No hay un precio «de Alianza» y otro «de Institut»: el Centro Nacional de Exámenes precisa que las tarifas son
+exactamente las mismas en todos los centros, fijadas a nivel nacional por el servicio de cooperación de la Embajada de
+Francia. El DELF junior cuesta lo mismo que el tout public, y el DELF Prim tiene su propia tarifa (69, 89 y 118 € en
+2027 para el A1.1, el A1 y el A2). Los descuentos, cuando existen, son propios de cada centro.</p>"""),
+        ("matricula", "Matrícula, examen y diploma", """<p>Las reglas son las mismas en toda España —documento de identidad y citación el día del examen, resultados en fecha fija (el 17 de marzo de 2027 para la convocatoria de febrero), diploma unos meses después— y las detallamos en la página <a href="/es/delf-espana/">DELF y DALF en España</a>. En Madrid, lo que cambia es el centro: compara arriba sus condiciones antes de matricularte.</p>"""),
+    ],
+    list_title="Los {n} centros de examen DELF de Madrid",
+    faq=[("¿Dónde hacer el examen DELF B2 en Madrid?", "En la Alianza Francesa de Madrid (Cuesta de Santo Domingo, 13) o en el Institut français de Madrid (calle Marqués de la Ensenada, 12), los dos centros autorizados por France Éducation international en la ciudad. Los dos matriculan online y aplican el calendario y las tarifas nacionales."),
+         ("¿Cuándo es el próximo DELF en Madrid?", "En febrero de 2027: DALF C1 y DELF A1 el 10 de febrero, B2 y C2 el 11, B1 y A2 el 12. La matrícula está abierta del 1 de diciembre de 2026 al 9 de enero de 2027, y los resultados se publican el 17 de marzo de 2027. Después vienen junio, septiembre y octubre de 2027."),
+         ("¿Cuánto cuesta el DELF en Madrid?", "En 2027, el DELF B2 cuesta 192 € (188 € en 2026); el B1, 162 €; el DALF C1, 249 €, y el C2, 259 €. El A1 cuesta 89 €, y el A2, 118 €. Es la tarifa nacional: la Alianza Francesa y el Institut français cobran lo mismo."),
+         ("¿Queda alguna convocatoria del DELF B2 en 2026?", "No: la convocatoria de octubre de 2026 —pruebas escritas del 19 al 24 de octubre— está cerrada, y la siguiente es la de febrero de 2027, con el B2 el 11 de febrero. Los resultados de octubre se publican el 10 de diciembre de 2026."),
+         ("¿Alianza Francesa o Institut français: dónde hacer el DELF en Madrid?", "Para el examen da igual: mismo calendario y mismo precio, fijados a nivel nacional. Cambian las condiciones de cada centro: los dos matriculan online, y el Institut français de Madrid concede 14 días de desistimiento. Elige también por cercanía: la Alianza está en la Cuesta de Santo Domingo, y el Institut français, en la calle Marqués de la Ensenada.")],
+    also=[_DELF_ES_PAIS,
+          ("/es/delf-barcelona/", "Examen DELF en Barcelona", "El Institut français de Barcelona y dos Alianzas Francesas en Cataluña."),
+          _DELF_ES_B2],
+    sources=_DELF_ES_FUENTES,
+    notes={"madrid-alliance-francaise-de-madrid": "Matrícula online.",
+           "madrid-institut-francais-d-espagne-madrid": "Matrícula online; 14 días de desistimiento."},
+))
+
+# ===========================================================================
+# BARCELONA — DELF (es-ES)
+# ===========================================================================
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Barcelone"], nearby=["Granollers", "Gérone"],
+    slug="delf-barcelona", country_name="España",
+    crumb="DELF en Barcelona",
+    title="Examen DELF B2 en Barcelona: fechas 2027, precio y centro",
+    desc="Examen DELF B2 en Barcelona en el Institut français (o en Granollers y Girona): 11 de febrero de 2027, matrícula desde el 1 de diciembre, 192 €.",
+    h1="Examen DELF B2 en Barcelona: el Institut français, las fechas de 2027 y el precio",
+    intro="""En Barcelona, el DELF B2 —y los demás niveles del DELF y del DALF— se hace en un solo centro autorizado por France
+Éducation international: el <strong>Institut français de Barcelona</strong>, en el carrer Moià, con matrícula online. En
+Cataluña examinan también las <strong>Alianzas Francesas de Granollers y de Girona</strong>. Fechas y precios son
+nacionales: la próxima convocatoria es la de <strong>febrero de 2027</strong> —el B2, el <strong>11 de febrero</strong>—,
+con matrícula a partir del <strong>1 de diciembre de 2026</strong>, y el B2 cuesta <strong>192 €</strong> (el B1, 162 €,
+y el DALF C1, 249 €).""",
+    facts=["<strong>Un centro en Barcelona</strong> (lista de FEI del 8 de octubre de 2026), el Institut français de Barcelona, y dos más en Cataluña: las Alianzas Francesas de Granollers y de Girona.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>. Matrícula en el Institut français de Barcelona del <strong>1 de diciembre de 2026 al 10 de enero de 2027</strong> (calendario nacional: hasta el 9 de enero).",
+           "Resultados de febrero: 17 de marzo de 2027. Las otras fechas del B2 en 2027: 2 de junio, 28 de septiembre y 19 de octubre.",
+           "Precios de 2027, los mismos en Barcelona, Granollers y Girona: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>.",
+           "Matrícula online en el Institut français, efectiva solo con el pago; el día del examen, DNI, NIE, pasaporte o permiso de conducir, y la citación impresa.",
+           "La convocatoria de octubre de 2026 (pruebas escritas del 19 al 24 de octubre) está cerrada; sus resultados se publican el 10 de diciembre de 2026."],
+    stats=[("{n}", "centro en Barcelona", "y 2 más en Cataluña"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "mismo precio en toda España"), ("1 dic.", "apertura de la matrícula", "para la convocatoria de febrero")],
+    sections=[
+        ("centros", "Dónde hacer el DELF B2 en Barcelona", """<p>En la lista de France Éducation international (FEI), Barcelona tiene un único centro de examen DELF-DALF: el
+<strong>Institut français de Barcelona</strong>, en el carrer Moià, 8. Como en todos los Institut français de España, la
+matrícula se hace online, y solo es efectiva con el pago. El calendario y las tarifas no dependen del centro: los fija
+para toda España el Centro Nacional de Exámenes (delf-dalf.es), vinculado a la Embajada de Francia.</p>
+
+<p>Si te queda más a mano, Cataluña tiene otros dos centros, en el bloque «Cerca» de la lista de abajo: la
+<strong>Alianza Francesa de Granollers</strong> y la <strong>Alianza Francesa de Girona</strong>, cuyas fichas remiten a
+la misma web de exámenes, examensdelf.cat. El examen y el precio son los mismos que en el Institut français; como no
+todos los centros abren todas las convocatorias, comprueba en su web que la tuya está abierta.</p>"""),
+        ("fechas", "Fechas del DELF en Barcelona en 2027", _delf_es_calendario("en Barcelona, Granollers y Girona") + """
+<p>Cuidado con el cierre de la matrícula. El plazo nacional de la convocatoria de febrero va del 1 de diciembre de 2026
+al 9 de enero de 2027, pero algunos centros tienen su propia fecha de cierre: el 8 de octubre de 2026, el calendario del
+Institut français de Barcelona para febrero iba del 1 de diciembre de 2026 al 10 de enero de 2027. Confirma la fecha en
+su web antes de organizarte.</p>
+
+<p>Las pruebas orales se reparten a lo largo de varias semanas en torno a las escritas. La convocatoria de septiembre
+está reservada a los adultos y al DALF, y el DELF Prim se examina el 21 de mayo o el 10 de junio de 2027 (matrícula del
+1 de marzo al 16 de abril). La convocatoria de octubre de 2026 ya está cerrada; sus resultados se publican el 10 de
+diciembre de 2026.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Barcelona?", _delf_es_tarifas("en Barcelona, Granollers y Girona") + """
+<p>Pagas lo mismo en el Institut français de Barcelona que en las Alianzas de Granollers o de Girona: el Centro Nacional
+de Exámenes precisa que son exactamente las mismas tarifas en todos los centros, fijadas a nivel nacional por el
+servicio de cooperación de la Embajada de Francia. El DELF junior cuesta lo mismo que el tout public. De 2026 a 2027, el
+B2 pasa de 188 a 192 €, y el DALF C1, de 244 a 249 €.</p>"""),
+        ("matricula", "Matrícula, examen y diploma", """<p>Las reglas son las mismas en toda España —documento de identidad y citación el día del examen, resultados en fecha fija (el 17 de marzo de 2027 para la convocatoria de febrero), diploma unos meses después— y las detallamos en la página <a href="/es/delf-espana/">DELF y DALF en España</a>. En Barcelona, lo que cambia es el centro: compara arriba sus condiciones antes de matricularte.</p>"""),
+    ],
+    list_title="El centro DELF de Barcelona y los de Cataluña",
+    faq=[("¿Dónde hacer el examen DELF B2 en Barcelona?", "En el Institut français de Barcelona (carrer Moià, 8), el único centro DELF-DALF de la ciudad en la lista de France Éducation international; la matrícula se hace online. En Cataluña también examinan las Alianzas Francesas de Granollers y de Girona, con el mismo calendario y el mismo precio."),
+         ("¿Cuándo es el próximo DELF en Barcelona?", "En febrero de 2027: B2 y C2 el 11 de febrero, A1 y C1 el 10, A2 y B1 el 12. El plazo nacional de matrícula va del 1 de diciembre de 2026 al 9 de enero de 2027 (el Institut français de Barcelona indicaba el 10 de enero como cierre), y los resultados se publican el 17 de marzo de 2027."),
+         ("¿Cuánto cuesta el DELF en Barcelona?", "En 2027, 192 € el DELF B2 (188 € en 2026), 162 € el B1 y 249 € el DALF C1; el A1 cuesta 89 €; el A2, 118 €, y el C2, 259 €. Son tarifas nacionales: no cambian entre el Institut français y las Alianzas Francesas."),
+         ("¿Se puede hacer el DELF en una Alianza Francesa cerca de Barcelona?", "Sí: la Alianza Francesa de Granollers y la de Girona son centros autorizados por France Éducation international, y sus fichas remiten a la web examensdelf.cat. El calendario y el precio son los mismos que en el Institut français de Barcelona."),
+         ("¿Cuándo llega el diploma del DELF?", "De dos a tres meses después de la convocatoria, según el Centro Nacional de Exámenes (de tres a cuatro según algunos centros). En cuanto se publican los resultados —el 17 de marzo de 2027 para la convocatoria de febrero—, puedes pedir un certificado provisional.")],
+    also=[_DELF_ES_PAIS,
+          ("/es/delf-valencia/", "Examen DELF en Valencia", "El Institut français de Valencia: fechas, precio y anulación."),
+          _DELF_ES_B2],
+    sources=_DELF_ES_FUENTES,
+    notes={"barcelone-institut-francais-d-espagne-barcelone": "Matrícula online; cierre indicado para la convocatoria de febrero de 2027: 10 de enero."},
+))
+
+# ===========================================================================
+# SEVILLA — DELF (es-ES)
+# ===========================================================================
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Séville"], nearby=[],
+    slug="delf-sevilla", country_name="España",
+    crumb="DELF en Sevilla",
+    title="Examen DELF B2 en Sevilla: fechas 2027, precio y centros",
+    desc="Examen DELF B2 en Sevilla: Instituto de Lengua Francesa o Universidad de Sevilla. 11 de febrero de 2027, matrícula hasta el 9 de enero, 192 €.",
+    h1="Examen DELF B2 en Sevilla: los {n} centros, las fechas de 2027 y el precio",
+    intro="""En Sevilla, el DELF B2 —y los demás niveles del DELF y del DALF— se hace en <strong>{n} centros autorizados</strong>
+por France Éducation international: el <strong>Instituto de Lengua Francesa</strong> (ILF) y el <strong>Instituto de
+idiomas (Universidad de Sevilla)</strong>. Las fechas y las tarifas son nacionales, las mismas en los dos: la próxima
+convocatoria es la de <strong>febrero de 2027</strong> —el B2, el <strong>11 de febrero</strong>—, con matrícula del
+<strong>1 de diciembre de 2026 al 9 de enero de 2027</strong>, y el B2 cuesta <strong>192 €</strong> (el B1, 162 €, y el
+DALF C1, 249 €).""",
+    facts=["<strong>{n} centros en Sevilla</strong> (lista de FEI del 8 de octubre de 2026): el Instituto de Lengua Francesa y el Instituto de idiomas (Universidad de Sevilla); Andalucía tiene otros tres, en Cádiz, Granada y Málaga.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del <strong>1 de diciembre de 2026 al 9 de enero de 2027</strong>; resultados el 17 de marzo.",
+           "Cuatro convocatorias para adultos en 2027 —febrero, junio, septiembre y octubre—, con el B2 el 11 de febrero, el 2 de junio, el 28 de septiembre y el 19 de octubre.",
+           "Precios de 2027, los mismos en toda España: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>; el DELF junior cuesta lo mismo que el tout public.",
+           "Descuentos solo locales: en Andalucía, la Universidad de Cádiz cobra 94 € por el B2 a sus estudiantes de último curso.",
+           "Se aprueba con 50 puntos sobre 100, sin ninguna nota inferior a 5 sobre 25 en una prueba; el diploma llega de dos a tres meses después de la convocatoria."],
+    stats=[("{n}", "centros en Sevilla", "lista de FEI del 8 de octubre de 2026"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "mismo precio en los dos centros"), ("5", "centros en Andalucía", "Cádiz, Granada, Málaga y Sevilla")],
+    sections=[
+        ("centros", "Dónde hacer el DELF B2 en Sevilla", """<p>Sevilla es la ciudad andaluza con más centros de examen DELF-DALF en la lista de France Éducation international
+(FEI): dos, el <strong>Instituto de Lengua Francesa</strong>, en la calle Gonzalo Bilbao, 26, y el <strong>Instituto de
+idiomas (Universidad de Sevilla)</strong>, en Reina Mercedes, s/n. No compiten ni en fechas ni en precio: el Centro
+Nacional de Exámenes (delf-dalf.es), vinculado a la Embajada de Francia, fija para toda España el calendario y la
+tarifa de cada nivel.</p>
+
+<p>La matrícula, en cambio, es cosa del centro —nunca del CNE— y solo es efectiva con el pago. En España conviven la
+matrícula online y la ficha y la transferencia enviadas por correo electrónico: consulta en la web del centro que
+elijas cómo funciona la suya, y comprueba de paso que abre la convocatoria que te interesa, porque no todos los
+centros las abren todas. Si vives en otra provincia andaluza, la lista de FEI tiene otros tres centros: el CLM
+Granada, la Alianza Francesa de Málaga y el Centro Superior de Lenguas Modernas-Fundación Universidad de Cádiz.</p>"""),
+        ("fechas", "Fechas del DELF en Sevilla en 2027", _delf_es_calendario("en los dos centros de Sevilla") + """
+<p>Son las fechas de las pruebas escritas; las orales se reparten a lo largo de varias semanas en torno a ellas. La
+convocatoria de septiembre está reservada a los adultos y al DALF. El DELF junior y el DELF Prim tienen fechas propias:
+el junior, el 13 de febrero, el 5 y el 12 de junio y el 23 de octubre de 2027; el Prim, el 21 de mayo o el 10 de junio
+(matrícula del 1 de marzo al 16 de abril). La convocatoria de octubre de 2026 (pruebas escritas del 19 al 24 de
+octubre) está cerrada —la próxima es la de febrero de 2027—, y sus resultados se publican el 10 de diciembre de
+2026.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Sevilla?", _delf_es_tarifas("en los dos centros de Sevilla") + """
+<p>En el ILF y en la Universidad de Sevilla pagas lo mismo: el Centro Nacional de Exámenes precisa que son exactamente
+las mismas tarifas en todos los centros, fijadas a nivel nacional por el servicio de cooperación de la Embajada de
+Francia. Los descuentos, cuando existen, los pone cada centro: en Andalucía, la Universidad de Cádiz cobra 94 € por el
+B2 a sus estudiantes de último curso. Pregunta en el tuyo si tiene alguno.</p>"""),
+        ("matricula", "Matrícula, examen y diploma", """<p>Las reglas son las mismas en toda España —documento de identidad y citación el día del examen, resultados en fecha fija (el 17 de marzo de 2027 para la convocatoria de febrero), diploma unos meses después— y las detallamos en la página <a href="/es/delf-espana/">DELF y DALF en España</a>. En Sevilla, lo que cambia es el centro: compara arriba sus condiciones antes de matricularte.</p>"""),
+    ],
+    list_title="Los {n} centros de examen DELF de Sevilla",
+    faq=[("¿Dónde hacer el examen DELF B2 en Sevilla?", "En el Instituto de Lengua Francesa, en la calle Gonzalo Bilbao, 26, o en el Instituto de idiomas (Universidad de Sevilla), en Reina Mercedes, s/n: los dos centros autorizados por France Éducation international en la ciudad. Las fechas y el precio son los mismos en los dos."),
+         ("¿Cuándo es el próximo DELF en Sevilla?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027 y resultados el 17 de marzo. Las siguientes convocatorias de 2027 son las de junio (B2 el 2 de junio), septiembre (28 de septiembre) y octubre (19 de octubre)."),
+         ("¿Cuánto cuesta el DELF en Sevilla?", "En 2027: B2 192 €, B1 162 €, DALF C1 249 € y C2 259 €; A1 89 € y A2 118 €. Es la tarifa nacional, la misma en los dos centros de Sevilla y en el resto de España; en 2026, el B2 costaba 188 €."),
+         ("¿Dónde más se puede hacer el DELF en Andalucía?", "En Granada (CLM Granada), en Málaga (Alianza Francesa de Málaga) y en Cádiz (Centro Superior de Lenguas Modernas-Fundación Universidad de Cádiz), además de los dos centros de Sevilla: cinco en total en la lista de FEI del 8 de octubre de 2026."),
+         ("¿Cuántos puntos hacen falta para aprobar el DELF B2?", "50 sobre 100, sin ninguna nota inferior a 5 sobre 25 en una prueba; el diccionario está prohibido en el DELF. Los resultados de la convocatoria de febrero se publican el 17 de marzo de 2027.")],
+    also=[_DELF_ES_PAIS,
+          ("/es/delf-granada/", "Examen DELF en Granada", "El CLM Granada: fechas de 2027, precio y matrícula."),
+          _DELF_ES_B2],
+    sources=_DELF_ES_FUENTES,
+))
+
+# ===========================================================================
+# VALENCIA — DELF (es-ES)
+# ===========================================================================
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Valence"], nearby=[],
+    slug="delf-valencia", country_name="España",
+    crumb="DELF en Valencia",
+    title="Examen DELF B2 en Valencia: fechas 2027, precio y centro",
+    desc="Examen DELF B2 en Valencia en el Institut français: 11 de febrero de 2027, matrícula del 1 de diciembre al 9 de enero, 192 €, y el resto de fechas.",
+    h1="Examen DELF B2 en Valencia: el Institut français, las fechas de 2027 y el precio",
+    intro="""En Valencia, el DELF B2 —y los demás niveles del DELF y del DALF— se hace en el <strong>Institut français de
+Valencia</strong>, el único centro autorizado por France Éducation international con sede en la Comunidad Valenciana, con
+matrícula online. Fechas y precios son nacionales: la próxima convocatoria es la de <strong>febrero de 2027</strong> —el
+B2, el <strong>11 de febrero</strong>—, con matrícula del <strong>1 de diciembre de 2026 al 9 de enero de 2027</strong>,
+y el B2 cuesta <strong>192 €</strong> (el B1, 162 €, y el DALF C1, 249 €).""",
+    facts=["<strong>Un centro en Valencia</strong> (lista de FEI del 8 de octubre de 2026): el Institut français de Valencia, en la calle Monjas de Santa Catalina; matrícula online.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del <strong>1 de diciembre de 2026 al 9 de enero de 2027</strong>; resultados el 17 de marzo de 2027.",
+           "Si anulas antes del cierre de la matrícula, el Institut français de Valencia <strong>devuelve el importe menos 30 €</strong>.",
+           "Precios de 2027, los mismos en toda España: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong> (de 87 a 256 € en 2026).",
+           "Cuatro convocatorias para adultos en 2027 —febrero, junio, septiembre y octubre—, con el B2 el 11 de febrero, el 2 de junio, el 28 de septiembre y el 19 de octubre.",
+           "En la provincia de Alicante, la Alianza Francesa de Cartagena (Región de Murcia) también organiza convocatorias."],
+    stats=[("{n}", "centro en Valencia", "el Institut français de Valencia"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "mismo precio en toda España"), ("30 €", "retenidos si anulas", "antes del cierre de la matrícula; se devuelve el resto")],
+    sections=[
+        ("centro", "Dónde hacer el DELF B2 en Valencia", """<p>En la lista de France Éducation international (FEI), el DELF y el DALF tienen en Valencia un solo centro: el
+<strong>Institut français de Valencia</strong>, en la calle Monjas de Santa Catalina, 4. Es también el único con sede en
+la Comunidad Valenciana. Como los demás Institut français de España, matricula online, y la matrícula solo es efectiva
+con el pago; las fechas y el precio son los que fija para toda España el Centro Nacional de Exámenes (delf-dalf.es),
+vinculado a la Embajada de Francia.</p>
+
+<p>Lo que distingue a este centro es la anulación: el Institut français de Valencia devuelve el importe hasta el cierre
+de la matrícula, menos 30 €, cuando la norma más extendida en España es no devolver el dinero. Si vives en la provincia
+de Alicante, hay otra opción: la Alianza Francesa de Cartagena, en la Región de Murcia, también organiza convocatorias
+en Alicante; su ficha y su web están en la página <a href="/es/delf-espana/">DELF y DALF en España</a>.</p>"""),
+        ("fechas", "Fechas del DELF en Valencia en 2027", _delf_es_calendario("en Valencia y en el resto de España") + """
+<p>Cada convocatoria tiene su plazo de matrícula, el mismo en toda España, aunque algunos centros lo cierran antes:
+confirma la fecha en la web del Institut français antes de organizarte, y comprueba que abre la convocatoria que te
+interesa. Las pruebas orales se reparten a lo largo de varias semanas en torno a las escritas de la tabla. La
+convocatoria de septiembre está reservada a los adultos y al DALF; el DELF junior, por su parte, se examina el 13 de
+febrero, el 5 y el 12 de junio y el 23 de octubre de 2027.</p>
+
+<p>¿Buscabas una fecha en 2026? La convocatoria de octubre de 2026 (pruebas escritas del 19 al 24 de octubre) está
+cerrada, y la siguiente es la de febrero de 2027. Los resultados de octubre se publican el 10 de diciembre de 2026.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Valencia?", _delf_es_tarifas("en Valencia y en toda España") + """
+<p>El Institut français de Valencia aplica la tarifa nacional: el Centro Nacional de Exámenes precisa que es exactamente
+la misma en todos los centros, fijada por el servicio de cooperación de la Embajada de Francia. El DELF junior cuesta lo
+mismo que el tout public, y el DELF escolar —reservado al alumnado de centros públicos con convenio, el 28 y el 29 de
+abril de 2027— tiene su propia tarifa: de 66,75 € (A1) a 144 € (B2).</p>"""),
+        ("matricula", "Matrícula, examen y diploma", """<p>Las reglas son las mismas en toda España —documento de identidad y citación el día del examen, resultados en fecha fija (el 17 de marzo de 2027 para la convocatoria de febrero), diploma unos meses después— y las detallamos en la página <a href="/es/delf-espana/">DELF y DALF en España</a>. En Valencia, lo que cambia es el centro: compara arriba sus condiciones antes de matricularte.</p>"""),
+    ],
+    list_title="El centro de examen DELF de Valencia",
+    faq=[("¿Dónde hacer el examen DELF B2 en Valencia?", "En el Institut français de Valencia (calle Monjas de Santa Catalina, 4), el único centro DELF-DALF de la ciudad en la lista de France Éducation international. La matrícula se hace online, y las fechas y el precio son los nacionales."),
+         ("¿Cuándo es el próximo DELF en Valencia?", "En febrero de 2027: el B2 el 11 de febrero (A1 y C1 el 10, C2 el 11, A2 y B1 el 12), con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027. Los resultados se publican el 17 de marzo de 2027; después vienen junio, septiembre y octubre."),
+         ("¿Cuánto cuesta el DELF en Valencia?", "192 € el B2 en 2027 (188 € en 2026), 162 € el B1, 249 € el DALF C1 y 259 € el C2; el A1 cuesta 89 €, y el A2, 118 €. Es la tarifa nacional, la misma que en Madrid, Barcelona o Sevilla."),
+         ("¿Me devuelven el dinero si anulo el DELF en Valencia?", "En el Institut français de Valencia, sí, hasta el cierre de la matrícula: devuelve el importe menos 30 €. Pasado ese plazo, consulta con el centro: la norma más extendida en España es no devolver el dinero, pero sí permitir el pase a la convocatoria siguiente por un motivo médico o de fuerza mayor justificado."),
+         ("¿Se puede hacer el DELF en Alicante?", "La lista de FEI no tiene ningún centro con sede en Alicante, pero la Alianza Francesa de Cartagena, en la Región de Murcia, también organiza convocatorias allí. En la Comunidad Valenciana, el único centro con sede es el Institut français de Valencia.")],
+    also=[_DELF_ES_PAIS,
+          ("/es/delf-madrid/", "Examen DELF en Madrid", "La Alianza Francesa y el Institut français: fechas, precio y matrícula."),
+          _DELF_ES_B2],
+    sources=_DELF_ES_FUENTES,
+    notes={"valence-institut-francais-de-valence": "Matrícula online; devuelve el importe hasta el cierre de la matrícula, menos 30 €."},
+))
+
+# ===========================================================================
+# GRANADA — DELF (es-ES)
+# ===========================================================================
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Grenade"], nearby=[],
+    slug="delf-granada", country_name="España",
+    crumb="DELF en Granada",
+    title="Examen DELF B2 en Granada: fechas 2027, precio y centro",
+    desc="Examen DELF B2 en Granada en el CLM, el Centro de Lenguas Modernas: 11 de febrero de 2027, matrícula hasta el 9 de enero, 192 €. Fechas y precios.",
+    h1="Examen DELF B2 en Granada: el CLM, las fechas de 2027 y el precio",
+    intro="""En Granada, el DELF B2 —y los demás niveles del DELF y del DALF— se hace en el <strong>CLM Granada</strong>, el
+Centro de Lenguas Modernas de la Universidad de Granada: es el único centro de la ciudad en la lista de France
+Éducation international. Fechas y precios son nacionales: la próxima convocatoria es la de <strong>febrero de
+2027</strong> —el B2, el <strong>11 de febrero</strong>—, con matrícula del <strong>1 de diciembre de 2026 al 9 de enero
+de 2027</strong>, y el B2 cuesta <strong>192 €</strong> (el B1, 162 €, y el DALF C1, 249 €).""",
+    facts=["<strong>Un centro en Granada</strong> (lista de FEI del 8 de octubre de 2026): el CLM Granada, en la placeta del Hospicio Viejo; Andalucía tiene otros cuatro, dos en Sevilla, uno en Málaga y uno en Cádiz.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del <strong>1 de diciembre de 2026 al 9 de enero de 2027</strong>; resultados el 17 de marzo.",
+           "Después de febrero, el B2 vuelve el 2 de junio, el 28 de septiembre y el 19 de octubre de 2027.",
+           "Precios de 2027, iguales en toda España: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>.",
+           "El día del examen: DNI, NIE, pasaporte o permiso de conducir, y la citación impresa; nadie entra una vez empezadas las pruebas.",
+           "Diploma reconocido por la CRUE para acreditar idiomas en las universidades; según el CNE, el B2 es el mínimo requerido para una beca Erasmus."],
+    stats=[("{n}", "centro en Granada", "el CLM Granada"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "mismo precio en toda España"), ("9 ene.", "cierre de la matrícula", "para la convocatoria de febrero")],
+    sections=[
+        ("centro", "Dónde hacer el DELF B2 en Granada", """<p>Granada tiene un centro de examen DELF-DALF en la lista de France Éducation international (FEI): el <strong>CLM
+Granada</strong>, el Centro de Lenguas Modernas de la Universidad de Granada, en la placeta del Hospicio Viejo. Como
+todos los centros de España, aplica el calendario y las tarifas que fija el Centro Nacional de Exámenes (delf-dalf.es),
+vinculado a la Embajada de Francia: mismo examen y mismo precio que en Madrid o en Sevilla.</p>
+
+<p>Te matriculas en el CLM, nunca en el CNE, y la matrícula solo es efectiva con el pago. Cada centro tiene su sistema
+—online, ficha y transferencia por correo electrónico o en persona—: mira en la web del CLM cómo funciona el suyo, y
+comprueba que abre la convocatoria que te interesa, porque no todos los centros abren todas. Si te conviene más otra
+ciudad, Andalucía tiene cuatro centros más: dos en <a href="/es/delf-sevilla/">Sevilla</a>, la Alianza Francesa de
+Málaga y el Centro Superior de Lenguas Modernas-Fundación Universidad de Cádiz; estos dos últimos matriculan
+online.</p>"""),
+        ("fechas", "Fechas del DELF en Granada en 2027", _delf_es_calendario("en Granada y en el resto de España") + """
+<p>Si apuntas a febrero, tienes del 1 de diciembre al 9 de enero para matricularte y conocerás el resultado el 17 de
+marzo de 2027. Si no llegas, la siguiente opción es junio: matrícula del 1 de marzo al 16 de abril y B2 el 2 de junio,
+con resultados el 19 de julio. La convocatoria de septiembre está reservada a los adultos y al DALF, y en todas ellas
+las pruebas orales se reparten a lo largo de varias semanas en torno a las escritas de la tabla. La de octubre de 2026
+(pruebas escritas del 19 al 24 de octubre) ya está cerrada; sus resultados se publican el 10 de diciembre de 2026.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Granada?", _delf_es_tarifas("en el CLM Granada y en toda España") + """
+<p>No hay tarifa local: el Centro Nacional de Exámenes precisa que las tarifas son exactamente las mismas en todos los
+centros, fijadas a nivel nacional por el servicio de cooperación de la Embajada de Francia. El B2 sube de 188 € en 2026 a
+192 € en 2027, y el DELF junior cuesta lo mismo que el tout public. Los descuentos, cuando existen, son propios de cada
+centro: pregunta en el CLM.</p>"""),
+        ("matricula", "Matrícula, examen y diploma", """<p>Las reglas son las mismas en toda España —documento de identidad y citación el día del examen, resultados en fecha fija (el 17 de marzo de 2027 para la convocatoria de febrero), diploma unos meses después— y las detallamos en la página <a href="/es/delf-espana/">DELF y DALF en España</a>. En Granada, lo que cambia es el centro: compara arriba sus condiciones antes de matricularte.</p>"""),
+    ],
+    list_title="El centro de examen DELF de Granada",
+    faq=[("¿Dónde hacer el examen DELF B2 en Granada?", "En el CLM Granada, el Centro de Lenguas Modernas de la Universidad de Granada (placeta del Hospicio Viejo), el único centro DELF-DALF de la ciudad en la lista de France Éducation international. El calendario y el precio son los nacionales."),
+         ("¿Cuándo es el próximo DELF en Granada?", "En febrero de 2027: el B2 el 11 de febrero; A1 y C1 el 10; C2 el 11; A2 y B1 el 12. La matrícula va del 1 de diciembre de 2026 al 9 de enero de 2027, y los resultados se publican el 17 de marzo de 2027."),
+         ("¿Cuánto cuesta el DELF en Granada?", "En 2027, 192 € el B2, 162 € el B1, 249 € el DALF C1 y 259 € el C2; el A1 cuesta 89 €, y el A2, 118 €. Son las tarifas nacionales, las mismas en todos los centros de España."),
+         ("¿Sirve el DELF B2 para la universidad o para una beca Erasmus?", "Sí: los diplomas DELF y DALF figuran en la tabla de equivalencias de la CRUE, la Conferencia de Rectores de las Universidades Españolas, para la acreditación de idiomas (solo los exámenes hechos de forma presencial), y según el Centro Nacional de Exámenes el B2 es el mínimo requerido para una beca Erasmus."),
+         ("¿Dónde más se puede hacer el DELF en Andalucía?", "En Sevilla, en el Instituto de Lengua Francesa y en el Instituto de idiomas (Universidad de Sevilla); en Málaga, en la Alianza Francesa, y en Cádiz, en el Centro Superior de Lenguas Modernas-Fundación Universidad de Cádiz. Con el CLM Granada, son cinco centros en la lista de FEI del 8 de octubre de 2026.")],
+    also=[_DELF_ES_PAIS,
+          ("/es/delf-sevilla/", "Examen DELF en Sevilla", "Dos centros: el Instituto de Lengua Francesa y la Universidad de Sevilla."),
+          _DELF_ES_B2],
+    sources=_DELF_ES_FUENTES,
+))
+
+
+# ===========================================================================
 # /es/ — página de entrada (make_pays.hub("es")). Cifras tomadas de las páginas de cada país.
 # ===========================================================================
 def _hub_table():
@@ -1039,7 +1381,8 @@ Ecuador.""",
            "TCF Canada: de 275 a 287 € en España, de 4,800 a 6,500 pesos en México, desde 1.050.000 pesos en Colombia, 299.000 pesos en Chile, 1,240 soles en Perú, 200 a 300 dólares en Ecuador.",
            "DELF B2: 192 € en España (2027), 2,500 pesos en México, 490.000 pesos en Colombia, 137.000 pesos en Chile, 461 soles en Perú, 200 dólares en Ecuador, 163 € (295.030 pesos) en Argentina.",
            "Un diploma DELF o DALF es válido de por vida; los resultados del TCF Canada, dos años."],
-    toc=[("paises", "Siete países, dos exámenes"), ("tcf-canada", "TCF Canada"), ("delf", "DELF y DALF")],
+    toc=[("paises", "Siete países, dos exámenes"), ("tcf-canada", "TCF Canada"), ("delf", "DELF y DALF"),
+         ("preparar", "Preparar el DELF"), ("ciudades", "El DELF en España, ciudad por ciudad")],
     body="""
 <div class="stats">
 <div class="stat"><b>7</b><span>países</span><em>España y América Latina</em></div>
@@ -1056,6 +1399,8 @@ convierte el resultado en niveles NCLC. La constancia de resultados la emite Fra
 sea cual sea el centro, y es válida dos años. Dos cosas que conviene saber antes de pagar: <strong>un centro
 autorizado para el TCF no ofrece necesariamente la versión Canada</strong> —cada página indica qué centros la
 anunciaban en su sitio web—, y las sesiones se llenan rápido en varios países. IRCC acepta también el TEF Canada.</p>
+<p>Las guías: <a href="/es/tcf-canada/">el examen TCF Canada</a> (formato, puntaje NCLC, preparación) y
+<a href="/es/examen-de-frances-para-canada/">¿TCF Canada o TEF Canada?</a>. Los centros, país por país:</p>
 <p><a href="/es/tcf-canada-espana/">España</a> · <a href="/es/tcf-canada-mexico/">México</a> ·
 <a href="/es/tcf-canada-colombia/">Colombia</a> · <a href="/es/tcf-canada-argentina/">Argentina</a> ·
 <a href="/es/tcf-canada-chile/">Chile</a> · <a href="/es/tcf-canada-peru/">Perú</a> ·
@@ -1072,6 +1417,20 @@ Instituto Francés, universidad.</p>
 <a href="/es/delf-chile/">Chile</a> · <a href="/es/delf-peru/">Perú</a> ·
 <a href="/es/delf-ecuador/">Ecuador</a> — y en inglés: <a href="/en/delf-usa/" lang="en">Estados Unidos</a>,
 <a href="/en/delf-uk/" lang="en">Reino Unido</a>.</p>
+
+<h2 id="preparar">Preparar el DELF</h2>
+<ul class="posts">
+<li><a href="/es/delf-b2/">Examen DELF B2</a><p>Estructura, puntuación sobre 100 y cómo prepararlo.</p></li>
+<li><a href="/es/delf-b1/">Examen DELF B1</a><p>Las cuatro pruebas y el umbral de aprobación.</p></li>
+<li><a href="/es/dalf-c1/">DALF C1</a><p>La síntesis, el ensayo y la diferencia con el C2.</p></li>
+<li><a href="/es/delf-b2-ejemplos/">Ejemplos del DELF B2</a><p>Ejercicios corregidos y una producción escrita comentada.</p></li>
+<li><a href="/es/certificado-de-frances/">¿Qué certificado de francés elegir?</a><p>DELF, DALF, TCF o TEF: diploma o test.</p></li>
+</ul>
+
+<h2 id="ciudades">El DELF en España, ciudad por ciudad</h2>
+<p><a href="/es/delf-madrid/">Madrid</a> · <a href="/es/delf-barcelona/">Barcelona</a> · <a href="/es/delf-sevilla/">Sevilla</a> ·
+<a href="/es/delf-valencia/">Valencia</a> · <a href="/es/delf-granada/">Granada</a> — y los 32 centros, comunidad por comunidad:
+<a href="/es/delf-espana/">DELF en España</a>.</p>
 """,
     faq=[("¿Dónde presentar el TCF Canada en América Latina?", "En México (5 centros, de 4,800 a 6,500 pesos), Colombia (las 7 Alianzas Francesas, desde 1.050.000 pesos), Chile (2 centros, 299.000 pesos), Perú (la Alianza Francesa de Lima, 1,240 soles), Ecuador (Cuenca 200 dólares, Guayaquil 300) y Argentina (4 centros, precio a solicitud). Precios revisados el 8 de octubre de 2026."),
          ("¿Cuál es la diferencia entre el TCF Canada y el DELF?", "El TCF Canada es un test: sitúa tu nivel, con resultados válidos dos años, y es uno de los dos exámenes de francés que acepta IRCC, junto con el TEF Canada. El DELF y el DALF son diplomas: se aprueban nivel por nivel y son válidos de por vida."),

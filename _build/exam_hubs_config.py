@@ -493,7 +493,7 @@ votre calendrier.""",
              facts=["<strong>Carte de résident : B1</strong> depuis le 1<sup>er</sup> janvier 2026 (arrêté du 22 décembre 2025).",
                     "⚠️ Trois niveaux à ne pas confondre : A2 carte pluriannuelle, B1 carte de résident, B2 naturalisation.",
                     "Le DELF B1 vaut <strong>à vie</strong> ; une attestation TCF ou TEF IRN vaut deux ans.",
-                    "Dispense de niveau à partir de 65 ans pour les titres de séjour.",
+                    "Dispense de niveau pour les plus de 65 ans (titres de séjour).",
                     "Un diplôme obtenu il y a des années reste recevable."],
              faq=[2, 5, 6]),
         dict(slug="ecrit-oral", crumb="Écrit et oral", sections=["ecrit", "oral", "preparer"],
@@ -663,7 +663,7 @@ d'un utilisateur autonome capable d'un discours clair et structuré, et le <stro
 la maîtrise. Comme le DELF, il est délivré par France Éducation international, se passe dans les mêmes
 centres agréés, aux mêmes sessions — le jeudi —, et il est <strong>valable à vie</strong>.</p>
 
-<p>Le <strong>DALF C1</strong> comporte quatre épreuves notées sur 25, en 4 heures plus une heure de
+<p>Le <strong>DALF C1</strong> comporte quatre épreuves notées sur 25, en 4 h 30 plus une heure de
 préparation : compréhensions, production écrite — une synthèse de documents de 200 à 240 mots suivie d'un
 essai —, exposé oral. Le <strong>DALF C2</strong> n'a que deux épreuves intégrées, notées sur 50 : une
 orale et une écrite de 700 mots minimum. Admission à 50/100 dans les deux cas. Le DALF <strong>dispense
@@ -684,7 +684,7 @@ de tout test de français</strong> à l'entrée des universités françaises.</p
          "Il prouve largement le B2 exigé, mais il n'est pas nécessaire : le DELF B2 suffit pour la condition de langue. Le DALF vise surtout l'université et les usages professionnels."),
     ],
     modules=[
-        ("Les épreuves", "Le C1, le C2, le barème", "/dalf/format/", "Quatre épreuves au C1, deux au C2, 4 heures plus 1 de préparation, 50/100 et les notes éliminatoires."),
+        ("Les épreuves", "Le C1, le C2, le barème", "/dalf/format/", "Quatre épreuves au C1 (4 h 30, plus 1 h de préparation), deux au C2, 50/100 et les notes éliminatoires."),
         ("C1 ou C2", "Lequel viser, ce qu'il dispense", "/dalf/c1-ou-c2/", "Le C1 suffit presque partout ; le C2 est un exercice de maîtrise. Et la dispense de test à l'université."),
         ("La synthèse", "L'épreuve reine du C1, et la préparation", "/dalf/synthese-preparation/", "200 à 240 mots, aucune citation, aucun avis : la méthode, et comment se préparer aux quatre épreuves."),
         ("Inscription", "Centres, sessions, prix", "/dalf/inscription/", "Les mêmes centres que le DELF, le jeudi ; 145 à 290 € selon le centre ; six centres avec contacts."),
@@ -694,7 +694,7 @@ de tout test de français</strong> à l'entrée des universités françaises.</p
     spokes=[
         dict(slug="format", crumb="Format et barème", sections=["c1", "c2", "bareme"],
              title="Format du DALF C1 et C2 : épreuves, durées, barème",
-             desc="Les quatre épreuves du DALF C1 — synthèse, essai, exposé, 4 h plus 1 de préparation —, les deux du C2, et le barème : 50/100, 5/25 et 10/50 éliminatoires.",
+             desc="Les 4 épreuves du DALF C1 — synthèse, essai, exposé, 4 h 30 plus 1 de préparation —, les deux du C2, et le barème : 50/100, 5/25 et 10/50 éliminatoires.",
              desc_short="Les épreuves du C1 et du C2, les durées, le barème.",
              h1="Le format du DALF C1 et du DALF C2, épreuve par épreuve",
              intro="""Le <strong>DALF C1</strong> comporte quatre épreuves notées sur 25 : compréhension de l'oral (40 min),
@@ -702,7 +702,7 @@ compréhension des écrits (50 min), production écrite — synthèse de 200 à 
 en 2 h 30, et un exposé oral de 30 minutes après une heure de préparation. Le <strong>DALF C2</strong> n'en
 a que deux, intégrées et notées sur 50 : une orale, une écrite de 700 mots minimum. Admission à
 <strong>50/100</strong>, note éliminatoire à 5/25 au C1 et 10/50 au C2. Le détail, épreuve par épreuve.""",
-             facts=["<strong>DALF C1 : 4 épreuves</strong> sur 25, 4 heures plus 1 heure de préparation.",
+             facts=["<strong>DALF C1 : 4 épreuves</strong> sur 25, 4 h 30 plus 1 heure de préparation.",
                     "<strong>DALF C2 : 2 épreuves intégrées</strong> sur 50, 4 heures plus 1 heure de préparation.",
                     "Admission à <strong>50/100</strong> ; éliminatoire à <strong>5/25</strong> au C1, <strong>10/50</strong> au C2.",
                     "C1 : synthèse de 200-240 mots + essai de 250 mots ; C2 : texte de 700 mots minimum.",

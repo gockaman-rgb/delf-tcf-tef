@@ -27,7 +27,8 @@ DATE_FR = "8 octobre 2026"
 FEI_LISTE = "https://www.france-education-international.fr/centres-d-examen/liste?pays=%s&type-centre=%s"
 FEI_CARTE = "https://www.france-education-international.fr/centres-d-examen/carte?type-centre=%s"
 PAYS_ID = {"États-Unis": 113, "Royaume-Uni": 89, "Espagne": 70, "Mexique": 30, "Colombie": 21,
-           "Argentine": 15, "Chili": 20, "Pérou": 34, "Équateur": 25, "Canada": 112}
+           "Argentine": 15, "Chili": 20, "Pérou": 34, "Équateur": 25, "Canada": 112, "Inde": 45,
+           "Émirats arabes unis": 101}
 
 # ---------------------------------------------------------------------------
 # Téléphones : FEI écrit les numéros de toutes les façons (« 1-404-875-1211 », « 917007720 »,
@@ -36,7 +37,8 @@ PAYS_ID = {"États-Unis": 113, "Royaume-Uni": 89, "Espagne": 70, "Mexique": 30, 
 # ---------------------------------------------------------------------------
 PHONE = {"États-Unis": ("1", {10}), "Royaume-Uni": ("44", {9, 10}), "Espagne": ("34", {9}),
          "Mexique": ("52", {10}), "Colombie": ("57", {10}), "Argentine": ("54", {10, 11}),
-         "Chili": ("56", {9}), "Pérou": ("51", {8, 9}), "Équateur": ("593", {8, 9}), "Canada": ("1", {10})}
+         "Chili": ("56", {9}), "Pérou": ("51", {8, 9}), "Équateur": ("593", {8, 9}), "Canada": ("1", {10}),
+         "Inde": ("91", {10}), "Émirats arabes unis": ("971", {8, 9})}
 BAD_PHONES = {"999999889"}   # numéro de remplissage (AF Concepción, liste DELF)
 
 
@@ -49,6 +51,8 @@ def national(phone, country):
         d = d[2:]
     if country == "Canada" and len(d) == 12 and d.startswith("01"):
         d = d[1:]                          # « 01-514-278-3535 » : un 0 de trop devant l'indicatif
+    if country in ("Inde", "Émirats arabes unis") and d.startswith("0" + PHONE[country][0]):
+        d = d[1:]                          # « 091-98-25-08-25-51 », « 0971-566-… » : même 0 de trop
     for n in ([d[len(cc):]] if d.startswith(cc) else []) + [d]:
         x = n[1:] if n.startswith("0") else n
         if country == "Mexique" and len(x) == 11 and x.startswith("1"):
@@ -210,7 +214,6 @@ def VARIANT(spec):
 DATE_LABEL = {"fr": DATE_FR, "es-ES": "8 de octubre de 2026", "es-419": "8 de octubre de 2026",
               "en-US": "October 8, 2026", "en-GB": "8 October 2026", "en-CA": "8 October 2026"}
 OG_LOCALE = {"es-ES": "es_ES", "es-419": "es_LA", "en-US": "en_US", "en-GB": "en_GB", "en-CA": "en_CA"}
-LINK_LABEL = {"fr": "Lire en français", "es": "Leer en español", "en": "Read in English"}
 HOME_LABEL = {"es": "Inicio", "en": "Home"}
 
 
@@ -235,7 +238,8 @@ def words(spec):
 CITY_T = {
     "en": {"États-Unis": {"Philadelphie": "Philadelphia", "La Nouvelle-Orléans": "New Orleans", "Saint-Louis": "St. Louis"},
            "Royaume-Uni": {"Londres": "London", "Édimbourg": "Edinburgh", "Saint-Hélier (Jersey)": "St Helier (Jersey)"},
-           "Canada": {"Montréal": "Montreal", "Québec": "Quebec City", "St. John's, NL": "St. John's", "Sept-Iles": "Sept-Îles"}},
+           "Canada": {"Montréal": "Montreal", "Québec": "Quebec City", "St. John's, NL": "St. John's", "Sept-Iles": "Sept-Îles"},
+           "Inde": {"Calcutta": "Kolkata"}, "Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"}},
     "es": {"Espagne": {"Barcelone": "Barcelona", "Carthagène": "Cartagena", "Cadix": "Cádiz", "Saint-Sébastien": "San Sebastián",
                        "Gérone": "Girona", "Grenade": "Granada", "Malaga": "Málaga", "Palma de Majorque": "Palma de Mallorca",
                        "Pampelune": "Pamplona", "Salamanque": "Salamanca", "Saint-Jacques-de-Compostelle": "Santiago de Compostela",
@@ -285,13 +289,18 @@ NAME_ES = {"Institut français d'Espagne- Délégation de Bilbao": "Institut fra
            "Institut français (Campus France)": "Instituto Francés (Campus France)",
            "Institut français du Chili": "Instituto Francés de Chile", "INSTITUTO FRANCÉS DE CHILE": "Instituto Francés de Chile",
            "ALLIANCE FRANCAISE D'OSORNO": "Alianza Francesa de Osorno"}
-NAME_EN = {"Leeds - AF": "Alliance Française de Leeds"}
+NAME_EN = {"Leeds - AF": "Alliance Française de Leeds",
+           "French Ambassy/ Institut français Antenne AFAD": "French Embassy / Institut français, AFAD branch",
+           "Alliance français d'Abu Dhabi-Antenne Al Ain": "Alliance Française Abu Dhabi, Al Ain branch",
+           "Alliance française de Dubai (centre 1)": "Alliance Française de Dubai, Oud Metha",
+           "Alliance française de Dubai (centre 2)": "Alliance Française de Dubai, Dubai Knowledge Park"}
 
 
 # Noms de villes en français dans les adresses de FEI (« SW72JR Londres ») : forme locale sur les pages
 # traduites. Le Canada garde ses adresses (Montréal, Québec y sont les noms officiels).
 ADDR_T = {"en": {"États-Unis": {"Philadelphie": "Philadelphia", "La Nouvelle-Orléans": "New Orleans", "Saint-Louis": "St. Louis"},
-                 "Royaume-Uni": {"Londres": "London", "Édimbourg": "Edinburgh", "Saint-Hélier": "St Helier"}},
+                 "Royaume-Uni": {"Londres": "London", "Édimbourg": "Edinburgh", "Saint-Hélier": "St Helier"},
+                 "Inde": {"Calcutta": "Kolkata"}, "Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"}},
           "es": {"Espagne": {k: v for k, v in CITY_T["es"]["Espagne"].items()},
                  "Mexique": {"Ville de Mexico": "Ciudad de México"},
                  "Colombie": {"Carthagène des Indes": "Cartagena de Indias"}}}
@@ -668,23 +677,9 @@ def translated_specs():
     return out
 
 
-def translations():
-    tr = {}
-    for p in translated_specs():
-        tr.setdefault(p["fr_path"], []).append((p["lang"], f"/{p['lang']}/{p['slug']}/"))
-    return tr
-
-
-def alternates_for(fr_path, tr=None, current="fr"):
-    """([(hreflang, chemin)], <p class="langs">…</p>) pour une page et ses traductions, ou (None, None)."""
-    tr = translations() if tr is None else tr
-    if fr_path not in tr:
-        return None, None
-    alts = [("fr", fr_path)] + tr[fr_path] + [("x-default", fr_path)]
-    others = [("fr", fr_path)] + tr[fr_path]
-    links = '<p class="langs">' + " · ".join(f'<a href="{p}" hreflang="{l}" lang="{l}">{LINK_LABEL[l]}</a>'
-                                            for l, p in others if l != current) + "</p>"
-    return alts, links
+# translations() et alternates_for() vivent dans i18n_registry (toutes les pages traduites, pas seulement
+# les pages pays) ; importés ici pour page() et pour make_centres / make_villes.
+from i18n_registry import alternates_for, translations  # noqa: E402
 
 
 def hub(lang):

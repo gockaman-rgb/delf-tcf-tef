@@ -22,7 +22,8 @@ import unicodedata
 HERE = os.path.dirname(os.path.abspath(__file__))
 FILE = {"Argentine": "argentine", "Chili": "chili", "Colombie": "colombie", "Équateur": "equateur",
         "Espagne": "espagne", "États-Unis": "etats_unis", "Mexique": "mexique", "Pérou": "perou",
-        "Royaume-Uni": "royaume_uni", "Brésil": "bresil", "Haïti": "haiti", "Belgique": "belgique", "Suisse": "suisse"}
+        "Royaume-Uni": "royaume_uni", "Brésil": "bresil", "Haïti": "haiti", "Belgique": "belgique", "Suisse": "suisse",
+        "Inde": "inde", "Émirats arabes unis": "emirats"}   # 08/10 : tcf_emirats.json (la page Moyen-Orient garde tcf_emirats_arabes_unis.json du 19/09)
 
 # Jetons d'une adresse de service (jamais un prénom.nom) : seule une adresse qui en contient un est publiée.
 GENERIC = re.compile(r"(info|contact|exam|certif|delf|dalf|tcf|direc|director|dir\.|dirpedag|pedagog|secretar|recep|admin|"
@@ -37,7 +38,9 @@ ALLOW = {"adulted@isbos.org", "barranquilla@alianzafrancesa.edu.co", "barranquil
          "cartagena@alianzafrancesa.edu.co", "manizales@alianzafrancesa.edu.co", "oviedo@alianzafrancesa.com",
          "languagecenter@lallianceny.org", "cei.proulex@proulex.udg.mx", "coursonlignemza@gmail.com",
          "sanmigueldeallende@enes.unam.mx", "laic.lasalle@ulsavictoria.edu.mx", "president@flamusa.org",
-         "contatos@afbelem.com", "escola@afbahia.com.br", "atendimento@afsaocarlos.com.br", "midiateca@afcampinas.com.br",
+         "contatos@afbelem.com", "coursesdir.blr@afindia.org", "course.assistant.kolkata@afindia.org",
+         "director.lucknow@afindia.org", "academic_coord@afdelhi.org", "courses.trivandrum@afindia.org", "adminalain@afabudhabi.org",
+         "ahmedabad@afindia.org", "bhopal@afindia.org", "escola@afbahia.com.br", "atendimento@afsaocarlos.com.br", "midiateca@afcampinas.com.br",
          "montreux@alpadia.com", "ecole@afzurich.ch"}
 DENY = {"inesqaftandil@hotmail.com", "angelaalianza@yahoo.com.ar"}
 

@@ -292,7 +292,7 @@ des défis quotidiens de notre app.</p>""",
 {"url": "/dalf/", "accent": "accent-dalf", "crumb": "DALF C1 · C2",
  "title": "DALF C1 et C2 : épreuves, synthèse et préparation 2026",
  "desc": "DALF C1 et C2 : format des épreuves, la synthèse de documents, la dispense de test linguistique pour l'université et la méthode de préparation.",
- "h1": "DALF C1 · C2 : le niveau avancé qui dispense de tout autre test",
+ "h1": "DALF C1 · C2 : le niveau avancé qui dispense de test à l'université",
  "intro": "Le DALF (Diplôme approfondi de langue française) atteste les niveaux C1 et C2. Valable à vie, il dispense de tout test linguistique pour l'admission dans les universités françaises — et reste le diplôme de français le plus prestigieux pour un CV.",
  "body": """<div class="facts"><strong>L'essentiel</strong><ul>
 <li><strong>C1</strong> : compréhension orale et écrite exigeantes, <strong>synthèse de documents</strong> + essai argumenté à l'écrit, exposé à partir d'un dossier à l'oral (avec une heure de préparation surveillée).</li>

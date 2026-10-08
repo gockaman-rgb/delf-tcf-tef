@@ -72,12 +72,9 @@ def alternates(h):
 
 
 def pairs():
-    import pays_config_en
-    import pays_config_es
-    out = []
-    for p in pays_config_es.PAGES + pays_config_en.PAGES:
-        out.append((p["fr_path"], f"/{p['lang']}/{p['slug']}/", p["lang"]))
-    return out
+    """(chemin français, chemin traduit, langue) pour toutes les pages traduites du registre."""
+    from i18n_registry import path_of, specs
+    return [(p["fr_path"], path_of(p), p["lang"]) for p in specs() if p.get("fr_path")]
 
 
 def main():
@@ -111,7 +108,10 @@ def main():
         if len(d) > 155:
             errors.append(f"{tr} : description de {len(d)} caractères")
         # Restes de français
-        body = NAMES.sub(" ", text(editorial(ht)))
+        ed = re.sub(r'<(\w+)[^>]*\slang="fr"[^>]*>.*?</\1>', " ", editorial(ht), flags=re.S)   # matière d'examen
+        if lang == "en":
+            ed = re.sub(r"«[^»]*»", " ", ed)                       # exemples français cités entre guillemets
+        body = NAMES.sub(" ", text(ed))
         hits = []
         for m in re.finditer(r"[A-Za-zÀ-ÿ']+", body):
             w = m.group(0).lower()

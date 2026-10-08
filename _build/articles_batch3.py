@@ -116,8 +116,8 @@ plafonnent.</li>
 introduire d'idée neuve.</li>
 </ol>
 
-<p>Total : environ 250 à 280 mots. Le plan produit mécaniquement le volume attendu, ce qui règle
-la question du décompte.</p>
+<p>Total : environ 250 à 280 mots. Le plan produit mécaniquement le volume attendu — comptez tout de même
+vos mots.</p>
 
 <h2 id="genres">Les trois genres, et ce qu'ils imposent</h2>
 
@@ -205,8 +205,8 @@ registre et volume. Aucune de ces dimensions n'est un problème de vocabulaire."
 contre une objection qu'on a d'abord reconnue. C'est le paragraphe de concession et réfutation qui
 fait le plus souvent la différence — et beaucoup de copies l'omettent entièrement."""),
 ("Quelle note faut-il à la production écrite ?",
- """Il n'y a pas de note minimale par épreuve au DELF, à une exception près : une note inférieure à
-5 sur 25 est éliminatoire, quelle que soit votre moyenne générale. L'admission se joue à 50 sur
+ """Il n'est pas nécessaire d'avoir la moyenne à chaque épreuve du DELF, mais il faut au moins 5 sur
+25 à chacune : une note inférieure à 5 sur 25 est éliminatoire, quelle que soit votre moyenne générale. L'admission se joue à 50 sur
 100 au total, les quatre épreuves étant notées sur 25 chacune."""),
 ("Comment répartir les 60 minutes ?",
  """Environ 10 minutes pour analyser la consigne et poser le plan, 35 minutes pour rédiger d'une

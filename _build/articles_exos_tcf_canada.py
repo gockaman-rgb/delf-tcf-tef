@@ -122,7 +122,7 @@ cette variété qui fatigue, plus que la difficulté linguistique elle-même.</p
 <h2 id="exercices">Quatre exercices corrigés</h2>
 
 <p>Les quatre exercices ci-dessous suivent la progression réelle de l'épreuve. Les deux premiers
-sont de niveau B1, les deux suivants de niveau B2 — c'est-à-dire au-dessus du seuil NCLC 7.</p>
+sont de niveau B1, les deux suivants de niveau B2 — le niveau où se joue le NCLC 7.</p>
 
 <div class="warn">
 <p><strong>Écoutez avant de lire.</strong> Ces quatre exercices sont des épreuves d'écoute :

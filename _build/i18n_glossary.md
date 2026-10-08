@@ -86,3 +86,38 @@ Le moteur est `make_pays.py` ; le texte, `pays_config_es.py` et `pays_config_en.
   français.
 - La réponse en tête : l'intro dit où, combien, quand, dès la première phrase.
 - FAQ : les questions telles qu'on les tape (« ¿Cuánto cuesta el TCF Canada en Colombia? »).
+
+## Guides et pages d'examen (2e vague, 08/10/2026)
+
+Specs dans `i18n_pages_en.py` / `i18n_pages_es.py`, rendues par `make_i18n.py` ; modèles : les deux pilotes
+anglais (`/en/tcf-canada/score-clb/`, `/en/tcf-canada-writing-tasks/`).
+
+- **Source** : la page française **publiée** (`site/<chemin>/index.html`), pas seulement son script — beaucoup ont
+  été retouchées à la main après génération. Même structure (sections, tableaux, encadrés, FAQ), mêmes faits.
+- **Matière d'examen en français** : énoncés, consignes, transcriptions, questions et options restent en français,
+  via `exo(lang, …)` / `sujet(lang, …)` de `i18n_blocks.py` (balisés `lang="fr"`) ; titres, conseils, explications
+  et réponses sont traduits. Un exemple français cité dans le texte : entre « » (anglais) ou en *cursiva* (espagnol).
+- **Liens** : vers les pages de la même langue quand elles existent (liste dans la consigne), sinon le texte sans
+  lien. `also` : 3 liens, même langue.
+- **Carte « Entraînez-vous »** : posée automatiquement avant le 3e h2 ; `inline_cta=False` si la page française
+  n'en a pas (pages modules d'examen). CTA final : celui de la page française, traduit (`cta_h2`, `cta_p`).
+- **Date** : la page porte la date de la traduction (8 octobre 2026) ; les phrases datées de la page française
+  (« à jour au 7 août 2026 », « vérifié en juillet 2026 ») gardent leur date.
+
+| Français | Espagnol | Anglais |
+|---|---|---|
+| compréhension orale / écrite (épreuve) | comprensión oral / escrita | listening / reading (test) |
+| expression orale / écrite | expresión oral / escrita | speaking / writing |
+| tâche (1, 2, 3) | tarea | task |
+| consigne | consigna | instructions / prompt |
+| barème, notation | baremo, puntuación | scoring |
+| note éliminatoire | nota eliminatoria | minimum score per section |
+| seuil de réussite (DELF : 50/100) | umbral de aprobación | pass mark |
+| examen blanc | simulacro (de examen) | mock exam / practice test |
+| QCM | preguntas de opción múltiple | multiple-choice questions |
+| conformité à la consigne | adecuación a la consigna | task completion |
+| registre (soutenu, familier) | registro (formal, coloquial) | register (formal, casual) |
+| connecteurs | conectores | connectors |
+| attestation de résultats | constancia de resultados | results certificate |
+| recorrection | recalificación | re-marking |
+| carte de résident / naturalisation | tarjeta de residente / nacionalidad | resident card / citizenship |
