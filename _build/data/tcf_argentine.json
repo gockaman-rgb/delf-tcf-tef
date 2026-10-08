@@ -1,0 +1,96 @@
+{
+ "country": "Argentine",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 5,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Centro educativo canadiense",
+   "city": "Buenos Aires",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Luis Maria Campos 870, 1426 Buenos Aires",
+   "address_lines": [
+    "Av. Luis Maria Campos 870",
+    "1426 Buenos Aires"
+   ],
+   "phone": "54-11-51-31-37-53",
+   "emails": [
+    "info@estudiarencanada.org"
+   ],
+   "url": "http://www.estudiarencanada.org",
+   "so": true
+  },
+  {
+   "name": "Institut français (Campus France)",
+   "city": "Buenos Aires",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ambassade France en Argentine Basavilbaso 1253, 1006 Buenos Aires",
+   "address_lines": [
+    "Ambassade France en Argentine Basavilbaso 1253",
+    "1006 Buenos Aires"
+   ],
+   "phone": "54-114-515-69-42 / 54-114-515-69-21",
+   "emails": [
+    "buenosaires@campusfrance.org"
+   ],
+   "url": "http://www.argentine.campusfrance.org",
+   "so": true
+  },
+  {
+   "name": "Alliance Française",
+   "city": "Cordoba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ayacucho 46, X5000JUB Cordoba",
+   "address_lines": [
+    "Ayacucho 46",
+    "X5000JUB Cordoba"
+   ],
+   "phone": "54-0351-422-1129",
+   "emails": [
+    "pedagogia@alianzafrancesacba.org.ar"
+   ],
+   "url": "http://www.alianzafrancesacba.org.ar",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Mendoza - Marc Blancpain",
+   "city": "Mendoza",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chili 1754, 5500 Mendoza",
+   "address_lines": [
+    "Chili 1754",
+    "5500 Mendoza"
+   ],
+   "phone": "54-9-2613-35-6891",
+   "emails": [
+    "coursonlignemza@gmail.com"
+   ],
+   "url": "https://alianzafrancesamendoza.com/",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Rosario",
+   "city": "Rosario",
+   "cp": "",
+   "city_cp": "",
+   "address": "San Luis, 846, CP2000 Rosario",
+   "address_lines": [
+    "San Luis, 846",
+    "CP2000 Rosario"
+   ],
+   "phone": "0054-9-341-238-843",
+   "emails": [
+    "info@afrosario.or.ar"
+   ],
+   "url": "https://afrosario.org.ar/",
+   "so": true
+  }
+ ]
+}

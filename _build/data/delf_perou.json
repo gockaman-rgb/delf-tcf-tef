@@ -1,0 +1,124 @@
+{
+ "country": "Pérou",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Lima",
+  "cp": "",
+  "city_cp": "",
+  "address": "Arequipa n°4595 Casilla 18, 1667 Lima",
+  "address_lines": [
+   "Arequipa n°4595 Casilla 18",
+   "1667 Lima"
+  ],
+  "phone": "1 610 8008",
+  "emails": [],
+  "url": "http://www.alianzafrancesa.org.pe/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Arequipa",
+   "city": "Arequipa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Santa Catalina 208, 2724 Arequipa",
+   "address_lines": [
+    "Santa Catalina 208",
+    "2724 Arequipa"
+   ],
+   "phone": "(054)221222",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Chiclayo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Juan Cuglievan 644, 415 Chiclayo",
+   "address_lines": [
+    "Juan Cuglievan 644",
+    "415 Chiclayo"
+   ],
+   "phone": "(074)237521",
+   "emails": [
+    "direccion.afchiclayo@alianzafrancesa.org.pe"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cusco",
+   "city": "Cusco",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. de La Cultura #804, 08200 Cusco",
+   "address_lines": [
+    "Av. de La Cultura #804",
+    "08200 Cusco"
+   ],
+   "phone": "984 110 762",
+   "emails": [
+    "direccion.afcusco@alianzafrancesa.org.pe"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française",
+   "city": "Lima",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Arequipa 4595, 15046 Lima",
+   "address_lines": [
+    "Av. Arequipa 4595",
+    "15046 Lima"
+   ],
+   "phone": "51 6108000",
+   "emails": [
+    "direction.academique@alianzafrancesa.org.pe"
+   ],
+   "url": "https://www.aflima.org.pe/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Piura",
+   "city": "Piura",
+   "cp": "",
+   "city_cp": "",
+   "address": "Libertad 269, 20001 Piura",
+   "address_lines": [
+    "Libertad 269",
+    "20001 Piura"
+   ],
+   "phone": "969 669 047",
+   "emails": [
+    "direccion.piura@alianzafrancesa.org.pe"
+   ],
+   "url": "http://afpiura.org.pe",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Trujillo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jr. San Martin 858 Trujillo",
+   "address_lines": [
+    "Jr. San Martin 858 Trujillo"
+   ],
+   "phone": "+51914045237",
+   "emails": [
+    "direccion.aftrujillo@alianzafrancesa.org.pe"
+   ],
+   "url": "https://aftrujillo.org.pe/",
+   "so": false
+  }
+ ]
+}

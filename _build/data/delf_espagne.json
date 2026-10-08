@@ -1,0 +1,569 @@
+{
+ "country": "Espagne",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 32,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Coopération éducative",
+  "city": "Madrid",
+  "cp": "",
+  "city_cp": "",
+  "address": "c/ Marqués de la Ensenada, 10, 28004 Madrid",
+  "address_lines": [
+   "c/ Marqués de la Ensenada, 10",
+   "28004 Madrid"
+  ],
+  "phone": "917007720",
+  "emails": [],
+  "url": "https://www.delf-dalf.es/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française A Coruña",
+   "city": "A Coruña",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Real 26, 1º, 15003 A Coruña",
+   "address_lines": [
+    "Calle Real 26, 1º",
+    "15003 A Coruña"
+   ],
+   "phone": "981222356",
+   "emails": [
+    "delfdalf@afcoruna.com"
+   ],
+   "url": "https://afcoruna.com/",
+   "so": false
+  },
+  {
+   "name": "Institut Français d'Espagne - Barcelone",
+   "city": "Barcelona",
+   "cp": "",
+   "city_cp": "",
+   "address": "carrer Moià, 8, 08006 Barcelona",
+   "address_lines": [
+    "carrer Moià, 8",
+    "08006 Barcelona"
+   ],
+   "phone": "935677777",
+   "emails": [
+    "examens.barcelona@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Bilbao",
+   "city": "Bilbao",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Paseo Campo Volantín, 23 (entrada C/Epalza 1), 48007 Bilbao",
+   "address_lines": [
+    "C/ Paseo Campo Volantín, 23 (entrada C/Epalza 1)",
+    "48007 Bilbao"
+   ],
+   "phone": "944132002",
+   "emails": [
+    "delfdalf.bilbao@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Burgos",
+   "city": "Burgos",
+   "cp": "",
+   "city_cp": "",
+   "address": "c/ Burgense, 20 - Bajo, 09002 Burgos",
+   "address_lines": [
+    "c/ Burgense, 20 - Bajo",
+    "09002 Burgos"
+   ],
+   "phone": "947274722",
+   "emails": [
+    "info@afburgos.com"
+   ],
+   "url": "http://www.afburgos.com/",
+   "so": false
+  },
+  {
+   "name": "Univ. d'Estrémadure (Vicerrectorado de Extensión Universitaria)",
+   "city": "Cáceres",
+   "cp": "",
+   "city_cp": "",
+   "address": "Edificio Rectorado Plaza de Caldereros, 1, 10003 Cáceres",
+   "address_lines": [
+    "Edificio Rectorado Plaza de Caldereros, 1",
+    "10003 Cáceres"
+   ],
+   "phone": "927 25 70 09",
+   "emails": [
+    "cultural@unex.es"
+   ],
+   "url": "https://vrextension.unex.es/estructura/espacio-uex/institut-francais-examenes-delf-y-dalf/",
+   "so": false
+  },
+  {
+   "name": "Centro Superior de Lenguas Modernas-Fundación Universidad de Cádiz",
+   "city": "Cádiz",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Ancha, nº 10, 1a y 3a planta, Edificio José Pedro Pérez-Llorca, 11001 Cádiz",
+   "address_lines": [
+    "Calle Ancha, nº 10, 1a y 3a planta, Edificio José Pedro Pérez-Llorca",
+    "11001 Cádiz"
+   ],
+   "phone": "956 01 57 95",
+   "emails": [
+    "lenguas.modernas@uca.es"
+   ],
+   "url": "http://www.uca.es/cslm/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cartagena",
+   "city": "Cartagena",
+   "cp": "",
+   "city_cp": "",
+   "address": "Paseo Alfonso XIII, 5 - 1ºA, 30203 Cartagena",
+   "address_lines": [
+    "Paseo Alfonso XIII, 5 - 1ºA",
+    "30203 Cartagena"
+   ],
+   "phone": "968506716",
+   "emails": [
+    "examenes@alianzafrancesacartagena.org"
+   ],
+   "url": "http://www.afcartagena.org/",
+   "so": false
+  },
+  {
+   "name": "Universidad de Castilla-La Mancha",
+   "city": "Ciudad Real",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centro de Lenguas, Avenida Camilo José Cela s/n, 13071 Ciudad Real",
+   "address_lines": [
+    "Centro de Lenguas, Avenida Camilo José Cela s/n",
+    "13071 Ciudad Real"
+   ],
+   "phone": "620639569",
+   "emails": [
+    "centro.lenguas@uclm.es"
+   ],
+   "url": "http://blog.uclm.es/clenguas/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de San Sebastián",
+   "city": "Donostia-San Sebastián",
+   "cp": "",
+   "city_cp": "",
+   "address": "Andrestegui ,nº6 Bajo, 20018 Donostia-San Sebastián",
+   "address_lines": [
+    "Andrestegui ,nº6 Bajo",
+    "20018 Donostia-San Sebastián"
+   ],
+   "phone": "943311525",
+   "emails": [
+    "info@afsaintsebastien.org"
+   ],
+   "url": "http://www.afsaintsebastien.org/",
+   "so": false
+  },
+  {
+   "name": "Alianza francesa de Gijón",
+   "city": "Gijón",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Dindurra, 5 bajo, 33201 Gijón",
+   "address_lines": [
+    "Calle Dindurra, 5 bajo",
+    "33201 Gijón"
+   ],
+   "phone": "670239669",
+   "emails": [
+    "direccion@alianzafrancesagijon.net"
+   ],
+   "url": "http://www.alianzafrancesagijon.net/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Girona",
+   "city": "Girona",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avinguda Jaume 1er nª 8, 17001 Girona",
+   "address_lines": [
+    "Avinguda Jaume 1er nª 8",
+    "17001 Girona"
+   ],
+   "phone": "972200406",
+   "emails": [
+    "info@afgirona.org"
+   ],
+   "url": "http://www.afgirona.org/",
+   "so": false
+  },
+  {
+   "name": "CLM Granada",
+   "city": "Granada",
+   "cp": "",
+   "city_cp": "",
+   "address": "Pcta. del Hospicio Viejo, 18009 Granada",
+   "address_lines": [
+    "Pcta. del Hospicio Viejo",
+    "18009 Granada"
+   ],
+   "phone": "958 21 56 60",
+   "emails": [
+    "subdireccionlex@clm.ugr.es"
+   ],
+   "url": "https://clm-granada.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Granollers",
+   "city": "Granollers",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Corró, 22, 08401 Granollers",
+   "address_lines": [
+    "C/ Corró, 22",
+    "08401 Granollers"
+   ],
+   "phone": "938796937",
+   "emails": [
+    "info@afgranollers.com"
+   ],
+   "url": "http://www.afcatalunya.cat/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Las Palmas de Gran Canaria",
+   "city": "Las Palmas De Gran Canaria",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Buenos Aires, 56, 35002 Las Palmas De Gran Canaria",
+   "address_lines": [
+    "Calle Buenos Aires, 56",
+    "35002 Las Palmas De Gran Canaria"
+   ],
+   "phone": "928368379",
+   "emails": [
+    "direccion@alianzaflp.org"
+   ],
+   "url": "http://alianzaflp.org/",
+   "so": false
+  },
+  {
+   "name": "Fundación Universidad de La Rioja",
+   "city": "Logroño",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avda. La Paz, 107, 26006 Logroño",
+   "address_lines": [
+    "Avda. La Paz, 107",
+    "26006 Logroño"
+   ],
+   "phone": "941299272",
+   "emails": [
+    "idiomas@fund.unirioja.es"
+   ],
+   "url": "http://www.fundacion.unirioja.es/delf",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Madrid",
+   "city": "Madrid",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cuesta de Santo Domingo nº 13, 28013 Madrid",
+   "address_lines": [
+    "Cuesta de Santo Domingo nº 13",
+    "28013 Madrid"
+   ],
+   "phone": "914351654",
+   "emails": [
+    "examenes@afmadrid.net"
+   ],
+   "url": "https://www.afmadrid.es/es",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Espagne - Madrid",
+   "city": "Madrid",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Marqués de la Ensenada 12, 28004 Madrid",
+   "address_lines": [
+    "C/ Marqués de la Ensenada 12",
+    "28004 Madrid"
+   ],
+   "phone": "917004811",
+   "emails": [
+    "examenes.madrid@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Málaga",
+   "city": "Málaga",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Canales 11, 29002 Málaga",
+   "address_lines": [
+    "Calle Canales 11",
+    "29002 Málaga"
+   ],
+   "phone": "952220860",
+   "emails": [
+    "examen@afmalaga.com"
+   ],
+   "url": "http://www.alianzafrancesamalaga.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Oviedo",
+   "city": "Oviedo",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Marqués de Santa Cruz, 11, 33007 Oviedo",
+   "address_lines": [
+    "C/ Marqués de Santa Cruz, 11",
+    "33007 Oviedo"
+   ],
+   "phone": "985213234",
+   "emails": [
+    "oviedo@alianzafrancesa.com"
+   ],
+   "url": "http://afoviedo.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Palma de Mallorca",
+   "city": "Palma",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Argentina, 16, Entresuelo A, 07011 Palma",
+   "address_lines": [
+    "Avenida Argentina, 16, Entresuelo A",
+    "07011 Palma"
+   ],
+   "phone": "971714101",
+   "emails": [
+    "afpalma@alianzafrancesapalma.com"
+   ],
+   "url": "http://www.afpalma.es/",
+   "so": false
+  },
+  {
+   "name": "Universidad Pública de Navarra",
+   "city": "Pamplona",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centro Superior de Idiomas - Edificio El Sario - Módulo 3, 31006 Pamplona",
+   "address_lines": [
+    "Centro Superior de Idiomas - Edificio El Sario - Módulo 3",
+    "31006 Pamplona"
+   ],
+   "phone": "+34948169791",
+   "emails": [
+    "centro.idiomas@unavarra.es"
+   ],
+   "url": "http://www.unavarra.es/centroidiomas/",
+   "so": false
+  },
+  {
+   "name": "Université de Salamanque",
+   "city": "Salamanca",
+   "cp": "",
+   "city_cp": "",
+   "address": "s/n Plaza de Anaya, 37008 Salamanca",
+   "address_lines": [
+    "s/n Plaza de Anaya",
+    "37008 Salamanca"
+   ],
+   "phone": "617302322",
+   "emails": [
+    "delf-dalf@usal.es"
+   ],
+   "url": "http://www.usal.es/",
+   "so": false
+  },
+  {
+   "name": "Alianza Francesa de Tenerife",
+   "city": "Santa Cruz De Tenerife",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida 25 de julio, nº29, 1-D, 38004 Santa Cruz De Tenerife",
+   "address_lines": [
+    "Avenida 25 de julio, nº29, 1-D",
+    "38004 Santa Cruz De Tenerife"
+   ],
+   "phone": "660681207",
+   "emails": [
+    "direccion@aftenerife.es"
+   ],
+   "url": "http://www.aftenerife.es/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Santander",
+   "city": "Santander",
+   "cp": "",
+   "city_cp": "",
+   "address": "Pasaje de Peña, 4 -5º Planta, 39008 Santander",
+   "address_lines": [
+    "Pasaje de Peña, 4 -5º Planta",
+    "39008 Santander"
+   ],
+   "phone": "942220626",
+   "emails": [
+    "secretaria@alianzafrancesasantander.com"
+   ],
+   "url": "http://alianzafrancesasantander.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Santiago de Compostela",
+   "city": "Santiago De Compostela",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plaza de Vigo 2 bajo, 15701 Santiago De Compostela",
+   "address_lines": [
+    "Plaza de Vigo 2 bajo",
+    "15701 Santiago De Compostela"
+   ],
+   "phone": "981561639",
+   "emails": [
+    "delf@afsantiago.es"
+   ],
+   "url": "http://www.afsantiago.es/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Espagne - Zaragoza",
+   "city": "Saragosse",
+   "cp": "",
+   "city_cp": "",
+   "address": "Paseo Sagasta 7, 50008 Saragosse",
+   "address_lines": [
+    "Paseo Sagasta 7",
+    "50008 Saragosse"
+   ],
+   "phone": "976227598",
+   "emails": [
+    "certificaciones@institutfrancais.es"
+   ],
+   "url": "https://www.institutfrancais.es/zaragoza/",
+   "so": false
+  },
+  {
+   "name": "Instituto de idiomas (Universidad de Sevilla)",
+   "city": "Sevilla",
+   "cp": "",
+   "city_cp": "",
+   "address": "REINA MERCEDES S/N, 41012 Sevilla",
+   "address_lines": [
+    "REINA MERCEDES S/N",
+    "41012 Sevilla"
+   ],
+   "phone": "954557898",
+   "emails": [
+    "delf-dalf@us.es"
+   ],
+   "url": "https://institutodeidiomas.us.es/",
+   "so": false
+  },
+  {
+   "name": "INSTITUTO DE LENGUA FRANCESA",
+   "city": "Sevilla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Gonzalo Bilbao, 26, 41003 Sevilla",
+   "address_lines": [
+    "Calle Gonzalo Bilbao, 26",
+    "41003 Sevilla"
+   ],
+   "phone": "954 32 82 69",
+   "emails": [
+    "direccion@ilfsevilla.com"
+   ],
+   "url": "http://www.ilfsevilla.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Valence",
+   "city": "Valencia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Monjas de Sta Catalina, 4 -1º-pta 3, 46002 Valencia",
+   "address_lines": [
+    "Calle Monjas de Sta Catalina, 4 -1º-pta 3",
+    "46002 Valencia"
+   ],
+   "phone": "678 690 862",
+   "emails": [
+    "examenes.valencia@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Valladolid",
+   "city": "Valladolid",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plaza Poniente, 5, 2ª planta, 47003 Valladolid",
+   "address_lines": [
+    "Plaza Poniente, 5, 2ª planta",
+    "47003 Valladolid"
+   ],
+   "phone": "983339666",
+   "emails": [
+    "info@afvalladolid.com"
+   ],
+   "url": "http://www.afvalladolid.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Vigo",
+   "city": "Vigo",
+   "cp": "",
+   "city_cp": "",
+   "address": "República Argentina,22 - 1º, 36201 Vigo",
+   "address_lines": [
+    "República Argentina,22 - 1º",
+    "36201 Vigo"
+   ],
+   "phone": "639936857",
+   "emails": [
+    "direccion@alliancevigo.org"
+   ],
+   "url": "http://www.alliancevigo.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Vitoria",
+   "city": "Vitoria-Gasteiz",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Sebastián Fdez de Leceta, 4-6 Bajo, 01009 Vitoria-Gasteiz",
+   "address_lines": [
+    "C/ Sebastián Fdez de Leceta, 4-6 Bajo",
+    "01009 Vitoria-Gasteiz"
+   ],
+   "phone": "945223088",
+   "emails": [
+    "info@afvitoria-gasteiz.org"
+   ],
+   "url": "http://www.afvitoria-gasteiz.org/",
+   "so": false
+  }
+ ]
+}

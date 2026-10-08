@@ -1,0 +1,60 @@
+{
+ "country": "Équateur",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Cuenca",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tadeo Torres 1-92 y Av. Solano, 010104 Cuenca",
+   "address_lines": [
+    "Tadeo Torres 1-92 y Av. Solano",
+    "010104 Cuenca"
+   ],
+   "phone": "593-7-282-52-98",
+   "emails": [
+    "info@afcuenca.org.ec"
+   ],
+   "url": "http://www.afcuenca.org.ec",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Guayaquil, Guayas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hurtado 436 y José Mascote Apartado postal 4902, EC090303 Guayaquil, Guayas",
+   "address_lines": [
+    "Hurtado 436 y José Mascote Apartado postal 4902",
+    "EC090303 Guayaquil, Guayas"
+   ],
+   "phone": "593-042532009",
+   "emails": [
+    "pedagogia@afguayaquil.org.ec"
+   ],
+   "url": "https://afguayaquil.org.ec/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Quito",
+   "cp": "",
+   "city_cp": "",
+   "address": "Eloy Alfaro N32-468 y Belgica, Quito",
+   "address_lines": [
+    "Eloy Alfaro N32-468 y Belgica",
+    "Quito"
+   ],
+   "phone": "593-22-24-65-90",
+   "emails": [],
+   "url": "http://www.afquito.org.ec",
+   "so": true
+  }
+ ]
+}

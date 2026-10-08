@@ -1151,11 +1151,11 @@ HUB = {
     "accent": "accent-delf",
     "crumb": "Où passer l'examen",
     "title": "Où passer le DELF, le TCF ou le TEF ? Centres par pays",
-    "desc": "Où passer le DELF, le TCF IRN, le TCF Canada et l'examen civique en France, au Canada et au Maghreb : centres agréés, inscription, prix relevés, pièges.",
+    "desc": "Où passer le DELF, le TCF Canada, le TCF IRN et l'examen civique : France, Canada, Maghreb, Espagne, Royaume-Uni, États-Unis, Amérique latine.",
     "og_title": "Où passer le DELF, le TCF ou le TEF ? Centres par pays",
-    "og_desc": "Les centres agréés, l'inscription, les prix relevés et les pièges — en France, au Canada et au Maghreb.",
+    "og_desc": "Les centres agréés, l'inscription, les prix relevés et les pièges — en France, au Canada, au Maghreb, en Europe et aux Amériques.",
     "h1": "Où passer le DELF, le TCF ou le TEF&nbsp;?",
-    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 6,
+    "published": DATE, "modified": "2026-10-08", "date_fr": "8 octobre 2026", "read": 7,
     "intro": """Tous ces examens se passent <strong>en présentiel, dans un centre agréé</strong> — par
 France Éducation international pour le DELF, le DALF et le TCF, par Le français des affaires
 (CCI Paris Île-de-France) pour le TEF. Il n'existe <strong>aucune passation en ligne</strong>. On
@@ -1164,6 +1164,7 @@ candidats. Choisissez votre examen et votre pays : chaque guide donne les centre
 relevés, les dates et le pas-à-pas.""",
     "facts": [
         "<strong>143 centres DELF-DALF</strong> et <strong>251 centres TCF</strong> en France, <strong>47 centres TCF</strong> au Canada, 16 au Maroc, 14 en Tunisie, 5 en Algérie (liste FEI, 17 septembre 2026).",
+        "Hors de France et du Maghreb, <strong>neuf pays détaillés</strong> le 8 octobre 2026 — Espagne, Royaume-Uni, États-Unis, Mexique, Colombie, Argentine, Chili, Pérou, Équateur : qui propose le TCF Canada, à quel prix, et le calendrier du DELF.",
         "Un centre est agréé ou ne l'est pas : la seule preuve est la <strong>liste officielle</strong> de FEI (DELF, DALF, TCF) ou du Français des affaires (TEF).",
         "<strong>Aucun tarif national</strong> : du simple au double pour le même examen, parfois dans la même ville.",
         "⚠️ La <strong>place</strong> est le vrai goulot : fenêtres d'inscription de deux jours pour le DELF, sessions complètes en minutes pour le TCF Canada à Toronto ou Vancouver.",
@@ -1172,6 +1173,7 @@ relevés, les dates et le pas-à-pas.""",
     ],
     "toc": [
         ("guides", "Les guides par examen et par pays"),
+        ("pays", "Hors de France : neuf pays détaillés"),
         ("listes", "L'annuaire des centres, avec leurs contacts"),
         ("regles", "Les cinq règles qui valent partout"),
         ("fraude", "Reconnaître un faux centre"),
@@ -1211,17 +1213,42 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <div class="card card-link"><span class="tag">France · titres et nationalité</span><h3><a href="/blog/ou-passer-l-examen-civique/">Où passer l'examen civique&nbsp;?</a></h3><p>Deux réseaux agréés, la pré-inscription sur test-civique.fr, 70 à 110 € selon le centre et des résultats sous 12 heures.</p></div>
 </div>
 
+<h2 id="pays">Hors de France : neuf pays détaillés</h2>
+
+<p>Pour neuf pays d'Europe et des Amériques, une page par examen reprend la liste officielle de FEI lue le
+8 octobre 2026 et ce que le site de chaque centre affichait ce jour-là : qui propose vraiment le TCF Canada — pas
+tous les centres agréés —, à quel prix, à quelles dates ; le calendrier et les tarifs du DELF, souvent nationaux ;
+la marche à suivre pour s'inscrire.</p>
+
+<div class="tablewrap">
+<table>
+<caption>Le TCF Canada et le DELF-DALF dans neuf pays, relevés le 8 octobre 2026. Prix en monnaie locale, pour un candidat libre.</caption>
+<thead><tr><th>Pays</th><th>TCF Canada</th><th>DELF · DALF</th></tr></thead>
+<tbody>
+<tr><td><strong>Espagne</strong></td><td><a href="/centres/tcf-espagne/">11 centres sur 14, 275 à 287 €</a></td><td><a href="/centres/delf-espagne/">32 centres, calendrier national, B2 192 € en 2027</a></td></tr>
+<tr><td><strong>Royaume-Uni</strong></td><td><a href="/centres/tcf-royaume-uni/">Londres £260, Glasgow £325</a></td><td><a href="/centres/delf-royaume-uni/">11 centres, B2 £160</a></td></tr>
+<tr><td><strong>États-Unis</strong></td><td><a href="/centres/tcf-etats-unis/">9 centres sur 18, 330 à 460 $</a></td><td><a href="/centres/delf-etats-unis/">40 centres, B2 190 $</a></td></tr>
+<tr><td><strong>Mexique</strong></td><td><a href="/centres/tcf-mexique/">5 centres sur 11, 4 800 à 6 500 pesos</a></td><td><a href="/centres/delf-mexique/">71 centres, B2 2 500 pesos</a></td></tr>
+<tr><td><strong>Colombie</strong></td><td><a href="/centres/tcf-colombie/">les 7 Alliances, dès 1 050 000 pesos</a></td><td><a href="/centres/delf-colombie/">15 Alliances, B2 490 000 pesos</a></td></tr>
+<tr><td><strong>Argentine</strong></td><td><a href="/centres/tcf-argentine/">4 centres, prix sur demande</a></td><td><a href="/centres/delf-argentine/">28 Alliances, B2 163 €</a></td></tr>
+<tr><td><strong>Chili</strong></td><td><a href="/centres/tcf-chili/">2 centres, 299 000 pesos</a></td><td><a href="/centres/delf-chili/">4 centres, B2 137 000 pesos</a></td></tr>
+<tr><td><strong>Pérou</strong></td><td><a href="/centres/tcf-perou/">1 centre à Lima, 1 240 soles</a></td><td><a href="/centres/delf-perou/">6 Alliances, B2 461 soles</a></td></tr>
+<tr><td><strong>Équateur</strong></td><td><a href="/centres/tcf-equateur/">Cuenca 200 $, Guayaquil 300 $</a></td><td><a href="/centres/delf-equateur/">5 Alliances, B2 200 $</a></td></tr>
+</tbody>
+</table>
+</div>
+
 <h2 id="listes">L'annuaire des centres, avec leurs contacts</h2>
 
 <p>Nous avons repris la liste officielle de France Éducation international, pays par pays, avec
-l'adresse, le téléphone, l'e-mail et le site de chaque centre — <strong>830 centres dans 32 pays</strong>
-au 19 septembre 2026 — dans un <a href="/centres/">annuaire des centres</a> :
+l'adresse, le téléphone, l'e-mail et le site de chaque centre — <strong>1 067 centres dans 35 pays</strong>
+au 8 octobre 2026 — dans un <a href="/centres/">annuaire des centres</a> :
 <a href="/centres/tcf-france/">TCF en France</a> (251), <a href="/centres/delf-france/">DELF-DALF en
 France</a> (143), <a href="/centres/examen-civique-france/">examen civique en France</a> (245),
 <a href="/centres/tcf-canada/">TCF au Canada</a> (47), <a href="/centres/tcf-maroc/">Maroc</a> (16),
 <a href="/centres/tcf-tunisie/">Tunisie</a> (14), <a href="/centres/tcf-algerie/">Algérie</a> (5),
-<a href="/centres/tcf-afrique/">Afrique subsaharienne</a> (23), <a href="/centres/tcf-europe/">Belgique,
-Suisse, Royaume-Uni</a> (12), <a href="/centres/tcf-ameriques/">États-Unis et Amérique latine</a> (51),
+<a href="/centres/tcf-afrique/">Afrique subsaharienne</a> (23), <a href="/centres/tcf-europe/">Espagne,
+Suisse, Belgique, Royaume-Uni</a> (26), <a href="/centres/tcf-ameriques/">États-Unis et Amérique latine</a> (62),
 <a href="/centres/tcf-moyen-orient/">Liban, Émirats, Égypte, Turquie</a> (16), <a href="/centres/tcf-inde/">Inde</a> (7).</p>
 
 <p>Les listes officielles restent la référence en cas de doute :</p>
@@ -1307,10 +1334,11 @@ notation du vrai test et la correction IA de l'écrit et de l'oral.""",
         ("/blog/diplome-ou-test-delf-tcf/", "Diplôme ou test : DELF, DALF, TCF ou TEF, lequel vous faut-il&nbsp;?", "Un diplôme s'obtient à vie et peut se rater ; un test vous situe pour deux ans."),
         ("/blog/prix-tcf-tef/", "Combien coûte vraiment le TCF ou le TEF&nbsp;?", "Aucun tarif national : les prix relevés centre par centre, en France et au Canada."),
         ("/blog/difference-tcf-tef/", "TCF ou TEF : les 9 versions comparées", "Formats, échelles, reconnaissance administrative de chaque déclinaison."),
-        ("/centres/", "L'annuaire des centres d'examen", "830 centres agréés dans 32 pays, avec adresse, téléphone, e-mail et site."),
+        ("/centres/", "L'annuaire des centres d'examen", "1 067 centres agréés dans 35 pays, avec adresse, téléphone, e-mail et site."),
     ],
     "sources": """<strong>Sources.</strong> Listes et carte des centres d'examen de France Éducation
-international (DELF-DALF, TCF, examen civique), par pays, consultées le 17 septembre 2026 ;
+international (DELF-DALF, TCF, examen civique), par pays, consultées le 17 septembre 2026, et le 8 octobre
+2026 pour l'Espagne, le Royaume-Uni, les États-Unis et l'Amérique latine ;
 « Les chiffres 2024 des certifications » de FEI (lettre du 31 mars 2025) ; annuaire « Trouver un
 centre agréé » du Français des affaires ; page « Informations pratiques pour les candidats au
 DELF-DALF » de FEI (sanctions en cas de fraude) ; site frauduleux constaté le 17 septembre 2026

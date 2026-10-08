@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://delf-tcf-tef.fr/</loc><lastmod>2026-09-19</lastmod><priority>1.0</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/tcf-canada/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/</loc><lastmod>2026-10-08</lastmod><priority>1.0</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/tcf-canada/</loc><lastmod>2026-10-08</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/tcf-quebec/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/tcf-irn/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/tef-canada/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/delf-b2/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/delf-b1/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/dalf/</loc><lastmod>2026-09-19</lastmod><priority>0.7</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/delf-b2/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/delf-b1/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/dalf/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
   <url><loc>https://delf-tcf-tef.fr/tcf-canada/format/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/tcf-canada/score-nclc/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/tcf-canada/preparation/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
@@ -68,7 +68,7 @@
   <url><loc>https://delf-tcf-tef.fr/blog/exercices-tef-canada/</loc><lastmod>2026-08-07</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/exercices-delf-b2/</loc><lastmod>2026-08-07</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/exercices-structures-langue-tcf/</loc><lastmod>2026-08-07</lastmod><priority>0.9</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/ou-passer/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/ou-passer/</loc><lastmod>2026-10-08</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/ou-passer-le-delf-en-france/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/ou-passer-le-tcf-irn-en-france/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/ou-passer-le-tcf-canada-en-france/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
@@ -76,10 +76,10 @@
   <url><loc>https://delf-tcf-tef.fr/blog/tcf-canada-algerie/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/tcf-canada-maroc/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/tcf-canada-tunisie/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/blog/tcf-canada-dates-2026/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/tcf-canada-dates-2026/</loc><lastmod>2026-10-08</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/calendrier-delf-dalf-2026-2027/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/blog/ou-passer-l-examen-civique/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/centres/</loc><lastmod>2026-09-19</lastmod><priority>0.9</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/</loc><lastmod>2026-10-08</lastmod><priority>0.9</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-france/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/delf-france/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/examen-civique-france/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
@@ -88,10 +88,28 @@
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-maroc/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-tunisie/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-afrique/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/centres/tcf-europe/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/centres/tcf-ameriques/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-europe/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-ameriques/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-moyen-orient/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-inde/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-etats-unis/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-etats-unis/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-royaume-uni/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-royaume-uni/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-espagne/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-espagne/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-mexique/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-mexique/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-colombie/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-colombie/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-argentine/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-argentine/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-chili/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-chili/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-perou/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-perou/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/tcf-equateur/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/centres/delf-equateur/</loc><lastmod>2026-10-08</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-paris/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-lyon/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-marseille/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
@@ -131,5 +149,5 @@
   <url><loc>https://delf-tcf-tef.fr/centres/delf-toulouse/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/delf-montpellier/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/delf-strasbourg/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/questions/</loc><lastmod>2026-09-17</lastmod><priority>0.7</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/questions/</loc><lastmod>2026-10-08</lastmod><priority>0.7</priority></url>
 </urlset>

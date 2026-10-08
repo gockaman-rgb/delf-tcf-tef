@@ -604,7 +604,7 @@ article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
 .card.centre .addr { color: var(--text); }
 .card.centre .contact { word-break: break-word; overflow-wrap: anywhere; }
 .card.centre .contact { margin: .1em 0; }
-.card.centre .contact a { white-space: nowrap; }
+.card.centre .contact a[href^="tel:"] { white-space: nowrap; }   /* un e-mail long doit pouvoir passer à la ligne (08/10/2026) */
 .card.centre .badges { margin-top: .45em; }
 .page h3 .count, .page h2 .count { font-weight: 500; color: var(--muted); font-size: .8em; }
 .chips.index { margin: 10px 0 1.4em; }

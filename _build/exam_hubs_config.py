@@ -15,6 +15,7 @@ EXAMS = {}
 # ---------------------------------------------------------------------------
 EXAMS["tcf-canada"] = dict(
     villes=['tcf-montreal', 'tcf-toronto', 'tcf-quebec-ville', 'tcf-ottawa', 'tcf-vancouver', 'tcf-paris', 'tcf-lyon', 'tcf-montpellier', 'tcf-alger', 'tcf-oran', 'tcf-casablanca', 'tcf-rabat', 'tcf-tunis'],
+    pays=("TCF Canada hors de France et du Canada, pays par pays", ["tcf-etats-unis", "tcf-royaume-uni", "tcf-espagne", "tcf-mexique", "tcf-colombie", "tcf-argentine", "tcf-chili", "tcf-perou", "tcf-equateur"]),
     name="TCF Canada",
     landing_short="Ce qu'est le test, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le TCF Canada ?",
@@ -424,6 +425,7 @@ parisiens relevés.""",
 # ---------------------------------------------------------------------------
 EXAMS["delf-b1"] = dict(
     villes=['delf-paris', 'delf-lyon', 'delf-lille', 'delf-nantes', 'delf-bordeaux', 'delf-marseille', 'delf-toulouse', 'delf-montpellier', 'delf-strasbourg'],
+    pays=("Le DELF et le DALF hors de France, pays par pays", ["delf-espagne", "delf-royaume-uni", "delf-etats-unis", "delf-mexique", "delf-colombie", "delf-argentine", "delf-chili", "delf-perou", "delf-equateur"]),
     name="DELF B1",
     landing_short="Ce qu'est le diplôme de niveau seuil, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le DELF B1 ?",
@@ -536,6 +538,7 @@ sessions, six centres avec leurs contacts, et le chemin vers l'annuaire complet.
 # ---------------------------------------------------------------------------
 EXAMS["delf-b2"] = dict(
     villes=['delf-paris', 'delf-lyon', 'delf-lille', 'delf-nantes', 'delf-bordeaux', 'delf-marseille', 'delf-toulouse', 'delf-montpellier', 'delf-strasbourg'],
+    pays=("Le DELF et le DALF hors de France, pays par pays", ["delf-espagne", "delf-royaume-uni", "delf-etats-unis", "delf-mexique", "delf-colombie", "delf-argentine", "delf-chili", "delf-perou", "delf-equateur"]),
     name="DELF B2",
     landing_short="Ce qu'est le diplôme B2, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le DELF B2 ?",
@@ -650,6 +653,7 @@ sessions, six centres avec leurs contacts, et le chemin vers l'annuaire complet.
 # ---------------------------------------------------------------------------
 EXAMS["dalf"] = dict(
     villes=['delf-paris', 'delf-lyon', 'delf-lille', 'delf-nantes', 'delf-bordeaux', 'delf-marseille', 'delf-toulouse', 'delf-montpellier', 'delf-strasbourg'],
+    pays=("Le DELF et le DALF hors de France, pays par pays", ["delf-espagne", "delf-royaume-uni", "delf-etats-unis", "delf-mexique", "delf-colombie", "delf-argentine", "delf-chili", "delf-perou", "delf-equateur"]),
     name="DALF C1 · C2",
     landing_short="Ce que sont les diplômes avancés, pour qui, et les modules du dossier.",
     what_h2="Qu'est-ce que le DALF ?",

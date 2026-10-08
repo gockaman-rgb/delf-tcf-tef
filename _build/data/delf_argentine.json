@@ -1,0 +1,491 @@
+{
+ "country": "Argentine",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 28,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "direction pédagogique",
+  "city": "Buenos Aires",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avenida Cordoba 946, 1054 Buenos Aires",
+  "address_lines": [
+   "Avenida Cordoba 946",
+   "1054 Buenos Aires"
+  ],
+  "phone": "00541158161609",
+  "emails": [],
+  "url": "http://www.alianzafrancesa.org.ar/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Bahia Blanca",
+   "city": "Bahía Blanca",
+   "cp": "",
+   "city_cp": "",
+   "address": "Fitz Roy 49, 8000 Bahía Blanca",
+   "address_lines": [
+    "Fitz Roy 49",
+    "8000 Bahía Blanca"
+   ],
+   "phone": "+5492914232795",
+   "emails": [
+    "secretariaalianzabhi@gmail.com"
+   ],
+   "url": "http://www.mialianzabahia.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bernal",
+   "city": "Bernal",
+   "cp": "",
+   "city_cp": "",
+   "address": "485, rue Pringles, 1876 Bernal",
+   "address_lines": [
+    "485, rue Pringles",
+    "1876 Bernal"
+   ],
+   "phone": "91133792886",
+   "emails": [
+    "alianzafrancesa.bernal@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Buenos-Aires",
+   "city": "Buenos Aires",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Cordoba 946, 01054 Buenos Aires",
+   "address_lines": [
+    "Avenida Cordoba 946",
+    "01054 Buenos Aires"
+   ],
+   "phone": "1132692788",
+   "emails": [],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Resistencia",
+   "city": "Buenos Aires",
+   "cp": "",
+   "city_cp": "",
+   "address": "avenida Córdoba 946, 01054 Buenos Aires",
+   "address_lines": [
+    "avenida Córdoba 946",
+    "01054 Buenos Aires"
+   ],
+   "phone": "362 4424480",
+   "emails": [
+    "afresistencia@yahoo.com.ar"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Concepción Del Uruguay",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alem 31, 3260 Concepción Del Uruguay",
+   "address_lines": [
+    "Alem 31",
+    "3260 Concepción Del Uruguay"
+   ],
+   "phone": "54 3442 427956",
+   "emails": [
+    "alianzafrancesa.cdelu@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cordoba",
+   "city": "Cordoba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ayacucho 46, X5000JUB Cordoba",
+   "address_lines": [
+    "Ayacucho 46",
+    "X5000JUB Cordoba"
+   ],
+   "phone": "03514221129",
+   "emails": [
+    "inscripcionesdelf@alianzafrancesacba.org.ar"
+   ],
+   "url": "http://www.alianzafrancesacba.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Luján",
+   "city": "Lujan",
+   "cp": "",
+   "city_cp": "",
+   "address": "1049 RUE FRANCIA, 6700 Lujan",
+   "address_lines": [
+    "1049 RUE FRANCIA",
+    "6700 Lujan"
+   ],
+   "phone": "2323673982",
+   "emails": [
+    "alianzafrancesalujan@gmail.com"
+   ],
+   "url": "http://www.facebook.com/alianzafrancesalujan/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mar del Plata",
+   "city": "Mar Del Plata",
+   "cp": "",
+   "city_cp": "",
+   "address": "Diagonal Pueyrredón 3145 - P1, 7600 Mar Del Plata",
+   "address_lines": [
+    "Diagonal Pueyrredón 3145 - P1",
+    "7600 Mar Del Plata"
+   ],
+   "phone": "2233046990",
+   "emails": [
+    "info@alianzafrancesamdp.org"
+   ],
+   "url": "http://www.alianzafrancesamdp.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mendoza",
+   "city": "Mendoza",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chile 1754, 5500 Mendoza",
+   "address_lines": [
+    "Chile 1754",
+    "5500 Mendoza"
+   ],
+   "phone": "+5492613356891",
+   "emails": [
+    "direction@afmendoza.org"
+   ],
+   "url": "http://www.afmendoza.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mercedes",
+   "city": "Mercedes",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 34 Nro. 666, 6600 Mercedes",
+   "address_lines": [
+    "Calle 34 Nro. 666",
+    "6600 Mercedes"
+   ],
+   "phone": "02324426064",
+   "emails": [],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Neuquén",
+   "city": "Neuquén",
+   "cp": "",
+   "city_cp": "",
+   "address": "1639 Islas Malvinas, 8300 Neuquén",
+   "address_lines": [
+    "1639 Islas Malvinas",
+    "8300 Neuquén"
+   ],
+   "phone": "02995170183",
+   "emails": [
+    "alianzafrancesaneuquen@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Olavarría",
+   "city": "Olavarria",
+   "cp": "",
+   "city_cp": "",
+   "address": "Dorrego 3161, 7400 Olavarria",
+   "address_lines": [
+    "Dorrego 3161",
+    "7400 Olavarria"
+   ],
+   "phone": "02284585050",
+   "emails": [
+    "alianzafrancesaolavarria@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesaolavarria.blogspot.com.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française",
+   "city": "Pehuajó",
+   "cp": "",
+   "city_cp": "",
+   "address": "64 rue Artigas, 6450 Pehuajó",
+   "address_lines": [
+    "64 rue Artigas",
+    "6450 Pehuajó"
+   ],
+   "phone": "542396470885",
+   "emails": [
+    "alianzafrancesapehuajo@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Posadas",
+   "city": "Posadas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rivadavia 1470, 3300 Posadas",
+   "address_lines": [
+    "Rivadavia 1470",
+    "3300 Posadas"
+   ],
+   "phone": "03764384655",
+   "emails": [],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Rafaela",
+   "cp": "",
+   "city_cp": "",
+   "address": "Brown y Puerredón, 2300 Rafaela",
+   "address_lines": [
+    "Brown y Puerredón",
+    "2300 Rafaela"
+   ],
+   "phone": "543492690178",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Rosario",
+   "cp": "",
+   "city_cp": "",
+   "address": "San Luis 846, 2000 Rosario",
+   "address_lines": [
+    "San Luis 846",
+    "2000 Rosario"
+   ],
+   "phone": "3414248461",
+   "emails": [
+    "direction@afrosario.org.ar"
+   ],
+   "url": "http://afrosario.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Salta",
+   "city": "Salta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Santa Fe 20, 4400 Salta",
+   "address_lines": [
+    "Santa Fe 20",
+    "4400 Salta"
+   ],
+   "phone": "3874312403",
+   "emails": [
+    "alianzafsalta@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "San Carlos De Bariloche",
+   "cp": "",
+   "city_cp": "",
+   "address": "Juramento190, 8400 San Carlos De Bariloche",
+   "address_lines": [
+    "Juramento190",
+    "8400 San Carlos De Bariloche"
+   ],
+   "phone": "2944303461",
+   "emails": [
+    "alianzafrancesabariloche@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de San Juan",
+   "city": "San Juan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mitre 202 Oeste, 5400 San Juan",
+   "address_lines": [
+    "Mitre 202 Oeste",
+    "5400 San Juan"
+   ],
+   "phone": "542644224899",
+   "emails": [
+    "direccion@afsanjuan.org.ar"
+   ],
+   "url": "http://www.afsanjuan.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "San Luis",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chacabuco 634, 5700 San Luis",
+   "address_lines": [
+    "Chacabuco 634",
+    "5700 San Luis"
+   ],
+   "phone": "2664367500",
+   "emails": [
+    "alianzafrancesasl@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "San Rafael",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chile 481, 5600 San Rafael",
+   "address_lines": [
+    "Chile 481",
+    "5600 San Rafael"
+   ],
+   "phone": "2604002823",
+   "emails": [
+    "direccionafsanrafael@gmail.com"
+   ],
+   "url": "https://www.facebook.com/AlianzafrancesaSR",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Jujuy",
+   "city": "San Salvador De Jujuy",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Libertad Nº15 - Barrio Ciudad de Nieva, 4600 San Salvador De Jujuy",
+   "address_lines": [
+    "Avenida Libertad Nº15 - Barrio Ciudad de Nieva",
+    "4600 San Salvador De Jujuy"
+   ],
+   "phone": "+543884247432",
+   "emails": [
+    "afjujuy@yahoo.com.ar"
+   ],
+   "url": "http://afjujuy.jimdo.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Santa Fe",
+   "city": "Santa Fe",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bv. Gálvez 2147, 3000 Santa Fe",
+   "address_lines": [
+    "Bv. Gálvez 2147",
+    "3000 Santa Fe"
+   ],
+   "phone": "0342 4558575",
+   "emails": [
+    "alianzafrancesadesantafe@gmail.com"
+   ],
+   "url": "http://www.afsantafe.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française",
+   "city": "Santa Rosa",
+   "cp": "",
+   "city_cp": "",
+   "address": "67 rue Hilario Lagos, 6300 Santa Rosa",
+   "address_lines": [
+    "67 rue Hilario Lagos",
+    "6300 Santa Rosa"
+   ],
+   "phone": "2954-15364483",
+   "emails": [
+    "afsantarosa@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Tandil",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sarmiento 817, 7000 Tandil",
+   "address_lines": [
+    "Sarmiento 817",
+    "7000 Tandil"
+   ],
+   "phone": "0249154532102",
+   "emails": [],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tucumán",
+   "city": "Tucumán",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mendoza 257, 4000 Tucumán",
+   "address_lines": [
+    "Mendoza 257",
+    "4000 Tucumán"
+   ],
+   "phone": "381-4219651",
+   "emails": [
+    "secretaria@aftuc.com.ar"
+   ],
+   "url": "http://www.alianzafrancesa.org.ar/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de la Terre de Feu",
+   "city": "Ushuaia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Onas 531, Tira 4, casa 25, 9410 Ushuaia",
+   "address_lines": [
+    "Onas 531, Tira 4, casa 25",
+    "9410 Ushuaia"
+   ],
+   "phone": "2901424974",
+   "emails": [
+    "alianzafrancesatdf@gmail.com"
+   ],
+   "url": "https://www.alianzafrancesatdf.com/",
+   "so": false
+  },
+  {
+   "name": "Alianza Francesa Venado Tuerto",
+   "city": "Venado Tuerto",
+   "cp": "",
+   "city_cp": "",
+   "address": "415, RUE BELGRANO, 2600 Venado Tuerto",
+   "address_lines": [
+    "415, RUE BELGRANO",
+    "2600 Venado Tuerto"
+   ],
+   "phone": "1154662101",
+   "emails": [
+    "alianzafrancesavenado@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

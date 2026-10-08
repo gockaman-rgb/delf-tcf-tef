@@ -1,0 +1,1184 @@
+{
+ "country": "Mexique",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 71,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Coordination nationale DELF-DALF",
+  "city": "Mexico",
+  "cp": "",
+  "city_cp": "",
+  "address": "Campos Eliseos 339, Polanco III Sec, Delegacion Miguel Hidalgo, 11540 Mexico",
+  "address_lines": [
+   "Campos Eliseos 339, Polanco III Sec, Delegacion Miguel Hidalgo",
+   "11540 Mexico"
+  ],
+  "phone": "5543747450",
+  "emails": [],
+  "url": "http://www.ambafrance-mx.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française d'Aguascalientes",
+   "city": "Aguascalientes",
+   "cp": "",
+   "city_cp": "",
+   "address": "República Dominicana #409, Fraccionamiento Las Américas, 20230 Aguascalientes",
+   "address_lines": [
+    "República Dominicana #409, Fraccionamiento Las Américas",
+    "20230 Aguascalientes"
+   ],
+   "phone": "4492683143",
+   "emails": [
+    "alianzaags@yahoo.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/aguascalientes/",
+   "so": false
+  },
+  {
+   "name": "Kipling Campus Esmeralda",
+   "city": "Atizapan De Zaragoza",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Parque de los Ciervos #1, Colonia Hacienda de Valle Escondido, 52937 Atizapan De Zaragoza",
+   "address_lines": [
+    "Av. Parque de los Ciervos #1, Colonia Hacienda de Valle Escondido",
+    "52937 Atizapan De Zaragoza"
+   ],
+   "phone": "5553087200",
+   "emails": [],
+   "url": "http://www.kiplingesmeralda.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Colegio Alexandre",
+   "city": "Cancún",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Alamos 19, Alfredo V. Bonfil, Cancún, 77560 Cancún",
+   "address_lines": [
+    "Av. Alamos 19, Alfredo V. Bonfil, Cancún",
+    "77560 Cancún"
+   ],
+   "phone": "998 8819050",
+   "emails": [
+    "certificaciondelf@alexandre.edu.mx"
+   ],
+   "url": "http://www.alexandre.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Instituto Cancún La Salle",
+   "city": "Cancun",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Yaxchilan Lote 1 SM.18 Mz. 18, 77500 Cancun",
+   "address_lines": [
+    "Avenida Yaxchilan Lote 1 SM.18 Mz. 18",
+    "77500 Cancun"
+   ],
+   "phone": "9981845296",
+   "emails": [
+    "idiomas@iclasalle.edu.mx"
+   ],
+   "url": "http://www.iclasalle.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Universidad del Caribe",
+   "city": "Cancún",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lote 1 , Manzana 1, Región. 78, Esquina Fraccionamiento Tabachines, 77528 Cancún",
+   "address_lines": [
+    "Lote 1 , Manzana 1, Región. 78, Esquina Fraccionamiento Tabachines",
+    "77528 Cancún"
+   ],
+   "phone": "9988844100",
+   "emails": [
+    "frances@ucaribe.edu.mx"
+   ],
+   "url": "http://www.unicaribe.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Mexico - Centre San Ángel",
+   "city": "CDMX",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plaza San Luis Potosí 26, Colonia Chimalistac San Ángel, 01070 CDMX",
+   "address_lines": [
+    "Plaza San Luis Potosí 26, Colonia Chimalistac San Ángel",
+    "01070 CDMX"
+   ],
+   "phone": "5510844190",
+   "emails": [
+    "afmangeldir@alianzafrancesamx.edu.mx"
+   ],
+   "url": "http://www.alianzafrancesamx.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Universidad de Quintana Roo (UQROO)",
+   "city": "Chetumal",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Bahía s/n esq. Ignacio Comonfort, Colonia Del Bosque, 77019 Chetumal",
+   "address_lines": [
+    "Boulevard Bahía s/n esq. Ignacio Comonfort, Colonia Del Bosque",
+    "77019 Chetumal"
+   ],
+   "phone": "983 83 503 00",
+   "emails": [],
+   "url": "http://www.uqroo.mx/cei/certificaciones-internacionales/",
+   "so": false
+  },
+  {
+   "name": "ITESM Campus Chihuahua",
+   "city": "Chihuahua",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Heroico Colegio Militar #4700, Colonia Nombres de Dios, 31300 Chihuahua",
+   "address_lines": [
+    "Av. Heroico Colegio Militar #4700, Colonia Nombres de Dios",
+    "31300 Chihuahua"
+   ],
+   "phone": "33 1845 0848",
+   "emails": [],
+   "url": "http://www.facebook.com/idiomasitesmchi/",
+   "so": false
+  },
+  {
+   "name": "Université technologique de Chihuahua",
+   "city": "Chihuahua",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Montes Americanos # 9501. Colonia Sector 35, 31216 Chihuahua",
+   "address_lines": [
+    "Av. Montes Americanos # 9501. Colonia Sector 35",
+    "31216 Chihuahua"
+   ],
+   "phone": "6144322000",
+   "emails": [],
+   "url": "http://www.utch.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Mexico - Centre Del Valle",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Patricio Sanz 1056, Colonia Del Valle, 03100 Ciudad De México",
+   "address_lines": [
+    "Patricio Sanz 1056, Colonia Del Valle",
+    "03100 Ciudad De México"
+   ],
+   "phone": "5510844190",
+   "emails": [
+    "afmvalledir@alianzafrancesamx.edu.mx"
+   ],
+   "url": "http://www.alianzafrancesamx.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mexico - Centre Polanco",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Socrates 156, Colonia Los Morales, 11510 Ciudad De México",
+   "address_lines": [
+    "Calle Socrates 156, Colonia Los Morales",
+    "11510 Ciudad De México"
+   ],
+   "phone": "5510844190",
+   "emails": [
+    "pedagogia_polanco@alianzafrancesamx.edu.mx"
+   ],
+   "url": "http://www.alianzafrancesamx.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "CENLEX UNIDAD ZACATENCO - IPN",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Wilfrido Massieu S/N, Unidad Profesional Adolfo López Mateos, 07738 Ciudad De México",
+   "address_lines": [
+    "Av. Wilfrido Massieu S/N, Unidad Profesional Adolfo López Mateos",
+    "07738 Ciudad De México"
+   ],
+   "phone": "5517296587",
+   "emails": [],
+   "url": "http://www.ipn.mx/cenlexz/",
+   "so": false
+  },
+  {
+   "name": "Colegio Francés del Pedregal",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Colegio #330, Colonia Jardines del Pedregal, 01900 Ciudad De México",
+   "address_lines": [
+    "Calle Colegio #330, Colonia Jardines del Pedregal",
+    "01900 Ciudad De México"
+   ],
+   "phone": "5555682834",
+   "emails": [],
+   "url": "http://www.francespedregal.mx/",
+   "so": false
+  },
+  {
+   "name": "ENALLT - UNAM",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Circuito Escolar s/n Ciudad Universitaria, 04510 Ciudad De México",
+   "address_lines": [
+    "Circuito Escolar s/n Ciudad Universitaria",
+    "04510 Ciudad De México"
+   ],
+   "phone": "5620831425",
+   "emails": [
+    "frances@enallt.unam.mx"
+   ],
+   "url": "http://enallt.unam.mx/",
+   "so": false
+  },
+  {
+   "name": "Escuela Nacional Colegio de Ciencias y Humanidades",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Universidad #3000, Universidad Nacional Autónoma de México C.U., 04510 Ciudad De México",
+   "address_lines": [
+    "Av. Universidad #3000, Universidad Nacional Autónoma de México C.U.",
+    "04510 Ciudad De México"
+   ],
+   "phone": "55 56222372",
+   "emails": [
+    "departamentodefrances@cch.unam.mx"
+   ],
+   "url": "http://www.cch.unam.mx/",
+   "so": false
+  },
+  {
+   "name": "Escuela Nacional Preparatoria UNAM",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Adolfo Prieto, 722, Colonia Del Valle, 03100 Ciudad De México",
+   "address_lines": [
+    "Adolfo Prieto, 722, Colonia Del Valle",
+    "03100 Ciudad De México"
+   ],
+   "phone": "55 5687 6828",
+   "emails": [],
+   "url": "https://frances.enp.unam.mx/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Amérique Latine (IFAL)",
+   "city": "Ciudad De México",
+   "cp": "",
+   "city_cp": "",
+   "address": "Río Nazas 43, 06500 Ciudad De México",
+   "address_lines": [
+    "Río Nazas 43",
+    "06500 Ciudad De México"
+   ],
+   "phone": "5555660777",
+   "emails": [
+    "informes@ifal.mx"
+   ],
+   "url": "http://www.ifal.mx/",
+   "so": false
+  },
+  {
+   "name": "Université La Salle Victoria",
+   "city": "Ciudad Victoria",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. 5 de Mayo #3506, Fracción Ampliación Villarreal, 87027 Ciudad Victoria",
+   "address_lines": [
+    "Av. 5 de Mayo #3506, Fracción Ampliación Villarreal",
+    "87027 Ciudad Victoria"
+   ],
+   "phone": "8343146956",
+   "emails": [
+    "laic.lasalle@ulsavictoria.edu.mx"
+   ],
+   "url": "http://www.lasallevictoria.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Cuernavaca",
+   "city": "Cuernavaca",
+   "cp": "",
+   "city_cp": "",
+   "address": "San Jerónimo 607, Cuernavaca, Mor., 62170 Cuernavaca",
+   "address_lines": [
+    "San Jerónimo 607, Cuernavaca, Mor.",
+    "62170 Cuernavaca"
+   ],
+   "phone": "777 314 0921",
+   "emails": [],
+   "url": "http://www.cuernavaca.af.org.mx/",
+   "so": false
+  },
+  {
+   "name": "ITESM de Cuernavaca",
+   "city": "Cuernavaca",
+   "cp": "",
+   "city_cp": "",
+   "address": "Autopista del Sol Km 104 + 060, Colonia Real del Puente Xochitepec, 62790 Cuernavaca",
+   "address_lines": [
+    "Autopista del Sol Km 104 + 060, Colonia Real del Puente Xochitepec",
+    "62790 Cuernavaca"
+   ],
+   "phone": "777 1794430",
+   "emails": [],
+   "url": "http://tec.mx/es/cuernavaca",
+   "so": false
+  },
+  {
+   "name": "Universidad Autonoma de Sinaloa",
+   "city": "Culiacán",
+   "cp": "",
+   "city_cp": "",
+   "address": "Buelna y G. Robles S/N, Colonia Centro, 80000 Culiacán",
+   "address_lines": [
+    "Buelna y G. Robles S/N, Colonia Centro",
+    "80000 Culiacán"
+   ],
+   "phone": "667 7123745",
+   "emails": [
+    "certificaciones.ceicln@uas.edu.mx"
+   ],
+   "url": "http://idiomas.uasnet.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Durango",
+   "city": "Durango",
+   "cp": "",
+   "city_cp": "",
+   "address": "Edificio de Telecomunicaciones UJED Carretera a Mazatlán K.M 5.5, Fracc. Lomas del Guadiana, 34110 Durango",
+   "address_lines": [
+    "Edificio de Telecomunicaciones UJED Carretera a Mazatlán K.M 5.5, Fracc. Lomas del Guadiana",
+    "34110 Durango"
+   ],
+   "phone": "618 827 1200",
+   "emails": [
+    "dirdurango@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/durango/",
+   "so": false
+  },
+  {
+   "name": "Alliance française / Instituto Franco-Mexicano",
+   "city": "Guadalajara",
+   "cp": "",
+   "city_cp": "",
+   "address": "López Cotilla Nº1199, Colonia Americana, 44160 Guadalajara",
+   "address_lines": [
+    "López Cotilla Nº1199, Colonia Americana",
+    "44160 Guadalajara"
+   ],
+   "phone": "3338252140",
+   "emails": [
+    "resp.delfdalf@alianzafrancesagdl.mx"
+   ],
+   "url": "http://www.alianzafrancesagdl.mx/",
+   "so": false
+  },
+  {
+   "name": "Sistema Corportativo PROULEX - COMLEX",
+   "city": "Guadalajara",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Fray Antonio Alcalde 1918, 44270 Guadalajara",
+   "address_lines": [
+    "Avenida Fray Antonio Alcalde 1918",
+    "44270 Guadalajara"
+   ],
+   "phone": "33 3854 7117",
+   "emails": [
+    "cei.proulex@proulex.udg.mx"
+   ],
+   "url": "http://proulex.com",
+   "so": false
+  },
+  {
+   "name": "Alliance Franco-mexicaine de Guanajuato A.C.",
+   "city": "Guanajuato",
+   "cp": "",
+   "city_cp": "",
+   "address": "Terremoto 1, colonia Centro, 36000 Guanajuato",
+   "address_lines": [
+    "Terremoto 1, colonia Centro",
+    "36000 Guanajuato"
+   ],
+   "phone": "4737321326",
+   "emails": [
+    "afguanajuato@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/guanajuato/",
+   "so": false
+  },
+  {
+   "name": "Universidad de Sonora",
+   "city": "Hermosillo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Blvd Luis EncinasY Rosales. Colonia Centro, 83000 Hermosillo",
+   "address_lines": [
+    "Blvd Luis EncinasY Rosales. Colonia Centro",
+    "83000 Hermosillo"
+   ],
+   "phone": "6621467779",
+   "emails": [],
+   "url": "http://www.frances.unison.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Mexico - Centre Interlomas",
+   "city": "Huixquilucan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Interlomas 5 J1, J2, J3 Centre Urbano San Fernando La Herradura, Bosque de las Palmas, 52786 Huixquilucan",
+   "address_lines": [
+    "Boulevard Interlomas 5 J1, J2, J3 Centre Urbano San Fernando La Herradura, Bosque de las Palmas",
+    "52786 Huixquilucan"
+   ],
+   "phone": "551084 4190",
+   "emails": [
+    "afminterlomas@alianzafrancesamx.edu.mx"
+   ],
+   "url": "http://www.alianzafrancesamx.edu.mx/certificaciones/delf-dalf",
+   "so": false
+  },
+  {
+   "name": "Alianza francesa de Irapuato",
+   "city": "Irapuato",
+   "cp": "",
+   "city_cp": "",
+   "address": "220 calle Roble, Col. Jardines de Irapuato, 36660 Irapuato",
+   "address_lines": [
+    "220 calle Roble, Col. Jardines de Irapuato",
+    "36660 Irapuato"
+   ],
+   "phone": "4626271649",
+   "emails": [
+    "dir.irapuato@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/irapuato/",
+   "so": false
+  },
+  {
+   "name": "Universidad Tecnológica del Valle del Mezquital",
+   "city": "Ixmiquilpan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carretera Ixmiquilpan-Capula Km 4, El Nith, 42325 Ixmiquilpan",
+   "address_lines": [
+    "Carretera Ixmiquilpan-Capula Km 4, El Nith",
+    "42325 Ixmiquilpan"
+   ],
+   "phone": "7597239100",
+   "emails": [],
+   "url": "http://www.utvm.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Universidad Autónoma de Baja California Sur UABCS",
+   "city": "La Paz",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Forjadores S/N entre Calle Av. Universidad y Calle Félix Agramont Cota Col. Universitario., 23080 La Paz",
+   "address_lines": [
+    "Boulevard Forjadores S/N entre Calle Av. Universidad y Calle Félix Agramont Cota Col. Universitario.",
+    "23080 La Paz"
+   ],
+   "phone": "6121238800",
+   "emails": [],
+   "url": "http://www.uabcs.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de León",
+   "city": "León",
+   "cp": "",
+   "city_cp": "",
+   "address": "Topografos 132, colonia Panorama, 37160 León",
+   "address_lines": [
+    "Topografos 132, colonia Panorama",
+    "37160 León"
+   ],
+   "phone": "477 717 10 89",
+   "emails": [
+    "diralianzaleon@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/leon/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mérida",
+   "city": "Mérida",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 23 #117 con 24., 97125 Mérida",
+   "address_lines": [
+    "Calle 23 #117 con 24.",
+    "97125 Mérida"
+   ],
+   "phone": "9999272403",
+   "emails": [
+    "pedagogia@afmerida.org.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/merida/",
+   "so": false
+  },
+  {
+   "name": "Universidad Tecnológica Metropolitana",
+   "city": "Mérida",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 111 #315, Colonia Santa Rosa, 97279 Mérida",
+   "address_lines": [
+    "Calle 111 #315, Colonia Santa Rosa",
+    "97279 Mérida"
+   ],
+   "phone": "9999406100",
+   "emails": [],
+   "url": "http://www.utmetropolitana.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Mexicali",
+   "city": "Mexicali",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plaza Fimbres, Blvd. Benito Juarez 1298, local 2A, Jadines del Valle, 21270 Mexicali",
+   "address_lines": [
+    "Plaza Fimbres, Blvd. Benito Juarez 1298, local 2A, Jadines del Valle",
+    "21270 Mexicali"
+   ],
+   "phone": "686 385 0052",
+   "emails": [
+    "dir.mexicali@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/mexicali",
+   "so": false
+  },
+  {
+   "name": "Université Autonome de l'état de Hidalgo",
+   "city": "Mineral De La Reforma",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ciudad del Conocimiento, Carretera Pachuca - Tulancingo km. 4.5, Colonia Carboneras, 42184 Mineral De La Reforma",
+   "address_lines": [
+    "Ciudad del Conocimiento, Carretera Pachuca - Tulancingo km. 4.5, Colonia Carboneras",
+    "42184 Mineral De La Reforma"
+   ],
+   "phone": "7717172000",
+   "emails": [
+    "ceL_frances@uaeh.edu.mx"
+   ],
+   "url": "https://www.uaeh.edu.mx/cel/certificacion-delf.html",
+   "so": false
+  },
+  {
+   "name": "Preparatorias UANL",
+   "city": "Monterrey",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centro de Educacion Digital, 2° Piso Av. Manuel L. Barragán #4904, Col. Hogares Ferrocarrileros, 64260 Monterrey",
+   "address_lines": [
+    "Centro de Educacion Digital, 2° Piso Av. Manuel L. Barragán #4904, Col. Hogares Ferrocarrileros",
+    "64260 Monterrey"
+   ],
+   "phone": "8110239931",
+   "emails": [],
+   "url": "https://mediasuperior.uanl.mx/",
+   "so": false
+  },
+  {
+   "name": "Université Autonome de Nuevo Leon",
+   "city": "Monterrey",
+   "cp": "",
+   "city_cp": "",
+   "address": "CCL, Ave. Lázaro Cárdenas Ote. y Paseo de la Reforma s/n, Campus Mederos UANL, 64930 Monterrey",
+   "address_lines": [
+    "CCL, Ave. Lázaro Cárdenas Ote. y Paseo de la Reforma s/n, Campus Mederos UANL",
+    "64930 Monterrey"
+   ],
+   "phone": "81 1340 4700",
+   "emails": [],
+   "url": "http://ccl.uanl.mx/",
+   "so": false
+  },
+  {
+   "name": "Universidad Marista Valladolid",
+   "city": "Morelia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle J.J. Tablada #1111, Colonia Santa María de Guido, 58090 Morelia",
+   "address_lines": [
+    "Calle J.J. Tablada #1111, Colonia Santa María de Guido",
+    "58090 Morelia"
+   ],
+   "phone": "4431883725",
+   "emails": [
+    "centroidiomas.valla@gmail.com"
+   ],
+   "url": "http://valladolid.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Universidad Michoacana de San Nicolas de Hidalgo",
+   "city": "Morelia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Francisco J. Múgica S/N Ciudad Universitaria, Edificio A1, Planta Alta, 58060 Morelia",
+   "address_lines": [
+    "Avenida Francisco J. Múgica S/N Ciudad Universitaria, Edificio A1, Planta Alta",
+    "58060 Morelia"
+   ],
+   "phone": "443 3223500",
+   "emails": [
+    "coord.dpto.idiomas.sria.acad@umich.mx"
+   ],
+   "url": "http://www.idiomas.umich.mx/",
+   "so": false
+  },
+  {
+   "name": "FES - Acatlán, UNAM",
+   "city": "Naucalpan De Juárez",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Alcanfores y San Juan Totoltepec s/nSanta Cruz Acatlán, 53150 Naucalpan De Juárez",
+   "address_lines": [
+    "Avenida Alcanfores y San Juan Totoltepec s/nSanta Cruz Acatlán",
+    "53150 Naucalpan De Juárez"
+   ],
+   "phone": "55 5623 1514",
+   "emails": [
+    "frances@acatlan.unam.mx"
+   ],
+   "url": "http://www.acatlan.unam.mx/",
+   "so": false
+  },
+  {
+   "name": "Université Technologique de Nuevo Laredo",
+   "city": "Nuevo Laredo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Blvr. Universidad 3302, Fraccionamiento Oradel, 88285 Nuevo Laredo",
+   "address_lines": [
+    "Blvr. Universidad 3302, Fraccionamiento Oradel",
+    "88285 Nuevo Laredo"
+   ],
+   "phone": "867 890 0000",
+   "emails": [],
+   "url": "http://www.utnuevolaredo.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alianza Franco-Mexicana de Oaxaca A.C.",
+   "city": "Oaxaca De Juárez",
+   "cp": "",
+   "city_cp": "",
+   "address": "Privada de Azaleas 100, 68050 Oaxaca De Juárez",
+   "address_lines": [
+    "Privada de Azaleas 100",
+    "68050 Oaxaca De Juárez"
+   ],
+   "phone": "951 4748935",
+   "emails": [
+    "direccionoaxaca@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/oaxaca/",
+   "so": false
+  },
+  {
+   "name": "UT de la Costa Grande de Guerrero (UTCGG)",
+   "city": "Petatlán",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carretera Nacional Acapulco de Juárez - Zihuatanejo Kilómetro 201, Ejido el Cocotero, 40830 Petatlán",
+   "address_lines": [
+    "Carretera Nacional Acapulco de Juárez - Zihuatanejo Kilómetro 201, Ejido el Cocotero",
+    "40830 Petatlán"
+   ],
+   "phone": "7585382341",
+   "emails": [],
+   "url": "http://utcgg.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Puebla",
+   "city": "Puebla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 2 Sur 4920, Colonia San Baltazar Campeche, 72550 Puebla",
+   "address_lines": [
+    "Calle 2 Sur 4920, Colonia San Baltazar Campeche",
+    "72550 Puebla"
+   ],
+   "phone": "222 240 4137",
+   "emails": [
+    "dirpedagogia@afpuebla.mx"
+   ],
+   "url": "https://afpuebla.mx/",
+   "so": false
+  },
+  {
+   "name": "Benemerita Universidad Autonoma de Puebla",
+   "city": "Puebla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Facultad de Lenguas, Calle 24 Norte 2003, Colonia Humboldt, 72370 Puebla",
+   "address_lines": [
+    "Facultad de Lenguas, Calle 24 Norte 2003, Colonia Humboldt",
+    "72370 Puebla"
+   ],
+   "phone": "222 229 55 00",
+   "emails": [],
+   "url": "http://www.facultaddelenguas.com/cfrancesa-certificacion",
+   "so": false
+  },
+  {
+   "name": "Université Technologique de Puebla",
+   "city": "Puebla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Antiguo Camino a la Resurreccion N°1002-A, Zona Industrial Oriente, 72300 Puebla",
+   "address_lines": [
+    "Antiguo Camino a la Resurreccion N°1002-A, Zona Industrial Oriente",
+    "72300 Puebla"
+   ],
+   "phone": "222 309 88 72",
+   "emails": [],
+   "url": "http://www.utpuebla.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "British American School de Vallarta S.C.",
+   "city": "Puerto Vallarta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida de los tules # 552, colonia Jardines de las Gaviotas, 48328 Puerto Vallarta",
+   "address_lines": [
+    "Avenida de los tules # 552, colonia Jardines de las Gaviotas",
+    "48328 Puerto Vallarta"
+   ],
+   "phone": "3221547065",
+   "emails": [],
+   "url": "http://www.pv.british.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alianza Franco Mexicana de Querétaro",
+   "city": "Querétaro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Manuel Tolsa #22, Colonia Centro, 76000 Querétaro",
+   "address_lines": [
+    "Manuel Tolsa #22, Colonia Centro",
+    "76000 Querétaro"
+   ],
+   "phone": "4422127887",
+   "emails": [
+    "pedagogiafq@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/queretaro/certificaciones",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Saltillo",
+   "city": "Saltillo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Miguel Hidalgo #140, Zona Centro, 25000 Saltillo",
+   "address_lines": [
+    "Calle Miguel Hidalgo #140, Zona Centro",
+    "25000 Saltillo"
+   ],
+   "phone": "8444100596",
+   "emails": [
+    "delf.afsaltillo@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/saltillo/",
+   "so": false
+  },
+  {
+   "name": "Alliance française San Cristóbal de las Casas",
+   "city": "San Cristóbal De Las Casas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. la Almolonga, Casa número 80, Sta Lucia, 29250 San Cristóbal de las Casas., 29250 San Cristóbal De Las Casas",
+   "address_lines": [
+    "Av. la Almolonga, Casa número 80, Sta Lucia, 29250 San Cristóbal de las Casas.",
+    "29250 San Cristóbal De Las Casas"
+   ],
+   "phone": "9671721870",
+   "emails": [
+    "direccionsancristobal@alianzafr.edu.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/san-cristobal/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Coacalco",
+   "city": "San Francisco Coacalco",
+   "cp": "",
+   "city_cp": "",
+   "address": "San Pedro 12, Coacalco, 55700 San Francisco Coacalco",
+   "address_lines": [
+    "San Pedro 12, Coacalco",
+    "55700 San Francisco Coacalco"
+   ],
+   "phone": "5558650856",
+   "emails": [
+    "alianzafrancesacoacalco@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/coacalco/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de San Luis Potosi",
+   "city": "San Luis Potosí",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av Scop #535,Colonia Jardín, 78270 San Luis Potosí",
+   "address_lines": [
+    "Av Scop #535,Colonia Jardín",
+    "78270 San Luis Potosí"
+   ],
+   "phone": "444 811 3445",
+   "emails": [
+    "recepcionslp@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/san-luis-potosi/",
+   "so": false
+  },
+  {
+   "name": "UNAM Extensión San Miguel de Allende, ENES León",
+   "city": "San Miguel De Allende",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carretera a Querétaro #140, colonia Casco de Landeta, 37748 San Miguel De Allende",
+   "address_lines": [
+    "Carretera a Querétaro #140, colonia Casco de Landeta",
+    "37748 San Miguel De Allende"
+   ],
+   "phone": "415 120 34 61",
+   "emails": [
+    "sanmigueldeallende@enes.unam.mx"
+   ],
+   "url": "https://enes.unam.mx/idiomas-uesma.html﻿",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Monterrey",
+   "city": "San Pedro Garza García",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Morones Prieto 502, 66220 San Pedro Garza García",
+   "address_lines": [
+    "Avenida Morones Prieto 502",
+    "66220 San Pedro Garza García"
+   ],
+   "phone": "8183350810",
+   "emails": [
+    "informes@af.edu.mx"
+   ],
+   "url": "http://af.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alianza Francesa del Puerto de Tampico",
+   "city": "Tampico",
+   "cp": "",
+   "city_cp": "",
+   "address": "Geronimo Gonzalez 302 int. Colonia Ex country club, 89250 Tampico",
+   "address_lines": [
+    "Geronimo Gonzalez 302 int. Colonia Ex country club",
+    "89250 Tampico"
+   ],
+   "phone": "833 442 8490",
+   "emails": [
+    "dir.tampico@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/tampico/",
+   "so": false
+  },
+  {
+   "name": "Universidad Tecnológica de Tecámac",
+   "city": "Tecamác",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carretera Federal México Pachuca km. 37. 5. Colonia Sierra Hermosa, 55740 Tecamác",
+   "address_lines": [
+    "Carretera Federal México Pachuca km. 37. 5. Colonia Sierra Hermosa",
+    "55740 Tecamác"
+   ],
+   "phone": "55 59 38 84 00",
+   "emails": [
+    "delftecamac@gmail.com"
+   ],
+   "url": "http://www.uttecamac.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Texcoco",
+   "city": "Texcoco",
+   "cp": "",
+   "city_cp": "",
+   "address": "Moctezuma #110, Colonia El Carmen, 56100 Texcoco",
+   "address_lines": [
+    "Moctezuma #110, Colonia El Carmen",
+    "56100 Texcoco"
+   ],
+   "phone": "5959552945",
+   "emails": [
+    "alianzafrancesatexcoco@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/texcoco/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Tijuana",
+   "city": "Tijuana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Azucenas #3934-C, Fraccionamiento Del Prado, 22105 Tijuana",
+   "address_lines": [
+    "Calle Azucenas #3934-C, Fraccionamiento Del Prado",
+    "22105 Tijuana"
+   ],
+   "phone": "664 622 1522",
+   "emails": [
+    "dir.tijuana@alianzafr.mx"
+   ],
+   "url": "http://www.alianzafrancesa.org.mx/tijuana/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Tlaxcala A.C.",
+   "city": "Tlaxcala",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Revolución No. 20, Colonia San Buenaventura Atempan, 90010 Tlaxcala",
+   "address_lines": [
+    "Boulevard Revolución No. 20, Colonia San Buenaventura Atempan",
+    "90010 Tlaxcala"
+   ],
+   "phone": "246 1163941",
+   "emails": [
+    "direcciontlaxcala@alianzafr.mx"
+   ],
+   "url": "http://aftlaxcala.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Toluca",
+   "city": "Toluca",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Aguiles Serdán 111, 50000 Toluca",
+   "address_lines": [
+    "Calle Aguiles Serdán 111",
+    "50000 Toluca"
+   ],
+   "phone": "722 396 2573",
+   "emails": [
+    "pedagogiatoluca@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/toluca/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Torreón",
+   "city": "Torreón",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Matamoros 170 ote, Colonia Centro, 27000 Torreón",
+   "address_lines": [
+    "Av. Matamoros 170 ote, Colonia Centro",
+    "27000 Torreón"
+   ],
+   "phone": "8717166621",
+   "emails": [
+    "pedagogia.torreon@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/torreon/",
+   "so": false
+  },
+  {
+   "name": "Facultad de Lenguas-Tuxtla Universidad Autónoma de Chiapas",
+   "city": "Tuxtla Gutierrez",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Belisario Dominguez KM 1081, 29050 Tuxtla Gutierrez",
+   "address_lines": [
+    "Boulevard Belisario Dominguez KM 1081",
+    "29050 Tuxtla Gutierrez"
+   ],
+   "phone": "9616159650",
+   "emails": [],
+   "url": "http://www.elt.unach.mx/",
+   "so": false
+  },
+  {
+   "name": "Universidad de Ciencias y Artes de Chiapas-UNICACH",
+   "city": "Tuxtla Gutiérrez",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cd Universitaria, Centro de Lenguas, Ed. 20, Libramiento Norte Poniente 1150 Colonia Lajas Maciel, 29039 Tuxtla Gutiérrez",
+   "address_lines": [
+    "Cd Universitaria, Centro de Lenguas, Ed. 20, Libramiento Norte Poniente 1150 Colonia Lajas Maciel",
+    "29039 Tuxtla Gutiérrez"
+   ],
+   "phone": "961 617 0440",
+   "emails": [],
+   "url": "http://lenguas.unicach.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Veracruz",
+   "city": "Veracruz",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ing. Ernesto Dominguez Aguirre 333, 91919 Veracruz",
+   "address_lines": [
+    "Ing. Ernesto Dominguez Aguirre 333",
+    "91919 Veracruz"
+   ],
+   "phone": "2299371739",
+   "emails": [
+    "direccionveracruz@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/veracruz/",
+   "so": false
+  },
+  {
+   "name": "Universidad de Colima",
+   "city": "Villa De Álvarez",
+   "cp": "",
+   "city_cp": "",
+   "address": "H. Josefa Ortiz de Domínguez 64, La Haciendita, 28950 Villa De Álvarez",
+   "address_lines": [
+    "H. Josefa Ortiz de Domínguez 64, La Haciendita",
+    "28950 Villa De Álvarez"
+   ],
+   "phone": "312 316 1179",
+   "emails": [],
+   "url": "http://portal.ucol.mx/fle/contacto.htm",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Villahermosa",
+   "city": "Villahermosa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Cesar Augusto Sandino No. 570 entre 16 de septiembre y Periférico Carlos Pellicer Cámara, 86190 Villahermosa",
+   "address_lines": [
+    "Avenida Cesar Augusto Sandino No. 570 entre 16 de septiembre y Periférico Carlos Pellicer Cámara",
+    "86190 Villahermosa"
+   ],
+   "phone": "9933 127990",
+   "emails": [
+    "centroexamenesafv@alianzafr.mx"
+   ],
+   "url": "http://alianzafrancesa.org.mx/villahermosa/",
+   "so": false
+  },
+  {
+   "name": "CENLEX Unidad Santo Tomás IPN",
+   "city": "Ville de Mexico",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. de los Maestros s/n. Esquina Calzada de los Gallos. Col. Plutarco Elías Calles., 11350 Ville de Mexico",
+   "address_lines": [
+    "Av. de los Maestros s/n. Esquina Calzada de los Gallos. Col. Plutarco Elías Calles.",
+    "11350 Ville de Mexico"
+   ],
+   "phone": "5557296300",
+   "emails": [],
+   "url": "http://www.ipn.mx/stomas.cenlex/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Xalapa",
+   "city": "Xalapa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Juan Alvarez #21, colonia centro, 91000 Xalapa",
+   "address_lines": [
+    "Juan Alvarez #21, colonia centro",
+    "91000 Xalapa"
+   ],
+   "phone": "2288174330",
+   "emails": [
+    "direccionxalapa@alianzafr.mx"
+   ],
+   "url": "http://www.alianzafrancesaxalapa.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "UNIVERSITÉ TECHNOLOGIQUE DE NAYARIT",
+   "city": "XALISCO",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carretera Federal 200 K.m 9, Tramo Xalisco - Compostela, 63780 XALISCO",
+   "address_lines": [
+    "Carretera Federal 200 K.m 9, Tramo Xalisco - Compostela",
+    "63780 XALISCO"
+   ],
+   "phone": "311 211 98 00",
+   "emails": [
+    "responsable.delftepic@gmail.com"
+   ],
+   "url": "http://www.utnay.edu.mx/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Zacatecas",
+   "city": "Zacatecas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Fernando Villalpando, Colonia Centro, 98000 Zacatecas",
+   "address_lines": [
+    "Calle Fernando Villalpando, Colonia Centro",
+    "98000 Zacatecas"
+   ],
+   "phone": "4929240348",
+   "emails": [
+    "pedagogia.zacatecas@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.mx/zacatecas/",
+   "so": false
+  },
+  {
+   "name": "Colegio Franco Mexicano AC - Lycée français de Guadalajara",
+   "city": "Zapopan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Francisco Villa 235 colonia El Bajio, 45019 Zapopan",
+   "address_lines": [
+    "Calle Francisco Villa 235 colonia El Bajio",
+    "45019 Zapopan"
+   ],
+   "phone": "+52 3336822221",
+   "emails": [
+    "secretariat@cfm.edu.mx"
+   ],
+   "url": "http://www.cfm.edu.mx",
+   "so": false
+  }
+ ]
+}

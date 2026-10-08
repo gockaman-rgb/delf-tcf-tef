@@ -3,14 +3,20 @@
  "type": "tcf",
  "key": "Centre de passation",
  "n": 1,
- "date": "2026-09-19",
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
  "centres": [
   {
    "name": "Institut français",
    "city": "Port-au-Prince",
-   "cp": "6113",
-   "city_cp": "Port-au-Prince",
-   "address": "99, avenue Lamartinière Bois-Verna BP131 HT",
+   "cp": "",
+   "city_cp": "",
+   "address": "99, avenue Lamartinière Bois-Verna BP131 HT, 6113 Port-au-Prince",
+   "address_lines": [
+    "99, avenue Lamartinière Bois-Verna BP131 HT",
+    "6113 Port-au-Prince"
+   ],
    "phone": "509-43621619",
    "emails": [
     "infocours@institutfrancaishaiti.org"

@@ -1,0 +1,43 @@
+{
+ "country": "Chili",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Concepcion",
+   "cp": "",
+   "city_cp": "",
+   "address": "Colo Colo #1 (Esquina Víctor Lamas) Concepción Centro, Concepcion",
+   "address_lines": [
+    "Colo Colo #1 (Esquina Víctor Lamas) Concepción Centro",
+    "Concepcion"
+   ],
+   "phone": "56-41-322-05-25",
+   "emails": [
+    "info.afconcepcion@gmail.com"
+   ],
+   "url": "https://www.afconcepcion.cl",
+   "so": false
+  },
+  {
+   "name": "Institut français du Chili",
+   "city": "Santiago",
+   "cp": "",
+   "city_cp": "",
+   "address": "Francisco Noguera 176 Providencia, 3580000 Santiago",
+   "address_lines": [
+    "Francisco Noguera 176 Providencia",
+    "3580000 Santiago"
+   ],
+   "phone": "56-23-22-10-835",
+   "emails": [],
+   "url": "http://www.institutofrances.cl",
+   "so": true
+  }
+ ]
+}

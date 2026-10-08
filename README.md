@@ -152,3 +152,23 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
   FEI en affiche 144, dont un doublon).
 - `python3 _build/check_site.py` : vérification de tout le site (balises, JSON-LD, liens, ancres,
   images, OG, ids, h1, longueurs title/description) — à lancer avant chaque commit.
+
+## Pages pays : DELF et TCF dans neuf pays (08/10/2026)
+
+- `_build/make_pays.py` + `_build/pays_config.py` : 18 pages `/centres/<tcf|delf>-<pays>/` (États-Unis,
+  Royaume-Uni, Espagne, Mexique, Colombie, Argentine, Chili, Pérou, Équateur). Chaque page réunit la liste FEI
+  (contacts), le relevé des sites des centres (qui propose le TCF Canada, prix, dates), l'inscription et une FAQ.
+  Le texte vit dans `pays_config.py` ; `python3 _build/make_pays.py --keys <fichier>` donne les clés des centres
+  pour les badges, notes et sites corrigés ; `python3 _build/make_pays.py --force` régénère.
+- Données : `_build/data/<tcf|delf>_<pays>.json`, extraction structurée v2 (`data/parse_fei_v2.py`, champs de
+  chaque fiche FEI lus au navigateur intégré). La v1 prenait un numéro de rue pour un code postal hors de France
+  et mettait le code d'État brésilien dans le nom du centre. Les listes DELF portent aussi l'« organisme de gestion
+  centrale » du pays. E-mails : jetons génériques + listes ALLOW/DENY relues à la main, jamais prénom.nom.
+- Sites corrigés quand celui de FEI est mort, périmé ou détourné (`urls`, `org_url`) : **afcartagena.org renvoie
+  vers une page d'arnaque — ne jamais le lier** ; Colombie : `<ville>.alianzafrancesa.edu.co` (l'ancien domaine
+  `.org.co` est mort).
+- Intégration : `tcf-europe` et `tcf-ameriques` renvoient vers les pages pays (`pointers` de make_centres.py) ; le
+  hub `/centres/` compte sur les données (fichiers dédoublonnés) ; tableau « neuf pays » de `/ou-passer/` ; puces
+  « pays par pays » des accueils d'examen (clé `pays` d'exam_hubs_config.py) ; sitemap, `/questions/`, images OG.
+- `style.css` : seul un lien `tel:` reste insécable dans une carte de centre — un e-mail long faisait déborder la
+  page sur téléphone (y compris `/centres/tcf-france/` avant le 08/10/2026).

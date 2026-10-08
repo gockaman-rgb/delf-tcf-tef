@@ -3,14 +3,20 @@
  "type": "tcf",
  "key": "Centre de passation",
  "n": 18,
- "date": "2026-09-19",
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
  "centres": [
   {
    "name": "Alliance française",
    "city": "Atlanta (Géorgie)",
-   "cp": "30303",
-   "city_cp": "Atlanta (Géorgie)",
-   "address": "233 Peachtree St. NE Suite 100",
+   "cp": "",
+   "city_cp": "",
+   "address": "233 Peachtree St. NE Suite 100, 30303 Atlanta (Géorgie)",
+   "address_lines": [
+    "233 Peachtree St. NE Suite 100",
+    "30303 Atlanta (Géorgie)"
+   ],
    "phone": "1-404-875-1211",
    "emails": [
     "admin@afatl.com"
@@ -21,9 +27,13 @@
   {
    "name": "Alliance française Detroit / French Institute",
    "city": "Bingham Farms (Detroit) (Michigan)",
-   "cp": "30800",
-   "city_cp": "Telegraph Rd Suite 2925",
-   "address": "48025 Bingham Farms (Detroit) (Michigan)",
+   "cp": "",
+   "city_cp": "",
+   "address": "30800 Telegraph Rd Suite 2925, 48025 Bingham Farms (Detroit) (Michigan)",
+   "address_lines": [
+    "30800 Telegraph Rd Suite 2925",
+    "48025 Bingham Farms (Detroit) (Michigan)"
+   ],
    "phone": "1-248-538-54-40",
    "emails": [
     "afd@afdetroit.org"
@@ -34,20 +44,30 @@
   {
    "name": "Lycée International de Boston",
    "city": "Cambridge MA (Massachusetts)",
-   "cp": "02140",
-   "city_cp": "Cambridge MA (Massachusetts)",
-   "address": "45 Matignon road",
+   "cp": "",
+   "city_cp": "",
+   "address": "45 Matignon road, 02140 Cambridge MA (Massachusetts)",
+   "address_lines": [
+    "45 Matignon road",
+    "02140 Cambridge MA (Massachusetts)"
+   ],
    "phone": "1617-499-1451",
-   "emails": [],
+   "emails": [
+    "adulted@isbos.org"
+   ],
    "url": "http://www.isbos.org",
    "so": true
   },
   {
    "name": "Alliance française",
    "city": "Chicago (Illinois)",
-   "cp": "60610",
-   "city_cp": "Chicago (Illinois)",
-   "address": "810 North Dearborn Street",
+   "cp": "",
+   "city_cp": "",
+   "address": "810 North Dearborn Street, 60610 Chicago (Illinois)",
+   "address_lines": [
+    "810 North Dearborn Street",
+    "60610 Chicago (Illinois)"
+   ],
    "phone": "1-312-337-1070",
    "emails": [
     "certifications@af-chicago.org"
@@ -58,9 +78,13 @@
   {
    "name": "Alliance française",
    "city": "Denver (Colorado)",
-   "cp": "7701",
-   "city_cp": "E 1st Place, unit C",
-   "address": "80230 Denver (Colorado)",
+   "cp": "",
+   "city_cp": "",
+   "address": "7701 E 1st Place, unit C, 80230 Denver (Colorado)",
+   "address_lines": [
+    "7701 E 1st Place, unit C",
+    "80230 Denver (Colorado)"
+   ],
    "phone": "+1-720-568-9976",
    "emails": [
     "reception@afdenver.org"
@@ -71,9 +95,13 @@
   {
    "name": "Pluma Academy",
    "city": "Denver (Colorado)",
-   "cp": "80206",
-   "city_cp": "Denver (Colorado)",
-   "address": "940 Fillmore Street",
+   "cp": "",
+   "city_cp": "",
+   "address": "940 Fillmore Street, 80206 Denver (Colorado)",
+   "address_lines": [
+    "940 Fillmore Street",
+    "80206 Denver (Colorado)"
+   ],
    "phone": "1-303-913-8011",
    "emails": [
     "info@plumaAcademy.com"
@@ -84,31 +112,47 @@
   {
    "name": "Alliance française",
    "city": "Houston (Texas)",
-   "cp": "77006",
-   "city_cp": "Houston (Texas)",
-   "address": "427 Lovett BLVD",
+   "cp": "",
+   "city_cp": "",
+   "address": "427 Lovett BLVD, 77006 Houston (Texas)",
+   "address_lines": [
+    "427 Lovett BLVD",
+    "77006 Houston (Texas)"
+   ],
    "phone": "713-526-1121",
-   "emails": [],
+   "emails": [
+    "programs@alliancehouston.org"
+   ],
    "url": "http://www.alliancehouston.org",
    "so": true
   },
   {
    "name": "Alliance Française",
    "city": "Kansas City (Kansas)",
-   "cp": "8014",
-   "city_cp": "State Line Road Suite 210 - Prairie Village",
-   "address": "KS66208 Kansas City (Kansas)",
+   "cp": "",
+   "city_cp": "",
+   "address": "8014 State Line Road Suite 210 - Prairie Village, KS66208 Kansas City (Kansas)",
+   "address_lines": [
+    "8014 State Line Road Suite 210 - Prairie Village",
+    "KS66208 Kansas City (Kansas)"
+   ],
    "phone": "18-16-66-68-674",
-   "emails": [],
+   "emails": [
+    "coordinator@afkc.org"
+   ],
    "url": "https://www.afkc.org",
    "so": true
   },
   {
    "name": "Alliance française",
    "city": "Los Angeles (Californie)",
-   "cp": "10390",
-   "city_cp": "Santa Monica Blvd, #300",
-   "address": "90025 Los Angeles (Californie)",
+   "cp": "",
+   "city_cp": "",
+   "address": "10390 Santa Monica Blvd, #300, 90025 Los Angeles (Californie)",
+   "address_lines": [
+    "10390 Santa Monica Blvd, #300",
+    "90025 Los Angeles (Californie)"
+   ],
    "phone": "1-310-652-0306",
    "emails": [
     "tcf@afdela.org"
@@ -119,9 +163,13 @@
   {
    "name": "French American School of Puget Sound",
    "city": "Mercer Island (Washington)",
-   "cp": "3795",
-   "city_cp": "E Mercer Way",
-   "address": "WA-98040 Mercer Island (Washington)",
+   "cp": "",
+   "city_cp": "",
+   "address": "3795 E Mercer Way, WA-98040 Mercer Island (Washington)",
+   "address_lines": [
+    "3795 E Mercer Way",
+    "WA-98040 Mercer Island (Washington)"
+   ],
    "phone": "1-206-275-3533",
    "emails": [],
    "url": "https://www.fasps.org/",
@@ -130,9 +178,13 @@
   {
    "name": "Wesleyan University, Language Resource Center",
    "city": "Middletown (Connecticut)",
-   "cp": "06459",
-   "city_cp": "Middletown (Connecticut)",
-   "address": "Fisk Hall 262 High St",
+   "cp": "",
+   "city_cp": "",
+   "address": "Fisk Hall 262 High St, 06459 Middletown (Connecticut)",
+   "address_lines": [
+    "Fisk Hall 262 High St",
+    "06459 Middletown (Connecticut)"
+   ],
    "phone": "1-860-685-2560",
    "emails": [],
    "url": "http://www.wesleyan.edu/fcgs",
@@ -141,9 +193,13 @@
   {
    "name": "L’Alliance New York",
    "city": "New-York (New York)",
-   "cp": "10022",
-   "city_cp": "New-York (New York)",
-   "address": "22 East 60th Street",
+   "cp": "",
+   "city_cp": "",
+   "address": "22 East 60th Street, 10022 New-York (New York)",
+   "address_lines": [
+    "22 East 60th Street",
+    "10022 New-York (New York)"
+   ],
    "phone": "1-646-388-6612",
    "emails": [
     "languagecenter@lallianceny.org"
@@ -154,9 +210,13 @@
   {
    "name": "Alliance française",
    "city": "Pasadena (Californie)",
-   "cp": "91101",
-   "city_cp": "Pasadena (Californie)",
-   "address": "232 N. Lake Avenue #105",
+   "cp": "",
+   "city_cp": "",
+   "address": "232 N. Lake Avenue #105, 91101 Pasadena (Californie)",
+   "address_lines": [
+    "232 N. Lake Avenue #105",
+    "91101 Pasadena (Californie)"
+   ],
    "phone": "1-833-386-3911",
    "emails": [
     "afdepasadena@gmail.com"
@@ -167,9 +227,13 @@
   {
    "name": "Alliance française",
    "city": "Philadelphie (Pennsylvanie)",
-   "cp": "1420",
-   "city_cp": "Walnut street, suite 700",
-   "address": "19102 Philadelphie (Pennsylvanie)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1420 Walnut street, suite 700, 19102 Philadelphie (Pennsylvanie)",
+   "address_lines": [
+    "1420 Walnut street, suite 700",
+    "19102 Philadelphie (Pennsylvanie)"
+   ],
    "phone": "215-735-52-83",
    "emails": [
     "alliance@afphila.com"
@@ -180,9 +244,13 @@
   {
    "name": "Alliance française",
    "city": "San Diego (Californie)",
-   "cp": "6390",
-   "city_cp": "Greenwich Dr, #185,",
-   "address": "92122 San Diego (Californie)",
+   "cp": "",
+   "city_cp": "",
+   "address": "6390 Greenwich Dr, #185,, 92122 San Diego (Californie)",
+   "address_lines": [
+    "6390 Greenwich Dr, #185,",
+    "92122 San Diego (Californie)"
+   ],
    "phone": "+1-619-806-6719",
    "emails": [
     "certifications@afsandiego.org"
@@ -193,9 +261,13 @@
   {
    "name": "Alliance française",
    "city": "San Francisco (Californie)",
-   "cp": "1345",
-   "city_cp": "Bush Street",
-   "address": "CA-94109 San Francisco (Californie)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1345 Bush Street, CA-94109 San Francisco (Californie)",
+   "address_lines": [
+    "1345 Bush Street",
+    "CA-94109 San Francisco (Californie)"
+   ],
    "phone": "1-415-775-7755",
    "emails": [
     "exams@afsf.com"
@@ -206,9 +278,13 @@
   {
    "name": "Alliance française",
    "city": "Seattle (Washington)",
-   "cp": "4649",
-   "city_cp": "Sunnyside Avenue N suite 205",
-   "address": "98103 Seattle (Washington)",
+   "cp": "",
+   "city_cp": "",
+   "address": "4649 Sunnyside Avenue N suite 205, 98103 Seattle (Washington)",
+   "address_lines": [
+    "4649 Sunnyside Avenue N suite 205",
+    "98103 Seattle (Washington)"
+   ],
    "phone": "1-206-632-5433",
    "emails": [
     "info@afseattle.org"
@@ -219,9 +295,13 @@
   {
    "name": "Alliance française",
    "city": "Washington DC (District de Columbia)",
-   "cp": "2142",
-   "city_cp": "Wyoming avenue NW",
-   "address": "20008 Washington DC (District de Columbia)",
+   "cp": "",
+   "city_cp": "",
+   "address": "2142 Wyoming avenue NW, 20008 Washington DC (District de Columbia)",
+   "address_lines": [
+    "2142 Wyoming avenue NW",
+    "20008 Washington DC (District de Columbia)"
+   ],
    "phone": "1-202-234-7911",
    "emails": [
     "certifications@francedc.org"

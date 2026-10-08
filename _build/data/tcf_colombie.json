@@ -3,25 +3,38 @@
  "type": "tcf",
  "key": "Centre de passation",
  "n": 7,
- "date": "2026-09-19",
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
  "centres": [
   {
    "name": "Alliance française",
    "city": "Barranquilla, Atlantico",
    "cp": "",
    "city_cp": "",
-   "address": "Calle 52 # 54-75 Norte Centro Historico - Barranquilla, Atlantico",
+   "address": "Calle 52 # 54-75 Norte Centro Historico, Barranquilla, Atlantico",
+   "address_lines": [
+    "Calle 52 # 54-75 Norte Centro Historico",
+    "Barranquilla, Atlantico"
+   ],
    "phone": "0653490269",
-   "emails": [],
+   "emails": [
+    "barranquilla@alianzafrancesa.org.co",
+    "barranquilla@alianzafrancesa.edu.co"
+   ],
    "url": "http://www.alianzafrancesa.org.co",
    "so": true
   },
   {
    "name": "Alliance française",
    "city": "Bogota",
-   "cp": "7603",
-   "city_cp": "Bogota",
-   "address": "Cra 11 # 93-40 siège du Chico",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cra 11 # 93-40 siège du Chico, 7603 Bogota",
+   "address_lines": [
+    "Cra 11 # 93-40 siège du Chico",
+    "7603 Bogota"
+   ],
    "phone": "571-3900-5000",
    "emails": [
     "examenesoficiales@alianzafrancesa.edu.co"
@@ -32,11 +45,17 @@
   {
    "name": "Alliance française de Cali",
    "city": "Cali",
-   "cp": "2443",
-   "city_cp": "Cali",
-   "address": "Avenida 6 Norte #21-34 Barrio Versalles",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida 6 Norte #21-34 Barrio Versalles, 2443 Cali",
+   "address_lines": [
+    "Avenida 6 Norte #21-34 Barrio Versalles",
+    "2443 Cali"
+   ],
    "phone": "57-316-479-96-50",
-   "emails": [],
+   "emails": [
+    "recepcion.cali@alianzafrancesa.edu.co"
+   ],
    "url": "http://www.alianzafrancesa.org.co",
    "so": true
   },
@@ -45,9 +64,15 @@
    "city": "Carthagène des Indes",
    "cp": "",
    "city_cp": "",
-   "address": "Centro, Sector San Diego Plaza Fernandez de Madrid # 37-34 - Carthagène des Indes",
+   "address": "Centro, Sector San Diego Plaza Fernandez de Madrid # 37-34, Carthagène des Indes",
+   "address_lines": [
+    "Centro, Sector San Diego Plaza Fernandez de Madrid # 37-34",
+    "Carthagène des Indes"
+   ],
    "phone": "57-317-392-54-14",
-   "emails": [],
+   "emails": [
+    "cartagena@alianzafrancesa.edu.co"
+   ],
    "url": "http://alianzafrancesa.org.co/cartagena/",
    "so": false
   },
@@ -56,18 +81,28 @@
    "city": "Manizales",
    "cp": "",
    "city_cp": "",
-   "address": "Calle 61 A #24-36 Barrio la Estrella - Manizales",
+   "address": "Calle 61 A #24-36 Barrio la Estrella, Manizales",
+   "address_lines": [
+    "Calle 61 A #24-36 Barrio la Estrella",
+    "Manizales"
+   ],
    "phone": "57-31-03-86-89-83",
-   "emails": [],
+   "emails": [
+    "manizales@alianzafrancesa.edu.co"
+   ],
    "url": "http://manizales.alianzafrancesa.org.co",
    "so": false
   },
   {
    "name": "Alliance française",
    "city": "Medellin",
-   "cp": "50015",
-   "city_cp": "Medellin",
-   "address": "Carrera 49 # 44-94 Local 258 Parque San Antonio",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carrera 49 # 44-94 Local 258 Parque San Antonio, 50015 Medellin",
+   "address_lines": [
+    "Carrera 49 # 44-94 Local 258 Parque San Antonio",
+    "50015 Medellin"
+   ],
    "phone": "57-604-444-26-20",
    "emails": [
     "certificaciones-afm@alianzafrancesa.edu.co"
@@ -78,9 +113,13 @@
   {
    "name": "Alliance française",
    "city": "Pereira",
-   "cp": "66001",
-   "city_cp": "Pereira",
-   "address": "Calle 21#4-33 - Centro Null Null",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 21#4-33 - Centro, 66001 Pereira",
+   "address_lines": [
+    "Calle 21#4-33 - Centro",
+    "66001 Pereira"
+   ],
    "phone": "",
    "emails": [],
    "url": "http://www.alianzafrancesa.org.co/pereira/",

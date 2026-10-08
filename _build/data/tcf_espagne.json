@@ -1,0 +1,248 @@
+{
+ "country": "Espagne",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 14,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Barcelone",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Moià, 8, 08006 Barcelone",
+   "address_lines": [
+    "Calle Moià, 8",
+    "08006 Barcelone"
+   ],
+   "phone": "34-935-67-77-77",
+   "emails": [
+    "examens.barcelona@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/barcelona",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Espagne- Délégation de Bilbao",
+   "city": "Bilbao",
+   "cp": "",
+   "city_cp": "",
+   "address": "Paseo Campo Volantin 23 (entrada C/Epalza 1) Bilbao (VISCAYA), 48007 Bilbao",
+   "address_lines": [
+    "Paseo Campo Volantin 23 (entrada C/Epalza 1) Bilbao (VISCAYA)",
+    "48007 Bilbao"
+   ],
+   "phone": "34-944-132-002",
+   "emails": [
+    "delfdalf.bilbao@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/bilbao",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Cartagena",
+   "city": "Cartagena",
+   "cp": "",
+   "city_cp": "",
+   "address": "Paseo Alfonso XIII nº 5, 1A, 30203 Cartagena",
+   "address_lines": [
+    "Paseo Alfonso XIII nº 5, 1A",
+    "30203 Cartagena"
+   ],
+   "phone": "34-968-50-67-16",
+   "emails": [
+    "examenes@alianzafrancesacartagena.org",
+    "direccionafcartagena1@gmail.com"
+   ],
+   "url": "http://www.alianzafrancesacartagena.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Madrid",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cuesta de Santo Domingo,13, 28013 Madrid",
+   "address_lines": [
+    "Cuesta de Santo Domingo,13",
+    "28013 Madrid"
+   ],
+   "phone": "34-681-21-83-18",
+   "emails": [
+    "examenes@afmadrid.net"
+   ],
+   "url": "http://www.afmadrid.es",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Madrid",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Marqués de la Ensenada, 12, 28004 Madrid",
+   "address_lines": [
+    "C/ Marqués de la Ensenada, 12",
+    "28004 Madrid"
+   ],
+   "phone": "34-917-00-48-11",
+   "emails": [
+    "examenes.madrid@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/madrid",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Malaga",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Canales, nº11, 29002 Malaga",
+   "address_lines": [
+    "Calle Canales, nº11",
+    "29002 Malaga"
+   ],
+   "phone": "34-952-22-08-60",
+   "emails": [
+    "examen@afmalaga.com"
+   ],
+   "url": "http://www.alianzafrancesamalaga.es",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Oviedo",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Marqués de Santa Cruz, 11, 33007 Oviedo",
+   "address_lines": [
+    "C/ Marqués de Santa Cruz, 11",
+    "33007 Oviedo"
+   ],
+   "phone": "34-985-21-32-34",
+   "emails": [
+    "oviedo@alianzafrancesa.com"
+   ],
+   "url": "http://www.afoviedo.com",
+   "so": true
+  },
+  {
+   "name": "Pampelune, Université Publique de Navarre",
+   "city": "Pampelune",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centro Superior de Idiomas Campus de Arrosadía Edificio El Sario Módulo 3, 31006 Pampelune",
+   "address_lines": [
+    "Centro Superior de Idiomas Campus de Arrosadía Edificio El Sario Módulo 3",
+    "31006 Pampelune"
+   ],
+   "phone": "+34948169791",
+   "emails": [],
+   "url": "https://www.unavarra.es/centroidiomas/examenes-oficiales/frances?contentId=243279",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Santiago de Compostela",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plaza de Vigo, 2 bajo, 15701 Santiago de Compostela",
+   "address_lines": [
+    "Plaza de Vigo, 2 bajo",
+    "15701 Santiago de Compostela"
+   ],
+   "phone": "34-981-56-16-39",
+   "emails": [
+    "info@afsantiago.es"
+   ],
+   "url": "http://www.afsantiago.es",
+   "so": true
+  },
+  {
+   "name": "CELF Sevilla",
+   "city": "Séville",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Espinosa y Cárcel 6, local, 41005 Séville",
+   "address_lines": [
+    "C/ Espinosa y Cárcel 6, local",
+    "41005 Séville"
+   ],
+   "phone": "346-568-683-31",
+   "emails": [
+    "info@celfsevilla.com"
+   ],
+   "url": "https://www.celfsevilla.com",
+   "so": true
+  },
+  {
+   "name": "Instituto de Lengua Francesa",
+   "city": "Séville",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Gonzalo Bilbao n°26, 41003 Séville",
+   "address_lines": [
+    "Calle Gonzalo Bilbao n°26",
+    "41003 Séville"
+   ],
+   "phone": "34-646-86-42-68",
+   "emails": [
+    "delf-dalf@ilfsevilla.com"
+   ],
+   "url": "https://www.ilfsevilla.com",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Valence",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/ Monjas de Santa Catalina, 4, 46002 Valence",
+   "address_lines": [
+    "C/ Monjas de Santa Catalina, 4",
+    "46002 Valence"
+   ],
+   "phone": "34-678-690-626",
+   "emails": [
+    "examenes.valencia@institutfrancais.es"
+   ],
+   "url": "http://www.institutfrancais.es/valencia/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Valladolid",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plaza Poniente, 5 2° planta, 47003 Valladolid",
+   "address_lines": [
+    "Plaza Poniente, 5 2° planta",
+    "47003 Valladolid"
+   ],
+   "phone": "34-983-33-96-66",
+   "emails": [
+    "info@afvalladolid.com"
+   ],
+   "url": "http://www.afvalladolid.com",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Vigo",
+   "cp": "",
+   "city_cp": "",
+   "address": "c/ Républica Argentina, 22-1°, 36201 Vigo",
+   "address_lines": [
+    "c/ Républica Argentina, 22-1°",
+    "36201 Vigo"
+   ],
+   "phone": "34-986-43-61-09",
+   "emails": [
+    "oficina@alliancevigo.org"
+   ],
+   "url": "http://www.alliancevigo.org",
+   "so": false
+  }
+ ]
+}

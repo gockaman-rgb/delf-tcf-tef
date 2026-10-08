@@ -1,0 +1,252 @@
+{
+ "country": "Colombie",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 15,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Bogotá",
+  "cp": "",
+  "city_cp": "",
+  "address": "Sede Chicó - Carrera 11#93 - 40 Bogotá",
+  "address_lines": [
+   "Sede Chicó - Carrera 11#93 - 40 Bogotá"
+  ],
+  "phone": "3104086324",
+  "emails": [],
+  "url": "http://www.alianzafrancesa.org.co/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française d'Armenia",
+   "city": "Armenia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 6 norte 16-25 Barrio los profesionales Armenia",
+   "address_lines": [
+    "Calle 6 norte 16-25 Barrio los profesionales Armenia"
+   ],
+   "phone": "3108982259",
+   "emails": [],
+   "url": "https://alianzafrancesa.org.co/armenia/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Barranquilla",
+   "city": "Barranquilla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cl 52 # 54 - 75 Barranquilla",
+   "address_lines": [
+    "Cl 52 # 54 - 75 Barranquilla"
+   ],
+   "phone": "(605) 3454698",
+   "emails": [
+    "pedagogie.barranquilla@alianzafrancesa.edu.co"
+   ],
+   "url": "https://barranquilla.alianzafrancesa.edu.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Bogota - Cedritos",
+   "city": "Bogota",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av 19 N° 134 - 81 Bogota",
+   "address_lines": [
+    "Av 19 N° 134 - 81 Bogota"
+   ],
+   "phone": "6013905000",
+   "emails": [
+    "examenesoficiales@alianzafrancesa.org.co"
+   ],
+   "url": "http://www.alianzafrancesa.org.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bogota - Centro",
+   "city": "Bogota",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cr. 3 # 18 - 45 Bogota",
+   "address_lines": [
+    "Cr. 3 # 18 - 45 Bogota"
+   ],
+   "phone": "6013905000",
+   "emails": [
+    "examenesoficiales@alianzafrancesa.org.co"
+   ],
+   "url": "https://alianzafrancesa.org.co/bogota/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bogota - Chicó",
+   "city": "Bogota",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cra 11 N°93-40 Bogota",
+   "address_lines": [
+    "Cra 11 N°93-40 Bogota"
+   ],
+   "phone": "601 3905000",
+   "emails": [
+    "examenesoficiales@alianzafrancesa.org.co"
+   ],
+   "url": "http://bogota.alianzafrancesa.org.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bucaramanga",
+   "city": "Bucaramanga",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 42 # 37 - 19, 680003 Bucaramanga",
+   "address_lines": [
+    "Calle 42 # 37 - 19",
+    "680003 Bucaramanga"
+   ],
+   "phone": "3153767302",
+   "emails": [],
+   "url": "https://alianzafrancesa.edu.co/bucaramanga/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Cali",
+   "city": "Cali",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida 6 Norte # 21N-34, Barrio Versalles, 760043 Cali",
+   "address_lines": [
+    "Avenida 6 Norte # 21N-34, Barrio Versalles",
+    "760043 Cali"
+   ],
+   "phone": "6024858882",
+   "emails": [],
+   "url": "https://alianzafrancesa.edu.co/cali/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Carthagène",
+   "city": "Cartagena de Indias",
+   "cp": "",
+   "city_cp": "",
+   "address": "Parque Fernandez de Madrid #37-34, Barrio San Diego, Cartagena de Indias, 130001 Cartagena de Indias",
+   "address_lines": [
+    "Parque Fernandez de Madrid #37-34, Barrio San Diego, Cartagena de Indias",
+    "130001 Cartagena de Indias"
+   ],
+   "phone": "3174242459",
+   "emails": [
+    "direccion.cartagena@alianzafrancesa.edu.co"
+   ],
+   "url": "https://alianzafrancesa.org.co/cartagena/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cucuta",
+   "city": "Cucuta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 15 #3E - 101 Caobos Cucuta",
+   "address_lines": [
+    "Calle 15 #3E - 101 Caobos Cucuta"
+   ],
+   "phone": "57 3138727763",
+   "emails": [],
+   "url": "https://cucuta.alianzafrancesa.edu.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Manizales",
+   "city": "Manizales",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 61A # 24-36 Manizales",
+   "address_lines": [
+    "Calle 61A # 24-36 Manizales"
+   ],
+   "phone": "3116337438",
+   "emails": [],
+   "url": "https://manizales.alianzafrancesa.edu.co/ales/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Medellin",
+   "city": "Medellín",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carrera 49 # 44-94, local 258 Parque San Antonio Medellín",
+   "address_lines": [
+    "Carrera 49 # 44-94, local 258 Parque San Antonio Medellín"
+   ],
+   "phone": "604 444 26 20",
+   "emails": [
+    "certificaciones-afm@alianzafrancesa.edu.co"
+   ],
+   "url": "https://medellin.alianzafrancesa.edu.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pereira",
+   "city": "Pereira",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 21 # 4-33 Centro, 66001 Pereira",
+   "address_lines": [
+    "Calle 21 # 4-33 Centro",
+    "66001 Pereira"
+   ],
+   "phone": "3138150636",
+   "emails": [],
+   "url": "https://alianzafrancesa.org.co/pereira/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Popayán",
+   "city": "Popayán",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 5#2-16 Popayán",
+   "address_lines": [
+    "Calle 5#2-16 Popayán"
+   ],
+   "phone": "3163156900",
+   "emails": [],
+   "url": "http://popayan.alianzafrancesa.org.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Santa Marta",
+   "city": "Santa Marta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Ferrocarril #27B 10 Santa Marta",
+   "address_lines": [
+    "Av. Ferrocarril #27B 10 Santa Marta"
+   ],
+   "phone": "3116850703",
+   "emails": [],
+   "url": "http://santamarta.alianzafrancesa.org.co/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Valledupar",
+   "city": "Valledupar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carrera 6 # 13- 65 Valledupar",
+   "address_lines": [
+    "Carrera 6 # 13- 65 Valledupar"
+   ],
+   "phone": "+57316 5211795",
+   "emails": [
+    "direccionvalle@alianzafrancesa.edu.co"
+   ],
+   "url": "https://alianzafrancesavalledupar.wordpress.com/",
+   "so": false
+  }
+ ]
+}

@@ -144,6 +144,14 @@ def build_exam(slug, cfg):
         mods += ('\n<p class="serie-label">Où passer, ville par ville</p>\n<div class="chips">\n'
                  + "\n".join(f'<a class="chip" href="/centres/{sl}/">{by[sl]["crumb"]}</a>' for sl in cfg["villes"])
                  + '\n<a class="chip" href="/centres/">Toutes les villes →</a>\n</div>')
+    if cfg.get("pays"):
+        # pages pays (make_pays.py, 08/10/2026) : (libellé de la rangée, [slugs])
+        from pays_config import PAGES as PAYS
+        byp = {p["slug"]: p for p in PAYS}
+        label, slugs = cfg["pays"]
+        mods += (f'\n<p class="serie-label">{label}</p>\n<div class="chips">\n'
+                 + "\n".join(f'<a class="chip" href="/centres/{sl}/">{byp[sl]["chip"]}</a>' for sl in slugs)
+                 + '\n<a class="chip" href="/centres/#pays">Tous les pays →</a>\n</div>')
     body = (f"{stats(pil['stats'])}\n\n<h2 id=\"quest-ce\">{cfg['what_h2']}</h2>\n{cfg['what']}\n\n"
             f"<h2 id=\"parcours\">Votre parcours en 5 étapes</h2>\n{steps(pil['steps'])}\n\n"
             f"<h2 id=\"modules\">Le dossier, module par module</h2>\n{mods}\n")

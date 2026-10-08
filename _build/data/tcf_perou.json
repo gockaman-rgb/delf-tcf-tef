@@ -1,0 +1,28 @@
+{
+ "country": "Pérou",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Lima",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Arequipa 4595, Miraflores, 1667 Lima",
+   "address_lines": [
+    "Av. Arequipa 4595, Miraflores",
+    "1667 Lima"
+   ],
+   "phone": "511-610-8000",
+   "emails": [
+    "exam.international@alianzafrancesa.org.pe"
+   ],
+   "url": "http://www.aflima.org.pe",
+   "so": true
+  }
+ ]
+}

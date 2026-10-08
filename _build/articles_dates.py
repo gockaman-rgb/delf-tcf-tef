@@ -174,7 +174,7 @@ notation sur 699 et sur 20, conversion NCLC — avec la correction IA de l'écri
         ("/blog/ou-passer-le-tcf-canada-en-france/", "Où passer le TCF Canada en France ?", "Les centres qui le proposent, 195 à 285 €, leurs dates."),
         ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada ?", "Les 47 centres, 390 à 440 $, la méthode pour obtenir une place."),
         ("/blog/tcf-canada-maroc/", "TCF Canada au Maroc : les 16 centres et l'inscription", "L'inscription en ligne, les sessions relevées, les règles de report."),
-        ("/centres/", "L'annuaire des centres d'examen", "830 centres, 32 pays, et les guides par ville."),
+        ("/centres/", "L'annuaire des centres d'examen", "1 067 centres, 35 pays, et les guides par ville."),
     ],
     "sources": """<strong>Sources.</strong> Pages TCF Canada des centres cités — ACTE, ACCORD (examensparis.fr), Alliances
 françaises de Lyon, Montpellier et Aix-Marseille, KLF, CLPS, Alliance française de Toronto, Alliance

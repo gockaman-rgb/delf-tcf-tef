@@ -1,0 +1,109 @@
+{
+ "country": "Équateur",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 5,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Quito",
+  "cp": "",
+  "city_cp": "",
+  "address": "Alliance française Quito Av. Eloy Alfaro N32-468 Quito",
+  "address_lines": [
+   "Alliance française Quito Av. Eloy Alfaro N32-468 Quito"
+  ],
+  "phone": "22246589",
+  "emails": [
+   "dirpedago@afquito.org.ec"
+  ],
+  "url": "http://www.afquito.org.ec/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Cuenca",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tadeo Torres 1-92 Y Av. Solano, 010101 Cuenca",
+   "address_lines": [
+    "Tadeo Torres 1-92 Y Av. Solano",
+    "010101 Cuenca"
+   ],
+   "phone": "07282-5298",
+   "emails": [
+    "direccion@afcuenca.org.ec"
+   ],
+   "url": "http://www.afcuenca.org.ec",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Guayaquil",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hurtado 436 y Mascote, 090303 Guayaquil",
+   "address_lines": [
+    "Hurtado 436 y Mascote",
+    "090303 Guayaquil"
+   ],
+   "phone": "042532009",
+   "emails": [
+    "direccion@afguayaquil.org.ec"
+   ],
+   "url": "http://afguayaquil.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française",
+   "city": "Loja",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Manuel Agustín Aguirre & Miguel Riofrío Loja",
+   "address_lines": [
+    "Avenida Manuel Agustín Aguirre & Miguel Riofrío Loja"
+   ],
+   "phone": "959127820",
+   "emails": [
+    "direccion@af-loja.com"
+   ],
+   "url": "https://af-loja.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Portoviejo",
+   "city": "Portoviejo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 18 de Octubre 304 y calle Córdoba, 130105 Portoviejo",
+   "address_lines": [
+    "Calle 18 de Octubre 304 y calle Córdoba",
+    "130105 Portoviejo"
+   ],
+   "phone": "990258687",
+   "emails": [
+    "afportoviejo2020@outlook.es"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Quito",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Eloy Alfaro N32-468 y Bélgica Quito",
+   "address_lines": [
+    "Av. Eloy Alfaro N32-468 y Bélgica Quito"
+   ],
+   "phone": "22246590",
+   "emails": [
+    "dirpedago@afquito.org.ec"
+   ],
+   "url": "http://www.afquito.org.ec/",
+   "so": false
+  }
+ ]
+}

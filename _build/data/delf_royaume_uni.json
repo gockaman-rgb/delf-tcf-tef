@@ -1,0 +1,210 @@
+{
+ "country": "Royaume-Uni",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 11,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Bureau de coopération linguistique et éducative",
+  "city": "London",
+  "cp": "",
+  "city_cp": "",
+  "address": "23 Cromwell Road, SW7 2EL London",
+  "address_lines": [
+   "23 Cromwell Road",
+   "SW7 2EL London"
+  ],
+  "phone": "2039243536",
+  "emails": [],
+  "url": "http://www.institut-francais.org.uk/education/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Cambridge",
+   "city": "Cambridge",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Red Cross Lane, CB2 0QU Cambridge",
+   "address_lines": [
+    "1 Red Cross Lane",
+    "CB2 0QU Cambridge"
+   ],
+   "phone": "1223 561854",
+   "emails": [
+    "exam.alliance.cam@gmail.com"
+   ],
+   "url": "http://alliance-cam.co.uk/",
+   "so": false
+  },
+  {
+   "name": "Cardiff University",
+   "city": "Cardiff",
+   "cp": "",
+   "city_cp": "",
+   "address": "School of Modern Languages, 66a Park Place, CF10 3AS Cardiff",
+   "address_lines": [
+    "School of Modern Languages, 66a Park Place",
+    "CF10 3AS Cardiff"
+   ],
+   "phone": "29 2087 4183",
+   "emails": [
+    "languages@cardiff.ac.uk"
+   ],
+   "url": "http://www.cardiff.ac.uk/modern-languages/about-us/international-langu",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Ecosse",
+   "city": "Edinburgh",
+   "cp": "",
+   "city_cp": "",
+   "address": "West Parliament Square, EH1 1RN Edinburgh",
+   "address_lines": [
+    "West Parliament Square",
+    "EH1 1RN Edinburgh"
+   ],
+   "phone": "131 285 6030",
+   "emails": [
+    "contact.ifecosse@institut-francais.org.uk"
+   ],
+   "url": "http://www.ifecosse.org.uk/",
+   "so": false
+  },
+  {
+   "name": "University of Exeter",
+   "city": "Exeter",
+   "cp": "",
+   "city_cp": "",
+   "address": "Foreign Language Centre, School of Humanities, Queens Building, The Queen's Drive, EX4 4QH Exeter",
+   "address_lines": [
+    "Foreign Language Centre, School of Humanities, Queens Building, The Queen's Drive",
+    "EX4 4QH Exeter"
+   ],
+   "phone": "1392725702",
+   "emails": [],
+   "url": "http://humanities.exeter.ac.uk/flc/delf/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Glasgow",
+   "city": "Glasgow",
+   "cp": "",
+   "city_cp": "",
+   "address": "3 Park Circus, G3 6AX Glasgow",
+   "address_lines": [
+    "3 Park Circus",
+    "G3 6AX Glasgow"
+   ],
+   "phone": "141 331 4080",
+   "emails": [
+    "exams@afglasgow.org.uk"
+   ],
+   "url": "http://www.afglasgow.org.uk/",
+   "so": false
+  },
+  {
+   "name": "Leeds - AF",
+   "city": "Leeds",
+   "cp": "",
+   "city_cp": "",
+   "address": "Suite 9, Unity Business Centre 2, 26 Roundhay Road, LS7 1AB Leeds",
+   "address_lines": [
+    "Suite 9, Unity Business Centre 2, 26 Roundhay Road",
+    "LS7 1AB Leeds"
+   ],
+   "phone": "+447757692624",
+   "emails": [
+    "director@afleeds.org.uk"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "London",
+   "cp": "",
+   "city_cp": "",
+   "address": "Language Centre, 13 Cromwell Place, SW7 2JN London",
+   "address_lines": [
+    "Language Centre, 13 Cromwell Place",
+    "SW7 2JN London"
+   ],
+   "phone": "203 924 3557",
+   "emails": [
+    "examination.centre@institut-francais.org.uk"
+   ],
+   "url": "http://www.institut-francais.org.uk/french-courses/exams/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Manchester",
+   "city": "Manchester",
+   "cp": "",
+   "city_cp": "",
+   "address": "125 Portland Street, M1 4QD Manchester",
+   "address_lines": [
+    "125 Portland Street",
+    "M1 4QD Manchester"
+   ],
+   "phone": "1612367117",
+   "emails": [
+    "director@afmanchester.org"
+   ],
+   "url": "http://www.afmanchester.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Milton Keynes",
+   "city": "Milton Keynes",
+   "cp": "",
+   "city_cp": "",
+   "address": "14 Market Square, Stony Stratford, MK11 1BE Milton Keynes",
+   "address_lines": [
+    "14 Market Square, Stony Stratford",
+    "MK11 1BE Milton Keynes"
+   ],
+   "phone": "1908 562151",
+   "emails": [
+    "director@afmk.co.uk"
+   ],
+   "url": "http://afmk.co.uk/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Oxford",
+   "city": "Oxford",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 Polstead Rd, OX2 6TN Oxford",
+   "address_lines": [
+    "30 Polstead Rd",
+    "OX2 6TN Oxford"
+   ],
+   "phone": "7393 984888",
+   "emails": [
+    "courses@af-oxford.org"
+   ],
+   "url": "http://www.af-oxford.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Jersey",
+   "city": "St Helier, Jersey",
+   "cp": "",
+   "city_cp": "",
+   "address": "5 Library Place, JE2 3NL St Helier, Jersey",
+   "address_lines": [
+    "5 Library Place",
+    "JE2 3NL St Helier, Jersey"
+   ],
+   "phone": "01534 875 655",
+   "emails": [
+    "courses@afjersey.com"
+   ],
+   "url": "http://www.afjersey.com/",
+   "so": false
+  }
+ ]
+}

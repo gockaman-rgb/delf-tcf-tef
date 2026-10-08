@@ -1,0 +1,89 @@
+{
+ "country": "Chili",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 4,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Service de Coopération linguistique et éducative",
+  "city": "Santiago",
+  "cp": "",
+  "city_cp": "",
+  "address": "Service de Coopération linguistique et éducative (SCLE) Francisco Noguera 176, Providencia Santiago",
+  "address_lines": [
+   "Service de Coopération linguistique et éducative (SCLE) Francisco Noguera 176",
+   "Providencia Santiago"
+  ],
+  "phone": "23 22 10 835",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alianza francesa de Antofagasta",
+   "city": "Antofagasta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Dieciocho de septiembre 449, sector playa blanca Antofagasta",
+   "address_lines": [
+    "Dieciocho de septiembre 449, sector playa blanca Antofagasta"
+   ],
+   "phone": "(55) 276 8985",
+   "emails": [
+    "afantofagasta@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Concepción",
+   "city": "Concepción",
+   "cp": "",
+   "city_cp": "",
+   "address": "Colo Colo 1, Concepción, Bío Bío Concepción",
+   "address_lines": [
+    "Colo Colo 1, Concepción, Bío Bío Concepción"
+   ],
+   "phone": "999999889",
+   "emails": [
+    "mediateca.afconcepcion@gmail.com"
+   ],
+   "url": "http://www.afconcepcion.cl",
+   "so": false
+  },
+  {
+   "name": "ALLIANCE FRANCAISE D'OSORNO",
+   "city": "Osorno",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avda. Juan Mackenna 1512, 5290000 Osorno",
+   "address_lines": [
+    "Avda. Juan Mackenna 1512",
+    "5290000 Osorno"
+   ],
+   "phone": "56642276933",
+   "emails": [
+    "centredexamenosorno@gmail.com"
+   ],
+   "url": "http://www.alliancesfrancaises.net/",
+   "so": false
+  },
+  {
+   "name": "INSTITUTO FRANCÉS DE CHILE",
+   "city": "Santiago",
+   "cp": "",
+   "city_cp": "",
+   "address": "Francisco Noguera 176, Providencia Santiago",
+   "address_lines": [
+    "Francisco Noguera 176",
+    "Providencia Santiago"
+   ],
+   "phone": "56232210835",
+   "emails": [],
+   "url": "http://www.institutofrances.cl/",
+   "so": false
+  }
+ ]
+}

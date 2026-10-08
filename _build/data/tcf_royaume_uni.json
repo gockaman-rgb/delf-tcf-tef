@@ -3,14 +3,20 @@
  "type": "tcf",
  "key": "Centre de passation",
  "n": 3,
- "date": "2026-09-19",
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": null,
  "centres": [
   {
    "name": "Alliance française",
    "city": "Glasgow",
-   "cp": "G36AX",
-   "city_cp": "Glasgow",
-   "address": "3 Park Circus Null",
+   "cp": "",
+   "city_cp": "",
+   "address": "3 Park Circus, G36AX Glasgow",
+   "address_lines": [
+    "3 Park Circus",
+    "G36AX Glasgow"
+   ],
    "phone": "44-14-13-31-40-80",
    "emails": [],
    "url": "http://www.afglasgow.org.uk",
@@ -19,9 +25,13 @@
   {
    "name": "Institut français du Royaume Uni",
    "city": "Londres",
-   "cp": "SW72JR",
-   "city_cp": "Londres",
-   "address": "Centre Molière 14 Cromwell Place",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centre Molière 14 Cromwell Place, SW72JR Londres",
+   "address_lines": [
+    "Centre Molière 14 Cromwell Place",
+    "SW72JR Londres"
+   ],
    "phone": "44-20-39-24-35-57",
    "emails": [
     "examination.centre@institut-francais.org.uk"
@@ -32,9 +42,13 @@
   {
    "name": "Alliance française de Jersey",
    "city": "Saint-Hélier",
-   "cp": "JE23NL",
-   "city_cp": "Saint-Hélier",
-   "address": "5 Library Place",
+   "cp": "",
+   "city_cp": "",
+   "address": "5 Library Place, JE23NL Saint-Hélier",
+   "address_lines": [
+    "5 Library Place",
+    "JE23NL Saint-Hélier"
+   ],
    "phone": "44-153-487-5655",
    "emails": [
     "info@afjersey.com"

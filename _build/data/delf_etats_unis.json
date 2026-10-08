@@ -1,0 +1,673 @@
+{
+ "country": "États-Unis",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 40,
+ "date": "2026-10-08",
+ "source": "FEI, liste par pays (extraction structurée v2)",
+ "org": {
+  "name": "Villa Albertine - IFEU-VA",
+  "city": "Washington",
+  "cp": "",
+  "city_cp": "",
+  "address": "4101 RESERVOIR ROAD NW, 20007 Washington",
+  "address_lines": [
+   "4101 RESERVOIR ROAD NW",
+   "20007 Washington"
+  ],
+  "phone": "(202) 944 6015",
+  "emails": [],
+  "url": "https://villa-albertine.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française d'Atlanta",
+   "city": "Atlanta",
+   "cp": "",
+   "city_cp": "",
+   "address": "233 Peachtree St NE, Suite 100, 30303 Atlanta",
+   "address_lines": [
+    "233 Peachtree St NE, Suite 100",
+    "30303 Atlanta"
+   ],
+   "phone": "4048751211",
+   "emails": [
+    "admin@afatl.com"
+   ],
+   "url": "http://www.afatl.com/",
+   "so": false
+  },
+  {
+   "name": "Austin International School",
+   "city": "Austin",
+   "cp": "",
+   "city_cp": "",
+   "address": "4001 Adelphi Lane, 78727 Austin",
+   "address_lines": [
+    "4001 Adelphi Lane",
+    "78727 Austin"
+   ],
+   "phone": "5123317806",
+   "emails": [
+    "info@austinis.org"
+   ],
+   "url": "https://www.austininternationalschool.org/",
+   "so": false
+  },
+  {
+   "name": "Baltimore International Academy",
+   "city": "Baltimore",
+   "cp": "",
+   "city_cp": "",
+   "address": "4410 Frankford Avenue, 21206 Baltimore",
+   "address_lines": [
+    "4410 Frankford Avenue",
+    "21206 Baltimore"
+   ],
+   "phone": "4104263650",
+   "emails": [],
+   "url": "https://www.biaeast.org/",
+   "so": false
+  },
+  {
+   "name": "Lycée International de Boston",
+   "city": "Cambridge",
+   "cp": "",
+   "city_cp": "",
+   "address": "45 Matignon Road, 02140 Cambridge",
+   "address_lines": [
+    "45 Matignon Road",
+    "02140 Cambridge"
+   ],
+   "phone": "6174991451",
+   "emails": [
+    "adulted@isbos.org"
+   ],
+   "url": "http://www.isbos.org",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Charlotte",
+   "city": "Charlotte",
+   "cp": "",
+   "city_cp": "",
+   "address": "1900 Queens Road, Education Building, 28207 Charlotte",
+   "address_lines": [
+    "1900 Queens Road, Education Building",
+    "28207 Charlotte"
+   ],
+   "phone": "7047127599",
+   "emails": [
+    "afdecharlotte@gmail.com"
+   ],
+   "url": "http://www.afcharlotte.org",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Chicago",
+   "city": "Chicago",
+   "cp": "",
+   "city_cp": "",
+   "address": "810 N Dearborn St, 60610 Chicago",
+   "address_lines": [
+    "810 N Dearborn St",
+    "60610 Chicago"
+   ],
+   "phone": "3123371070",
+   "emails": [],
+   "url": "http://www.af-chicago.org/",
+   "so": false
+  },
+  {
+   "name": "Woodward Academy",
+   "city": "College Park",
+   "cp": "",
+   "city_cp": "",
+   "address": "1662 Rugby Ave, 30337 College Park",
+   "address_lines": [
+    "1662 Rugby Ave",
+    "30337 College Park"
+   ],
+   "phone": "4047651467",
+   "emails": [],
+   "url": "http://www.woodward.edu/",
+   "so": false
+  },
+  {
+   "name": "Department of Languages, Literatures and Cultures, University of South Carolina",
+   "city": "Columbia",
+   "cp": "",
+   "city_cp": "",
+   "address": "1620 College St, 29208 Columbia",
+   "address_lines": [
+    "1620 College St",
+    "29208 Columbia"
+   ],
+   "phone": "8037770000",
+   "emails": [],
+   "url": "https://www.sc.edu/study/majors_and_degrees/languages_literatures_and_cultures.php",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Dallas",
+   "city": "Dallas",
+   "cp": "",
+   "city_cp": "",
+   "address": "15150 Preston Rd, Suite 250, 75248 Dallas",
+   "address_lines": [
+    "15150 Preston Rd, Suite 250",
+    "75248 Dallas"
+   ],
+   "phone": "9727330844",
+   "emails": [
+    "exams@afdallas.org"
+   ],
+   "url": "http://www.afdallas.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Denver",
+   "city": "Denver",
+   "cp": "",
+   "city_cp": "",
+   "address": "7701 E 1st Place, 80230 Denver",
+   "address_lines": [
+    "7701 E 1st Place",
+    "80230 Denver"
+   ],
+   "phone": "7205689976",
+   "emails": [
+    "reception@afdenver.org"
+   ],
+   "url": "http://www.afdenver.org/",
+   "so": false
+  },
+  {
+   "name": "Pluma Academy",
+   "city": "Denver",
+   "cp": "",
+   "city_cp": "",
+   "address": "940 Fillmore Street, 80206 Denver",
+   "address_lines": [
+    "940 Fillmore Street",
+    "80206 Denver"
+   ],
+   "phone": "3039138011",
+   "emails": [
+    "info@plumaacademy.com"
+   ],
+   "url": "https://plumaacademy.com/",
+   "so": false
+  },
+  {
+   "name": "Duke University Department of Romance Studies",
+   "city": "Durham",
+   "cp": "",
+   "city_cp": "",
+   "address": "205 Language Bldg, Campus Box 90257, 27708 Durham",
+   "address_lines": [
+    "205 Language Bldg, Campus Box 90257",
+    "27708 Durham"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Prince George's County Public Schools",
+   "city": "Fort Washington",
+   "cp": "",
+   "city_cp": "",
+   "address": "Immersion Programs Office - 8700 Allentown Rd., 20744 Fort Washington",
+   "address_lines": [
+    "Immersion Programs Office - 8700 Allentown Rd.",
+    "20744 Fort Washington"
+   ],
+   "phone": "2404555899",
+   "emails": [
+    "Immersion.programs@pgcps.org"
+   ],
+   "url": "http://www1.pgcps.org/",
+   "so": false
+  },
+  {
+   "name": "Fort Worth Country Day (FWCD)",
+   "city": "Fort Worth",
+   "cp": "",
+   "city_cp": "",
+   "address": "4200 Country Day Ln, 76109 Fort Worth",
+   "address_lines": [
+    "4200 Country Day Ln",
+    "76109 Fort Worth"
+   ],
+   "phone": "8177327718",
+   "emails": [],
+   "url": "https://www.fwcd.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Houston",
+   "city": "Houston",
+   "cp": "",
+   "city_cp": "",
+   "address": "427 Lovett Blvd, 77006 Houston",
+   "address_lines": [
+    "427 Lovett Blvd",
+    "77006 Houston"
+   ],
+   "phone": "713-526-1121",
+   "emails": [
+    "exams@alliancehouston.org"
+   ],
+   "url": "https://www.alliancehouston.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Westchester",
+   "city": "Mamaroneck",
+   "cp": "",
+   "city_cp": "",
+   "address": "944 The Parkway, 10543 Mamaroneck",
+   "address_lines": [
+    "944 The Parkway",
+    "10543 Mamaroneck"
+   ],
+   "phone": "9146818735",
+   "emails": [],
+   "url": "http://afwestchesterny.org/",
+   "so": false
+  },
+  {
+   "name": "French American School of Puget Sound",
+   "city": "Mercer Island",
+   "cp": "",
+   "city_cp": "",
+   "address": "3795 East Mercer Way, 98040 Mercer Island",
+   "address_lines": [
+    "3795 East Mercer Way",
+    "98040 Mercer Island"
+   ],
+   "phone": "(202)275-3533",
+   "emails": [
+    "faspsdelfdalf@fasps.org"
+   ],
+   "url": "http://www.fasps.org",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Miami Metro",
+   "city": "Miami",
+   "cp": "",
+   "city_cp": "",
+   "address": "100 N Biscayne Blvd - Suite 2120, 33132 Miami",
+   "address_lines": [
+    "100 N Biscayne Blvd - Suite 2120",
+    "33132 Miami"
+   ],
+   "phone": "3054176243",
+   "emails": [
+    "info@af-miami.org"
+   ],
+   "url": "http://www.af-miami.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Milwaukee",
+   "city": "Milwaukee",
+   "cp": "",
+   "city_cp": "",
+   "address": "1800 E. Capitol Drive, 53211 Milwaukee",
+   "address_lines": [
+    "1800 E. Capitol Drive",
+    "53211 Milwaukee"
+   ],
+   "phone": "414-431-0952",
+   "emails": [],
+   "url": "http://www.afmilwaukee.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Mpls/St Paul",
+   "city": "Minneapolis",
+   "cp": "",
+   "city_cp": "",
+   "address": "227 Colfax Ave N, 55405 Minneapolis",
+   "address_lines": [
+    "227 Colfax Ave N",
+    "55405 Minneapolis"
+   ],
+   "phone": "16123320436",
+   "emails": [
+    "bonjour@afmsp.org"
+   ],
+   "url": "http://www.afmsp.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de la Nouvelle Orléans",
+   "city": "New Orleans",
+   "cp": "",
+   "city_cp": "",
+   "address": "1519 Jackson Ave, 70130 New Orleans",
+   "address_lines": [
+    "1519 Jackson Ave",
+    "70130 New Orleans"
+   ],
+   "phone": "5045680770",
+   "emails": [
+    "afno@af-neworleans.org"
+   ],
+   "url": "http://www.af-neworleans.org/",
+   "so": false
+  },
+  {
+   "name": "L'Alliance New York",
+   "city": "New York",
+   "cp": "",
+   "city_cp": "",
+   "address": "22 E 60th St, 10022 New York",
+   "address_lines": [
+    "22 E 60th St",
+    "10022 New York"
+   ],
+   "phone": "6463886691",
+   "emails": [
+    "languagecenter@lallianceny.org"
+   ],
+   "url": "http://www.lallianceny.org/",
+   "so": false
+  },
+  {
+   "name": "Consortium of Louisiana Immersion Schools (LCIS)",
+   "city": "Opelousas",
+   "cp": "",
+   "city_cp": "",
+   "address": "156 Camelia drive, 70570 Opelousas",
+   "address_lines": [
+    "156 Camelia drive",
+    "70570 Opelousas"
+   ],
+   "phone": "3373516775",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Pasadena",
+   "city": "Pasadena",
+   "cp": "",
+   "city_cp": "",
+   "address": "232 N Lake Ave, #105, 91101 Pasadena",
+   "address_lines": [
+    "232 N Lake Ave, #105",
+    "91101 Pasadena"
+   ],
+   "phone": "8333863911",
+   "emails": [
+    "afdepasadena@gmail.com"
+   ],
+   "url": "http://afdepasadena.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Philadelphia",
+   "city": "Philadelphia",
+   "cp": "",
+   "city_cp": "",
+   "address": "1420 Walnut St, Suite 700, 19102 Philadelphia",
+   "address_lines": [
+    "1420 Walnut St, Suite 700",
+    "19102 Philadelphia"
+   ],
+   "phone": "2157355283",
+   "emails": [
+    "alliance@afphila.com"
+   ],
+   "url": "http://www.afphila.com/",
+   "so": false
+  },
+  {
+   "name": "Department of French and Italian, University of Pittsburgh",
+   "city": "Pittsburgh",
+   "cp": "",
+   "city_cp": "",
+   "address": "4200 Fifth Avenue, 1325 Cathedral of Learning, 15260 Pittsburgh",
+   "address_lines": [
+    "4200 Fifth Avenue, 1325 Cathedral of Learning",
+    "15260 Pittsburgh"
+   ],
+   "phone": "4126245220",
+   "emails": [],
+   "url": "https://www.frenchanditalian.pitt.edu/",
+   "so": false
+  },
+  {
+   "name": "French International School of Oregon",
+   "city": "Portland",
+   "cp": "",
+   "city_cp": "",
+   "address": "c/o French International School of Oregon, 8500 NW Johnson St, 97229 Portland",
+   "address_lines": [
+    "c/o French International School of Oregon, 8500 NW Johnson St",
+    "97229 Portland"
+   ],
+   "phone": "5032927776",
+   "emails": [],
+   "url": "http://www.frenchintl.org/",
+   "so": false
+  },
+  {
+   "name": "Le Monde French Immersion Public Charter School",
+   "city": "Portland",
+   "cp": "",
+   "city_cp": "",
+   "address": "2044 E Burnside St, 97214 Portland",
+   "address_lines": [
+    "2044 E Burnside St",
+    "97214 Portland"
+   ],
+   "phone": "5034677529",
+   "emails": [],
+   "url": "http://www.lemondeimmersion.org/",
+   "so": false
+  },
+  {
+   "name": "Brown University - Department of French and Francophone Studies",
+   "city": "Providence",
+   "cp": "",
+   "city_cp": "",
+   "address": "Box 1961, 84 Prospect Street, 02912 Providence",
+   "address_lines": [
+    "Box 1961, 84 Prospect Street",
+    "02912 Providence"
+   ],
+   "phone": "4018632567",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "French American School of Tampa Bay",
+   "city": "Saint Petersburg",
+   "cp": "",
+   "city_cp": "",
+   "address": "2100 62nd Ave N, 33702 Saint Petersburg",
+   "address_lines": [
+    "2100 62nd Ave N",
+    "33702 Saint Petersburg"
+   ],
+   "phone": "7278002159",
+   "emails": [
+    "delf@frenchschool.me"
+   ],
+   "url": "http://www.fastb.org",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de San Diego",
+   "city": "San Diego",
+   "cp": "",
+   "city_cp": "",
+   "address": "6390 Greenwich Dr, #185,, CA 92122. San Diego",
+   "address_lines": [
+    "6390 Greenwich Dr, #185,",
+    "CA 92122. San Diego"
+   ],
+   "phone": "(619) 806 6719",
+   "emails": [
+    "certifications@afsandiego.org"
+   ],
+   "url": "https://www.afsandiego.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de San Francisco",
+   "city": "San Francisco",
+   "cp": "",
+   "city_cp": "",
+   "address": "1345 Bush St, 94109 San Francisco",
+   "address_lines": [
+    "1345 Bush St",
+    "94109 San Francisco"
+   ],
+   "phone": "4157757755",
+   "emails": [
+    "exams@afsf.com"
+   ],
+   "url": "http://www.afsf.com/",
+   "so": false
+  },
+  {
+   "name": "Lycée Français de San Francisco",
+   "city": "San Francisco",
+   "cp": "",
+   "city_cp": "",
+   "address": "1201 Ortega St, 94122 San Francisco",
+   "address_lines": [
+    "1201 Ortega St",
+    "94122 San Francisco"
+   ],
+   "phone": "4156615232",
+   "emails": [],
+   "url": "http://www.lelycee.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Porto Rico",
+   "city": "San Juan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Rosario #206, 00911 San Juan",
+   "address_lines": [
+    "Calle Rosario #206",
+    "00911 San Juan"
+   ],
+   "phone": "7877223174",
+   "emails": [
+    "cursos.afpr@gmail.com"
+   ],
+   "url": "http://www.afpuertorico.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Seattle",
+   "city": "Seattle",
+   "cp": "",
+   "city_cp": "",
+   "address": "4649 Sunnyside Ave N, Suite 205, 98103 Seattle",
+   "address_lines": [
+    "4649 Sunnyside Ave N, Suite 205",
+    "98103 Seattle"
+   ],
+   "phone": "2066325433",
+   "emails": [
+    "info@afseattle.org"
+   ],
+   "url": "http://www.afseattle.org/",
+   "so": false
+  },
+  {
+   "name": "École Française du Maine",
+   "city": "South Freeport",
+   "cp": "",
+   "city_cp": "",
+   "address": "99 South Freeport Road, 045178 South Freeport",
+   "address_lines": [
+    "99 South Freeport Road",
+    "045178 South Freeport"
+   ],
+   "phone": "6565658978",
+   "emails": [],
+   "url": "http://www.efdm.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Saint Louis",
+   "city": "St. Louis",
+   "cp": "",
+   "city_cp": "",
+   "address": "930 North McKnight Rd., 63132 St. Louis",
+   "address_lines": [
+    "930 North McKnight Rd.",
+    "63132 St. Louis"
+   ],
+   "phone": "3144320734",
+   "emails": [
+    "director@alliancestl.org"
+   ],
+   "url": "https://www.alliancestl.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Washington",
+   "city": "Washington",
+   "cp": "",
+   "city_cp": "",
+   "address": "2142 Wyoming Ave NW, 20008 Washington",
+   "address_lines": [
+    "2142 Wyoming Ave NW",
+    "20008 Washington"
+   ],
+   "phone": "2022347911",
+   "emails": [
+    "certifications@francedc.org"
+   ],
+   "url": "http://www.francedc.org/",
+   "so": false
+  },
+  {
+   "name": "Howard University",
+   "city": "Washington",
+   "cp": "",
+   "city_cp": "",
+   "address": "2400 6th St NW, 20059 Washington,",
+   "address_lines": [
+    "2400 6th St NW",
+    "20059 Washington,"
+   ],
+   "phone": "2027257513",
+   "emails": [],
+   "url": "https://wlc.howard.edu/",
+   "so": false
+  },
+  {
+   "name": "Fédération FLAM USA",
+   "city": "Waterown",
+   "cp": "",
+   "city_cp": "",
+   "address": "2.Rosary Drive, 02472 Waterown",
+   "address_lines": [
+    "2.Rosary Drive",
+    "02472 Waterown"
+   ],
+   "phone": "17705577009",
+   "emails": [
+    "president@flamusa.org"
+   ],
+   "url": "http://www.flamusa.com/",
+   "so": false
+  }
+ ]
+}
