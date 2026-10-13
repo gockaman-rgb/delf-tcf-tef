@@ -1,0 +1,62 @@
+{
+ "country": "Égypte",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-13",
+ "source": "FEI, liste par pays (lecture navigateur 13/10/2026)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français d'Egypte à Alexandrie",
+   "city": "Alexandrie",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 rue Nabi Daniel Mahatet El-Raml, 21500 Alexandrie",
+   "address_lines": [
+    "30 rue Nabi Daniel Mahatet El-Raml",
+    "21500 Alexandrie"
+   ],
+   "phone": "20-1220164777",
+   "emails": [
+    "cours.alex@ifegypte.com"
+   ],
+   "url": "http://ifegypte.com/",
+   "so": true
+  },
+  {
+   "name": "Héliopolis, Institut français",
+   "city": "Le Caire",
+   "cp": "",
+   "city_cp": "",
+   "address": "5, rue Chafik El Dib Ard El Golf Héliopolis, Le Caire",
+   "address_lines": [
+    "5, rue Chafik El Dib Ard El Golf Héliopolis",
+    "Le Caire"
+   ],
+   "phone": "20-12-86-80-30-43",
+   "emails": [
+    "heliopolis@ifegypte.com"
+   ],
+   "url": "http://ifegypte.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Egypte",
+   "city": "Le Caire",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Rue Madrasset Al Huquq El Frinseya - Mounira, 11562 Le Caire",
+   "address_lines": [
+    "1 Rue Madrasset Al Huquq El Frinseya - Mounira",
+    "11562 Le Caire"
+   ],
+   "phone": "20-22-79-15-800",
+   "emails": [
+    "infoexamens@ifegypte.com"
+   ],
+   "url": "http://ifegypte.com/",
+   "so": true
+  }
+ ]
+}

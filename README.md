@@ -225,3 +225,23 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
 - **Restent à trancher sur le français** : le sujet type de la tâche 2 de l'oral du TCF Canada (un récit de voyage,
   alors que la tâche est une interaction) ; le niveau exigé pour la carte pluriannuelle avant 2026 (« aucun » ou
   « A2 » selon les pages) ; l'échelle du TEF IRN (699 ou 499).
+
+## Pages en arabe et pages Golfe/Levant en anglais (13/10/2026)
+
+17 pages : `/ar/` (accueil) et 8 guides TCF Canada (`_build/i18n_pages_ar.py`, rendus par `make_i18n.py`), 4 pages
+pays en arabe — Émirats, Arabie saoudite, Égypte, Liban — (`_build/pays_config_ar.py`, `make_pays.py`) et leurs 4
+pendants anglais (`/en/tcf-canada-saudi-arabia/`, `-egypt/`, `-lebanon/`, `/en/delf-dubai/`) ; section TEF Canada
+sur `/en/tcf-canada-dubai/`.
+
+- **Droite-à-gauche** : `UI["ar"]` (`<html lang="ar" dir="rtl">`, `HEADER_AR`/`FOOTER_AR`, séparateur de fil
+  d'Ariane « / ») dans `article_template.py` ; un bloc `html[dir="rtl"]` en fin de `style.css` miroite les règles
+  gauche/droite et retire l'interlettrage (il casse la liaison des lettres). Rien ne change pour fr/es/en.
+- **Pages sans original français** : clé `pair="/en/…/"` sur la spec arabe ; `i18n_registry.alternates_for_pair()`
+  donne hreflang en + ar (x-default = en) aux deux côtés.
+- **Images OG arabes** : `swift _build/og_ar.swift _build/og_ar.json [--force]` (CoreText ; Pillow, sans raqm, ne
+  lie pas l'arabe). Les images anglaises restent dans `make_og.py`.
+- **Données** : `tcf_arabie_saoudite.json`, `delf_emirats.json`, `tcf_egypte_v2.json`, `tcf_liban_v2.json` (liste
+  FEI lue le 13/10/2026 ; ids Arabie saoudite 100, Égypte 116, Liban 106). Les fichiers du 19/09 restent pour
+  `/centres/tcf-moyen-orient/`.
+- **Contrôle** : `check_i18n.py` vérifie aussi, sur toute page `/ar/`, les plages de nombres, « n+ » et téléphones
+  hors isolat, et les hreflang des paires arabe ↔ anglais. Règles et glossaire : `_build/i18n_glossary.md`.

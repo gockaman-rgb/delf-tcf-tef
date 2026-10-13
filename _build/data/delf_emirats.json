@@ -1,0 +1,78 @@
+{
+ "country": "Émirats arabes unis",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 4,
+ "date": "2026-10-13",
+ "source": "FEI, liste par pays (lecture navigateur 13/10/2026)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Abu Dhabi",
+  "address": "Etihad Tower 3 - 22nd floor Abu Dhabi",
+  "phone": "+971501064231",
+  "emails": [],
+  "url": "http://www.if-uae.com/"
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Abu Dhabi",
+   "city": "Abu Dhabi",
+   "cp": "",
+   "city_cp": "",
+   "address": "In front of Nissan Showroom - 99 - Villa A1 Al Qouʻ St - Al Bateen Abu Dhabi",
+   "address_lines": [
+    "In front of Nissan Showroom - 99 - Villa A1 Al Qouʻ St - Al Bateen Abu Dhabi"
+   ],
+   "phone": "+97126122911",
+   "emails": [
+    "exams@afabudhabi.org"
+   ],
+   "url": "https://afabudhabi.org/",
+   "so": false
+  },
+  {
+   "name": "Institut français des Emirats Arabes Unis",
+   "city": "Abu Dhabi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Etihad Tower 3 - 22nd floor Abu Dhabi",
+   "address_lines": [
+    "Etihad Tower 3 - 22nd floor Abu Dhabi"
+   ],
+   "phone": "+97128131036",
+   "emails": [],
+   "url": "https://www.institutfrancais-uae.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Dubai",
+   "city": "Dubai",
+   "cp": "",
+   "city_cp": "",
+   "address": "18th St - Oud Metha Dubai",
+   "address_lines": [
+    "18th St - Oud Metha Dubai"
+   ],
+   "phone": "+97143358712",
+   "emails": [
+    "admin.language@afdubai.org"
+   ],
+   "url": "https://www.afdubai.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Sharjah",
+   "city": "Sharjah",
+   "cp": "",
+   "city_cp": "",
+   "address": "Department of Government Relation of Sharjah. Dasman Sharjah",
+   "address_lines": [
+    "Department of Government Relation of Sharjah. Dasman Sharjah"
+   ],
+   "phone": "585820875",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Registre des traductions (08/10/2026) : quelle page française a quelle version /es/ ou /en/.
+"""Registre des traductions (08/10/2026, arabe le 13/10) : quelle page française a quelle version /es/, /en/ ou /ar/.
 
 Chaque spec traduite porte le chemin de son original (fr_path). Les sources : pays_config_es / pays_config_en
 (pages pays, make_pays.py) et i18n_pages_es / i18n_pages_en (guides et pages d'examen, make_i18n.py). Une page
@@ -11,8 +11,8 @@ françaises écrites à la main ; check_i18n.py pour contrôler les paires.
 """
 import importlib
 
-SOURCES = ("pays_config_es", "pays_config_en", "i18n_pages_es", "i18n_pages_en")
-LINK_LABEL = {"fr": "Lire en français", "es": "Leer en español", "en": "Read in English"}
+SOURCES = ("pays_config_es", "pays_config_en", "i18n_pages_es", "i18n_pages_en", "pays_config_ar", "i18n_pages_ar")
+LINK_LABEL = {"fr": "Lire en français", "es": "Leer en español", "en": "Read in English", "ar": "اقرأ بالعربية"}
 
 
 def specs():
@@ -48,6 +48,30 @@ def alternates_for(fr_path, tr=None, current="fr"):
         return None, None
     alts = [("fr", fr_path)] + tr[fr_path] + [("x-default", fr_path)]
     others = [("fr", fr_path)] + tr[fr_path]
-    links = '<p class="langs">' + " · ".join(f'<a href="{p}" hreflang="{l}" lang="{l}">{LINK_LABEL[l]}</a>'
-                                            for l, p in others if l != current) + "</p>"
-    return alts, links
+    return alts, langs_line(others, current)
+
+
+def langs_line(others, current):
+    """La ligne visible « Read in English · Leer en español … » (le lien arabe porte dir="rtl")."""
+    return '<p class="langs">' + " · ".join(
+        f'<a href="{p}" hreflang="{l}" lang="{l}"' + (' dir="rtl"' if l == "ar" else "") + f">{LINK_LABEL[l]}</a>"
+        for l, p in others if l != current) + "</p>"
+
+
+def pairs():
+    """Pages sans original français reliées entre elles (13/10/2026 : pages Golfe/Levant arabes ↔ anglaises).
+    La spec arabe porte pair="/en/…/" ; renvoie {chemin anglais: [(lang, chemin), …]}."""
+    pr = {}
+    for p in specs():
+        if p.get("pair") and not p.get("fr_path"):
+            pr.setdefault(p["pair"], []).append((p["lang"], path_of(p)))
+    return pr
+
+
+def alternates_for_pair(path, current):
+    """hreflang et ligne de langue d'une page appariée sans français : en + autres, x-default = l'anglais."""
+    for en, others in pairs().items():
+        group = [("en", en)] + others
+        if any(p == path for _, p in group):
+            return group + [("x-default", en)], langs_line(group, current)
+    return None, None

@@ -28,7 +28,7 @@ BADGES = {
 }
 
 # « Non relevé » : non publié, ou non vérifié.
-NR = {"es": "sin datos", "en": "no data"}
+NR = {"es": "sin datos", "en": "no data", "ar": "لم يُنشر"}
 
 OG_LOCALE = {"Espagne": "es_ES", "Mexique": "es_MX", "Colombie": "es_CO", "Argentine": "es_AR", "Chili": "es_CL",
              "Pérou": "es_PE", "Équateur": "es_EC", "États-Unis": "en_US", "Royaume-Uni": "en_GB", "Canada": "en_CA"}
@@ -64,6 +64,6 @@ def canada(fr_slug, **kw):
 
 def releve(rows, variant, caption):
     head = (["Centro", "Versiones", "Precio", "Convocatorias y matrícula" if variant == "es-ES" else "Sesiones e inscripción"]
-            if variant.startswith("es") else
+            if variant.startswith("es") else ["المركز", "النسخ", "السعر", "الجلسات والتسجيل"] if variant == "ar" else
             ["Center" if variant == "en-US" else "Centre", "Versions", "Price", "Sessions and registration"])
     return table(caption, head, [(f"<strong>{a}</strong>", b, c, d) for a, b, c, d in rows])

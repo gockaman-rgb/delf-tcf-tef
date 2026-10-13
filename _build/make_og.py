@@ -188,6 +188,11 @@ PAGES = [
     # dates (19/09/2026)
     ("tcf-canada-dates-2026", "Dates TCF Canada 2026", "0", "calendrier national : les dates sont celles des centres"),
     ("calendrier-delf-dalf-2026-2027", "Calendrier DELF-DALF 2026-2027", "10", "sessions par an, jamais en avril ni en septembre"),
+    # Golfe et Levant en anglais (13/10/2026) ; les images arabes sont rendues par og_ar.swift (og_ar.json)
+    ("en-tcf-canada-saudi-arabia", "TCF Canada · Saudi Arabia", "1,950", "SAR · Jeddah and Riyadh"),
+    ("en-tcf-canada-egypt", "TCF Canada · Egypt", "3", "centres · Cairo and Alexandria"),
+    ("en-tcf-canada-lebanon", "TCF Canada · Lebanon", "6", "Institut français centres"),
+    ("en-delf-dubai", "DELF · Dubai", "680", "AED for the DELF B2 · 11 Dec 2026"),
 ]
 
 

@@ -1,0 +1,15 @@
+[
+ ["ar-hub", "دليل امتحان TCF Canada بالعربية", "NCLC 7", "الدليل والمراكز والأسعار"],
+ ["ar-tcf-canada", "امتحان TCF كندا", "4", "اختبارات · الأقسام والدرجات وNCLC"],
+ ["ar-tcf-canada-nclc", "درجات TCF Canada وNCLC", "458", "في فهم المسموع لبلوغ NCLC 7"],
+ ["ar-tcf-canada-practice-test", "امتحان TCF تجريبي", "4", "اختبارات بالصيغة الرسمية"],
+ ["ar-tcf-canada-preparation", "التحضير لـ TCF Canada", "NCLC 7", "من أين تبدأ وكم من الوقت تحتاج"],
+ ["ar-tcf-canada-writing", "التعبير الكتابي في TCF", "3", "مهام · عدد الكلمات ومواضيع نموذجية"],
+ ["ar-tcf-canada-speaking", "التعبير الشفهي في TCF", "12", "دقيقة لثلاث مهام"],
+ ["ar-tcf-or-tef-canada", "TCF أم TEF Canada؟", "2", "اختباران تقبلهما IRCC"],
+ ["ar-tcf-canada-price", "سعر امتحان TCF Canada", null, "الرسوم بلدًا بلدًا وطريقة الحجز"],
+ ["ar-tcf-canada-uae", "TCF Canada في الإمارات", "1800", "درهم · دبي وأبوظبي"],
+ ["ar-tcf-canada-saudi-arabia", "TCF Canada في السعودية", "1950", "ريالًا · جدة والرياض"],
+ ["ar-tcf-canada-egypt", "TCF Canada في مصر", "3", "مراكز · القاهرة والإسكندرية"],
+ ["ar-tcf-canada-lebanon", "TCF Canada في لبنان", "6", "مراكز للمعهد الفرنسي"]
+]

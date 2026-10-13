@@ -726,6 +726,7 @@ Lucknow’s page says the TEF Canada fee — ₹26,000 including GST — is the 
 # ===========================================================================
 PAGES.append(dict(
     lang="en", variant="en-GB", og_locale="en_AE", fr_path=None, slug="tcf-canada-dubai",
+    list_date="8 October 2026", releve_date="8 October 2026", date_label="13 October 2026", modified="2026-10-13",
     country_name="United Arab Emirates", exam="tcf", file="tcf_emirats", layout="cities",
     crumb="TCF Canada in Dubai and Abu Dhabi",
     title="TCF Canada in Dubai and Abu Dhabi: 1,800 AED, dates",
@@ -765,6 +766,14 @@ Abu Dhabi centre (Al Bateen), on computer, for <strong>1,800 AED</strong>: <stro
 <strong>Wednesday 16 December 2026</strong> (15 October–6 December). Its calendar also lists the TCF IRN (1,380 AED) and
 the TCF tout public (900 AED). You pick a date and book online; results come “a few weeks later”. The site publishes no
 cancellation or re-marking rule. The TCF row of its calendar lists only the Abu Dhabi centre.</p>"""),
+        ("tef-canada", "TEF Canada in Dubai and Abu Dhabi", """<p>The <a href="/en/tef-canada/">TEF Canada</a> — the
+other French test IRCC accepts — is run by Le français des affaires (CCI Paris Île-de-France), not by France Éducation
+international, so its centres are not on the list below. On 13 October 2026, the <strong>Alliance Française de
+Dubai</strong> listed the TEF Canada among its “accepted tests”, next to the TCF Canada and the TCF Québec, with a booking
+button, and the <strong>Alliance Française Abu Dhabi</strong> had a TEF Canada page. Neither page showed a date or a fee
+that day, and we did not search the official TEF Canada directory (it shows results only after a search form is submitted): check dates and fees on
+the Alliances’ booking pages. Which of the two tests suits you is on our <a href="/en/tcf-vs-tef-canada/">TCF vs TEF
+Canada</a> page.</p>"""),
     ],
     list_title="The {n} approved TCF centres in the UAE",
     faq=[("Where can I take the TCF Canada in Dubai?", "At the Alliance Française de Dubai, which holds it at Oud Metha (18th Street) and Dubai Knowledge Park (Block 2B), on computer, for 1,800 AED. On 8 October 2026 the 20, 21 and 27 October sessions were full; the first open session was Friday 30 October, with registration until 21 October."),
@@ -775,13 +784,230 @@ cancellation or re-marking rule. The TCF row of its calendar lists only the Abu 
     also=[("/en/tcf-canada-india/", "TCF Canada in India", "Five Alliances, ₹26,000, the next dates."),
           ("/en/tcf-canada/fees-registration/", "TCF Canada fees and registration", "Fees country by country, and how booking works."),
           ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Measure your level before you pay 1,800 AED.")],
-    sources="the websites of the Alliance Française de Dubai (Canada immigration exams page, TCF Canada booking page, September–December 2026 calendar) and of the Alliance Française Abu Dhabi (TCF page, TCF Canada booking page, 2026 exam calendar), checked on 8 October 2026.",
+    sources="the websites of the Alliance Française de Dubai (Canada immigration exams page, TCF Canada booking page, September–December 2026 calendar) and of the Alliance Française Abu Dhabi (TCF page, TCF Canada booking page, 2026 exam calendar), checked on 8 October 2026; their TEF Canada pages (afdubai.org Canada immigration exams page, afabudhabi.org/tef/), checked on 13 October 2026.",
     badges={"abou-dhabi-french-ambassy-institut-francais-antenne-afad": _CA,
             "dubai-alliance-francaise-de-dubai-centre-1": _CA, "dubai-alliance-francaise-de-dubai-centre-2": _CA,
             "al-ain-alliance-francais-d-abu-dhabi-antenne-al-ain": [("part", "TCF not listed at Al Ain")]},
     urls={"abou-dhabi-french-ambassy-institut-francais-antenne-afad": "https://www.afabudhabi.org/tcf/",
           "dubai-alliance-francaise-de-dubai-centre-1": "https://www.afdubai.org/canada-immigration-exams-alliance-francaise-dubai/tcf-canada-exam/",
           "dubai-alliance-francaise-de-dubai-centre-2": "https://www.afdubai.org/canada-immigration-exams-alliance-francaise-dubai/tcf-canada-exam/"},
+))
+
+
+# ===========================================================================
+# GULF AND LEVANT (13/10/2026) — no French equivalent page; paired with the Arabic pages (pair=…)
+# FEI list read on 13 October 2026 (ids: Égypte 116, Liban 106, Arabie saoudite 100) ; centres' websites read the same day.
+# ===========================================================================
+ME = dict(list_date="13 October 2026", releve_date="13 October 2026", date_label="13 October 2026", published="2026-10-13")
+
+PAGES.append(dict(ME,
+    lang="en", variant="en-GB", og_locale="en_SA", fr_path=None, slug="tcf-canada-saudi-arabia",
+    country_name="Saudi Arabia", exam="tcf", file="tcf_arabie_saoudite", layout="cities",
+    crumb="TCF Canada in Saudi Arabia",
+    title="TCF Canada in Saudi Arabia: Jeddah, Riyadh, 1,950 SAR",
+    desc="TCF Canada in Saudi Arabia: the Alliance française d’Arabie Saoudite (Al Khobar, Jeddah, Riyadh), 1,950 SAR, the next sessions and the booking rules.",
+    h1="TCF Canada in Saudi Arabia: the centres, the fee and the next sessions",
+    intro="""Yes, you can take the TCF Canada in Saudi Arabia. On 13 October 2026, France Éducation international listed
+{n} approved TCF centres in the country, all run by the <strong>Alliance française d’Arabie Saoudite</strong> (AFAS):
+Al Khobar, Jeddah and Riyadh. Its booking platform showed a <strong>TCF Canada in Jeddah on Tuesday 20 October</strong>,
+on computer, and an <strong>e-TCF Canada in Riyadh on Thursday 12 November</strong>, already marked “Full” — both at
+<strong>1,950 SAR</strong>; the Jeddah listing states “No postponement, no refund, no change of date allowed.”""",
+    facts=["<strong>{n} approved TCF centres</strong> (FEI list of 13 October 2026), all Alliance française d’Arabie Saoudite: Al Khobar, Jeddah, Riyadh; computer sessions in Jeddah and Riyadh.",
+           "Fee: <strong>1,950 SAR</strong> for the TCF Canada, the e-TCF Canada, the TCF tout public and the e-TEF Canada.",
+           "Jeddah: TCF Canada on <strong>Tuesday 20 October 2026</strong>, 10:00 to 15:00, computer-based.",
+           "Riyadh: e-TCF Canada on <strong>Thursday 12 November 2026</strong> at the Ar-Rabih venue — <strong>full</strong> on 13 October; registration closes 7 working days before the test.",
+           "Jeddah TCF Canada: “No postponement, no refund, no change of date allowed.” We did not find the results delay on the AFAS site or platform."],
+    stats=[("{n}", "approved TCF centres", "Al Khobar, Jeddah, Riyadh"), ("1,950 SAR", "TCF Canada", "Jeddah and Riyadh"),
+           ("20 Oct", "TCF Canada in Jeddah", "computer-based"), ("12 Nov", "e-TCF Canada in Riyadh", "full on 13 Oct")],
+    sections=[
+        ("sessions", "The sessions on the AFAS platform", table(
+            "French test sessions on the booking platform of the Alliance française d’Arabie Saoudite (afas.extranet-aec.com), read on 13 October 2026. Fees in Saudi riyals.",
+            ["Date", "Test", "Venue", "Fee", "Status"],
+            [("<strong>Tue 20 Oct 2026</strong>, 10:00–15:00", "<strong>TCF Canada</strong>, computer-based", "Jeddah (Hayy Jameel, Mohammadiyah)", "1,950 SAR", "listed"),
+             ("Thu 22 Oct 2026, 10:00–13:00", "TCF tout public", "Jeddah", "1,950 SAR", "listed"),
+             ("<strong>Thu 12 Nov 2026</strong>, 13:00–17:30", "<strong>e-TCF Canada</strong>, computer-based", "Riyadh (Ar-Rabih)", "1,950 SAR", "<strong>full</strong>"),
+             ("Thu 19 Nov 2026, 12:30–17:30", "e-TEF Canada", "Riyadh (Ar-Rabih)", "1,950 SAR", "<strong>full</strong>")], wide=False) + """
+<p>You register online, on the AFAS platform linked from the exams page of
+<a href="https://www.af-ksa.org/en/exams/" rel="noopener">af-ksa.org</a>. Read the conditions before paying: the Jeddah TCF Canada
+listing states “No postponement, no refund, no change of date allowed”, and for the e-TCF Canada, registration closes
+<strong>7 working days before the test date</strong> — earlier if all places are taken. One detail to know: the Ar-Rabih
+venue where AFAS schedules its e-TCF and e-TEF Canada sessions in Riyadh is not on France Éducation international’s list,
+which gives the AFAS Riyadh centre at Al Kindi Plaza (Gate 14, As-Safarat); ask AFAS if in doubt. No TCF session was
+listed for Al Khobar on 13 October.</p>"""),
+        ("gulf", "Elsewhere in the Gulf and the Levant", """<p>If the Saudi sessions are full, the nearest approved TCF
+centres on France Éducation international’s list of 13 October 2026 are in Bahrain (Alliance française, Manama), Qatar
+(Institut français, Doha), Kuwait (Institut français) and Jordan (Institut français, Amman) — one each; we did not check
+whether they offer the TCF Canada itself, so check their websites. Oman has no TCF centre on the list. The
+<a href="/en/tcf-canada-dubai/">United Arab Emirates</a> have four centres, two of them in Dubai; see also
+<a href="/en/tcf-canada-egypt/">Egypt</a> and <a href="/en/tcf-canada-lebanon/">Lebanon</a>.</p>"""),
+    ],
+    list_title="The {n} approved TCF centres in Saudi Arabia",
+    faq=[("Can I take the TCF Canada in Saudi Arabia?", "Yes. The Alliance française d’Arabie Saoudite runs it: on 13 October 2026 its platform listed a TCF Canada in Jeddah on Tuesday 20 October (computer-based) and an e-TCF Canada in Riyadh on Thursday 12 November, which was already full."),
+         ("How much does the TCF Canada cost in Saudi Arabia?", "1,950 SAR, as published on the AFAS booking platform on 13 October 2026 — the same fee as the TCF tout public and the e-TEF Canada."),
+         ("Can I get a refund or change my date?", "Not for the Jeddah TCF Canada: its listing states “No postponement, no refund, no change of date allowed.” For the e-TCF Canada, registration closes 7 working days before the test."),
+         ("Is the TEF Canada available in Saudi Arabia?", "AFAS listed an e-TEF Canada in Riyadh on Thursday 19 November 2026, at 1,950 SAR; it was full on 13 October."),
+         ("Is a TCF Canada taken in Saudi Arabia accepted by IRCC?", "Yes: the results certificate is issued by France Éducation international whichever approved centre you test at, and it is valid for two years.")],
+    also=[("/en/tcf-canada-dubai/", "TCF Canada in Dubai and Abu Dhabi", "Four centres, 1,800 AED."),
+          ("/en/tcf-canada/fees-registration/", "TCF Canada fees and registration", "Fees country by country, and how booking works."),
+          ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Measure your level before you pay 1,950 SAR.")],
+    sources="the website of the Alliance française d’Arabie Saoudite (af-ksa.org, exams page) and its booking platform afas.extranet-aec.com (TCF, TCF Canada, e-TCF Canada and e-TEF Canada sessions), checked on 13 October 2026.",
+    badges={"djeddah-alliance-francaise": _CA,
+            "riyadh-alliance-francaise-d-arabie-saoudite": [("ok", "e-TCF Canada (Ar-Rabih)"), ("part", "12 Nov full")],
+            "al-khobar-alliance-francaise-d-arabie-saoudite": [("part", "no TCF session listed")]},
+    urls={"djeddah-alliance-francaise": "https://www.af-ksa.org/en/exams/",
+          "riyadh-alliance-francaise-d-arabie-saoudite": "https://www.af-ksa.org/en/exams/",
+          "al-khobar-alliance-francaise-d-arabie-saoudite": "https://www.af-ksa.org/en/exams/"},
+))
+
+PAGES.append(dict(ME,
+    lang="en", variant="en-GB", og_locale="en_EG", fr_path=None, slug="tcf-canada-egypt",
+    country_name="Egypt", exam="tcf", file="tcf_egypte_v2", layout="cities",
+    crumb="TCF Canada in Egypt",
+    title="TCF Canada in Egypt 2026: Cairo, next session December",
+    desc="TCF Canada in Egypt: the Institut français d’Égypte (Cairo Mounira, Heliopolis, Alexandria), next session December 2026, registration and results.",
+    h1="TCF Canada in Egypt: the Institut français centres and the next session",
+    intro="""In Egypt, France Éducation international lists {n} approved TCF centres, all part of the <strong>Institut
+français d’Égypte</strong>: Cairo (Mounira and Heliopolis) and Alexandria. On 13 October 2026, its website announced the
+next TCF Canada session for <strong>December 2026</strong>, with registration <strong>closed</strong> for now. The fee is
+published only in a PDF calendar of dates and fees on the same site — check it there before registering. Results come
+in about four weeks.""",
+    facts=["<strong>{n} approved TCF centres</strong> (FEI list of 13 October 2026): Cairo – Mounira, Cairo – Heliopolis, Alexandria; computer sessions at Mounira and Alexandria.",
+           "TCF Canada: next session <strong>December 2026</strong>; “registration is currently closed” (13 October).",
+           "Fee: in the Institut’s PDF “Dates et tarifs du TCF” calendar only — not published on a web page.",
+           "Registration: an online form for each version, a copy of your passport, payment, then your exam invitation by email.",
+           "Results in about <strong>4 weeks</strong>; <strong>30 days</strong> between two TCF attempts."],
+    stats=[("{n}", "approved TCF centres", "Cairo and Alexandria"), ("Dec 2026", "next TCF Canada session", "registration closed on 13 Oct"),
+           ("~4 weeks", "results", "Institut français d’Égypte"), ("30 days", "between two attempts", "TCF")],
+    sections=[
+        ("sessions", "The TCF Canada at the Institut français d’Égypte", """<p>The Institut français d’Égypte publishes
+its sessions for all its centres on one page: on 13 October 2026, the TCF Canada had its own section — next to the TCF
+tout public, the TCF IRN, the TCF Québec and the e-TEF — announcing the <strong>next session in December 2026</strong>
+and stating that “registration is currently closed”. The exact date and the fee are in the institute’s PDF calendar
+(“Dates et tarifs du TCF”), which downloads as a file rather than opening, so we have not read it.</p>
+
+<p>Which centre runs it? The Mounira centre in Cairo has published TCF Canada results for past sessions; the TCF Canada
+results sections of Alexandria and Heliopolis were empty on 13 October, so we have not confirmed that they hold the TCF
+Canada. You register with an online form for the version you want, then send a copy of your passport and pay; your exam
+invitation arrives by email. Results come “within about 4 weeks” of the test, and you must wait 30 days between two
+TCF attempts. The institute also offers the TEF Canada (e-TEF), with registration closed on 13 October.</p>"""),
+    ],
+    list_title="The {n} approved TCF centres in Egypt",
+    faq=[("Where can I take the TCF Canada in Egypt?", "At the Institut français d’Égypte. FEI lists three approved TCF centres (Cairo – Mounira, Cairo – Heliopolis, Alexandria); Mounira has published TCF Canada results, while the TCF Canada results sections of the other two were empty on 13 October 2026."),
+         ("When is the next TCF Canada session in Egypt?", "December 2026, according to the Institut français d’Égypte’s website on 13 October 2026; registration was closed that day. The exact date is in its PDF calendar."),
+         ("How much does the TCF Canada cost in Egypt?", "The Institut français d’Égypte publishes its TCF fees in a PDF calendar (“Dates et tarifs du TCF”), not on a web page; we could not read it, so check it on ifegypte.com before registering."),
+         ("How do I register?", "With the online form for the TCF Canada, a copy of your passport and the payment; your exam invitation is then sent by email."),
+         ("How long do results take?", "About four weeks after the test, according to the institute’s FAQ. The results certificate is valid for two years for IRCC.")],
+    also=[("/en/tcf-canada-lebanon/", "TCF Canada in Lebanon", "Six Institut français centres."),
+          ("/en/tcf-canada-saudi-arabia/", "TCF Canada in Saudi Arabia", "Jeddah and Riyadh, 1,950 SAR."),
+          ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Check your level before the December session.")],
+    sources="the website of the Institut français d’Égypte (ifegypte.com: upcoming sessions, exam results by centre, FAQ), checked on 13 October 2026.",
+    badges={"le-caire-institut-francais-d-egypte": _CA,
+            "le-caire-heliopolis-institut-francais": [("part", "TCF Canada not confirmed")],
+            "alexandrie-institut-francais-d-egypte-a-alexandrie": [("part", "TCF Canada not confirmed")]},
+    urls={k: "https://www.ifegypte.com/prochaines-sessions/" for k in
+          ("le-caire-institut-francais-d-egypte", "le-caire-heliopolis-institut-francais", "alexandrie-institut-francais-d-egypte-a-alexandrie")},
+))
+
+PAGES.append(dict(ME,
+    lang="en", variant="en-GB", og_locale="en_LB", fr_path=None, slug="tcf-canada-lebanon",
+    country_name="Lebanon", exam="tcf", file="tcf_liban_v2", layout="cities",
+    crumb="TCF Canada in Lebanon",
+    title="TCF Canada in Lebanon: six Institut français centres",
+    desc="TCF Canada in Lebanon: the six Institut français du Liban centres (Beirut, Deir El Kamar, Jounieh, Saida, Tripoli, Zahlé), results delay and contacts.",
+    h1="TCF Canada in Lebanon: the six Institut français centres",
+    intro="""In Lebanon, the TCF is run by the <strong>Institut français du Liban</strong>, and France Éducation
+international lists {n} approved centres: Beirut, Deir El Kamar, Jounieh, Saida, Tripoli and Zahlé. On 13 October 2026,
+each of their exam pages named the <strong>TCF Canada</strong> among the versions offered, “as part of the Canadian immigration
+process”. Session dates are only in PDF calendars, and no fee is published as text; results arrive about six weeks after
+the test.""",
+    facts=["<strong>{n} approved centres</strong> (FEI list of 13 October 2026), all Institut français du Liban; computer sessions in Beirut, Deir El Kamar and Tripoli.",
+           "The <strong>TCF Canada</strong> is listed on all six exam pages, with the TCF tout public, the TCF Québec and the TCF IRN.",
+           "Results in about <strong>6 weeks</strong>; the certificate is collected in person at the Institut.",
+           "Dates: in PDF calendars only (Beirut, Jounieh and Saida for 2026; Zahlé’s is the 2024 one; none linked for Deir El Kamar and Tripoli); no fee published as text.",
+           "The results certificate is valid for two years for IRCC."],
+    stats=[("{n}", "centres", "TCF Canada listed at each"), ("3", "with computer sessions", "Beirut, Deir El Kamar, Tripoli"),
+           ("~6 weeks", "results", "collected in person"), ("2 years", "validity", "for IRCC")],
+    sections=[
+        ("centres", "What the Institut français du Liban publishes", """<p>Each of the six centres has its own exam page on
+institutfrancais-liban.com, with the same TCF text: the TCF tout public, the TCF Québec, the <strong>TCF Canada</strong>
+— “as part of the Canadian immigration process” — and the TCF IRN. The results are sent “about 6 weeks after
+the exams”, and the certificate is collected in person at the Institut.</p>
+
+<p>The calendars, however, are PDFs: Beirut, Jounieh and the South (Saida) link a 2026 TCF calendar, Zahlé still links
+its 2024 one, and Deir El Kamar and Tripoli link none. The pages don’t say how to register or by when, and publish no
+fee as text — so contact your centre (Beirut gives 01 420 272/3 on its page) before planning your application. If you
+prefer the other test IRCC accepts, see <a href="/en/tcf-vs-tef-canada/">TCF vs TEF Canada</a>.</p>"""),
+    ],
+    list_title="The {n} approved TCF centres in Lebanon",
+    faq=[("Where can I take the TCF Canada in Lebanon?", "At the Institut français du Liban, in any of its six approved centres: Beirut, Deir El Kamar, Jounieh, Saida, Tripoli and Zahlé. All six exam pages listed the TCF Canada on 13 October 2026."),
+         ("How much does the TCF Canada cost in Lebanon?", "The Institut français du Liban doesn’t publish its TCF fees as text on its exam pages; ask your centre (Beirut: 01 420 272/3)."),
+         ("Is the TCF Canada computer-based in Lebanon?", "FEI’s list shows computer sessions in Beirut, Deir El Kamar and Tripoli; the other three centres don’t declare that option."),
+         ("How long do results take?", "About six weeks after the test; the certificate is collected in person at the Institut français du Liban.")],
+    also=[("/en/tcf-canada-egypt/", "TCF Canada in Egypt", "Institut français d’Égypte, next session December 2026."),
+          ("/en/tcf-canada-dubai/", "TCF Canada in Dubai and Abu Dhabi", "Four centres, 1,800 AED."),
+          ("/en/tcf-canada/score-clb/", "TCF Canada scores and CLB", "The calculator and IRCC’s table.")],
+    sources="the exam pages of the six Institut français du Liban centres (institutfrancais-liban.com/examens/…), checked on 13 October 2026.",
+    badges={k: _CA for k in ("beyrouth-institut-francais-du-liban", "deir-el-kamar-institut-francais", "jounieh-institut-francais",
+                              "saida-institut-francais", "tripoli-institut-francais", "zahle-institut-francais")},
+    urls={"beyrouth-institut-francais-du-liban": "https://institutfrancais-liban.com/examens/beyrouth/",
+          "deir-el-kamar-institut-francais": "https://institutfrancais-liban.com/examens/deir-el-qamar/",
+          "jounieh-institut-francais": "https://institutfrancais-liban.com/examens/jounieh/",
+          "saida-institut-francais": "https://institutfrancais-liban.com/examens/sud/",
+          "tripoli-institut-francais": "https://institutfrancais-liban.com/examens/tripoli/",
+          "zahle-institut-francais": "https://institutfrancais-liban.com/examens/baalbeck-zahle/"},
+))
+
+PAGES.append(dict(ME,
+    lang="en", variant="en-GB", og_locale="en_AE", fr_path=None, slug="delf-dubai",
+    country_name="United Arab Emirates", exam="delf", file="delf_emirats", layout="cities",
+    crumb="DELF in Dubai and Abu Dhabi",
+    title="DELF in Dubai: 11 December 2026 session, DELF B2 680 AED",
+    desc="DELF and DALF in the UAE: the Alliance Française de Dubai’s 11 December 2026 session (B2 680 AED, C1 875 AED), the other approved centres, how to register.",
+    h1="DELF and DALF in Dubai and Abu Dhabi: the centres, the next session and the fees",
+    intro="""In the United Arab Emirates, France Éducation international lists {n} approved DELF-DALF centres —
+the Alliances Françaises of Dubai, Abu Dhabi and Sharjah and the Institut français des Émirats arabes unis — under a
+central body in Abu Dhabi. On 13 October 2026, the <strong>Alliance Française de Dubai</strong> published its next adult
+session: <strong>Friday 11 December 2026</strong>, at <strong>560 AED</strong> for A1 and A2, <strong>680 AED</strong>
+for B1 and B2 and <strong>875 AED</strong> for C1 and C2, with online registration. We found no adult date or fee on the
+other centres’ web pages that day.""",
+    facts=["<strong>{n} approved centres</strong> (FEI list of 13 October 2026): Alliance Française de Dubai, Alliance Française d’Abu Dhabi, Institut français des Émirats arabes unis (Abu Dhabi), Alliance Française de Sharjah.",
+           "Dubai, adults: <strong>Friday 11 December 2026</strong> — DELF A1 and A2 <strong>560 AED</strong>, DELF B1 and B2 <strong>680 AED</strong>, DALF C1 and C2 <strong>875 AED</strong>.",
+           "Registration online in Dubai (form and passport copy, first come, first served); fees non-refundable once registration has closed.",
+           "Alliance Française d’Abu Dhabi: DELF-DALF for adults, DELF Junior and DELF Prim; dates and fees in a PDF calendar only. No 2027 session published.",
+           "A DELF or DALF diploma is valid for life — but it is not accepted by IRCC for Express Entry (TCF Canada or TEF Canada only)."],
+    stats=[("{n}", "approved centres", "Dubai, Abu Dhabi, Sharjah"), ("11 Dec", "next adult session in Dubai", "2026"),
+           ("680 AED", "DELF B2 in Dubai", "560 AED for A1–A2"), ("875 AED", "DALF C1 or C2", "Dubai")],
+    sections=[
+        ("dubai", "The Alliance Française de Dubai session", table(
+            "DELF-DALF adult session on the Alliance Française de Dubai website, read on 13 October 2026 (Oud Metha, 18th Street). Fees in UAE dirhams.",
+            ["Exam", "Fee", "Session"],
+            [("DELF A1", "560 AED", "Fri 11 Dec 2026"), ("DELF A2", "560 AED", "Fri 11 Dec 2026"),
+             ("DELF B1", "680 AED", "Fri 11 Dec 2026"), ("<strong>DELF B2</strong>", "<strong>680 AED</strong>", "Fri 11 Dec 2026"),
+             ("DALF C1", "875 AED", "Fri 11 Dec 2026"), ("DALF C2", "875 AED", "Fri 11 Dec 2026")], wide=False) + """
+<p>The session is for adults only; you register online with the form and a copy of your passport, places are allocated
+first come, first served, and fees are not refundable once registration has closed. The DELF Prim and DELF Junior have
+their own pages. The written and spoken tests follow the official format: see our pages on the
+<a href="/en/delf-b2/">DELF B2</a>, the <a href="/en/delf-b1/">DELF B1</a> and the <a href="/en/dalf-c1/">DALF C1</a>.</p>"""),
+        ("abu-dhabi", "Abu Dhabi and Sharjah", """<p>The <strong>Alliance Française d’Abu Dhabi</strong> offers the DELF-DALF for
+adults, the DELF Junior and the DELF Prim (“register online or at our center”), but its dates and fees are only in a PDF
+calendar — the 180 AED shown on its page is a preparation kit, not an exam fee. The <strong>Institut français des Émirats
+arabes unis</strong> published only DELF Junior pages, and the <strong>Alliance Française de Sharjah</strong> has no
+website on FEI’s list. The central body’s website on that list did not open on 13 October.</p>
+
+<p><strong>For Express Entry, the DELF won’t do.</strong> IRCC accepts only the TCF Canada and the TEF Canada: see <a href="/en/tcf-canada-dubai/">TCF Canada in Dubai and Abu Dhabi</a>.</p>"""),
+    ],
+    list_title="The {n} approved DELF-DALF centres in the UAE",
+    faq=[("When is the next DELF session in Dubai?", "Friday 11 December 2026 for adults at the Alliance Française de Dubai (Oud Metha), as published on 13 October 2026. No 2027 date had been published by then."),
+         ("How much does the DELF B2 cost in Dubai?", "680 AED at the Alliance Française de Dubai (13 October 2026); DELF B1 is also 680 AED, A1 and A2 560 AED, DALF C1 and C2 875 AED."),
+         ("Where can I take the DELF in Abu Dhabi?", "At the Alliance Française d’Abu Dhabi or the Institut français des Émirats arabes unis, both approved by FEI (on 13 October 2026 the Institut’s website showed only the DELF Junior). That day, the Alliance’s dates and fees were only in a PDF calendar."),
+         ("Can I use a DELF for Canadian immigration?", "No: for Express Entry, IRCC accepts only the TCF Canada and the TEF Canada. The DELF is valid for life and is accepted by French universities, for French residence and citizenship applications and, under certain conditions, for Quebec.")],
+    also=[("/en/tcf-canada-dubai/", "TCF Canada in Dubai and Abu Dhabi", "Four centres, 1,800 AED."),
+          ("/en/delf-b2/", "DELF B2 exam", "Format, scoring and preparation."),
+          ("/en/delf-b2-practice-test/", "DELF B2 practice test", "One exercise per section, with answers.")],
+    sources="the websites of the Alliance Française de Dubai (DELF-DALF exam page) and of the Alliance Française d’Abu Dhabi (DELF-DALF page), and the Institut français des Émirats arabes unis, checked on 13 October 2026.",
+    org_url="",
+    urls={"dubai-alliance-francaise-dubai": "https://www.afdubai.org/french-diplomas-exams-learning-french-with-alliance-francaise-dubai/delf-dalf-exam/",
+          "abu-dhabi-alliance-francaise-d-abu-dhabi": "https://www.afabudhabi.org/delf-dalf/"},
 ))
 
 
@@ -798,9 +1024,13 @@ def _hub_table():
             ("United States", '<a href="/en/tcf-canada-usa/">9 of 18 centres, US$330 to US$460</a>', '<a href="/en/delf-usa/">40 centres, B2 US$190</a>'),
             ("United Kingdom", '<a href="/en/tcf-canada-uk/">London £260, Glasgow £325</a>', '<a href="/en/delf-uk/">11 centres, B2 £160</a>'),
             ("India", '<a href="/en/tcf-canada-india/">5 Alliances, ₹26,000</a>', "—"),
-            ("United Arab Emirates", '<a href="/en/tcf-canada-dubai/">Dubai and Abu Dhabi, 1,800 AED</a>', "—")]
+            ("United Arab Emirates", '<a href="/en/tcf-canada-dubai/">Dubai and Abu Dhabi, 1,800 AED</a>', '<a href="/en/delf-dubai/">Dubai 11 Dec, B2 680 AED</a>'),
+            ("Saudi Arabia", '<a href="/en/tcf-canada-saudi-arabia/">Jeddah and Riyadh, 1,950 SAR</a>', "—"),
+            ("Egypt", '<a href="/en/tcf-canada-egypt/">Institut français d’Égypte, next session Dec 2026</a>', "—"),
+            ("Lebanon", '<a href="/en/tcf-canada-lebanon/">6 Institut français centres</a>', "—")]
     return table("The TCF Canada and the DELF-DALF, from each centre’s website (Canada: 17 September 2026; United States, "
-                 "United Kingdom, India and the UAE: 8 October 2026). Fees in local currency, for an individual candidate.",
+                 "United Kingdom, India and the UAE TCF: 8 October 2026; UAE DELF, Saudi Arabia, Egypt, Lebanon: 13 October 2026). "
+                 "Fees in local currency, for an individual candidate.",
                  ["Country", "TCF Canada", "DELF · DALF"], [(f"<strong>{p}</strong>", a, b) for p, a, b in rows], wide=False)
 
 
@@ -809,7 +1039,7 @@ HUB = dict(
     title="TCF Canada & DELF test centres: Canada, USA, UK (2026)",
     desc="Where to take the TCF Canada or the DELF in Canada, the United States and the United Kingdom: approved test centres, fees and dates, checked in 2026.",
     h1="TCF Canada and DELF test centres in Canada, the US and the UK",
-    lang_links='<p class="langs"><a href="/es/" hreflang="es" lang="es">En español</a> · <a href="/centres/" hreflang="fr" lang="fr">En français</a></p>',
+    lang_links='<p class="langs"><a href="/es/" hreflang="es" lang="es">En español</a> · <a href="/centres/" hreflang="fr" lang="fr">En français</a> · <a href="/ar/" hreflang="ar" lang="ar" dir="rtl">بالعربية</a></p>',
     intro="""For the <strong>TCF Canada</strong> — one of the two French tests IRCC accepts — and for the
 <strong>DELF</strong> and <strong>DALF</strong> diplomas, each page lists the test centres approved by France
 Éducation international in one country or city, what each centre’s website showed when we checked — fees, dates,
@@ -819,7 +1049,7 @@ The United States and the United Kingdom: the TCF Canada and the DELF.""",
            "⚠️ Sessions in Toronto and Vancouver <strong>fill up within minutes</strong>: register the moment bookings open.",
            "<strong>United States</strong>: 9 of the 18 approved TCF centres offer the TCF Canada, for US$330 to US$460 (8 October 2026).",
            "<strong>United Kingdom</strong>: the TCF Canada at the Institut français in London (£260) and the Alliance française de Glasgow (£325); when we checked on 8 October 2026, the earliest free seat in London was on 23 April 2027.",
-           "<strong>India</strong>: 5 Alliances Françaises offer the TCF Canada (₹26,000 where published); <strong>UAE</strong>: Dubai and Abu Dhabi, 1,800 AED.",
+           "<strong>India</strong>: 5 Alliances Françaises offer the TCF Canada (₹26,000 where published); <strong>UAE</strong>: Dubai and Abu Dhabi, 1,800 AED; <strong>Saudi Arabia</strong>: Jeddah and Riyadh, 1,950 SAR; Egypt and Lebanon: Institut français centres.",
            "A DELF or DALF diploma is valid for life; TCF Canada results, for two years."],
     toc=[("countries", "Where to take the exams"), ("prepare", "Prepare for the TCF Canada"), ("tcf-canada", "TCF Canada"),
          ("delf", "DELF and DALF"), ("france", "Living in France")],

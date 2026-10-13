@@ -28,7 +28,7 @@ FEI_LISTE = "https://www.france-education-international.fr/centres-d-examen/list
 FEI_CARTE = "https://www.france-education-international.fr/centres-d-examen/carte?type-centre=%s"
 PAYS_ID = {"États-Unis": 113, "Royaume-Uni": 89, "Espagne": 70, "Mexique": 30, "Colombie": 21,
            "Argentine": 15, "Chili": 20, "Pérou": 34, "Équateur": 25, "Canada": 112, "Inde": 45,
-           "Émirats arabes unis": 101}
+           "Émirats arabes unis": 101, "Égypte": 116, "Liban": 106, "Arabie saoudite": 100}   # 3 derniers : ids du 13/10/2026
 
 # ---------------------------------------------------------------------------
 # Téléphones : FEI écrit les numéros de toutes les façons (« 1-404-875-1211 », « 917007720 »,
@@ -38,7 +38,8 @@ PAYS_ID = {"États-Unis": 113, "Royaume-Uni": 89, "Espagne": 70, "Mexique": 30, 
 PHONE = {"États-Unis": ("1", {10}), "Royaume-Uni": ("44", {9, 10}), "Espagne": ("34", {9}),
          "Mexique": ("52", {10}), "Colombie": ("57", {10}), "Argentine": ("54", {10, 11}),
          "Chili": ("56", {9}), "Pérou": ("51", {8, 9}), "Équateur": ("593", {8, 9}), "Canada": ("1", {10}),
-         "Inde": ("91", {10}), "Émirats arabes unis": ("971", {8, 9})}
+         "Inde": ("91", {10}), "Émirats arabes unis": ("971", {8, 9}),
+         "Égypte": ("20", {9, 10}), "Liban": ("961", {7, 8}), "Arabie saoudite": ("966", {8, 9})}
 BAD_PHONES = {"999999889"}   # numéro de remplissage (AF Concepción, liste DELF)
 
 
@@ -51,7 +52,7 @@ def national(phone, country):
         d = d[2:]
     if country == "Canada" and len(d) == 12 and d.startswith("01"):
         d = d[1:]                          # « 01-514-278-3535 » : un 0 de trop devant l'indicatif
-    if country in ("Inde", "Émirats arabes unis") and d.startswith("0" + PHONE[country][0]):
+    if country in ("Inde", "Émirats arabes unis", "Égypte", "Liban", "Arabie saoudite") and d.startswith("0" + PHONE[country][0]):
         d = d[1:]                          # « 091-98-25-08-25-51 », « 0971-566-… » : même 0 de trop
     for n in ([d[len(cc):]] if d.startswith(cc) else []) + [d]:
         x = n[1:] if n.startswith("0") else n
@@ -72,7 +73,7 @@ def phone_html(phone, country):
     if not x:
         return esc(phone)
     cc = PHONE[country][0]
-    groups = {8: (4, 4), 9: (3, 3, 3), 10: (3, 3, 4), 11: (1, 2, 4, 4)}[len(x)]
+    groups = {7: (1, 3, 3), 8: (4, 4), 9: (3, 3, 3), 10: (3, 3, 4), 11: (1, 2, 4, 4)}[len(x)]
     parts, i = [], 0
     for g in groups:
         parts.append(x[i:i + g])
@@ -208,13 +209,14 @@ def LANG_OF(spec):
 
 
 def VARIANT(spec):
-    return spec.get("variant", {"fr": "fr", "es": "es-419", "en": "en-US"}[LANG_OF(spec)])
+    return spec.get("variant", {"fr": "fr", "es": "es-419", "en": "en-US", "ar": "ar"}[LANG_OF(spec)])
 
 
 DATE_LABEL = {"fr": DATE_FR, "es-ES": "8 de octubre de 2026", "es-419": "8 de octubre de 2026",
-              "en-US": "October 8, 2026", "en-GB": "8 October 2026", "en-CA": "8 October 2026"}
-OG_LOCALE = {"es-ES": "es_ES", "es-419": "es_LA", "en-US": "en_US", "en-GB": "en_GB", "en-CA": "en_CA"}
-HOME_LABEL = {"es": "Inicio", "en": "Home"}
+              "en-US": "October 8, 2026", "en-GB": "8 October 2026", "en-CA": "8 October 2026",
+              "ar": "13 أكتوبر 2026"}
+OG_LOCALE = {"es-ES": "es_ES", "es-419": "es_LA", "en-US": "en_US", "en-GB": "en_GB", "en-CA": "en_CA", "ar": "ar_AR"}
+HOME_LABEL = {"es": "Inicio", "en": "Home", "ar": "الرئيسية"}
 
 
 def words(spec):
@@ -232,6 +234,8 @@ def words(spec):
         us = v == "en-US"
         return dict(centre="center" if us else "centre", centres="centers" if us else "centres", so="computer-based",
                     paper="paper-based", nearby="Nearby", org="organisation" if v == "en-GB" else "organization")
+    if v == "ar":
+        return dict(centre="مركز", centres="مراكز", so="على الحاسوب", paper="ورقي", nearby="بالقرب", org="جهة")
     return dict(centre="centre", centres="centres", so="sur ordinateur", paper="papier", nearby="À proximité", org="organisme")
 
 
@@ -239,7 +243,15 @@ CITY_T = {
     "en": {"États-Unis": {"Philadelphie": "Philadelphia", "La Nouvelle-Orléans": "New Orleans", "Saint-Louis": "St. Louis"},
            "Royaume-Uni": {"Londres": "London", "Édimbourg": "Edinburgh", "Saint-Hélier (Jersey)": "St Helier (Jersey)"},
            "Canada": {"Montréal": "Montreal", "Québec": "Quebec City", "St. John's, NL": "St. John's", "Sept-Iles": "Sept-Îles"},
-           "Inde": {"Calcutta": "Kolkata"}, "Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"}},
+           "Inde": {"Calcutta": "Kolkata"}, "Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"},
+           "Égypte": {"Le Caire": "Cairo", "Alexandrie": "Alexandria", "Héliopolis": "Heliopolis"},
+           "Liban": {"Beyrouth": "Beirut", "Zahlé": "Zahle"},
+           "Arabie saoudite": {"Djeddah": "Jeddah"}},
+    "ar": {"Émirats arabes unis": {"Dubaï": "دبي", "Dubai": "دبي", "Abou Dhabi": "أبوظبي", "Al Ain": "العين"},
+           "Égypte": {"Le Caire": "القاهرة", "Alexandrie": "الإسكندرية", "Héliopolis": "مصر الجديدة"},
+           "Liban": {"Beyrouth": "بيروت", "Deir El Kamar": "دير القمر", "Jounieh": "جونية", "Saida": "صيدا",
+                     "Tripoli": "طرابلس", "Zahlé": "زحلة"},
+           "Arabie saoudite": {"Riyadh": "الرياض", "Djeddah": "جدة", "Al Khobar": "الخبر"}},
     "es": {"Espagne": {"Barcelone": "Barcelona", "Carthagène": "Cartagena", "Cadix": "Cádiz", "Saint-Sébastien": "San Sebastián",
                        "Gérone": "Girona", "Grenade": "Granada", "Malaga": "Málaga", "Palma de Majorque": "Palma de Mallorca",
                        "Pampelune": "Pamplona", "Salamanque": "Salamanca", "Saint-Jacques-de-Compostelle": "Santiago de Compostela",
@@ -300,7 +312,12 @@ NAME_EN = {"Leeds - AF": "Alliance Française de Leeds",
 # traduites. Le Canada garde ses adresses (Montréal, Québec y sont les noms officiels).
 ADDR_T = {"en": {"États-Unis": {"Philadelphie": "Philadelphia", "La Nouvelle-Orléans": "New Orleans", "Saint-Louis": "St. Louis"},
                  "Royaume-Uni": {"Londres": "London", "Édimbourg": "Edinburgh", "Saint-Hélier": "St Helier"},
-                 "Inde": {"Calcutta": "Kolkata"}, "Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"}},
+                 "Inde": {"Calcutta": "Kolkata"}, "Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"},
+                 "Égypte": {"Le Caire": "Cairo", "Alexandrie": "Alexandria", "Héliopolis": "Heliopolis"},
+                 "Liban": {"Beyrouth": "Beirut", "Zahlé": "Zahle"},
+                 "Arabie saoudite": {"Djeddah": "Jeddah"}},
+          "ar": {"Émirats arabes unis": {"Abou Dhabi": "Abu Dhabi"}, "Égypte": {"Le Caire": "Cairo", "Alexandrie": "Alexandria"},
+                 "Liban": {"Beyrouth": "Beirut"}, "Arabie saoudite": {"Djeddah": "Jeddah"}},
           "es": {"Espagne": {k: v for k, v in CITY_T["es"]["Espagne"].items()},
                  "Mexique": {"Ville de Mexico": "Ciudad de México"},
                  "Colombie": {"Carthagène des Indes": "Cartagena de Indias"}}}
@@ -329,7 +346,7 @@ def disp_name(name, country, spec):
         for fr, es in NAME_ES_WORDS.items():
             name = name.replace(fr, es)
         return name
-    if lang == "en":
+    if lang in ("en", "ar"):                # arabe : noms d'établissement en caractères latins, comme sur leurs sites
         return NAME_EN.get(name, name)
     return NAME_FIX.get((country, name), name)
 
@@ -364,6 +381,9 @@ def card(c, country, spec):
     k = ckey(c)
     W = words(spec)
     lines = []
+    ar = LANG_OF(spec) == "ar"              # page arabe : coordonnées isolées en gauche-à-droite (sinon « +971 4 … » se renverse)
+    ltr = (lambda h: f'<bdi dir="ltr">{h}</bdi>') if ar else (lambda h: h)
+    iso = (lambda h: f"<bdi>{h}</bdi>") if ar else (lambda h: h)
     addr = c["address"]
     if c.get("cp") or c.get("city_cp"):    # données v1 (Canada, 19/09) : adresse + code postal + ville, comme make_centres
         addr = " ".join(x for x in [c["address"], (c["cp"] + " " + clean_city(c["city_cp"])).strip()] if x).strip()
@@ -372,16 +392,18 @@ def card(c, country, spec):
         addr = re.sub(r"\(([^)]*)\)", lambda m: "(" + disp_region(m.group(1), country, spec) + ")", addr)
         addr = disp_addr(addr, country, spec)
     if addr:
-        lines.append(f'<p class="addr">{esc(addr)}</p>')
+        lines.append(f'<p class="addr">{iso(esc(addr))}</p>')
     if c["phone"] and re.sub(r"\D", "", c["phone"]) not in BAD_PHONES:
-        lines.append(f'<p class="contact">{phone_html(c["phone"], country)}</p>')
+        lines.append(f'<p class="contact">{ltr(phone_html(c["phone"], country))}</p>')
     for e in c["emails"][:2]:
-        lines.append(f'<p class="contact"><a href="mailto:{esc(e)}">{esc(e)}</a></p>')
+        mail = f'<a href="mailto:{esc(e)}">{esc(e)}</a>'
+        lines.append(f'<p class="contact">{ltr(mail)}</p>')
     # Site corrigé quand celui de FEI est mort, détourné ou périmé (relevé du 08/10/2026) ; "" = pas de lien.
     u = spec.get("urls", {}).get(k, c["url"].strip().rstrip(BOM))
     if u:
         u = u if u.startswith("http") else "http://" + u
-        lines.append(f'<p class="contact"><a href="{esc(u)}" rel="noopener nofollow">{esc(host(u))}</a></p>')
+        site = f'<a href="{esc(u)}" rel="noopener nofollow">{esc(host(u))}</a>'
+        lines.append(f'<p class="contact">{ltr(site)}</p>')
     note = spec.get("notes", {}).get(k)
     if note:
         lines.append(f'<p class="contact"><em>{note}</em></p>')
@@ -392,10 +414,15 @@ def card(c, country, spec):
         badges.append(f'<span class="badge {kind}">{label}</span>')
     if badges:
         lines.append('<p class="badges">' + " ".join(badges) + "</p>")
-    return f'<div class="card centre"><h4>{esc(disp_name(c["name"], country, spec))}</h4>\n' + "\n".join(lines) + "</div>"
+    return f'<div class="card centre"><h4>{iso(esc(disp_name(c["name"], country, spec)))}</h4>\n' + "\n".join(lines) + "</div>"
 
 
 _USED = set()
+
+
+def anchor(shown, raw):
+    """Ancre d'un titre de ville ou de région : le nom affiché, ou le nom français s'il n'a pas de lettres latines (arabe)."""
+    return slug(shown) or slug(raw)
 
 
 def uniq(cid):
@@ -419,7 +446,7 @@ def city_blocks(centres, country, spec, level):
     for city, cs in by_city(centres, country, spec).items():
         shown = disp_city(city, country, spec)
         n = f' <span class="count">({len(cs)})</span>' if len(cs) > 1 else ""
-        out.append(f'<h{level} id="{uniq(slug(shown))}">{esc(shown)}{n}</h{level}>')
+        out.append(f'<h{level} id="{uniq(anchor(shown, city))}">{esc(shown)}{n}</h{level}>')
         out.append('<div class="grid c2 centres">\n' + "\n".join(card(c, country, spec) for c in cs) + "\n</div>")
     return "\n".join(out)
 
@@ -449,14 +476,14 @@ def list_section(d, spec):
             order = sorted(regs, key=lambda r: slug(shown[r]))
         for r in order:
             cs = regs[r]
-            rid = uniq("region-" + slug(shown[r]))
+            rid = uniq("region-" + anchor(shown[r], r))
             index.append((rid, f"{shown[r]} ({len(cs)})"))
             unit = W["centre"] if len(cs) == 1 else W["centres"]
             body.append(f'<h2 id="{rid}">{esc(shown[r])} — {len(cs)} {unit}</h2>\n' + city_blocks(cs, country, spec, 3))
     else:
         for city, cs in by_city(centres, country, spec).items():
             sh = disp_city(city, country, spec)
-            cid = uniq(slug(sh))
+            cid = uniq(anchor(sh, city))
             index.append((cid, f"{sh} ({len(cs)})" if len(cs) > 1 else sh))
             n = f' <span class="count">({len(cs)})</span>' if len(cs) > 1 else ""
             body.append(f'<h2 id="{cid}">{esc(sh)}{n}</h2>\n<div class="grid c2 centres">\n'
@@ -482,6 +509,9 @@ def org_block(d, spec):
     if o["url"] and "@" not in o["url"]:
         parts.append(f'<a href="{esc(o["url"])}" rel="noopener nofollow">{esc(host(o["url"]))}</a>')
     lang, W = LANG_OF(spec), words(spec)
+    if lang == "ar":
+        return ("<p>يدير DELF وDALF هنا <strong>جهة إدارة مركزية</strong> تذكرها قائمة FEI بمعزل عن المراكز: "
+                + " · ".join(f"<bdi>{x}</bdi>" for x in parts) + ". وهي التي تحدّد الجدول الوطني للدورات، أما التسجيل فيكون لدى أحد المراكز.</p>")
     if lang == "es":
         return ("<p>El DELF y el DALF dependen aquí de un <strong>organismo de gestión central</strong>, que la lista de FEI "
                 "distingue de los centros: " + " · ".join(parts) + f". Es quien fija el calendario nacional de {W['sess']}; "
@@ -550,6 +580,30 @@ them, generic email addresses only; {sources} Prices, dates and rules change wit
             cta_p=f"""You pay the full fee for each session, and you can’t retake the test right away. The mock exams in the
 “TCF DELF TEF: Tests 2026” app follow the official format of each test — {exams} — scored like
 the real thing, with AI feedback on writing and speaking.""")
+    if lang == "ar":
+        how = " ".join(x for x in [
+            f"«{W['so']}»: تذكر FEI أن المركز يقدّم جلسات على الحاسوب؛ «{W['paper']}»: لا تذكر FEI جلسات على الحاسوب."
+            if exam == "tcf" else "",
+            ("شارات «TCF Canada» مأخوذة" if exam == "tcf" else "الشارات مأخوذة")
+            + f" من مراجعتنا لموقع كل مركز في {releve_date}." if badges else
+            f"الملاحظات بالخط المائل مأخوذة من مراجعتنا لموقع كل مركز في {releve_date}." if notes else ""] if x)
+        exams = "TCF كندا وTCF Québec وTCF IRN" if exam == "tcf" else "DELF B1 وDELF B2 وDALF C1"
+        return dict(
+            note=f"""<p><strong>كيف تقرأ هذه القائمة.</strong> تنقل هذه القائمة القائمة الرسمية لمراكز الامتحان المعتمدة من
+<bdi>France Éducation international</bdi> (FEI)، كما اطّلعنا عليها في {list_date}: الاسم والعنوان والهاتف والبريد الإلكتروني
+العام والموقع كما تنشرها FEI؛ وإذا لم يعد الموقع المذكور يعمل أو تغيّر عنوانه، نذكر الموقع الذي فتحناه في ذلك اليوم.
+{how + ' ' if how else ''}الجهة غير المدرجة في هذه القائمة ليست معتمدة.</p>""",
+            official_h2="القوائم الرسمية",
+            official=f"""<p><a href="{src}" rel="noopener">القائمة الرسمية لمراكز {exam_label} لدى FEI — {esc(country_name)}</a> ·
+<a href="{carte}" rel="noopener">خريطة مراكز {exam_label}</a>{extra}. تتغيّر هذه القوائم: تضيف FEI مراكز وتحذف أخرى خلال
+السنة، وقائمتنا مؤرخة في {list_date}. عند الشك، المرجع هو قائمة FEI.</p>""",
+            sources=f"""<strong>المصادر.</strong> قائمة مراكز الامتحان لدى <bdi>France Éducation international</bdi> (التصفية
+«<bdi>{esc(fei_country)}</bdi>»، النوع «{exam_label}»)، اطّلعنا عليها في {list_date} — بيانات الاتصال كما تنشرها FEI،
+والعناوين البريدية العامة فقط؛ {sources} تتغيّر الأسعار والمواعيد والشروط دون إشعار: تحقّق منها على موقع المركز قبل الدفع.""",
+            cta_h2="المركز يحدّد لك الموعد، والدرجة تعتمد عليك",
+            cta_p=f"""تدفع رسوم كل جلسة كاملةً، ولا يمكنك إعادة الامتحان فورًا. الامتحانات التجريبية في تطبيق
+«<bdi>TCF DELF TEF: Tests 2026</bdi>» تتبع الصيغة الرسمية لكل امتحان — {exams} — وتُصحَّح كالامتحان الحقيقي، مع ملاحظات
+بالذكاء الاصطناعي على التعبير الكتابي والشفهي. واجهة التطبيق على iPhone متاحة بالعربية، أما مواد الامتحان فبالفرنسية.""")
     how = " ".join(x for x in [
         "« Sur ordinateur » : FEI indique que le centre propose des sessions sur ordinateur ; « papier » : il n'en "
         "déclare pas." if exam == "tcf" else "",
@@ -640,7 +694,8 @@ def page(spec, tr=None):
         "title": fmt(spec["title"]), "desc": fmt(spec["desc"]),
         "og_title": fmt(spec.get("og_title", spec["title"])), "og_desc": fmt(spec.get("og_desc", spec["desc"])),
         "h1": fmt(spec["h1"]),
-        "published": DATE, "modified": DATE, "date_fr": date_label, "read": spec.get("read", max(5, n // 8)),
+        "published": spec.get("published", DATE), "modified": spec.get("modified", spec.get("published", DATE)), "date_fr": date_label,
+        "read": spec.get("read", max(5, n // 8)),
         "intro": fmt(spec["intro"]), "facts": [fmt(f) for f in spec["facts"]],
         "toc": toc, "body": body,
         "cta_h2": spec.get("cta_h2", T["cta_h2"]),
@@ -655,7 +710,10 @@ def page(spec, tr=None):
         a.update({"lang": lang, "in_language": var, "og_locale": spec.get("og_locale", OG_LOCALE[var]), "section": lang,
                   "crumbs": [(HOME_LABEL[lang], f"/{lang}/")], "og_slug": f"{lang}-{spec['slug']}"})
         a.pop("section_name")
-        alts, links = alternates_for(spec["fr_path"], tr, current=lang)
+        if spec.get("fr_path"):
+            alts, links = alternates_for(spec["fr_path"], tr, current=lang)
+        else:                              # sans original français : appariée (Golfe/Levant, arabe ↔ anglais) ou seule
+            alts, links = alternates_for_pair(f"/{lang}/{spec['slug']}/", current=lang)
     if alts:
         a["alternates"], a["lang_links"] = alts, links
     assert len(a["title"]) <= 60, (spec["slug"], len(a["title"]), a["title"])
@@ -669,7 +727,7 @@ def page(spec, tr=None):
 # ---------------------------------------------------------------------------
 def translated_specs():
     out = []
-    for mod in ("pays_config_es", "pays_config_en"):
+    for mod in ("pays_config_es", "pays_config_en", "pays_config_ar"):
         try:
             out += __import__(mod).PAGES
         except ModuleNotFoundError:
@@ -679,16 +737,19 @@ def translated_specs():
 
 # translations() et alternates_for() vivent dans i18n_registry (toutes les pages traduites, pas seulement
 # les pages pays) ; importés ici pour page() et pour make_centres / make_villes.
-from i18n_registry import alternates_for, translations  # noqa: E402
+from i18n_registry import alternates_for, alternates_for_pair, translations  # noqa: E402
 
 
 def hub(lang):
     """Accueil de langue (/es/, /en/) : texte dans pays_config_<lang>.HUB."""
     H = __import__("pays_config_" + lang).HUB
-    var = H.get("variant", {"es": "es-419", "en": "en-US"}[lang])
+    var = H.get("variant", {"es": "es-419", "en": "en-US", "ar": "ar"}[lang])
+    pub = H.get("published", DATE)
     a = dict(H, lang=lang, in_language=var, og_locale=OG_LOCALE[var], section="", slug=lang,
-             crumbs=[("delf-tcf-tef.fr", "/")], og_slug=f"{lang}-hub", published=DATE, modified=DATE,
-             date_fr=DATE_LABEL[var])
+             crumbs=[("delf-tcf-tef.fr", "/")], og_slug=f"{lang}-hub", published=pub, modified=pub,
+             date_fr=H.get("date_label", DATE_LABEL[var]))
+    a.pop("date_label", None)
+    a.pop("variant", None)
     assert len(a["title"]) <= 60 and len(a["desc"]) <= 158, (lang, len(a["title"]), len(a["desc"]))
     return a
 
@@ -713,8 +774,8 @@ def main():
     force = "--force" in sys.argv
     tr = translations()
     arts = [page(s, tr)[0] for s in specs() + translated_specs()]
-    arts += [hub(lang) for lang in ("es", "en") if hasattr(__import__("pays_config_" + lang), "HUB")] \
-        if all(os.path.exists(os.path.join(HERE, f"pays_config_{l}.py")) for l in ("es", "en")) else []
+    arts += [hub(lang) for lang in ("es", "en", "ar")
+             if os.path.exists(os.path.join(HERE, f"pays_config_{lang}.py")) and hasattr(__import__("pays_config_" + lang), "HUB")]
     build(arts, overwrite=force)
 
 

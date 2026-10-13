@@ -651,3 +651,50 @@ article.page > .wrap > h2:first-of-type { margin-top: 1.6em; }
 .calc-verdict { font-weight: 600; margin: 14px 0 6px; }
 .calc-note { color: var(--muted); margin: 8px 0 12px; }
 @media (max-width: 560px) { .calc-form { grid-template-columns: 1fr; } }
+
+/* Arabe (13/10/2026) : pages en droite-à-gauche (<html dir="rtl">). Les règles ci-dessus ne bougent pas — les
+   pages françaises, anglaises et espagnoles restent identiques ; ce bloc miroite seulement ce qui est écrit en
+   gauche/droite, donne une police arabe système et retire l'interlettrage, qui casse la liaison des lettres. */
+html[dir="rtl"] body { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", "Noto Sans Arabic", Tahoma, "Segoe UI", sans-serif;
+                       line-height: 1.8; }
+html[dir="rtl"] * { letter-spacing: 0 !important; }
+html[dir="rtl"] h1 { line-height: 1.45; }
+html[dir="rtl"] h2, html[dir="rtl"] h3 { line-height: 1.5; }
+html[dir="rtl"] [lang="fr"], html[dir="rtl"] [lang="en"], html[dir="rtl"] [lang="es"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.65; }
+html[dir="rtl"] nav.main { margin: 0 auto 0 0; }
+html[dir="rtl"] article.page ul, html[dir="rtl"] article.page ol { margin: .8em 1.3em .8em 0; }
+html[dir="rtl"] article.page ol[dir="ltr"] { margin: .8em 0 .8em 1.3em; }
+html[dir="rtl"] .card-link::after { content: "←"; right: auto; left: 20px; }
+html[dir="rtl"] .card-link:hover::after { transform: translateX(-4px); }
+html[dir="rtl"] .facts { border-left: 1px solid var(--line); border-right: 4px solid var(--accent); }
+html[dir="rtl"] .facts ul { margin-left: 0; margin-right: 1.1em; }
+html[dir="rtl"] .faq summary::after { margin-right: 0; margin-left: 6px; }
+html[dir="rtl"] .tablewrap th, html[dir="rtl"] .tablewrap td, html[dir="rtl"] .tablewrap caption,
+html[dir="rtl"] .cmp th, html[dir="rtl"] .cmp td, html[dir="rtl"] .cmp caption { text-align: right; }
+html[dir="rtl"] .cmp tbody th[scope="row"], html[dir="rtl"] .cmp thead th:first-child { left: auto; right: 0; }
+html[dir="rtl"] td bdi, html[dir="rtl"] th bdi { white-space: nowrap; }
+html[dir="rtl"] .note { border-left: 0; border-right: 3px solid var(--accent);
+                        border-radius: var(--radius) 0 0 var(--radius); }
+html[dir="rtl"] .toc summary::after { margin: 0 0 3px 6px; }
+html[dir="rtl"] .toc ol { padding: 0 1.2em 1em 0; }
+html[dir="rtl"] .posts li { padding: 17px 19px 17px 52px; }
+html[dir="rtl"] .posts li::before { content: "←"; right: auto; left: 19px; }
+html[dir="rtl"] .posts li:hover::before, html[dir="rtl"] .posts li:focus-within::before { transform: translateX(-4px); }
+html[dir="rtl"] .decision li { border-left: 1px solid var(--line); border-right: 3px solid var(--accent);
+                               border-radius: 10px 0 0 10px; }
+html[dir="rtl"] .warn { border-left: 0; border-right: 3px solid #d9822b; }
+html[dir="rtl"] .grid.guides .card p, html[dir="rtl"] .grid.modules .card p { margin: 0 0 0 1.2em; }
+html[dir="rtl"] .steps li { padding: 14px 62px 14px 16px; }
+html[dir="rtl"] .steps li::before { left: auto; right: 16px; }
+@media (max-width: 700px) {
+  html[dir="rtl"] .steps li { padding-left: 16px; padding-right: 54px; }
+  html[dir="rtl"] .steps li::before { left: auto; right: 12px; }
+}
+@supports selector(:popover-open) {
+  @media (max-width: 799px) {
+    html[dir="rtl"] header.site .wrap { padding: 0 16px 0 10px; }
+    html[dir="rtl"] .logo { margin-right: 0; margin-left: auto; }
+    html[dir="rtl"] .menu-btn { margin-right: 0; margin-left: -6px; }
+  }
+}

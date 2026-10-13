@@ -121,3 +121,30 @@ anglais (`/en/tcf-canada/score-clb/`, `/en/tcf-canada-writing-tasks/`).
 | attestation de résultats | constancia de resultados | results certificate |
 | recorrection | recalificación | re-marking |
 | carte de résident / naturalisation | tarjeta de residente / nacionalidad | resident card / citizenship |
+
+## Arabe (/ar/, 13/10/2026)
+
+Arabe standard moderne (فصحى), pour des lecteurs du Golfe, du Levant, d'Égypte et du Maghreb. Chiffres occidentaux
+(0-9), comme dans l'app ; mois « يناير … ديسمبر » ; dates « 13 أكتوبر 2026 ».
+
+| Français | Arabe |
+|---|---|
+| compréhension orale / écrite | فهم المسموع / فهم المقروء |
+| expression orale / écrite | التعبير الشفهي / التعبير الكتابي |
+| épreuve (une des 4 du TCF) · tâche | اختبار · مهمة |
+| NCLC | مستويات الكفاءة اللغوية الكندية (NCLC), puis NCLC |
+| CECRL | الإطار الأوروبي المرجعي المشترك للغات, puis الإطار الأوروبي |
+| IRCC | دائرة الهجرة واللاجئين والمواطنة الكندية (IRCC) |
+| Entrée express · résidence permanente | نظام الدخول السريع (Express Entry) · الإقامة الدائمة |
+| attestation de résultats · recorrection | شهادة النتائج · إعادة التصحيح |
+| centre agréé · examen blanc | مركز معتمد · امتحان تجريبي |
+| non publié / non relevé | لم يُنشر |
+
+**Bidi** (check_i18n.py refuse le reste) : une plage « 458–502 » s'écrit « من 458 إلى 502 » dans une phrase et
+`ltr("458–502")` dans un tableau ; « 10+ » devient « 10 فأكثر » ; un téléphone, un e-mail ou une URL écrits en
+texte vont dans `<bdi dir="ltr">` (make_pays.card() le fait pour les fiches des centres) ; un en-tête de colonne
+dit « (على 699) », pas « /699 » ; les noms latins collés à une ponctuation arabe vont dans `<bdi>`. Une note
+« 10/20 » ou « 458/699 » ne bouge pas. La matière d'examen reste en français, `lang="fr" dir="ltr"` (exo/sujet).
+
+**L'app** : « واجهة التطبيق على iPhone متاحة بالعربية » — jamais « entièrement en arabe » (des chaînes françaises
+restent, et la matière d'examen est en français), rien sur Android.

@@ -16,12 +16,13 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from article_template import build  # noqa: E402
-from i18n_registry import alternates_for, path_of, translations  # noqa: E402
+from i18n_registry import alternates_for, alternates_for_pair, path_of, translations  # noqa: E402
 from make_pays import DATE_LABEL  # noqa: E402
 from i18n_blocks import cta_inline  # noqa: E402
 
-OG_LOCALE = {"es-ES": "es_ES", "es-419": "es_LA", "en-US": "en_US", "en-GB": "en_GB", "en-CA": "en_CA"}
-HOME = {"es": ("Inicio", "/es/"), "en": ("Home", "/en/")}
+OG_LOCALE = {"es-ES": "es_ES", "es-419": "es_LA", "en-US": "en_US", "en-GB": "en_GB", "en-CA": "en_CA", "ar": "ar_AR"}
+HOME = {"es": ("Inicio", "/es/"), "en": ("Home", "/en/"), "ar": ("الرئيسية", "/ar/")}
+PUBLISHED = {"es": "2026-10-08", "en": "2026-10-08", "ar": "2026-10-13"}
 CTA = {
     "en": ("Practise on the real format",
            "You pay the full fee for each session, and you can’t retake the test right away. The mock exams in the "
@@ -31,12 +32,19 @@ CTA = {
            "Cada sesión se paga completa y no se puede repetir de inmediato. Los simulacros de la app «TCF DELF TEF: "
            "Tests 2026» reproducen el formato oficial de cada examen —TCF Canada, TEF Canada, DELF, DALF— con la "
            "puntuación del examen real y corrección con IA de la expresión escrita y oral. La app está en español."),
+    # Arabe : l'interface de l'app iOS est traduite ; jamais « entièrement en arabe » (des chaînes françaises
+    # restent, et la matière d'examen est en français par nature) ; rien sur Android.
+    "ar": ("تدرّب على الصيغة الحقيقية للامتحان",
+           "تدفع رسوم كل جلسة كاملةً، ولا يمكنك إعادة الامتحان فورًا. الامتحانات التجريبية في تطبيق "
+           "«<bdi>TCF DELF TEF: Tests 2026</bdi>» تتبع الصيغة الرسمية لكل امتحان — TCF كندا وTEF كندا وDELF وDALF — "
+           "وتُصحَّح كالامتحان الحقيقي، مع ملاحظات بالذكاء الاصطناعي على التعبير الكتابي والشفهي. واجهة التطبيق على "
+           "iPhone متاحة بالعربية، أما مواد الامتحان فبالفرنسية كما في يوم الامتحان."),
 }
 
 
 def specs():
     out = []
-    for mod in ("i18n_pages_es", "i18n_pages_en"):
+    for mod in ("i18n_pages_es", "i18n_pages_en", "i18n_pages_ar"):
         try:
             out += __import__(mod).PAGES
         except ModuleNotFoundError as e:
@@ -58,7 +66,7 @@ def article(spec, tr):
     a.setdefault("in_language", var)
     a.setdefault("og_locale", OG_LOCALE[var])
     a.setdefault("og_slug", (lang + "-" + path_of(spec).strip("/").split("/", 1)[1].replace("/", "-")))
-    a.setdefault("published", "2026-10-08")
+    a.setdefault("published", PUBLISHED[lang])
     a.setdefault("modified", a["published"])
     a["date_fr"] = a.pop("date_label", DATE_LABEL[var])
     a.setdefault("cta_h2", CTA[lang][0].replace("Practise", "Practice") if var == "en-US" else CTA[lang][0])
@@ -71,7 +79,11 @@ def article(spec, tr):
     if spec.get("fr_path"):
         alts, links = alternates_for(spec["fr_path"], tr, current=lang)
         a["alternates"], a["lang_links"] = alts, links
-    for k in ("fr_path", "variant"):
+    elif spec.get("pair"):                 # page sans original français (Golfe/Levant) : appariée à l'anglais
+        alts, links = alternates_for_pair(path_of(spec), current=lang)
+        if alts:
+            a["alternates"], a["lang_links"] = alts, links
+    for k in ("fr_path", "variant", "pair"):
         a.pop(k, None)
     assert len(a["title"]) <= 60, (path_of(spec), len(a["title"]), a["title"])
     assert len(a["desc"]) <= 155, (path_of(spec), len(a["desc"]))

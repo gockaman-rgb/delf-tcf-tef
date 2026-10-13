@@ -30,7 +30,23 @@ TXT = {
                     "convierte en un ejercicio de comprensión escrita y falsea por completo la medida de tu nivel.",
                exo="Ejercicio {n} — nivel {niveau}", question="Pregunta:", show_ans="Ver la respuesta y la explicación",
                answer="Respuesta: {bonne}", expects="Lo que espera el corrector"),
+    "ar": dict(once="مرة واحدة", times="{n} مرات",
+               listen="🎧 استمع {mot}</strong>، كما في يوم الامتحان، دون قراءة النص المكتوب.",
+               nofmt="لا يستطيع متصفحك تشغيل هذا الملف الصوتي. يوجد مقتطف من النص المكتوب أدناه مباشرة.",
+               rule1="في TCF وTEF ونسختيهما IRN، يُبثّ التسجيل <strong>مرة واحدة فقط</strong> ولا تحصل على "
+                     "<strong>أي نص مكتوب</strong>.",
+               rule2="في DELF B2، يُبثّ التمرينان الأولان <strong>مرتين</strong>، ولكن دون أي نص مكتوب أبدًا.",
+               show_tr="اعرض مقتطفًا من النص المكتوب — لا تفتحه إلا بعد الاستماع",
+               warn="⚠️ <strong>هذا تمرين في فهم المسموع.</strong> {regle} قراءة النص قبل الاستماع تحوّله إلى تمرين "
+                    "في فهم المقروء وتُفسد تمامًا قياس مستواك.",
+               exo="التمرين {n} — المستوى {niveau}", question="السؤال:", show_ans="اعرض الإجابة والشرح",
+               answer="الإجابة: {bonne}", expects="ما ينتظره المصحّح"),
 }
+
+
+def _fr(lang):
+    """Attribut de la matière d'examen : en français, et en gauche-à-droite sur une page arabe."""
+    return ' lang="fr" dir="ltr"' if lang == "ar" else ' lang="fr"'
 
 
 def exo(lang, n, niveau, source_label, source, question, options, bonne, expl, audio=None, duree=None, ecoutes=1):
@@ -38,7 +54,7 @@ def exo(lang, n, niveau, source_label, source, question, options, bonne, expl, a
     t = TXT[lang]
     opts = "\n".join(f"<li>{o}</li>" for o in options)
     if audio:
-        mot = t["once"] if ecoutes == 1 else t["times"].format(n=ecoutes)
+        mot = t["once"] if ecoutes == 1 else ("مرتين" if lang == "ar" and ecoutes == 2 else t["times"].format(n=ecoutes))
         enonce = f"""<p class="listen"><strong>{t['listen'].format(mot=mot)}</p>
 <audio controls preload="none" src="/audio/{audio}">{t['nofmt']}</audio>
 <p class="listen">{source_label} · {duree}</p>"""
@@ -46,16 +62,19 @@ def exo(lang, n, niveau, source_label, source, question, options, bonne, expl, a
         transcription = f"""
 <details><summary>{t['show_tr']}</summary>
 <p class="warn">{t['warn'].format(regle=regle)}</p>
-<p lang="fr">{source}</p></details>"""
+<p{_fr(lang)}>{source}</p></details>"""
     else:
-        enonce = f"<p><em>{source_label}</em></p>\n<p lang=\"fr\">{source}</p>"
+        enonce = f"<p><em>{source_label}</em></p>\n<p{_fr(lang)}>{source}</p>"
         transcription = ""
+    # Page arabe : la question française sur sa propre ligne (en ligne, elle se coupe autour de « السؤال: »).
+    qline = (f"<p><strong>{t['question']}</strong></p>\n<p{_fr(lang)}>{question}</p>" if lang == "ar" else
+             f"<p><strong>{t['question']}</strong> <span{_fr(lang)}>{question}</span></p>")
     return f"""
 <div class="note">
 <p><strong>{t['exo'].format(n=n, niveau=niveau)}</strong></p>
 {enonce}
-<p><strong>{t['question']}</strong> <span lang="fr">{question}</span></p>
-<ol type="A" lang="fr">
+{qline}
+<ol type="A"{_fr(lang)}>
 {opts}
 </ol>
 </div>
@@ -70,7 +89,7 @@ def sujet(lang, titre, meta, consigne, conseil):
     return f"""
 <div class="note">
 <p><strong>{titre}</strong> — <em>{meta}</em></p>
-<p lang="fr">{consigne}</p>
+<p{_fr(lang)}>{consigne}</p>
 </div>
 <div class="faq"><details><summary>{TXT[lang]['expects']}</summary>
 <p>{conseil}</p></details></div>
@@ -145,12 +164,63 @@ table is the reference. No data is sent anywhere: everything is calculated in yo
 """
 
 
+# Calculateur arabe (13/10/2026) : CALC_EN — mêmes bornes IRCC, même script —, libellés arabes. Les champs restent
+# en gauche-à-droite (chiffres occidentaux, comme l'app) ; « 10+ » s'écrit « 10 فأكثر » (en droite-à-gauche, « 10+ »
+# s'afficherait « +10 »).
+_CALC_AR = [
+    ('<h2 id="calculator-title">Calculator: your TCF Canada scores in CLB</h2>',
+     '<h2 id="calculator-title">الحاسبة: درجاتك في TCF Canada بمستويات NCLC</h2>', 1),
+    ('<p>Enter your four scores — or the ones you are aiming for: the CLB level for each skill appears, based on the IRCC\n'
+     'table reproduced below, with the matching CEFR level.</p>',
+     '<p>أدخل درجاتك الأربع — أو الدرجات التي تطمح إليها: يظهر مستوى NCLC لكل مهارة، استنادًا إلى جدول IRCC الوارد أدناه،\n'
+     'مع مستوى الإطار الأوروبي المرجعي المقابل.</p>', 1),
+    ('<label><b>Listening <span>/699</span></b><input ', '<label><b>فهم المسموع <span dir="ltr">/699</span></b><input dir="ltr" ', 1),
+    ('<label><b>Reading <span>/699</span></b><input ', '<label><b>فهم المقروء <span dir="ltr">/699</span></b><input dir="ltr" ', 1),
+    ('<label><b>Speaking <span>/20</span></b><input ', '<label><b>التعبير الشفهي <span dir="ltr">/20</span></b><input dir="ltr" ', 1),
+    ('<label><b>Writing <span>/20</span></b><input ', '<label><b>التعبير الكتابي <span dir="ltr">/20</span></b><input dir="ltr" ', 1),
+    ('placeholder="e.g. ', 'placeholder="مثلاً ', 4),
+    ('<thead><tr><th>Skill</th><th>Score</th><th>CEFR</th><th>CLB</th></tr></thead>',
+     '<thead><tr><th>المهارة</th><th>الدرجة</th><th>الإطار الأوروبي</th><th>NCLC</th></tr></thead>', 1),
+    ('<tr><td>Listening</td>', '<tr><td>فهم المسموع</td>', 1),
+    ('<tr><td>Reading</td>', '<tr><td>فهم المقروء</td>', 1),
+    ('<tr><td>Speaking</td>', '<tr><td>التعبير الشفهي</td>', 1),
+    ('<tr><td>Writing</td>', '<tr><td>التعبير الكتابي</td>', 1),
+    ('data-out="verdict">Your profile will appear here: the lowest CLB of the four skills, the one IRCC uses.</p>',
+     'data-out="verdict">سيظهر ملفك هنا: أدنى مستوى NCLC في المهارات الأربع، وهو الذي تعتمده IRCC.</p>', 1),
+    ('<small>The calculator reproduces the thresholds of the IRCC equivalency tables (below) and\n'
+     'the TCF’s CEFR bands. It replaces neither your results certificate nor IRCC’s own tool; if they differ, the official\n'
+     'table is the reference. No data is sent anywhere: everything is calculated in your browser.</small>',
+     '<small>تعيد الحاسبة إنتاج حدود جداول المعادلة لدى IRCC (أدناه) ونطاقات الإطار الأوروبي المرجعي في TCF. لا تحلّ محلّ\n'
+     'شهادة نتائجك ولا أداة IRCC نفسها؛ وعند الاختلاف، الجدول الرسمي هو المرجع. لا تُرسَل أي بيانات: يتم الحساب كله في\n'
+     'متصفحك.</small>', 1),
+    ('"below A1"', '"دون A1"', 2),
+    ('out(k+"-nclc", n === "< 4" ? "below 4" : "CLB " + n);',
+     'out(k+"-nclc", n === "< 4" ? "دون 4" : "NCLC " + (n === "10+" ? "10 فأكثر" : n));', 1),
+    ('vd.textContent = filled ? "Fill in all four scores to see your profile." : "Your profile will appear here: the lowest CLB of the four skills, the one IRCC uses.";',
+     'vd.textContent = filled ? "أدخل الدرجات الأربع لترى ملفك." : "سيظهر ملفك هنا: أدنى مستوى NCLC في المهارات الأربع، وهو الذي تعتمده IRCC.";', 1),
+    ('"At least one skill is below CLB 4: IRCC gives no level for that skill."',
+     '"مهارة واحدة على الأقل دون NCLC 4: لا تمنح IRCC أي مستوى لهذه المهارة."', 1),
+    (': "Your profile: CLB " + (m>=10 ? "10+" : m) + " — the lowest CLB of the four skills, the one IRCC uses. ";',
+     ': "ملفك: NCLC " + (m>=10 ? "10 فأكثر" : m) + " — أدنى مستوى في المهارات الأربع، وهو الذي تعتمده IRCC. ";', 1),
+    ('"You reach CLB 7 in all four skills, the reference threshold of the Federal Skilled Worker Program."',
+     '"تبلغ NCLC 7 في المهارات الأربع، وهو الحد المرجعي لبرنامج العمال المهرة الفيدرالي."', 1),
+    ('"CLB 7 in all four skills — the reference threshold of the Federal Skilled Worker Program — is not reached: the table below shows the missing score, skill by skill."',
+     '"لم تبلغ NCLC 7 في المهارات الأربع، وهو الحد المرجعي لبرنامج العمال المهرة الفيدرالي: يبيّن الجدول أدناه الدرجة الناقصة لكل مهارة."', 1),
+]
+CALC_AR = CALC_EN
+for _o, _n, _c in _CALC_AR:
+    assert CALC_AR.count(_o) == _c, (_o[:50], CALC_AR.count(_o))
+    CALC_AR = CALC_AR.replace(_o, _n)
+
+
 APP = "https://apps.apple.com/app/id6790412304"
 CTA_INLINE = {
     "en": ("Practise in real exam conditions", "Mock exams in the official format and AI feedback on writing and speaking, "
            "in the TCF DELF TEF app — no account needed.", "Download"),
     "es": ("Entrena en condiciones reales", "Simulacros en el formato oficial y corrección con IA de la expresión escrita "
            "y oral, en la app TCF DELF TEF, sin crear cuenta.", "Descargar"),
+    "ar": ("تدرّب في ظروف الامتحان الحقيقية", "امتحانات تجريبية بالصيغة الرسمية وتصحيح بالذكاء الاصطناعي للتعبير الكتابي "
+           "والشفهي في تطبيق <bdi>TCF DELF TEF</bdi>، دون إنشاء حساب.", "تحميل"),
 }
 
 

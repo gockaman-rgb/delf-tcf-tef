@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Contrôle des pages traduites (/es/, /en/ — 08/10/2026), sur le site généré.
+"""Contrôle des pages traduites (/es/, /en/ — 08/10/2026 ; /ar/ — 13/10/2026), sur le site généré.
 
 Pour chaque paire page française ↔ traduction (fr_path des specs de pays_config_es / pays_config_en) :
 - parité des faits : chaque nombre de la partie rédigée française (intro, faits, chiffres, sections, FAQ)
@@ -8,7 +8,9 @@ Pour chaque paire page française ↔ traduction (fr_path des specs de pays_conf
   (« 1er » → « first ») se relisent et se tolèrent ;
 - hreflang : alternates réciproques, cibles existantes ;
 - restes de français dans le texte espagnol ou anglais (mots-outils ; avertissement à relire) ;
-- titre ≤ 60, description ≤ 155.
+- titre ≤ 60, description ≤ 155 ;
+- pages arabes (toutes, appariées ou non) : bidi — une plage « 200–220 », un « 10+ » ou un téléphone hors
+  <bdi>/dir="ltr" se renverse en droite-à-gauche (erreur) ; paires arabe ↔ anglais sans français : hreflang.
 
 Usage : python3 _build/check_i18n.py [--strict]   (--strict : les écarts de parité comptent comme erreurs)
 """
@@ -29,7 +31,14 @@ FR_WORDS = {
     "en": {"le", "les", "des", "du", "aux", "au", "et", "ou", "avec", "pour", "dans", "sur", "est", "sont", "une", "qui",
            "que", "pas", "selon", "aussi", "chaque", "depuis", "après", "leur", "leurs", "agréé", "agréés", "relevé",
            "tarif", "prix", "mois", "jours", "semaines"},
+    "ar": {"le", "les", "des", "du", "aux", "au", "et", "ou", "avec", "pour", "dans", "sur", "est", "sont", "une", "qui",
+           "que", "pas", "selon", "aussi", "chaque", "depuis", "après", "leur", "leurs", "agréé", "agréés", "relevé",
+           "tarif", "prix", "mois", "jours", "semaines", "centre", "centres", "inscription", "sessions"},
 }
+# Bidi (pages arabes) : ce qui se renverse hors d'un isolat gauche-à-droite.
+BIDI = [(re.compile(r"(?<![A-Za-z0-9_.])\d+\s*[–—-]\s*\d+(?![A-Za-z0-9_])"), "plage de nombres « a–b » (écrire « من a إلى b » ou isoler)"),
+        (re.compile(r"(?<![A-Za-z0-9_])\d+\+"), "« n+ » (écrire « n فأكثر »)"),
+        (re.compile(r"\+\d[\d   .-]{6,}\d"), "téléphone hors <bdi dir=\"ltr\">")]
 # Noms propres qui contiennent des mots-outils français : retirés avant la recherche des restes.
 NAMES = re.compile(r"(Alliance [Ff]ran[çc]aise|Institut [Ff]ran[çc]ais|Lyc[ée]e|Coll[èe]ge|C[ée]gep|Universit[ée]|"
                    r"L'Alliance|Centre|École|Maison|France [ÉE]ducation|Le français des affaires|Le français au|(?:Bureau|Service) de [Cc]oop[ée]ration)[^,.;:()<«»“”]*")
@@ -61,8 +70,9 @@ def text(h):
 def numbers(t):
     t = re.sub(r"\b(\d{1,2})/(\d{1,2})(/\d{4})?\b", lambda m: m.group(1) + (" " + m.group(3)[1:] if m.group(3) else ""), t)
     out = set()
-    # (?<!\w) : « B2 190 $ » ou « A1 135 » ne se lisent pas 2 190 ni 1 135 — un niveau n'est pas un nombre
-    for m in re.finditer(r"(?<!\w)(?:\d{1,3}(?:[   .,]\d{3})+(?!\d)|\d+)", t):
+    # (?<!lettre latine) : « B2 190 $ » ou « A1 135 » ne se lisent pas 2 190 ni 1 135 — un niveau n'est pas un
+    # nombre ; une lettre arabe collée, elle, n'empêche pas la lecture (« و18 » : la conjonction s'attache au mot).
+    for m in re.finditer(r"(?<![A-Za-zÀ-ÿ0-9_])(?:\d{1,3}(?:[   .,]\d{3})+(?!\d)|\d+)", t):
         out.add(re.sub(r"\D", "", m.group(0)).lstrip("0") or "0")
     return out
 
@@ -75,6 +85,37 @@ def pairs():
     """(chemin français, chemin traduit, langue) pour toutes les pages traduites du registre."""
     from i18n_registry import path_of, specs
     return [(p["fr_path"], path_of(p), p["lang"]) for p in specs() if p.get("fr_path")]
+
+
+def leftovers(h, lang):
+    """Mots-outils français restés hors de la matière d'examen (lang="fr") et des noms propres."""
+    ed = re.sub(r'<(\w+)[^>]*\slang="fr"[^>]*>.*?</\1>', " ", editorial(h), flags=re.S)   # matière d'examen
+    if lang in ("en", "ar"):
+        ed = re.sub(r"«[^»]*»", " ", ed)                       # exemples français cités entre guillemets
+    body = NAMES.sub(" ", text(ed))
+    return [body[max(0, m.start() - 30):m.end() + 30] for m in re.finditer(r"[A-Za-zÀ-ÿ']+", body)
+            if m.group(0).lower() in FR_WORDS[lang]]
+
+
+def bidi_errors(h):
+    """Pages arabes : plages, « n+ » et téléphones hors isolat (<bdi>, dir="ltr", matière française, script)."""
+    a = h.find("<body")
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h[a:], flags=re.S)
+    for _ in range(3):                                         # isolats éventuellement imbriqués
+        t = re.sub(r"<bdi\b[^>]*>.*?</bdi>", " ", t, flags=re.S)
+        t = re.sub(r'<(\w+)\b[^>]*\sdir="ltr"[^>]*>.*?</\1>', " ", t, flags=re.S)
+        t = re.sub(r'<(\w+)\b[^>]*\slang="(?:fr|en|es)"[^>]*>.*?</\1>', " ", t, flags=re.S)
+    t = text(t)
+    out = []
+    for rx, why in BIDI:
+        for m in rx.finditer(t):
+            out.append(f"{why} : …{t[max(0, m.start() - 25):m.end() + 25]}…")
+    return out
+
+
+def ar_pages():
+    return sorted("/" + os.path.relpath(os.path.join(d, "index.html"), ROOT)[:-len("index.html")]
+                  for d, _, fs in os.walk(os.path.join(ROOT, "ar")) if "index.html" in fs)
 
 
 def main():
@@ -108,19 +149,40 @@ def main():
         if len(d) > 155:
             errors.append(f"{tr} : description de {len(d)} caractères")
         # Restes de français
-        ed = re.sub(r'<(\w+)[^>]*\slang="fr"[^>]*>.*?</\1>', " ", editorial(ht), flags=re.S)   # matière d'examen
-        if lang == "en":
-            ed = re.sub(r"«[^»]*»", " ", ed)                       # exemples français cités entre guillemets
-        body = NAMES.sub(" ", text(ed))
-        hits = []
-        for m in re.finditer(r"[A-Za-zÀ-ÿ']+", body):
-            w = m.group(0).lower()
-            if w in FR_WORDS[lang]:
-                hits.append(body[max(0, m.start() - 30):m.end() + 30])
+        hits = leftovers(ht, lang)
         if hits:
             warns.append(f"{tr} : {len(hits)} mot(s) français possibles — " + " | ".join(hits[:4]))
         if "{" in text(re.sub(r"<script.*?</script>", "", ht, flags=re.S)):
             errors.append(f"{tr} : accolade restée dans le texte (format non appliqué ?)")
+    # Arabe : toutes les pages (hub et pages appariées à l'anglais comprises)
+    from i18n_registry import pairs as en_pairs
+    paired = {fr for fr, _, _ in pairs()}
+    for p in ar_pages():
+        h = read(p)
+        for e in bidi_errors(h):
+            errors.append(f"{p} : {e}")
+        if '<html lang="ar" dir="rtl">' not in h:
+            errors.append(f"{p} : <html lang=\"ar\" dir=\"rtl\"> absent")
+        if p not in {tr for _, tr, _ in pairs()}:              # pages sans original français : titre, description, restes
+            t = html.unescape(re.search(r"<title>(.*?)</title>", h).group(1))
+            d = html.unescape(re.search(r'<meta name="description" content="(.*?)">', h).group(1))
+            if len(t) > 60:
+                errors.append(f"{p} : titre de {len(t)} caractères")
+            if len(d) > 155:
+                errors.append(f"{p} : description de {len(d)} caractères")
+            hits = leftovers(h, "ar")
+            if hits:
+                warns.append(f"{p} : {len(hits)} mot(s) français possibles — " + " | ".join(hits[:4]))
+    # Paires sans français (arabe ↔ anglais) : hreflang réciproques
+    for en, others in en_pairs().items():
+        for src in [en] + [q for _, q in others]:
+            if not os.path.exists(path_file(src)):
+                errors.append(f"{src} : page absente")
+                continue
+            got = [u.replace(BASE, "") for _, u in alternates(read(src))]
+            for q in [en] + [q for _, q in others]:
+                if q not in got:
+                    errors.append(f"{src} : hreflang vers {q} absent")
     for w in warns:
         print("  ~ " + w)
     for e in errors:
