@@ -697,6 +697,10 @@ for sessions held since 1 September 2026. For Express Entry, aim for CLB 7: 458 
 <p>The <a href="/en/tcf-vs-tef-canada/">TEF Canada</a>, the other French test IRCC accepts, is the alternative where the TCF
 is full or not offered: Lucknow and Trivandrum (e-TEF) run it, and Ahmedabad and Bhopal offer it alongside the TCF.
 Lucknow’s page says the TEF Canada fee — ₹26,000 including GST — is the same at every Alliance Française in India.</p>"""),
+        ("cities", "City by city", """<p>One page per city, with the centre, the fee and the dates:
+<a href="/en/tcf-canada-new-delhi/">New Delhi</a> · <a href="/en/tcf-canada-kolkata/">Kolkata</a> ·
+<a href="/en/tcf-canada-ahmedabad/">Ahmedabad</a> · <a href="/en/tcf-canada-bangalore/">Bangalore</a> ·
+<a href="/en/tcf-canada-bhopal/">Bhopal</a>.</p>"""),
     ],
     list_title="The {n} approved TCF centres in India, city by city",
     faq=[("Where can I take the TCF Canada in India?", "At one of the five Alliances Françaises that offered it on 8 October 2026: New Delhi, Kolkata, Ahmedabad, Bangalore and Bhopal. Lucknow and Trivandrum are approved for the TCF but only offer the TEF Canada for now; Mumbai and Chennai are not on France Éducation international’s TCF list."),
@@ -720,6 +724,153 @@ Lucknow’s page says the TEF Canada fee — ₹26,000 including GST — is the 
           "lucknow-alliance-francaise": "https://lucknow.afindia.org/",
           "new-delhi-alliance-francaise": "https://afdelhi.org/tcf-exams/"},
 ))
+
+# ===========================================================================
+# INDIA — city pages (17/10/2026): «tcf kolkata», «tcf ahmedabad», «tcf bangalore», «tcf bhopal» landed on the single
+# India page. Facts: the 8 October 2026 check already on /en/tcf-canada-india/ (no new research).
+# ===========================================================================
+def _india_city(slug, match, city, title, desc, h1, intro, facts, stats, sections, faq, key, url):
+    return dict(lang="en", variant="en-GB", og_locale="en_IN", fr_path=None, slug=slug, country_name="India", exam="tcf",
+                file="tcf_inde", layout="city", match=match, crumb=f"TCF Canada in {city}", published="2026-10-17",
+                date_label="17 October 2026", list_date="8 October 2026", releve_date="8 October 2026",
+                title=title, desc=desc, h1=h1, intro=intro, facts=facts, stats=stats, sections=sections,
+                list_title=f"The approved TCF centre in {city}", faq=faq,
+                also=[("/en/tcf-canada-india/", "TCF Canada in India", "All approved centres, fees and the next dates."),
+                      ("/en/tcf-canada/score-clb/", "TCF Canada scores and CLB", "CLB 7 is 458 in listening and 453 in reading."),
+                      ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Check your level before you pay ₹26,000.")],
+                sources="the website of the Alliance Française concerned (TCF pages, schedules, registration form or shop), checked on 8 October 2026.",
+                badges={key: _CA}, urls={key: url})
+
+
+PAGES.append(_india_city(
+    "tcf-canada-new-delhi", ["New Delhi"], "New Delhi",
+    title="TCF Canada in New Delhi: ₹26,000, test dates, booking",
+    desc="TCF Canada at the Alliance Française de Delhi: ₹26,000 including GST, computer-based, the November and December dates, and how booking works.",
+    h1="TCF Canada in New Delhi: the Alliance Française de Delhi, the fee and the dates",
+    intro="""In New Delhi, the TCF Canada is held by the <strong>Alliance Française de Delhi</strong>, on computer, for
+<strong>₹26,000 including GST</strong>. On 8 October 2026, the 14 and 28 October sessions were <strong>full</strong>;
+the next dates were <strong>18 and 25 November</strong> (registration 4–11 November, marked “to be confirmed”) and
+<strong>16 December</strong> (registration 2–9 December). Seats “often fill within minutes”.""",
+    facts=["Alliance Française de Delhi: the <strong>TCF Canada only</strong>, computer-based, <strong>₹26,000</strong> including GST.",
+           "8 October 2026: 14 and 28 October <strong>full</strong>; next dates <strong>18 and 25 November</strong> (registration 4–11 November, “to be confirmed”) and <strong>16 December</strong> (registration 2–9 December).",
+           "A <strong>valid passport</strong> is required at registration (since January 2026).",
+           "Registration opens at 9:30 am online and 9 am at the desk; no refund once registered, unless the Alliance cancels the session.",
+           "Results in 2–4 weeks; the results certificate is valid for two years."],
+    stats=[("₹26,000", "TCF Canada", "GST included"), ("18 Nov", "next date", "registration 4–11 Nov"),
+           ("2–4 weeks", "results", "certificate valid 2 years"), ("{n}", "approved centre", "in New Delhi")],
+    sections=[("booking", "Booking the TCF Canada in New Delhi", """<p>The Alliance sells the test itself: an online account or
+the front desk, and a seat only counts once it is paid. Register with the passport you will use for your IRCC
+application — the Alliance has accepted <strong>only a valid passport</strong> since January 2026. Registration opens at
+9:30 am online and 9 am at the desk, and the page warns that seats “often fill within minutes”. Once registered there is
+no refund, unless the Alliance cancels the session. Results take two to four weeks. For Express Entry, aim for CLB 7:
+458 in listening, 453 in reading. Other cities: <a href="/en/tcf-canada-india/">all TCF Canada centres in India</a>.</p>""")],
+    faq=[("Where can I take the TCF Canada in New Delhi?", "At the Alliance Française de Delhi, which holds it on computer for ₹26,000 including GST (8 October 2026)."),
+         ("When are the next TCF Canada dates in New Delhi?", "On 8 October 2026: 18 and 25 November (registration 4–11 November, marked “to be confirmed”) and 16 December (registration 2–9 December); the 14 and 28 October sessions were full."),
+         ("What do I need to register?", "A valid passport — the only identity document the Alliance has accepted since January 2026 — and the full payment; a seat only counts once it is paid.")],
+    key="new-delhi-alliance-francaise", url="https://afdelhi.org/tcf-exams/"))
+
+PAGES.append(_india_city(
+    "tcf-canada-kolkata", ["Calcutta"], "Kolkata",
+    title="TCF Canada in Kolkata: ₹26,000, Alliance Française, booking",
+    desc="TCF Canada in Kolkata at the Alliance Française du Bengale: ₹26,000 incl. GST, computer-based, TCF Québec and tout public fees, booking rules.",
+    h1="TCF Canada in Kolkata: the Alliance Française du Bengale, the fees and the rules",
+    intro="""In Kolkata, the TCF is held by the <strong>Alliance Française du Bengale</strong>, which offers the TCF Canada,
+the TCF Québec, the TCF tout public and the TCF IRN, on computer. On 8 October 2026 the TCF Canada cost
+<strong>₹26,000 including GST</strong>; dates are on an external booking calendar, and you must register at least
+<strong>15 days</strong> before the test.""",
+    facts=["Alliance Française du Bengale: TCF <strong>Canada</strong>, Québec, tout public and IRN, computer-based.",
+           "Fees: TCF Canada <strong>₹26,000</strong> incl. GST · TCF Québec ₹6,500 per test · TCF tout public ₹13,000 (+ ₹6,500 per optional test).",
+           "Dates on an external booking calendar; register at least <strong>15 days</strong> before the test.",
+           "For sessions from January 2027: one postponement of up to 3 months for 50% of the fee (₹13,000).",
+           "At least 20 days between two attempts."],
+    stats=[("₹26,000", "TCF Canada", "GST included"), ("15 days", "minimum before the test", "to register"),
+           ("₹6,500", "TCF Québec", "per test"), ("{n}", "approved centre", "in Kolkata")],
+    sections=[("fees", "Fees and booking in Kolkata", """<p>The Alliance Française du Bengale publishes its fees: the
+<strong>TCF Canada at ₹26,000</strong> including GST, the <strong>TCF Québec at ₹6,500 per test</strong> — useful if a
+Quebec programme only asks for the oral tests — and the TCF tout public at ₹13,000 plus ₹6,500 per optional test. You
+book on an external calendar, with an online form that includes payment, at least 15 days before the test. For sessions
+from January 2027, one postponement of up to three months is possible for 50% of the fee (₹13,000). Leave at least 20
+days between two attempts. Other cities: <a href="/en/tcf-canada-india/">all TCF Canada centres in India</a>.</p>""")],
+    faq=[("Where can I take the TCF Canada in Kolkata?", "At the Alliance Française du Bengale, on computer, for ₹26,000 including GST (8 October 2026)."),
+         ("How much is the TCF Québec in Kolkata?", "₹6,500 per test at the Alliance Française du Bengale, so you pay only for the tests your Quebec programme requires."),
+         ("Can I postpone my TCF in Kolkata?", "For sessions from January 2027, once, by up to three months, for 50% of the fee (₹13,000).")],
+    key="calcutta-alliance-francaise-du-bengale", url="https://bengale.afindia.org/tcf/"))
+
+PAGES.append(_india_city(
+    "tcf-canada-ahmedabad", ["Ahmedabad"], "Ahmedabad",
+    title="TCF Canada in Ahmedabad: Alliance Française, booking",
+    desc="TCF Canada at the Alliance Française d’Ahmedabad: computer-based, sessions to be confirmed, an online form then a payment link, results in 15 days.",
+    h1="TCF Canada in Ahmedabad: the Alliance Française and how to book",
+    intro="""In Ahmedabad, the <strong>Alliance Française d’Ahmedabad</strong> offers the TCF Canada on computer. On 8 October
+2026 its page announced “new upcoming sessions to be confirmed” and published no fee. You register with an online form,
+then pay through a link sent by email; the certificate comes within 15 working days.""",
+    facts=["Alliance Française d’Ahmedabad: the <strong>TCF Canada</strong>, computer-based; the TEF Canada is offered too.",
+           "8 October 2026: “new upcoming sessions to be confirmed”; <strong>no fee published</strong>.",
+           "Registration: online form, then a payment link by email; no refund once registered.",
+           "Certificate within <strong>15 working days</strong>; valid two years for IRCC.",
+           "Where the fee is published in India (New Delhi, Kolkata, Bhopal), the TCF Canada costs ₹26,000."],
+    stats=[("TBC", "next sessions", "8 Oct 2026"), ("15 days", "certificate", "working days"),
+           ("₹26,000", "TCF Canada elsewhere in India", "where published"), ("{n}", "approved centre", "in Ahmedabad")],
+    sections=[("booking", "Booking in Ahmedabad", """<p>The Alliance takes registrations through an online form, then sends a
+payment link by email; nothing is refunded once you are registered. The test is computer-based and the certificate
+comes within 15 working days. With dates still “to be confirmed” on 8 October, check the page before planning your
+application — or look at <a href="/en/tcf-canada-new-delhi/">New Delhi</a> and <a href="/en/tcf-canada-bhopal/">Bhopal</a>,
+which published dates. The Alliance also offers the <a href="/en/tef-canada/">TEF Canada</a>.</p>""")],
+    faq=[("Can I take the TCF Canada in Ahmedabad?", "Yes, at the Alliance Française d’Ahmedabad, on computer. On 8 October 2026 its next sessions were “to be confirmed”."),
+         ("How much is the TCF Canada in Ahmedabad?", "The Alliance did not publish its fee on 8 October 2026. Where the fee is published in India — New Delhi, Kolkata, Bhopal — it is ₹26,000."),
+         ("How long do results take in Ahmedabad?", "The Alliance issues the certificate within 15 working days.")],
+    key="ahmedabad-alliance-francaise", url="https://ahmedabad.afindia.org/tcf/"))
+
+PAGES.append(_india_city(
+    "tcf-canada-bangalore", ["Bangalore"], "Bangalore",
+    title="TCF Canada in Bangalore: Alliance Française, test dates",
+    desc="TCF Canada at the Alliance Française de Bangalore: the 14 November session was full on 8 October 2026; no other date or fee published.",
+    h1="TCF Canada in Bangalore: the Alliance Française and its sessions",
+    intro="""In Bangalore, the <strong>Alliance Française de Bangalore</strong> offers the TCF Canada. On 8 October 2026 its
+<strong>14 November session was full</strong>, and it published no other date and no fee. Leave at least 20 days
+between two attempts.""",
+    facts=["Alliance Française de Bangalore: the <strong>TCF Canada</strong>.",
+           "8 October 2026: the <strong>14 November 2026</strong> session <strong>full</strong>; no other date published.",
+           "<strong>No fee published</strong>; where the fee is published in India, the TCF Canada costs ₹26,000.",
+           "At least <strong>20 days</strong> between two attempts.",
+           "Nearest centres with published dates: New Delhi and Bhopal."],
+    stats=[("14 Nov", "session", "full on 8 Oct"), ("20 days", "between attempts", "minimum"),
+           ("₹26,000", "TCF Canada elsewhere in India", "where published"), ("{n}", "approved centre", "in Bangalore")],
+    sections=[("dates", "Dates and alternatives", """<p>With the 14 November session full and no other date published on
+8 October, plan ahead: watch the Alliance’s page, or look at the centres that published dates —
+<a href="/en/tcf-canada-new-delhi/">New Delhi</a> (18 and 25 November, 16 December) and
+<a href="/en/tcf-canada-bhopal/">Bhopal</a> (4 December, then February and March 2027). Leave at least 20 days between
+two attempts.</p>""")],
+    faq=[("Can I take the TCF Canada in Bangalore?", "Yes, at the Alliance Française de Bangalore. On 8 October 2026 its 14 November session was full and no other date was published."),
+         ("How much is the TCF Canada in Bangalore?", "The Alliance did not publish its fee on 8 October 2026; where it is published in India, it is ₹26,000."),
+         ("How long must I wait between two attempts?", "At least 20 days, according to the Alliance Française de Bangalore.")],
+    key="bangalore-alliance-francaise", url="https://bangalore.afindia.org/tcf-cannada/"))
+
+PAGES.append(_india_city(
+    "tcf-canada-bhopal", ["Bhopal"], "Bhopal",
+    title="TCF Canada in Bhopal: ₹26,000, dates to March 2027",
+    desc="TCF Canada at the Alliance Française de Bhopal: ₹26,000, paper-based, 4 December 2026 then six dates in February and March 2027, booking rules.",
+    h1="TCF Canada in Bhopal: the Alliance Française, the fee and the dates",
+    intro="""In Bhopal, the <strong>Alliance Française de Bhopal</strong> holds a paper-based TCF Canada for
+<strong>₹26,000</strong>. On 8 October 2026 its next session was <strong>4 December</strong> (one seat left), then
+<strong>12, 19, 26 February and 12, 19, 25 March 2027</strong>; registration closes one month before each date.""",
+    facts=["Alliance Française de Bhopal: the <strong>TCF Canada</strong>, <strong>paper-based</strong>, <strong>₹26,000</strong>.",
+           "8 October 2026: <strong>4 December 2026</strong> (one seat left), then 12, 19, 26 February and 12, 19, 25 March 2027.",
+           "Registration closes <strong>one month</strong> before; online shop; scanned photo ID (passport or Aadhaar).",
+           "No refund if you arrive late or without your original photo ID.",
+           "30 days between two attempts; results in 4–8 weeks."],
+    stats=[("₹26,000", "TCF Canada", "paper-based"), ("4 Dec", "next session", "one seat left on 8 Oct"),
+           ("4–8 weeks", "results", "certificate valid 2 years"), ("{n}", "approved centre", "in Bhopal")],
+    sections=[("booking", "Booking in Bhopal", """<p>You book and pay in the Alliance’s online shop, with a scanned photo ID
+(passport or Aadhaar), and registration closes one month before each date. On test day, arriving late or without your
+original photo ID means no refund. Leave 30 days between two attempts; results take four to eight weeks. The Alliance
+also offers the <a href="/en/tef-canada/">TEF Canada</a>. Other cities:
+<a href="/en/tcf-canada-india/">all TCF Canada centres in India</a>.</p>""")],
+    faq=[("When is the next TCF Canada in Bhopal?", "On 8 October 2026: 4 December 2026 (one seat left), then 12, 19 and 26 February and 12, 19 and 25 March 2027."),
+         ("How much is the TCF Canada in Bhopal?", "₹26,000 at the Alliance Française de Bhopal, paper-based."),
+         ("Is the TCF Canada computer-based in Bhopal?", "No: Bhopal runs a paper-based (“Pen & Paper”) TCF Canada.")],
+    key="bhopal-alliance-francaise", url="https://bhopal.afindia.org/tcfcanada/"))
+
 
 # ===========================================================================
 # UNITED ARAB EMIRATES (no French equivalent page: no hreflang)

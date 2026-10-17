@@ -27,19 +27,20 @@ TCF_DATES = {
     "og_title": "Dates TCF Canada 2026 : les sessions, centre par centre",
     "og_desc": "Aucun calendrier national : les dates d'ici décembre 2026 lues sur les sites des centres, en France, au Canada et au Maghreb.",
     "h1": "Dates du TCF Canada en 2026 : les sessions relevées, centre par centre",
-    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 7,
+    "published": DATE, "modified": "2026-10-17", "date_fr": "17 octobre 2026", "read": 7,
     "intro": """Il n'existe <strong>aucun calendrier national du TCF Canada</strong> : chaque centre agréé fixe ses
 sessions et les publie — ou non — sur son site. Nous avons donc lu, le 17 septembre 2026, les pages
-d'inscription des principaux centres de France, du Canada, d'Algérie, du Maroc et de Tunisie. Ce que
-nous y avons trouvé : des sessions <strong>trois fois par semaine à Casablanca</strong>, mensuelles à Lyon,
+d'inscription des principaux centres de France, du Canada, d'Algérie, du Maroc et de Tunisie — et relu
+celles du Maghreb le 17 octobre. Ce que nous y avons trouvé : des sessions dans <strong>douze villes du
+Maroc</strong> d'ici décembre, mensuelles à Lyon,
 trimestrielles et prises d'assaut à Toronto, « SOLD OUT » à Vancouver. Les dates, ce qu'elles coûtent, et
 la règle pour ne pas rater la prochaine.""",
     "facts": [
         "<strong>Pas de calendrier national</strong> : la date est celle du centre, l'inscription aussi — jamais auprès de France Éducation international.",
         "<strong>France</strong> : ACTE Paris 4 nov. et 2 déc. ; ACCORD Paris 23 sept. et 28 oct. ; Alliance française de Lyon 21 oct., 25 nov., 16 déc. ; Montpellier 23 sept. et 13 nov. 2026.",
-        "<strong>Maghreb</strong> : Casablanca mardi, jeudi et samedi jusqu'en décembre ; Rabat 9 sessions du 25 sept. au 24 nov. ; Tunis 24-25 sept., 22-23 oct., 26-27 nov., 16 et 18 déc. ; Algérie chaque mois.",
+        "<strong>Maghreb</strong> (relu le 17 octobre) : Rabat 8 dates du 22 oct. au 10 déc. ; Casablanca du 3 nov. au 8 déc. ; Tunis 26-27 nov., 16 et 18 déc. ; Sousse 18 et 20 nov. ; Algérie chaque mois, sur la plateforme IFAL.",
         "<strong>Canada</strong> : Toronto ouvre ses inscriptions un mois avant chaque trimestre (prochaine ouverture le 1<sup>er</sup> décembre 2026 pour janvier-mars 2027) ; Vancouver affichait complet.",
-        "Entre deux passations : <strong>20 jours</strong> en France et au Canada, 26 en Algérie, 30 en Tunisie ; résultats sous 2 à 5 semaines selon le pays.",
+        "Entre deux passations : <strong>20 jours</strong> en France et au Canada, 26 à 36 en Algérie, 30 en Tunisie ; résultats sous 2 à 5 semaines selon le pays.",
     ],
     "toc": [
         ("regle", "La règle : la date est celle du centre"),
@@ -93,32 +94,33 @@ beaucoup moins fréquent que le TCF IRN, presque hebdomadaire à Paris. Ce que l
 prix.</p>
 
 <h2 id="maghreb">Maroc, Tunisie, Algérie : les sessions relevées</h2>
-<p>C'est au Maghreb que le TCF Canada est le plus fréquent — et le mieux affiché. Au <strong>Maroc</strong>,
-chaque Institut français publie ses sessions avec un panier en ligne : le 17 septembre, Casablanca en
-listait <strong>les mardis, jeudis et samedis</strong>, deux créneaux par jour, du 26 septembre à décembre
-2026 (trois déjà complètes) ; Rabat <strong>neuf sessions</strong>, toutes ouvertes, du 25 septembre au
-24 novembre ; Marrakech le 20 octobre, Tanger le 15 octobre, Béni Mellal les 24 octobre et 14 novembre —
-à <strong>2 900 dirhams</strong> partout.</p>
+<p>C'est au Maghreb que le TCF Canada est le plus fréquent — et le mieux affiché. Nous avons relu ces pages le
+<strong>17 octobre 2026</strong>. Au <strong>Maroc</strong>, chaque Institut français publie ses sessions avec un
+panier en ligne, à <strong>2 900 dirhams</strong> partout : douze villes en affichaient d'ici décembre — treize dates
+ouvertes à Kénitra, huit à Rabat (du 22 octobre au 10 décembre) et à El Jadida, sept à Casablanca (du 3 novembre
+au 8 décembre, plus Béni Mellal les 14 novembre et 12 décembre), quatre à Fès, trois à Tanger (12, 19 et
+26 novembre) et à Agadir, une seule à Marrakech (12 novembre).</p>
 <p>En <strong>Tunisie</strong>, l'Institut français publie un calendrier par pôle, en deux temps : une fenêtre
-de rendez-vous en ligne, puis l'inscription sur place. À Tunis en 2026 : <strong>24-25 septembre</strong>
-(rendez-vous du 24 au 30 août), <strong>22-23 octobre</strong> (14-20 septembre), <strong>26-27
-novembre</strong> (26-31 octobre) et <strong>16 et 18 décembre</strong> (9-15 novembre), à 880 dinars ;
-Sousse, Sfax et El Mourouj ont une session par mois.</p>
+de rendez-vous en ligne, puis l'inscription sur place. À Tunis : <strong>26-27 novembre</strong> (rendez-vous du
+26 au 31 octobre) et <strong>16 et 18 décembre</strong> (9-15 novembre), à 880 dinars ; à Sousse, <strong>18 et
+20 novembre</strong> (rendez-vous du 19 au 22 octobre) ; à Sfax, <strong>27 novembre</strong> (2-8 novembre) ; à
+El Mourouj, Béja et Nabeul-Hammamet, fin novembre et mi-décembre.</p>
 <p>En <strong>Algérie</strong>, l'Institut français ne publie pas de dates sur son site : « des sessions TCF
 sont ouvertes tous les mois sur les cinq antennes » — Alger, Oran, Constantine, Annaba, Tlemcen —, et le
-calendrier réel s'affiche sur la plateforme IFAL (VFS Global) au moment de l'inscription, avec le tarif.
-Comptez <strong>26 jours</strong> entre deux inscriptions.</p>
+calendrier réel n'apparaît que sur la plateforme IFAL (VFS Global), une fois connecté. Le TCF Canada y coûte
+<strong>37 500 DA</strong> ; comptez <strong>26 à 36 jours</strong> entre deux inscriptions selon l'antenne. Le mode
+d'emploi : <a href="/blog/ifal-tcf-rendez-vous/">IFAL : prendre rendez-vous pour le TCF</a>.</p>
 <div class="tablewrap wide">
 <table>
-<caption>Sessions relevées au Maghreb le 17 septembre 2026, sur les sites des Instituts français.</caption>
-<thead><tr><th>Centre</th><th>Dates relevées</th><th>Prix</th><th>Inscription</th></tr></thead>
+<caption>Sessions de TCF Canada affichées au Maghreb le 17 octobre 2026, sur les sites des Instituts français.</caption>
+<thead><tr><th>Centre</th><th>Dates affichées</th><th>Prix</th><th>Inscription</th></tr></thead>
 <tbody>
-<tr><td><strong>Casablanca</strong></td><td>Mardis, jeudis, samedis (8 h 30 et 10 h), du 26 sept. à déc. 2026</td><td>2 900 Dhs</td><td>Panier en ligne, if-maroc.org/casablanca</td></tr>
-<tr><td><strong>Rabat</strong></td><td>9 sessions du 25 sept. au 24 nov. 2026</td><td>2 900 Dhs</td><td>Panier en ligne</td></tr>
-<tr><td><strong>Marrakech · Tanger · Béni Mellal</strong></td><td>20 oct. · 15 oct. · 24 oct. et 14 nov. 2026</td><td>2 900 Dhs</td><td>Panier en ligne</td></tr>
-<tr><td><strong>Tunis</strong> (IFT)</td><td>24-25 sept., 22-23 oct., 26-27 nov., 16 et 18 déc. 2026</td><td>880 DT</td><td>Rendez-vous en ligne 3-4 semaines avant, puis sur place</td></tr>
-<tr><td><strong>Sousse · Sfax · El Mourouj</strong></td><td>Une session par mois (calendrier par pôle)</td><td>880 DT</td><td>Idem</td></tr>
-<tr><td><strong>Alger, Oran, Constantine, Annaba, Tlemcen</strong></td><td>« Tous les mois » ; dates sur la plateforme</td><td>non publié</td><td>IFAL (VFS), 26 jours entre deux inscriptions</td></tr>
+<tr><td><strong>Casablanca</strong></td><td>3, 5, 10, 17 nov., 1<sup>er</sup>, 3, 8 déc. 2026 (28 nov. complet) ; janvier 2027 en ligne</td><td>2 900 Dhs</td><td>Panier en ligne, if-maroc.org/casablanca</td></tr>
+<tr><td><strong>Rabat · Kénitra</strong></td><td>Rabat : 22, 29, 30 oct., 13, 19, 24 nov., 4, 10 déc. ; Kénitra : 13 dates jusqu'au 18 déc.</td><td>2 900 Dhs</td><td>Panier en ligne</td></tr>
+<tr><td><strong>Fès · Tanger · Agadir · Marrakech</strong></td><td>29 oct., 12, 26 nov., 17 déc. · 12, 19, 26 nov. · 27 nov., 9, 18 déc. · 12 nov.</td><td>2 900 Dhs</td><td>Panier en ligne</td></tr>
+<tr><td><strong>Tunis</strong> (IFT)</td><td>22-23 oct. (inscription close), 26-27 nov., 16 et 18 déc. 2026</td><td>880 DT</td><td>Rendez-vous en ligne 3-4 semaines avant, puis sur place</td></tr>
+<tr><td><strong>Sousse · Sfax · El Mourouj</strong></td><td>18 et 20 nov., 16 et 18 déc. · 27 nov., 19 déc. · 19 et 26 nov., 10 et 16 déc.</td><td>880 DT</td><td>Idem</td></tr>
+<tr><td><strong>Alger, Oran, Constantine, Annaba, Tlemcen</strong></td><td>« Tous les mois » ; dates sur la plateforme</td><td>37 500 DA</td><td>IFAL (VFS), 26 à 36 jours entre deux inscriptions</td></tr>
 </tbody>
 </table>
 </div>
@@ -149,26 +151,26 @@ méthode pour décrocher une place.</p>
 48 heures (Lyon) à deux semaines (Marseille) avant le test en France, un mois avant au Canada ; au Maghreb,
 tant qu'il reste des places. <strong>Les résultats</strong> arrivent sous deux semaines à Montpellier,
 deux à trois à Lyon et Ottawa, trois à quatre à Vancouver, <strong>cinq semaines</strong> en Tunisie.
-<strong>Une seconde passation</strong> exige 20 jours d'écart en France et au Canada, 26 en Algérie, 30
+<strong>Une seconde passation</strong> exige 20 jours d'écart en France et au Canada, 26 à 36 en Algérie, 30
 en Tunisie — et, sans recorrection depuis septembre 2026, c'est la seule voie de recours.</p>
 <p>Si votre dossier a une échéance — un profil Entrée express à déposer, une invitation à honorer —,
 comptez donc <strong>au moins deux mois</strong> entre la première session et un résultat utilisable après
 un éventuel second passage, et visez la première date disponible plutôt que la plus commode : à Toronto
 comme à Casablanca, les sessions se remplissent dans cet ordre.</p>
 """ % {"stats": stats([("0", "calendrier national", "chaque centre fixe ses dates"),
-                       ("3/sem.", "à Casablanca", "mardi, jeudi, samedi"),
+                       ("12", "villes au Maroc", "sessions jusqu'en décembre"),
                        ("1/mois", "à Lyon", "21 oct., 25 nov., 16 déc."),
-                       ("20 j", "entre deux passations", "26 en Algérie, 30 en Tunisie")])},
+                       ("20 j", "entre deux passations", "26 à 36 en Algérie, 30 en Tunisie")])},
     "cta_h2": "La date, c'est le centre ; le score, c'est vous",
     "cta_p": """Une session se paie en entier et se repasse après vingt jours. Les examens blancs de l'app
 «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent le format officiel du TCF Canada — quatre épreuves,
 notation sur 699 et sur 20, conversion NCLC — avec la correction IA de l'écrit et de l'oral.""",
     "faq": [
-        ("Quand a lieu le prochain TCF Canada ?", "Cela dépend du centre : le 17 septembre 2026, ACCORD à Paris avait une session le 23 septembre, l'Alliance française de Montpellier le 23 septembre puis le 13 novembre, ACTE à Paris le 4 novembre, l'Alliance française de Lyon le 21 octobre ; Casablanca en proposait trois par semaine et Tunis les 24-25 septembre. Il n'existe pas de calendrier national : la page d'inscription du centre fait foi."),
+        ("Quand a lieu le prochain TCF Canada ?", "Cela dépend du centre : le 17 septembre 2026, ACCORD à Paris avait une session le 23 septembre, l'Alliance française de Montpellier le 23 septembre puis le 13 novembre, ACTE à Paris le 4 novembre, l'Alliance française de Lyon le 21 octobre ; le 17 octobre, Rabat avait une session le 22 octobre, Casablanca le 3 novembre et Tunis les 26-27 novembre. Il n'existe pas de calendrier national : la page d'inscription du centre fait foi."),
         ("Y a-t-il un calendrier officiel des dates du TCF Canada ?", "Non. France Éducation international agrée les centres mais n'organise aucune session : chaque centre publie ses propres dates, souvent à un ou deux mois d'horizon, et les met à jour au fil des inscriptions. Les listes de FEI ne donnent que les coordonnées des centres."),
-        ("Combien de sessions de TCF Canada par mois ?", "De trois par semaine à Casablanca à une par mois à Lyon ou à Sousse, et une par trimestre à Toronto. En France, le TCF Canada est bien moins fréquent que le TCF IRN, qui se passe presque chaque semaine à Paris."),
+        ("Combien de sessions de TCF Canada par mois ?", "De treize dates en deux mois à Kénitra (Maroc) à une par mois à Lyon ou à Sousse, et une par trimestre à Toronto. En France, le TCF Canada est bien moins fréquent que le TCF IRN, qui se passe presque chaque semaine à Paris."),
         ("Que faire si toutes les sessions sont complètes ?", "Créer son compte à l'avance et se connecter à l'ouverture des inscriptions — à Toronto, un mois avant le trimestre, à 10 h ; à Vancouver, avec son passeport prêt et un seul onglet ouvert. Sans liste d'attente, revenir régulièrement : des places se libèrent. En France, changer de centre — les centres d'une même ville n'ont pas les mêmes dates."),
-        ("Combien de temps entre deux passations du TCF Canada ?", "Vingt jours minimum en France et au Canada (règle de FEI appliquée par tous les centres), 26 jours en Algérie et 30 jours en Tunisie, fixés par les Instituts français. Depuis les sessions du 1er septembre 2026, aucune recorrection n'est possible : repasser le test est le seul recours."),
+        ("Combien de temps entre deux passations du TCF Canada ?", "Vingt jours minimum en France et au Canada (règle de FEI appliquée par tous les centres), 26 à 36 jours en Algérie selon l'antenne et 30 jours en Tunisie, fixés par les Instituts français. Depuis les sessions du 1er septembre 2026, aucune recorrection n'est possible : repasser le test est le seul recours."),
     ],
     "also": [
         ("/blog/ou-passer-le-tcf-canada-en-france/", "Où passer le TCF Canada en France ?", "Les centres qui le proposent, 195 à 285 €, leurs dates."),
@@ -179,7 +181,9 @@ notation sur 699 et sur 20, conversion NCLC — avec la correction IA de l'écri
     "sources": """<strong>Sources.</strong> Pages TCF Canada des centres cités — ACTE, ACCORD (examensparis.fr), Alliances
 françaises de Lyon, Montpellier et Aix-Marseille, KLF, CLPS, Alliance française de Toronto, Alliance
 française Canada Pacific, Alliance Française de Montréal, Instituts français de Casablanca, Rabat,
-Marrakech, Tanger, Tunis (calendrier 2026) et d'Algérie —, consultées le 17 septembre 2026 ; règlement
+Marrakech, Tanger, Tunis (calendrier 2026) et d'Algérie —, consultées le 17 septembre 2026 ; pages TCF
+Canada des Instituts français du Maroc, de Tunisie (calendrier par pôle) et d'Algérie, relues le
+17 octobre 2026 ; règlement
 du TCF (France Éducation international) pour le délai de 20 jours et la validité de deux ans ; note de
 FEI sur la fin de la recorrection au 1<sup>er</sup> septembre 2026. Les dates et les prix changent sans
 préavis : vérifiez-les sur le site du centre avant de payer.""",
@@ -194,7 +198,7 @@ DELF_CAL = {
     "og_title": "Calendrier DELF-DALF 2026-2027 : les dates des sessions",
     "og_desc": "Les dix sessions par an, les écrits 2026 et 2027, les fenêtres d'inscription — et pourquoi chaque centre n'en ouvre qu'une partie.",
     "h1": "Calendrier DELF-DALF 2026-2027 : les dates des sessions et des inscriptions",
-    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 6,
+    "published": DATE, "modified": "2026-10-17", "date_fr": "17 octobre 2026", "read": 6,
     "intro": """Le DELF et le DALF tout public se passent à <strong>dix sessions nationales par an</strong>, fixées par
 France Éducation international — une par mois, <strong>jamais en avril ni en septembre</strong>. En 2026, il
 reste les écrits des <strong>6-8 octobre, 3-5 novembre et 1<sup>er</sup>-3 décembre</strong> ; 2027 commence
@@ -243,8 +247,10 @@ autour de l'écrit, sur convocation du centre — jusqu'à deux semaines après 
 </table>
 </div>
 <p>À l'intérieur d'une session, chaque niveau a son jour : au DEFLE de Bordeaux, en décembre 2026, les A1
-et A2 passent le 1<sup>er</sup>, les B1 et B2 le 2, les DALF le 3. Les centres hors de France suivent le
-même calendrier, à quelques exceptions locales près.</p>
+et A2 passent le 1<sup>er</sup>, les B1 et B2 le 2, les DALF le 3. <strong>Ce calendrier est celui de la
+France</strong> : ailleurs, chaque pays fixe ses dates — en Espagne, l'écrit de février 2027 a lieu du 10 au
+12 février, et les adultes ont une session en septembre ; aux États-Unis, la session de décembre 2026 se tient du
+7 au 11 décembre.</p>
 
 <h2 id="centres">Ce que les centres en font : les sessions relevées</h2>
 <p>Le calendrier national est un <strong>menu</strong>, pas une promesse : chaque centre y choisit les sessions
@@ -308,7 +314,7 @@ le DALF C1 au format officiel, avec la correction IA de l'écrit et de l'oral.""
         ("Quelles sont les dates du DELF en 2027 ?", "12-14 janvier, 2-4 février, 16-18 mars, 25-27 mai, 15-17 juin, 6-8 juillet, 3-5 août, 5-7 octobre, 16-18 novembre et 7-9 décembre 2027 (écrits), d'après le calendrier 2027 de FEI consulté le 17 septembre 2026."),
         ("Pourquoi n'y a-t-il pas de DELF en avril ni en septembre ?", "Le calendrier national de FEI ne prévoit pas de session tout public ces deux mois-là, en 2026 comme en 2027 : dix sessions par an, une par mois le reste de l'année."),
         ("Quand s'inscrire au DELF ?", "Dès l'ouverture des inscriptions de votre centre : quatre à dix semaines avant l'écrit, avec des fenêtres parfois très courtes — deux jours à Nantes Université, une semaine à l'Alliance française de Lille — et des sessions complètes deux mois avant à Lyon."),
-        ("Les dates du DELF sont-elles les mêmes à l'étranger ?", "Les centres hors de France suivent le calendrier national de FEI, avec quelques aménagements locaux ; la date exacte et la fenêtre d'inscription sont toujours celles du centre, à vérifier sur son site."),
+        ("Les dates du DELF sont-elles les mêmes à l'étranger ?", "Pas forcément : ce calendrier est celui de la France, et chaque pays fixe ses dates. En Espagne, l'écrit de février 2027 a lieu du 10 au 12 février (du 2 au 4 en France) et les adultes ont une session en septembre ; aux États-Unis, la session de décembre 2026 se tient du 7 au 11 décembre. La date exacte et la fenêtre d'inscription sont toujours celles du centre, à vérifier sur son site."),
     ],
     "also": [
         ("/blog/ou-passer-le-delf-en-france/", "Où passer le DELF en France ?", "Les prix relevés, les fenêtres d'inscription, les centres par ville."),

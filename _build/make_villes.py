@@ -52,9 +52,10 @@ def page(v):
                      + "\n".join(card(c, ctry) for c, ctry in sorted(near, key=lambda x: (clean_city(x[0]['city']), x[0]['name']))) + "\n</div>")
     # relevé
     rows = v.get("releve", [])
+    releve = v.get("releve_date") or RELEVE
     if rows:
         tbl = ('<div class="tablewrap wide">\n<table>\n<caption>Ce que le site de chaque centre affichait le '
-               f'{RELEVE}. « Non relevé » : non publié, ou non vérifié — le site du centre fait foi.</caption>\n'
+               f'{releve}. « Non relevé » : non publié, ou non vérifié — le site du centre fait foi.</caption>\n'
                '<thead><tr><th>Centre</th><th>' + ("Déclinaisons" if exam == "tcf" else "Diplômes") +
                '</th><th>Prix</th><th>Sessions et inscription</th></tr></thead>\n<tbody>\n'
                + "\n".join(f"<tr><td><strong>{a}</strong></td><td>{b}</td><td>{c}</td><td>{d}</td></tr>" for a, b, c, d in rows)
@@ -97,7 +98,8 @@ def page(v):
         "section": "centres", "section_name": "Centres", "og_slug": v.get("og_slug", "centres"),
         "slug": v["slug"], "accent": "accent-tcf" if exam == "tcf" else "accent-delf", "crumb": v["crumb"],
         "title": v["title"], "desc": v["desc"], "h1": v["h1"],
-        "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 5,
+        "published": DATE, "modified": (v.get("modified") or (DATE, DATE_FR))[0],
+        "date_fr": (v.get("modified") or (DATE, DATE_FR))[1], "read": 5,
         "intro": v["intro"] % {"n": n, "so": so},
         "facts": v["facts"],
         "toc": toc, "body": body,
@@ -111,7 +113,7 @@ notation du vrai test et la correction IA de l'écrit et de l'oral."""),
         "sources": f"""<strong>Sources.</strong> Liste des centres d'examen de France Éducation international
 (filtre « {country_label(country)} », type « {exam_label} »), consultée le {DATE_FR} — coordonnées telles que FEI
 les publie, adresses e-mail génériques seulement ; sites des centres cités dans le tableau, consultés le
-{RELEVE}. Les prix, dates et déclinaisons changent sans préavis : vérifiez-les sur le site du centre
+{releve}. Les prix, dates et déclinaisons changent sans préavis : vérifiez-les sur le site du centre
 avant de payer.""",
     }
     assert len(a["title"]) <= 60, (v["slug"], len(a["title"]))

@@ -1653,3 +1653,11 @@ las tablas de conversión, los umbrales y los programas. Verifica siempre la tab
 <a href="https://www.quebec.ca/immigration" rel="noopener">quebec.ca</a> antes de inscribirte en un examen o de crear tu
 perfil.""",
 ))
+
+
+# ===========================================================================
+# DELF — calendar 2026-2027 (from /blog/calendrier-delf-dalf-2026-2027/, 17/10/2026) : i18n_pages_calendrier.py
+# ===========================================================================
+from i18n_pages_calendrier import PAGES as _CALENDRIER  # noqa: E402
+
+PAGES += [p for p in _CALENDRIER if p["lang"] == "es"]

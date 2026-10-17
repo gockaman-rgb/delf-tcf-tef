@@ -1276,7 +1276,8 @@ official criteria, an immediate CLB and CEFR conversion for each test — in the
          ("Why does my TCF score vary from one session to the next?", "It is officially acknowledged. France Éducation international explains that a candidate on the borderline of a level can get 304 points in one session and 295 in the next — and so change level without any change in ability. The practical conclusion: never aim for the exact threshold of the level you need; leave a margin."),
          ("How many times can I listen to a recording in the exam?", "Once. It is the rule that costs the most points for anyone who practised with exercises they could replay at will. Each recording is played only once, and the question is asked after listening. Make sure you practise under this condition."),
          ("Is the TCF Canada practice test in the app free?", "Most of the app can be used for free every day. Access to all the mock exams and to unlimited AI assessments is part of the Premium subscription.")],
-    also=[("/en/tcf-canada-listening-practice/", "TCF Canada listening practice", "Four sample exercises with audio, played once, and the answers explained."),
+    also=[("/en/tcf-canada-practice-app/", "TCF Canada practice app and software", "No official software to download: what really exists."),
+          ("/en/tcf-canada-listening-practice/", "TCF Canada listening practice", "Four sample exercises with audio, played once, and the answers explained."),
           ("/en/tcf-canada-reading-practice/", "TCF Canada reading practice", "39 multiple-choice questions in 60 minutes, with answers explained."),
           ("/en/tcf-canada-speaking-topics/", "TCF Canada speaking: the 3 tasks", "The test free resources don’t correct, in only 12 minutes.")],
     sources="""<strong>Formats change.</strong> This article is up to date as of 27 July 2026 and describes the official
@@ -1651,18 +1652,19 @@ PAGES.append(dict(
     fr_path="/blog/tcf-canada-dates-2026/", lang="en", variant="en-CA", slug="tcf-canada-test-dates-2026",
     crumbs=[HOME, TCF], crumb="Test dates 2026", inline_cta=False,
     title="TCF Canada test dates 2026: sessions, centre by centre",
+    modified="2026-10-17", date_label="17 October 2026",
     desc="No national calendar: TCF Canada test dates to December 2026, as listed by the centres — Paris, Lyon, Casablanca, Rabat, Tunis, Toronto, Vancouver.",
     h1="TCF Canada test dates in 2026: the sessions we found, centre by centre",
     intro="""There is <strong>no national TCF Canada calendar</strong>: each approved centre sets its own sessions and
 publishes them — or not — on its website. So on 17 September 2026, we read the registration pages of the main centres
-in France, Canada, Algeria, Morocco and Tunisia. What we found: sessions <strong>three times a week in
-Casablanca</strong>, monthly in Lyon, quarterly and snapped up in Toronto, “SOLD OUT” in Vancouver. The dates, what
+in France, Canada, Algeria, Morocco and Tunisia — and re-read the North African ones on 17 October. What we found:
+sessions in <strong>twelve Moroccan cities</strong> up to December, monthly in Lyon, quarterly and snapped up in Toronto, “SOLD OUT” in Vancouver. The dates, what
 they cost, and the rule for not missing the next one.""",
     facts=["<strong>No national calendar</strong>: dates and registration are handled by each centre — never by France Éducation international.",
            "<strong>France</strong>: ACTE Paris 4 Nov and 2 Dec; ACCORD Paris 23 Sept and 28 Oct; Alliance française de Lyon 21 Oct, 25 Nov, 16 Dec; Montpellier 23 Sept and 13 Nov 2026.",
-           "<strong>North Africa</strong>: Casablanca on Tuesdays, Thursdays and Saturdays until December; Rabat 9 sessions from 25 Sept to 24 Nov; Tunis 24–25 Sept, 22–23 Oct, 26–27 Nov, 16 and 18 Dec; Algeria every month.",
+           "<strong>North Africa</strong> (re-checked on 17 October): Rabat 8 dates from 22 Oct to 10 Dec; Casablanca 3 Nov to 8 Dec; Tunis 26–27 Nov, 16 and 18 Dec; Sousse 18 and 20 Nov; Algeria every month, on the IFAL platform.",
            "<strong>Canada</strong>: Toronto opens registration a month before each quarter (next opening on 1 December 2026, for January to March 2027); Vancouver showed every session full.",
-           "Between two attempts: <strong>20 days</strong> in France and Canada, 26 in Algeria, 30 in Tunisia; results within 2 to 5 weeks, depending on the country."],
+           "Between two attempts: <strong>20 days</strong> in France and Canada, 26 to 36 in Algeria, 30 in Tunisia; results within 2 to 5 weeks, depending on the country."],
     toc=[("rule", "The rule: each centre sets its own dates"), ("france", "France: the sessions we found"),
          ("north-africa", "Morocco, Tunisia, Algeria: the sessions we found"),
          ("canada", "Canada: registration openings rather than dates"),
@@ -1670,9 +1672,9 @@ they cost, and the rule for not missing the next one.""",
     body="""
 <div class="stats">
 <div class="stat"><b>0</b><span>national calendar</span><em>each centre sets its dates</em></div>
-<div class="stat"><b>3/week</b><span>in Casablanca</span><em>Tuesday, Thursday, Saturday</em></div>
+<div class="stat"><b>12</b><span>cities in Morocco</span><em>sessions until December</em></div>
 <div class="stat"><b>1/month</b><span>in Lyon</span><em>21 Oct, 25 Nov, 16 Dec</em></div>
-<div class="stat"><b>20 days</b><span>between two attempts</span><em>26 in Algeria, 30 in Tunisia</em></div>
+<div class="stat"><b>20 days</b><span>between two attempts</span><em>26 to 36 in Algeria, 30 in Tunisia</em></div>
 </div>
 
 <h2 id="rule">The rule: each centre sets its own dates</h2>
@@ -1702,27 +1704,30 @@ often than the TCF IRN, which runs almost weekly in Paris. What the websites sho
 Toulouse, Nantes, Rennes — and our guide to where to take the TCF Canada in France compares fees.</p>
 
 <h2 id="north-africa">Morocco, Tunisia, Algeria: the sessions we found</h2>
-<p>It is in North Africa that the TCF Canada is most frequent — and best advertised. In <strong>Morocco</strong>, each
-Institut français publishes its sessions with an online cart: on 17 September, Casablanca listed sessions on
-<strong>Tuesdays, Thursdays and Saturdays</strong>, two slots a day, from 26 September to December 2026 (three already
-full); Rabat <strong>nine sessions</strong>, all open, from 25 September to 24 November; Marrakech on 20 October,
-Tangier on 15 October, Béni Mellal on 24 October and 14 November — at <strong>2,900 dirhams</strong> everywhere.</p>
+<p>It is in North Africa that the TCF Canada is most frequent — and best advertised. We re-read these pages on
+<strong>17 October 2026</strong>. In <strong>Morocco</strong>, each Institut français publishes its sessions with an
+online cart, at <strong>2,900 dirhams</strong> everywhere: twelve cities listed sessions up to December — thirteen open
+dates in Kenitra, eight in Rabat (22 October to 10 December) and in El Jadida, seven in Casablanca (3 November to
+8 December, plus Béni Mellal on 14 November and 12 December), four in Fez, three in Tangier (12, 19 and 26 November)
+and in Agadir, and just one in Marrakech (12 November).</p>
 <p>In <strong>Tunisia</strong>, the Institut français publishes a calendar by hub, in two stages: an online appointment
-window, then registration in person. In Tunis in 2026: <strong>24–25 September</strong> (appointments from 24 to 30
-August), <strong>22–23 October</strong> (14–20 September), <strong>26–27 November</strong> (26–31 October) and
-<strong>16 and 18 December</strong> (9–15 November), at 880 dinars; Sousse, Sfax and El Mourouj have one session a
-month.</p>
+window, then registration in person. In Tunis: <strong>26–27 November</strong> (appointments from 26 to 31 October) and
+<strong>16 and 18 December</strong> (9–15 November), at 880 dinars; in Sousse, <strong>18 and 20 November</strong>
+(appointments from 19 to 22 October); in Sfax, <strong>27 November</strong> (2–8 November); in El Mourouj, Béja and
+Nabeul-Hammamet, late November and mid-December.</p>
 <p>In <strong>Algeria</strong>, the Institut français doesn’t publish dates on its website: “TCF sessions are open every
-month at the five branches” — Algiers, Oran, Constantine, Annaba, Tlemcen — and the actual calendar appears on the IFAL
-platform (VFS Global) when you register, with the fee. Allow <strong>26 days</strong> between two registrations.</p>
-""" + table("Sessions found in North Africa on 17 September 2026, on the websites of the Instituts français.",
-            ["Centre", "Dates found", "Fee", "Registration"],
-            [("<strong>Casablanca</strong>", "Tuesdays, Thursdays, Saturdays (8:30 am and 10 am), from 26 Sept to Dec 2026", "2,900 MAD", "Online cart, if-maroc.org/casablanca"),
-             ("<strong>Rabat</strong>", "9 sessions from 25 Sept to 24 Nov 2026", "2,900 MAD", "Online cart"),
-             ("<strong>Marrakech · Tangier · Béni Mellal</strong>", "20 Oct · 15 Oct · 24 Oct and 14 Nov 2026", "2,900 MAD", "Online cart"),
-             ("<strong>Tunis</strong> (IFT)", "24–25 Sept, 22–23 Oct, 26–27 Nov, 16 and 18 Dec 2026", "880 TND", "Online appointment 3–4 weeks before, then in person"),
-             ("<strong>Sousse · Sfax · El Mourouj</strong>", "One session a month (calendar by hub)", "880 TND", "Same"),
-             ("<strong>Algiers, Oran, Constantine, Annaba, Tlemcen</strong>", "“Every month”; dates on the platform", "not published", "IFAL (VFS), 26 days between two registrations")]) + """
+month at the five branches” — Algiers, Oran, Constantine, Annaba, Tlemcen — and the actual calendar only appears on
+the IFAL platform (VFS Global), once you’re logged in. The TCF Canada costs <strong>37,500 DA</strong> there; allow
+<strong>26 to 36 days</strong> between two registrations, depending on the branch. How it works, in French:
+<a href="/blog/ifal-tcf-rendez-vous/" hreflang="fr" lang="fr">IFAL : prendre rendez-vous pour le TCF</a>.</p>
+""" + table("TCF Canada sessions listed in North Africa on 17 October 2026, on the websites of the Instituts français.",
+            ["Centre", "Dates listed", "Fee", "Registration"],
+            [("<strong>Casablanca</strong>", "3, 5, 10, 17 Nov, 1, 3, 8 Dec 2026 (28 Nov full); January 2027 online", "2,900 MAD", "Online cart, if-maroc.org/casablanca"),
+             ("<strong>Rabat · Kenitra</strong>", "Rabat: 22, 29, 30 Oct, 13, 19, 24 Nov, 4, 10 Dec; Kenitra: 13 dates to 18 Dec", "2,900 MAD", "Online cart"),
+             ("<strong>Fez · Tangier · Agadir · Marrakech</strong>", "29 Oct, 12, 26 Nov, 17 Dec · 12, 19, 26 Nov · 27 Nov, 9, 18 Dec · 12 Nov", "2,900 MAD", "Online cart"),
+             ("<strong>Tunis</strong> (IFT)", "22–23 Oct (registration closed), 26–27 Nov, 16 and 18 Dec 2026", "880 TND", "Online appointment 3–4 weeks before, then in person"),
+             ("<strong>Sousse · Sfax · El Mourouj</strong>", "18 and 20 Nov, 16 and 18 Dec · 27 Nov, 19 Dec · 19 and 26 Nov, 10 and 16 Dec", "880 TND", "Same"),
+             ("<strong>Algiers, Oran, Constantine, Annaba, Tlemcen</strong>", "“Every month”; dates on the platform", "37,500 DZD", "IFAL (VFS), 26 to 36 days between two registrations")]) + """
 <p>Our city pages, in French: Casablanca, Rabat, Marrakech, Tangier, Fez, Agadir, Tunis, Sousse, Sfax, Algiers, Oran,
 Constantine.</p>
 
@@ -1744,7 +1749,7 @@ registers candidates “subject to available seats”, without publishing a fee.
 two weeks (Marseille) before the test in France, a month before in Canada; in North Africa, as long as seats remain.
 <strong>Results</strong> arrive within two weeks in Montpellier, two to three in Lyon and Ottawa, three to four in
 Vancouver, <strong>five weeks</strong> in Tunisia. <strong>A second attempt</strong> requires a 20-day gap in France and
-Canada, 26 in Algeria, 30 in Tunisia — and with no re-marking since September 2026, it’s the only recourse.</p>
+Canada, 26 to 36 in Algeria, 30 in Tunisia — and with no re-marking since September 2026, it’s the only recourse.</p>
 <p>If your application has a deadline — an Express Entry profile to submit, an invitation to respond to — allow
 <strong>at least two months</strong> between the first session and a usable result after a possible second attempt, and
 aim for the first available date rather than the most convenient one: in Toronto as in Casablanca, sessions fill up in
@@ -1754,18 +1759,19 @@ that order.</p>
     cta_p="""A session is paid in full and can only be retaken after twenty days. The mock exams in the “TCF DELF TEF: Tests
 2026” app follow the official TCF Canada format — four tests, scored out of 699 and out of 20, with CLB (NCLC)
 conversion — with AI feedback on writing and speaking.""",
-    faq=[("When is the next TCF Canada test date?", "It depends on the centre: on 17 September 2026, ACCORD in Paris had a session on 23 September, the Alliance française de Montpellier on 23 September then 13 November, ACTE in Paris on 4 November, the Alliance française de Lyon on 21 October; Casablanca offered three a week and Tunis 24–25 September. There is no national calendar: the centre’s registration page is the reference."),
+    faq=[("When is the next TCF Canada test date?", "It depends on the centre: on 17 September 2026, ACCORD in Paris had a session on 23 September, the Alliance française de Montpellier on 23 September then 13 November, ACTE in Paris on 4 November, the Alliance française de Lyon on 21 October; on 17 October, Rabat had a session on 22 October, Casablanca on 3 November and Tunis on 26–27 November. There is no national calendar: the centre’s registration page is the reference."),
          ("Is there an official TCF Canada test date calendar?", "No. France Éducation international approves centres but runs no sessions: each centre publishes its own dates, often one or two months ahead, and updates them as registrations come in. FEI’s lists only give the centres’ contact details."),
-         ("How many TCF Canada sessions are there per month?", "From three a week in Casablanca to one a month in Lyon or Sousse, and one a quarter in Toronto. In France, the TCF Canada is much less frequent than the TCF IRN, which is held almost every week in Paris."),
+         ("How many TCF Canada sessions are there per month?", "From thirteen dates in two months in Kenitra (Morocco) to one a month in Lyon or Sousse, and one a quarter in Toronto. In France, the TCF Canada is much less frequent than the TCF IRN, which is held almost every week in Paris."),
          ("What if all TCF Canada sessions are full?", "Create your account in advance and log in the moment registration opens — in Toronto, a month before the quarter, at 10 am; in Vancouver, with your passport ready and a single tab open. With no waitlist, check back regularly: seats do free up. In France, try another centre — centres in the same city don’t have the same dates."),
-         ("How long between two TCF Canada attempts?", "At least twenty days in France and Canada (an FEI rule applied by every centre), 26 days in Algeria and 30 days in Tunisia, set by the Instituts français. For sessions held since 1 September 2026, no re-marking is possible: retaking the test is the only recourse.")],
+         ("How long between two TCF Canada attempts?", "At least twenty days in France and Canada (an FEI rule applied by every centre), 26 to 36 days in Algeria depending on the branch, and 30 days in Tunisia, set by the Instituts français. For sessions held since 1 September 2026, no re-marking is possible: retaking the test is the only recourse.")],
     also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, $390 to $440, and how to get a seat."),
           ("/en/tcf-canada-results/", "TCF Canada results: timeline and validity", "How long results take, the two-year rule, and retakes."),
           ("/en/", "All locations", "Every country and city page in English.")],
     sources="""<strong>Sources.</strong> The TCF Canada pages of the centres cited — ACTE, ACCORD (examensparis.fr), the
 Alliances françaises of Lyon, Montpellier and Aix-Marseille, KLF, CLPS, the Alliance française de Toronto, the
 Alliance française Canada Pacific, the Alliance Française de Montréal, and the Instituts français of Casablanca, Rabat,
-Marrakech, Tangier, Tunis (2026 calendar) and Algeria — checked on 17 September 2026; the TCF rules (France Éducation
+Marrakech, Tangier, Tunis (2026 calendar) and Algeria — checked on 17 September 2026; the TCF Canada pages of the
+Instituts français in Morocco, Tunisia (calendar by hub) and Algeria, re-checked on 17 October 2026; the TCF rules (France Éducation
 international) for the 20-day wait and the two-year validity; FEI’s note on the end of re-marking from 1 September
 2026. Dates and fees change without notice: check them on the centre’s website before you pay.""",
 ))
@@ -4273,3 +4279,102 @@ thresholds, points grids and calendars of Quebec’s programs change regularly. 
 <a href="https://www.france-education-international.fr/test/tcf-quebec" rel="noopener">france-education-international.fr</a>
 before you register or apply.""",
 ))
+
+
+# ===========================================================================
+# TCF CANADA — practice app and "software" (from /logiciel-tcf/, 17/10/2026)
+# ===========================================================================
+PAGES.append(dict(
+    fr_path="/logiciel-tcf/", lang="en", variant="en-CA", slug="tcf-canada-practice-app",
+    crumbs=[HOME, TCF], crumb="TCF practice app", published="2026-10-17", date_label="17 October 2026",
+    title="TCF Canada practice app and software: what exists (2026)",
+    desc="There is no official TCF software to download. The two free practice resources FEI recognises, and an app with mock exams in the official format.",
+    h1="TCF Canada practice app and software: what really exists",
+    intro="""There is no point looking for <strong>“the TCF software” to download</strong>: it doesn’t exist. The TCF
+is taken at an approved centre, often <strong>on computer</strong> — but on the centre’s machines, with confidential
+test papers that no one is allowed to share. What does exist: <strong>two free practice resources</strong> recognised
+by France Éducation international, and <strong>mock-exam apps</strong> that reproduce the official format. Here is what
+each one covers, and what it doesn’t.""",
+    facts=["<strong>No official software to download</strong>: TCF papers are confidential and may not be reproduced.",
+           "“Computer-based TCF”: the session takes place on the centre’s computers; the centre says whether it offers it.",
+           "Free and official: <strong>TV5MONDE</strong> (17 practice sets, 680 questions) and <strong>RFI</strong> (12 listening sessions of 16 questions).",
+           "What the free resources don’t cover: <strong>writing and speaking</strong>, and a full timed mock exam.",
+           "The “TCF DELF TEF: Tests 2026” app (iPhone): 16,547 items, 1,320 recorded audio files, mock exams in the official format, AI feedback on writing and speaking."],
+    toc=[("official", "Why there is no official software"), ("computer", "The computer-based TCF"),
+         ("free", "The two free official resources"), ("app", "A mock-exam app"), ("how", "How to practise, step by step")],
+    body="""
+<h2 id="official">Why there is no official software</h2>
+<p>TCF papers are <strong>strictly confidential</strong>: reproducing or sharing any part of them — question, image or
+sound — is forbidden. So there are no official past papers and no “TCF software” to install at home. A site offering to
+download “the real TCF” or “this month’s questions” is selling either counterfeits or documents obtained illegally — a
+pointless risk when your immigration application is at stake.</p>
+<p>The TCF is a standardised, calibrated, ISO 9001-certified test: each question is pretested, then weighted by its
+difficulty. You don’t need the real questions — you need to <strong>master the format</strong>, and the format can be
+learned freely.</p>
+
+<h2 id="computer">The computer-based TCF</h2>
+<p>Many approved centres offer <strong>computer-based sessions</strong>. France Éducation international’s official list
+shows, centre by centre, whether a centre offers this option, and our centre pages repeat it — for example
+<a href="/en/tcf-canada-toronto/">Toronto</a>, <a href="/en/tcf-canada-india/">India</a> or
+<a href="/en/tcf-canada-dubai/">Dubai</a>. On test day you work on the centre’s computers: nothing to install, nothing to
+download. The test format is the same on paper and on computer — what matters is having practised it.</p>
+
+<h2 id="free">The two free official resources</h2>
+<p>France Éducation international cites two free resources, and only two:</p>
+<ul>
+<li><strong>TV5MONDE</strong>: 17 practice sets, or 680 questions of listening, language structures and reading, written
+by the people who design the official tests.</li>
+<li><strong>RFI</strong> (<em lang="fr">Le français facile avec RFI</em>): 12 listening sessions of 16 questions, produced with France
+Éducation international.</li>
+</ul>
+<p>They are excellent for listening and reading. What they don’t cover — <strong>writing and speaking</strong>, and a
+full timed simulation — is exactly where most points are lost on test day. How to turn them into a real mock exam:
+<a href="/en/tcf-canada-practice-test/">free TCF Canada practice test</a>.</p>
+
+<h2 id="app">A mock-exam app in the official format</h2>
+<p>The <strong>“TCF DELF TEF: Tests 2026”</strong> app (iPhone, on the App Store) is built to fill the gap the free
+resources leave:</p>
+<ul>
+<li><strong>15 exam variants in the official format</strong> — TCF Canada, TCF IRN, TCF Québec, TEF, DELF, DALF — timed,
+and scored on each test’s scale, with conversion to CLB;</li>
+<li><strong>AI feedback on writing and speaking</strong> against the official criteria: relevance, coherence, vocabulary,
+grammar, spelling, and for speaking, pronunciation and fluency; the feedback needs an internet connection;</li>
+<li><strong>16,547 items</strong> in the main question banks and <strong>1,320 recorded audio files</strong> — no
+text-to-speech in the listening tests (count of 29 July 2026);</li>
+<li><strong>100% original</strong> questions, every answer explained, and your mistakes coming back through spaced
+repetition;</li>
+<li>everything else works <strong>offline</strong>, with no account.</li>
+</ul>
+<p>The test material is in French, as on exam day; the app’s interface is available in English, though some screens
+still show French.</p>
+
+<h2 id="how">How to practise, step by step</h2>
+<ol>
+<li><strong>A first full mock exam</strong>, timed, before any revision: it is the diagnosis that decides everything
+else.</li>
+<li><strong>Listening and reading on the free resources</strong>: TV5MONDE and RFI, listening once only, as on test
+day.</li>
+<li><strong>Writing and speaking with feedback</strong>: that is where the points are — a single point out of 20 can
+change your CLB level.</li>
+<li><strong>About one mock exam a week</strong> while you prepare, then <strong>two or three full ones in the last ten
+days</strong>, for stamina and time management.</li>
+</ol>
+""",
+    faq=[("Is there official TCF software to download?", "No. TCF papers are confidential and may not be reproduced, so there is no official software to install and no past papers. Sites offering to “download the TCF” distribute counterfeits or documents obtained illegally."),
+         ("What is the computer-based TCF?", "A TCF session taken on the approved centre’s computers rather than on paper. France Éducation international’s list shows, centre by centre, whether the option exists; the test format is the same."),
+         ("Where can I find a free TCF practice test?", "On TV5MONDE (17 practice sets, 680 questions) and RFI (12 listening sessions of 16 questions), the two resources France Éducation international cites. Neither covers writing and speaking, or a full timed exam."),
+         ("Is there an app to practise for the TCF Canada?", "Yes: the “TCF DELF TEF: Tests 2026” app, on iPhone, offers mock exams in the official format of each version and AI feedback on writing and speaking; it uses only original questions.")],
+    also=[("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "What TV5MONDE and RFI cover, and how to build a real mock exam."),
+          ("/en/tcf-canada/score-clb/", "TCF Canada scores and CLB calculator", "What each score is worth for your application."),
+          ("/en/tcf-canada/fees-registration/", "TCF Canada fees and registration", "What one attempt costs, country by country.")],
+    sources="""<strong>Sources.</strong> France Éducation international’s TCF pages (practice resources cited, list of centres
+and the “computer sessions” option); for the app, a direct count of its content files on 29 July 2026.""",
+))
+
+
+# ===========================================================================
+# DELF — calendar 2026-2027 (from /blog/calendrier-delf-dalf-2026-2027/, 17/10/2026) : i18n_pages_calendrier.py
+# ===========================================================================
+from i18n_pages_calendrier import PAGES as _CALENDRIER  # noqa: E402
+
+PAGES += [p for p in _CALENDRIER if p["lang"] == "en"]
