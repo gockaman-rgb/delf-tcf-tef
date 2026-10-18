@@ -31,6 +31,12 @@ CHIPS = """
 <a class="chip" href="/es/delf-sevilla/">DELF en Sevilla</a>
 <a class="chip" href="/es/delf-valencia/">DELF en Valencia</a>
 <a class="chip" href="/es/delf-granada/">DELF en Granada</a>
+<a class="chip" href="/es/delf-malaga/">DELF en Málaga</a>
+<a class="chip" href="/es/delf-bilbao/">DELF en Bilbao</a>
+<a class="chip" href="/es/delf-zaragoza/">DELF en Zaragoza</a>
+<a class="chip" href="/es/delf-palma/">DELF en Palma</a>
+<a class="chip" href="/es/delf-las-palmas/">DELF en Las Palmas</a>
+<a class="chip" href="/es/delf-girona/">DELF en Girona</a>
 </div>
 """
 

@@ -1429,7 +1429,9 @@ Instituto Francés, universidad.</p>
 
 <h2 id="ciudades">El DELF en España, ciudad por ciudad</h2>
 <p><a href="/es/delf-madrid/">Madrid</a> · <a href="/es/delf-barcelona/">Barcelona</a> · <a href="/es/delf-sevilla/">Sevilla</a> ·
-<a href="/es/delf-valencia/">Valencia</a> · <a href="/es/delf-granada/">Granada</a> — y los 32 centros, comunidad por comunidad:
+<a href="/es/delf-valencia/">Valencia</a> · <a href="/es/delf-granada/">Granada</a> · <a href="/es/delf-malaga/">Málaga</a> ·
+<a href="/es/delf-bilbao/">Bilbao</a> · <a href="/es/delf-zaragoza/">Zaragoza</a> · <a href="/es/delf-palma/">Palma</a> ·
+<a href="/es/delf-las-palmas/">Las Palmas</a> · <a href="/es/delf-girona/">Girona</a> — y los 32 centros, comunidad por comunidad:
 <a href="/es/delf-espana/">DELF en España</a>.</p>
 """,
     faq=[("¿Dónde presentar el TCF Canada en América Latina?", "En México (5 centros, de 4,800 a 6,500 pesos), Colombia (las 7 Alianzas Francesas, desde 1.050.000 pesos), Chile (2 centros, 299.000 pesos), Perú (la Alianza Francesa de Lima, 1,240 soles), Ecuador (Cuenca 200 dólares, Guayaquil 300) y Argentina (4 centros, precio a solicitud). Precios revisados el 8 de octubre de 2026."),
@@ -1448,3 +1450,335 @@ antes de pagar.""",
 «TCF DELF TEF: Tests 2026» reproducen el formato oficial de cada examen — TCF Canada, DELF B1, DELF B2, DALF C1 — con
 la puntuación del examen real y corrección con IA de la expresión escrita y oral. La app está en español.""",
 )
+
+
+# ===========================================================================
+# ESPAÑA — seis ciudades más (18/10/2026): búsquedas «delf bilbao», «málaga», «palma», «las palmas», «girona», «jaén»
+# en Search Console. Calendario y tarifas: los nacionales de arriba (CNE, consultados el 8/10/2026). Lo propio de cada
+# centro —convocatorias que anuncia, matrícula, sedes— viene de su web, leída el 18/10/2026 (scratchpad es_cities).
+# Ningún centro dice abrir las cuatro convocatorias de adultos de 2027: cada página dice cuáles anuncia.
+# ===========================================================================
+_NUEVA = dict(published="2026-10-18", date_label="18 de octubre de 2026", list_date="8 de octubre de 2026",
+              releve_date="18 de octubre de 2026")
+_FECHAS_2027 = ("/es/fechas-delf-2027/", "Fechas DELF 2027", "El calendario de Francia y el de España, convocatoria por convocatoria.")
+_CNE_NO_TODAS = ("El Centro Nacional de Exámenes lo recuerda: «No todos los centros de exámenes organizan obligatoriamente "
+                 "todas las convocatorias del año».")
+
+
+def _fuentes(web):
+    return (f"web de {web}, consultada el 18 de octubre de 2026; calendario y tarifas de 2027 del Centro Nacional de "
+            "Exámenes (delf-dalf.es), consultados el 8 de octubre de 2026.")
+
+
+# ---------------------------------------------------------------------------- BILBAO
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Bilbao"], nearby=[],
+    slug="delf-bilbao", country_name="España", crumb="DELF en Bilbao", **_NUEVA,
+    title="Examen DELF en Bilbao: fechas 2027, precio y matrícula",
+    desc="Examen DELF en Bilbao en el Institut français: convocatorias de febrero, junio y octubre de 2027, el B2 el 11 de febrero, 192 €, matrícula online.",
+    h1="Examen DELF en Bilbao: el Institut français, las fechas de 2027 y el precio",
+    intro="""En Bilbao, el DELF y el DALF se hacen en el <strong>Institut français de Bilbao</strong> (paseo Campo Volantín,
+23, entrada por la calle Epalza, 1), el único centro de la ciudad en la lista de France Éducation international. Para
+2027, su web anuncia tres convocatorias para adultos: <strong>febrero, junio y octubre</strong>. Fechas y precios son
+nacionales: el B2 de febrero es el <strong>11 de febrero de 2027</strong>, con matrícula del <strong>1 de diciembre de
+2026 al 9 de enero de 2027</strong>, y cuesta <strong>192 €</strong>. La matrícula se hace online, en la tienda del
+Institut.""",
+    facts=["<strong>Un centro en Bilbao</strong> (lista de FEI del 8 de octubre de 2026): el Institut français de Bilbao, paseo Campo Volantín, 23 (entrada por Epalza, 1).",
+           "Convocatorias de 2027 que anuncia el Institut: <strong>febrero, junio y octubre</strong>; la de septiembre no figura en su lista (18 de octubre de 2026).",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del 1 de diciembre de 2026 al 9 de enero de 2027 (calendario nacional); resultados el 17 de marzo.",
+           "Precios de 2027: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>, los mismos en toda España.",
+           "Matrícula <strong>online</strong>, con pago con tarjeta; unos días después del cierre llega un enlace para reservar la fecha del oral, y la convocatoria con el lugar exacto, una semana antes."],
+    stats=[("{n}", "centro en Bilbao", "el Institut français"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "tarifa nacional"), ("3", "convocatorias en 2027", "febrero, junio y octubre")],
+    sections=[
+        ("centro", "Dónde hacer el DELF en Bilbao", """<p>La lista de France Éducation international (FEI) da un solo centro de examen DELF-DALF en Bilbao: el
+<strong>Institut français de Bilbao</strong>. El Centro Nacional de Exámenes (delf-dalf.es) fija el calendario y las
+tarifas para toda España, pero no matricula a nadie: la matrícula se hace siempre en el centro. El Institut examina
+los seis niveles, del A1 al C2, y tiene páginas propias para el DELF Junior y el DELF Prim y cursos de preparación al
+DELF y al DALF.</p>
+
+<p>El lugar exacto de las pruebas no está en la web: llega con la convocatoria, «aproximadamente una semana antes».
+Ese día, «es obligatorio presentarse al examen con la convocatoria y el DNI». Los diplomas tardan «unos 3 meses»
+desde la publicación de los resultados y se recogen en la recepción del Institut, sin cita previa. La secretaría de
+exámenes atiende en el 944 132 002, de lunes a viernes de 9.30 a 16.00.</p>"""),
+        ("fechas", "Fechas del DELF en Bilbao: el calendario de 2027", _delf_es_calendario("en el Institut français de Bilbao") + """
+<p>De estas cuatro convocatorias, el Institut français de Bilbao anuncia tres: <strong>febrero, junio y octubre de
+2027</strong>; la de septiembre no aparece en su lista. """ + _CNE_NO_TODAS + """ Las pruebas orales se reparten en
+torno a las escritas, y el Institut envía un enlace para reservar la fecha del oral unos días después del cierre de la
+matrícula.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Bilbao?", _delf_es_tarifas("en el Institut français de Bilbao") + """
+<p>Son las tarifas nacionales: el Institut cobra lo mismo que cualquier otro centro de España. Sus condiciones de venta
+de 2027 —reembolsos, cambios— están en un documento aparte, en su web.</p>"""),
+        ("matricula", "Cómo matricularse en Bilbao", """<p>La matrícula es <strong>solo online</strong>: durante el plazo de
+la convocatoria, en la tienda del Institut, se elige el examen, se añade «a la cesta» y se paga con tarjeta. La cuenta
+debe abrirse «con los datos exactos al DNI». El 18 de octubre de 2026 la tienda no vendía aún ningún examen: la
+convocatoria de febrero abre el 1 de diciembre. Las reglas comunes —documentos, resultados, diploma— están en
+<a href="/es/delf-espana/">DELF y DALF en España</a>.</p>"""),
+    ],
+    list_title="El centro de examen DELF de Bilbao",
+    faq=[("¿Dónde hacer el DELF en Bilbao?", "En el Institut français de Bilbao (paseo Campo Volantín, 23, entrada por la calle Epalza, 1), el único centro de la ciudad autorizado por France Éducation international. Examina los seis niveles, del A1 al C2."),
+         ("¿Cuándo es el próximo DELF en Bilbao?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional. Para 2027, el Institut anuncia además las convocatorias de junio y octubre; la de septiembre no figura en su lista."),
+         ("¿Cuánto cuesta el DELF en Bilbao?", "En 2027, el DELF B2 cuesta 192 €; el B1, 162 €; el DALF C1, 249 €, y el C2, 259 € (A1 89 €, A2 118 €). Es la tarifa nacional, la misma en toda España."),
+         ("¿Cómo me matriculo en el Institut français de Bilbao?", "Online, en la tienda del Institut, durante el plazo de matrícula: se elige el examen, se añade a la cesta y se paga con tarjeta, con una cuenta abierta con los datos exactos del DNI. Unos días después del cierre llega un enlace para reservar el oral.")],
+    also=[_DELF_ES_PAIS, _FECHAS_2027, _DELF_ES_B2],
+    sources=_fuentes("el Institut français de Bilbao (página DELF-DALF y tienda online)"),
+    urls={"bilbao-institut-francais-de-bilbao": "https://www.institutfrancais.es/bilbao/examenes/adultos/delf-dalf/"},
+    notes={"bilbao-institut-francais-de-bilbao": "Matrícula online; convocatorias de 2027: febrero, junio y octubre."},
+))
+
+# ---------------------------------------------------------------------------- MÁLAGA (y Jaén, Córdoba, Almería)
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Malaga"], nearby=[],
+    slug="delf-malaga", country_name="España", crumb="DELF en Málaga", **_NUEVA,
+    title="Examen DELF en Málaga, Jaén y Córdoba: fechas 2027, precio",
+    desc="Examen DELF con la Alianza Francesa de Málaga, también en Jaén, Córdoba y Almería: convocatorias de febrero, junio y septiembre, B2 a 192 €, pago online.",
+    h1="Examen DELF en Málaga: la Alianza Francesa, sus sedes, las fechas de 2027 y el precio",
+    intro="""En Málaga, el DELF y el DALF dependen de la <strong>Alianza Francesa de Málaga</strong> (calle Canales, 11), el
+único centro de la provincia en la lista de France Éducation international, que examina también en <strong>Jaén,
+Córdoba y Almería</strong> —y, en algunas convocatorias, en Algeciras—. Para adultos, su web anuncia tres convocatorias
+al año: <strong>febrero, junio y septiembre</strong>. Fechas y precios son nacionales: el B2 de febrero es el
+<strong>11 de febrero de 2027</strong>, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, y cuesta
+<strong>192 €</strong>. El DELF se paga solo online.""",
+    facts=["<strong>Un centro</strong> (lista de FEI del 8 de octubre de 2026): la Alianza Francesa de Málaga, calle Canales, 11; examina en Málaga, Jaén, Córdoba y Almería, y en algunas convocatorias en Algeciras y Ceuta.",
+           "Convocatorias para adultos que anuncia la Alianza: <strong>febrero, junio y septiembre</strong>; el DELF Junior, en febrero, junio y octubre (18 de octubre de 2026).",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del 1 de diciembre de 2026 al 9 de enero de 2027 (calendario nacional); resultados el 17 de marzo.",
+           "Precios de 2027: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>, los mismos en toda España.",
+           "Pago <strong>solo online</strong>; las tasas no se devuelven, pero pasan a la convocatoria siguiente por motivo médico o de fuerza mayor, con una nueva matrícula sin coste."],
+    stats=[("{n}", "centro en la provincia", "la Alianza Francesa"), ("4", "ciudades de examen", "Málaga, Jaén, Córdoba, Almería"),
+           ("192 €", "el DELF B2 en 2027", "tarifa nacional"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027")],
+    sections=[
+        ("centro", "Dónde hacer el DELF en Málaga, Jaén o Córdoba", """<p>La lista de France Éducation international (FEI) da un solo
+centro de examen DELF-DALF en la provincia de Málaga: la <strong>Alianza Francesa de Málaga</strong>. Pero la Alianza
+«examina en las provincias de Almería, Córdoba, Granada, Jaén y Málaga»: al matricularte, eliges la ciudad entre
+<strong>Jaén, Córdoba, Málaga, Almería</strong> y, en algunas convocatorias, Algeciras —Granada, solo para el DELF Junior,
+Prim y Scolaire; para el DELF de adultos en Granada, el centro es el <a href="/es/delf-granada/">CLM Granada</a>—.</p>
+
+<p>La Alianza advierte de que «existen numerosas páginas web falsas que ofrecen certificados fraudulentos o servicios
+engañosos»: el DELF solo se obtiene presentándose al examen en un centro autorizado, y la matrícula se hace en la web de
+la Alianza. El día del examen hay que llevar «la convocatoria impresa, el DNI y tu material para hacer el examen».</p>"""),
+        ("fechas", "Fechas del DELF en Málaga: el calendario de 2027", _delf_es_calendario("en la Alianza Francesa de Málaga") + """
+<p>De estas cuatro convocatorias, la Alianza anuncia tres para adultos: <strong>febrero, junio y septiembre</strong>; la de
+octubre no figura para el DELF tout public (sí para el DELF Junior). """ + _CNE_NO_TODAS + """ Su calendario
+2026-2027, con sus propias fechas y precios, está en un documento aparte en su web.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Málaga?", _delf_es_tarifas("en la Alianza Francesa de Málaga") + """
+<p>Son las tarifas nacionales. La Alianza precisa que no reembolsa las tasas y que no se pueden pasar a otro nivel ni a
+otro candidato; por un motivo médico justificado, una hospitalización, el fallecimiento de un familiar o fuerza mayor,
+pasan a la convocatoria siguiente, con una nueva matrícula sin coste.</p>"""),
+        ("matricula", "Cómo matricularse", """<p>«Los pagos para los exámenes DELF y DALF sólo se pueden realizar online a través
+de nuestra página web»: se abre una cuenta de candidato <strong>a nombre del candidato</strong> —no del tutor legal—, se
+elige la ciudad de examen y se paga. El 18 de octubre de 2026 no había aún ningún examen a la venta: la convocatoria de
+febrero abre el 1 de diciembre. Para cambiar la fecha del oral, las dos páginas de la Alianza no dan el mismo plazo
+(15 días antes de la convocatoria en sus condiciones de venta, 10 días en sus preguntas frecuentes): cuenta con 15. Las
+adaptaciones por discapacidad se piden durante la matrícula, con un certificado médico de menos de dos años.</p>"""),
+    ],
+    list_title="El centro de examen DELF de la provincia de Málaga",
+    faq=[("¿Dónde hacer el DELF en Málaga?", "Con la Alianza Francesa de Málaga (calle Canales, 11), el único centro de la provincia autorizado por France Éducation international. Examina en Málaga, Jaén, Córdoba y Almería, y en algunas convocatorias en Algeciras."),
+         ("¿Se puede hacer el DELF en Jaén o en Córdoba?", "Sí: la Alianza Francesa de Málaga examina en Jaén, Córdoba y Almería; se elige la ciudad al matricularse en su web. En Granada examina solo el DELF Junior, Prim y Scolaire; para los adultos, el centro de Granada es el CLM."),
+         ("¿Cuándo es el próximo DELF en Málaga?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional. Para adultos, la Alianza anuncia febrero, junio y septiembre; no octubre."),
+         ("¿Cuánto cuesta el DELF en Málaga?", "En 2027, el DELF B2 cuesta 192 €; el B1, 162 €; el DALF C1, 249 €, y el C2, 259 € (A1 89 €, A2 118 €). Es la tarifa nacional, la misma en toda España."),
+         ("¿Me devuelven el dinero si no puedo presentarme?", "No: la Alianza no reembolsa las tasas. Por un motivo médico justificado, una hospitalización, el fallecimiento de un familiar o fuerza mayor, la tasa pasa a la convocatoria siguiente, con una nueva matrícula sin coste.")],
+    also=[_DELF_ES_PAIS, ("/es/delf-granada/", "Examen DELF en Granada", "El CLM Granada: fechas de 2027, precio y matrícula."),
+          ("/es/delf-sevilla/", "Examen DELF en Sevilla", "Los dos centros de Sevilla: fechas, precio y matrícula.")],
+    sources=_fuentes("la Alianza Francesa de Málaga (páginas DELF-DALF, inscripción y condiciones generales de venta)"),
+    urls={"malaga-alliance-francaise-malaga": "https://www.alianzafrancesamalaga.es/examen/delf-dalf/"},
+    notes={"malaga-alliance-francaise-malaga": "Examina también en Jaén, Córdoba y Almería; pago solo online."},
+))
+
+# ---------------------------------------------------------------------------- PALMA
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Palma de Majorque"], nearby=[],
+    slug="delf-palma", country_name="España", crumb="DELF en Palma", **_NUEVA,
+    title="Examen DELF en Palma de Mallorca: fechas 2027 y precio",
+    desc="Examen DELF en Palma, en la Alianza Francesa, único centro de Baleares: convocatorias de febrero, junio y septiembre, B2 a 192 € en 2027, matrícula.",
+    h1="Examen DELF en Palma de Mallorca: la Alianza Francesa, las fechas y el precio",
+    intro="""En Palma, el DELF y el DALF se hacen en la <strong>Alianza Francesa de Palma de Mallorca</strong> (avenida Argentina,
+16), que se presenta como «el único centro examinador oficial en las Islas Baleares». Para adultos, anuncia tres
+convocatorias al año: <strong>febrero, junio y septiembre</strong>. Fechas y precios son nacionales —el B2 de febrero,
+el <strong>11 de febrero de 2027</strong>, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, a
+<strong>192 €</strong>—, aunque el 18 de octubre de 2026 la web del centro solo mostraba aún el calendario y las tarifas
+de 2026. La matrícula se hace con una hoja de inscripción.""",
+    facts=["<strong>Un centro</strong> (lista de FEI del 8 de octubre de 2026): la Alianza Francesa de Palma de Mallorca, avenida Argentina, 16, entresuelo A — «el único centro examinador oficial en las Islas Baleares».",
+           "Convocatorias para adultos: <strong>febrero, junio y septiembre</strong>, dentro de «5 convocatorias anuales en Palma» con el DELF Junior, Scolaire y Prim.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>, según el calendario nacional; matrícula del 1 de diciembre de 2026 al 9 de enero de 2027.",
+           "Precios de 2027, nacionales: <strong>B2 192 €</strong>, B1 162 €, DALF C1 249 €; el 18 de octubre de 2026, la web del centro mostraba aún los de 2026 (B2 188 €).",
+           "Matrícula con <strong>hoja de inscripción</strong>, copia del documento de identidad y justificante de pago: en efectivo o con tarjeta en el centro, o por transferencia."],
+    stats=[("{n}", "centro en Baleares", "la Alianza Francesa"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "tarifa nacional"), ("3", "convocatorias de adultos", "febrero, junio y septiembre")],
+    sections=[
+        ("centro", "Dónde hacer el DELF en Mallorca", """<p>La lista de France Éducation international (FEI) da un solo centro de
+examen DELF-DALF en las Islas Baleares: la <strong>Alianza Francesa de Palma de Mallorca</strong>. El calendario y las
+tarifas son los del Centro Nacional de Exámenes, comunes a toda España; la matrícula se hace en la Alianza. Para el DALF
+(C1, C2), la Alianza recomienda una «edad mínima» de 16 años cumplidos el día del examen; el DELF Scolaire está
+«reservado en las Islas Baleares a alumnos de centros públicos y concertados».</p>
+
+<p>Atención a las direcciones: la web de la Alianza es <strong>afpalma.es</strong>; el dominio del correo que figura en
+algunas listas, alianzafrancesapalma.com, ya no respondía el 18 de octubre de 2026. El teléfono de la secretaría es el
+971 714 101; el diploma se recoge con cita previa llamando al 971 71 41 01.</p>"""),
+        ("fechas", "Fechas del DELF en Palma: el calendario de 2027", _delf_es_calendario("en la Alianza Francesa de Palma de Mallorca") + """
+<p>De estas cuatro convocatorias, la Alianza anuncia tres para adultos: <strong>febrero, junio y septiembre</strong>; la
+de octubre no figura en su lista. """ + _CNE_NO_TODAS + """ Para febrero de 2026, la Alianza abrió la matrícula en dos
+tramos —del 1 al 22 de diciembre de 2025 y del 8 al 9 de enero de 2026—; para 2027, confirma las fechas con el centro.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Palma?", _delf_es_tarifas("en la Alianza Francesa de Palma de Mallorca") + """
+<p>Son las tarifas nacionales. El 18 de octubre de 2026, la web de la Alianza mostraba todavía su tabla de 2026 (A1 87,
+A2 115, B1 160, B2 188, C1 244 y C2 256 €): para la convocatoria de febrero de 2027 se aplican los precios de 2027.</p>"""),
+        ("matricula", "Cómo matricularse", """<p>La Alianza no tiene tienda online para el DELF: se presenta la <strong>hoja de
+inscripción</strong> —se pide en el centro o se descarga en su web—, una <strong>copia del documento de
+identidad</strong> y el <strong>justificante de pago</strong>. Las tasas se pagan en el centro, en efectivo o con
+tarjeta, o por transferencia. Las reglas comunes —documentos, resultados, diploma— están en
+<a href="/es/delf-espana/">DELF y DALF en España</a>.</p>"""),
+    ],
+    list_title="El centro de examen DELF de las Islas Baleares",
+    faq=[("¿Dónde hacer el DELF en Mallorca?", "En la Alianza Francesa de Palma de Mallorca (avenida Argentina, 16), el único centro de las Islas Baleares autorizado por France Éducation international."),
+         ("¿Cuándo es el próximo DELF en Palma?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional. Para adultos, la Alianza anuncia febrero, junio y septiembre; no octubre."),
+         ("¿Cuánto cuesta el DELF en Palma?", "En 2027, el DELF B2 cuesta 192 €; el B1, 162 €; el DALF C1, 249 €, y el C2, 259 € (A1 89 €, A2 118 €), la tarifa nacional. La web de la Alianza mostraba aún, el 18 de octubre de 2026, los precios de 2026."),
+         ("¿Cómo me matriculo en la Alianza Francesa de Palma?", "Con la hoja de inscripción (en el centro o descargada de su web), una copia del documento de identidad y el justificante de pago; se paga en el centro, en efectivo o con tarjeta, o por transferencia.")],
+    also=[_DELF_ES_PAIS, _FECHAS_2027, ("/es/delf-barcelona/", "Examen DELF en Barcelona", "El Institut français de Barcelona y dos Alianzas Francesas en Cataluña.")],
+    sources=_fuentes("la Alianza Francesa de Palma de Mallorca (página de exámenes oficiales y calendario publicado)"),
+    urls={"palma-de-majorque-alliance-francaise-de-palma-de-mallorca": "https://afpalma.es/examenes-oficiales/"},
+    notes={"palma-de-majorque-alliance-francaise-de-palma-de-mallorca": "Web: afpalma.es; matrícula con hoja de inscripción."},
+))
+
+# ---------------------------------------------------------------------------- LAS PALMAS DE GRAN CANARIA
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Las Palmas de Gran Canaria"], nearby=[],
+    slug="delf-las-palmas", country_name="España", crumb="DELF en Las Palmas", **_NUEVA,
+    title="Examen DELF en Las Palmas: fechas 2027, precio y matrícula",
+    desc="Examen DELF en Las Palmas de Gran Canaria, en la Alianza Francesa: febrero, junio y octubre de 2027, B2 a 192 €, matrícula con formulario y transferencia.",
+    h1="Examen DELF en Las Palmas de Gran Canaria: la Alianza Francesa, las fechas de 2027 y el precio",
+    intro="""En Las Palmas de Gran Canaria, el DELF y el DALF se hacen en la <strong>Alianza Francesa de Las Palmas</strong>
+(calle Buenos Aires, 56), «el único centro habilitado de la provincia». Para 2027 anuncia tres convocatorias:
+<strong>febrero, junio y octubre</strong>, a los precios nacionales —el B2, <strong>192 €</strong>—, y el formulario de
+inscripción de febrero ya está en línea. El B2 de febrero es el <strong>11 de febrero de 2027</strong>, con matrícula
+del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional.""",
+    facts=["<strong>Un centro</strong> (lista de FEI del 8 de octubre de 2026): la Alianza Francesa de Las Palmas de Gran Canaria, calle Buenos Aires, 56 — «el único centro habilitado de la provincia».",
+           "Convocatorias de 2027: <strong>febrero, junio y octubre</strong> (DELF-DALF tout public y Junior); la de septiembre no figura (18 de octubre de 2026).",
+           "Precios de 2027 publicados por la Alianza: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>, los nacionales.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del 1 de diciembre de 2026 al 9 de enero de 2027 (calendario nacional).",
+           "Matrícula: <strong>formulario en línea</strong>, pago por transferencia y envío del justificante por correo (info@alianzaflp.org) o por WhatsApp."],
+    stats=[("{n}", "centro en la provincia", "la Alianza Francesa"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "tarifa nacional"), ("3", "convocatorias en 2027", "febrero, junio y octubre")],
+    sections=[
+        ("centro", "Dónde hacer el DELF en Gran Canaria", """<p>La lista de France Éducation international (FEI) da un centro de
+examen DELF-DALF en la provincia de Las Palmas: la <strong>Alianza Francesa de Las Palmas de Gran Canaria</strong>. La
+provincia de Santa Cruz de Tenerife tiene el suyo. Calendario y tarifas son los del Centro Nacional de Exámenes, comunes
+a toda España; la Alianza lo resume así: «Los 33 centros de examen oficiales en España tienen el mismo calendario de
+exámenes con las mismas fechas de matrícula». También propone clases de preparación para todos los niveles.</p>"""),
+        ("fechas", "Fechas del DELF en Las Palmas: el calendario de 2027", _delf_es_calendario("en la Alianza Francesa de Las Palmas") + """
+<p>De estas cuatro convocatorias, la Alianza anuncia tres para 2027: <strong>febrero, junio y octubre</strong>, cada una con
+su formulario de inscripción; la de septiembre no figura. """ + _CNE_NO_TODAS + """</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Las Palmas?", _delf_es_tarifas("en la Alianza Francesa de Las Palmas") + """
+<p>La Alianza publica exactamente estos precios de 2027 en su página de convocatorias. Sus normas y condiciones de venta
+—reembolsos, cambios— están en un documento aparte.</p>"""),
+        ("matricula", "Cómo matricularse", """<p>La Alianza lo explica en cinco pasos: elegir la sesión, leer las condiciones de
+venta, <strong>completar el formulario de inscripción</strong>, pagar la tasa <strong>por transferencia bancaria</strong>
+—con el IBAN indicado debajo del formulario— y enviar el comprobante por correo a info@alianzaflp.org o por WhatsApp. El
+formulario de febrero de 2027 ya estaba en línea el 18 de octubre de 2026. Las reglas comunes están en
+<a href="/es/delf-espana/">DELF y DALF en España</a>.</p>"""),
+    ],
+    list_title="El centro de examen DELF de Las Palmas de Gran Canaria",
+    faq=[("¿Dónde hacer el DELF en Las Palmas de Gran Canaria?", "En la Alianza Francesa de Las Palmas de Gran Canaria (calle Buenos Aires, 56), el único centro habilitado de la provincia por France Éducation international."),
+         ("¿Cuándo es el próximo DELF en Las Palmas?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional. La Alianza anuncia también junio y octubre de 2027; no septiembre."),
+         ("¿Cuánto cuesta el DELF en Las Palmas?", "En 2027: A1 89 €, A2 118 €, B1 162 €, B2 192 €, DALF C1 249 € y C2 259 €, los precios nacionales que publica la propia Alianza."),
+         ("¿Cómo me matriculo en la Alianza Francesa de Las Palmas?", "Con el formulario en línea de la convocatoria, pagando la tasa por transferencia (IBAN debajo del formulario) y enviando el comprobante a info@alianzaflp.org o por WhatsApp.")],
+    also=[_DELF_ES_PAIS, _FECHAS_2027, _DELF_ES_B2],
+    sources=_fuentes("la Alianza Francesa de Las Palmas de Gran Canaria (alianzaflp.org y su página de certificaciones)"),
+    urls={"las-palmas-de-gran-canaria-alliance-francaise-de-las-palmas-de-gran-canaria": "https://alianzaflp.org/"},
+    notes={"las-palmas-de-gran-canaria-alliance-francaise-de-las-palmas-de-gran-canaria": "Formulario en línea y transferencia; 2027: febrero, junio, octubre."},
+))
+
+# ---------------------------------------------------------------------------- ZARAGOZA
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Saragosse"], nearby=[],
+    slug="delf-zaragoza", country_name="España", crumb="DELF en Zaragoza", **_NUEVA,
+    title="Examen DELF en Zaragoza: fechas 2027, precio y matrícula",
+    desc="Examen DELF en Zaragoza, en el Institut français (paseo Sagasta, 7): convocatorias de febrero, junio y octubre, B2 a 192 € en 2027, matrícula online.",
+    h1="Examen DELF en Zaragoza: el Institut français, las fechas de 2027 y el precio",
+    intro="""En Zaragoza, el DELF y el DALF se hacen en el <strong>Institut français de Zaragoza</strong> (paseo Sagasta, 7), el
+único centro de Aragón en la lista de France Éducation international. El Institut propone «tres convocatorias Delf – Dalf
+cada año: Febrero – Junio – Octubre». Fechas y precios son nacionales: el B2 de febrero es el <strong>11 de febrero de
+2027</strong>, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, y cuesta <strong>192 €</strong>. La
+matrícula se hace online.""",
+    facts=["<strong>Un centro</strong> (lista de FEI del 8 de octubre de 2026): el Institut français de Zaragoza, paseo Sagasta, 7.",
+           "«Tres convocatorias Delf – Dalf cada año: <strong>Febrero – Junio – Octubre</strong>»; no septiembre. El 18 de octubre de 2026, la web solo mostraba aún el calendario de 2026.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del 1 de diciembre de 2026 al 9 de enero de 2027 (calendario nacional); resultados el 17 de marzo.",
+           "Precios de 2027: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>, los mismos en toda España.",
+           "Matrícula <strong>online</strong>; convocatoria oficial por correo, impresa o en el móvil; adaptaciones por discapacidad, dos meses antes."],
+    stats=[("{n}", "centro en Zaragoza", "el Institut français"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "tarifa nacional"), ("3", "convocatorias al año", "febrero, junio y octubre")],
+    sections=[
+        ("centro", "Dónde hacer el DELF en Zaragoza", """<p>La lista de France Éducation international (FEI) da un solo centro de
+examen DELF-DALF en Aragón: el <strong>Institut français de Zaragoza</strong>. Calendario y tarifas son los del Centro
+Nacional de Exámenes, comunes a toda España; la matrícula se hace en el Institut, que tiene también páginas para el DELF
+Junior, el DELF Prim y el DELF Pro, y cursos de preparación al DELF B2 y al DALF C1.</p>"""),
+        ("fechas", "Fechas del DELF en Zaragoza: el calendario de 2027", _delf_es_calendario("en el Institut français de Zaragoza") + """
+<p>De estas cuatro convocatorias, el Institut propone tres al año: <strong>febrero, junio y octubre</strong>. """ + _CNE_NO_TODAS + """
+La última, la de octubre de 2026, tuvo su matrícula del 31 de agosto al 25 de septiembre de 2026.</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Zaragoza?", _delf_es_tarifas("en el Institut français de Zaragoza") + """
+<p>Son las tarifas nacionales: el Institut cobra lo mismo que cualquier otro centro de España, y recuerda que «no existen
+códigos promocionales para los exámenes oficiales».</p>"""),
+        ("matricula", "Cómo matricularse", """<p>La matrícula se hace <strong>a distancia</strong>: durante el plazo de la
+convocatoria, en el espacio de inscripción del Institut, se elige el examen y se añade «a la cesta». Después llega por
+correo «una convocatoria oficial de sus fechas de examen (escrito y oral)», que se presenta impresa o en formato
+digital. Si necesitas una adaptación por discapacidad, avisa «dos meses antes» a certificaciones@institutfrancais.es. El
+18 de octubre de 2026 no había aún ningún examen a la venta: la convocatoria de febrero abre el 1 de diciembre.</p>"""),
+    ],
+    list_title="El centro de examen DELF de Zaragoza",
+    faq=[("¿Dónde hacer el DELF en Zaragoza?", "En el Institut français de Zaragoza (paseo Sagasta, 7), el único centro de Aragón autorizado por France Éducation international."),
+         ("¿Cuándo es el próximo DELF en Zaragoza?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional. El Institut propone tres convocatorias al año: febrero, junio y octubre."),
+         ("¿Cuánto cuesta el DELF en Zaragoza?", "En 2027, el DELF B2 cuesta 192 €; el B1, 162 €; el DALF C1, 249 €, y el C2, 259 € (A1 89 €, A2 118 €). Es la tarifa nacional, sin códigos promocionales."),
+         ("¿Cómo me matriculo en el Institut français de Zaragoza?", "Online, durante el plazo de matrícula: se elige el examen en el espacio de inscripción del Institut y se añade a la cesta; la convocatoria oficial llega luego por correo. Las adaptaciones por discapacidad se piden dos meses antes.")],
+    also=[_DELF_ES_PAIS, _FECHAS_2027, _DELF_ES_B2],
+    sources=_fuentes("el Institut français de Zaragoza (páginas DELF-DALF, DELF Junior y espacio de inscripción)"),
+    urls={"saragosse-institut-francais-d-espagne-zaragoza": "https://www.institutfrancais.es/zaragoza/examenes/adultos/delf-dalf/"},
+    notes={"saragosse-institut-francais-d-espagne-zaragoza": "Matrícula online; tres convocatorias al año: febrero, junio y octubre."},
+))
+
+# ---------------------------------------------------------------------------- GIRONA
+PAGES.append(from_fr(
+    "delf-espagne", "es", "es-ES", "Espagne", fr_path=None, layout="city", match=["Gérone"], nearby=[],
+    slug="delf-girona", country_name="España", crumb="DELF en Girona", **_NUEVA,
+    title="Examen DELF en Girona: fechas 2027, precio y matrícula",
+    desc="Examen DELF en Girona, en la Alianza Francesa (avenida Jaume I, 8): fechas de 2027, B2 a 192 €, matrícula online en el portal examensdelf.cat.",
+    h1="Examen DELF en Girona: la Alianza Francesa, las fechas de 2027 y el precio",
+    intro="""En Girona, el DELF y el DALF se hacen en la <strong>Alianza Francesa de Girona</strong> (avenida Jaume I, 8), el
+único centro de la ciudad en la lista de France Éducation international. Sus exámenes se gestionan desde el portal
+<strong>examensdelf.cat</strong>, común con la Alianza de Granollers: el dominio afgirona.org, que aún figura en algunas
+listas, ya no muestra la web del centro. En 2026 abrió las convocatorias de febrero, junio y octubre. Fechas y precios
+son nacionales: el B2 de febrero es el <strong>11 de febrero de 2027</strong>, con matrícula del 1 de diciembre de 2026
+al 9 de enero de 2027, y cuesta <strong>192 €</strong>.""",
+    facts=["<strong>Un centro en Girona</strong> (lista de FEI del 8 de octubre de 2026): la Alianza Francesa de Girona, avenida Jaume I, 8; contacto info@afgirona.org, 972 200 406.",
+           "Sus exámenes se gestionan en <strong>examensdelf.cat</strong>, portal común con la Alianza de Granollers; el dominio afgirona.org ya no muestra la web del centro (18 de octubre de 2026).",
+           "Convocatorias abiertas en 2026: <strong>febrero, junio y octubre</strong>; para 2027, el centro aún no dice cuáles abrirá.",
+           "Próximo DELF B2: <strong>11 de febrero de 2027</strong>; matrícula del 1 de diciembre de 2026 al 9 de enero de 2027 (calendario nacional).",
+           "Precios de 2027: <strong>A1 89 · A2 118 · B1 162 · B2 192 · C1 249 · C2 259 €</strong>, los mismos en toda España."],
+    stats=[("{n}", "centro en Girona", "la Alianza Francesa"), ("11 feb.", "próximo DELF B2", "convocatoria de febrero de 2027"),
+           ("192 €", "el DELF B2 en 2027", "tarifa nacional"), ("3", "convocatorias en 2026", "febrero, junio y octubre")],
+    sections=[
+        ("centro", "Dónde hacer el DELF en Girona", """<p>La lista de France Éducation international (FEI) da un centro de examen
+DELF-DALF en Girona: la <strong>Alianza Francesa de Girona</strong>, en la avenida Jaume I, 8. Comparte con la Alianza de
+Granollers el portal de exámenes <strong>examensdelf.cat</strong> y la web afcatalunya.com, que publican sus datos de
+contacto: info@afgirona.org y el 972 200 406. El dominio afgirona.org, que algunas listas siguen dando como web del
+centro, mostraba el 18 de octubre de 2026 una página de aparcamiento de dominio: no lo uses para matricularte. En
+Barcelona, el centro es el <a href="/es/delf-barcelona/">Institut français de Barcelona</a>.</p>"""),
+        ("fechas", "Fechas del DELF en Girona: el calendario de 2027", _delf_es_calendario("en la Alianza Francesa de Girona") + """
+<p>En 2026, la Alianza abrió las convocatorias de <strong>febrero, junio y octubre</strong>; la última, la de octubre, tuvo
+su matrícula del 31 de agosto al 25 de septiembre de 2026. Para 2027 publica el calendario nacional, pero aún no dice
+cuáles de las cuatro convocatorias abrirá. """ + _CNE_NO_TODAS + """</p>"""),
+        ("precio", "¿Cuánto cuesta el DELF en Girona?", _delf_es_tarifas("en la Alianza Francesa de Girona") + """
+<p>Son las tarifas nacionales del Centro Nacional de Exámenes: la Alianza de Girona cobra lo mismo que cualquier otro
+centro de España.</p>"""),
+        ("matricula", "Cómo matricularse", """<p>La matrícula se hace <strong>en línea</strong>, desde el portal examensdelf.cat:
+se elige la ciudad, la convocatoria y el examen, y se registra la inscripción. El 18 de octubre de 2026 no había aún
+ninguna convocatoria abierta: la de febrero de 2027 abre el 1 de diciembre, según el calendario nacional. Las reglas
+comunes —documentos, resultados, diploma— están en <a href="/es/delf-espana/">DELF y DALF en España</a>.</p>"""),
+    ],
+    list_title="El centro de examen DELF de Girona",
+    faq=[("¿Dónde hacer el DELF en Girona?", "En la Alianza Francesa de Girona (avenida Jaume I, 8), el único centro de la ciudad autorizado por France Éducation international; sus exámenes se gestionan desde el portal examensdelf.cat."),
+         ("¿Cuándo es el próximo DELF en Girona?", "En febrero de 2027: el B2 el 11 de febrero, con matrícula del 1 de diciembre de 2026 al 9 de enero de 2027, según el calendario nacional. En 2026, la Alianza abrió febrero, junio y octubre; para 2027 aún no ha dicho qué convocatorias abrirá."),
+         ("¿Cuánto cuesta el DELF en Girona?", "En 2027, el DELF B2 cuesta 192 €; el B1, 162 €; el DALF C1, 249 €, y el C2, 259 € (A1 89 €, A2 118 €). Es la tarifa nacional, la misma en toda España."),
+         ("¿La web afgirona.org es la de la Alianza Francesa de Girona?", "Ya no: el 18 de octubre de 2026, ese dominio mostraba una página de aparcamiento. La Alianza gestiona sus exámenes desde examensdelf.cat y publica su información en afcatalunya.com; su correo sigue siendo info@afgirona.org.")],
+    also=[_DELF_ES_PAIS, ("/es/delf-barcelona/", "Examen DELF en Barcelona", "El Institut français de Barcelona y dos Alianzas Francesas en Cataluña."), _FECHAS_2027],
+    sources=_fuentes("la Alianza Francesa de Girona (portal examensdelf.cat y afcatalunya.com)"),
+    urls={"gerone-alliance-francaise-de-girona": "https://examensdelf.cat/"},
+    notes={"gerone-alliance-francaise-de-girona": "Exámenes gestionados en examensdelf.cat; el dominio afgirona.org ya no muestra la web del centro."},
+))
