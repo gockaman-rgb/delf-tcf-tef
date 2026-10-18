@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Vérification du site statique avant commit (19/09/2026) : équilibre des balises, JSON-LD valide,
 liens internes et ancres, images, OG, ids dupliqués, un seul h1, titre ≤ 60, description ≤ 160,
-cibles des balises hreflang (08/10/2026).
+cibles des balises hreflang (08/10/2026), liens App Store avec campagne quand app_links.PT est renseigné (18/10/2026).
 
 Usage : python3 _build/check_site.py
 """
@@ -13,6 +13,8 @@ import sys
 from html.parser import HTMLParser
 
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from app_links import PT as APP_PT  # noqa: E402
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
 
@@ -117,6 +119,10 @@ def main():
                 continue
             if not os.path.exists(os.path.join(ROOT, src.lstrip("/"))):
                 errs.append(f"image absente : {src}")
+        if APP_PT:  # liens App Store mesurés (app_links.py) : aucun lien nu une fois le provider token renseigné
+            nus = [h for h in re.findall(r'href="(https://apps\.apple\.com/[^"]*id6790412304[^"]*)"', s) if "ct=" not in h]
+            if nus:
+                errs.append(f"{len(nus)} lien(s) App Store sans campagne : relancer _build/app_links.py en dernier")
         if errs:
             problems += 1
             print(rel)
