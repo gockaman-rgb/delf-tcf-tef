@@ -98,7 +98,7 @@ def page(v):
         "section": "centres", "section_name": "Centres", "og_slug": v.get("og_slug", "centres"),
         "slug": v["slug"], "accent": "accent-tcf" if exam == "tcf" else "accent-delf", "crumb": v["crumb"],
         "title": v["title"], "desc": v["desc"], "h1": v["h1"],
-        "published": DATE, "modified": (v.get("modified") or (DATE, DATE_FR))[0],
+        "published": v.get("published") or DATE, "modified": (v.get("modified") or (DATE, DATE_FR))[0],
         "date_fr": (v.get("modified") or (DATE, DATE_FR))[1], "read": 5,
         "intro": v["intro"] % {"n": n, "so": so},
         "facts": v["facts"],

@@ -127,8 +127,12 @@ d'emploi : <a href="/blog/ifal-tcf-rendez-vous/">IFAL : prendre rendez-vous pour
 <p>Par ville : <a href="/centres/tcf-casablanca/">Casablanca</a>, <a href="/centres/tcf-rabat/">Rabat</a>,
 <a href="/centres/tcf-marrakech/">Marrakech</a>, <a href="/centres/tcf-tanger/">Tanger</a>,
 <a href="/centres/tcf-fes/">Fès</a>, <a href="/centres/tcf-agadir/">Agadir</a>,
+<a href="/centres/tcf-kenitra/">Kénitra</a>, <a href="/centres/tcf-meknes/">Meknès</a>,
+<a href="/centres/tcf-el-jadida/">El Jadida</a>, <a href="/centres/tcf-tetouan/">Tétouan</a>,
+<a href="/centres/tcf-oujda/">Oujda</a>,
 <a href="/centres/tcf-tunis/">Tunis</a>, <a href="/centres/tcf-sousse/">Sousse</a>,
-<a href="/centres/tcf-sfax/">Sfax</a>, <a href="/centres/tcf-alger/">Alger</a>,
+<a href="/centres/tcf-sfax/">Sfax</a>, <a href="/centres/tcf-nabeul-hammamet/">Nabeul-Hammamet</a>,
+<a href="/centres/tcf-beja/">Béja</a>, <a href="/centres/tcf-alger/">Alger</a>,
 <a href="/centres/tcf-oran/">Oran</a>, <a href="/centres/tcf-constantine/">Constantine</a>.</p>
 
 <h2 id="canada">Canada : des ouvertures plutôt que des dates</h2>

@@ -1701,7 +1701,12 @@ deux ; Marrakech et Oujda une seule (12 et 10 novembre). Plusieurs dates afficha
 
 <p>Ces listes ne montrent que les sessions publiées et encore ouvertes ce jour-là ; les places partent
 vite, et une ville voisine a souvent une date plus proche — Kénitra pour Rabat, Meknès pour Fès, Tétouan
-pour Tanger, Essaouira pour Marrakech. Le calendrier
+pour Tanger, Essaouira pour Marrakech. Les pages par ville, avec contacts et dates :
+<a href="/centres/tcf-casablanca/">Casablanca</a>, <a href="/centres/tcf-rabat/">Rabat</a>,
+<a href="/centres/tcf-kenitra/">Kénitra</a>, <a href="/centres/tcf-el-jadida/">El Jadida</a>,
+<a href="/centres/tcf-fes/">Fès</a>, <a href="/centres/tcf-meknes/">Meknès</a>, <a href="/centres/tcf-tanger/">Tanger</a>,
+<a href="/centres/tcf-tetouan/">Tétouan</a>, <a href="/centres/tcf-oujda/">Oujda</a>,
+<a href="/centres/tcf-marrakech/">Marrakech</a>, <a href="/centres/tcf-agadir/">Agadir</a>. Le calendrier
 annuel 2026 publié par l'Institut ne couvre que le DELF-DALF et le TCF tout public : pour le TCF
 Canada, la seule source est la page de chaque site, et elle change chaque semaine.</p>
 
@@ -1916,6 +1921,10 @@ ans.</li>
 </tbody>
 </table>
 </div>
+
+<p>Pages par pôle, avec contacts et dates : <a href="/centres/tcf-tunis/">Tunis et El Mourouj</a>,
+<a href="/centres/tcf-nabeul-hammamet/">Nabeul-Hammamet</a>, <a href="/centres/tcf-beja/">Béja</a>,
+<a href="/centres/tcf-sousse/">Sousse</a>, <a href="/centres/tcf-sfax/">Sfax</a>.</p>
 
 <p>Kébili publie aussi un calendrier, jusqu'en mars 2027, mais son tableau ne permet pas de distinguer la date
 d'inscription de celle du test : demandez au pôle. Un rendez-vous manqué se rattrape le mois suivant, dans
