@@ -33,7 +33,7 @@ book with an approved centre, never with FEI. In France, sessions are <strong>ne
 last three of 2026 have their written papers on <strong>6–8 October, 3–5 November and 1–3 December</strong>, and each
 centre opens only some of them and closes registration <strong>four to ten weeks before the written papers</strong> —
 sometimes over just two days.""",
-    facts=["<strong>By country</strong>: Taiwan has published its 2027 sessions (from 10 January); South Korea, Japan, Hong Kong, Turkey, Vietnam, India, Lebanon, the US and the UAE had published only 2026 on 26 October 2026 — <a href=\"#by-country\">the table</a>.",
+    facts=["<strong>By country</strong>: Taiwan (from 10 January), Germany, Switzerland, Italy, Greece and Ireland had published their 2027 sessions; South Korea, Japan, Hong Kong, mainland China, Singapore, Turkey, Vietnam, India, Lebanon, Thailand, Egypt, Nigeria, the US and the UAE had published only 2026 on 26 October 2026 — <a href=\"#by-country\">the table</a>.",
            "<strong>10 national sessions a year</strong> in France: January, February, March, May, June, July, August, October, November, December.",
            "<strong>2026</strong>: 6–8 October, 3–5 November, 1–3 December. <strong>2027</strong>: 12–14 Jan, 2–4 Feb, 16–18 Mar, 25–27 May, 15–17 Jun, 6–8 Jul, 3–5 Aug, 5–7 Oct, 16–18 Nov, 7–9 Dec.",
            "Each centre <strong>chooses its sessions</strong>: Nantes Université opens four a year, the Alliance française de Lyon all ten.",
@@ -69,15 +69,35 @@ match. What the official sites showed on 26 October 2026 — when 2027 was not y
              ("Vietnam", "2027 not published · 14–22 Nov 2026", "19–30 Oct 2026", "ifv.vn", "<a href=\"/en/delf-exam-dates-2027-vietnam/\">Vietnam</a>"),
              ("India", "2027 not published · 7–11 Dec 2026", "9–24 Nov 2026", "Alliances Françaises (afdelhi.org)", "<a href=\"/en/delf-exam-dates-2027-india/\">India</a>"),
              ("Lebanon", "2027 not published · B1 to C2 24–27 Nov 2026", "Until 30 Oct 2026", "institutfrancais-liban.com", "<a href=\"/en/delf-exam-dates-2027-lebanon/\">Lebanon</a>"),
-             ("Thailand", "2027 not published · 2026 adult sessions on 8 Mar, 7 Jun and 1 Nov (Bangkok)", "Closed 27 Sep 2026", "afthailande.org", "—"),
-             ("Egypt", "2027 not published · C1 7 Nov to B1 28 Nov 2026", "Closed 1 Oct 2026", "ifegypte.com", "—"),
+             ("China (mainland)", "2027 not published · DALF 7–8 Nov, B2 14–15 Nov, A1 to B1 21–22 Nov 2026", "Closed 22 Sep 2026", "delf-dalf.neea.edu.cn", "<a href=\"/en/delf-exam-dates-2027-china/\">China</a>"),
+             ("Singapore", "2027 not published · 23–27 Nov 2026", "Closed 18 Oct 2026", "alliancefrancaise.org.sg", "<a href=\"/en/delf-exam-dates-2027-singapore/\">Singapore</a>"),
+             ("Thailand", "2027 not published · 2026 adult sessions on 8 Mar, 7 Jun and 1 Nov (Bangkok)", "Closed 27 Sep 2026", "afthailande.org", "<a href=\"/en/delf-exam-dates-2027-thailand/\">Thailand</a>"),
+             ("Egypt", "2027 not published · C1 7 Nov to B1 28 Nov 2026", "Closed 1 Oct 2026", "ifegypte.com", "<a href=\"/en/delf-exam-dates-2027-egypt/\">Egypt</a>"),
+             ("Nigeria", "2027 not published · 8–11 Dec 2026 (Lagos)", "1 Oct – 27 Nov 2026", "afnigeria.org/lagos", "<a href=\"/en/delf-exam-dates-2027-nigeria/\">Nigeria</a>"),
+             ("Madagascar", "Adult dates not published online · DELF Prim April 2027 (Antananarivo)", "Ask your Alliance française", "afantananarivo.mg", "<a href=\"/en/delf-exam-dates-2027-madagascar/\">Madagascar</a>"),
              ("United Arab Emirates", "2027 not published · 11 Dec 2026 (Dubai)", "Online, first come, first served", "afdubai.org", "<a href=\"/en/delf-dubai/\">Dubai</a>"),
              ("United Kingdom", "B1 10 Mar, B2 15 Mar, C1 18 Mar 2027 · B1 2 Jun, B2 7 Jun, C1 10 Jun 2027", "At each centre", "—", "<a href=\"/en/delf-uk/\">UK</a>"),
              ("United States", "2027 not published · 7–11 Dec 2026", "Until 7–30 Nov 2026, by centre", "—", "<a href=\"/en/delf-usa/\">USA</a>"),
-             ("Spain", "10–12 Feb 2027, then June, September, October", "1 Dec 2026 – 9 Jan 2027", "delf-dalf.es", "<a href=\"/es/fechas-delf-2027/\" hreflang=\"es\" lang=\"es\">Fechas DELF 2027</a>")]) + """
+             ("Spain", "10–12 Feb 2027, then June, September, October", "1 Dec 2026 – 9 Jan 2027", "delf-dalf.es", "<a href=\"/es/fechas-delf-2027/\" hreflang=\"es\" lang=\"es\">Fechas DELF 2027</a>"),
+             ("<strong>Germany</strong>", "<strong>2027 published</strong>: B2 22 Jan, 12 Mar, 11 Jun, 24 Sep, 19 Nov 2027 · next 20 Nov 2026", "At each Institut français", "institutfrancais.de", "<a href=\"/en/delf-germany/\">Germany</a>"),
+             ("<strong>Switzerland</strong>", "<strong>2027 published</strong>: 20 Mar, 22 May, 19 Jun, 18 Sep, 13 Nov 2027", "For March: until 8 Jan 2027", "delfdalf.ch", "<a href=\"/en/delf-switzerland/\">Switzerland</a>"),
+             ("<strong>Italy</strong>", "<strong>2027 published</strong>: B2 25 Feb, 8 Apr, 16 Jun 2027", "For February: 2 Nov – 4 Dec 2026", "Instituts français, Alliances françaises", "<a href=\"/en/delf-italy/\">Italy</a>"),
+             ("<strong>Greece</strong>", "<strong>2027 published</strong>: B2 Saturday 15 May 2027 · December 2026 session closed", "1–15 Feb 2027", "ifg.gr", "<a href=\"/en/delf-greece/\">Greece</a>"),
+             ("<strong>Ireland</strong>", "<strong>2027 published</strong> (Limerick): B2 18 Feb, 22 Apr, 24 Jun, 23 Sep, 25 Nov 2027 · Dublin 24–27 Nov 2026", "At each Alliance française", "alliance-francaise.ie", "<a href=\"/en/delf-ireland/\">Ireland</a>"),
+             ("Netherlands", "2027 partly published: Amsterdam 9–11 Mar and 7–11 Jun 2027", "At each Alliance française", "afamsterdam.nl", "<a href=\"/en/delf-netherlands/\">Netherlands</a>"),
+             ("Austria", "Vienna 27–29 Jan 2027 (B2 on the 29th) · Graz in May 2027", "At the Institut français", "institutfrancais.at", "<a href=\"/en/tcf-canada-austria/#delf\">Austria</a>"),
+             ("Belgium", "2027 not set · 17–26 Nov 2026 (B2 on the 19th)", "Ghent: until 3 Nov 2026", "alliancefr.be", "<a href=\"/en/delf-belgium/\">Belgium</a>"),
+             ("Romania", "2027 not published · 14–15 Nov 2026", "Until 3 Nov 2026", "institutfrancais.ro", "<a href=\"/en/delf-romania/\">Romania</a>"),
+             ("Poland", "2027 not published · 16–20 Nov 2026 (B2 on the 18th)", "Until 6 Nov 2026 (Alliances)", "institutfrancais.pl", "<a href=\"/en/delf-poland/\">Poland</a>"),
+             ("Portugal", "2027 not published · 19–20 Nov 2026", "Until 6 Nov 2026", "ifp-lisboa.com", "<a href=\"/en/delf-portugal/\">Portugal</a>"),
+             ("Sweden", "2027 not published · 2026 sessions in March, May and 3–5 Nov", "At each centre", "ifsuede.com", "<a href=\"/en/delf-sweden/\">Sweden</a>"),
+             ("Luxembourg", "B2 9–11 Nov 2026 (full) · A2 in Feb 2027", "At the Institut national des langues", "inll.lu", "<a href=\"/en/tcf-canada-luxembourg/#delf\">Luxembourg</a>")]) + """
 <p>Fees differ as much as dates: for the DELF B2, 290,000 won in Korea, ¥24,500 in Japan, NTD 5,000 in Taiwan (2027),
 HK$2,300 in Hong Kong, 5,850 TL in Turkey, 2,900,000 VND in Vietnam, ₹13,263 at the Alliance Française de Delhi, 170 €
-in Lebanon, 3,600 THB in Bangkok and 5,265 EGP in Egypt. Latin America has its own calendars, in Spanish:
+in Lebanon, 3,600 THB in Bangkok, 5,265 EGP in Egypt, 2,000 yuan in mainland China, S$380 in Singapore and ₦80,000 at
+the Alliance Française de Lagos. In Europe: €201 at the Instituts français in Germany, CHF 370 to 390 in Switzerland, €160
+in Italy and Greece, €145 in Dublin, €175 in Amsterdam, €191 in Ghent, 620 zł in Poland, €140 in Portugal and SEK 1,450
+in Sweden. Latin America has its own calendars, in Spanish:
 <a href="/es/delf-mexico/" hreflang="es" lang="es">México</a>, <a href="/es/delf-colombia/" hreflang="es" lang="es">Colombia</a>,
 <a href="/es/delf-argentina/" hreflang="es" lang="es">Argentina</a>, <a href="/es/delf-chile/" hreflang="es" lang="es">Chile</a>,
 <a href="/es/delf-peru/" hreflang="es" lang="es">Perú</a>, <a href="/es/delf-ecuador/" hreflang="es" lang="es">Ecuador</a>.
@@ -191,7 +211,7 @@ and A2 on Monday, B1 on Tuesday, B2 on Wednesday, C1 on Thursday, C2 on Friday �
          ("When are the DALF C1 and DELF B1 exam dates in 2027?", "In France, the DALF and every DELF level share the same ten national sessions, so the 2027 dates are the ones above; within a session, each level has its own day (at the DEFLE in Bordeaux in December 2026: B1 and B2 on the 2nd, the DALF on the 3rd). Abroad, the dates differ: in the UK, for example, the B1 falls on 10 March and 2 June 2027, the C1 on 18 March and 10 June 2027."),
          ("Why is there no DELF in April or September in France?", "FEI’s national calendar has no tout public session in those two months, in 2026 as in 2027: ten sessions a year, one a month the rest of the year."),
          ("When should I register for the DELF?", "As soon as your centre opens registration: four to ten weeks before the written papers, with windows that are sometimes very short — two days at Nantes Université, a week at the Alliance française de Lille — and sessions full two months ahead in Lyon."),
-         ("What are the DELF exam dates 2027 outside France?", "Each country sets its own. On 26 October 2026, Taiwan had published its 2027 sessions (B1 and B2 on 10 January in Taipei, then May, June, July and November); South Korea, Japan, Hong Kong, Turkey, Vietnam, India, Lebanon, Thailand, Egypt, the US and the UAE had published only 2026. In the UK, the B1 falls on 10 March and 2 June 2027; in Spain, the February 2027 written papers run from 10 to 12 February."),
+         ("What are the DELF exam dates 2027 outside France?", "Each country sets its own. On 26 October 2026, Taiwan had published its 2027 sessions (B1 and B2 on 10 January in Taipei, then May, June, July and November); South Korea, Japan, Hong Kong, mainland China, Singapore, Turkey, Vietnam, India, Lebanon, Thailand, Egypt, Nigeria, the US and the UAE had published only 2026. In the UK, the B1 falls on 10 March and 2 June 2027; in Spain, the February 2027 written papers run from 10 to 12 February."),
          ("Can adults take the DELF?", "Yes. The DELF and DALF tout public are the versions for adults, with no upper age limit; teenagers can take the DELF junior and children the DELF Prim, which lead to the same diploma. Some countries reserve the junior for school-age candidates — in South Korea, every candidate of secondary-school age is a junior — and the Alliance Française de Dubai’s adult session is for candidates aged 18 and over."),
          ("How do I book the DELF?", "With an approved centre, never with France Éducation international: in France, on the centre’s website or at its desk; abroad, through the country’s DELF-DALF body, Institut français or Alliance française — online in South Korea, Hong Kong and Dubai, at the desk or in an online shop in Japan, with a form and a copy of your ID in Vietnam. Registration closes weeks before the written papers, and fees are generally non-refundable."),
          ("Are DELF dates the same outside France?", "Not necessarily: the calendar on this page is France’s, and each country sets its own dates. In the UK, the December 2026 written papers run from 2 to 14 December depending on the level; in the US, the next session is from 7 to 11 December 2026; in Dubai, on 11 December 2026. The exact date and registration window are always the centre’s: check its website.")],
@@ -298,9 +318,9 @@ Precios de 2027, centros y forma de matricularse: <a href="/es/delf-espana/">DEL
 <a href="/es/delf-granada/">Granada</a>.</p>
 
 <h2 id="por-pais">Las fechas del DELF en otros países</h2>
-<p>En América Latina y en Asia, cada país también fija sus fechas. Las próximas convocatorias tout public publicadas, y
+<p>En América Latina, Europa y Asia, cada país también fija sus fechas. Las próximas convocatorias tout public publicadas, y
 lo que todavía no lo estaba:</p>
-""" + table("Próximas convocatorias DELF-DALF tout public por país (pruebas escritas). América Latina: nuestras páginas por país, consultadas el 8 de octubre de 2026; Asia y Líbano: sitios oficiales consultados el 26 de octubre de 2026.",
+""" + table("Próximas convocatorias DELF-DALF tout public por país (pruebas escritas). América Latina: nuestras páginas por país, consultadas el 8 de octubre de 2026; Europa, Asia, Oriente Medio y África: sitios oficiales consultados el 26 de octubre de 2026.",
             ["País", "Próxima convocatoria", "Matrícula", "Más información"],
             [("México", "9-13 de noviembre de 2026; resultados el 14 de diciembre", "Del 5 al 23 de octubre (cerrada)", "<a href=\"/es/delf-mexico/\">DELF en México</a>"),
              ("Colombia", "3-6 de noviembre de 2026; 2027 no publicado el 8 de octubre", "Cerrada el 9 de octubre", "<a href=\"/es/delf-colombia/\">DELF en Colombia</a>"),
@@ -315,8 +335,27 @@ lo que todavía no lo estaba:</p>
              ("Turquía", "2027 no publicado; B2 el 16 y C1 el 17 de noviembre de 2026", "Cerrada el 9 de octubre", "<a href=\"/en/delf-exam-dates-2027-turkey/\" hreflang=\"en\" lang=\"en\">Turkey</a>"),
              ("Vietnam", "2027 no publicado; 14-22 de noviembre de 2026", "Del 19 al 30 de octubre", "<a href=\"/en/delf-exam-dates-2027-vietnam/\" hreflang=\"en\" lang=\"en\">Vietnam</a>"),
              ("India", "2027 no publicado; 7-11 de diciembre de 2026", "Del 9 al 24 de noviembre", "<a href=\"/en/delf-exam-dates-2027-india/\" hreflang=\"en\" lang=\"en\">India</a>"),
-             ("Líbano", "2027 no publicado; 24-27 de noviembre de 2026", "Hasta el 30 de octubre", "<a href=\"/en/delf-exam-dates-2027-lebanon/\" hreflang=\"en\" lang=\"en\">Lebanon</a>")]) + """
-<p>Las páginas de Asia y del Líbano están en inglés; para Estados Unidos, el Reino Unido y los Emiratos, consulta
+             ("Líbano", "2027 no publicado; 24-27 de noviembre de 2026", "Hasta el 30 de octubre", "<a href=\"/en/delf-exam-dates-2027-lebanon/\" hreflang=\"en\" lang=\"en\">Lebanon</a>"),
+             ("China continental", "2027 no publicado; DALF el 7-8, B2 el 14-15, A1 a B1 el 21-22 de noviembre de 2026", "Cerrada el 22 de septiembre", "<a href=\"/en/delf-exam-dates-2027-china/\" hreflang=\"en\" lang=\"en\">China</a>"),
+             ("Singapur", "2027 no publicado; 23-27 de noviembre de 2026", "Cerrada el 18 de octubre", "<a href=\"/en/delf-exam-dates-2027-singapore/\" hreflang=\"en\" lang=\"en\">Singapore</a>"),
+             ("Tailandia", "2027 no publicado; 1 de noviembre de 2026 (Bangkok)", "Cerrada el 27 de septiembre", "<a href=\"/en/delf-exam-dates-2027-thailand/\" hreflang=\"en\" lang=\"en\">Thailand</a>"),
+             ("Egipto", "2027 no publicado; del 7 (C1) al 28 (B1) de noviembre de 2026", "Cerrada el 1 de octubre", "<a href=\"/en/delf-exam-dates-2027-egypt/\" hreflang=\"en\" lang=\"en\">Egypt</a>"),
+             ("Nigeria", "2027 no publicado; 8-11 de diciembre de 2026 (Lagos)", "Del 1 de octubre al 27 de noviembre", "<a href=\"/en/delf-exam-dates-2027-nigeria/\" hreflang=\"en\" lang=\"en\">Nigeria</a>"),
+             ("Madagascar", "Fechas para adultos no publicadas en línea; DELF Prim en abril de 2027 (Antananarivo)", "En cada Alliance française", "<a href=\"/en/delf-exam-dates-2027-madagascar/\" hreflang=\"en\" lang=\"en\">Madagascar</a>"),
+             ("<strong>Alemania</strong>", "<strong>2027 publicado</strong>: B2 el 22 de enero, 12 de marzo, 11 de junio, 24 de septiembre y 19 de noviembre de 2027", "En cada Institut français", "<a href=\"/en/delf-germany/\" hreflang=\"en\" lang=\"en\">Germany</a>"),
+             ("<strong>Suiza</strong>", "<strong>2027 publicado</strong>: 20 de marzo, 22 de mayo, 19 de junio, 18 de septiembre y 13 de noviembre de 2027", "Para marzo: hasta el 8 de enero de 2027", "<a href=\"/en/delf-switzerland/\" hreflang=\"en\" lang=\"en\">Switzerland</a>"),
+             ("<strong>Italia</strong>", "<strong>2027 publicado</strong>: B2 el 25 de febrero, 8 de abril y 16 de junio de 2027", "Para febrero: del 2 de noviembre al 4 de diciembre de 2026", "<a href=\"/en/delf-italy/\" hreflang=\"en\" lang=\"en\">Italy</a>"),
+             ("<strong>Grecia</strong>", "<strong>2027 publicado</strong>: B2 el sábado 15 de mayo de 2027", "Del 1 al 15 de febrero de 2027", "<a href=\"/en/delf-greece/\" hreflang=\"en\" lang=\"en\">Greece</a>"),
+             ("<strong>Irlanda</strong>", "<strong>2027 publicado</strong> (Limerick): B2 el 18 de febrero, 22 de abril, 24 de junio, 23 de septiembre y 25 de noviembre de 2027", "En cada Alliance française", "<a href=\"/en/delf-ireland/\" hreflang=\"en\" lang=\"en\">Ireland</a>"),
+             ("Países Bajos", "2027 publicado en parte: Ámsterdam, 9-11 de marzo y 7-11 de junio de 2027", "En cada Alliance française", "<a href=\"/en/delf-netherlands/\" hreflang=\"en\" lang=\"en\">Netherlands</a>"),
+             ("Austria", "Viena, 27-29 de enero de 2027 (B2 el 29); Graz en mayo de 2027", "En el Institut français", "<a href=\"/en/tcf-canada-austria/#delf\" hreflang=\"en\" lang=\"en\">Austria</a>"),
+             ("Bélgica", "2027 no fijado; 17-26 de noviembre de 2026 (B2 el 19)", "Gante: hasta el 3 de noviembre", "<a href=\"/en/delf-belgium/\" hreflang=\"en\" lang=\"en\">Belgium</a>"),
+             ("Rumanía", "2027 no publicado; 14-15 de noviembre de 2026", "Hasta el 3 de noviembre", "<a href=\"/en/delf-romania/\" hreflang=\"en\" lang=\"en\">Romania</a>"),
+             ("Polonia", "2027 no publicado; 16-20 de noviembre de 2026 (B2 el 18)", "Hasta el 6 de noviembre (Alliances)", "<a href=\"/en/delf-poland/\" hreflang=\"en\" lang=\"en\">Poland</a>"),
+             ("Portugal", "2027 no publicado; 19-20 de noviembre de 2026", "Hasta el 6 de noviembre", "<a href=\"/en/delf-portugal/\" hreflang=\"en\" lang=\"en\">Portugal</a>"),
+             ("Suecia", "2027 no publicado; en 2026, marzo, mayo y 3-5 de noviembre", "En cada centro", "<a href=\"/en/delf-sweden/\" hreflang=\"en\" lang=\"en\">Sweden</a>"),
+             ("Luxemburgo", "B2 del 9 al 11 de noviembre de 2026 (completo); A2 en febrero de 2027", "En el Institut national des langues", "<a href=\"/en/tcf-canada-luxembourg/#delf\" hreflang=\"en\" lang=\"en\">Luxembourg</a>")]) + """
+<p>Las páginas de Europa, Asia, Oriente Medio y África están en inglés; para Estados Unidos, el Reino Unido y los Emiratos, consulta
 <a href="/en/delf-exam-dates-2027/#by-country" hreflang="en">la tabla por países, en inglés</a>.</p>
 
 <h2 id="adultos">Adultos e inscripción</h2>
@@ -395,7 +434,7 @@ Université Sorbonne Nouvelle, Nantes Université (página del 14 de septiembre 
 Métropole, DEFLE de la Université Bordeaux Montaigne, Alliance française Aix-Marseille Provence—, consultadas el 17 de
 septiembre de 2026. Para España, calendario DELF-DALF 2027 del Centro Nacional de Exámenes (PDF del 22 de septiembre de
 2026), consultado el 8 de octubre de 2026, tal como figura en nuestra página DELF en España. América Latina: nuestras
-páginas por país, consultadas el 8 de octubre de 2026; Asia y Líbano: los sitios oficiales citados en nuestras páginas en
+páginas por país, consultadas el 8 de octubre de 2026; Asia, Oriente Medio y África: los sitios oficiales citados en nuestras páginas en
 inglés, consultados el 26 de octubre de 2026. Las fechas y los plazos de matrícula cambian: la web del centro es la que
 vale.""",
 ))

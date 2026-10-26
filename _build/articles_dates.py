@@ -178,9 +178,9 @@ notation sur 699 et sur 20, conversion NCLC — avec la correction IA de l'écri
     ],
     "also": [
         ("/blog/ou-passer-le-tcf-canada-en-france/", "Où passer le TCF Canada en France ?", "Les centres qui le proposent, 195 à 285 €, leurs dates."),
-        ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada ?", "Les 47 centres, 390 à 440 $, la méthode pour obtenir une place."),
+        ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada ?", "Les 48 centres, 390 à 440 $, la méthode pour obtenir une place."),
         ("/blog/tcf-canada-maroc/", "TCF Canada au Maroc : les 16 centres et l'inscription", "L'inscription en ligne, les sessions relevées, les règles de report."),
-        ("/centres/", "L'annuaire des centres d'examen", "1 067 centres, 35 pays, et les guides par ville."),
+        ("/centres/", "L'annuaire des centres d'examen", "1 265 centres, 46 pays, et les guides par ville."),
     ],
     "sources": """<strong>Sources.</strong> Pages TCF Canada des centres cités — ACTE, ACCORD (examensparis.fr), Alliances
 françaises de Lyon, Montpellier et Aix-Marseille, KLF, CLPS, Alliance française de Toronto, Alliance
@@ -259,7 +259,12 @@ France</strong> : ailleurs, chaque pays fixe ses dates — en Espagne, l'écrit 
 <div class="note" id="hors-de-france">
 <p><strong>Hors de France.</strong> Chaque pays publie son propre calendrier. Au 26 octobre 2026, Taïwan avait déjà
 publié ses sessions 2027 (B1 et B2 le 10 janvier à Taipei, puis mai, juin, juillet et novembre) ; la Corée du Sud, le
-Japon, Hong Kong, la Turquie, le Vietnam, l'Inde et le Liban n'avaient publié que leurs dates 2026. Les dates pays par
+Japon, Hong Kong, la Turquie, le Vietnam, l'Inde et le Liban n'avaient publié que leurs dates 2026. En Europe, l'Allemagne,
+la Suisse, l'Italie, la Grèce et l'Irlande avaient publié 2027 ; nos pages par pays : <a href="/centres/delf-allemagne/">Allemagne</a>,
+<a href="/centres/delf-suisse/">Suisse</a>, <a href="/centres/delf-italie/">Italie</a>, <a href="/centres/delf-grece/">Grèce</a>,
+<a href="/centres/delf-irlande/">Irlande</a>, <a href="/centres/delf-pays-bas/">Pays-Bas</a>, <a href="/centres/delf-belgique/">Belgique</a>,
+<a href="/centres/delf-roumanie/">Roumanie</a>, <a href="/centres/delf-pologne/">Pologne</a>, <a href="/centres/delf-portugal/">Portugal</a>,
+<a href="/centres/delf-suede/">Suède</a>. Les dates pays par
 pays, en anglais : <a href="/en/delf-exam-dates-2027/#by-country" hreflang="en" lang="en">DELF exam dates 2027 by
 country</a> ; l'Espagne et l'Amérique latine, en espagnol : <a href="/es/fechas-delf-2027/#por-pais" hreflang="es"
 lang="es">Fechas DELF 2027</a>.</p>

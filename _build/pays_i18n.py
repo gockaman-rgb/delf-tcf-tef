@@ -49,10 +49,10 @@ def from_fr(fr_slug, lang, variant, country, **kw):
 
 
 def canada(fr_slug, **kw):
-    """Pages anglaises du Canada : liste FEI du 19/09/2026 et relevé du 17/09, comme les pages françaises.
+    """Pages anglaises du Canada : liste FEI relue le 26/10/2026 (data/tcf_canada.json) et relevé du 17/09, comme les pages françaises.
     Une page ville reprend les villes (match) et les voisines (nearby) de villes_config."""
     d = dict(lang="en", variant="en-CA", fr_path=f"/centres/{fr_slug}/", exam="tcf", file="tcf_canada",
-             og_locale="en_CA", list_date="19 September 2026", releve_date="17 September 2026", country_name="Canada")
+             og_locale="en_CA", list_date="26 October 2026", releve_date="17 September 2026", country_name="Canada")
     if fr_slug in VILLES:
         v = VILLES[fr_slug]
         d.update(layout="city", match=v["match"], nearby=v["nearby"])

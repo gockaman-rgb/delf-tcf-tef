@@ -36,7 +36,7 @@ def en(fr_slug, **kw):
     return d
 
 
-_EUR = ("/en/#europe", "TCF Canada and DELF in Europe", "Ten countries: which centres offer the TCF Canada, and fees.")
+_EUR = ("/en/#europe", "TCF Canada and DELF in Europe", "Country by country: who offers the TCF Canada, and fees.")
 _PRACTICE = ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Check your level before you pay for a session.")
 _CLB = ("/en/tcf-canada/score-clb/", "TCF Canada score chart and CLB calculator", "CLB 7 is 458 in listening, 453 in reading.")
 _TEF = ("/en/tcf-vs-tef-canada/", "TCF vs TEF Canada", "The two French tests IRCC accepts, side by side.")
@@ -310,7 +310,7 @@ website; the speaking test takes place on the same day as the written tests.""",
            "Ghent: TCF Canada <strong>€260</strong>, tout public €250; three sessions a year (February, May, August-September); 2027 not published.",
            "Brussels hands out a provisional certificate on the day; Ghent shows the multiple-choice results at the end of the test, the full results within 15 working days.",
            "30 days between two attempts; every registration is in the candidate’s name.",
-           "DELF-DALF: 6 centres in Belgium; the November 2026 session is closed, and 2027 sessions are not yet scheduled."],
+           "DELF-DALF: 6 centres in Belgium; session from 17 to 26 November 2026, registration until 3 November in Ghent (closed in Brussels); 2027 not yet scheduled."],
     stats=[("2", "approved centres", "both with the TCF Canada"), ("€268", "TCF Canada in Brussels", "€260 in Ghent"),
            ("9 Dec", "next session", "Brussels, 2026"), ("30 days", "between two attempts", "")],
     sections=[
@@ -330,7 +330,8 @@ Alliances françaises of Bruxelles-Europe, Antwerp and Flandre orientale, KU Leu
 des langues vivantes of the University of Liège and the European School in Mol —, under the central management of the
 Alliance de Bruxelles-Europe. It holds four tout public sessions a year: in 2026, March, June, September and November, with
 written papers from 17 to 26 November and registration closed on 24 October. On 26 October 2026, no 2027 session was on
-sale yet and fees were not shown; the Alliance’s students get 10% off.</p>"""),
+sale yet and fees were not shown; the Alliance’s students get 10% off. In Ghent, November registration stays open until
+3 November: dates, fees and centres on our page <a href="/en/delf-belgium/">DELF exam dates 2027 in Belgium</a>.</p>"""),
     ],
     list_title="The {n} approved TCF test centres in Belgium",
     faq=[("Where can I take the TCF Canada in Belgium?", "At the Alliance française de Bruxelles-Europe, avenue des Arts 46 (€268), or at the Alliance française de Flandre orientale, Henleykaai 86 in Ghent (€260): they are the country’s two approved TCF centres, and both offer the Canada version, on computer."),
@@ -338,7 +339,8 @@ sale yet and fees were not shown; the Alliance’s students get 10% off.</p>""")
          ("How much does the TCF Canada cost in Belgium?", "€268 in Brussels and €260 in Ghent. The TCF tout public costs €258 in Brussels and €250 in Ghent, the TCF IRN €220 in Brussels."),
          ("When will I get my results?", "In Brussels, a provisional certificate is handed out on the test day and the France Éducation international certificate arrives within two weeks; in Ghent, the full results arrive within 15 working days."),
          ("Can I take the DELF in Brussels in 2027?", "Yes, but the 2027 sessions were not yet scheduled on 26 October 2026. In 2026, the Alliance de Bruxelles-Europe held four: March, June, September and November.")],
-    also=[("/en/tcf-canada-netherlands/", "TCF Canada in the Netherlands", "Amsterdam €290, The Hague, Rotterdam."),
+    also=[("/en/delf-belgium/", "DELF exam dates 2027 in Belgium", "17 to 26 November 2026, B2 €191 in Ghent."),
+          ("/en/tcf-canada-netherlands/", "TCF Canada in the Netherlands", "Amsterdam €290, The Hague, Rotterdam."),
           ("/en/tcf-canada-uk/", "TCF Canada in the UK", "London £260, Glasgow £325."), _CLB, _PRACTICE],
     sources="the websites of the Alliance française de Bruxelles-Europe (TCF Canada, TCF IRN, TCF tout public and DELF-DALF tout public pages, Calendar and Register tabs) and of the Alliance française de Flandre orientale (TCF page), checked on 26 October 2026; FEI’s DELF-DALF list for Belgium, read the same day.",
 ))
@@ -396,7 +398,8 @@ sets its own dates, as the Alliance in Venice points out.</p>"""),
          ("Can I take the TCF Canada in Rome?", "Not at the Centre Saint-Louis, the Institut français in Rome: it offers the TCF tout public, the TCF IRN and the TCF Québec. The nearest centre that advertises it is the Alliance française Sud Latium, in Latina."),
          ("When is the next TCF Canada in Milan?", "On 10 December 2026, with registration from 5 to 30 October, then on 9 March 2027 (registration from 11 to 31 January), at €240."),
          ("Is the TCF computer-based in Italy?", "It depends on the centre: Turin and Latina run it on computer; Genoa, for now, only on paper.")],
-    also=[("/en/tcf-canada-switzerland/", "TCF Canada in Switzerland", "ALPADIA (Montreux) and the Alliance in Zurich."),
+    also=[("/en/delf-italy/", "DELF exam dates 2027 in Italy", "February, April and June 2027, B2 €160."),
+          ("/en/tcf-canada-switzerland/", "TCF Canada in Switzerland", "ALPADIA (Montreux) and the Alliance in Zurich."),
           ("/en/tcf-canada-greece/", "TCF Canada in Greece", "Athens, six sessions to June 2027."), _CLB, _PRACTICE],
     sources="the 2026-2027 TCF Canada calendar (PDF) of the Alliance française in Turin; the TCF pages of the Alliances françaises in Genoa, Venice, Bari (TCF Canada), Latina (Sud Latium), Aosta, Padua and Vicenza; the 2026-2027 TCF calendar of the Institut français in Milan; the TCF page of the Institut français – Centre Saint-Louis in Rome; the TEF centre map of Le français des affaires; all checked on 26 October 2026.",
     notes={"genes-alliance-francaise": "Paper-based TCF only for now (Alliance website).",
@@ -443,7 +446,8 @@ version. The four other centres are higher-education institutions.""",
          ("When is the next TCF Canada in Amsterdam?", "The 25 November 2026 session was full on 26 October; the next one is on 13 January 2027, with registration before 29 December 2026."),
          ("How much does the TCF Canada cost in the Netherlands?", "€290 at the Alliance française in Amsterdam. Rotterdam shows €75 to €300 depending on the version; The Hague sells its sessions through its online module."),
          ("Where can I take the TCF IRN for French citizenship in the Netherlands?", "At the Alliance française in Amsterdam, €205, on 16 December 2026 (register before 1 December), or at the Alliances in The Hague and Rotterdam.")],
-    also=[("/en/tcf-canada-belgium/", "TCF Canada in Belgium", "Brussels €268, Ghent €260."),
+    also=[("/en/delf-netherlands/", "DELF exam dates 2027 in the Netherlands", "March and June 2027 in Amsterdam, B2 €175."),
+          ("/en/tcf-canada-belgium/", "TCF Canada in Belgium", "Brussels €268, Ghent €260."),
           ("/en/tcf-canada-germany/", "TCF Canada in Germany", "Ten centres, €295."), _TEF, _PRACTICE],
     sources="the TCF pages of the Alliances françaises in Amsterdam, The Hague and Rotterdam, and the TEF centre map of Le français des affaires, checked on 26 October 2026.",
     notes={"amsterdam-alliance-francaise": "TCF Canada session of 25 November 2026 full; next one on 13 January 2027."},
@@ -489,7 +493,8 @@ fee.""",
          ("How much does the TCF Canada cost in Portugal?", "€220 in Porto and Faro, €211 in Viseu, for the four tests."),
          ("Can I choose my TCF Canada date in Portugal?", "In Faro, yes: the Alliance de l’Algarve runs the TCF on computer on any working day, except 8 to 21 August and the second half of December, as long as you book at least 7 days ahead."),
          ("Where can I take the TCF in Lisbon?", "At the Alliance française in Lisbon, which lists neither version nor fee online: use its contact form. The language institute of Universidade Nova de Lisboa is also approved.")],
-    also=[("/en/tcf-canada-italy/", "TCF Canada in Italy", "Seven centres, €210 to €250."),
+    also=[("/en/delf-portugal/", "DELF exam dates 2027 in Portugal", "The national calendar, B2 €140."),
+          ("/en/tcf-canada-italy/", "TCF Canada in Italy", "Seven centres, €210 to €250."),
           ("/en/tcf-canada-ireland/", "TCF Canada in Ireland", "Dublin and Galway, €270."), _CLB, _PRACTICE],
     sources="the TCF pages of the Alliances françaises of the Algarve, Porto, Viseu, Coimbra and Lisbon, checked on 26 October 2026.",
     notes={"lisbonne-instituto-de-linguas-da-universidade-nova-de-lisbo": "Website unreachable on 26 October 2026.",
@@ -531,7 +536,8 @@ Bucharest refers candidates to its registration office. None of the three publis
          ("When is the next TCF in Timișoara?", "On 4 November 2026 (registration until 27 October), then 18 November, 9 and 16 December 2026."),
          ("How much does the TCF Canada cost in Romania?", "The Instituts français did not publish their fee on 26 October 2026: ask the registration office."),
          ("How do I register in Cluj-Napoca?", "Agree on a date with the Institut’s office, at least 10 working days ahead; the test-day notice arrives by email two days before the exam.")],
-    also=[("/en/tcf-canada-poland/", "TCF Canada in Poland", "Warsaw and Kraków."), ("/en/tcf-canada-greece/", "TCF Canada in Greece", "Athens, six sessions to June 2027."), _CLB, _PRACTICE],
+    also=[("/en/delf-romania/", "DELF exam dates 2027 in Romania", "14 and 15 November 2026, registration until 3 November."),
+          ("/en/tcf-canada-poland/", "TCF Canada in Poland", "Warsaw and Kraków."), ("/en/tcf-canada-greece/", "TCF Canada in Greece", "Athens, six sessions to June 2027."), _CLB, _PRACTICE],
     sources="the TCF-TEF pages of the Instituts français in Bucharest, Cluj-Napoca and Timișoara (institutfrancais.ro), checked on 26 October 2026.",
 ))
 
@@ -568,7 +574,8 @@ form.""",
          ("When is the next TCF Canada in Warsaw?", "On 27 November 2026, with registration until 27 October 2026. The 2027 calendar was not published on 26 October 2026; in 2026, the Institut held 8 sessions, all with the TCF Canada."),
          ("How much does the TCF Canada cost in Poland?", "The Institut français did not publish its fee on 26 October 2026: it appears on the registration form or can be obtained from the exams office."),
          ("Where can I take the TEF Canada in Poland?", "The map of Le français des affaires showed TEF Canada sessions at the Alliance française in Łódź on 26 October 2026.")],
-    also=[("/en/tcf-canada-germany/", "TCF Canada in Germany", "Berlin, €295, sessions every month."), ("/en/tcf-canada-romania/", "TCF Canada in Romania", "Bucharest, Cluj, Timișoara."), _TEF, _PRACTICE],
+    also=[("/en/delf-poland/", "DELF exam dates 2027 in Poland", "16 to 20 November 2026, B2 at 620 zł."),
+          ("/en/tcf-canada-germany/", "TCF Canada in Germany", "Berlin, €295, sessions every month."), ("/en/tcf-canada-romania/", "TCF Canada in Romania", "Bucharest, Cluj, Timișoara."), _TEF, _PRACTICE],
     sources="the TCF pages of the Institut français de Pologne (Warsaw and Kraków) and its 2026 TCF session calendar (PDF), and the TEF centre map of Le français des affaires, checked on 26 October 2026.",
 ))
 
@@ -604,7 +611,8 @@ each registration window lasts only four days.""",
          ("When is the next TCF Canada in Athens?", "On 19 November 2026, with registration from 2 to 5 November only; then on 21 January 2027 (registration from 30 November to 3 December 2026)."),
          ("What are the 2027 TCF dates in Greece?", "In Athens: 21 January, 25 February, 24 March, 22 April and 17 June 2027, each with a four-day registration window."),
          ("How much does the TCF cost in Greece?", "Thessaloniki shows €100 for the TCF; the Institut français in Athens does not publish its fee in its calendar.")],
-    also=[("/en/tcf-canada-italy/", "TCF Canada in Italy", "Seven centres, €210 to €250."), ("/en/tcf-canada-romania/", "TCF Canada in Romania", "Bucharest, Cluj, Timișoara."), _CLB, _PRACTICE],
+    also=[("/en/delf-greece/", "DELF exam dates 2027 in Greece", "B2 on 15 May 2027, registration 1 to 15 February."),
+          ("/en/tcf-canada-italy/", "TCF Canada in Italy", "Seven centres, €210 to €250."), ("/en/tcf-canada-romania/", "TCF Canada in Romania", "Bucharest, Cluj, Timișoara."), _CLB, _PRACTICE],
     sources="the “Examens du TCF – sessions 2026-2027” calendar (PDF) and the exams page of the Institut français de Grèce (ifg.gr); the TCF page of the Institut français in Thessaloniki (ift.gr); all checked on 26 October 2026.",
     notes={"athenes-institut-francais": "FEI gives ifa.gr, which redirects to ifg.gr."},
 ))
@@ -641,7 +649,8 @@ one month before the exam; results arrive in two to three weeks. In Galway, date
          ("How much does the TCF Canada cost in Ireland?", "€270 in Dublin and in Galway, as checked on 26 October 2026. In Dublin, the TCF IRN also costs €270 and the full TCF tout public €300."),
          ("When is the next TCF Canada in Dublin?", "The Alliance française de Dublin holds TEF and TCF sessions every month; registration closes one month before each exam. You book by email with the exams office."),
          ("When do the results arrive?", "Two to three weeks after the exam in Dublin; the results certificate is valid for two years.")],
-    also=[("/en/tcf-canada-uk/", "TCF Canada in the UK", "London £260, Glasgow £325."), ("/en/tcf-canada-belgium/", "TCF Canada in Belgium", "Brussels €268, Ghent €260."), _CLB, _PRACTICE],
+    also=[("/en/delf-ireland/", "DELF exam dates 2027 in Ireland", "Five sessions in 2027, B2 €145 in Dublin."),
+          ("/en/tcf-canada-uk/", "TCF Canada in the UK", "London £260, Glasgow £325."), ("/en/tcf-canada-belgium/", "TCF Canada in Belgium", "Brussels €268, Ghent €260."), _CLB, _PRACTICE],
     sources="the “Exams & Certification” and “TEF-TCF” pages of the Alliance française de Dublin and the TCF page of The French Institute in Galway, checked on 26 October 2026.",
 ))
 
@@ -652,18 +661,21 @@ one month before the exam; results arrive in two to three weeks. In Galway, date
 def hub_patch(hub):
     rows = [("Germany", '<a href="/en/tcf-canada-germany/">10 centres, €295 (Erlangen €210)</a>', '<a href="/en/delf-germany/">2027 dates, B2 €201</a>'),
             ("Switzerland", '<a href="/en/tcf-canada-switzerland/">Montreux CHF 290, Zurich</a>', '<a href="/en/delf-switzerland/">2027 dates, B2 CHF 370–390</a>'),
-            ("Belgium", '<a href="/en/tcf-canada-belgium/">Brussels €268, Ghent €260</a>', '<a href="/en/tcf-canada-belgium/#delf">6 centres</a>'),
-            ("Italy", '<a href="/en/tcf-canada-italy/">7 centres, €210 to €250</a>', "—"),
-            ("Netherlands", '<a href="/en/tcf-canada-netherlands/">Amsterdam €290, The Hague, Rotterdam</a>', "—"),
-            ("Portugal", '<a href="/en/tcf-canada-portugal/">Porto and Faro €220, Viseu €211</a>', "—"),
-            ("Romania", '<a href="/en/tcf-canada-romania/">Bucharest, Cluj-Napoca, Timișoara</a>', "—"),
-            ("Poland", '<a href="/en/tcf-canada-poland/">Warsaw, Kraków</a>', "—"),
-            ("Greece", '<a href="/en/tcf-canada-greece/">Athens, 6 sessions to June 2027</a>', "—"),
-            ("Ireland", '<a href="/en/tcf-canada-ireland/">Dublin and Galway, €270</a>', "—")]
+            ("Belgium", '<a href="/en/tcf-canada-belgium/">Brussels €268, Ghent €260</a>', '<a href="/en/delf-belgium/">17–26 Nov 2026, B2 €191 in Ghent</a>'),
+            ("Italy", '<a href="/en/tcf-canada-italy/">7 centres, €210 to €250</a>', '<a href="/en/delf-italy/">2027 dates, B2 €160</a>'),
+            ("Netherlands", '<a href="/en/tcf-canada-netherlands/">Amsterdam €290, The Hague, Rotterdam</a>', '<a href="/en/delf-netherlands/">March and June 2027, B2 €175</a>'),
+            ("Portugal", '<a href="/en/tcf-canada-portugal/">Porto and Faro €220, Viseu €211</a>', '<a href="/en/delf-portugal/">National calendar, B2 €140</a>'),
+            ("Romania", '<a href="/en/tcf-canada-romania/">Bucharest, Cluj-Napoca, Timișoara</a>', '<a href="/en/delf-romania/">14–15 Nov 2026</a>'),
+            ("Poland", '<a href="/en/tcf-canada-poland/">Warsaw, Kraków</a>', '<a href="/en/delf-poland/">16–20 Nov 2026, B2 620 zł</a>'),
+            ("Greece", '<a href="/en/tcf-canada-greece/">Athens, 6 sessions to June 2027</a>', '<a href="/en/delf-greece/">15 May 2027, B2 €160</a>'),
+            ("Ireland", '<a href="/en/tcf-canada-ireland/">Dublin and Galway, €270</a>', '<a href="/en/delf-ireland/">2027 dates, B2 €145 in Dublin</a>'),
+            ("Austria", '<a href="/en/tcf-canada-austria/">Vienna €295</a>', '<a href="/en/tcf-canada-austria/#delf">27–29 Jan 2027 (Vienna)</a>'),
+            ("Luxembourg", '<a href="/en/tcf-canada-luxembourg/">Not offered (TCF IRN €150)</a>', '<a href="/en/tcf-canada-luxembourg/#delf">B2 €186</a>'),
+            ("Sweden", '<a href="/en/delf-sweden/#tcf">No TCF centre; TEF Canada SEK 2,900</a>', '<a href="/en/delf-sweden/">3 sessions a year, B2 SEK 1,450</a>')]
     block = ('\n<h2 id="europe">Europe: TCF Canada and DELF, country by country</h2>\n'
-             "<p>Ten more countries, checked on 26 October 2026 against France Éducation international’s list and each centre’s "
-             "website: which centres advertise the TCF Canada, their fees in local currency, the next sessions — and, for Germany "
-             "and Switzerland, the 2027 DELF calendar.</p>\n"
+             "<p>Thirteen more countries, checked on 26 October 2026 against France Éducation international’s list and each "
+             "centre’s website: which centres advertise the TCF Canada, their fees in local currency, the next sessions — and the "
+             "DELF dates, for 2027 where they are published.</p>\n"
              + table("TCF Canada and DELF-DALF in Europe, from each centre’s website on 26 October 2026. Spain, in Spanish: "
                      "<a href=\"/es/tcf-canada-espana/\" lang=\"es\">TCF Canada en España</a>.",
                      ["Country", "TCF Canada", "DELF · DALF"], [(f"<strong>{p}</strong>", a, b) for p, a, b in rows], wide=False) + "\n")
@@ -674,3 +686,654 @@ def hub_patch(hub):
         i = keys.index("countries") + 1 if "countries" in keys else len(keys)
         hub["toc"] = hub["toc"][:i] + [("europe", "Europe")] + hub["toc"][i:]
     return hub
+
+
+# ###########################################################################
+# CONTINUED (26/10/2026, afternoon): DELF-DALF in Italy, Romania, the Netherlands, Greece, Poland, Belgium, Portugal,
+# Ireland and Sweden; TCF (and DELF) in Austria and Luxembourg. Translations of the specs appended to pays_config_eu.py.
+# ###########################################################################
+BADGES.update({"pas de TCF Canada": "no TCF Canada"})
+OG.update({"delf-italie": "en_IT", "delf-roumanie": "en_RO", "delf-pays-bas": "en_NL", "delf-grece": "en_GR", "delf-pologne": "en_PL",
+           "delf-belgique": "en_BE", "delf-portugal": "en_PT", "delf-irlande": "en_IE", "delf-suede": "en_SE",
+           "tcf-autriche": "en_AT", "tcf-luxembourg": "en_LU"})
+_NO_LINK = "Website listed by FEI unreachable on 26 October 2026."
+
+# ===========================================================================
+# ITALY — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-italie",
+    slug="delf-italy", country_name="Italy", crumb="DELF in Italy",
+    title="DELF exam dates 2027 Italy: fees, test centres",
+    desc="DELF exam dates 2027 in Italy: B2 on 25 February, 8 April and 16 June, registration windows, fees (B2 €160, €144 reduced) and the {n} centres.",
+    h1="DELF exam dates 2027 in Italy: the 2026-2027 calendar, fees and the {n} centres",
+    intro="""<strong>DELF exam dates 2027 in Italy</strong> (<span lang="it">date esami DELF 2027</span>): the DELF B2 written
+paper is on <strong>25 February</strong>, 8 April and 16 June 2027, in the calendar published identically by the Institut
+français in Milan and the Alliance française in Turin. Registration for February runs from <strong>2 November to
+4 December 2026</strong>; the November 2026 session (10 to 13 November) closed on 2 October. The DELF B2 costs
+<strong>€160</strong>, or €144 at the reduced rate, in Milan, Turin and Rome.""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026): the Instituts français in Milan, Florence, Naples and Palermo, the Centre Saint-Louis in Rome, the Lycée Victor-Hugo in Florence and twenty Alliances françaises.",
+           "February 2027: C2 on the 18th, C1 on the 19th, A1 and A2 on the 23rd, B1 on the 24th, <strong>B2 on 25 February</strong>; registration from 2 November to 4 December 2026 (same dates in Naples).",
+           "April 2027: C1 on the 5th, C2 on the 6th, B1 on the 7th, <strong>B2 on the 8th</strong>, A1 and A2 on 9 April; registration until 19 February. In Milan, April only opens B2, C1 and C2.",
+           "June 2027: C2 on the 14th, C1 on the 15th, <strong>B2 on the 16th</strong>, B1 on the 17th, A1 and A2 on 18 June; registration until 23 April 2027.",
+           "Fees in Milan, Turin and Rome: <strong>A1 €80 · A2 €90 · B1 €125 · B2 €160 · C1 and C2 €195</strong>; reduced rate €72 to €176.",
+           "The calendar covers the 2026-2027 year: the November 2027 session was not published on 26 October 2026."],
+    stats=[("{n}", "test centres", "FEI list of 26 October 2026"), ("€160", "DELF B2", "€144 at the reduced rate"),
+           ("25 Feb", "next B2", "registration until 4 Dec"), ("3", "sessions in 2027", "February, April, June")],
+    sections=[
+        ("exam-dates", "The 2026-2027 DELF-DALF calendar", table(
+            "Dates of the collective written papers, identical in the 2026-2027 calendars of the Institut français in Milan and the Alliance française in Turin, checked on 26 October 2026. Speaking tests take place during the session month.",
+            ["Session", "A1", "A2", "B1", "B2", "C1", "C2", "Registration"],
+            [("Nov 2026", "10 Nov", "11 Nov", "11 Nov", "10 Nov", "12 Nov", "13 Nov", "closed on 2 Oct"),
+             ("<strong>Feb 2027</strong>", "23 Feb", "23 Feb", "24 Feb", "<strong>25 Feb</strong>", "19 Feb", "18 Feb", "2 Nov to 4 Dec 2026"),
+             ("Apr 2027", "9 Apr", "9 Apr", "7 Apr", "8 Apr", "5 Apr", "6 Apr", "until 19 Feb (Milan: 1 to 19 Feb)"),
+             ("Jun 2027", "18 Jun", "18 Jun", "17 Jun", "16 Jun", "15 Jun", "14 Jun", "until 23 Apr (Milan: 1 to 23 Apr)")]) + """
+<p>Speaking tests run from 2 to 30 November 2026, 1 to 26 February, 1 to 30 April and 1 to 30 June 2027. The Alliance in
+Turin warns that registration closes well ahead of the papers. The Institut français in Naples announces four sessions a
+year (November, February, March-April, June) with the same February window; the Centre Saint-Louis in Rome gives the same
+months and warns that the speaking test may come before the written papers. Not every centre opens every level at every
+session.</p>"""),
+        ("fees", "How much does the DELF cost in Italy?", table(
+            "2026-2027 fees of the Alliance française in Turin, the same as at the Institut français in Milan and the Centre Saint-Louis in Rome, checked on 26 October 2026.",
+            ["Level", "Full fee", "Reduced fee"],
+            [("DELF A1", "€80", "€72"), ("DELF A2", "€90", "€81"), ("DELF B1", "€125", "€113"),
+             ("<strong>DELF B2</strong>", "<strong>€160</strong>", "<strong>€144</strong>"), ("DALF C1", "€195", "€176"),
+             ("DALF C2", "€195", "€176"), ("DELF scolaire A1 to B2 (Turin)", "€68 to €135", "—"), ("DELF Prim A1.1 to A2 (Turin)", "€50 to €78", "—")], wide=False) + """
+<p>Depending on the centre, the reduced rate is for under-18s, secondary-school pupils, the centre’s own students and
+students of partner universities (in Milan: Insubria, Pavia, Bicocca, as well as French teachers). The Centre Saint-Louis
+does not refund exam fees.</p>"""),
+        ("registration", "Registration, results and diploma", """<p>You register with your chosen centre — online at the
+Institut français in Milan, with the exams office elsewhere — during the session’s window. The diplomas are independent:
+you register directly for the level you want, and you need 50 points out of 100 to pass.</p>
+
+<p>The DELF scolaire, at a preferential fee (€68 for A1, €135 for B2 in Turin), is organised with schools; the DELF Prim
+is for children. Centres publish each session’s results on their websites.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres, city by city",
+    faq=[("What are the DELF exam dates 2027 in Italy?", "According to the 2026-2027 calendar of the Institut français in Milan and the Alliance française in Turin, the DELF B2 is on 25 February, 8 April and 16 June 2027; registration for February runs from 2 November to 4 December 2026. The November 2027 session was not published on 26 October 2026."),
+         ("How much does the DELF B2 cost in Italy?", "€160, or €144 at the reduced rate, in Milan, Turin and Rome. The DALF C1 and DALF C2 cost €195 (€176 at the reduced rate)."),
+         ("Can I still register for November 2026?", "No: registration for the November 2026 session (written papers from 10 to 13 November) closed on 2 October. The next one is February 2027, with registration from 2 November to 4 December 2026."),
+         ("Where can I take the DELF in Rome or Milan?", "In Rome, at the Institut français – Centre Saint-Louis (Largo Toniolo); in Milan, at the Institut français (Corso Magenta 63). Both charge the same fees, €160 for B2."),
+         ("Do I need A1 before B2?", "No: the DELF and DALF diplomas are independent, so you register directly for the level you want.")],
+    also=[("/en/tcf-canada-italy/", "TCF Canada in Italy", "Seven centres advertise it, €210 to €250."),
+          ("/en/delf-switzerland/", "DELF exam dates 2027 in Switzerland", "The national calendar, B2 from CHF 370 to 390."), _DATES, _DELF],
+    sources="the 2026-2027 DELF-DALF tout public calendar (PDF) and “DELF DALF – tout public” page of the Institut français in Milan; the 2026-2027 DELF-DALF tout public calendar and 2026-2027 fees (PDFs) of the Alliance française in Turin; the DELF-DALF pages of the Institut français in Naples and the Centre Saint-Louis in Rome; all checked on 26 October 2026.",
+    notes={"cagliari-alliance-francaise-de-cagliari": "Website listed by FEI out of service on 26 October 2026.",
+           "sassari-alliance-francaise-sassari-c-o-liceo-statale-margherita-di-castelvi": "Website listed by FEI restricted to Google accounts on 26 October 2026.",
+           "vintimille-alliance-francaise-vintimille": "FEI gives no valid website address.",
+           "trieste-alliance-francaise-trieste": "Empty website on 26 October 2026."},
+))
+
+# ===========================================================================
+# ROMANIA — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-roumanie",
+    slug="delf-romania", country_name="Romania", crumb="DELF in Romania",
+    title="DELF exam dates 2027 Romania: sessions, centres",
+    desc="DELF and DALF in Romania: 2027 dates not yet published; the 14–15 November 2026 session (registration until 3 November), results, the {n} centres.",
+    h1="DELF exam dates 2027 in Romania: sessions, registration and the {n} centres",
+    intro="""The <strong>DELF exam dates 2027 in Romania</strong> (<span lang="ro">date examen DELF 2027</span>) were not yet
+published on 26 October 2026. The next session is on <strong>14 and 15 November 2026</strong>, with online registration
+open until <strong>3 November</strong> and results on 17 December. The DELF and DALF are held at <strong>{n} centres</strong>
+— the Institut français branches in Bucharest, Cluj-Napoca, Iași and Timișoara and six Alliances françaises —, under the
+central management of the Institut français de Roumanie; in 2026, Bucharest held four sessions (February, April, June,
+November).""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026): the Instituts français in Bucharest, Cluj-Napoca, Iași and Timișoara, and the Alliances françaises in Brașov, Constanța, Craiova, Pitești, Ploiești and Suceava.",
+           "November 2026: papers on <strong>14 and 15 November</strong>, registration from 14 September to <strong>3 November</strong>, results on 17 December (Bucharest, Cluj-Napoca, Iași).",
+           "Bucharest, 2026: 14–15 February, 4–5 April, 6–7 June and 14–15 November; Cluj-Napoca and Iași: 14–15 March, 6–7 June and 14–15 November.",
+           "In November 2026, the Institut in Cluj-Napoca also runs the exam in Oradea; in March, it went to Bistrița, Satu Mare, Sibiu and Târgu Mureș.",
+           "Fees not shown on the Instituts’ DELF-DALF pages on 26 October 2026: ask the office.",
+           "Diploma 4 to 5 months after the results are posted (Iași); online registration, with a tutorial."],
+    stats=[("{n}", "test centres", "4 Instituts français, 6 Alliances"), ("14–15 Nov", "next session", "2026"),
+           ("3 Nov", "registration deadline", "online"), ("17 Dec", "results", "November session")],
+    sections=[
+        ("exam-dates", "The Instituts français’ 2026 sessions", table(
+            "DELF-DALF tout public sessions published by the Instituts français in Bucharest, Cluj-Napoca and Iași, checked on 26 October 2026. The 2027 calendar was not online yet.",
+            ["Session", "Papers", "Registration", "Results", "Where"],
+            [("February 2026", "14–15 Feb", "1 Jan – 4 Feb", "12 Mar", "Bucharest"),
+             ("March 2026", "14–15 Mar", "1 Jan – 2 Mar", "16 Apr", "Cluj-Napoca (and Bistrița, Satu Mare, Sibiu, Târgu Mureș), Iași"),
+             ("April 2026", "4–5 Apr", "2 Mar – 25 Mar", "16 Apr", "Bucharest"),
+             ("June 2026", "6–7 Jun", "20 Apr – 26 May", "18 Jun", "Bucharest, Cluj-Napoca, Iași"),
+             ("<strong>November 2026</strong>", "<strong>14–15 Nov</strong>", "14 Sep – <strong>3 Nov</strong>", "17 Dec", "Bucharest, Cluj-Napoca (and Oradea), Iași")]) + """
+<p>The DELF junior has its own calendar: in Iași, 14–15 March, 23–24 May and 14–15 November 2026, with spring papers in
+Piatra-Neamț, Focșani and Galați. Timișoara and the six Alliances françaises on the list were not checked: their contact
+details are below.</p>"""),
+        ("registration", "Registration and diploma", """<p>You register online, on the website of your chosen Institut français
+branch, which publishes a tutorial; the DELF-DALF rules are attached to each page. The diplomas are independent: you
+register directly for the level you want, and you need 50 points out of 100 to pass.</p>
+
+<p>In Bucharest, you collect the diploma from the registration office (courses and exams) with an ID; in Iași, it arrives
+4 to 5 months after the results are posted. Fees are not on these pages: ask the registration office of your chosen
+branch.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres, city by city",
+    faq=[("What are the DELF exam dates 2027 in Romania?", "Not yet published: on 26 October 2026, the Instituts français in Romania only listed their 2026 sessions. Bucharest held four (February, April, June, November), Cluj-Napoca and Iași three (March, June, November)."),
+         ("When is the next DELF exam in Romania?", "On 14 and 15 November 2026, at the Instituts français in Bucharest, Cluj-Napoca and Iași; online registration stays open until 3 November, and results are announced on 17 December 2026."),
+         ("How much does the DELF cost in Romania?", "The Instituts français did not show their fees on their DELF-DALF pages on 26 October 2026: ask the registration office of your chosen branch."),
+         ("When do I get my DELF diploma?", "Results for the November 2026 session are announced on 17 December; in Iași, the diploma arrives 4 to 5 months after the results are posted. In Bucharest, you collect it with an ID.")],
+    also=[("/en/tcf-canada-romania/", "TCF Canada in Romania", "Bucharest, Cluj-Napoca, Timișoara."),
+          ("/en/delf-poland/", "DELF exam dates 2027 in Poland", "16 to 20 November 2026, B2 at 620 zł."), _DATES, _DELF],
+    sources="the adult DELF-DALF pages of the Instituts français in Bucharest, Cluj-Napoca and Iași (institutfrancais.ro) and the DELF junior “Calendar și tarife” page in Iași, checked on 26 October 2026.",
+))
+
+# ===========================================================================
+# NETHERLANDS — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-pays-bas",
+    slug="delf-netherlands", country_name="Netherlands", crumb="DELF in the Netherlands",
+    title="DELF exam dates 2027 Netherlands: fees, centres",
+    desc="DELF exam dates 2027 in the Netherlands: 9–11 March and 7–11 June in Amsterdam, the November 2026 session, fees (B2 €175) and the {n} centres.",
+    h1="DELF exam dates 2027 in the Netherlands: sessions, fees and the {n} centres",
+    intro="""<strong>DELF exam dates 2027 in the Netherlands</strong> (<span lang="nl">DELF examendata 2027</span>): the
+Alliance française in Amsterdam announces two sessions, from <strong>9 to 11 March</strong> (registration from January) and
+from <strong>7 to 11 June 2027</strong> (from April). The November 2026 session, 9 to 13 November, closed registration on
+25 and 26 October. The DELF and DALF are held at <strong>{n} centres</strong>, including the Alliances françaises in
+Amsterdam, The Hague and Rotterdam and the Institut français in Groningen; the DELF B2 costs <strong>€175</strong>.""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026), managed by the Institut français des Pays-Bas (The Hague): three Alliances françaises, the Institut français in Groningen and The Hague, the Lycée français Van Gogh and HAN in Arnhem.",
+           "2027 in Amsterdam: <strong>9–11 March</strong> and <strong>7–11 June</strong>; registration opens in January and April 2027. The Hague announces sessions in March, June and November.",
+           "November 2026: A1 and A2 on the 9th, B1 on the 10th, B2 on the 11th, C1 on the 12th, C2 on 13 November; registration closed on 25 October in Amsterdam, on 26 October at the Institut français.",
+           "Fees (Amsterdam, Institut français): <strong>A1 €110 · A2 €110 · B1 €155 · B2 €175 · C1 €220 · C2 €230</strong>.",
+           "DELF junior in Amsterdam: A1 and A2 on 12 April, B1 and B2 on 13 April 2027 (B2 €180); DELF Prim on 26 May 2027.",
+           "Rotterdam runs exams “throughout the year”; dates on request."],
+    stats=[("{n}", "test centres", "FEI list of 26 October 2026"), ("€175", "DELF B2", "C1 €220, C2 €230"),
+           ("9–11 Mar", "first 2027 session", "Amsterdam"), ("2", "sessions announced", "March and June 2027")],
+    sections=[
+        ("exam-dates", "Sessions 2026-2027", table(
+            "DELF-DALF tout public sessions published by the Institut français des Pays-Bas and the Alliance française in Amsterdam, checked on 26 October 2026.",
+            ["Session", "Written papers", "Registration", "Where"],
+            [("June 2026", "A1 and A2 1 Jun, B1 2 Jun, B2 3 Jun, C1 4 Jun, C2 5 Jun", "12 Jan – 18 May 2026", "Institut français (Groningen)"),
+             ("November 2026", "A1 and A2 9 Nov, B1 10 Nov, <strong>B2 11 Nov</strong>, C1 12 Nov, C2 13 Nov", "until 25 Oct (Amsterdam); 1 Jul – 26 Oct (Institut français)", "Amsterdam, Groningen"),
+             ("<strong>March 2027</strong>", "9 to 11 March", "from January 2027", "Amsterdam"),
+             ("<strong>June 2027</strong>", "7 to 11 June", "from April 2027", "Amsterdam")]) + """
+<p>The level-by-level dates for 2027 were not published on 26 October 2026. The Alliance française in The Hague sells its
+March, June and November sessions on its website, with no dates or fees spelled out that day; the one in Rotterdam offers
+exams throughout the year and points to its DELF-DALF product page.</p>"""),
+        ("fees", "How much does the DELF cost in the Netherlands?", table(
+            "Fees shown by the Alliance française in Amsterdam and the Institut français des Pays-Bas on 26 October 2026.",
+            ["Level", "Tout public", "DELF junior (Amsterdam)"],
+            [("A1", "€110", "€110"), ("A2", "€110", "€110"), ("B1", "€155", "€155"),
+             ("<strong>B2</strong>", "<strong>€175</strong>", "€180"), ("DALF C1", "€220", "—"), ("DALF C2", "€230", "—"),
+             ("DELF Prim A1.1 · A1 · A2 (Amsterdam)", "€65 · €90 · €90", "—")], wide=False)),
+        ("registration", "Registration", """<p>Each centre handles its own registrations: in Amsterdam, they open in January for
+March and in April for June; in The Hague, one button per session (March, June, November) leads to the Alliance’s booking
+module; in Groningen, the Institut français answers by email. The diplomas are independent: you register directly for the
+level you want, and you need 50 points out of 100 to pass.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres, city by city",
+    faq=[("What are the DELF exam dates 2027 in the Netherlands?", "The Alliance française in Amsterdam announces two tout public sessions in 2027: 9 to 11 March (registration from January) and 7 to 11 June (from April). The Hague plans sessions in March, June and November; the level-by-level dates were not published on 26 October 2026."),
+         ("How much does the DELF B2 cost in the Netherlands?", "€175 at the Alliance française in Amsterdam and the Institut français des Pays-Bas; €110 for A1 or A2, €155 for B1, €220 for the DALF C1 and €230 for C2. The DELF junior B2 costs €180 in Amsterdam."),
+         ("Can I still register for November 2026?", "Not in Amsterdam, where registration closed on 25 October; the Institut français took registrations until 26 October 2026. The papers run from 9 to 13 November."),
+         ("Where can I take the DELF in The Hague?", "At the Alliance française in The Hague, which runs sessions in March, June and November. The Institut français des Pays-Bas and the Lycée français Van Gogh are also on FEI’s list.")],
+    also=[("/en/tcf-canada-netherlands/", "TCF Canada in the Netherlands", "Amsterdam €290, The Hague, Rotterdam."),
+          ("/en/delf-belgium/", "DELF exam dates 2027 in Belgium", "17 to 26 November 2026, B2 €191 in Ghent."), _DATES, _DELF],
+    sources="the DELF-DALF pages of the Alliance française in Amsterdam, the Alliance française in The Hague, the Alliance française in Rotterdam (exams) and the Institut français des Pays-Bas (DELF-DALF tout public), checked on 26 October 2026.",
+    notes={"la-haye-lycee-francais-van-gogh": _NO_LINK},
+))
+
+# ===========================================================================
+# GREECE — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-grece",
+    slug="delf-greece", country_name="Greece", crumb="DELF in Greece",
+    title="DELF exam dates 2027 Greece: May session, fees",
+    desc="DELF exam dates 2027 in Greece: B2 on Saturday 15 May (registration 1 to 15 February), the 4–5 December 2026 session, fees (B1 and B2 €160).",
+    h1="DELF exam dates 2027 in Greece: the December and May sessions, fees and registration",
+    intro="""<strong>DELF exam dates 2027 in Greece</strong> (<span lang="el">εξετάσεις DELF 2027</span>): the DELF B1 and B2
+are on <strong>Saturday 15 May 2027</strong>, the A1, A2 and DALF on Friday 14 May, with online registration from
+<strong>1 to 15 February 2027</strong>. Before that, the December session is on <strong>4 and 5 December 2026</strong>
+(registration closed on 11 October). The <strong>Institut français de Grèce</strong>, the only centre on FEI’s list, runs
+both sessions in Athens, Thessaloniki and regional centres; the DELF B1 and B2 cost <strong>€160</strong>.""",
+    facts=["<strong>1 approved centre</strong> (FEI list of 26 October 2026), the Institut français de Grèce, which sets each session’s exam centres according to the number of candidates per region.",
+           "May 2027: A1, A2, C1 and C2 on Friday 14 May; <strong>B1 and B2 on Saturday 15 May</strong>; registration from 1 to 15 February 2027, online only.",
+           "December 2026: A1, A2, C1 and C2 on 4 December, B1 and B2 on 5 December; registration closed on 11 October.",
+           "2026 fees: <strong>A1 and A2 €75 · B1 and B2 €160 · C1 €180 · C2 €200</strong>.",
+           "Speaking tests in Athens and Thessaloniki in the days after the written papers; in regional centres, on the written-paper weekend.",
+           "The programme states that no request to change a written or speaking test is accepted."],
+    stats=[("1", "approved centre", "the Institut français de Grèce"), ("15 May", "DELF B2 2027", "Saturday, 18:30"),
+           ("1–15 Feb", "registration", "online"), ("€160", "DELF B2", "same as B1")],
+    sections=[
+        ("exam-dates", "The December 2026 and May 2027 sessions", table(
+            "DELF-DALF programme of the Institut français de Grèce (versions of 22 July and 14 October 2026), checked on 26 October 2026. Speaking tests in Athens and Thessaloniki; in regional centres, the speaking test is on the written-paper weekend.",
+            ["Diploma", "Written, Dec 2026", "Speaking, Dec (Athens, Thess.)", "Written, May 2027", "Speaking, May (Athens, Thess.)"],
+            [("DELF A1", "Fri 4 Dec, 17:00", "Mon 7 Dec", "Fri 14 May, 17:00", "10 or 12 May"),
+             ("DELF A2", "Fri 4 Dec, 19:00", "Tue 8 Dec", "Fri 14 May, 19:00", "11 or 13 May"),
+             ("DELF B1", "Sat 5 Dec, 16:00", "Wed 9 Dec", "Sat 15 May, 16:00", "17 or 18 May"),
+             ("<strong>DELF B2</strong>", "<strong>Sat 5 Dec, 18:30</strong>", "Thu 10 Dec", "<strong>Sat 15 May, 18:30</strong>", "19 or 20 May"),
+             ("DALF C1", "Fri 4 Dec, 17:00", "Fri 11 Dec", "Fri 14 May, 17:00", "Thu 27 May"),
+             ("DALF C2", "Fri 4 Dec, 17:00", "Mon 14 Dec", "Fri 14 May, 17:00", "Sun 23 May")]) + """
+<p>Registration: 1 to 11 October 2026 for December (closed), <strong>1 to 15 February 2027</strong> for May. You cannot
+register for two diplomas whose times overlap: A1 and C1, for example, both start on Friday at 17:00. The DELF Prim A1 and
+A2, for under-12s, follow the A1 and A2 times. The Institut also runs the Sorbonne exams at the same sessions.</p>"""),
+        ("fees", "How much does the DELF cost in Greece?", table(
+            "2026 exam fees of the Institut français de Grèce (DELF, DALF and Sorbonne), checked on 26 October 2026.",
+            ["Level", "Fee"],
+            [("DELF A1 · A2", "€75"), ("<strong>DELF B1 · B2</strong>", "<strong>€160</strong>"), ("DALF C1", "€180"), ("DALF C2", "€200")], wide=False) + """
+<p>You pay when registering, online by card or at a bank with the payment code the platform issues. These are the fees
+shown for 2026; those for the May 2027 session were not published yet.</p>"""),
+        ("registration", "Registration and test day", """<p>Registration is online only, on the eservices.ifg.gr platform, which
+issues a payment code; it assumes you have read the exam programme and rules. Each session’s exam centres — Athens,
+Thessaloniki and regional towns — are only announced when registration closes, according to the number of candidates per
+region. You print the test-day notice, with your speaking-test time, from the Institut’s website.</p>
+
+<p>The exams office of the Institut français de Grèce is at 31 Sina Street, Athens; the Institut français in Thessaloniki
+also advises candidates in the north. The diplomas are independent: you register directly for the level you want, and you
+need 50 points out of 100 to pass.</p>"""),
+    ],
+    list_title="The approved DELF-DALF test centre in Greece",
+    faq=[("What are the DELF exam dates 2027 in Greece?", "For the May 2027 session: DELF A1, A2 and DALF C1, C2 on Friday 14 May, DELF B1 and B2 on Saturday 15 May 2027, with registration from 1 to 15 February 2027. The December 2027 session was not published on 26 October 2026."),
+         ("When is the DELF B2 in December 2026?", "On Saturday 5 December 2026, 18:30 to 21:00; the speaking test is on 10 December in Athens and Thessaloniki, on 6 December in regional centres. Registration closed on 11 October."),
+         ("How much does the DELF B2 cost in Greece?", "€160, like B1, according to the Institut français de Grèce’s 2026 fees; €75 for A1 or A2, €180 for the DALF C1 and €200 for C2."),
+         ("Where is the DELF held in Greece?", "In Athens, Thessaloniki or a regional centre: the Institut français de Grèce, the country’s only approved centre, sets each session’s list of centres when registration closes, according to the number of candidates per region."),
+         ("Do I need A1 before B2?", "No: the DELF and DALF diplomas are independent, so you register directly for the level you want. The only rule in Greece: don’t pick two diplomas whose times overlap.")],
+    also=[("/en/tcf-canada-greece/", "TCF Canada in Greece", "Athens, six sessions to June 2027."),
+          ("/en/delf-italy/", "DELF exam dates 2027 in Italy", "February, April and June 2027, B2 €160."), _DATES, _DELF],
+    sources="the December 2026 and May 2027 DELF-DALF-Sorbonne exam programmes (PDFs), the 2026-2027 exam calendar, the 2026 exam fees and the exam pages of the Institut français de Grèce (ifg.gr), checked on 26 October 2026.",
+))
+
+# ===========================================================================
+# POLAND — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-pologne",
+    slug="delf-poland", country_name="Poland", crumb="DELF in Poland",
+    title="DELF exam dates 2027 Poland: sessions, fees (zł)",
+    desc="DELF and DALF in Poland: 2027 dates not yet published; the 16–20 November 2026 session (B2 on the 18th), registration to 6 November, B2 620 zł.",
+    h1="DELF exam dates 2027 in Poland: sessions, fees in złoty and the {n} centres",
+    intro="""The <strong>DELF exam dates 2027 in Poland</strong> (<span lang="pl">terminy egzaminów DELF 2027</span>) were not
+yet published on 26 October 2026. The next session runs from <strong>16 to 20 November 2026</strong>, with the DELF B2 on
+<strong>18 November</strong>; the Alliances françaises take registrations until <strong>6 November</strong>, while at the
+Institut français in Warsaw they closed on 18 October. The DELF and DALF are held at <strong>{n} centres</strong> on the
+same dates; the B2 costs <strong>620 zł</strong> (527 zł at the reduced rate).""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026), under the central management of the Institut français de Pologne: the Institut in Warsaw and Kraków, eight Alliances françaises, the Lycée français de Varsovie, Adam Mickiewicz University in Poznań and three associations.",
+           "November 2026: A1 and A2 on the 16th, B1 on the 17th, <strong>B2 on the 18th</strong>, C1 on the 19th, C2 on 20 November; speaking tests from 13 to 25 November at the Alliances.",
+           "Registration: until <strong>6 November 2026</strong> at the Alliances françaises; 21 September to 18 October at the Institut français in Warsaw (closed).",
+           "In 2026, three tout public sessions: February (B2 on the 4th), June (B2 on the 24th) and November; 2027 dates not published.",
+           "2026 fees: <strong>A1 300 zł · A2 380 zł · B1 520 zł · B2 620 zł · C1 750 zł · C2 800 zł</strong>, 15% less at the reduced rate.",
+           "Results about one month after the session; diploma about three months after (Alliances françaises)."],
+    stats=[("{n}", "test centres", "FEI list of 26 October 2026"), ("18 Nov", "next B2", "2026"),
+           ("6 Nov", "deadline", "at the Alliances françaises"), ("620 zł", "DELF B2", "527 zł at the reduced rate")],
+    sections=[
+        ("exam-dates", "The 2026 sessions", table(
+            "Written-paper dates of the DELF-DALF tout public published by the Alliances françaises in Poland; the Institut français in Warsaw shows the same for November. Checked on 26 October 2026.",
+            ["Session", "A1 · A2", "B1", "B2", "C1", "C2", "Registration (Alliances)"],
+            [("February 2026", "2 Feb", "3 Feb", "4 Feb", "5 Feb", "6 Feb", "1 Dec 2025 – 23 Jan 2026"),
+             ("June 2026", "22 Jun", "23 Jun", "24 Jun", "25 Jun", "26 Jun", "1 Apr – 12 Jun"),
+             ("<strong>November 2026</strong>", "16 Nov", "17 Nov", "<strong>18 Nov</strong>", "19 Nov", "20 Nov", "1 Sep – <strong>6 Nov</strong>")]) + """
+<p>At the Institut français in Warsaw, November registration ran from 21 September to 18 October 2026. Neither the Institut
+nor the Alliances had published a 2027 calendar on 26 October 2026; the Institut in Kraków announced a 2027 fee list without
+making it readable. The Alliances françaises in Poland advise checking that your chosen centre runs the session before you
+register.</p>"""),
+        ("fees", "How much does the DELF cost in Poland?", table(
+            "2026 fees, identical at the Institut français in Warsaw and the Alliances françaises in Poland, checked on 26 October 2026.",
+            ["Level", "Fee", "Reduced fee"],
+            [("DELF A1", "300 zł", "255 zł"), ("DELF A2", "380 zł", "323 zł"), ("DELF B1", "520 zł", "442 zł"),
+             ("<strong>DELF B2</strong>", "<strong>620 zł</strong>", "<strong>527 zł</strong>"), ("DALF C1", "750 zł", "637.50 zł"),
+             ("DALF C2", "800 zł", "680 zł"), ("DELF junior A1 to B2", "280 to 580 zł", "238 to 493 zł"),
+             ("DELF Prim A1.1 to A2", "260 to 350 zł", "221 to 297.50 zł")], wide=False) + """
+<p>At the Institut français in Warsaw, the reduced fee is for its students (enrolled in the term or semester before the
+session) and for candidates entered by their school or institution, five or more; at the Alliances, ask the office for the
+conditions.</p>"""),
+        ("registration", "Registration", """<p>At the Institut français, you register online on the session page, in Warsaw or
+Kraków; at the Alliances françaises — Gdańsk, Katowice, Lublin, Łódź, Rzeszów, Toruń, Wrocław —, with your chosen
+Alliance’s form. A certificate of achievement must be requested in writing when you register. The diplomas are
+independent: you register directly for the level you want, and you need 50 points out of 100 to pass.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres, city by city",
+    faq=[("What are the DELF exam dates 2027 in Poland?", "Not yet published: on 26 October 2026, neither the Institut français nor the Alliances françaises had released their 2027 calendar. In 2026, the tout public sessions were in February, June and November."),
+         ("When is the next DELF exam in Poland?", "From 16 to 20 November 2026: A1 and A2 on the 16th, B1 on the 17th, B2 on the 18th, DALF C1 on the 19th and C2 on 20 November. The Alliances françaises take registrations until 6 November; at the Institut français in Warsaw, registration closed on 18 October."),
+         ("How much does the DELF B2 cost in Poland?", "620 zł, or 527 zł at the reduced rate, at the Institut français and at the Alliances françaises alike (2026 fees). The DALF C1 costs 750 zł and C2 800 zł."),
+         ("Where can I take the DELF in Warsaw?", "At the Institut français de Pologne, which runs the November session (online registration, closed on 18 October 2026), or at the Lycée français de Varsovie, also on FEI’s list.")],
+    also=[("/en/tcf-canada-poland/", "TCF Canada in Poland", "Warsaw and Kraków."),
+          ("/en/delf-romania/", "DELF exam dates 2027 in Romania", "14 and 15 November 2026."), _DATES, _DELF],
+    sources="the autumn DELF-DALF tout public session page and the 2026 DELF-DALF fee list of the Institut français de Pologne (Warsaw); the DELF-DALF certificates page and 2026 fees (PDF) of the Alliances françaises in Poland (afpolska.pl); all checked on 26 October 2026.",
+    notes={"katowice-alliance": "Website listed by FEI unreachable on 26 October 2026: the Alliance’s page on afpolska.pl.",
+           "wrocaw-alliance-francaise-stowarzyszenie-wroclaw": "Page listed by FEI not found on 26 October 2026: the Alliance’s page on afpolska.pl.",
+           "varsovie-institut-francais-de-pologne": "The Institut receives visitors at Plac Europejski 3; FEI gives the Widok Street address."},
+))
+
+# ===========================================================================
+# BELGIUM — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-belgique",
+    slug="delf-belgium", country_name="Belgium", crumb="DELF in Belgium",
+    title="DELF exam dates 2027 Belgium: sessions, fees",
+    desc="DELF and DALF in Belgium: 2027 dates not yet set; the 17–26 November 2026 session (B2 on the 19th), Ghent registration to 3 November, fees.",
+    h1="DELF exam dates 2027 in Belgium: sessions, fees and the {n} centres",
+    intro="""The <strong>DELF exam dates 2027 in Belgium</strong> were not yet set on 26 October 2026: the Alliance française
+in Ghent announces a March session (registration from 1 December 2026 to 3 March 2027) and a June session. Before that,
+the DELF and DALF run from <strong>17 to 26 November 2026</strong> in Brussels and Ghent, with the DELF B2 on
+<strong>19 November</strong>; Ghent takes registrations until <strong>3 November</strong>, while Brussels closed on
+24 October. The B2 costs <strong>€191</strong> in Ghent; Belgium has <strong>{n} centres</strong>.""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026): the Alliances françaises of Bruxelles-Europe, Antwerp and Flandre orientale (Ghent), KU Leuven Kulak in Kortrijk, the Institut supérieur des langues vivantes of the University of Liège and the European School in Mol.",
+           "November 2026: A1 and A2 on the 17th, B1 on the 18th, <strong>B2 on the 19th</strong>, C1 on the 24th, C2 on 26 November; speaking tests from 16 to 20 and 23 to 27 November in Brussels.",
+           "Registration: until <strong>3 November 2026</strong> in Ghent; closed on 24 October in Brussels; results at the end of December in Ghent.",
+           "2027 in Ghent: March (registration from 1 December 2026 to 3 March 2027) and June (30 March to 24 May 2027); Brussels had not scheduled any 2027 session yet.",
+           "Fees in Ghent: <strong>A1 €117 · A2 €127 · B1 €149 · B2 €191 · C1 €238 · C2 €254</strong>; Brussels does not show its fees, 10% off for its students.",
+           "In 2026, Brussels held four sessions: March, June, September and November; diploma available 3 months after the exam."],
+    stats=[("{n}", "test centres", "FEI list of 26 October 2026"), ("19 Nov", "next B2", "Brussels and Ghent"),
+           ("3 Nov", "deadline in Ghent", "Brussels: 24 Oct"), ("€191", "DELF B2 in Ghent", "€172.40 for its students")],
+    sections=[
+        ("exam-dates", "The 2026 and 2027 sessions", table(
+            "DELF-DALF tout public sessions of the Alliance française de Bruxelles-Europe (2026) and the Alliance française de Flandre orientale (2027), checked on 26 October 2026.",
+            ["Session", "A1 · A2", "B1", "B2", "C1", "C2", "Registration"],
+            [("March 2026", "17 Mar", "18 Mar", "19 Mar", "24 Mar", "26 Mar", "1 Dec 2025 – 20 Feb 2026"),
+             ("June 2026", "9 Jun", "10 Jun", "11 Jun", "16 Jun", "18 Jun", "22 Feb – 16 May"),
+             ("September 2026", "15 Sep", "16 Sep", "17 Sep", "22 Sep", "24 Sep", "17 May – 22 Aug"),
+             ("<strong>November 2026</strong>", "17 Nov", "18 Nov", "<strong>19 Nov</strong>", "24 Nov", "26 Nov", "Brussels 23 Aug – 24 Oct; Ghent 13 Jul – <strong>3 Nov</strong>"),
+             ("March 2027 (Ghent)", "not set", "not set", "not set", "not set", "not set", "1 Dec 2026 – 3 Mar 2027"),
+             ("June 2027 (Ghent)", "not set", "not set", "not set", "not set", "not set", "30 Mar – 24 May 2027")]) + """
+<p>Speaking tests are held in the week of the written papers: in Brussels, 16 to 20 November for A1 to B2, 23 to
+27 November for the DALF. Ghent’s page shows 29 November for B2 in its calendar and the 19th in the level details;
+Brussels, the managing centre, gives the 19th. Antwerp, Kortrijk, Liège and Mol were not checked: their contact details are
+in the list.</p>"""),
+        ("fees", "How much does the DELF cost in Belgium?", table(
+            "November 2026 fees at the Alliance française de Flandre orientale (Ghent), checked on 26 October 2026.",
+            ["Level", "Fee", "Students of an Alliance course"],
+            [("DELF A1", "€117.00", "—"), ("DELF A2", "€127.00", "—"), ("DELF B1", "€149.00", "€134.60"),
+             ("<strong>DELF B2</strong>", "<strong>€191.00</strong>", "<strong>€172.40</strong>"), ("DALF C1", "€238.00", "€215.60"),
+             ("DALF C2", "€254.00", "€230.00")], wide=False) + """
+<p>In Ghent, you pay online when registering; no refund, level change or postponement after the deadline. The Alliance de
+Bruxelles-Europe did not show its fees on 26 October 2026; its students get 10% off, and the diploma is available at its
+reception three months after the exam.</p>"""),
+        ("registration", "Registration", """<p>You register online on your chosen Alliance’s website, level by level; the
+registration is in your name and cannot be transferred. In Ghent, test-day notices go out by email between 3 and
+13 November 2026; if you have heard nothing a week before the exam, contact the centre. The diplomas are independent: you
+register directly for the level you want, and you need 50 points out of 100 to pass.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres in Belgium",
+    faq=[("What are the DELF exam dates 2027 in Belgium?", "They were not set on 26 October 2026. The Alliance française de Flandre orientale announces a session in March 2027 (registration from 1 December 2026 to 3 March 2027) and one in June (30 March to 24 May 2027); Bruxelles-Europe had not scheduled anything yet."),
+         ("When is the next DELF exam in Belgium?", "From 17 to 26 November 2026 in Brussels and Ghent: A1 and A2 on the 17th, B1 on the 18th, B2 on the 19th, DALF C1 on the 24th and C2 on 26 November. Ghent takes registrations until 3 November; in Brussels, registration closed on 24 October."),
+         ("How much does the DELF B2 cost in Belgium?", "€191 at the Alliance française in Ghent, €172.40 for its students. The Alliance de Bruxelles-Europe did not show its fees on 26 October 2026; its students get 10% off."),
+         ("Where can I take the DELF in Brussels?", "At the Alliance française de Bruxelles-Europe, avenue des Arts 46, which also manages the DELF-DALF for the whole of Belgium. In 2026, it held four sessions: March, June, September and November."),
+         ("When do I get my DELF diploma?", "In Ghent, the November 2026 results arrive at the end of December; in Brussels, the diploma is available at reception three months after the exam, and a certificate is given when results are announced.")],
+    also=[("/en/tcf-canada-belgium/", "TCF Canada in Belgium", "Brussels €268, Ghent €260."),
+          ("/en/delf-netherlands/", "DELF exam dates 2027 in the Netherlands", "March and June 2027 in Amsterdam, B2 €175."), _DATES, _DELF],
+    sources="the DELF-DALF tout public pages of the Alliance française de Bruxelles-Europe (Calendar and Register tabs) and the DELF-DALF page of the Alliance française de Flandre orientale (Ghent), checked on 26 October 2026.",
+))
+
+# ===========================================================================
+# PORTUGAL — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-portugal",
+    slug="delf-portugal", country_name="Portugal", crumb="DELF in Portugal",
+    title="DELF exam dates 2027 Portugal: calendar, fees",
+    desc="DELF and DALF in Portugal: 2027 calendar not yet published; the 19–20 November 2026 session (registration until 6 November), fees (B2 €140).",
+    h1="DELF exam dates 2027 in Portugal: the national calendar, fees and the {n} centres",
+    intro="""The <strong>DELF exam dates 2027 in Portugal</strong> (<span lang="pt">datas exames DELF 2027</span>) were not yet
+published on 26 October 2026. Portugal follows a <strong>national calendar</strong> from the Institut français du Portugal:
+five sessions in 2026, the last on <strong>19 and 20 November</strong> (A1, B1 and C1 on the 19th; A2, B2 and C2 on the
+20th), with registration until <strong>6 November</strong> at seven Alliances françaises. The DELF B2 costs
+<strong>€140</strong>, or €126 at the reduced rate.""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026), managed by the language and education cooperation service (Lisbon): nine Alliances françaises, the universities of Aveiro, Porto and the Azores, two French lycées, an international school and the Academia de Línguas da Madeira.",
+           "November 2026: A1, B1 and C1 on the 19th; A2, <strong>B2</strong> and C2 on <strong>20 November</strong>; speaking tests from 16 to 27 November; registration until <strong>6 November</strong>; results on 15 December.",
+           "Where, in November: the Alliances françaises in Porto, Guimarães, Coimbra, Faro, Viseu, Setúbal and Leiria.",
+           "In 2026: February, April, June, September and November; 2027 not published.",
+           "Fees: <strong>A1 €65 · A2 €75 · B1 €110 · B2 €140 · C1 €177 · C2 €190</strong>; reduced, €59 to €171.",
+           "The DELF Prim, DELF junior and DELF escolar have their own calendar."],
+    stats=[("{n}", "test centres", "FEI list of 26 October 2026"), ("20 Nov", "next B2", "2026"),
+           ("6 Nov", "registration deadline", "seven Alliances"), ("€140", "DELF B2", "€126 at the reduced rate")],
+    sections=[
+        ("exam-dates", "The 2026 national calendar", table(
+            "2026 DELF-DALF calendar of the Institut français du Portugal (PDF), checked on 26 October 2026. The 2027 calendar was not published yet.",
+            ["Session", "A1 · B1 · C1", "A2 · B2 · C2", "Speaking", "Registration", "Results"],
+            [("February", "12 Feb", "13 Feb", "9 Feb – 20 Feb", "2 Dec 2025 – 30 Jan", "16 Mar"),
+             ("April", "9 Apr", "10 Apr", "1 Apr – 17 Apr", "1 Jan – 27 Mar", "11 May"),
+             ("June", "25 Jun", "26 Jun", "22 Jun – 3 Jul", "1 Jan – 15 Jun", "21 Jul"),
+             ("September", "24 Sep", "25 Sep", "21 Sep – 2 Oct", "1 Jan – 11 Sep", "20 Oct"),
+             ("<strong>November</strong>", "19 Nov", "<strong>20 Nov</strong>", "16 Nov – 27 Nov", "1 Jan – <strong>6 Nov</strong>", "15 Dec")]) + """
+<p>Not every town opens every session: in February and September, the Alliances in Lisbon, Porto, Guimarães, Coimbra, Faro,
+Viseu, Setúbal and Leiria and the universities of Porto and Aveiro; in June, the same plus the Academia de Línguas da
+Madeira; in November, only the Alliances in Porto, Guimarães, Coimbra, Faro, Viseu, Setúbal and Leiria.</p>"""),
+        ("fees", "How much does the DELF cost in Portugal?", table(
+            "2026 fees of the Institut français du Portugal, checked on 26 October 2026.",
+            ["Level", "Fee", "Reduced fee"],
+            [("DELF A1", "€65", "€59"), ("DELF A2", "€75", "€68"), ("DELF B1", "€110", "€99"),
+             ("<strong>DELF B2</strong>", "<strong>€140</strong>", "<strong>€126</strong>"), ("DALF C1", "€177", "€160"),
+             ("DALF C2", "€190", "€171")], wide=False) + """
+<p>The reduced fee applies to candidates enrolled at the centres named in the calendar and to group registrations of ten
+or more candidates per level. The DELF-DALF tout public is for candidates aged 18 and over; younger candidates take the
+DELF junior or DELF escolar (primary and secondary pupils) or the DELF Prim.</p>"""),
+        ("registration", "Registration", """<p>You register with one of the centres of your chosen session; the Institut
+français du Portugal keeps the calendar and publishes, for each diploma, a PDF of dates and fees. After an IT incident, it
+extended the deadlines for changing or cancelling a registration by 14 days. The diplomas are independent: you register
+directly for the level you want, and you need 50 points out of 100 to pass.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres, city by city",
+    faq=[("What are the DELF exam dates 2027 in Portugal?", "Not yet published: on 26 October 2026, the Institut français du Portugal only showed its 2026 calendar of five sessions (February, April, June, September, November)."),
+         ("When is the next DELF exam in Portugal?", "On 19 and 20 November 2026: A1, B1 and DALF C1 on the 19th, A2, B2 and C2 on the 20th, at the Alliances françaises in Porto, Guimarães, Coimbra, Faro, Viseu, Setúbal and Leiria. Registration until 6 November, results on 15 December 2026."),
+         ("How much does the DELF B2 cost in Portugal?", "€140, or €126 at the reduced rate (2026 fees of the Institut français du Portugal). The DALF C1 costs €177 and C2 €190."),
+         ("Can I take the DELF in Lisbon in November?", "No: in November 2026, the national calendar only holds the exam at the Alliances in Porto, Guimarães, Coimbra, Faro, Viseu, Setúbal and Leiria. The Alliance française in Lisbon hosts the February, June and September sessions.")],
+    also=[("/en/tcf-canada-portugal/", "TCF Canada in Portugal", "Porto and Faro €220, Viseu €211."),
+          ("/es/fechas-delf-2027/", "Fechas DELF 2027 (España)", "El calendario nacional español, en español."), _DATES, _DELF],
+    sources="the 2026 DELF-DALF calendar and fees (PDF) and the official exams page of the Institut français du Portugal (ifp-lisboa.com), checked on 26 October 2026.",
+    notes={"lisbonne-lycee-francais-charles-lepierre": "Website listed by FEI out of service on 26 October 2026: the lycée’s current website."},
+))
+
+# ===========================================================================
+# IRELAND — DELF-DALF
+# ===========================================================================
+PAGES.append(en("delf-irlande",
+    slug="delf-ireland", country_name="Ireland", crumb="DELF in Ireland",
+    title="DELF exam dates 2027 Ireland: fees, test centres",
+    desc="DELF exam dates 2027 in Ireland: B2 on 18 February, 22 April, 24 June, 23 September and 25 November; registration windows and fees (B2 €145 in Dublin).",
+    h1="DELF exam dates 2027 in Ireland: the calendar, fees and the {n} Alliances françaises",
+    intro="""<strong>DELF exam dates 2027 in Ireland</strong>: the 2027 calendar published by the Alliance française de Limerick
+puts the DELF B2 on <strong>18 February</strong>, 22 April, 24 June, 23 September and 25 November 2027, with the DALF C1
+and C2 the next day in Dublin; registration for February runs from <strong>11 November 2026 to 11 January 2027</strong>.
+Before that, Dublin holds its session from 24 to 27 November 2026, B2 on the 26th. The DELF and DALF are held at Ireland’s
+<strong>{n} Alliances françaises</strong> — Dublin, Cork, Kilkenny, Limerick, Waterford-Wexford —, managed by the Alliance in
+Dublin.""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026): the Alliances françaises in Dublin, Cork, Kilkenny, Limerick and Waterford-Wexford.",
+           "2027 (Limerick): A1 and A2 on Tuesday, B1 on Wednesday, B2 on Thursday, C1 and C2 on Friday — the weeks of 16 February, 20 April, 22 June, 21 September and 23 November.",
+           "The DALF C1 and C2 are taken in Dublin, the Alliance in Limerick points out.",
+           "November 2026 in Dublin: A1 and A2 on the 24th, B1 on the 25th, <strong>B2 on the 26th</strong>, C1 and C2 on 27 November.",
+           "Fees: <strong>B2 €145 in Dublin</strong>, <strong>€170 in Limerick</strong> (2027 fees); DALF C1 €195 and €220.",
+           "Results about one month after the exam; diploma 3 to 4 months after (Limerick)."],
+    stats=[("{n}", "test centres", "the Alliances françaises"), ("18 Feb", "first 2027 B2", "registration until 11 Jan"),
+           ("5", "sessions in 2027", "Feb, Apr, Jun, Sep, Nov"), ("€145", "DELF B2 in Dublin", "€170 in Limerick")],
+    sections=[
+        ("exam-dates", "The 2027 calendar", table(
+            "2027 DELF-DALF calendar of the Alliance française de Limerick (page updated on 19 October 2026), “subject to change”, checked on 26 October 2026. Dates of the collective written papers.",
+            ["Session", "A1 · A2", "B1", "B2", "C1 · C2 (in Dublin)", "Registration"],
+            [("<strong>February 2027</strong>", "Tue 16 Feb", "Wed 17 Feb", "<strong>Thu 18 Feb</strong>", "Fri 19 Feb", "11 Nov 2026 – 11 Jan 2027"),
+             ("April 2027", "Tue 20 Apr", "Wed 21 Apr", "Thu 22 Apr", "Fri 23 Apr", "18 Jan – 18 Mar"),
+             ("June 2027", "Tue 22 Jun", "Wed 23 Jun", "Thu 24 Jun", "Fri 25 Jun", "15 Mar – 17 May"),
+             ("September 2027", "Tue 21 Sep", "Wed 22 Sep", "Thu 23 Sep", "Fri 24 Sep", "16 May – 16 Aug"),
+             ("November 2027", "Tue 23 Nov", "Wed 24 Nov", "Thu 25 Nov", "Fri 26 Nov", "18 Aug – 18 Oct")]) + """
+<p>The individual speaking test may be on a different day from the written papers. The Alliance française de Dublin, the
+managing centre, showed three sessions for 2026 — February, June and November —, the last from 24 to 27 November 2026; it
+had not put its 2027 dates online on 26 October. The DELF junior and DELF scolaire have their own sessions (January, March
+and May 2027 in Limerick), the DELF Prim in May and June.</p>"""),
+        ("fees", "How much does the DELF cost in Ireland?", table(
+            "Fees shown on 26 October 2026 by the Alliance française de Dublin (tout public) and the Alliance française de Limerick (2027 fees).",
+            ["Level", "Dublin", "Limerick 2027", "Limerick, reduced"],
+            [("DELF A1", "€90", "€115", "€103.50"), ("DELF A2", "€100", "€115", "€103.50"), ("DELF B1", "€125", "€150", "€135"),
+             ("<strong>DELF B2</strong>", "<strong>€145</strong>", "<strong>€170</strong>", "€153"), ("DALF C1", "€195", "€220", "€198"),
+             ("DALF C2", "€205", "€230", "€207")]) + """
+<p>In Limerick, the reduced fee (10% off) is for the Alliance’s students and for learners from partner organisations —
+schools, higher-education institutions, public administrations. The DELF junior there costs €95 to €145, the DELF scolaire
+€50 to €75, the DELF Prim €45 to €65.</p>"""),
+        ("registration", "Registration", """<p>In Limerick, you download the form for your exam, email it to the Alliance, then
+pay; for under-18s, a parent signs it. In Dublin, the test-day notice arrives one week before the exam. The diplomas are
+independent: you register directly for the level you want, and you need 50 points out of 100 to pass.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres in Ireland",
+    faq=[("What are the DELF exam dates 2027 in Ireland?", "According to the 2027 calendar of the Alliance française de Limerick, the DELF B2 is on 18 February, 22 April, 24 June, 23 September and 25 November 2027, with the DALF C1 and C2 the next day, in Dublin. For February, registration runs from 11 November 2026 to 11 January 2027."),
+         ("When is the next DELF exam in Dublin?", "From 24 to 27 November 2026: A1 and A2 on the 24th, B1 on the 25th, B2 on the 26th, DALF C1 and C2 on 27 November, according to the Alliance française de Dublin’s page."),
+         ("How much does the DELF B2 cost in Ireland?", "€145 at the Alliance française de Dublin, according to the fees shown on 26 October 2026; €170 in Limerick in 2027, €153 at the reduced rate."),
+         ("Where can I take the DALF C1 in Ireland?", "In Dublin: the Alliance française de Limerick points out that all DALF C1 and C2 papers are held there. The C1 costs €195 in Dublin.")],
+    also=[("/en/tcf-canada-ireland/", "TCF Canada in Ireland", "Dublin and Galway, €270."),
+          ("/en/delf-uk/", "DELF in the UK", "Test centres and sessions across the UK."), _DATES, _DELF],
+    sources="the DELF & DALF page of the Alliance française de Dublin and the DELF Exams page of the Alliance française de Limerick (2027 calendar and fees), checked on 26 October 2026.",
+    notes={"limerick-alliance-francaise-de-limerick": "Website not given by FEI: the Alliance’s own, checked on 26 October 2026."},
+))
+
+# ===========================================================================
+# SWEDEN — DELF-DALF (no TCF centre: TEF Canada and nearby centres)
+# ===========================================================================
+PAGES.append(en("delf-suede",
+    slug="delf-sweden", country_name="Sweden", crumb="DELF in Sweden",
+    title="DELF exam dates 2027 Sweden: fees in SEK, centres",
+    desc="DELF and DALF in Sweden: 2027 dates not yet published; three sessions a year in Stockholm, Uppsala, Borås, Växjö; B2 SEK 1,450; TEF Canada, no TCF.",
+    h1="DELF exam dates 2027 in Sweden: sessions, fees and the {n} centres",
+    intro="""The <strong>DELF exam dates 2027 in Sweden</strong> were not yet published on 26 October 2026. The
+<strong>Institut français de Suède</strong> runs the DELF and DALF tout public three times a year in Stockholm, Uppsala,
+Borås and Växjö (Gothenburg in spring): in 2026, 11–13 March, 6–8 May and <strong>3–5 November</strong>, with
+registration closed on 9 October. The DELF B2 costs <strong>SEK 1,450</strong>. Sweden has <strong>no TCF centre</strong>:
+for Canada, the Institut runs the TEF Canada (SEK 2,900).""",
+    facts=["<strong>{n} test centres</strong> (FEI list of 26 October 2026), mostly schools; for the tout public, the Institut français de Suède lists Stockholm, Uppsala, Borås, Växjö and Gothenburg.",
+           "2026: 11–13 March (registration 30 January to 13 February), 6–8 May (27 March – 10 April), 3–5 November (25 September – 9 October).",
+           "Fees since 1 January 2026: <strong>A1 SEK 800 · A2 SEK 900 · B1 SEK 950 · B2 SEK 1,450 · C1 SEK 2,500 · C2 SEK 2,800</strong>.",
+           "Stockholm (Institut français) and Uppsala (university): A1 to C2; Borås and Växjö: A1 to B2; Gothenburg (Hvitfeldtska): B1, B2 and C1 in spring.",
+           "<strong>No TCF centre in Sweden</strong>: TEF Canada at the Institut français de Suède, SEK 2,900, next session on 25 November 2026 (registration 28 October to 11 November).",
+           "Nearest TCF Canada: Fransk kulturhus in Oslo (NOK 3,150); Institut français du Danemark in Copenhagen."],
+    stats=[("{n}", "test centres", "FEI list of 26 October 2026"), ("3", "sessions a year", "March, May, November"),
+           ("SEK 1,450", "DELF B2", "C1 SEK 2,500"), ("0", "TCF centres", "TEF Canada in Stockholm")],
+    sections=[
+        ("exam-dates", "The 2026 sessions", table(
+            "DELF-DALF tout public sessions of the Institut français de Suède, checked on 26 October 2026. Registration while places last.",
+            ["Session", "Papers", "Registration", "Where"],
+            [("Winter 2026", "11, 12 and 13 March", "30 Jan – 13 Feb", "Stockholm, Uppsala, Borås, Växjö"),
+             ("Spring 2026", "6, 7 and 8 May", "27 Mar – 10 Apr", "Stockholm, Uppsala, Borås, Växjö, Gothenburg"),
+             ("<strong>Autumn 2026</strong>", "<strong>3, 4 and 5 November</strong>", "25 Sep – 9 Oct", "Stockholm, Uppsala, Borås, Växjö")]) + """
+<p>The 2027 dates were not published yet on 26 October 2026; in 2026, each registration window lasted two weeks and closed
+a little less than a month before the papers. The DELF-DALF tout public is for those aged 18 and over; younger candidates
+take the DELF Prim or DELF junior, presented on a separate page of the Institut.</p>"""),
+        ("fees", "How much does the DELF cost in Sweden?", table(
+            "Fees of the Institut français de Suède, in force since 1 January 2026, checked on 26 October 2026.",
+            ["Level", "Fee"],
+            [("DELF A1", "SEK 800"), ("DELF A2", "SEK 900"), ("DELF B1", "SEK 950"), ("<strong>DELF B2</strong>", "<strong>SEK 1,450</strong>"),
+             ("DALF C1", "SEK 2,500"), ("DALF C2", "SEK 2,800")], wide=False) + """
+<p>Once the test-day notice has been sent, your place is booked and the fee is no longer refunded, except for exceptional
+reasons.</p>"""),
+        ("tcf", "No TCF in Sweden: the TEF Canada and nearby centres", """<p>No TCF centre is approved in Sweden (FEI list of
+26 October 2026). For a Canadian application, the Institut français de Suède runs the other test IRCC accepts, the
+<strong>TEF Canada</strong>: SEK 2,900, plus SEK 100 registration; next session on <strong>25 November 2026</strong>,
+registration from 28 October to 11 November 2026; five sessions in 2026 (January, April, June, September, November). The TEF
+for French citizenship costs SEK 2,000 there.</p>
+
+<p>The nearest TCF Canada is in Oslo, at Fransk kulturhus (NOK 3,150, several sessions a year, register at least 5 weeks
+ahead), or at the Institut français du Danemark in Copenhagen, whose 30 October 2026 TCF Canada session closed registration
+on 18 September; the TCF tout public and TCF IRN are held there on 15 and 16 March 2027.</p>"""),
+    ],
+    list_title="The {n} DELF-DALF test centres, city by city",
+    faq=[("What are the DELF exam dates 2027 in Sweden?", "Not yet published on 26 October 2026. In 2026, the Institut français de Suède held three sessions — 11–13 March, 6–8 May and 3–5 November —, each with a two-week registration window closing a little less than a month before."),
+         ("How much does the DELF B2 cost in Sweden?", "SEK 1,450 at the Institut français de Suède (fees in force since 1 January 2026); SEK 950 for B1, SEK 2,500 for the DALF C1."),
+         ("Can I take the TCF Canada in Sweden?", "No: no TCF centre is approved in Sweden. The Institut français de Suède runs the TEF Canada (SEK 2,900, session on 25 November 2026); the nearest TCF Canada is in Oslo (Fransk kulturhus, NOK 3,150) or Copenhagen."),
+         ("Where can I take the DELF outside Stockholm?", "At Uppsala University (A1 to C2), in Borås (Bodaskolan) and Växjö (Linnaeus University), A1 to B2, and in Gothenburg (Hvitfeldtska gymnasiet) for B1, B2 and C1 in spring.")],
+    also=[("/en/#europe", "TCF Canada and DELF in Europe", "Country by country: who offers the TCF Canada, and fees."),
+          ("/en/delf-germany/", "DELF exam dates 2027 in Germany", "Sessions from November 2026, B2 at €201."), _TEF, _DELF],
+    sources="the DELF and DALF exams page and TEF exam page of the Institut français de Suède (ifsuede.com); the TCF pages of Fransk kulturhus (Oslo) and the Institut français du Danemark; all checked on 26 October 2026.",
+    notes={"hallsberg-alleskolan": _NO_LINK},
+))
+
+# ===========================================================================
+# AUSTRIA — TCF (+ DELF-DALF)
+# ===========================================================================
+PAGES.append(en("tcf-autriche",
+    slug="tcf-canada-austria", country_name="Austria", crumb="TCF Canada in Austria",
+    title="TCF Canada in Austria: Vienna €295, DELF 2027 dates",
+    desc="TCF Canada in Austria: €295 at the Institut français in Vienna, TCF IRN €225, session on 4 December 2026; DELF-DALF on 27, 28 and 29 January 2027.",
+    h1="TCF Canada and DELF in Austria: the Institut français in Vienna, fees and dates",
+    intro="""In Austria, one centre is approved for the TCF: the <strong>Institut français d’Autriche</strong> in Vienna. It shows
+the <strong>TCF Canada at €295</strong>, the TCF IRN at €225 and the TCF tout public from €135 to €295; its only published
+TCF session is on <strong>4 December 2026</strong>, with registration closing on <strong>4 November</strong>. For the DELF
+and DALF, the Institut’s next session falls on <strong>27, 28 and 29 January 2027</strong>; the Institut culturel
+franco-autrichien in Graz holds its own in May 2027.""",
+    facts=["<strong>1 approved TCF centre</strong> (FEI list of 26 October 2026): the Institut français d’Autriche, Praterstraße 38, Vienna.",
+           "TCF Canada <strong>€295</strong> · TCF IRN €225 · TCF tout public €135 (compulsory tests), €235 with writing or speaking, €295 in full · TCF Québec on request.",
+           "TCF session: <strong>4 Dec 2026</strong>, registration until 4 Nov; photo ID compulsory, photo taken on the test day.",
+           "No re-marking requests for sessions after 1 August 2026.",
+           "DELF-DALF in Vienna, January 2027: A2 and B1 on the 27th, C1 and C2 on the 28th, <strong>A1 and B2 on 29 January</strong>; fees €130 to €220, €104 at the student rate; papers also in Salzburg and Innsbruck.",
+           "Graz: DELF-DALF tout public in May 2027; DELF scolaire on 9 and 10 March 2027 (deadline 29 January)."],
+    stats=[("1", "approved TCF centre", "Vienna"), ("€295", "TCF Canada", "TCF IRN €225"),
+           ("4 Dec", "TCF session", "deadline 4 Nov"), ("27–29 Jan", "DELF-DALF 2027", "Vienna")],
+    sections=[
+        ("releve", "The TCF at the Institut français in Vienna", releve([
+            ("Institut français d’Autriche (Vienna)", "<strong>Canada</strong>, IRN, tout public (and DAP); Québec on request",
+             "Canada <strong>€295</strong> · IRN €225 · tout public €135, €235 or €295",
+             "4 Dec 2026 (deadline 4 Nov); 2027 not published. Online registration on the Institut’s exam portal; photo ID compulsory."),
+        ]) + """
+<p>According to the Institut, the “compulsory tests + writing” option is the official test for the DAP procedure (prior
+admission request to a French university). No re-marking requests are accepted for sessions after 1 August 2026. The TEF
+Canada, the other test IRCC accepts, has no centre in Austria on the map of Le français des affaires read on 26 October
+2026.</p>"""),
+        ("delf", "The DELF and DALF in Austria", """<p>Two centres run the DELF and DALF tout public (FEI list of 26 October
+2026): the <strong>Institut français d’Autriche</strong> in Vienna, the country’s managing body, which also holds papers in
+Salzburg and Innsbruck, and the <strong>Institut culturel franco-autrichien in Graz</strong>, which handles its own
+registrations. You can sit the exams from the age of 16.</p>
+""" + table("January 2027 DELF-DALF session of the Institut français d’Autriche, checked on 26 October 2026.",
+            ["Date", "Written papers"],
+            [("Wednesday 27 Jan 2027", "DELF A2 and B1"), ("Thursday 28 Jan 2027", "DALF C1 and C2"),
+             ("<strong>Friday 29 Jan 2027</strong>", "<strong>DELF A1 and B2</strong>")], wide=False) + """
+<p>Speaking-test dates are sent after registration closes, at least one week before the written papers. Fees range from
+€130 to €220 depending on the level, €104 at the student rate; a registration only counts once the fee has arrived, and is
+only refunded with a medical certificate. In Graz, the DELF-DALF tout public is in May 2027 (deadline not yet set) and the
+DELF scolaire on 9 and 10 March 2027, with registration and payment by 29 January 2027.</p>"""),
+    ],
+    list_title="The approved TCF test centre in Austria",
+    faq=[("Where can I take the TCF Canada in Austria?", "At the Institut français d’Autriche in Vienna (Praterstraße 38): it is the country’s only approved TCF centre, and it shows the TCF Canada at €295."),
+         ("When is the next TCF in Vienna?", "On 4 December 2026, with registration closing on 4 November; it was the only TCF session published on 26 October 2026. The TCF Québec is held on a date set on request."),
+         ("How much does the TCF IRN cost in Austria?", "€225 at the Institut français in Vienna; the TCF tout public costs €135 for the compulsory tests and €295 with both expression tests."),
+         ("What are the DELF exam dates 2027 in Austria?", "At the Institut français in Vienna: DELF A2 and B1 on 27 January, DALF C1 and C2 on 28 January, DELF A1 and B2 on 29 January 2027. In Graz, the tout public session is in May 2027."),
+         ("How much does the DELF cost in Austria?", "€130 to €220 at the Institut français in Vienna depending on the level, €104 at the student rate; Graz sets its own fees.")],
+    also=[("/en/tcf-canada-germany/", "TCF Canada in Germany", "Munich, €295, sessions every month."),
+          ("/en/tcf-canada-switzerland/", "TCF Canada in Switzerland", "Montreux and Zurich."), _CLB, _PRACTICE],
+    sources="the TCF and DELF-DALF pages of the Institut français d’Autriche (institutfrancais.at) and the DELF-DALF page of the Institut culturel franco-autrichien in Graz (franceautriche.at), checked on 26 October 2026; the TEF centre map of Le français des affaires, read the same day.",
+    notes={"vienne-institut-francais": "The link published by FEI no longer works: the Institut’s TCF page, checked on 26 October 2026."},
+))
+
+# ===========================================================================
+# LUXEMBOURG — TCF (+ DELF-DALF)
+# ===========================================================================
+PAGES.append(en("tcf-luxembourg",
+    slug="tcf-canada-luxembourg", country_name="Luxembourg", crumb="TCF in Luxembourg",
+    title="TCF in Luxembourg: no TCF Canada, TCF IRN €150, DELF",
+    desc="TCF Canada in Luxembourg: not offered. The Institut national des langues runs the TCF tout public (€120) and TCF IRN (€150); DELF B2 at €186.",
+    h1="TCF and DELF in Luxembourg: the Institut national des langues, fees and sessions",
+    intro="""<strong>TCF Canada in Luxembourg: not offered.</strong> The country’s two approved TCF centres are the sites of the
+<strong>Institut national des langues Luxembourg</strong> (INLL), in Luxembourg City and Esch-sur-Alzette (Belval), and its
+calendar only lists the <strong>TCF tout public</strong> (€120 for the compulsory tests) and the <strong>TCF IRN</strong>
+(€150), on paper. The 2026 sessions are closed; for Canada, the nearest centres are in Brussels (€268), Aachen and Mainz
+(€295). The INLL also runs the DELF A2 to B2 and the DALF C1.""",
+    facts=["<strong>{n} approved TCF centres</strong> (FEI list of 26 October 2026): the INLL on boulevard de la Foire in Luxembourg City and its Belval site in Esch-sur-Alzette.",
+           "Paper-based TCF tout public: <strong>€120</strong> for the compulsory tests, +€55 for writing, +€55 for speaking; TCF IRN: <strong>€150</strong>.",
+           "2026 sessions: TCF IRN on 19 Oct (deadline 14 Sep), TCF tout public on 23 Nov (deadline 12 Oct); 2027 not published.",
+           "<strong>No TCF Canada</strong>: the INLL’s 2026 TCF registration form only offers tout public and IRN.",
+           "The exam only goes ahead with at least 5 candidates per level; otherwise the fee is refunded.",
+           "DELF-DALF at the INLL: B1 €145, B2 €186, C1 €232 (session from 9 to 11 November 2026, B2 full); A2 €124 in February 2027."],
+    stats=[("{n}", "approved centres", "the INLL’s two sites"), ("0", "TCF Canada", "tout public and IRN only"),
+           ("€150", "TCF IRN", "on paper"), ("€186", "DELF B2", "November session full")],
+    sections=[
+        ("releve", "The TCF at the Institut national des langues", releve([
+            ("Institut national des langues Luxembourg (Luxembourg City and Belval)", "tout public and IRN, on paper — <strong>no TCF Canada</strong>",
+             "tout public €120 (+€55 per expression test) · IRN €150",
+             "IRN 19 Oct 2026 (deadline 14 Sep); tout public 23 Nov 2026 (deadline 12 Oct); 2027 not published. Send the file by email or post: form, ID, proof of payment."),
+        ]) + """
+<p>The 2026 tests are held at the Glacis site, boulevard de la Foire. Registration may close before the deadline shown;
+the test-day notice arrives at least two weeks before the first test. In case of force majeure, the INLL can move the
+registration to a later session, within 12 months, with proof sent within five days. For the TCF IRN, the form asks for
+the purpose: citizenship, resident card or multi-year residence permit in France.</p>"""),
+        ("canada", "Where to take the TCF Canada near Luxembourg?", """<p>On 26 October 2026, the INLL did not offer the Canada
+version. The nearest centres that advertise it: the Alliance française de Bruxelles-Europe (<strong>€268</strong>, session
+on 9 December 2026), the Institut culturel franco-allemand in Aachen and the Institut français in Mainz
+(<strong>€295</strong>), in Germany. The TEF Canada, the other test IRCC accepts, has one centre in Luxembourg on the map of
+Le français des affaires — inlingua Luxembourg —, with no session published on 26 October 2026.</p>"""),
+        ("delf", "The DELF and DALF in Luxembourg", """<p>Two centres run the DELF-DALF (FEI list of 26 October 2026): the
+INLL, the country’s managing body, and the Lycée Michel-Lucius in Luxembourg City. The INLL offers the DELF A2, B1 and B2 and
+the DALF C1:</p>
+""" + table("2026 exam calendar of the INLL (version of 10 September 2026), checked on 26 October 2026.",
+            ["Level", "Fee", "Papers", "Deadline"],
+            [("DELF A2", "€124", "February 2027", "—"), ("DELF B1", "€145", "9–11 Nov 2026", "18 Sep 2026"),
+             ("<strong>DELF B2</strong>", "<strong>€186</strong>", "9–11 Nov 2026", "no places left"),
+             ("DALF C1", "€232", "9–11 Nov 2026", "18 Sep 2026")], wide=False) + """
+<p>The November 2026 session is closed; the 2027 dates for B1, B2 and C1 were not published on 26 October 2026.</p>"""),
+    ],
+    list_title="The {n} approved TCF test centres in Luxembourg",
+    faq=[("Can I take the TCF Canada in Luxembourg?", "No, not on 26 October 2026: the Institut national des langues, the country’s only TCF provider, only offers the TCF tout public and the TCF IRN. The nearest centres that advertise the TCF Canada are Brussels (€268), Aachen and Mainz (€295)."),
+         ("How much does the TCF IRN cost in Luxembourg?", "€150 at the INLL, on paper. The 2026 session was on 19 October (deadline 14 September); the 2027 ones were not published."),
+         ("How much does the TCF tout public cost in Luxembourg?", "€120 for the compulsory tests at the INLL, plus €55 for writing and €55 for speaking. Session on 23 November 2026, registration closed on 12 October."),
+         ("Where can I take the DELF B2 in Luxembourg?", "At the Institut national des langues, €186; the 9 to 11 November 2026 session had no places left on 26 October. The Lycée Michel-Lucius is also a DELF-DALF centre.")],
+    also=[("/en/tcf-canada-belgium/", "TCF Canada in Belgium", "Brussels €268, Ghent €260."),
+          ("/en/tcf-canada-germany/", "TCF Canada in Germany", "Aachen and Mainz, €295."), _CLB, _TEF],
+    sources="the 2026 TCF registration form (PDF), the 2026 exam and test calendar (version of 10 September 2026) and the certifications page of the Institut national des langues Luxembourg (inll.lu), checked on 26 October 2026; the TEF centre map of Le français des affaires, read the same day.",
+    notes={"luxembourg-institut-national-des-langues": "FEI lists computer-based sessions; the INLL’s 2026 calendar announces a paper-based TCF."},
+))

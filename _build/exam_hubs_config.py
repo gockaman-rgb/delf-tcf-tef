@@ -126,7 +126,7 @@ comptés deux fois par IRCC ; aucune reprise partielle n'existe, et 20 à 30 jou
                     "<strong>Aucun tarif national</strong> : chaque centre fixe son prix ; au Maghreb, l'Institut français applique un tarif unique par pays — 37 500 DA, 2 900 Dhs, 880 DT (17 octobre 2026).",
                     "Attestation valable <strong>2 ans</strong> — et IRCC exige des résultats de moins de deux ans à la création du profil et au dépôt.",
                     "⚠️ <strong>Aucune reprise partielle</strong> : on repasse les quatre épreuves, après 20 à 30 jours.",
-                    "Six centres relevés ci-dessous avec adresse, téléphone et site ; l'annuaire complet en compte 251 en France et 47 au Canada.",
+                    "Six centres relevés ci-dessous avec adresse, téléphone et site ; l'annuaire complet en compte 247 en France et 48 au Canada.",
                     "Le TCF Canada n'est pas éligible au CPF."],
              faq=[3, 4, 5],
              faq_extra=[("Combien coûte le TCF Canada au Canada et aux États-Unis ?",
@@ -594,13 +594,13 @@ filières qui demandent le C1.</li>
              intro="""Le DELF B2 se compose de <strong>quatre épreuves notées sur 25</strong> : compréhension de l'oral
 (30 min), compréhension des écrits (60 min), production écrite de 250 mots (60 min) et production orale —
 monologue suivi puis débat, 20 minutes après 30 de préparation. On est admis à partir de
-<strong>50 sur 100</strong>, sauf note inférieure à <strong>5/25</strong> à une seule épreuve. Depuis la
-réforme, les compréhensions sont 100 % QCM et l'entretien dirigé a disparu. Le format, le barème, la
-réforme.""",
+<strong>50 sur 100</strong>, sauf note inférieure à <strong>5/25</strong> à une seule épreuve. L'entretien
+dirigé a disparu de l'oral, et les compréhensions existent en deux formats dans les sessions officielles. Le
+format, le barème, la réforme.""",
              facts=["<strong>4 épreuves</strong> sur 25 points, total sur 100, en <strong>2 h 50</strong> plus 30 minutes de préparation.",
                     "Admission à partir de <strong>50/100</strong>.",
                     "⚠️ Une note inférieure à <strong>5/25</strong> à une seule épreuve est éliminatoire, quelle que soit la moyenne.",
-                    "Compréhensions <strong>100 % QCM</strong> depuis la réforme ; format généralisé depuis septembre 2024.",
+                    "Compréhensions : <strong>deux formats</strong> en session officielle (2 ou 3 exercices) ; plus d'entretien dirigé à l'oral.",
                     "Diplôme valable à vie."],
              faq=[0, 1, 2]),
         dict(slug="a-quoi-sert", crumb="À quoi il sert", sections=["a-quoi-sert"],

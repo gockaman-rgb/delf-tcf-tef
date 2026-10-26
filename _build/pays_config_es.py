@@ -1444,9 +1444,9 @@ Instituto Francés, universidad.</p>
          ("¿Cuál es la diferencia entre el TCF Canada y el DELF?", "El TCF Canada es un test: sitúa tu nivel, con resultados válidos dos años, y es uno de los dos exámenes de francés que acepta IRCC, junto con el TEF Canada. El DELF y el DALF son diplomas: se aprueban nivel por nivel y son válidos de por vida."),
          ("¿Cuánto cuesta el DELF B2?", "Depende del país: 192 € en España (tarifa 2027), 2,500 pesos en México, 490.000 pesos en Colombia, 137.000 pesos en Chile, 461 soles en Perú, 200 dólares en Ecuador y 163 € (295.030 pesos) en Argentina. Precios revisados el 8 de octubre de 2026."),
          ("¿Se puede presentar el TCF Canada en cualquier centro TCF?", "No: un centro autorizado para el TCF no ofrece necesariamente la versión Canada. Cada página de país indica qué centros la anunciaban en su sitio web el 8 de octubre de 2026.")],
-    also=[("/en/tcf-canada-test-centres/", "TCF Canada en Canadá (en inglés)", "Los 47 centros autorizados, provincia por provincia."),
+    also=[("/en/tcf-canada-test-centres/", "TCF Canada en Canadá (en inglés)", "Los 48 centros autorizados, provincia por provincia."),
           ("/en/tcf-canada-usa/", "TCF Canada en Estados Unidos (en inglés)", "9 de los 18 centros lo ofrecen, de 330 a 460 dólares."),
-          ("/ou-passer/", "Todos los países (en francés)", "1067 centros en 35 países, con sus datos de contacto.")],
+          ("/ou-passer/", "Todos los países (en francés)", "1265 centros en 46 países, con sus datos de contacto.")],
     sources="""<strong>Fuentes.</strong> Listas de centros de examen de France Éducation international (filtros por país,
 tipos «TCF» y «DELF-DALF»), consultadas el 8 de octubre de 2026, y los sitios web de los centros citados en cada
 página, consultados el mismo día. Los precios y las fechas cambian sin aviso: verifícalos en el sitio del centro

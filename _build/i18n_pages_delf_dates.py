@@ -5,7 +5,8 @@ like the hubs, they get no hreflang). Hooked into i18n_pages_en.py by one append
     ONLY=/en/delf-exam-dates-2027- python3 _build/make_i18n.py
 
 Why: /en/delf-exam-dates-2027/ is the site's top page (Search Console, 7 days to 24/10/2026: 126 clicks), with
-searches from Korea, Japan, Taiwan, Hong Kong, Turkey, Vietnam, India and Lebanon in their own languages.
+searches from Korea, Japan, Taiwan, Hong Kong, Turkey, Vietnam, India and Lebanon in their own languages. Added the
+same day: China, Singapore, Nigeria, Madagascar, Thailand and Egypt (clicks from Egypt, Madagascar, Nigeria, Thailand).
 
 Every fact was read on 26 October 2026 on the official site of the country's DELF-DALF body or approved centre
 (sources at the foot of each page); the centres come from France Éducation international's list of approved
@@ -702,4 +703,487 @@ higher education in Lebanon and in French-speaking countries.</p>
     sources="""<strong>Sources.</strong> Institut français du Liban: exams page (Beirut) and DELF-DALF 2026 calendar (PDF), checked
 on 26 October 2026; France Éducation international’s list of approved DELF-DALF centres, 26 October 2026. Dates and fees
 change: the Institut’s website is the reference.""",
+))
+
+
+# ===========================================================================
+# CHINA — delf-dalf.neea.edu.cn (教育部教育考试院, plateforme nationale d'inscription) et Alliance française de
+# Shanghai (calendrier 2026, tarifs), lus le 26/10/2026
+# ===========================================================================
+CN = "https://delf-dalf.neea.edu.cn/"
+PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-china", crumb="China",
+    title="DELF exam dates 2027 in China: sessions and fees",
+    desc="DELF and DALF in mainland China: 2027 not yet published; the March, June and November 2026 sessions, online registration and fees in yuan (B2 2,000).",
+    h1="DELF exam dates 2027 in China: sessions, registration and fees",
+    intro=f"""The <strong>DELF exam dates 2027 in China</strong> (<span lang="zh-Hans">DELF 考试时间 2027</span>) were not yet
+published on 26 October 2026. The last 2026 session starts on <strong>7 November</strong>: DALF C1 and C2 on 7–8 November,
+B2 on 14–15 November, A1, A2 and B1 on 21–22 November (registration closed on 22 September). Mainland China has one
+national calendar, usually March, June and November, and you register online only, on
+<a href="{CN}" rel="noopener">delf-dalf.neea.edu.cn</a>, the platform of the Ministry of Education’s examination
+authority.""",
+    facts=["<strong>2027</strong>: dates not yet published (checked on 26 October 2026); they are announced on delf-dalf.neea.edu.cn.",
+           "<strong>November 2026</strong>: DALF C1, C2 on 7–8 Nov · B2 on 14–15 Nov · A1, A2, B1 on 21–22 Nov; registration 9–22 September (closed).",
+           "<strong>3 adult sessions a year</strong>, usually March, June and November; in 2026, registration for March ran from 6 to 19 January.",
+           "<strong>National fees</strong>: DELF A1, A2 1,500 yuan · B1, B2 2,000 · DALF C1, C2 2,500; DELF Prim 1,500.",
+           "<strong>One level at a time</strong>: you register for a single level; once registered, no change, no cancellation, no refund.",
+           "<strong>14 approved centres in 12 cities</strong>, from Beijing and Shanghai to Chengdu and Xi’an."],
+    toc=[("dates", "The 2026 sessions, and 2027"), ("fees", "Fees in yuan"), ("register", "How to register"),
+         ("centres", "The exam centres"), ("adults", "Adults, juniors and children"), ("results", "Results and diplomas"),
+         ("prepare", "Preparing while you wait for the dates")],
+    body=stats([("2027", "dates not yet published", "checked 26 Oct 2026"), ("3", "adult sessions a year", "Mar · Jun · Nov"),
+                ("2,000", "yuan for the DELF B2", "national fee"), ("12", "cities with a centre", "FEI list, 26 Oct 2026")]) + """
+<h2 id="dates">The 2026 sessions, and 2027</h2>
+<p>In mainland China the DELF and DALF are run with the Education Examinations Authority of the Ministry of Education
+(NEEA), in cooperation with France Éducation international: the same exam days in every centre, three sessions a year,
+“usually in March, June and November”. Each session spreads over three weekends — the DALF first, then the B2, then
+A1, A2 and B1. On the first day of each weekend the written papers are in the morning and the speaking tests start in the
+afternoon; the speaking tests continue all the next day. The 2027 dates had not been published on 26 October 2026.</p>
+""" + table("DELF-DALF tout public sessions in mainland China, 2026: NEEA’s notice for November 2026 (4 September 2026) and the Alliance française de Shanghai’s 2026 calendar, checked on 26 October 2026. Registration opens and closes at 14:00, Beijing time. The December results date was still to be confirmed.",
+            ["Session", "Registration", "DALF C1, C2", "DELF B2", "DELF A1, A2, B1", "Results"],
+            [("March 2026", "6–19 January", "14–15 March", "21–22 March", "28–29 March", "20 April"),
+             ("June 2026", "21 April – 7 May", "6–7 June", "13–14 June", "27–28 June", "27 July"),
+             ("<strong>November 2026</strong>", "9–22 September", "<strong>7–8 November</strong>", "<strong>14–15 November</strong>", "<strong>21–22 November</strong>", "21 December")]) + """
+<p>The admission ticket is printed from the registration site: for November 2026, from 2 November for the DALF, 9 November
+for the B2 and 16 November for A1, A2 and B1. The DELF Junior and DELF Prim have their own session in October — in 2026 the junior exams were on
+24–25 October in Shanghai, with registration from 26 August to 8 September.</p>
+
+<h2 id="fees">Fees in yuan</h2>
+""" + table("DELF-DALF fees in mainland China, set nationally since the May–June 2018 sessions (NEEA, checked on 26 October 2026).",
+            ["Exam", "Fee"],
+            [("DELF Prim", "1,500 yuan"), ("DELF A1, A2 (and DELF Junior A1, A2)", "1,500 yuan"),
+             ("<strong>DELF B1, B2</strong> (and DELF Junior B1, B2)", "<strong>2,000 yuan</strong>"), ("DALF C1, C2", "2,500 yuan")], wide=False) + f"""
+
+<h2 id="register">How to register</h2>
+<p>Registration is online only, on <a href="{CN}" rel="noopener">delf-dalf.neea.edu.cn</a> (Chinese), during the window of
+each session:</p>
+<ol>
+<li>create an account on NEEA’s candidate site and log in;</li>
+<li>choose the session, the centre and the level, and fill in your details exactly as they should appear on the diploma —
+surname, first name, nationality, mother tongue, e-mail;</li>
+<li>upload a recent colour photo (white or blue background, 3.5 × 4.9 cm, JPG or PNG under 30 KB): it is printed on the
+admission ticket and used to check your identity;</li>
+<li>pay online (Alipay, China Merchants Bank or Bank of China); a confirmation e-mail follows.</li>
+</ol>
+<p>The rules NEEA publishes: you may register for <strong>only one level at a time</strong>; places depend on each centre’s
+capacity and go until it is full; once registered you cannot change the date, level or centre or cancel, and a candidate
+who does not sit is not refunded. Mainland candidates register with their resident identity card and bring the same
+document on the day; arrive at least 30 minutes before the start — late candidates cannot sit any paper.</p>
+
+<h2 id="centres">The exam centres</h2>
+""" + table("DELF-DALF centres in mainland China: France Éducation international’s list of 26 October 2026. The exam venue printed on the admission ticket is the one that counts — in 2026, the Shanghai exams were held at Shanghai University of Finance and Economics.",
+            ["City", "Centre"],
+            [("Beijing", "Alliance française de Pékin · Institut français de Pékin · Lycée français international Charles de Gaulle"),
+             ("Shanghai", "Alliance française de Shanghai"), ("Guangzhou", "Alliance française de Canton"),
+             ("Chengdu", "Alliance française de Chengdu"), ("Dalian", "Alliance française de Dalian"),
+             ("Hangzhou", "Alliance française de Hangzhou"), ("Jinan", "Alliance française du Shandong-Jinan"),
+             ("Nanjing", "Alliance française de Nankin"), ("Tianjin", "Alliance française de Tianjin"),
+             ("Wuhan", "Alliance française de Wuhan"), ("Xi’an", "Alliance française de Xi’an"),
+             ("Zhengzhou", "Alliance française de Zhengzhou")], wide=False) + """
+<p>FEI’s list for China also includes Hong Kong and Macao, which have their own centres and calendars: see
+<a href="/en/delf-exam-dates-2027-hong-kong/">DELF exam dates 2027 in Hong Kong</a>.</p>
+
+<h2 id="adults">Adults, juniors and children</h2>
+<p>Adults sit the DELF-DALF <em lang="fr">tout public</em>. The DELF Junior is for candidates aged 12 to 17 and the DELF
+Prim for children; the junior diploma is the same as the adult one. Under the French Ministry of Education’s rules, the
+exam is open to candidates who are not French nationals, and to French nationals born in a non-French-speaking country
+who have not studied in French secondary or higher education.</p>
+
+<h2 id="results">Results and diplomas</h2>
+<p>Results are posted on the registration site about a month after the last level of a session. You pass with 50/100.
+Within a month of the results you can collect your score sheet or provisional certificate from your centre or local
+Alliance française, and ask to see your paper (only simple addition errors are corrected); the diploma arrives two to
+three months after the exam.</p>
+""" + prepare("China"),
+    faq=[("When are the DELF exam dates 2027 in China (<span lang=\"zh-Hans\">DELF 考试时间 2027</span>)?", "Not yet published on 26 October 2026. Mainland China holds three adult sessions a year, usually in March, June and November; in 2026, registration for the March session ran from 6 to 19 January. The 2027 dates will be announced on delf-dalf.neea.edu.cn."),
+         ("When is the next DELF exam in China?", "DALF C1 and C2 on 7–8 November 2026, DELF B2 on 14–15 November and DELF A1, A2 and B1 on 21–22 November 2026. Registration for that session closed on 22 September 2026."),
+         ("How much does the DELF cost in China?", "The fees are national: 1,500 yuan for the DELF A1 and A2 (and the DELF Prim), 2,000 yuan for the B1 and B2, 2,500 yuan for the DALF C1 and C2, paid online when you register."),
+         ("Can I register for two DELF levels at once in China?", "No. NEEA allows one level at a time, and once registered you cannot change the level, date or centre, cancel, or be refunded if you do not sit."),
+         ("Can adults take the DELF in China?", "Yes: the DELF-DALF tout public is the adult version. The DELF Junior is for 12- to 17-year-olds and leads to the same diploma; children sit the DELF Prim."),
+         ("How do I book the DELF in China?", "Online only, on delf-dalf.neea.edu.cn: create an account, choose the session, centre and level, upload your photo and pay with Alipay, China Merchants Bank or Bank of China during the registration window.")],
+    also=also([("/en/delf-exam-dates-2027-hong-kong/", "DELF exam dates 2027 in Hong Kong", "The Alliance Française de Hong Kong’s sessions and fees in HK$."),
+               ("/en/delf-exam-dates-2027-taiwan/", "DELF exam dates 2027 in Taiwan", "2027 published: from 10 January in Taipei.")]),
+    sources="""<strong>Sources.</strong> NEEA, French DELF-DALF registration site (delf-dalf.neea.edu.cn): notice for the November
+2026 session (4 September 2026), registration steps, FAQ and fees, checked on 26 October 2026; Alliance française de
+Shanghai: DELF-DALF page (2026 calendar, venue, fees), checked on 26 October 2026; France Éducation international’s list of
+approved DELF-DALF centres, 26 October 2026. Dates and fees change: delf-dalf.neea.edu.cn is the reference.""",
+))
+
+
+# ===========================================================================
+# SINGAPORE — Alliance Française de Singapour (alliancefrancaise.org.sg), lu le 26/10/2026
+# ===========================================================================
+SG = "https://alliancefrancaise.org.sg/french-class/exams-and-certificates/delf-dalf"
+PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-singapore", crumb="Singapore",
+    title="DELF exam dates 2027 in Singapore: sessions and fees",
+    desc="DELF and DALF in Singapore: 2027 not yet published; the 23–27 November 2026 session, fees in S$ (B2 S$380) and how to book at the Alliance Française.",
+    h1="DELF exam dates 2027 in Singapore: sessions, registration and fees",
+    intro=f"""The <strong>DELF exam dates 2027 in Singapore</strong> were not yet published on 26 October 2026. The next adult
+session runs from <strong>23 to 27 November 2026</strong> — A1 on Monday 23, B2 on Thursday 26, the DALF C1 and C2 on
+Friday 27 — but its registration closed on 18 October. The Alliance Française de Singapour, the only approved centre,
+held three sessions in 2026 (March, May and November); you book online or at its desk:
+<a href="{SG}" rel="noopener">alliancefrancaise.org.sg</a>.""",
+    facts=["<strong>2027</strong>: dates not yet published (checked on 26 October 2026); in 2026, registration for March ran from 5 January to 15 February.",
+           "<strong>November 2026</strong>: A1 Mon 23 · A2 Tue 24 · B1 Wed 25 · B2 Thu 26 · C1 and C2 Fri 27 November; registration closed on 18 October.",
+           "<strong>3 adult sessions in 2026</strong>: 16–20 March, 18–22 May and 23–27 November.",
+           "<strong>Fees 2026</strong> (GST included): A1 S$220 · A2 S$270 · B1 S$330 · B2 S$380 · C1 and C2 S$450; lower rates for AF members.",
+           "<strong>DELF Junior</strong> (13–17) the week before: 16–19 November 2026; <strong>DELF Prim</strong> (8–12) on 20 November.",
+           "<strong>One centre</strong>: Alliance Française de Singapour, 1 Sarkies Road."],
+    toc=[("dates", "The 2026 sessions, and 2027"), ("fees", "Fees in Singapore dollars"), ("register", "How to register"),
+         ("adults", "Adults, juniors and children"), ("prepare", "Preparing while you wait for the dates")],
+    body=stats([("2027", "dates not yet published", "checked 26 Oct 2026"), ("23–27 Nov", "2026 adult session", "registration closed 18 Oct"),
+                ("S$380", "DELF B2", "S$270 for AF members"), ("1", "approved centre", "1 Sarkies Road")]) + """
+<h2 id="dates">The 2026 sessions, and 2027</h2>
+<p>Each session gives every level its own day, Monday to Friday: A1 on Monday, A2 on Tuesday, B1 on Wednesday, B2 on
+Thursday, the DALF C1 and C2 on Friday. Juniors sit the week before and the DELF Prim on the Friday of that week. The 2027
+calendar had not been published on 26 October 2026.</p>
+""" + table("DELF-DALF sessions at the Alliance Française de Singapour, 2026 (alliancefrancaise.org.sg, checked on 26 October 2026). Registration: the tout public window; for November, the junior and Prim window closed on 11 October.",
+            ["Session", "Registration", "Tout public (adults)", "DELF Junior", "DELF Prim"],
+            [("March 2026", "5 January – 15 February", "16–20 March", "9–12 March", "13 March"),
+             ("May 2026", "23 March – 26 April", "18–22 May", "11–14 May", "—"),
+             ("<strong>November 2026</strong>", "31 August – 18 October", "<strong>23–27 November</strong>", "16–19 November", "20 November")]) + """
+<p>The written papers of November 2026, from the Alliance’s registration page: A1 on Monday 23 November, 9:00–10:30;
+A2 on Tuesday 24, 9:00–11:00; B1 on Wednesday 25, 9:00–11:05; B2 on Thursday 26, 8:00–10:45; DALF C1 on Friday 27,
+8:00–12:15, and C2 the same day, 8:00–11:45. (The Alliance’s 2026 calendar in PDF prints 25 and 26 November for the B2
+and the DALF; the registration page gives Thursday 26 and Friday 27, which match the weekdays.)</p>
+
+<h2 id="fees">Fees in Singapore dollars</h2>
+""" + table("DELF-DALF fees for the 2026 sessions at the Alliance Française de Singapour, GST included (checked on 26 October 2026). The same fee applies to the Prim, Junior and tout public versions of a level.",
+            ["Level", "Fee", "AF members"],
+            [("DELF A1 (and Prim A1.1)", "S$220", "S$160"), ("DELF A2", "S$270", "S$190"), ("DELF B1", "S$330", "S$240"),
+             ("<strong>DELF B2</strong>", "<strong>S$380</strong>", "S$270"), ("DALF C1", "S$450", "S$350"), ("DALF C2", "S$450", "S$350")], wide=False) + f"""
+<p>Replacing a diploma costs S$130.</p>
+
+<h2 id="register">How to register</h2>
+<p>Register online — each level of the tout public session is a separate entry on the Alliance’s DELF Tout public page,
+paid online — or at the registration desk in the lobby of 1 Sarkies Road, during the registration window. The
+Alliance’s DELF/DALF Terms and Conditions 2026 apply. Teachers who want to register several students at once write to
+the Alliance’s academic department. Calendar, fees and registration links:
+<a href="{SG}" rel="noopener">alliancefrancaise.org.sg</a>.</p>
+
+<h2 id="adults">Adults, juniors and children</h2>
+<p>The Alliance Française de Singapour, the only official centre in Singapore, offers three versions: the DELF Prim for
+children aged 8 to 12, the DELF Junior for teenagers aged 13 to 17, and the DELF and DALF <em lang="fr">tout public</em>
+for adults. The diplomas are issued by the French Ministry of Education and are valid for life.</p>
+""" + prepare("Singapore"),
+    faq=[("When are the DELF exam dates 2027 in Singapore?", "Not yet published on 26 October 2026. In 2026 the Alliance Française de Singapour held three adult sessions — 16–20 March, 18–22 May and 23–27 November — and registration for the March session ran from 5 January to 15 February 2026."),
+         ("When is the next DELF exam in Singapore?", "The November 2026 session: A1 on 23 November, A2 on 24, B1 on 25, B2 on 26, DALF C1 and C2 on 27 November 2026. Registration closed on 18 October 2026."),
+         ("How much is the DELF B2 in Singapore?", "S$380 including GST, or S$270 for Alliance Française members (2026 fees). A1 costs S$220, A2 S$270, B1 S$330, DALF C1 and C2 S$450."),
+         ("Can adults take the DELF in Singapore?", "Yes: the DELF and DALF tout public are for adults. Teenagers aged 13 to 17 can take the DELF Junior and children aged 8 to 12 the DELF Prim."),
+         ("How do I book the DELF in Singapore?", "Online on the Alliance Française de Singapour’s website, level by level, or at its registration desk at 1 Sarkies Road, during the registration window.")],
+    also=also(),
+    sources="""<strong>Sources.</strong> Alliance Française de Singapour: DELF/DALF page (2026 sessions, fees), DELF Tout public
+registration page (November 2026 levels and times) and DELF/DALF calendar 2026 (PDF), checked on 26 October 2026; France
+Éducation international’s list of approved DELF-DALF centres, 26 October 2026. Dates and fees change: the Alliance’s
+website is the reference.""",
+))
+
+
+# ===========================================================================
+# NIGERIA — Alliance Française de Lagos (bureau des examens) et de Port Harcourt, lus le 26/10/2026
+# ===========================================================================
+NG = "https://www.afnigeria.org/lagos/delf-dalf/"
+PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-nigeria", crumb="Nigeria",
+    title="DELF exam dates 2027 in Nigeria: sessions and fees",
+    desc="DELF and DALF in Nigeria: 2027 not yet published; the December 2026 session in Lagos (register by 27 November), fees in naira (B2 ₦80,000), ten centres.",
+    h1="DELF exam dates 2027 in Nigeria: sessions, registration and fees",
+    intro=f"""The <strong>DELF exam dates 2027 in Nigeria</strong> were not yet published on 26 October 2026 — but the
+<strong>December 2026 session is open</strong>: exams on <strong>8–11 December</strong> at the Alliance Française de Lagos,
+with registration until <strong>27 November</strong>. Lagos is home to Nigeria’s DELF-DALF exam office and held four adult
+sessions in 2026 — March, July, September and December. You register online with the Alliance:
+<a href="{NG}" rel="noopener">afnigeria.org/lagos</a>.""",
+    facts=["<strong>2027</strong>: dates not yet published (checked on 26 October 2026).",
+           "<strong>December 2026</strong>, Lagos: exams 8–11 December; registration 1 October – <strong>27 November</strong>.",
+           "<strong>4 adult sessions in Lagos in 2026</strong>: 10–13 March, 21–24 July, 21–24 September and 8–11 December.",
+           "<strong>Fees in Lagos</strong>: A1, A2 ₦35,000 · B1, B2 ₦80,000 · C1, C2 ₦150,000; 10% less for AF Lagos students.",
+           "<strong>Port Harcourt</strong>: two sessions in 2026, 10–13 March and 21–24 July, at the same fees.",
+           "<strong>10 approved centres</strong>: Lagos, Abuja, Enugu, Ilorin, Jos, Kaduna, Kano, Maiduguri, Owerri and Port Harcourt."],
+    toc=[("dates", "The 2026 sessions, and 2027"), ("fees", "Fees in naira"), ("register", "How to register"),
+         ("centres", "The ten exam centres"), ("adults", "Adults, juniors and children"), ("results", "Results and diplomas"),
+         ("prepare", "Preparing while you wait for the dates")],
+    body=stats([("8–11 Dec", "next session", "Lagos, 2026"), ("27 Nov", "registration closes", "opened 1 Oct 2026"),
+                ("₦80,000", "DELF B2 in Lagos", "₦72,000 for AF students"), ("10", "approved centres", "FEI list, 26 Oct 2026")]) + """
+<h2 id="dates">The 2026 sessions, and 2027</h2>
+<p>France Éducation international’s list of approved centres (26 October 2026) names the exam office of the Alliance
+Française de Lagos as Nigeria’s DELF-DALF body. Its 2026 calendar had four adult sessions, each over four days; the
+Alliance warns that the calendar “might be subject to changes in case of exceptional circumstances”. The 2027 dates had
+not been published on 26 October 2026.</p>
+""" + table("DELF-DALF tout public sessions at the Alliance Française de Lagos, 2026 (afnigeria.org/lagos, checked on 26 October 2026).",
+            ["Session", "Registration", "Exam days"],
+            [("March 2026", "19 January – 2 March", "10–13 March"),
+             ("July 2026", "1 June – 10 July", "21–24 July"),
+             ("September 2026", "1 August – 11 September", "21–24 September"),
+             ("<strong>December 2026</strong>", "<strong>1 October – 27 November</strong>", "<strong>8–11 December</strong>")]) + """
+<p>Other Alliances set their own sessions. The Alliance Française de Port Harcourt published two for 2026: A1 on 10 March,
+A2 on 11, B1 on 12, B2 on 13 and C1 on 10 March (registration deadline 20 February), then the same levels on 21–24 July
+(deadline 3 July); no later 2026 session was listed there.</p>
+<p>Juniors and children have their own sessions in Lagos: DELF Junior on 3–5 June, 1–3 July and <strong>24–26 November
+2026</strong> (registration 1 October – 13 November), DELF Prim on 20–22 May and 24–26 June.</p>
+
+<h2 id="fees">Fees in naira</h2>
+""" + table("DELF-DALF fees at the Alliance Française de Lagos, 2026 (checked on 26 October 2026). The Alliance Française de Port Harcourt lists the same adult fees for A1 to C1.",
+            ["Exam", "Other candidates", "AF Lagos students"],
+            [("DELF A1, A2 (tout public)", "₦35,000", "₦31,500"), ("<strong>DELF B1, B2</strong> (tout public)", "<strong>₦80,000</strong>", "₦72,000"),
+             ("DALF C1, C2", "₦150,000", "₦135,000"), ("DELF Junior A1, A2", "₦30,000", "₦25,500"),
+             ("DELF Junior B1, B2", "₦60,000", "₦51,000"), ("DELF Prim A1.1, A1", "₦30,000", "₦25,500"), ("DELF Prim A2", "₦40,000", "₦34,000")], wide=False) + f"""
+
+<h2 id="register">How to register</h2>
+<p>Anyone can take the DELF-DALF at the Alliance Française de Lagos, not only its students. Register online through the
+link on its <a href="{NG}" rel="noopener">DELF/DALF page</a>, then wait for the confirmation e-mail, which comes during
+the week after your registration; questions go to the Lagos exam office (certification.lagos@afnigeria.org). The
+Alliance stresses that its registration process and deadlines are compulsory, and the exam regulations are sent when you
+register. In Port Harcourt, register with the Alliance Française de Port Harcourt (af-nigeria.org) before its deadline.</p>
+
+<h2 id="centres">The ten exam centres</h2>
+""" + table("DELF-DALF centres in Nigeria: France Éducation international’s list of 26 October 2026.",
+            ["City", "Centre"],
+            [("Lagos", "Alliance Française de Lagos, Mike Adenuga Centre, 9 Osborne Road (exam office)"),
+             ("Abuja", "Institut français du Nigéria, 52 Libreville Street"),
+             ("Enugu", "Alliance Française d’Enugu"), ("Ilorin", "Alliance Française d’Ilorin"),
+             ("Jos", "Alliance Française de Jos"), ("Kaduna", "Alliance française de Kaduna"),
+             ("Kano", "Alliance française de Kano"), ("Maiduguri", "Alliance Française de Maiduguri"),
+             ("Owerri", "Alliance Française d’Owerri"), ("Port Harcourt", "Alliance Française de Port Harcourt, 20 Herbert Macaulay Street, Amadi Flats")], wide=False) + """
+<p>Outside Lagos and Port Harcourt, no 2026–2027 DELF calendar was found online on 26 October 2026: ask the centre where
+you want to sit the exam.</p>
+
+<h2 id="adults">Adults, juniors and children</h2>
+<p>Adults sit the DELF-DALF <em lang="fr">tout public</em>. In Lagos the DELF Junior is for secondary-school pupils aged
+12 to 17 and the DELF Prim for primary pupils aged 7 to 11; the diplomas have the same value and are valid for life.</p>
+
+<h2 id="results">Results and diplomas</h2>
+<p>The Alliance Française de Lagos publishes the results as PDF lists on its DELF/DALF page (the September 2026 results
+were online on 26 October). It says you usually receive a certificate about a month after the exam and the diploma
+three months later; in Lagos the provisional certificate (<em lang="fr">attestation</em>) is issued on request at the
+exam office of the Ikoyi centre, on Tuesdays and Thursdays from 9 am to 3 pm.</p>
+""" + prepare("Nigeria"),
+    faq=[("When are the DELF exam dates 2027 in Nigeria?", "Not yet published on 26 October 2026. In 2026 the Alliance Française de Lagos held adult sessions on 10–13 March, 21–24 July, 21–24 September and 8–11 December; Port Harcourt held two, in March and July."),
+         ("When is the next DELF exam in Nigeria?", "8–11 December 2026 at the Alliance Française de Lagos, with registration open from 1 October to 27 November 2026. The DELF Junior is on 24–26 November 2026 (registration until 13 November)."),
+         ("How much does the DELF B2 cost in Nigeria?", "₦80,000 at the Alliance Française de Lagos in 2026, or ₦72,000 for its students. A1 and A2 cost ₦35,000, C1 and C2 ₦150,000; Port Harcourt lists the same adult fees."),
+         ("Can adults take the DELF in Nigeria?", "Yes: the DELF-DALF tout public is the adult version, open to everyone, not only Alliance students. Pupils can take the DELF Junior or the DELF Prim."),
+         ("How do I book the DELF in Nigeria?", "Online through the Alliance Française de Lagos’s DELF/DALF page during the registration window — for December 2026, until 27 November — then wait for the confirmation e-mail. In other cities, register with the local Alliance Française or the Institut français in Abuja.")],
+    also=also(),
+    sources="""<strong>Sources.</strong> Alliance Française de Lagos: DELF/DALF page (2026 calendar, fees, registration, results);
+Alliance Française de Port Harcourt: DELF page (2026 prices and calendar); both checked on 26 October 2026; France Éducation
+international’s list of approved DELF-DALF centres, 26 October 2026. Dates and fees change: your Alliance Française is the
+reference.""",
+))
+
+
+# ===========================================================================
+# MADAGASCAR — Alliance française d'Antananarivo (afantananarivo.mg, catalogue 2026), lu le 26/10/2026.
+# Le site du réseau donné par la liste FEI (alliancefr.mg) ne répond plus (NXDOMAIN) : pas de calendrier tout public en ligne.
+# ===========================================================================
+MG = "https://www.afantananarivo.mg/cours-de-francais/catalogue-cours-examens/"
+PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-madagascar", crumb="Madagascar",
+    title="DELF exam dates 2027 in Madagascar: sessions and centres",
+    desc="Calendrier DELF 2027 Madagascar: adult dates not yet online; DELF Prim in April 2027, the 2026 DELF junior, and the 24 Alliances françaises that hold it.",
+    h1="DELF exam dates 2027 in Madagascar: sessions and exam centres",
+    intro=f"""The <strong>DELF exam dates 2027 in Madagascar</strong> — <span lang="fr">calendrier DELF 2027 Madagascar</span> —
+were not published online on 26 October 2026 for the adult DELF and DALF. The Alliance française d’Antananarivo announces
+its next <strong>DELF Prim session for April 2027</strong>; its 2026 DELF junior was held on 5–8 October. For the
+<em lang="fr">tout public</em> sessions, ask the Alliance française where you want to sit the exam — 24 of them are
+approved centres. Antananarivo’s catalogue: <a href="{MG}" rel="noopener">afantananarivo.mg</a>.""",
+    facts=["<strong>2027</strong>: adult (tout public) dates not published online (checked on 26 October 2026).",
+           "<strong>DELF Prim</strong> (7–12): next session announced for <strong>April 2027</strong> at the Alliance française d’Antananarivo.",
+           "<strong>DELF junior 2026</strong> (13–17): exams on 5–8 October, registration 6 July – 12 September (Antananarivo).",
+           "<strong>24 approved centres</strong>, all Alliances françaises, from Antsiranana and Nosy Be to Fort-Dauphin and Tuléar.",
+           "<strong>Exam fees</strong> for the adult DELF and DALF in ariary: not published online on 26 October 2026.",
+           "The national body on France Éducation international’s list: the French Embassy’s cultural cooperation service in Antananarivo."],
+    toc=[("dates", "What was published on 26 October 2026"), ("ask", "Where to get the dates"), ("centres", "The 24 exam centres"),
+         ("adults", "Adults, juniors and children"), ("francais", "En français"), ("prepare", "Preparing while you wait for the dates")],
+    body=stats([("Apr 2027", "next DELF Prim session", "Antananarivo"), ("5–8 Oct", "2026 DELF junior", "Antananarivo"),
+                ("24", "approved centres", "all Alliances françaises"), ("2027", "adult dates not online", "checked 26 Oct 2026")]) + """
+<h2 id="dates">What was published on 26 October 2026</h2>
+<p>Madagascar’s DELF-DALF centres are its Alliances françaises. On 26 October 2026 the only exam dates online were those of
+the Alliance française d’Antananarivo’s 2026 catalogue, for children and teenagers; it gave no exam date and no exam fee
+for the adult DELF and DALF.</p>
+""" + table("DELF-DALF in Madagascar: what the Alliance française d’Antananarivo’s 2026 catalogue showed on 26 October 2026.",
+            ["Exam", "Dates", "Registration"],
+            [("DELF and DALF tout public (adults)", "2027 not published online", "—"),
+             ("DELF junior (13–17)", "5–8 October 2026", "6 July – 12 September 2026"),
+             ("<strong>DELF Prim (7–12)</strong>", "<strong>next session: April 2027</strong>", "not yet published")], wide=False) + """
+<p>The same catalogue lists the Alliance’s 2026 preparation courses for the DELF B1 to DALF C2 — 20 hours on four
+Saturdays or four weekday afternoons, from 14 February to 7 March, 16 May to 6 June, 8 August to 5 September and
+24 October to 14 November — at 95,000 Ar for the B1, 99,000 Ar for the B2 and C1, and 250,000 Ar for the C2.</p>
+
+<h2 id="ask">Where to get the dates</h2>
+<p>France Éducation international’s list of approved centres (26 October 2026) names the cultural cooperation service of
+the French Embassy in Antananarivo as Madagascar’s DELF-DALF body. The Alliances’ network website given in that list,
+alliancefr.mg, could not be reached on 26 October 2026, so the most reliable way to get the 2027 dates, the fees and the
+registration window is to ask the Alliance française where you want to sit the exam — in the capital, the Alliance
+française d’Antananarivo in Andavamamba (+261 34 80 119 95).</p>
+
+<h2 id="centres">The 24 exam centres</h2>
+<p>France Éducation international’s list of 26 October 2026 gives 24 approved DELF-DALF centres in Madagascar, all
+Alliances françaises: <strong>Ambanja, Ambatondrazaka, Ambilobe, Ambositra, Antananarivo, Antsirabe, Antsiranana,
+Antsohihy, Fandriana, Farafangana, Fianarantsoa, Fort-Dauphin, Majunga, Manakara, Mananjary, Moramanga, Morombe,
+Morondava, Nosy Be, Sainte-Marie, Sambava, Tamatave, Tsiroanomandidy and Tuléar</strong>. To find the nearest one, use
+our <a href="/en/test-centre-near-me/">test centre finder</a>.</p>
+
+<h2 id="adults">Adults, juniors and children</h2>
+<p>The Alliance française d’Antananarivo offers the three versions of the DELF by age: the DELF Prim from 7 to 12, the DELF
+junior from 13 to 17 and the DELF-DALF <em lang="fr">tout public</em> from 17. All lead to official diplomas of the French
+Ministry of Education, recognised internationally and valid for life.</p>
+
+<h2 id="francais">En français</h2>
+<p lang="fr">Le calendrier DELF 2027 de Madagascar n’était pas publié en ligne le 26 octobre 2026 pour le DELF et le DALF
+tout public. L’Alliance française d’Antananarivo annonce la prochaine session du DELF Prim pour avril 2027 ; son DELF
+junior 2026 a eu lieu du 5 au 8 octobre. Pour les dates, les tarifs et les inscriptions, adressez-vous à l’Alliance
+française où vous voulez passer l’examen. Le calendrier de la France, qui ne s’applique pas à Madagascar :
+<a href="/blog/calendrier-delf-dalf-2026-2027/" hreflang="fr">calendrier DELF-DALF 2026-2027</a> ; le format de
+l’épreuve : <a href="/delf-b2/" hreflang="fr">DELF B2</a> ; les centres : <a href="/trouver-un-centre/" hreflang="fr">trouver
+un centre d’examen</a>.</p>
+""" + prepare("Madagascar"),
+    faq=[("What is the <span lang=\"fr\">calendrier DELF 2027 Madagascar</span> — the DELF exam dates for 2027?", "Not published online on 26 October 2026 for the adult DELF and DALF. The Alliance française d’Antananarivo announces its next DELF Prim session for April 2027; for the tout public dates, ask the Alliance française where you want to sit the exam."),
+         ("When is the DELF junior in Madagascar?", "In 2026, the Alliance française d’Antananarivo held it on 5–8 October, with registration from 6 July to 12 September 2026. The 2027 session had not been announced on 26 October 2026."),
+         ("How much does the DELF cost in Madagascar?", "The exam fees for the adult DELF and DALF were not published online on 26 October 2026. The Alliance française d’Antananarivo’s 20-hour preparation courses cost 95,000 Ar for the B1, 99,000 Ar for the B2 and C1, and 250,000 Ar for the C2."),
+         ("Where can I take the DELF in Madagascar?", "At one of 24 approved Alliances françaises, including Antananarivo, Antsirabe, Antsiranana, Fianarantsoa, Majunga, Tamatave, Tuléar, Nosy Be and Fort-Dauphin (France Éducation international’s list, 26 October 2026)."),
+         ("Can adults take the DELF in Madagascar?", "Yes: the DELF-DALF tout public is the adult version, from 17 at the Alliance française d’Antananarivo; the DELF junior is for 13- to 17-year-olds and the DELF Prim for 7- to 12-year-olds.")],
+    also=also([("/en/test-centre-near-me/", "Find a test centre near you", "Every DELF-DALF, TCF and TEF centre in the world, by city or country.")]),
+    sources="""<strong>Sources.</strong> Alliance française d’Antananarivo: DELF/DALF page and 2026 catalogue of courses and exams
+(afantananarivo.mg), checked on 26 October 2026; France Éducation international’s list of approved DELF-DALF centres,
+26 October 2026. Dates and fees change: your Alliance française is the reference.""",
+))
+
+
+# ===========================================================================
+# THAILAND — Alliance Française de Bangkok (afthailande.org), lu le 26/10/2026
+# ===========================================================================
+TH = "https://afthailande.org/en/exam/diploma/"
+PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-thailand", crumb="Thailand",
+    title="DELF exam dates 2027 in Thailand: sessions and fees",
+    desc="DELF and DALF in Thailand: 2027 not yet published; the 2026 Bangkok sessions (March, June, November), fees in baht (B2 3,600 THB), juniors and schools.",
+    h1="DELF exam dates 2027 in Thailand: sessions, registration and fees",
+    intro=f"""The <strong>DELF exam dates 2027 in Thailand</strong> (<span lang="th">ตารางสอบ DELF 2027</span>) were not yet
+published on 26 October 2026. The Alliance Française de Bangkok, the only approved centre, held three sessions in 2026:
+adults on <strong>Sunday 8 March, Sunday 7 June and Sunday 1 November</strong>, juniors and children the day before. The
+November session closed its registration on 27 September. Calendar, fees and results:
+<a href="{TH}" rel="noopener">afthailande.org</a>.""",
+    facts=["<strong>2027</strong>: dates not yet published (checked on 26 October 2026).",
+           "<strong>Next adult exam</strong>: Sunday 1 November 2026; registration (24 August – 27 September) is closed.",
+           "<strong>2026 registration windows</strong>: 5 January – 8 February, 23 March – 6 May, 24 August – 27 September.",
+           "<strong>Fees</strong>: A1 2,600 THB · A2 2,800 · B1 3,400 · B2 3,600 · C1 4,900 · C2 5,200; 20% off for AF Bangkok students.",
+           "<strong>DELF junior and Prim</strong> on the Saturday before; a <strong>DELF scolaire</strong> session in January for Thai schools.",
+           "<strong>One centre</strong>: Alliance Française de Bangkok, 179 Witthayu Road, Lumphini."],
+    toc=[("dates", "The 2026 sessions, and 2027"), ("fees", "Fees in baht"), ("register", "How to register"),
+         ("adults", "Adults, juniors and schools"), ("prepare", "Preparing while you wait for the dates")],
+    body=stats([("2027", "dates not yet published", "checked 26 Oct 2026"), ("1 Nov", "next adult exam", "registration closed 27 Sep"),
+                ("3,600", "THB for the DELF B2", "20% off for AF students"), ("1", "approved centre", "Alliance Française de Bangkok")]) + """
+<h2 id="dates">The 2026 sessions, and 2027</h2>
+<p>The Alliance Française de Bangkok holds the DELF-DALF on weekends: the adult (<em lang="fr">tout public</em>) exams
+on a Sunday, the DELF junior and DELF Prim on the Saturday before. The March and June sessions offer every version and
+level; the November session has no DELF Prim. The 2027 calendar had not been published on 26 October 2026.</p>
+""" + table("DELF-DALF sessions at the Alliance Française de Bangkok, 2026 (afthailande.org, checked on 26 October 2026).",
+            ["Session", "Registration", "Tout public (A1 to C2)", "DELF junior and Prim"],
+            [("January 2026, DELF scolaire (A1, A2, B1)", "26 September – 19 November 2025, by the teacher", "—", "18 January, Thai schools only"),
+             ("March 2026", "5 January – 8 February", "Sunday 8 March", "Saturday 7 March"),
+             ("June 2026", "23 March – 6 May", "Sunday 7 June", "Saturday 6 June"),
+             ("<strong>November 2026</strong>", "24 August – 27 September", "<strong>Sunday 1 November</strong>", "Saturday 31 October (junior only)")]) + """
+
+<h2 id="fees">Fees in baht</h2>
+""" + table("DELF-DALF fees at the Alliance Française de Bangkok (afthailande.org, checked on 26 October 2026). The same fee applies to the tout public, junior and Prim versions of a level.",
+            ["Level", "Fee"],
+            [("DELF A1.1 (Prim) and A1", "2,600 THB"), ("DELF A2", "2,800 THB"), ("DELF B1", "3,400 THB"),
+             ("<strong>DELF B2</strong>", "<strong>3,600 THB</strong>"), ("DALF C1", "4,900 THB"), ("DALF C2", "5,200 THB")], wide=False) + f"""
+<p>Students enrolled in a course at the Alliance Française de Bangkok when they register, or who finished one less than a
+week before, get 20% off the DELF fees.</p>
+
+<h2 id="register">How to register</h2>
+<p>Register with the Alliance Française de Bangkok during the published window; its exam page gives the windows, the fees
+and an exam-office address for questions (examen.bangkok@afthailande.org). For the January DELF scolaire, schools register
+their pupils: the registration is made by the teacher. The results of each session are posted on the same page — those of
+March and June 2026 are online as PDFs: <a href="{TH}" rel="noopener">afthailande.org</a>.</p>
+
+<h2 id="adults">Adults, juniors and schools</h2>
+<p>Adults sit the DELF-DALF <em lang="fr">tout public</em>, A1 to C2. The DELF junior is for secondary-school teenagers
+and the DELF Prim for primary-school children aged 8 to 12; the DELF scolaire, in January, is reserved for Thai schools.
+All lead to the same diplomas, valid for life.</p>
+""" + prepare("Thailand"),
+    faq=[("When are the DELF exam dates 2027 in Thailand (<span lang=\"th\">ตารางสอบ DELF 2027</span>)?", "Not yet published on 26 October 2026. In 2026 the Alliance Française de Bangkok held adult exams on Sunday 8 March, Sunday 7 June and Sunday 1 November, with juniors and children on the Saturday before; the 2027 calendar will appear on afthailande.org."),
+         ("When is the next DELF exam in Thailand?", "Sunday 1 November 2026 for adults, Saturday 31 October 2026 for the DELF junior, at the Alliance Française de Bangkok. Registration closed on 27 September 2026."),
+         ("How much is the DELF B2 in Thailand?", "3,600 THB at the Alliance Française de Bangkok, with 20% off for its students. A1 costs 2,600 THB, A2 2,800, B1 3,400, DALF C1 4,900 and C2 5,200 THB."),
+         ("Can adults take the DELF in Thailand?", "Yes: the DELF-DALF tout public, from A1 to C2, is for adults. Teenagers can take the DELF junior and children the DELF Prim; the DELF scolaire is for Thai schools only."),
+         ("How do I book the DELF in Thailand?", "With the Alliance Française de Bangkok, the only approved centre, during the registration window — in 2026, five to six weeks long and closing four to five weeks before the exam.")],
+    also=also(),
+    sources="""<strong>Sources.</strong> Alliance Française de Bangkok: DELF-DALF exam page, in English and French (2026 sessions,
+registration windows, fees, results), checked on 26 October 2026; France Éducation international’s list of approved DELF-DALF
+centres, 26 October 2026. Dates and fees change: the Alliance’s website is the reference.""",
+))
+
+
+# ===========================================================================
+# EGYPT — Institut français d'Égypte (ifegypte.com, brochures « DELF TP / DALF 2026 » et « DELF Junior 2026 »), lus le 26/10/2026
+# ===========================================================================
+EG = "https://www.ifegypte.com/prochaines-sessions/"
+PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-egypt", crumb="Egypt",
+    title="DELF exam dates 2027 in Egypt: sessions and fees",
+    desc="DELF and DALF in Egypt: 2027 not yet published; the November 2026 session (C1 on 7 Nov to B1 on 28 Nov), fees in Egyptian pounds (B2 5,265 EGP).",
+    h1="DELF exam dates 2027 in Egypt: sessions, registration and fees",
+    intro=f"""The <strong>DELF exam dates 2027 in Egypt</strong> (<bdi lang="ar" dir="rtl">مواعيد امتحان DELF 2027</bdi>) were not
+yet published on 26 October 2026. The autumn 2026 session of the Institut français d’Égypte starts on
+<strong>7 November</strong>: DALF C1 on 7 November, C2 on the 12th, A2 on the 14th, A1 on the 19th, B2 on the 21st and B1
+on the 28th (registration closed on 1 October). In 2026 the IFE held two adult sessions, June–July and November; you
+register with its online form: <a href="{EG}" rel="noopener">ifegypte.com</a>.""",
+    facts=["<strong>2027</strong>: dates not yet published (checked on 26 October 2026).",
+           "<strong>November 2026</strong>: C1 Sat 7 · C2 Thu 12 · A2 Sat 14 · A1 Thu 19 · B2 Sat 21 · B1 Sat 28 November; registration 20 September – 1 October (closed).",
+           "<strong>2 adult sessions in 2026</strong>: 20 June – 11 July (registration 3–14 May) and 7–28 November.",
+           "<strong>Fees 2026</strong>: A1 2,405 EGP · A2 3,055 · B1 3,900 · B2 5,265 · C1 7,280 · C2 7,605; reduced rate 1,690 to 5,330 EGP.",
+           "<strong>DELF Junior</strong>: March–April and August 2026, same fees as the adult A1 to B2.",
+           "<strong>3 centres</strong>: Institut français d’Égypte in Cairo (Mounira), Heliopolis and Alexandria."],
+    toc=[("dates", "The 2026 sessions, and 2027"), ("fees", "Fees in Egyptian pounds"), ("register", "How to register"),
+         ("centres", "The three exam centres"), ("junior", "DELF Junior and DELF Prim"), ("prepare", "Preparing while you wait for the dates")],
+    body=stats([("7–28 Nov", "autumn 2026 session", "registration closed 1 Oct"), ("2", "adult sessions in 2026", "Jun–Jul · Nov"),
+                ("5,265", "EGP for the DELF B2", "3,705 at the reduced rate"), ("3", "exam centres", "Cairo, Heliopolis, Alexandria")]) + """
+<h2 id="dates">The 2026 sessions, and 2027</h2>
+<p>The Institut français d’Égypte (IFE), Egypt’s national DELF-DALF coordinator, gives each level its own exam day, on a
+Thursday or a Saturday, spread over three weeks. In 2026 it held two sessions of the DELF <em lang="fr">tout
+public</em> and DALF, each with a registration window of about two weeks. The 2027 dates had not been published on
+26 October 2026.</p>
+""" + table("DELF tout public and DALF sessions at the Institut français d’Égypte, 2026: “DELF TP / DALF 2026” brochure (PDF), checked on 26 October 2026.",
+            ["Level", "Summer 2026", "<strong>Autumn 2026</strong>"],
+            [("Registration", "3–14 May", "20 September – 1 October"),
+             ("DELF A1", "Saturday 20 June", "Thursday 19 November"),
+             ("DELF A2", "Thursday 25 June", "Saturday 14 November"),
+             ("DELF B1", "Saturday 27 June", "Saturday 28 November"),
+             ("<strong>DELF B2</strong>", "Saturday 4 July", "<strong>Saturday 21 November</strong>"),
+             ("DALF C1", "Saturday 11 July", "Saturday 7 November"),
+             ("DALF C2", "Thursday 9 July", "Thursday 12 November")], wide=False) + """
+
+<h2 id="fees">Fees in Egyptian pounds</h2>
+""" + table("DELF-DALF fees at the Institut français d’Égypte, 2026 (brochures “DELF TP / DALF 2026” and “DELF Junior 2026”, checked on 26 October 2026). The DELF Junior A1 to B2 costs the same.",
+            ["Level", "Full rate", "Reduced rate"],
+            [("DELF A1", "2,405 EGP", "1,690 EGP"), ("DELF A2", "3,055 EGP", "2,145 EGP"), ("DELF B1", "3,900 EGP", "2,730 EGP"),
+             ("<strong>DELF B2</strong>", "<strong>5,265 EGP</strong>", "3,705 EGP"), ("DALF C1", "7,280 EGP", "5,135 EGP"), ("DALF C2", "7,605 EGP", "5,330 EGP")], wide=False) + f"""
+<p>The reduced rate is for IFE students, on presentation of a course receipt, and for French teachers with a professional
+certificate from their institution.</p>
+
+<h2 id="register">How to register</h2>
+<p>When a session is open, the IFE’s <a href="{EG}" rel="noopener">“Prochaines sessions” page</a> links to an online
+registration form for the DELF tout public and DALF, with the brochure of dates and fees. You need a photocopy of your
+identity card or, preferably, your passport. According to the IFE, the DELF B2 is required to apply through the Études en
+France platform, and the DALF C1 opens French-speaking university programmes.</p>
+
+<h2 id="centres">The three exam centres</h2>
+""" + table("DELF-DALF centres in Egypt: France Éducation international’s list of 26 October 2026 and the IFE brochure.",
+            ["City", "Centre", "Address"],
+            [("Cairo", "Institut français d’Égypte, Mounira", "1 Madrasset Al Huquq Al Frinseya Street, Mounira"),
+             ("Cairo", "Institut français d’Égypte, Heliopolis", "5 Chafik El Dib Street, Ard El Golf, Heliopolis"),
+             ("Alexandria", "Institut français d’Égypte, Alexandria", "30 Nabi Daniel Street")], wide=False) + """
+<p>Preparing for Canada instead? See <a href="/en/tcf-canada-egypt/">TCF Canada in Egypt</a>.</p>
+
+<h2 id="junior">DELF Junior and DELF Prim</h2>
+<p>The IFE runs separate sessions for school pupils. In 2026 the DELF Junior was held on 7 March (A1), 14 March (A2),
+28 March (B1) and 18 April (B2), with registration in December 2025 and January 2026, then on 15 August (A1), 20 August
+(A2), 22 August (B2) and 29 August (B1), with registration from 6 to 16 July. Schools register with a copy of each pupil’s
+birth certificate; individual candidates add a recent photo and a school certificate. The IFE’s page announced a DELF
+Prim session in September 2026.</p>
+""" + prepare("Egypt"),
+    faq=[("When are the DELF exam dates 2027 in Egypt (<bdi lang=\"ar\" dir=\"rtl\">مواعيد امتحان DELF 2027</bdi>)?", "Not yet published on 26 October 2026. In 2026 the Institut français d’Égypte held two adult sessions: 20 June to 11 July (registration 3–14 May) and 7 to 28 November (registration 20 September – 1 October)."),
+         ("When is the next DELF exam in Egypt?", "The autumn 2026 session: DALF C1 on 7 November, C2 on 12 November, DELF A2 on 14 November, A1 on 19 November, B2 on 21 November and B1 on 28 November 2026. Registration closed on 1 October 2026."),
+         ("How much does the DELF B2 cost in Egypt?", "5,265 EGP at the full rate and 3,705 EGP at the reduced rate (2026). A1 costs 2,405 EGP, A2 3,055, B1 3,900, DALF C1 7,280 and C2 7,605 EGP."),
+         ("Can adults take the DELF in Egypt?", "Yes: the DELF tout public and the DALF are for adults and students; pupils have their own DELF Junior and DELF Prim sessions."),
+         ("How do I book the DELF in Egypt?", "With the Institut français d’Égypte’s online form, linked from its “Prochaines sessions” page while a session is open, with a photocopy of your ID card or passport. The exams are held in Cairo (Mounira, Heliopolis) and Alexandria.")],
+    also=also([("/en/tcf-canada-egypt/", "TCF Canada in Egypt", "The Institut français d’Égypte’s TCF Canada sessions and fees.")]),
+    sources="""<strong>Sources.</strong> Institut français d’Égypte: “Prochaines sessions” page and the brochures “DELF TP / DALF
+2026” and “DELF Junior 2026” (PDF), checked on 26 October 2026; France Éducation international’s list of approved DELF-DALF
+centres, 26 October 2026. Dates and fees change: the IFE’s website is the reference.""",
 ))

@@ -484,8 +484,8 @@ twice by IRCC; there are no partial retakes, and 20 to 30 days must pass between
            "Results certificate valid for <strong>2 years</strong> — and IRCC requires results less than two years old "
            "when you create your profile and when you apply.",
            "⚠️ <strong>No partial retakes</strong>: you retake all four tests, after 20 to 30 days.",
-           "Six centres we checked are listed below; the full directory lists 251 in France and "
-           "<a href=\"/en/tcf-canada-test-centres/\">47 in Canada</a>, with addresses and phone numbers.",
+           "Six centres we checked are listed below; the full directory lists 247 in France and "
+           "<a href=\"/en/tcf-canada-test-centres/\">48 in Canada</a>, with addresses and phone numbers.",
            "The TCF Canada is not eligible for the CPF (France’s personal training account)."],
     toc=[("by-country", "TCF Canada fees 2026, by country and by city"), ("fees", "Fees, validity, retakes"),
          ("where", "Where to take the TCF Canada?")],
@@ -518,17 +518,17 @@ the waiting period.</p>
 <h2 id="where">Where to take the TCF Canada?</h2>
 <p>In France, at an approved centre that has chosen to run this version — not all of them do: as of 17 September
 2026, ACTE (€195) and ACCORD (€220) in Paris, the Alliances françaises in Lyon (€220), Montpellier (€200) and
-Aix-Marseille (€240), KLF, CLPS (€285)… with about one session a month. In Canada, at one of the 47 approved centres,
+Aix-Marseille (€240), KLF, CLPS (€285)… with about one session a month. In Canada, at one of the 48 approved centres,
 for $390 to $440, where seats go within minutes. Our guides on where to take the TCF Canada in France and
 <a href="/en/tcf-canada-test-centres/">in Canada</a> check the centres one by one, with their fees, dates and
 procedure. In North Africa, same method: Algeria (five branches of the Institut français, IFAL platform), Morocco
 (sixteen centres, 2,900 dirhams) and Tunisia (880 dinars, results in five weeks).</p>
 
-<p>Six centres we checked in our guides, among the 251 approved in France and the 47 in Canada — all six with
+<p>Six centres we checked in our guides, among the 247 approved in France and the 48 in Canada — all six with
 computer-based sessions: ACTE (Paris), the Alliance française in Lyon, the Alliance française de Montpellier, the
 Alliance Française de Montréal, the Alliance française in Toronto (Spadina campus) and the Alliance française Canada
 Pacific (Vancouver).</p>
-<p class="more">Full directory, with addresses and phone numbers: <a href="/en/tcf-canada-test-centres/">the 47 TCF
+<p class="more">Full directory, with addresses and phone numbers: <a href="/en/tcf-canada-test-centres/">the 48 TCF
 centres in Canada</a> · <a href="/en/">all locations in English</a>. The directories for France, Morocco, Algeria and
 Tunisia are in French.</p>
 """,
@@ -537,7 +537,7 @@ Tunisia are in French.</p>
          ("How long are my results valid?", "Two years from the date the results certificate is issued. IRCC’s rule is stricter than it looks: your results must be less than two years old when you create your Express Entry profile and when you submit your application for permanent residence."),
          ("Can I retake only the test I did badly on?", "No. There are no partial retakes in the TCF Canada: it is the full test, with all four sections. The number of attempts is unlimited. And for sessions held since 1 September 2026, re-marking requests are no longer accepted."),
          ("How much does the TCF Canada cost in Canada and the United States?", "In Canada, from $390 (Vancouver, Toronto, Moncton, Edmundston, Bathurst) to $452 (GB Language Centre, North York), and $400 in Ottawa, Calgary, Edmonton, Halifax and Winnipeg (26 October 2026). In the United States, from US$330 in Detroit to US$505 in Los Angeles (8 to 26 October 2026). The city-by-city detail is in the table at the top of this page.")],
-    also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, province by province."),
+    also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 48 approved centres, province by province."),
           ("/en/tcf-canada-usa/", "TCF Canada in the USA", "12 of the 18 approved US centres offer it, from US$330 to US$505."),
           ("/en/tcf-canada-uk/", "TCF Canada in the UK", "London (£260) and Glasgow (£325).")],
     sources=SOURCES + """ The table of fees by country brings together the figures from our country guides, each dated as
@@ -1410,7 +1410,7 @@ requested within a month of the results certificates being sent to the centre, a
 and AI feedback tells you whether your speaking or writing is worth 9 or 11 out of 20 — precisely the line between
 CLB 6 and CLB 7.</p>
 <p>Then you need a session: in France, the centres that offer the TCF Canada open about one date a month, from €195 to
-€285; in Canada, the 47 approved centres are often full within minutes, from $390 to $440. Our guides to where to take
+€285; in Canada, the 48 approved centres are often full within minutes, from $390 to $440. Our guides to where to take
 the TCF Canada in France and <a href="/en/tcf-canada-test-centres/">in Canada</a> list the centres, their prices and
 their dates — as do our guides for Algeria, Morocco and Tunisia.</p>
 """,
@@ -1575,7 +1575,7 @@ the less favourable date and have your centre confirm.</p>
 <p>Finally, a constraint specific to the TEF: <strong>all the tests must be taken on the same day</strong> for the
 results certificate to be recognized by the Canadian authorities.</p>
 <p>For the TCF Canada, our guides to where to take it in France (€195 to €285, one session a month per centre) and
-<a href="/en/tcf-canada-test-centres/">in Canada</a> (47 centres, $390 to $440, sessions full within minutes) list the
+<a href="/en/tcf-canada-test-centres/">in Canada</a> (48 centres, $390 to $440, sessions full within minutes) list the
 centres one by one — as do our guides for Algeria, Morocco and Tunisia; for the TEF Canada, the directory of Le
 français des affaires remains the reference.</p>
 
@@ -1753,7 +1753,7 @@ conversion — with AI feedback on writing and speaking.""",
          ("How many TCF Canada sessions are there per month?", "From thirteen dates in two months in Kenitra (Morocco) to one a month in Lyon or Sousse, and one a quarter in Toronto. In France, the TCF Canada is much less frequent than the TCF IRN, which is held almost every week in Paris."),
          ("What if all TCF Canada sessions are full?", "Create your account in advance and log in the moment registration opens — in Toronto, a month before the quarter, at 10 am; in Vancouver, with your passport ready and a single tab open. With no waitlist, check back regularly: seats do free up. In France, try another centre — centres in the same city don’t have the same dates."),
          ("How long between two TCF Canada attempts?", "At least twenty days in France and Canada (an FEI rule applied by every centre), 26 to 36 days in Algeria depending on the branch, and 30 days in Tunisia, set by the Instituts français. For sessions held since 1 September 2026, no re-marking is possible: retaking the test is the only recourse.")],
-    also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, $390 to $440, and how to get a seat."),
+    also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 48 approved centres, $390 to $440, and how to get a seat."),
           ("/en/tcf-canada-results/", "TCF Canada results: timeline and validity", "How long results take, the two-year rule, and retakes."),
           ("/en/", "All locations", "Every country and city page in English.")],
     sources="""<strong>Sources.</strong> The TCF Canada pages of the centres cited — ACTE, ACCORD (examensparis.fr), the
@@ -2008,8 +2008,8 @@ US.""",
            "Pass mark: <strong>50/100</strong>.",
            "⚠️ A score below <strong>5/25</strong> in any one section means you <strong>fail</strong>, whatever your total.",
            "Length: <strong>2 h 50 min</strong>, plus 30 minutes of preparation before the speaking test.",
-           "Since the reform, listening and reading are <strong>100% multiple-choice</strong> and the guided interview has "
-           "gone from the speaking test. Format in place everywhere since <strong>September 2024</strong>.",
+           "The guided interview has gone from the speaking test. Listening and reading come in <strong>two formats</strong> "
+           "in official sessions (2 or 3 exercises, different question types): prepare for both.",
            "<strong>A diploma for life</strong>: unlike the TCF or the TEF, it never expires.",
            "In France, <strong>ten sessions a year</strong>, the B2 always on a Wednesday at 2 pm; in the UK and the US, the "
            "next session is in <strong>December 2026</strong>.",
@@ -2061,10 +2061,10 @@ C1.</li>
 <h2 id="format">The DELF B2 exam format: four sections</h2>
 <p>The first three sections are <strong>group tests</strong>, taken one after another in the same half-day. The speaking
 test is <strong>individual</strong> and can take place on another day.</p>
-""" + table("DELF B2 format, the version that came out of the 2020 reform, fully in place since September 2024. Source: France Éducation international and the DELF B2 candidate handbook.",
+""" + table("DELF B2 format. Listening and reading come in two formats in official sessions; the time and the scoring do not change. Source: France Éducation international, DELF B2 pages checked on 26 October 2026.",
             ["Section", "Content", "Time", "Score"],
-            [("Listening", "3 exercises / 5 audio documents", "30 min", "/25"),
-             ("Reading", "3 exercises / 5 written documents", "60 min", "/25"),
+            [("Listening", "2 or 3 exercises, depending on the format", "30 min", "/25"),
+             ("Reading", "2 or 3 exercises, depending on the format", "60 min", "/25"),
              ("Writing", "1 task, 250 words minimum", "60 min", "/25"),
              ("Speaking", "2 parts: sustained monologue + debate", "20 min <em>(+ 30 min of preparation)</em>", "/25"),
              ("<strong>Total</strong>", "", "<strong>2 h 50</strong>", "<strong>/100</strong>")], wide=False) + """
@@ -2098,15 +2098,16 @@ offset each other in the DELF — that is what sets it apart from the TCF and th
 your application reads each test separately.</p>
 
 <h2 id="reform">What the reform changed</h2>
-<p>The current format has been fully in place since <strong>September 2024</strong>. Three changes matter for your
-preparation — and make any earlier past paper obsolete.</p>
+<p>The 2020 reform created a new format without retiring the other one: in October 2026, France Éducation
+international says that <strong>two formats</strong> of the listening and reading papers are used in official
+sessions. Three changes from the reform matter for your preparation.</p>
 
 <ul>
-<li><strong>Listening and reading became entirely multiple-choice.</strong> Open questions and true/false with
-justification have gone. You no longer write anything in these two sections, which completely changes how you manage
+<li><strong>In the reformed format, listening and reading are entirely multiple-choice.</strong> No open questions,
+no true/false with justification: you write nothing in these two sections, which completely changes how you manage
 your time: no more written answers to polish, but no chance of picking up points with a partly correct justification
 either.</li>
-<li><strong>The point-of-view matching exercise</strong> appeared in reading. It asks you to identify an argumentative
+<li><strong>The point-of-view matching exercise</strong> appeared in reading, in the reformed format. It asks you to identify an argumentative
 position, not a factual piece of information.</li>
 <li><strong>The guided interview was removed</strong> from the speaking test. The test now starts straight away with the
 sustained monologue. The friendly warm-up that used to help you relax no longer exists: you get to the heart of the
@@ -2114,10 +2115,10 @@ matter immediately.</li>
 </ul>
 
 <div class="note">
-<p><strong>Beware of out-of-date resources.</strong> Many of the past papers, tutorials and videos available online
-describe the old format. If a document mentions a guided interview in the speaking test or open questions in listening
-or reading, it describes an exam that no longer exists. Always check the date of a resource before you practise on
-it.</p>
+<p><strong>Beware of out-of-date resources.</strong> If a document mentions a guided interview in the B2 speaking
+test, it describes an exam that no longer exists. In listening and reading, though, two formats are still used: start
+with France Éducation international’s two official sample papers, then check the date of any other resource before you
+practise on it.</p>
 </div>
 
 <h2 id="what-for">What the DELF B2 is for</h2>
@@ -2231,7 +2232,7 @@ warning when you fall below the minimum score, and AI feedback on writing and sp
          ("Is the DELF B2 certificate a test or a diploma?", "A diploma: you pass or fail it, and once you have it, it never expires. The TCF and TEF tests, by contrast, place your level without a pass mark, but their results certificate expires after two years."),
          ("What is the DELF B2 exam pattern, and how long is it?", "2 hours 50 minutes for the three group sections and the speaking test: 30 minutes of listening, 60 minutes of reading, 60 minutes of writing and 20 minutes of speaking. On top of that come 30 minutes of preparation before the speaking test, which don’t count in the official length of the exam."),
          ("What score do you need to pass the DELF B2?", "50 out of 100. The four sections are scored out of 25 each, and there is only one minimum per section: a score below 5 out of 25 in any single section means you fail, whatever your total."),
-         ("What did the 2020 reform change in the DELF B2?", "Three things. Listening and reading became entirely multiple-choice: open questions and true/false with justification have gone. Reading now includes an exercise in matching points of view to their authors. And in the speaking test, the guided interview was removed: only the sustained monologue and the debate with the examiners remain. This format has been fully in place since September 2024, which makes any earlier past paper obsolete."),
+         ("What did the 2020 reform change in the DELF B2?", "Three things. In the reformed format, listening and reading are entirely multiple-choice: no open questions and no true/false with justification. Reading includes an exercise in matching points of view to their authors. And in the speaking test, the guided interview was removed: only the sustained monologue and the debate with the examiners remain. But this listening and reading format is not the only one: in October 2026, France Éducation international uses two formats in official sessions and publishes a sample paper for each."),
          ("How many words do you write in the DELF B2 writing test?", "250 words minimum, in a single task, in 60 minutes. It is a floor, not a target: writing less costs you points on task completion, whatever the quality of your French. The topic asks for a personal position — a contribution to a debate, a formal letter or a critical article."),
          ("Is the DELF B2 enough for a French university?", 'In most cases, yes: most bachelor’s and master’s degrees ask for B2. Some courses and some schools ask for C1 — always check the requirement of the institution you are applying to, which takes precedence over any general rule. For C1, see our <a href="/en/dalf-c1/">DALF C1 page</a>.'),
          ("Is the DELF B2 accepted for French citizenship instead of the TCF IRN?", "Yes, for the language requirement: since 1 January 2026, French citizenship requires level B2, and a DELF B2 diploma proves it directly — for life, whereas a TCF or TEF results certificate is valid for two years. It is the safest option if your administrative journey is going to take time. It doesn’t exempt you from the civics exam or the other conditions for citizenship. Check the list of accepted proofs on service-public.fr before paying for any registration."),
@@ -2315,10 +2316,10 @@ DELF B1 proves it permanently, whereas a TCF or TEF test result expires after tw
 </ol>
 
 <h2 id="format">The DELF B1 exam format: four sections</h2>
-""" + table("DELF B1 format. Source: France Éducation international, structure checked in July 2026.",
+""" + table("DELF B1 format. Listening and reading come in two formats in official sessions (the number of questions and the documents differ); the time and the scoring do not change. Source: France Éducation international, DELF B1 pages checked on 26 October 2026.",
             ["Section", "Content", "Time", "Score"],
-            [("Listening", "3 documents, multiple-choice questions", "25 min", "/25"),
-             ("Reading", "2 documents, multiple-choice questions", "45 min", "/25"),
+            [("Listening", "3 exercises", "25 min", "/25"),
+             ("Reading", "2 exercises", "45 min", "/25"),
              ("Writing", "1 task, 160 words minimum", "45 min", "/25"),
              ("Speaking", "3 parts <em>(10 min of preparation for the 3rd)</em>", "15 min", "/25"),
              ("<strong>Total</strong>", "", "<strong>2 h 10</strong>", "<strong>/100</strong>")], wide=False) + """
@@ -2728,14 +2729,14 @@ PAGES.append(dict(
     intro="""The <strong>official DELF B2 sample papers are free</strong>: France Éducation international publishes two
 complete samples with the answer keys, the recordings and the marking grids — <a href="#official-samples">what each file
 contains</a>. Four sections scored out of 25, a total out of <strong>100</strong>, a pass at <strong>50/100</strong> — and a
-score below <strong>5/25</strong> in any one section that fails you, whatever your total. Since the reform, listening
-and reading are <strong>100% multiple-choice</strong>. Here is one exercise per section, with the answers explained,
+score below <strong>5/25</strong> in any one section that fails you, whatever your total. Listening and reading come in
+<strong>two formats</strong> in official sessions. Here is one exercise per section, in the reformed format, with the answers explained,
 then the method for the writing test, the section that separates candidates most.""",
     facts=["<strong>4 sections out of 25</strong> · total out of <strong>100</strong> · pass at <strong>50/100</strong>.",
            "⚠️ <strong>Below 5/25</strong> in a single section = <strong>fail</strong>.",
            "<strong>Listening 30 min · reading 60 min · writing 60 min · speaking 20 min</strong> (+ 30 min of preparation).",
-           "Since the reform: listening and reading <strong>100% multiple-choice</strong>, guided interview <strong>removed</strong> from the speaking test.",
-           "⚠️ In listening, the first 2 exercises are played <strong>twice</strong>, the 3rd only once.",
+           "Listening and reading: <strong>two formats</strong> in official sessions (2 or 3 exercises); guided interview <strong>removed</strong> from the speaking test.",
+           "⚠️ In the 3-exercise listening format, the first 2 exercises are played <strong>twice</strong>, the 3rd only once.",
            "Writing: <strong>250 words minimum</strong>, in one of three genres — a contribution to a debate, a formal letter, a critical article.",
            "<strong>Official sample papers</strong>: two free DELF B2 samples from France Éducation international, with answer keys, MP3 recordings and marking grids — <a href=\"#official-samples\">file by file</a>."],
     toc=[("format", "The format of the four sections"), ("official-samples", "Official DELF B2 sample papers (free PDFs)"),
@@ -2746,10 +2747,10 @@ then the method for the writing test, the section that separates candidates most
          ("timing", "How to split the 60 minutes")],
     body="""
 <h2 id="format">The format of the four sections</h2>
-""" + table("DELF B2, format from the 2020 reform, in place everywhere since September 2024. Source: France Éducation international.",
+""" + table("DELF B2: listening and reading come in two formats in official sessions (2 or 3 exercises). Source: France Éducation international, checked on 26 October 2026.",
             ["Section", "Content", "Time", "Score"],
-            [("Listening", "3 exercises / 5 audio documents", "30 min", "/25"),
-             ("Reading", "3 exercises / 5 written documents", "60 min", "/25"),
+            [("Listening", "2 or 3 exercises, depending on the format", "30 min", "/25"),
+             ("Reading", "2 or 3 exercises, depending on the format", "60 min", "/25"),
              ("Writing", "1 task, 250 words minimum", "60 min", "/25"),
              ("Speaking", "Sustained monologue + debate", "20 min <em>(+ 30 min of preparation)</em>", "/25")],
             wide=False) + """
@@ -2863,7 +2864,7 @@ deliberately contradicting you in the second part.</li>
 <h2 id="writing-assessed">Writing: what the examiner really assesses</h2>
 <p><strong>One task, 60 minutes, 250 words minimum.</strong> The writing test is the third group section of the
 <a href="/en/delf-b2/">DELF B2</a>, right after listening and reading — so you reach it after an hour and a half of the
-exam, a detail that matters for managing your energy. And since listening and reading became entirely multiple-choice,
+exam, a detail that matters for managing your energy. And since, in the reformed format, listening and reading are entirely multiple-choice,
 it is <strong>the only section in which you write</strong> before the speaking test: everything to do with written
 expression is played out there, on a single paper. It is the section where the gap between a good level of French and a
 good mark is widest — and what it takes can be learned much faster than a level of French.</p>
@@ -2973,13 +2974,13 @@ when you fall below the minimum score, and AI feedback on writing and speaking a
          ("Is there still a guided interview in the DELF B2 speaking test?", "No, it was removed by the reform. The test now starts straight away with the sustained monologue, followed by the debate with the examiners. The warm-up that used to help you relax no longer exists at B2 — it does remain in the DELF B1."),
          ("Are the examiners supposed to agree with me?", "No, and that is deliberate. In the second part of the speaking test, the examiners contradict you to test your ability to hold a position, to qualify it and to concede without giving in. Candidates who abandon their argument at the first objection lose points on the skill being assessed."),
          ("Where can I find official DELF B2 sample papers with answers?", "On France Éducation international’s website, for free: two complete DELF B2 samples of the group papers — one per format of the listening and reading papers — each with the candidate document, the marker’s document with the answer keys, the listening transcript and the MP3 recordings, plus a speaking-test sample and the official writing and speaking grids. They are in French, like the exam."),
-         ("Can I practise with old DELF B2 sample papers?", "Check their date first. The current format comes from the 2020 reform and has been in place everywhere since September 2024: if a paper mentions a guided interview in the speaking test, or open questions in listening or reading, it describes an exam that no longer exists — and a large share of the resources online predate the reform. The exercises on this page are original content from our app, in the reformed format.")],
+         ("Can I practise with old DELF B2 sample papers?", "Check their source first. A paper that mentions a guided interview in the speaking test describes an exam that no longer exists. For listening and reading, though, two formats are still used in official sessions, so start with France Éducation international’s two official sample papers, one per format. The exercises on this page are original content from our app, in the reformed format.")],
     also=[("/en/delf-b2/", "DELF B2 exam: format, scoring, dates", "The complete guide to the reformed format and the two thresholds."),
           ("/en/dalf-c1/", "DALF C1: the synthesis of documents", "The level above: reducing several documents to an objective text of 200 to 240 words."),
           ("/en/french-citizenship-b2/", "French citizenship: the B2 level", "What has changed since 1 January 2026: B2 in speaking and in writing, the civics exam, the transitional rules.")],
     sources="""<strong>Formats change.</strong> This page is up to date as of 7 August 2026 and describes the format that came out
-of the 2020 reform, fully in place since September 2024; beware of older past papers and tutorials, which describe a
-different exam. The exercises and topics shown are original content from our app. The official sample papers are
+of the 2020 reform; corrected on 26 October 2026: France Éducation international uses two formats of listening and
+reading in official sessions. The exercises and topics shown are original content from our app. The official sample papers are
 described from France Éducation international’s DELF B2 sample papers page, checked on 26 October 2026. Check the
 current format on
 <a href="https://www.france-education-international.fr/diplome/delf-tout-public" rel="noopener">france-education-international.fr</a>
@@ -3413,16 +3414,16 @@ to €180 for the exam alone elsewhere. They aren’t the same products — comp
 </div>
 
 <h2 id="where">Where to take the TCF IRN</h2>
-<p>At one of the 251 approved TCF centres in France — provided it actually runs the IRN version. In Paris, seven centres,
+<p>At one of the 247 approved TCF centres in France — provided it actually runs the IRN version. In Paris, seven centres,
 with a session almost every week at ACTE (€140) and two a month at ACCORD (€220); elsewhere, the Alliances françaises in
 Lyon (€169) and Montpellier (€185), CLPS in Brittany (€180), KLF, Espaces Formation… Our French guide to where to take the
 TCF IRN in France lists the centres we checked, their fees and dates, and the registration steps; the civics test that
 comes on top since 2026 has its own guide: <a href="/en/french-civics-test/">the French civics test</a>.</p>
 
-<p>Six centres we checked, among the 251 approved in France — all six with computer-based sessions: ACTE, Forum ACCORD
+<p>Six centres we checked, among the 247 approved in France — all six with computer-based sessions: ACTE, Forum ACCORD
 and Etoile Institut de Langue in Paris, the Alliance française in Lyon, the Alliance française de Montpellier, and CLPS
 L’Enjeu Compétences in Rennes.</p>
-<p class="more">Full directory, with addresses and phone numbers: the 251 TCF centres in France, and our city pages for
+<p class="more">Full directory, with addresses and phone numbers: the 247 TCF centres in France, and our city pages for
 Paris, Lyon, Marseille, Toulouse, Montpellier, Bordeaux, Nantes, Rennes, Strasbourg, Lille and Nice — all in French.</p>
 """,
     cta_h2="Find out whether you have B2 before you pay to register",
@@ -4267,19 +4268,19 @@ selection, and a full scan of the results certificate is required.</p>
 must be 18 or older and intend to live and work in Quebec.</p>
 
 <h2 id="where">Where to take and book the TCF Québec?</h2>
-<p>At the same approved centres as the TCF Canada: in Canada, almost all of the 47 centres on France Éducation
+<p>At the same approved centres as the TCF Canada: in Canada, almost all of the 48 centres on France Éducation
 international’s list offer both (Alliance Française de Montréal, Collège Stanislas, UQTR, UQAM…); in France, the Alliance
 française de Montpellier (€65 per module), Aix-Marseille (€60 per test), ACCORD in Paris, CLPS in Rennes… Our guides to
 where to take the TCF Canada <a href="/en/tcf-canada-test-centres/">in Canada</a> and in France (in French) list these
 centres with their registration and cancellation rules; in North Africa, our guides for Morocco (TCF Québec at 2,900
 dirhams) and Tunisia (880 dinars, or 2 to 3 tests as a package), in French, apply to both tests.</p>
 
-<p>Centres we checked in our guides, among the 47 approved in Canada and the 251 in France — all with computer-based
+<p>Centres we checked in our guides, among the 48 approved in Canada and the 247 in France — all with computer-based
 sessions: the Alliance Française de Montréal, Collège Stanislas (Montreal), the Université du Québec à Trois-Rivières
 (École internationale de français), the Alliance française de Montpellier and the Alliance française Aix-Marseille
 Provence.</p>
-<p class="more">Full directory, with addresses and phone numbers: <a href="/en/tcf-canada-test-centres/">the 47 TCF centres
-in Canada</a> · <a href="/en/">all locations in English</a>. The directory of the 251 centres in France is in French.</p>
+<p class="more">Full directory, with addresses and phone numbers: <a href="/en/tcf-canada-test-centres/">the 48 TCF centres
+in Canada</a> · <a href="/en/">all locations in English</a>. The directory of the 247 centres in France is in French.</p>
 <p class="serie-label">Where to take it, city by city</p>
 <div class="chips">
 <a class="chip" href="/en/tcf-canada-montreal/">TCF in Montreal</a>
@@ -4299,7 +4300,7 @@ test, and AI feedback on writing and speaking against the official criteria — 
          ("Which tests does Quebec accept for the PSTQ?", "Eight: the TCF Québec, the TCF Canada, the TCF, the DALF and the DELF from France Éducation international; the TEFAQ, the TEF Canada and the TEF from the CCI Paris Île-de-France. Results must be two years old or less on the date of your application for permanent selection."),
          ("Do I need English for the PSTQ?", "No. The ministry states that there is no English requirement in the PSTQ. English can optionally be declared in the expression of interest, and the only test accepted to earn credit for it is IELTS."),
          ("How much does the TCF Québec cost?", "Each approved centre sets the fee; there is no national fee — and many centres don’t publish it. Among those that do, checked on 30 July 2026: the École internationale de français at UQTR, in Trois-Rivières, charges $105 (CAD) for listening, $105 for reading, $105 for writing and $125 for speaking; the Alliance française de Montpellier charges €65 per module. Taking only the two oral tests therefore comes to $230 (CAD) at UQTR, or €130 in Montpellier — versus $440 (CAD) for a full TCF Canada at the same Quebec centre. Be wary of unsourced fees on comparison sites: several large centres, including the Alliance Française de Montréal, publish no fee."),
-         ("How do I book the TCF Québec exam?", "With an approved centre — the same ones as for the TCF Canada: in Canada, almost all of the 47 centres on France Éducation international’s list offer both; in France, for example, the Alliance française de Montpellier, Aix-Marseille, ACCORD in Paris or CLPS in Rennes. Each centre has its own registration and cancellation rules: at the Alliance Française de Montréal, registration is online, subject to availability, and the only amount shown is a $75 cancellation fee. Ask the centre for its fee before you commit.")],
+         ("How do I book the TCF Québec exam?", "With an approved centre — the same ones as for the TCF Canada: in Canada, almost all of the 48 centres on France Éducation international’s list offer both; in France, for example, the Alliance française de Montpellier, Aix-Marseille, ACCORD in Paris or CLPS in Rennes. Each centre has its own registration and cancellation rules: at the Alliance Française de Montréal, registration is online, subject to availability, and the only amount shown is a $75 cancellation fee. Ask the centre for its fee before you commit.")],
     also=[("/en/tcf-canada-clb-7/", "TCF Canada CLB 7: the exact scores", "The federal thresholds — not to be confused with the Quebec scale."),
           ("/en/tcf-vs-tef-canada/", "TCF or TEF Canada: which one to choose?", "The full comparison, with a section on Quebec and the TEFAQ."),
           ("/en/tef-canada/", "TEF Canada and TEFAQ", "The TEFAQ, the TCF Québec’s direct competitor: the same program requirements, in the TEF format.")],

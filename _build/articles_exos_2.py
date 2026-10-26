@@ -866,24 +866,24 @@ avant votre session.""",
 {
 "slug": "exercices-delf-b2",
 "title": "Exercices DELF B2 : les 4 épreuves corrigées",
-"desc": "Format réformé, 100 % QCM aux compréhensions et note éliminatoire à 5/25. Un exercice corrigé par épreuve et ce que le correcteur attend vraiment.",
+"desc": "Deux formats de compréhension, note éliminatoire à 5/25 : un exercice corrigé par épreuve et ce que le correcteur attend vraiment.",
 "og_title": "Exercices DELF B2 : les 4 épreuves corrigées",
-"og_desc": "Format réformé, 100 % QCM aux compréhensions, note éliminatoire à 5/25. Un exercice corrigé par épreuve.",
+"og_desc": "Deux formats de compréhension, note éliminatoire à 5/25. Un exercice corrigé par épreuve.",
 "crumb": "Exercices DELF B2",
 "h1": "Exercices du DELF B2 : les quatre épreuves, corrigées",
-"date_fr": "7 août 2026",
+"date_fr": "26 octobre 2026", "modified": "2026-10-26",
 "read": 8,
 "accent": "accent-delf",
 "intro": """Quatre épreuves notées sur 25, un total sur <strong>100</strong>, l'admission à
 <strong>50/100</strong> — et une note inférieure à <strong>5/25</strong> à une seule épreuve qui
-vous élimine, quelle que soit votre moyenne. Depuis la réforme, les deux compréhensions sont
-<strong>100 % QCM</strong>. Voici un exercice corrigé par épreuve.""",
+vous élimine, quelle que soit votre moyenne. Les deux compréhensions existent en <strong>deux formats</strong>
+dans les sessions officielles. Voici un exercice corrigé par épreuve, au format de la réforme.""",
 "facts": [
 "<strong>4 épreuves sur 25</strong> · total sur <strong>100</strong> · admission à <strong>50/100</strong>.",
 "⚠️ <strong>Moins de 5/25</strong> à une seule épreuve = <strong>éliminatoire</strong>.",
 "<strong>CO 30 min · CE 60 min · PE 60 min · PO 20 min</strong> (+ 30 min de préparation).",
-"Depuis la réforme : compréhensions <strong>100 % QCM</strong>, entretien dirigé <strong>supprimé</strong> à l'oral.",
-"⚠️ En CO, les 2 premiers exercices sont diffusés <strong>2 fois</strong>, le 3<sup>e</sup> une seule.",
+"Compréhensions : <strong>deux formats</strong> en session (2 ou 3 exercices) ; entretien dirigé <strong>supprimé</strong> à l'oral.",
+"⚠️ Dans le format à 3 exercices de CO, les 2 premiers sont diffusés <strong>2 fois</strong>, le 3<sup>e</sup> une seule.",
 "Production écrite : <strong>250 mots minimum</strong>.",
 ],
 "toc": [
@@ -897,11 +897,11 @@ vous élimine, quelle que soit votre moyenne. Depuis la réforme, les deux compr
 
 <div class="tablewrap">
 <table>
-<caption>DELF B2, format issu de la réforme 2020, généralisé depuis septembre 2024. Source : France Éducation international.</caption>
+<caption>DELF B2 : les compréhensions existent en deux formats dans les sessions officielles (2 ou 3 exercices). Source : France Éducation international, consulté le 26 octobre 2026.</caption>
 <thead><tr><th>Épreuve</th><th>Contenu</th><th>Durée</th><th>Note</th></tr></thead>
 <tbody>
-<tr><td>Compréhension de l'oral</td><td>3 exercices / 5 documents audio</td><td>30 min</td><td>/25</td></tr>
-<tr><td>Compréhension des écrits</td><td>3 exercices / 5 documents écrits</td><td>60 min</td><td>/25</td></tr>
+<tr><td>Compréhension de l'oral</td><td>2 ou 3 exercices selon le format</td><td>30 min</td><td>/25</td></tr>
+<tr><td>Compréhension des écrits</td><td>2 ou 3 exercices selon le format</td><td>60 min</td><td>/25</td></tr>
 <tr><td>Production écrite</td><td>1 exercice, 250 mots minimum</td><td>60 min</td><td>/25</td></tr>
 <tr><td>Production orale</td><td>Monologue suivi + débat</td><td>20 min <em>(+ 30 min de préparation)</em></td><td>/25</td></tr>
 </tbody>
@@ -910,8 +910,8 @@ vous élimine, quelle que soit votre moyenne. Depuis la réforme, les deux compr
 
 <div class="note">
 <p><strong>Attention aux annales périmées.</strong> Si un document mentionne un entretien dirigé à
-l'oral ou des questions ouvertes en compréhension, il décrit un examen qui n'existe plus. Une
-grande partie des ressources en ligne est antérieure à la réforme.</p>
+l'oral du B2, il décrit un examen qui n'existe plus. En compréhension, deux formats circulent encore dans
+les sessions officielles : entraînez-vous sur les deux exemples de sujets de France Éducation international.</p>
 </div>
 
 <h2 id="exercices">Un exercice corrigé par épreuve</h2>
@@ -1012,10 +1012,11 @@ les critères officiels. Dans l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;
 échouer des candidats dont la moyenne suffisait : une note inférieure à 5 sur 25 à une seule
 épreuve est éliminatoire, quel que soit le total."""),
 ("Les compréhensions sont-elles en QCM ?",
- """Oui, à 100 % depuis la réforme. Les questions ouvertes et les vrai/faux avec justification ont
-disparu des deux compréhensions. Vous ne rédigez donc plus rien dans ces épreuves — ce qui change
-la gestion du temps, mais supprime aussi la possibilité de grappiller des points par une
-justification partiellement juste."""),
+ """Au format de la réforme, oui, entièrement : ni questions ouvertes ni vrai/faux avec justification,
+donc rien à rédiger — ce qui change la gestion du temps, mais supprime aussi la possibilité de grappiller
+des points par une justification partiellement juste. France Éducation international diffuse toutefois
+un second format de compréhension, aux questions d'une autre forme : entraînez-vous sur ses deux
+exemples officiels."""),
 ("Combien de fois entend-on les documents audio ?",
  """Cela dépend de l'exercice. Les deux premiers exercices, portant sur des documents radio longs,
 sont diffusés deux fois. Le troisième, qui enchaîne trois courts documents, n'est diffusé qu'une
@@ -1043,7 +1044,8 @@ leur thèse à la première objection perdent des points sur la compétence éva
  "Le protocole de passation, barèmes officiels compris."),
 ],
 "sources": """<strong>Les formats évoluent.</strong> Cette page est à jour au 7 août 2026 et décrit
-le format issu de la réforme 2020, généralisé depuis septembre 2024. Les exercices présentés sont
+le format issu de la réforme 2020 ; elle a été corrigée le 26 octobre 2026 : France Éducation international
+diffuse deux formats de compréhension dans les sessions officielles. Les exercices présentés sont
 des contenus originaux de notre application. Vérifiez le format en vigueur sur
 <a href="https://www.france-education-international.fr/diplome/delf-tout-public" target="_blank" rel="noopener">france-education-international.fr</a>
 avant votre session.""",

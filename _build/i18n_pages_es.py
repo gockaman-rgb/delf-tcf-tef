@@ -73,7 +73,7 @@ por país.""",
            "Aprobado a partir de <strong>50/100</strong>.",
            "⚠️ Una nota inferior a <strong>5/25</strong> en una sola prueba es <strong>eliminatoria</strong>, sea cual sea el promedio.",
            "Duración: <strong>2 h 50 min</strong>, más 30 minutos de preparación antes del oral.",
-           "Desde la reforma, las dos comprensiones son <strong>100 % de opción múltiple</strong> y la entrevista dirigida desapareció del oral. Formato generalizado en <strong>septiembre de 2024</strong>.",
+           "La entrevista dirigida desapareció del oral. Las comprensiones existen en <strong>dos formatos</strong> en las convocatorias oficiales (2 o 3 ejercicios, preguntas de distinto tipo): prepárate para ambos.",
            "<strong>Diploma de por vida</strong>: a diferencia del TCF o del TEF, no caduca nunca.",
            "Precio del B2: <strong>192 €</strong> en España (2027), <strong>2,500 pesos</strong> en México, <strong>490.000 pesos</strong> en Colombia, 137.000 pesos en Chile, 461 soles en Perú, 200 dólares en Ecuador y 163 € (295.030 pesos) en Argentina."],
     toc=[("que-es", "¿Qué es el DELF B2?"), ("recorrido", "Tu recorrido en 5 pasos"),
@@ -124,10 +124,10 @@ el C1— o que deben acreditar su nivel de francés ante una universidad de su p
 <h2 id="estructura">La estructura del examen: las cuatro pruebas</h2>
 <p>Las tres primeras pruebas son <strong>colectivas</strong> y se encadenan en la misma media jornada. La expresión oral
 es <strong>individual</strong> y puede ser otro día.</p>
-""" + table("Estructura del DELF B2, versión surgida de la reforma de 2020, plenamente generalizada desde septiembre de 2024. Fuente: France Éducation international y Manual del candidato DELF B2.",
+""" + table("Estructura del DELF B2. Las comprensiones existen en dos formatos en las convocatorias oficiales; la duración y la puntuación no cambian. Fuente: France Éducation international, páginas del DELF B2 consultadas el 26 de octubre de 2026.",
             ["Prueba", "Contenido", "Duración", "Nota"],
-            [("Comprensión oral", "3 ejercicios / 5 documentos de audio", "30 min", "/25"),
-             ("Comprensión escrita", "3 ejercicios / 5 documentos escritos", "60 min", "/25"),
+            [("Comprensión oral", "2 o 3 ejercicios según el formato", "30 min", "/25"),
+             ("Comprensión escrita", "2 o 3 ejercicios según el formato", "60 min", "/25"),
              ("Expresión escrita", "1 ejercicio, 250 palabras como mínimo", "60 min", "/25"),
              ("Expresión oral", "2 partes: monólogo y debate", "20 min <em>(+ 30 min de preparación)</em>", "/25"),
              ("<strong>Total</strong>", "", "<strong>2 h 50 min</strong>", "<strong>/100</strong>")], wide=False) + """
@@ -159,24 +159,25 @@ Porque en el DELF sí hay compensación entre pruebas —es lo que lo distingue 
 recibe tu expediente lee cada prueba por separado—.</p>
 
 <h2 id="reforma">Lo que cambió la reforma</h2>
-<p>El formato actual se generalizó por completo en <strong>septiembre de 2024</strong>. Tres cambios cuentan para tu
-preparación, y dejan obsoleto cualquier modelo de examen anterior.</p>
+<p>La reforma de 2020 creó un formato nuevo sin retirar el otro: en octubre de 2026, France Éducation
+international indica que en las convocatorias oficiales se usan <strong>dos formatos</strong> de las pruebas de
+comprensión. Tres cambios de la reforma cuentan para tu preparación.</p>
 
 <ul>
-<li><strong>Las comprensiones pasaron a ser 100 % de opción múltiple.</strong> Desaparecieron las preguntas abiertas y
-los verdadero/falso con justificación. Ya no redactas nada en estas dos pruebas, lo que cambia por completo la gestión
+<li><strong>En el formato de la reforma, las comprensiones son 100 % de opción múltiple.</strong> Ni preguntas abiertas
+ni verdadero/falso con justificación: no redactas nada en estas dos pruebas, lo que cambia por completo la gestión
 del tiempo: no hay redacción que cuidar, pero tampoco puedes ganar algunos puntos con una justificación parcialmente
 correcta.</li>
-<li><strong>Apareció el ejercicio de atribución de puntos de vista</strong> en comprensión escrita. Pide identificar una
+<li><strong>Apareció el ejercicio de atribución de puntos de vista</strong> en comprensión escrita, en el formato de la reforma. Pide identificar una
 postura argumentativa, no un dato.</li>
 <li><strong>Se eliminó la entrevista dirigida</strong> del oral. La prueba empieza directamente con el monólogo. El
 calentamiento amable que permitía relajarse ya no existe: entras en materia de inmediato.</li>
 </ul>
 
 <div class="note">
-<p><strong>Cuidado con los recursos desactualizados.</strong> Gran parte de los modelos de examen, tutoriales y videos
-que circulan en internet describe el formato anterior. Si un documento menciona una entrevista dirigida en el oral o
-preguntas abiertas en comprensión, describe un examen que ya no existe. Verifica siempre la fecha de un recurso antes de
+<p><strong>Cuidado con los recursos desactualizados.</strong> Si un documento menciona una entrevista dirigida en el
+oral del B2, describe un examen que ya no existe. En comprensión, en cambio, todavía circulan dos formatos: empieza por
+los dos ejemplos oficiales de France Éducation international y verifica la fecha de cualquier otro recurso antes de
 entrenar con él.</p>
 </div>
 
@@ -289,9 +290,9 @@ escrita; algunas sesiones se llenan meses antes. Los resultados llegan en 4 a 6 
 prueba y con alerta de nota eliminatoria, y corrección con IA de la expresión escrita y oral, en la app «TCF DELF TEF:
 Tests 2026». La app está en español.""",
     faq=[("¿Qué es el examen DELF B2?", "Un diploma oficial del Ministerio de Educación Nacional de Francia que certifica el nivel B2 del Marco común europeo: cuatro pruebas calificadas sobre 25, aprobado a partir de 50/100 con una nota eliminatoria de 5/25, en 2 h 50 min más 30 minutos de preparación antes del oral. Es válido de por vida."),
-         ("¿Cuál es la estructura del examen DELF B2?", "Cuatro pruebas: comprensión oral (30 minutos, 3 ejercicios sobre 5 documentos de audio), comprensión escrita (60 minutos, 3 ejercicios sobre 5 documentos escritos), expresión escrita (60 minutos, 250 palabras como mínimo) y expresión oral (20 minutos, monólogo y debate, después de 30 minutos de preparación). Las tres primeras son colectivas; el oral es individual y puede ser otro día."),
+         ("¿Cuál es la estructura del examen DELF B2?", "Cuatro pruebas: comprensión oral (30 minutos, 2 o 3 ejercicios según el formato), comprensión escrita (60 minutos, 2 o 3 ejercicios según el formato), expresión escrita (60 minutos, 250 palabras como mínimo) y expresión oral (20 minutos, monólogo y debate, después de 30 minutos de preparación). Las tres primeras son colectivas; el oral es individual y puede ser otro día."),
          ("¿Qué nota se necesita para aprobar el DELF B2?", "50 sobre 100. Las cuatro pruebas se califican sobre 25 puntos cada una y no hace falta aprobar cada una por separado, pero en cada una se necesita al menos 5: una nota inferior a 5 sobre 25 en una sola prueba es eliminatoria, sea cual sea el promedio general."),
-         ("¿Qué cambió la reforma del DELF B2?", "Tres cosas. Las dos comprensiones pasaron a ser 100 % de opción múltiple: desaparecieron las preguntas abiertas y los verdadero/falso con justificación. La comprensión escrita incluye ahora un ejercicio de atribución de puntos de vista a sus autores. Y en el oral se eliminó la entrevista dirigida: solo quedan el monólogo y el debate con el jurado. Este formato se generalizó por completo en septiembre de 2024, lo que deja obsoleto cualquier modelo de examen anterior."),
+         ("¿Qué cambió la reforma del DELF B2?", "Tres cosas. En el formato de la reforma, las dos comprensiones son 100 % de opción múltiple: ni preguntas abiertas ni verdadero/falso con justificación. La comprensión escrita incluye un ejercicio de atribución de puntos de vista a sus autores. Y en el oral se eliminó la entrevista dirigida: solo quedan el monólogo y el debate con el jurado. Pero este formato de comprensión no es el único: en octubre de 2026, France Éducation international usa dos formatos en las convocatorias oficiales y publica un ejemplo de examen de cada uno."),
          ("¿El DELF B2 es un test o un diploma?", "Un diploma: se aprueba o no se aprueba, y una vez obtenido no caduca nunca. Los tests TCF y TEF, en cambio, sitúan tu nivel sin umbral de aprobación, pero su constancia caduca a los dos años."),
          ("¿Cuántas palabras hay que escribir en la expresión escrita del DELF B2?", "250 palabras como mínimo, en un solo ejercicio, en 60 minutos. Es un mínimo, no una meta: escribir menos hace perder puntos en la adecuación a la consigna, sea cual sea la calidad de la lengua. El tema pide una toma de posición personal: contribución a un debate, carta formal o artículo crítico."),
          ("¿Cuándo es el próximo examen DELF B2?", "Depende del país. Según los sitios web de los centros el 8 de octubre de 2026: el 5 de noviembre en Colombia, el 12 de noviembre en México, el 25 de noviembre o el 10 de diciembre en Ecuador, el 28 de noviembre en Perú, el 4 y 5 de diciembre en Chile, el 5 de diciembre en Argentina y, en España, el 11 de febrero de 2027, con inscripción del 1 de diciembre de 2026 al 9 de enero de 2027."),
@@ -375,10 +376,10 @@ escrito. No los candidatos a la nacionalidad: desde 2026, hace falta el <a href=
 </ol>
 
 <h2 id="estructura">La estructura del examen: las cuatro pruebas</h2>
-""" + table("Estructura del DELF B1. Fuente: France Éducation international, estructura verificada en julio de 2026.",
+""" + table("Estructura del DELF B1. Las comprensiones existen en dos formatos en las convocatorias oficiales (cambian el número de preguntas y los documentos); la duración y la puntuación no cambian. Fuente: France Éducation international, páginas del DELF B1 consultadas el 26 de octubre de 2026.",
             ["Prueba", "Contenido", "Duración", "Nota"],
-            [("Comprensión oral", "3 documentos, preguntas de opción múltiple", "25 min", "/25"),
-             ("Comprensión escrita", "2 documentos, preguntas de opción múltiple", "45 min", "/25"),
+            [("Comprensión oral", "3 ejercicios", "25 min", "/25"),
+             ("Comprensión escrita", "2 ejercicios", "45 min", "/25"),
              ("Expresión escrita", "1 ejercicio, 160 palabras como mínimo", "45 min", "/25"),
              ("Expresión oral", "3 partes <em>(10 min de preparación para la 3.ª)</em>", "15 min", "/25"),
              ("<strong>Total</strong>", "", "<strong>2 h 10 min</strong>", "<strong>/100</strong>")], wide=False) + """
@@ -737,15 +738,15 @@ PAGES.append(dict(
     intro="""Los <strong>exámenes oficiales del DELF B2, resueltos, son gratuitos</strong>: France Éducation international
 publica dos modelos completos con las respuestas, los audios y las rejillas de evaluación —<a
 href="#examenes-oficiales">qué contiene cada archivo</a>—. Cuatro pruebas calificadas sobre 25, un total sobre <strong>100</strong>, el aprobado con <strong>50/100</strong>
-—y una nota inferior a <strong>5/25</strong> en una sola prueba que te elimina, sea cual sea tu promedio—. Desde la
-reforma, las dos comprensiones son <strong>100 % de opción múltiple</strong>. Aquí tienes un ejercicio resuelto por
-prueba, con los documentos y las consignas en francés, como el día del examen, y después el método de la expresión
+—y una nota inferior a <strong>5/25</strong> en una sola prueba que te elimina, sea cual sea tu promedio—. Las dos
+comprensiones existen en <strong>dos formatos</strong> en las convocatorias oficiales. Aquí tienes un ejercicio resuelto por
+prueba, en el formato de la reforma, con los documentos y las consignas en francés, como el día del examen, y después el método de la expresión
 escrita: 250 palabras en 60 minutos, la prueba que más decide.""",
     facts=["<strong>4 pruebas sobre 25</strong> · total sobre <strong>100</strong> · aprobado con <strong>50/100</strong>.",
            "⚠️ <strong>Menos de 5/25</strong> en una sola prueba = <strong>eliminatoria</strong>.",
            "<strong>Comprensión oral 30 min · comprensión escrita 60 min · expresión escrita 60 min · expresión oral 20 min</strong> (+ 30 min de preparación).",
-           "Desde la reforma: comprensiones <strong>100 % de opción múltiple</strong>, entrevista dirigida <strong>eliminada</strong> del oral.",
-           "⚠️ En comprensión oral, los 2 primeros ejercicios se escuchan <strong>2 veces</strong>; el 3.º, una sola.",
+           "Comprensiones: <strong>dos formatos</strong> en las convocatorias (2 o 3 ejercicios); entrevista dirigida <strong>eliminada</strong> del oral.",
+           "⚠️ En el formato de 3 ejercicios de comprensión oral, los 2 primeros se escuchan <strong>2 veces</strong>; el 3.º, una sola.",
            "Expresión escrita: <strong>250 palabras como mínimo</strong>, y el corrector evalúa la <strong>construcción</strong>, no tu opinión.",
            "<strong>Exámenes oficiales resueltos</strong>: dos modelos gratuitos de France Éducation international, con las respuestas, los audios MP3 y las rejillas — <a href=\"#examenes-oficiales\">archivo por archivo</a>."],
     toc=[("estructura", "La estructura de las cuatro pruebas"), ("examenes-oficiales", "Exámenes oficiales del DELF B2 resueltos (PDF gratuitos)"),
@@ -756,10 +757,10 @@ escrita: 250 palabras en 60 minutos, la prueba que más decide.""",
          ("tiempo", "Cómo repartir los 60 minutos")],
     body="""
 <h2 id="estructura">La estructura de las cuatro pruebas</h2>
-""" + table("DELF B2, formato surgido de la reforma de 2020, generalizado desde septiembre de 2024. Fuente: France Éducation international.",
+""" + table("DELF B2: las comprensiones existen en dos formatos en las convocatorias oficiales (2 o 3 ejercicios). Fuente: France Éducation international, consultada el 26 de octubre de 2026.",
             ["Prueba", "Contenido", "Duración", "Nota"],
-            [("Comprensión oral", "3 ejercicios / 5 documentos de audio", "30 min", "/25"),
-             ("Comprensión escrita", "3 ejercicios / 5 documentos escritos", "60 min", "/25"),
+            [("Comprensión oral", "2 o 3 ejercicios según el formato", "30 min", "/25"),
+             ("Comprensión escrita", "2 o 3 ejercicios según el formato", "60 min", "/25"),
              ("Expresión escrita", "1 ejercicio, 250 palabras como mínimo", "60 min", "/25"),
              ("Expresión oral", "Monólogo y debate", "20 min <em>(+ 30 min de preparación)</em>", "/25")], wide=False) + """
 
@@ -873,7 +874,7 @@ entrenas.</li>
 <h2 id="evalua">Expresión escrita: lo que evalúa el corrector</h2>
 <p><strong>Un ejercicio, 60 minutos, 250 palabras como mínimo.</strong> La expresión escrita es la tercera prueba
 colectiva del DELF B2, justo después de las dos comprensiones: llegas a ella tras una hora y media de examen, un detalle
-que cuenta para administrar la energía. Y desde la reforma es <strong>la única prueba en la que redactas</strong> antes
+que cuenta para administrar la energía. Y en el formato de la reforma es <strong>la única prueba en la que redactas</strong> antes
 del oral: todo lo que tiene que ver con la expresión escrita se juega ahí, en un solo texto.</p>
 
 <p>Es el malentendido central. El tema te pide una <strong>toma de posición personal</strong>, y muchos candidatos
@@ -971,7 +972,7 @@ criterios oficiales.</p>
 alerta de nota eliminatoria, y corrección con IA de la expresión escrita y oral según los criterios oficiales, en la app
 «TCF DELF TEF: Tests 2026». La app está en español.""",
     faq=[("¿Qué nota se necesita para aprobar el DELF B2?", "50 sobre 100. Las cuatro pruebas se califican sobre 25 cada una. Cuidado con la regla que deja sin diploma a candidatos cuyo promedio alcanzaba: una nota inferior a 5 sobre 25 en una sola prueba es eliminatoria, sea cual sea el total."),
-         ("¿Las comprensiones del DELF B2 son de opción múltiple?", "Sí, al 100 % desde la reforma. Las preguntas abiertas y los verdadero/falso con justificación desaparecieron de las dos comprensiones. Ya no redactas nada en esas pruebas: cambia la gestión del tiempo, pero también desaparece la posibilidad de ganar algunos puntos con una justificación parcialmente correcta."),
+         ("¿Las comprensiones del DELF B2 son de opción múltiple?", "En el formato de la reforma, sí, al 100 %: ni preguntas abiertas ni verdadero/falso con justificación, así que no redactas nada en esas pruebas; cambia la gestión del tiempo, pero también desaparece la posibilidad de ganar algunos puntos con una justificación parcialmente correcta. France Éducation international usa además un segundo formato de comprensión, con preguntas de otro tipo: entrena con sus dos ejemplos oficiales."),
          ("¿Cuántas veces se escuchan los audios del DELF B2?", "Depende del ejercicio. Los dos primeros, sobre documentos de radio largos, se escuchan dos veces. El tercero, que encadena tres documentos cortos, se escucha una sola vez. Esta asimetría sorprende justo cuando la concentración ya está gastada."),
          ("¿Cuántas palabras hay que escribir en la expresión escrita del DELF B2?", "250 palabras como mínimo, en un solo ejercicio, en 60 minutos. Es un mínimo y no una meta: escribir menos hace perder puntos en la adecuación a la consigna, sea cual sea la calidad de la lengua. Un plan en cinco partes produce mecánicamente de 250 a 280 palabras."),
          ("¿Qué tipos de temas salen en la expresión escrita?", "Tres géneros: una contribución a un debate (foro, cartas de los lectores), una carta formal o un artículo crítico. En todos los casos, el tema pide una toma de posición personal argumentada. La carta formal es aquella en la que más puntos se pierden gratuitamente, por no respetar sus convenciones."),
@@ -985,7 +986,8 @@ alerta de nota eliminatoria, y corrección con IA de la expresión escrita y ora
           ("/es/dalf-c1/", "Examen DALF C1 y C2", "El nivel siguiente: la síntesis de documentos de 200 a 240 palabras."),
           ("/es/certificado-de-frances/", "¿Qué certificado de francés elegir?", "Lo que prueba el DELF, y los trámites en los que no basta.")],
     sources="""<strong>Los formatos cambian.</strong> Esta página está actualizada al 7 de agosto de 2026 y describe el formato
-surgido de la reforma de 2020, generalizado desde septiembre de 2024. Los ejercicios presentados son contenidos originales
+surgido de la reforma de 2020; corregida el 26 de octubre de 2026: France Éducation international usa dos formatos de
+comprensión en las convocatorias oficiales. Los ejercicios presentados son contenidos originales
 de nuestra app. Los exámenes oficiales se describen según la página de ejemplos del DELF B2 de France Éducation
 international, consultada el 26 de octubre de 2026. Cuidado con los modelos de examen y los tutoriales anteriores, que
 describen un examen distinto. Verifica el formato vigente en
@@ -1378,7 +1380,7 @@ mostraban los sitios web de los centros el 8 de octubre de 2026.</p>
              ('<a href="/es/tcf-canada-espana/"><strong>España</strong></a>', "11 de 14 centros, en Madrid, Barcelona, Valencia, Bilbao, Sevilla, Málaga, Oviedo, Cartagena y Valladolid", "de 275 a 287 €")],
             wide=False) + """
 <p>Las sesiones se llenan rápido en varios países: en la Alianza Francesa de Lima, el único centro de Perú, la última sesión de 2026, la del
-11 de diciembre, ya estaba completa el 8 de octubre. En Canadá, el TCF Canada se presenta en 47 centros autorizados, de
+11 de diciembre, ya estaba completa el 8 de octubre. En Canadá, el TCF Canada se presenta en 48 centros autorizados, de
 390 a 440 dólares canadienses, y los cupos se agotan en minutos (<a href="/en/tcf-canada-test-centres/" hreflang="en">la
 lista, en inglés</a>).</p>
 <p class="serie-label">El TCF Canada, país por país</p>
@@ -1586,7 +1588,7 @@ las autoridades canadienses reconozcan la constancia.</p>
 
 <h2 id="donde">Dónde presentarlos en América Latina y España</h2>
 <p>Para el TCF Canada, nuestras guías revisan los centros uno por uno, con sus precios y sus fechas: en Francia, de 195 a
-285 €, con una sesión al mes por centro; en Canadá, 47 centros, de 390 a 440 dólares canadienses, con sesiones que se
+285 €, con una sesión al mes por centro; en Canadá, 48 centros, de 390 a 440 dólares canadienses, con sesiones que se
 llenan en minutos (<a href="/en/tcf-canada-test-centres/" hreflang="en">la lista, en inglés</a>). En América Latina y
 España, según los sitios web de los centros el 8 de octubre de 2026:</p>
 <ul>

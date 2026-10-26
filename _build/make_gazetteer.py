@@ -722,9 +722,11 @@ def phone_of(row, countries):
     country = row["country_fr"]
     if country in MP.PHONE:
         x = MP.national(raw, country)
+        # Longueurs nationales des tables européennes du 26/10/2026 (Luxembourg : 6 chiffres) : 3 + 3, et toute autre
+        # longueur affichée d'un bloc plutôt que de faire échouer la construction.
+        groups = {6: (3, 3), 7: (1, 3, 3), 8: (4, 4), 9: (3, 3, 3), 10: (3, 3, 4), 11: (1, 2, 4, 4)}.get(len(x or ""), (len(x or ""),))
         if x:
             cc = MP.PHONE[country][0]
-            groups = {7: (1, 3, 3), 8: (4, 4), 9: (3, 3, 3), 10: (3, 3, 4), 11: (1, 2, 4, 4)}[len(x)]
             parts, i = [], 0
             for g in groups:
                 parts.append(x[i:i + g])

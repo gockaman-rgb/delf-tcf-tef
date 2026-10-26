@@ -373,7 +373,7 @@ PAGES.append(dict(
            "في البلدان العربية: <strong>1800 درهم إماراتي</strong> (دبي وأبوظبي)، و<strong>1950 ريالًا سعوديًا</strong> "
            "(جدة والرياض)، و<strong>1300 ريال قطري</strong> (الدوحة)؛ وفي مصر لم يُنشر سعر 2026، وكان في 2024 ما يعادل 250 "
            "يورو يُدفع بالجنيه المصري (اطّلعنا عليه بين 8 و26 أكتوبر 2026) — انظر <a href=\"#middle-east\">الأسعار في الشرق الأوسط</a>.",
-           "ستة مراكز رصدناها أدناه؛ ويضم الدليل الكامل 251 مركزًا في فرنسا، وفي كندا 47 مركزًا.",
+           "ستة مراكز رصدناها أدناه؛ ويضم الدليل الكامل 247 مركزًا في فرنسا، وفي كندا 48 مركزًا.",
            "TCF Canada غير مؤهَّل للتمويل عبر CPF (حساب التدريب الشخصي في فرنسا)."],
     toc=[("by-country", "سعر TCF Canada بلدًا بلدًا"), ("fees", "السعر والصلاحية والإعادة"), ("middle-east", "الأسعار في الشرق الأوسط"),
          ("where", "أين تجتاز TCF Canada؟")],
@@ -459,7 +459,7 @@ PAGES.append(dict(
 <h2 id="where">أين تجتاز TCF Canada؟</h2>
 <p>في فرنسا، في مركز معتمد اختار تنظيم هذه النسخة — وليس كل المراكز كذلك: بحسب ما رصدناه في 17 سبتمبر 2026: <bdi>ACTE</bdi> (195 يورو) و<bdi>ACCORD</bdi>
 (220 يورو) في باريس، وفروع <bdi>Alliance française</bdi> في ليون (220 يورو) ومونبلييه (200 يورو) وإكس-مرسيليا (240 يورو)،
-و<bdi>KLF</bdi>، و<bdi>CLPS</bdi> (285 يورو)… بمعدل جلسة واحدة شهريًا تقريبًا. وفي كندا، في أحد المراكز المعتمدة الـ47، بسعر من 390 إلى 440
+و<bdi>KLF</bdi>، و<bdi>CLPS</bdi> (285 يورو)… بمعدل جلسة واحدة شهريًا تقريبًا. وفي كندا، في أحد المراكز المعتمدة الـ48، بسعر من 390 إلى 440
 دولارًا كنديًا، حيث تنفد المقاعد في دقائق. ويتحقق دليلانا عن أماكن اجتياز TCF Canada في فرنسا
 (<a href="/blog/ou-passer-le-tcf-canada-en-france/" hreflang="fr">بالفرنسية</a>) وفي كندا
 (<a href="/en/tcf-canada-test-centres/" lang="en">Where to take the TCF Canada in Canada</a>، بالإنجليزية) من المراكز واحدًا واحدًا، بأسعارها
@@ -468,12 +468,12 @@ PAGES.append(dict(
 مركزًا، 2900 درهم مغربي)، و<a href="/blog/tcf-canada-tunisie/" hreflang="fr">تونس</a> (880 دينارًا تونسيًا، والنتائج خلال خمسة
 أسابيع).</p>
 
-<p>ستة مراكز رصدناها في أدلتنا، من بين 251 مركزًا معتمدًا في فرنسا والمراكز الـ47 في كندا — وكلها تقدّم جلسات على
+<p>ستة مراكز رصدناها في أدلتنا، من بين 247 مركزًا معتمدًا في فرنسا والمراكز الـ48 في كندا — وكلها تقدّم جلسات على
 الحاسوب: ACTE (باريس)، و<bdi>Alliance française</bdi> في ليون، و<bdi>Alliance française de Montpellier</bdi>،
 و<bdi>Alliance Française de Montréal</bdi>، و<bdi>Alliance française</bdi> في تورونتو (حرم Spadina)،
 و<bdi>Alliance française Canada Pacific</bdi> (فانكوفر).</p>
 <p class="more">الدليل الكامل، بالعناوين وأرقام الهاتف: <a href="/centres/tcf-france/" hreflang="fr">مراكز TCF في فرنسا</a>
-(بالفرنسية) · <a href="/en/tcf-canada-test-centres/" lang="en" dir="ltr">47 TCF test locations in Canada</a> (بالإنجليزية) ·
+(بالفرنسية) · <a href="/en/tcf-canada-test-centres/" lang="en" dir="ltr">48 TCF test locations in Canada</a> (بالإنجليزية) ·
 <a href="/centres/tcf-maroc/" hreflang="fr">المغرب</a> · <a href="/centres/tcf-algerie/" hreflang="fr">الجزائر</a> ·
 <a href="/centres/tcf-tunisie/" hreflang="fr">تونس</a> (بالفرنسية).</p>
 """,
@@ -633,7 +633,7 @@ TEF Canada نحو 280 كلمة على <em>قسمين</em>. إذا كنت تكت�
 بالشهادة.</p>
 
 <p>بالنسبة إلى TCF Canada، يتحقق دليلانا من المراكز واحدًا واحدًا: في فرنسا (من 195 إلى 285 يورو، جلسة واحدة شهريًا في كل
-مركز؛ <a href="/blog/ou-passer-le-tcf-canada-en-france/" hreflang="fr">بالفرنسية</a>)، وفي كندا (47 مركزًا، من 390 إلى 440
+مركز؛ <a href="/blog/ou-passer-le-tcf-canada-en-france/" hreflang="fr">بالفرنسية</a>)، وفي كندا (48 مركزًا، من 390 إلى 440
 دولارًا كنديًا، وجلسات تمتلئ في دقائق؛ <a href="/en/tcf-canada-test-centres/" lang="en">Where to take the TCF Canada in Canada</a>،
 بالإنجليزية) — وكذلك أدلتنا عن <a href="/blog/tcf-canada-algerie/" hreflang="fr">الجزائر</a>
 و<a href="/blog/tcf-canada-maroc/" hreflang="fr">المغرب</a> و<a href="/blog/tcf-canada-tunisie/" hreflang="fr">تونس</a>

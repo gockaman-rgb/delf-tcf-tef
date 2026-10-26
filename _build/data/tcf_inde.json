@@ -3,8 +3,8 @@
  "type": "tcf",
  "key": "Centre de passation",
  "n": 7,
- "date": "2026-10-08",
- "source": "FEI, liste par pays (extraction structurée v2)",
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
  "org": null,
  "centres": [
   {
@@ -124,7 +124,7 @@
     "courses.trivandrum@afindia.org"
    ],
    "url": "https://trivandrum.afindia.org/",
-   "so": false
+   "so": true
   }
  ]
 }

@@ -35,7 +35,7 @@ PAYS_ID = {"France": 73, "Canada": 112, "Algérie": 115, "Maroc": 117, "Tunisie"
            "Émirats arabes unis": 101, "Turquie": 95, "Brésil": 19, "Mexique": 30, "Colombie": 21,
            "Espagne": 70, "Argentine": 15, "Chili": 20, "Pérou": 34, "Équateur": 25}
 PAYS_ID.update({"Allemagne": 60, "Italie": 78, "Pays-Bas": 84, "Portugal": 86, "Roumanie": 87, "Pologne": 85,
-                "Grèce": 74, "Irlande": 76})   # Europe (26/10/2026 : pays_config_eu.py)
+                "Grèce": 74, "Irlande": 76, "Autriche": 61, "Luxembourg": 375})   # Europe (26/10/2026 : pays_config_eu.py)
 CC = {"France": "33", "Canada": "1", "Algérie": "213", "Maroc": "212", "Tunisie": "216", "Sénégal": "221",
       "Côte d'Ivoire": "225", "Cameroun": "237", "Belgique": "32", "Liban": "961", "Inde": "91",
       "République démocratique du Congo": "243", "Bénin": "229", "Togo": "228", "Guinée": "224",
@@ -420,17 +420,18 @@ G_TCF_FR = [("/blog/ou-passer-le-tcf-irn-en-france/", "Où passer le TCF IRN en 
 PAGES = [
     dict(slug="tcf-france", files=["tcf_france"], layout="france", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF en France",
+         modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="26 octobre 2026",   # liste FEI relue le 26/10/2026
          title="Centres TCF agréés en France : liste, adresses, téléphones",
-         desc="Les 251 centres TCF agréés par France Éducation international, région par région, avec adresse, téléphone, e-mail et site — liste du 19 septembre 2026.",
-         h1="Centres TCF agréés en France : la liste des 251 centres, région par région",
+         desc="Les 247 centres TCF agréés par France Éducation international, région par région, avec adresse, téléphone, e-mail et site — liste du 26 octobre 2026.",
+         h1="Centres TCF agréés en France : la liste des 247 centres, région par région",
          intro="""France Éducation international agrée <strong>%(n)d centres de passation du TCF</strong> en
-France au 19 septembre 2026 — Alliances françaises, écoles de langue, GRETA, organismes de
+France au 26 octobre 2026 — Alliances françaises, écoles de langue, GRETA, organismes de
 formation, universités —, dont <strong>%(so)d proposent des sessions sur ordinateur</strong>, dans
 <strong>%(cities)d villes</strong>. Voici la liste complète, région par région et ville par ville, avec
 l'adresse, le téléphone, l'e-mail et le site de chaque centre, telle que FEI la publie. Vérifiez
 ensuite sur le site du centre qu'il organise bien la déclinaison qu'il vous faut : IRN, Canada,
 Québec ou tout public.""",
-         facts=["<strong>{n} centres agréés</strong> en France, liste FEI du 19 septembre 2026 — {so} avec des sessions sur ordinateur.",
+         facts=["<strong>{n} centres agréés</strong> en France, liste FEI du 26 octobre 2026 — {so} avec des sessions sur ordinateur.",
                 "<strong>Île-de-France : {idf} centres</strong>, dont {paris} dans Paris ; Auvergne-Rhône-Alpes {ara} ; Occitanie {occ} ; Provence-Alpes-Côte d'Azur {paca}.",
                 "La liste dit qu'un centre est agréé TCF, <strong>pas quelle déclinaison</strong> il organise : IRN, Canada, Québec, tout public — à vérifier sur son site.",
                 "Adresse, téléphone, e-mail générique et site : les coordonnées publiées par FEI, reprises telles quelles.",
@@ -441,10 +442,10 @@ Québec ou tout public.""",
          guides=G_TCF_FR + [("/ou-passer/", "Où passer le DELF, le TCF ou le TEF ? Le hub", "")],
          sources_links=[("Liste des centres TCF en France", FEI_LISTE % (73, "tcf")), ("Carte des centres TCF", FEI_CARTE % "tcf")],
          sources_text="filtre « France », type « TCF »",
-         faq=[("Combien de centres TCF y a-t-il en France ?", "251 centres de passation agréés par France Éducation international au 19 septembre 2026, dont 127 proposent des sessions sur ordinateur. L'Île-de-France en compte 33, dont sept dans Paris ; Auvergne-Rhône-Alpes et Occitanie 30 chacune."),
+         faq=[("Combien de centres TCF y a-t-il en France ?", "247 centres de passation agréés par France Éducation international au 26 octobre 2026, dont 129 proposent des sessions sur ordinateur. L'Île-de-France en compte 31, dont sept dans Paris ; Auvergne-Rhône-Alpes et Occitanie 32 chacune."),
               ("Comment savoir si un centre propose le TCF Canada ou le TCF IRN ?", "La liste officielle ne le précise pas : chaque centre choisit les déclinaisons qu'il organise. Ouvrez la page TCF du centre ou appelez-le. Nos guides « Où passer le TCF IRN en France » et « Où passer le TCF Canada en France » l'ont vérifié pour les principaux centres, avec leurs prix et leurs dates."),
               ("Comment s'inscrire au TCF ?", "Directement auprès du centre — en ligne dans la plupart des cas, avec une pièce d'identité et un paiement par carte. France Éducation international n'inscrit aucun candidat. Les sessions sont hebdomadaires à Paris pour le TCF IRN, mensuelles pour le TCF Canada."),
-              ("Cette liste est-elle à jour ?", "Elle reproduit la liste de France Éducation international lue le 19 septembre 2026. FEI agrée et retire des centres au fil de l'année ; en cas de doute, sa liste en ligne fait foi. Les coordonnées reprises sont celles publiées par FEI."),
+              ("Cette liste est-elle à jour ?", "Elle reproduit la liste de France Éducation international lue le 26 octobre 2026. FEI agrée et retire des centres au fil de l'année ; en cas de doute, sa liste en ligne fait foi. Les coordonnées reprises sont celles publiées par FEI."),
               ("Un centre TCF fait-il aussi passer le DELF ou l'examen civique ?", "Pas forcément : ce sont trois agréments distincts. Nos listes des centres DELF-DALF et des centres d'examen civique en France permettent de vérifier, centre par centre.")],
          also=[("/centres/delf-france/", "Centres DELF-DALF en France", "Les 143 centres d'examen agréés, région par région."),
                ("/centres/examen-civique-france/", "Centres d'examen civique en France", "Les 245 centres agréés par FEI pour l'examen civique."),
@@ -478,7 +479,7 @@ Voici la liste complète, région par région, avec les coordonnées publiées p
               ("Combien coûte le DELF ?", "Il n'y a pas de tarif national. Sur les centres relevés le 17 septembre 2026, le DELF B2 va de 125 € (Nantes Université) à 280 € (Alliance française de Paris), le B1 de 125 à 230 €. Les universités sont presque toujours les moins chères."),
               ("Cette liste inclut-elle le DELF junior et scolaire ?", "Oui : la liste de FEI regroupe tous les centres d'examen DELF-DALF, quelle que soit la déclinaison. Un adulte passe le DELF tout public ; les centres de l'académie (CASNAV) sont orientés DELF scolaire."),
               ("Un centre DELF fait-il aussi passer le TCF ?", "Pas forcément : ce sont deux agréments distincts. Notre liste des centres TCF en France permet de vérifier.")],
-         also=[("/centres/tcf-france/", "Centres TCF en France", "Les 251 centres de passation agréés, région par région."),
+         also=[("/centres/tcf-france/", "Centres TCF en France", "Les 247 centres de passation agréés, région par région."),
                ("/blog/diplome-ou-test-delf-tcf/", "Diplôme ou test : lequel vous faut-il ?", "Un diplôme s'obtient à vie et peut se rater ; un test vous situe pour deux ans."),
                ("/delf-b1/", "DELF B1 : format, notation et préparation", "Le niveau exigé pour la carte de résident."),
                ("/dalf/", "DALF C1 · C2", "Les diplômes avancés, mêmes centres, même calendrier.")]),
@@ -515,23 +516,24 @@ IRN et le DELF au format officiel, avec la correction IA de l'écrit et de l'ora
               ("Combien coûte l'examen civique ?", "Aucun texte ne fixe de tarif. Relevés le 17 septembre 2026 : 70 € à Espaces Formation (Nantes), 75 € à l'Alliance française de Montpellier, 80 à 90 € chez Etoile Institut (Paris), 110 € chez ACCORD (Paris)."),
               ("Quelle mention passer ?", "Celle de votre démarche : carte de séjour pluriannuelle, carte de résident ou naturalisation. La mention carte de résident vaut pour la carte pluriannuelle, pas l'inverse ; aucune des deux ne vaut pour la naturalisation."),
               ("Peut-on le passer à l'étranger ?", "Oui, dans les Instituts français, les Alliances françaises et auprès des consulats — l'Institut français d'Algérie l'organise à Alger pour 9 000 dinars. La carte de FEI se filtre par pays.")],
-         also=[("/centres/tcf-france/", "Centres TCF en France", "Les 251 centres agréés, pour le test de français qui accompagne l'examen civique."),
+         also=[("/centres/tcf-france/", "Centres TCF en France", "Les 247 centres agréés, pour le test de français qui accompagne l'examen civique."),
                ("/blog/ou-passer-le-tcf-irn-en-france/", "Où passer le TCF IRN en France ?", "Sept centres à Paris, des sessions chaque semaine, 140 à 220 €."),
                ("/tcf-irn/", "TCF IRN : le test de français pour votre naturalisation", "Format, niveaux exigés, échelle sur 499."),
                ("/blog/b1-ou-b2-nationalite-francaise/", "B1 ou B2 pour la nationalité française ?", "Le tableau des trois démarches.")]),
     dict(slug="tcf-canada", files=["tcf_canada"], layout="canada", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF au Canada",
-         title="Centres TCF au Canada : les 47 centres agréés, par province",
-         desc="Les 47 centres TCF agréés au Canada — Montréal, Toronto, Vancouver, Ottawa… — par province, avec adresse, téléphone, e-mail et site. Liste FEI 2026.",
-         h1="Centres TCF au Canada : les 47 centres agréés, province par province",
-         intro="""Au Canada, le TCF Canada et le TCF Québec se passent dans l'un des <strong>47 centres agréés</strong>
-par France Éducation international (48 entrées dans sa liste du 19 septembre 2026, un centre apparaissant
+         modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="26 octobre 2026",   # liste FEI relue le 26/10/2026
+         title="Centres TCF au Canada : les 48 centres agréés, par province",
+         desc="Les 48 centres TCF agréés au Canada — Montréal, Toronto, Vancouver, Ottawa… — par province, avec adresse, téléphone, e-mail et site. Liste FEI 2026.",
+         h1="Centres TCF au Canada : les 48 centres agréés, province par province",
+         intro="""Au Canada, le TCF Canada et le TCF Québec se passent dans l'un des <strong>48 centres agréés</strong>
+par France Éducation international (49 entrées dans sa liste du 26 octobre 2026, un centre apparaissant
 deux fois) — Alliances françaises, universités, cégeps, centres de formation —, présents dans
 <strong>neuf provinces et au Nunavut</strong>, %(so)d avec des sessions sur ordinateur. Voici la liste
 par province et par ville, avec les coordonnées publiées par FEI, et les règles d'inscription relevées
 sur les principaux centres.""",
-         facts=["<strong>47 centres agréés</strong> (48 entrées FEI, Gaspé en double), liste du 19 septembre 2026 : 23 au Québec dont 7 à Montréal, 7 en Ontario, 5 en Colombie-Britannique, 3 en Alberta.",
-                "<strong>45 entrées avec sessions sur ordinateur</strong> ; papier seulement à Sherbrooke, Lethbridge et à l'Université de Victoria.",
+         facts=["<strong>48 centres agréés</strong> (49 entrées FEI, Gaspé en double), liste du 26 octobre 2026 : 23 au Québec dont 7 à Montréal, 8 en Ontario, 5 en Colombie-Britannique, 3 en Alberta.",
+                "<strong>45 entrées avec sessions sur ordinateur</strong> ; papier seulement à Sherbrooke, Lethbridge, Windsor (Collège Boréal) et à l'Université de Victoria.",
                 "Prix libre et souvent non publié : 390 $ (AF Vancouver), 400 $ (AF Edmonton), 440 $ (UQTR) ; rien d'affiché à l'AF Montréal.",
                 "⚠️ Les sessions de Toronto et Vancouver affichent <strong>complet en quelques minutes</strong> : inscrivez-vous à l'ouverture, pas à la date d'examen.",
                 "<strong>20 jours</strong> entre deux passations, « quel que soit le centre » ; résultats en 2 à 4 semaines.",
@@ -550,7 +552,7 @@ sur les principaux centres.""",
               ("Quels documents le jour de l'examen ?", "Passeport valide et convocation imprimée, sans exception à Ottawa ; l'identité est contrôlée pendant toute l'épreuve. Sur ordinateur, le clavier QWERTY est fourni par le centre.")],
          also=[("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "Les quatre épreuves, la conversion NCLC, les seuils pour Entrée express."),
                ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", "458 en compréhension orale, 453 à l'écrit."),
-               ("/centres/tcf-france/", "Centres TCF en France", "Les 251 centres agréés, pour un TCF Canada passé depuis la France."),
+               ("/centres/tcf-france/", "Centres TCF en France", "Les 247 centres agréés, pour un TCF Canada passé depuis la France."),
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", "Les deux tables NCLC et le comparatif de format.")]),
     dict(slug="tcf-algerie", files=["tcf_algerie"], layout="cities", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF en Algérie",
@@ -660,12 +662,13 @@ de chaque centre.""",
     dict(slug="tcf-afrique", files=["tcf_senegal", "tcf_cote_d_ivoire", "tcf_cameroun", "tcf_republique_democratique_du_congo", "tcf_congo", "tcf_benin", "tcf_togo", "tcf_guinee", "tcf_gabon", "tcf_mali", "tcf_mauritanie", "tcf_maurice"],
          layout="multi", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF en Afrique",
+         modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="19 septembre et 26 octobre 2026",   # Sénégal relu le 26/10/2026
          title="Centres TCF en Afrique : Sénégal, Cameroun, Côte d'Ivoire…",
          desc="Les centres TCF agréés au Sénégal, en Côte d'Ivoire, au Cameroun, en RDC, au Congo, au Bénin, au Togo, en Guinée, au Gabon, au Mali, en Mauritanie, à Maurice.",
          h1="Centres TCF en Afrique subsaharienne et à Maurice : les centres agréés, pays par pays",
          intro="""Dans les pays francophones d'Afrique, le TCF — Canada, Québec, IRN ou tout public — se passe dans les
 Instituts français et les Alliances françaises agréés par France Éducation international : <strong>%(n)d
-centres dans douze pays</strong> au 19 septembre 2026, dont %(so)d avec des sessions sur ordinateur.
+centres dans douze pays</strong> au 26 octobre 2026, dont %(so)d avec des sessions sur ordinateur.
 Le réseau est mince — un seul centre dans plusieurs pays —, ce qui rend la place plus précieuse
 qu'ailleurs. Voici les coordonnées de chaque centre, pays par pays.""",
          facts=["<strong>23 centres dans 12 pays</strong> : Cameroun 7, Sénégal 3, RDC 3, Congo 2, et un seul centre en Côte d'Ivoire, au Bénin, au Togo, en Guinée, au Gabon, au Mali, en Mauritanie et à Maurice.",
@@ -683,54 +686,55 @@ qu'ailleurs. Voici les coordonnées de chaque centre, pays par pays.""",
          sources_text="type « TCF », filtres Sénégal, Côte d'Ivoire, Cameroun, République démocratique du Congo, Congo, Bénin, Togo, Guinée, Gabon, Mali, Mauritanie et Maurice",
          faq=[("Où passer le TCF Canada au Sénégal ?", "Dans l'un des trois centres agréés listés ci-dessous, dont l'Institut français de Dakar. Renseignez-vous auprès du centre pour les dates et le tarif, qui ne sont pas centralisés."),
               ("Où passer le TCF Canada au Cameroun ?", "Dans l'un des sept centres agréés — Instituts français et Alliances françaises — listés ci-dessous, à Yaoundé, Douala et en région."),
-              ("Où passer le TCF Canada en Côte d'Ivoire ?", "Dans le seul centre agréé du pays au 19 septembre 2026, à Abidjan (Institut français) : les places y sont comptées, réservez dès l'ouverture des inscriptions."),
+              ("Où passer le TCF Canada en Côte d'Ivoire ?", "Dans le seul centre agréé du pays au 26 octobre 2026, à Abidjan (Institut français) : les places y sont comptées, réservez dès l'ouverture des inscriptions."),
               ("Le TCF Canada passé en Afrique est-il accepté par IRCC ?", "Oui, dès lors qu'il est passé dans un centre agréé par France Éducation international : l'attestation est la même partout dans le monde et vaut deux ans."),
               ("Comment vérifier qu'un centre est agréé ?", "En le cherchant dans la liste officielle de FEI, par pays. Un organisme absent de cette liste ne peut pas délivrer d'attestation TCF, quel que soit son site.")],
          also=[("/centres/tcf-maroc/", "Centres TCF au Maroc", "Les 16 centres agréés."),
                ("/centres/tcf-algerie/", "Centres TCF en Algérie", "Les cinq antennes de l'Institut français."),
                ("/centres/tcf-tunisie/", "Centres TCF en Tunisie", "Les 14 centres agréés."),
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", "")]),
-    # Europe (26/10/2026) : douze pays, chacun renvoyé à sa page pays ; listes FEI du 26 octobre 2026 (data/fei_monde/), sauf
+    # Europe (26/10/2026) : quatorze pays (l'Autriche et le Luxembourg ajoutés l'après-midi), chacun renvoyé à sa page pays ; listes FEI du 26 octobre 2026 (data/fei_monde/), sauf
     # l'Espagne et le Royaume-Uni, qui gardent le fichier de leur page (8 octobre) pour n'être comptés qu'une fois sur /centres/.
     dict(slug="tcf-europe", files=["tcf_espagne"] + ["fei_monde/tcf_" + f for f in ("italie", "allemagne", "suisse", "pays_bas", "portugal")]
-         + ["tcf_royaume_uni"] + ["fei_monde/tcf_" + f for f in ("roumanie", "belgique", "pologne", "grece", "irlande")],
+         + ["tcf_royaume_uni"] + ["fei_monde/tcf_" + f for f in ("roumanie", "belgique", "pologne", "grece", "irlande", "autriche", "luxembourg")],
          layout="multi", exam="TCF", accent="accent-tcf",
          pointers=pays_pointers("Espagne", "Royaume-Uni", "Allemagne", "Suisse", "Belgique", "Italie", "Pays-Bas", "Portugal",
-                                "Roumanie", "Pologne", "Grèce", "Irlande"),
+                                "Roumanie", "Pologne", "Grèce", "Irlande", "Autriche", "Luxembourg"),
          modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="8 et 26 octobre 2026",
          crumb="Centres TCF en Europe",
          title="Centres TCF en Europe : le TCF Canada pays par pays",
-         desc="Les 75 centres TCF agréés dans 12 pays d'Europe — Espagne, Allemagne, Italie, Suisse, Belgique… — et qui propose le TCF Canada, à quel prix.",
+         desc="Les 78 centres TCF agréés dans 14 pays d'Europe — Espagne, Allemagne, Italie, Suisse, Belgique… — et qui propose le TCF Canada, à quel prix.",
          h1="Centres TCF en Europe : le TCF Canada pays par pays, les prix et les dates",
          intro="""Hors de France, en Europe, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France Éducation
-international dans les douze pays de cette page — Instituts français, Alliances françaises, écoles,
+international dans les quatorze pays de cette page — Instituts français, Alliances françaises, écoles,
 universités —, dont %(so)d avec des sessions sur ordinateur. Chaque pays a sa page détaillée : qui propose le TCF Canada,
 à quel prix, à quelles dates. Les tarifs relevés vont de 210 € (Gênes, Erlangen) à 295 € (Allemagne), CHF 290 en Suisse
 et £325 à Glasgow. Pour Entrée express, demandez le TCF Canada ; pour la naturalisation française, le TCF IRN.""",
-         facts=["<strong>{n} centres</strong> dans 12 pays : Espagne 14, Italie 14, Allemagne 13, Suisse 7, Pays-Bas 7, Portugal 6, Royaume-Uni 3, Roumanie 3, Belgique 2, Pologne 2, Grèce 2, Irlande 2 (listes FEI du 8 octobre 2026 pour l'Espagne et le Royaume-Uni, du 26 octobre pour les autres).",
-                "TCF Canada : Espagne de 275 à 287 € ; Allemagne 295 € (210 € à Erlangen) ; Italie de 210 à 250 € ; Belgique 260 et 268 € ; Irlande 270 € ; Pays-Bas 290 € à Amsterdam ; Portugal 211 et 220 € ; Suisse CHF 290 à Montreux ; Royaume-Uni £260 et £325.",
-                "Un centre TCF ne fait pas forcément passer le TCF Canada : en Suisse, seuls ALPADIA (Montreux) et l'Alliance française de Zurich l'annoncent ; à Rome et à Francfort, le centre agréé ne le propose pas.",
+         facts=["<strong>{n} centres</strong> dans 14 pays : Espagne 14, Italie 14, Allemagne 13, Suisse 7, Pays-Bas 7, Portugal 6, Royaume-Uni 3, Roumanie 3, Belgique 2, Pologne 2, Grèce 2, Irlande 2, Luxembourg 2, Autriche 1 (listes FEI du 8 octobre 2026 pour l'Espagne et le Royaume-Uni, du 26 octobre pour les autres).",
+                "TCF Canada : Espagne de 275 à 287 € ; Allemagne 295 € (210 € à Erlangen) ; Italie de 210 à 250 € ; Belgique 260 et 268 € ; Irlande 270 € ; Pays-Bas 290 € à Amsterdam ; Portugal 211 et 220 € ; Autriche 295 € à Vienne ; Suisse CHF 290 à Montreux ; Royaume-Uni £260 et £325.",
+                "Un centre TCF ne fait pas forcément passer le TCF Canada : en Suisse, seuls ALPADIA (Montreux) et l'Alliance française de Zurich l'annoncent ; à Rome et à Francfort, le centre agréé ne le propose pas ; au Luxembourg, l'Institut national des langues ne fait passer que le tout public et l'IRN. La Suède n'a aucun centre TCF.",
                 "⚠️ Places rares : Berlin (4 novembre) et Amsterdam (25 novembre 2026) étaient complets le 26 octobre ; à Londres, la première place libre était le 23 avril 2027 au relevé du 8 octobre.",
-                "Le réseau français reste le plus dense d'Europe : <strong>251 centres</strong>, dont plusieurs près des frontières.",
+                "Le réseau français reste le plus dense d'Europe : <strong>247 centres</strong>, dont plusieurs près des frontières.",
                 "Chaque centre choisit ses déclinaisons, ses dates et son tarif ; attestation valable deux ans. Un organisme absent de ces listes n'est pas agréé."],
-         stat4=("12", "pays", "de l'Espagne à l'Irlande"), cities_note="de Lisbonne à Varsovie",
+         stat4=("14", "pays", "de l'Espagne à l'Autriche"), cities_note="de Lisbonne à Varsovie",
          liste_label="pays par pays", decl="Canada, Québec, IRN, tout public, DAP",
          guides=[("/centres/tcf-espagne/", "TCF Canada en Espagne : 11 centres, 281 à 287 €, dates", "Le relevé des 14 centres agréés : déclinaisons, prix, prochaines sessions."),
                  ("/centres/tcf-allemagne/", "TCF Canada en Allemagne : 10 centres, 295 €, dates", "Les Instituts français et leur module commun, 23 sessions jusqu'en 2027."),
                  ("/centres/tcf-italie/", "TCF Canada en Italie : 7 centres, 210 à 250 €, dates", "Turin, Gênes, Milan, Venise… et ceux qui ne le proposent pas."),
                  ("/centres/tcf-suisse/", "TCF Canada en Suisse : Montreux, Zurich, prix en CHF", "Swiss Exams et Fribourg : le tout public seulement."),
                  ("/centres/tcf-royaume-uni/", "TCF Canada à Londres et au Royaume-Uni", "L'Institut français de Londres et l'Alliance de Glasgow, leurs règles, les places."),
-                 ("/centres/tcf-france/", "Centres TCF en France : les 251 centres agréés", "Pour les frontaliers, le réseau le plus dense.")],
+                 ("/centres/tcf-france/", "Centres TCF en France : les 247 centres agréés", "Pour les frontaliers, le réseau le plus dense.")],
          sources_links=[("Liste des centres TCF par pays (FEI)", "https://www.france-education-international.fr/centres-d-examen/liste?type-centre=tcf"), ("Carte des centres TCF", FEI_CARTE % "tcf")],
-         sources_text="type « TCF », filtres Espagne, Italie, Allemagne, Suisse, Pays-Bas, Portugal, Royaume-Uni, Roumanie, Belgique, Pologne, Grèce et Irlande",
-         faq=[("Où passer le TCF Canada en Europe ?", "Dans un centre agréé qui annonce la version Canada : en Espagne, 11 des 14 centres ; en Allemagne, 10 sur 13 ; en Italie, 7 sur 14 ; les deux centres belges et les deux irlandais ; les trois Alliances des Pays-Bas ; en Suisse, ALPADIA à Montreux et l'Alliance française de Zurich. Chaque page pays les détaille."),
+         sources_text="type « TCF », filtres Espagne, Italie, Allemagne, Suisse, Pays-Bas, Portugal, Royaume-Uni, Roumanie, Belgique, Pologne, Grèce, Irlande, Autriche et Luxembourg",
+         faq=[("Où passer le TCF Canada en Europe ?", "Dans un centre agréé qui annonce la version Canada : en Espagne, 11 des 14 centres ; en Allemagne, 10 sur 13 ; en Italie, 7 sur 14 ; les deux centres belges et les deux irlandais ; les trois Alliances des Pays-Bas ; l'Institut français de Vienne ; en Suisse, ALPADIA à Montreux et l'Alliance française de Zurich. Chaque page pays les détaille."),
               ("Combien coûte le TCF Canada en Europe ?", "Aucun tarif commun : de 210 € (Gênes, Erlangen) à 295 € (Instituts français d'Allemagne), 290 € à Amsterdam, CHF 290 à Montreux, £260 à Londres et £325 à Glasgow, relevés les 8 et 26 octobre 2026."),
               ("Où passer le TCF en Allemagne ?", "Dans l'un des 13 centres agréés ; dix annoncent le TCF Canada, dont les Instituts français de Berlin, Hambourg, Munich, Stuttgart, Mayence et Brême, à 295 €, sur un module d'inscription commun."),
               ("Où passer le TCF en Suisse ?", "Dans l'un des sept centres agréés : Swiss Exams à Berne, Genève, Lausanne et Winterthur et l'Université de Fribourg font passer le TCF tout public ; ALPADIA à Montreux et l'Alliance française de Zurich annoncent aussi le TCF Canada."),
               ("Le TCF IRN passé à l'étranger est-il accepté pour la naturalisation française ?", "Oui : l'attestation est délivrée par France Éducation international quel que soit le centre, et l'arrêté du 22 décembre 2025 n'exige que la passation en présentiel dans un centre agréé.")],
-         also=[("/centres/tcf-france/", "Centres TCF en France", "Les 251 centres agréés, région par région."),
+         also=[("/centres/tcf-france/", "Centres TCF en France", "Les 247 centres agréés, région par région."),
                ("/centres/delf-allemagne/", "DELF et DALF en Allemagne", "Les dates 2026-2027, B2 à 201 €."),
                ("/centres/delf-suisse/", "DELF et DALF en Suisse", "Le calendrier national 2027."),
+               ("/centres/delf-suede/", "DELF et DALF en Suède", "Pas de centre TCF : le TEF Canada à Stockholm."),
                ("/tcf-irn/", "TCF IRN : le test de français pour votre naturalisation", "")]),
     dict(slug="tcf-ameriques", files=["tcf_etats_unis", "tcf_mexique", "tcf_colombie", "tcf_argentine", "tcf_equateur", "tcf_chili", "tcf_perou", "tcf_bresil", "tcf_haiti"],
          layout="multi", exam="TCF", accent="accent-tcf",
@@ -755,7 +759,7 @@ propose le TCF Canada, à quel prix, à quelles dates. Le Brésil et Haïti sont
          liste_label="pays par pays", decl="Canada, Québec, IRN, tout public, DAP",
          guides=[("/centres/tcf-etats-unis/", "TCF Canada aux États-Unis : 9 centres, prix et dates", "Qui le propose, de 330 à 460 $, et où restent des places."),
                  ("/centres/tcf-mexique/", "TCF Canada au Mexique : 5 centres, 4 800 à 6 500 pesos", "L'IFAL, Guadalajara, Puebla : sessions de calendrier ou sur demande."),
-                 ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada ?", "Les 47 centres canadiens et la méthode pour obtenir une place.")],
+                 ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada ?", "Les 48 centres canadiens et la méthode pour obtenir une place.")],
          sources_links=[("Liste des centres TCF par pays (FEI)", "https://www.france-education-international.fr/centres-d-examen/liste?type-centre=tcf"), ("Carte des centres TCF", FEI_CARTE % "tcf")],
          sources_text="type « TCF », filtres États-Unis, Mexique, Colombie, Argentine, Équateur, Chili, Pérou, Brésil et Haïti",
          faq=[("Où passer le TCF Canada aux États-Unis ?", "Dans l'un des neuf centres qui le proposaient le 8 octobre 2026 — Alliances françaises de Detroit, New York, Denver, Philadelphie, Kansas City, Houston et San Francisco, International School of Boston, Pluma Academy à Denver —, de 330 à 460 $. Atlanta, Chicago, Seattle et Washington ne font pas le TCF Canada."),
@@ -763,20 +767,21 @@ propose le TCF Canada, à quel prix, à quelles dates. Le Brésil et Haïti sont
               ("Où passer le TCF Canada au Mexique ?", "À l'IFAL à Mexico (5 150 pesos en session de calendrier), aux Alliances françaises de Guadalajara (4 950) et de Puebla (4 800), à l'UAEH de Pachuca ou à l'Alliance d'Aguascalientes ; les autres centres agréés ne mentionnent pas le TCF Canada."),
               ("Le TCF Canada passé hors du Canada est-il accepté par IRCC ?", "Oui : l'attestation est délivrée par France Éducation international quel que soit le centre agréé, et vaut deux ans."),
               ("Comment vérifier qu'un centre est agréé ?", "Dans la liste officielle de FEI, par pays. Un organisme absent de cette liste ne peut pas délivrer d'attestation TCF.")],
-         also=[("/centres/tcf-canada/", "Centres TCF au Canada", "Les 47 centres agréés, par province."),
+         also=[("/centres/tcf-canada/", "Centres TCF au Canada", "Les 48 centres agréés, par province."),
                ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", ""),
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", ""),
                ("/blog/validite-attestation-tcf-tef/", "Validité de l'attestation : deux ans à partir de quand ?", "")]),
     dict(slug="tcf-moyen-orient", files=["tcf_liban", "tcf_emirats_arabes_unis", "tcf_egypte", "tcf_turquie"], layout="multi", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF au Liban, aux Émirats, en Égypte, en Turquie",
+         modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="19 septembre et 26 octobre 2026",   # Turquie relue le 26/10/2026
          title="Centres TCF au Liban, aux Émirats, en Égypte, en Turquie",
-         desc="Les 16 centres TCF agréés au Liban, aux Émirats arabes unis, en Égypte et en Turquie — Beyrouth, Dubaï, Le Caire, Istanbul… — avec leurs contacts.",
+         desc="Les 17 centres TCF agréés au Liban, aux Émirats arabes unis, en Égypte et en Turquie — Beyrouth, Dubaï, Le Caire, Istanbul… — avec leurs contacts.",
          h1="Centres TCF au Liban, aux Émirats arabes unis, en Égypte et en Turquie",
          intro="""Au Proche et Moyen-Orient, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France
-Éducation international au Liban, aux Émirats arabes unis, en Égypte et en Turquie au 19 septembre
-2026 — Instituts français et Alliances françaises —, dont %(so)d avec des sessions sur ordinateur.
+Éducation international au Liban, aux Émirats arabes unis, en Égypte et en Turquie au 26 octobre
+2026 — Instituts français, Alliances françaises et, à Antalya, la Henza French Academy —, dont %(so)d avec des sessions sur ordinateur.
 Voici leurs coordonnées, pays par pays.""",
-         facts=["<strong>16 centres dans 4 pays</strong> : Liban 6, Émirats arabes unis 4, Égypte 3, Turquie 3 (liste FEI du 19 septembre 2026).",
+         facts=["<strong>17 centres dans 4 pays</strong> : Liban 6, Émirats arabes unis 4, Égypte 3, Turquie 4 (liste FEI du 26 octobre 2026).",
                 "Le Liban est l'un des premiers pays d'origine des candidats au TCF Canada : six centres, dont l'Institut français du Liban à Beyrouth.",
                 "Chaque centre choisit ses déclinaisons, ses dates et son tarif.",
                 "Le TEF Canada relève du réseau du Français des affaires.",
@@ -795,20 +800,20 @@ Voici leurs coordonnées, pays par pays.""",
               ("Le TCF Canada passé au Liban est-il accepté par IRCC ?", "Oui : l'attestation est délivrée par France Éducation international quel que soit le centre agréé, et vaut deux ans."),
               ("Comment vérifier qu'un centre est agréé ?", "Dans la liste officielle de FEI, par pays.")],
          also=[("/centres/tcf-inde/", "Centres TCF en Inde", "Les sept centres agréés."),
-               ("/centres/tcf-canada/", "Centres TCF au Canada", "Les 47 centres agréés."),
+               ("/centres/tcf-canada/", "Centres TCF au Canada", "Les 48 centres agréés."),
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", ""),
                ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "")]),
     dict(slug="tcf-inde", files=["tcf_inde"], layout="cities", exam="TCF", accent="accent-tcf",
-         modified="2026-10-08", date_fr="8 octobre 2026", list_date_fr="8 octobre 2026",
+         modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="26 octobre 2026",   # liste FEI relue le 26/10/2026 (relevé des sites : 8/10)
          crumb="Centres TCF en Inde",
          title="Centres TCF en Inde : les 7 centres agréés, contacts",
          desc="Les sept centres TCF agréés en Inde — Alliances françaises de New Delhi, Calcutta, Bangalore, Ahmedabad, Bhopal, Lucknow, Trivandrum —, leurs contacts.",
          h1="Centres TCF en Inde : les 7 centres agréés et leurs contacts",
          intro="""En Inde, le TCF Canada se passe dans l'un des <strong>%(n)d centres agréés</strong> par France Éducation
-international au 8 octobre 2026 — les Alliances françaises —, dont %(so)d avec des sessions sur
+international au 26 octobre 2026 — les Alliances françaises —, dont %(so)d avec des sessions sur
 ordinateur. Voici leurs coordonnées, ville par ville. Le TEF Canada, l'autre test accepté par IRCC,
 relève du réseau du Français des affaires, souvent dans les mêmes Alliances.""",
-         facts=["<strong>7 centres agréés</strong>, tous des Alliances françaises (liste FEI du 8 octobre 2026), 3 avec des sessions sur ordinateur : New Delhi, Calcutta, Ahmedabad.",
+         facts=["<strong>7 centres agréés</strong>, tous des Alliances françaises (liste FEI du 26 octobre 2026), 4 avec des sessions sur ordinateur : New Delhi, Calcutta, Ahmedabad, Trivandrum.",
                 "Ni Mumbai ni Chennai ne figurent dans la liste du TCF.",
                 "<strong>5 Alliances affichent le TCF Canada</strong> le 8 octobre 2026 : New Delhi, Calcutta, Ahmedabad, Bangalore, Bhopal ; Lucknow ne propose que le TEF Canada et Trivandrum annonce le TCF « bientôt ».",
                 "Prix : <strong>26 000 roupies</strong> à New Delhi, Calcutta et Bhopal (TTC à New Delhi et Calcutta) ; non publié à Ahmedabad et Bangalore.",
@@ -824,8 +829,8 @@ relève du réseau du Français des affaires, souvent dans les mêmes Alliances.
                  ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", ""),
                  ("/ou-passer/", "Où passer le DELF, le TCF ou le TEF ? Le hub", "")],
          sources_links=[("Liste des centres TCF en Inde", FEI_LISTE % (45, "tcf")), ("Carte des centres TCF", FEI_CARTE % "tcf")],
-         sources_text="filtre « Inde », type « TCF », et sites des Alliances françaises de New Delhi, Calcutta, Ahmedabad, Bangalore, Bhopal, Lucknow et Trivandrum (pages TCF et TEF, calendriers, boutiques)",
-         faq=[("Où passer le TCF Canada en Inde ?", "Dans l'une des sept Alliances françaises agréées listées ci-dessous — à New Delhi, Calcutta, Bangalore, Ahmedabad, Bhopal, Lucknow et Trivandrum. Mumbai et Chennai ne figurent pas dans la liste du TCF de France Éducation international (8 octobre 2026)."),
+         sources_text="filtre « Inde », type « TCF », et sites des Alliances françaises de New Delhi, Calcutta, Ahmedabad, Bangalore, Bhopal, Lucknow et Trivandrum (pages TCF et TEF, calendriers, boutiques, consultés le 8 octobre 2026)",
+         faq=[("Où passer le TCF Canada en Inde ?", "Dans l'une des sept Alliances françaises agréées listées ci-dessous — à New Delhi, Calcutta, Bangalore, Ahmedabad, Bhopal, Lucknow et Trivandrum. Mumbai et Chennai ne figurent pas dans la liste du TCF de France Éducation international (26 octobre 2026)."),
               ("Le TCF Canada passé en Inde est-il accepté par IRCC ?", "Oui : l'attestation est délivrée par France Éducation international quel que soit le centre agréé, et vaut deux ans."),
               ("Combien coûte le TCF en Inde ?", "26 000 roupies pour le TCF Canada à New Delhi, Calcutta et Bhopal (TTC à New Delhi et Calcutta) le 8 octobre 2026 ; Ahmedabad et Bangalore ne publient pas leur tarif. Calcutta affiche aussi le TCF Québec à 6 500 roupies par épreuve."),
               ("TCF Canada ou TEF Canada ?", "Les deux sont acceptés par IRCC ; le TEF relève du réseau du Français des affaires, souvent proposé par les mêmes Alliances. Notre comparatif TCF ou TEF Canada les met côte à côte."),
@@ -956,8 +961,8 @@ officielle, lue le 19 septembre 2026 et complétée les 8 et 26 octobre 2026 : <
 avec l'adresse, le téléphone, l'e-mail et le site de chacun, classés par pays, région et ville. Choisissez votre
 liste, puis vérifiez sur le site du centre la déclinaison, la date et le prix.""",
         "facts": [f"<strong>{fr_int(total)} centres</strong> avec leurs contacts, d'après la liste officielle de FEI (19 septembre 2026, complétée les 8 et 26 octobre 2026).",
-                  "France : <strong>251 centres TCF</strong>, <strong>143 centres DELF-DALF</strong>, <strong>245 centres d'examen civique</strong>.",
-                  "TCF hors de France : Canada 47 · Maroc 16 · Tunisie 14 · Algérie 5 · Afrique subsaharienne 23 · " + " · ".join(f"{t} {n}" for t, n in regional_counts(pages_built)) + ".",
+                  "France : <strong>247 centres TCF</strong>, <strong>143 centres DELF-DALF</strong>, <strong>245 centres d'examen civique</strong>.",
+                  "TCF hors de France : Canada 48 · Maroc 16 · Tunisie 14 · Algérie 5 · Afrique subsaharienne 23 · " + " · ".join(f"{t} {n}" for t, n in regional_counts(pages_built)) + ".",
                   f"<strong>{len(order)} pays détaillés</strong> — {', '.join(order[:-1])} et {order[-1]} — : {n_tcf_pays} centres TCF et {n_delf_pays} centres DELF-DALF, avec prix et dates relevés.",
                   "Chaque liste dit qu'un centre est agréé, pas quelle déclinaison il organise : nos relevés le vérifient pour les pays détaillés et les grandes villes.",
                   "Un organisme absent de ces listes n'est pas agréé."],
@@ -968,7 +973,7 @@ liste, puis vérifiez sur le site du centre la déclinaison, la date et le prix.
 «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent le format officiel de chaque déclinaison, avec
 la notation du vrai test et la correction IA de l'écrit et de l'oral.""",
         "faq": [("Comment trouver un centre d'examen près de chez moi ?", "Ouvrez la liste de votre pays ci-dessus : les centres y sont classés par région ou par ville, avec adresse, téléphone, e-mail et site. Pour un autre pays, la liste officielle de France Éducation international se filtre par pays."),
-                ("Ces listes sont-elles officielles ?", "Elles reproduisent la liste officielle de France Éducation international, lue le 19 septembre 2026 — le 8 octobre 2026 pour l'Espagne, le Royaume-Uni, les États-Unis et l'Amérique latine, le 26 octobre 2026 pour dix autres pays d'Europe —, avec les coordonnées que FEI publie. FEI agrée et retire des centres au fil de l'année : en cas de doute, sa liste en ligne fait foi."),
+                ("Ces listes sont-elles officielles ?", "Elles reproduisent la liste officielle de France Éducation international, lue le 19 septembre 2026 — le 8 octobre 2026 pour l'Espagne, le Royaume-Uni, les États-Unis et l'Amérique latine, le 26 octobre 2026 pour dix autres pays d'Europe et pour le TCF en France, au Canada, en Turquie, au Sénégal et en Inde —, avec les coordonnées que FEI publie. FEI agrée et retire des centres au fil de l'année : en cas de doute, sa liste en ligne fait foi."),
                 ("Un centre TCF fait-il passer le TCF Canada ?", "Pas forcément : chaque centre choisit ses déclinaisons — Canada, Québec, IRN, tout public. La liste de FEI ne le précise pas ; le site du centre, si. Nos guides « Où passer » l'ont vérifié pour les principaux centres."),
                 ("Où sont les centres TEF ?", "Le TEF relève du Français des affaires (CCI Paris Île-de-France), qui publie son propre annuaire « Trouver un centre agréé », tous pays confondus."),
                 ("Peut-on passer ces examens en ligne ?", "Non. DELF, DALF, TCF et examen civique se passent en présentiel, dans un centre agréé, sur convocation et avec contrôle d'identité. Toute offre « à distance » est une fraude.")],
@@ -980,7 +985,7 @@ la notation du vrai test et la correction IA de l'écrit et de l'oral.""",
 (DELF-DALF, TCF, examen civique), lues pays par pays le 19 septembre 2026, et le 8 octobre 2026 pour
 l'Espagne, le Royaume-Uni, les États-Unis, le Mexique, la Colombie, l'Argentine, le Chili, le Pérou et
 l'Équateur, et le 26 octobre 2026 pour l'Allemagne, la Suisse, la Belgique, l'Italie, les Pays-Bas, le Portugal, la
-Roumanie, la Pologne, la Grèce et l'Irlande ; annuaire « Trouver un centre agréé » du Français des affaires. Chaque liste cite son filtre
+Roumanie, la Pologne, la Grèce et l'Irlande, ainsi que le TCF en France, au Canada, en Turquie, au Sénégal et en Inde ; annuaire « Trouver un centre agréé » du Français des affaires. Chaque liste cite son filtre
 et sa date.""",
     }
 

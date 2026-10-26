@@ -24,6 +24,14 @@ from villes_config import VILLES, PROCEDURES  # noqa: E402
 DATE = "2026-09-19"
 DATE_FR = "19 septembre 2026"
 RELEVE = "17 septembre 2026"
+MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+
+
+def list_date(datasets):
+    """Date de la liste FEI d'une page : celle de son fichier de données (26/10/2026 : TCF France et Canada relus)."""
+    iso = max(load(ds).get("date", DATE) for ds in datasets)
+    y, m, d = iso.split("-")
+    return iso, f"{'1er' if d == '01' else int(d)} {MOIS[int(m) - 1]} {y}"
 
 
 def centres_of(datasets, names):
@@ -40,6 +48,10 @@ def page(v):
     cs = centres_of(v["datasets"], v["match"])
     near = centres_of(v["datasets"], v.get("nearby", [])) if v.get("nearby") else []
     n, so = len(cs), sum(1 for c, _ in cs if c["so"])
+    liso, lfr = list_date(v["datasets"])
+    mod = v.get("modified") or (DATE, DATE_FR)
+    if liso > mod[0]:              # liste relue après la dernière retouche de la page
+        mod = (liso, lfr)
     exam = v["exam"]
     label = v["label"]
     country = v["country"]
@@ -69,14 +81,14 @@ def page(v):
         stat2 = (str(so), "sur ordinateur", "tous les centres de la ville" if so == n else "les autres sur papier")
     else:
         stat2 = ("3", "sessions nationales", "d'ici fin 2026 : oct., nov., déc.")
-    st = stats([(str(n), f"centre{'s' if n > 1 else ''} agréé{'s' if n > 1 else ''}", f"liste FEI du {DATE_FR}"),
+    st = stats([(str(n), f"centre{'s' if n > 1 else ''} agréé{'s' if n > 1 else ''}", f"liste FEI du {lfr}"),
                 stat2, v["stat3"], v["stat4"]])
     guides = "\n".join(f'<li><a href="{u}">{t}</a>' + (f"\n<p>{d}</p>" if d else "") + "</li>" for u, t, d in v["guides"])
     body = f"""
 {st}
 
 <h2 id="centres">{head}</h2>
-<p>{v['centres_intro']}</p>
+<p>{v['centres_intro'].replace('{liste_fei}', lfr)}</p>
 <div class="grid c2 centres">
 {cards}
 </div>
@@ -98,8 +110,8 @@ def page(v):
         "section": "centres", "section_name": "Centres", "og_slug": v.get("og_slug", "centres"),
         "slug": v["slug"], "accent": "accent-tcf" if exam == "tcf" else "accent-delf", "crumb": v["crumb"],
         "title": v["title"], "desc": v["desc"], "h1": v["h1"],
-        "published": v.get("published") or DATE, "modified": (v.get("modified") or (DATE, DATE_FR))[0],
-        "date_fr": (v.get("modified") or (DATE, DATE_FR))[1], "read": 5,
+        "published": v.get("published") or DATE, "modified": mod[0],
+        "date_fr": mod[1], "read": 5,
         "intro": v["intro"] % {"n": n, "so": so},
         "facts": v["facts"],
         "toc": toc, "body": body,
@@ -111,7 +123,7 @@ notation du vrai test et la correction IA de l'écrit et de l'oral."""),
         "faq": v["faq"],
         "also": v["also"],
         "sources": f"""<strong>Sources.</strong> Liste des centres d'examen de France Éducation international
-(filtre « {country_label(country)} », type « {exam_label} »), consultée le {DATE_FR} — coordonnées telles que FEI
+(filtre « {country_label(country)} », type « {exam_label} »), consultée le {lfr} — coordonnées telles que FEI
 les publie, adresses e-mail génériques seulement ; sites des centres cités dans le tableau, consultés le
 {releve}. Les prix, dates et déclinaisons changent sans préavis : vérifiez-les sur le site du centre
 avant de payer.""",

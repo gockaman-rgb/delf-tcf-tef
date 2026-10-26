@@ -2,8 +2,8 @@
  "country": "Canada",
  "type": "tcf",
  "key": "Centre de passation",
- "n": 48,
- "date": "2026-09-19",
+ "n": 49,
+ "date": "2026-10-26",
  "centres": [
   {
    "name": "Maison Alpha ABC Côte Nord",
@@ -51,9 +51,7 @@
    "city_cp": "Chibougamau (Québec)",
    "address": "119, 5eme avenue",
    "phone": "1-418-679-5412",
-   "emails": [
-    "sec_chib@cegepstfe.ca"
-   ],
+   "emails": [],
    "url": "https://seccol.com/",
    "so": true
   },
@@ -86,9 +84,9 @@
   {
    "name": "Alliance française",
    "city": "Edmonton (Alberta)",
-   "cp": "10424",
-   "city_cp": "123 street NW",
-   "address": "T5N1N7 Edmonton (Alberta)",
+   "cp": "T5N1N7",
+   "city_cp": "Edmonton (Alberta)",
+   "address": "10424 123 street NW",
    "phone": "1-780-469-0399",
    "emails": [
     "tcf@afedmonton.ca"
@@ -136,9 +134,9 @@
   {
    "name": "Halifax, Alliance française",
    "city": "Halifax (Nouvelle-Écosse)",
-   "cp": "5509",
-   "city_cp": "Young Street",
-   "address": "NS-B3K-1Z7 Halifax (Nouvelle-Écosse)",
+   "cp": "NS-B3K-1Z7",
+   "city_cp": "Halifax (Nouvelle-Écosse)",
+   "address": "5509 Young Street",
    "phone": "1-902-580-8284",
    "emails": [
     "exam@afhalifax.ca"
@@ -162,9 +160,9 @@
   {
    "name": "Kuper Academy",
    "city": "Kirkland (Québec)",
-   "cp": "2975",
-   "city_cp": "rue Edmond",
-   "address": "H9H-5K5 Kirkland (Québec)",
+   "cp": "H9H-5K5",
+   "city_cp": "Kirkland (Québec)",
+   "address": "2975 rue Edmond",
    "phone": "514-426-3007",
    "emails": [],
    "url": "https://www.kuperacademy.ca",
@@ -186,9 +184,9 @@
   {
    "name": "Centre de formation Les Berges",
    "city": "Laval (Québec)",
-   "cp": "2100",
-   "city_cp": "rue Cunard",
-   "address": "H7S-2G5 Laval (Québec)",
+   "cp": "H7S-2G5",
+   "city_cp": "Laval (Québec)",
+   "address": "2100 rue Cunard",
    "phone": "1-450-662-7000 / 3183",
    "emails": [
     "lesberges-tcf_tef@csslaval.gouv.qc.ca"
@@ -216,7 +214,9 @@
    "city_cp": "Mississauga (Ontario)",
    "address": "Campus de Mississauga 4261 Sherwoodtown Blvd",
    "phone": "905-272-4444",
-   "emails": [],
+   "emails": [
+    "mississauga@alliance-francaise.ca"
+   ],
    "url": "https://www.alliance-francaise.ca/fr/",
    "so": true
   },
@@ -228,7 +228,7 @@
    "address": "236, Rue St Georges #19",
    "phone": "1-506-387-50-56",
    "emails": [
-    "direction@afmoncton.ca"
+    "exams@afmoncton.ca"
    ],
    "url": "http://www.afmoncton.ca",
    "so": true
@@ -249,9 +249,9 @@
   {
    "name": "Cégep Marie-Victorin",
    "city": "Montréal (Québec)",
-   "cp": "4975",
-   "city_cp": "Rue Paré",
-   "address": "H4P-1P4 Montréal (Québec)",
+   "cp": "H4P-1P4",
+   "city_cp": "Montréal (Québec)",
+   "address": "4975 Rue Paré",
    "phone": "01-514-278-3535",
    "emails": [
     "tcf@cegepmv.qc.ca"
@@ -299,9 +299,9 @@
   {
    "name": "Université Concordia",
    "city": "Montréal (Québec)",
-   "cp": "1250",
-   "city_cp": "rue Guy,Faubourg building 1ere étage, FB 117",
-   "address": "H3H-2T4 Montréal (Québec)",
+   "cp": "H3H-2T4",
+   "city_cp": "Montréal (Québec)",
+   "address": "1250 rue Guy,Faubourg building 1ere étage, FB 117",
    "phone": "1-514-848-3600",
    "emails": [
     "language.test@concordia.ca"
@@ -316,9 +316,7 @@
    "city_cp": "Montréal (Québec)",
    "address": "209, rue Ste-Catherine Est bureau V-5105",
    "phone": "1-514-987-3000 / 1-514-987-2558",
-   "emails": [
-    "tcfqc@uqam.ca"
-   ],
+   "emails": [],
    "url": "https://francisation.uqam.ca/tests-tcf/infos/",
    "so": true
   },
@@ -414,8 +412,8 @@
    "city": "Québec (Québec)",
    "cp": "G1V0A6",
    "city_cp": "Québec (Québec)",
-   "address": "1030, av. des Sciences-Humaine Pavillon Charles-De Koninck local 2305",
-   "phone": "+1418-656-2321 / +1418-402-522",
+   "address": "1030, av. des Sciences-Humaine Pavillon Charles-De Koninck bureau 3237",
+   "phone": "1-418-656-7770",
    "emails": [
     "tests-langues@elul.ulaval.ca"
    ],
@@ -453,10 +451,10 @@
    "city": "Saint-Constant (Québec)",
    "cp": "J5A2J6",
    "city_cp": "Saint-Constant (Québec)",
-   "address": "247 D, rue Ste-Catherine Local 200",
+   "address": "247D, rue Ste-Catherine Local 200",
    "phone": "450-635-3222",
    "emails": [
-    "info@complx.ca"
+    "tcf@complx.ca"
    ],
    "url": "http://complx.ca",
    "so": true
@@ -464,9 +462,9 @@
   {
    "name": "Cégep de Saint Félicien",
    "city": "Saint-Félicien (Québec)",
-   "cp": "1105",
-   "city_cp": "Bd Hamel",
-   "address": "G8K-2R8 Saint-Félicien (Québec)",
+   "cp": "G8K-2R8",
+   "city_cp": "Saint-Félicien (Québec)",
+   "address": "1105 Bd Hamel",
    "phone": "1-418-679-5412",
    "emails": [],
    "url": "https://seccol.com/",
@@ -499,9 +497,9 @@
   {
    "name": "Centre de Langues - Univ Sherbrooke",
    "city": "Sherbrooke (Québec)",
-   "cp": "2500",
-   "city_cp": "boulevard de l'Université",
-   "address": "J1K-2R1 Sherbrooke (Québec)",
+   "cp": "J1K-2R1",
+   "city_cp": "Sherbrooke (Québec)",
+   "address": "2500 boulevard de l'Université",
    "phone": "1-819-821-8000",
    "emails": [
     "langues@USherbrooke.ca"
@@ -547,9 +545,9 @@
   {
    "name": "Alliance française Canada Pacific",
    "city": "Vancouver (Colombie-Britannique)",
-   "cp": "6161",
-   "city_cp": "Cambie Street",
-   "address": "BC-V5Z3B2 Vancouver (Colombie-Britannique)",
+   "cp": "BC-V5Z3B2",
+   "city_cp": "Vancouver (Colombie-Britannique)",
+   "address": "6161 Cambie Street",
    "phone": "1-604-327-02-01",
    "emails": [
     "info@alliancefrancaise.ca"
@@ -571,9 +569,9 @@
   {
    "name": "Alliance française de Victoria",
    "city": "Victoria (Colombie-Britannique)",
-   "cp": "1218",
-   "city_cp": "Langley street",
-   "address": "V8R-0A4 Victoria (Colombie-Britannique)",
+   "cp": "V8R-0A4",
+   "city_cp": "Victoria (Colombie-Britannique)",
+   "address": "1218 Langley street",
    "phone": "1-778-326-0701",
    "emails": [
     "af@afcapa.ca"
@@ -592,6 +590,17 @@
     "tcfvictoria@uvic.ca"
    ],
    "url": "https://www.uvic.ca/humanities/french/",
+   "so": false
+  },
+  {
+   "name": "Windsor, Collège Boréal Windsor",
+   "city": "Windsor (Ontario)",
+   "cp": "N8T-3P5",
+   "city_cp": "Windsor (Ontario)",
+   "address": "7515 Forest Glade Dr -",
+   "phone": "+1519-948-6019",
+   "emails": [],
+   "url": "https://collegeboreal.ca/",
    "so": false
   },
   {

@@ -271,12 +271,13 @@ def render(a, overwrite=False):
 def build(articles, overwrite=False):
     # ONLY=/en/foo/,/centres/bar/ (26/10/2026) : ne (ré)écrit que les pages dont le chemin contient l'un de ces
     # morceaux, en écrasant ; les autres sont ignorées — plusieurs chantiers peuvent ainsi tourner en même temps.
+    # Un morceau terminé par « $ » exige le chemin exact : ONLY=/en/$ réécrit le hub anglais seul, pas tout /en/.
     only = [p for p in os.environ.get("ONLY", "").split(",") if p]
     for a in articles:
         if only:
             section = a.get("section", "blog")
-            path = f"/{section}/{a['slug']}/" if section else f"/{a['slug']}/"
-            if not any(p in path for p in only):
+            path = re.sub(r"/+", "/", f"/{section}/{a['slug']}/" if section else f"/{a['slug']}/")
+            if not any(path == p[:-1] if p.endswith("$") else p in path for p in only):
                 continue
             overwrite = True
         out, w = render(a, overwrite)

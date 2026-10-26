@@ -364,19 +364,19 @@ IRN = {
     "accent": "accent-irn",
     "crumb": "Où passer le TCF IRN en France",
     "title": "Où passer le TCF IRN en France ? Centres et inscription",
-    "desc": "251 centres TCF en France, pas tous en IRN. Les centres relevés à Paris et en région, leurs prix de 140 à 220 €, leurs dates et le pas-à-pas d'inscription.",
+    "desc": "247 centres TCF en France, pas tous en IRN. Les centres relevés à Paris et en région, leurs prix de 140 à 220 €, leurs dates et le pas-à-pas d'inscription.",
     "og_title": "Où passer le TCF IRN en France ? Centres et inscription",
     "og_desc": "Les centres relevés à Paris et en région, leurs prix de 140 à 220 €, leurs dates et le pas-à-pas d'inscription.",
     "h1": "Où passer le TCF IRN en France&nbsp;? Les centres, les prix et l'inscription",
-    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 10,
+    "published": DATE, "modified": "2026-10-26", "date_fr": "26 octobre 2026", "read": 10,   # 26/10 : liste FEI relue (247 centres)
     "intro": """Le TCF IRN se passe dans un <strong>centre agréé par France Éducation international</strong>
-— 251 centres TCF en France, dont sept à Paris — sur papier ou sur ordinateur, avec des sessions
+— 247 centres TCF en France, dont sept à Paris — sur papier ou sur ordinateur, avec des sessions
 <strong>chaque semaine dans les grandes villes</strong>. On s'inscrit <strong>en ligne auprès du
 centre</strong>, on paie entre <strong>140 € et 220 €</strong> selon l'adresse, et l'attestation
 arrive <strong>deux à trois semaines</strong> plus tard. Voici où, comment, à quel prix — et ce
 qu'il faut éviter, à commencer par les offres « à distance ».""",
     "facts": [
-        "<strong>251 centres TCF</strong> en France (liste FEI, 17 septembre 2026), 126 avec des sessions sur ordinateur — mais <strong>tous ne proposent pas l'IRN</strong> : vérifiez la déclinaison sur le site du centre.",
+        "<strong>247 centres TCF</strong> en France (liste FEI, 26 octobre 2026), 129 avec des sessions sur ordinateur — mais <strong>tous ne proposent pas l'IRN</strong> : vérifiez la déclinaison sur le site du centre.",
         "À Paris, <strong>7 centres</strong> ; ACTE affiche une session IRN par semaine, ACCORD deux par mois.",
         "Prix libre : <strong>140 € (ACTE, Paris) à 220 € (ACCORD, Paris)</strong> ; 169 € à Lyon, 180 € à Rennes, 185 € à Montpellier.",
         "Inscription <strong>en ligne, en quelques minutes</strong>, jusqu'à 2 à 10 jours avant la session ; pièce d'identité valide obligatoire le jour J.",
@@ -400,8 +400,8 @@ qu'il faut éviter, à commencer par les offres « à distance ».""",
 France Éducation international et <strong>administré par des centres agréés</strong> : Alliances
 françaises, écoles de langue, organismes de formation, GRETA, quelques universités. FEI n'inscrit
 personne directement ; c'est le centre qui ouvre les sessions, fixe son tarif, vous convoque et vous
-remet l'attestation. Sa liste officielle compte, au 17 septembre 2026, <strong>251 centres de
-passation en France</strong>, dont 126 proposent des sessions sur ordinateur.</p>
+remet l'attestation. Sa liste officielle compte, au 26 octobre 2026, <strong>247 centres de
+passation en France</strong>, dont 129 proposent des sessions sur ordinateur.</p>
 
 <p>Une subtilité qui coûte des semaines aux candidats : la liste de FEI dit qu'un centre est agréé
 TCF, <strong>pas quelle déclinaison il organise</strong>. L'Alliance française de Strasbourg fait
@@ -592,7 +592,7 @@ atteint, et corrigent votre écrit et votre oral sur les critères du test.""",
         ("/blog/ou-passer-le-delf-en-france/", "Où passer le DELF en France&nbsp;?", "Le diplôme valable à vie : 143 centres, dix sessions par an, et des fenêtres d'inscription à ne pas manquer."),
     ],
     "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
-international (filtre « France ») et page « TCF IRN », consultées le 17 septembre 2026 ; pages
+international (filtre « France », relue le 26 octobre 2026) et page « TCF IRN », consultée le 17 septembre 2026 ; pages
 et formulaires d'inscription d'ACTE (calendriers papier et ordinateur, inscription TCF IRN),
 grille « Tarifs 2026 des examens » et « Calendrier examens TCF septembre-novembre 2026 » d'ACCORD
 (examensparis.fr), page tarifs d'Etoile Institut, produits TCF de l'Alliance française de Lyon,
@@ -615,10 +615,10 @@ CAN_FR = {
     "og_title": "Où passer le TCF Canada en France ? Centres et inscription",
     "og_desc": "Les centres qui proposent le TCF Canada à Paris et en région, leurs prix de 195 à 285 €, leurs dates et le pas-à-pas d'inscription.",
     "h1": "Où passer le TCF Canada en France&nbsp;? Les centres, les prix et l'inscription",
-    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 10,
+    "published": DATE, "modified": "2026-10-26", "date_fr": "26 octobre 2026", "read": 10,   # 26/10 : liste FEI relue (247 centres)
     "intro": """Le TCF Canada se passe en France dans un <strong>centre agréé par France Éducation
 international qui a choisi d'organiser cette déclinaison</strong> — ce n'est pas le cas des
-251 centres TCF du pays. À Paris, au moins trois centres le proposent <strong>chaque mois</strong> ;
+247 centres TCF du pays. À Paris, au moins trois centres le proposent <strong>chaque mois</strong> ;
 en région, les Alliances françaises de Lyon, Montpellier ou Aix-Marseille, les centres KLF, CLPS…
 Comptez <strong>195 à 285 €</strong>, une inscription <strong>en ligne</strong> qui ferme quelques
 jours avant la session, et <strong>deux à trois semaines</strong> pour l'attestation.""",
@@ -645,8 +645,8 @@ jours avant la session, et <strong>deux à trois semaines</strong> pour l'attest
 <p>Le <a href="/tcf-canada/">TCF Canada</a> est l'un des deux tests acceptés par Immigration,
 Réfugiés et Citoyenneté Canada pour prouver son français — l'autre est le TEF Canada. Il est conçu
 par France Éducation international et <strong>organisé par des centres agréés</strong> qui décident,
-chacun, des déclinaisons qu'ils ouvrent. La liste officielle de FEI compte 251 centres TCF en
-France au 17 septembre 2026, mais elle ne dit pas lesquels font passer le <em>Canada</em> : il
+chacun, des déclinaisons qu'ils ouvrent. La liste officielle de FEI compte 247 centres TCF en
+France au 26 octobre 2026, mais elle ne dit pas lesquels font passer le <em>Canada</em> : il
 faut lire la page du centre. Sur ceux que nous avons ouverts, l'Alliance française de Strasbourg et
 Etoile Institut (Paris) n'en proposent pas ; ACTE, ACCORD, les Alliances françaises de Lyon, de
 Montpellier et d'Aix-Marseille, KLF, CLPS et Espaces Formation, oui.</p>
@@ -819,11 +819,11 @@ l'oral — pour savoir, avant de payer 195 à 285 €, si la session du mois pro
     "also": [
         ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", "Les quatre épreuves, la conversion NCLC, les seuils pour Entrée express."),
         ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", "458 en compréhension orale, 453 à l'écrit, 10/20 en expression — et pourquoi un B2 ne vaut pas toujours NCLC 7."),
-        ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada&nbsp;?", "Les 47 centres agréés, de Montréal à Iqaluit, et comment obtenir une place."),
+        ("/blog/ou-passer-le-tcf-canada-au-canada/", "Où passer le TCF Canada au Canada&nbsp;?", "Les 48 centres agréés, de Montréal à Iqaluit, et comment obtenir une place."),
         ("/blog/prix-tcf-tef/", "Combien coûte vraiment le TCF ou le TEF&nbsp;?", "Aucun tarif national : les prix relevés centre par centre, en France et au Canada."),
     ],
     "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
-international (filtre « France »), consultée le 17 septembre 2026 ; pages et formulaires
+international (filtre « France »), relue le 26 octobre 2026 ; pages et formulaires
 d'inscription TCF Canada d'ACTE, grille « Tarifs 2026 » et calendrier septembre-novembre 2026
 d'ACCORD (examensparis.fr), page tarifs d'Etoile Institut, produit « Examen TCF Canada » de
 l'Alliance française de Lyon, pages tarifs et TCF Canada de l'Alliance française de Montpellier,
@@ -842,19 +842,19 @@ CAN_CA = {
     "accent": "accent-tcf",
     "crumb": "Où passer le TCF Canada au Canada",
     "title": "Où passer le TCF Canada au Canada ? Centres et inscription",
-    "desc": "47 centres agréés de Montréal à Iqaluit, des sessions complètes en minutes, 390 à 440 $ : où passer le TCF Canada au Canada et comment obtenir une place.",
-    "og_title": "Où passer le TCF Canada au Canada ? Les 47 centres agréés",
-    "og_desc": "47 centres agréés, de Montréal à Iqaluit, des sessions complètes en quelques minutes, 390 à 440 $ : où passer le TCF Canada et comment obtenir une place.",
-    "h1": "Où passer le TCF Canada au Canada&nbsp;? Les 47 centres agréés et l'inscription",
-    "published": DATE, "modified": DATE, "date_fr": DATE_FR, "read": 11,
-    "intro": """Au Canada, le TCF Canada se passe dans l'un des <strong>47 centres agréés</strong> par France
+    "desc": "48 centres agréés de Montréal à Iqaluit, des sessions complètes en minutes, 390 à 440 $ : où passer le TCF Canada au Canada et comment obtenir une place.",
+    "og_title": "Où passer le TCF Canada au Canada ? Les 48 centres agréés",
+    "og_desc": "48 centres agréés, de Montréal à Iqaluit, des sessions complètes en quelques minutes, 390 à 440 $ : où passer le TCF Canada et comment obtenir une place.",
+    "h1": "Où passer le TCF Canada au Canada&nbsp;? Les 48 centres agréés et l'inscription",
+    "published": DATE, "modified": "2026-10-26", "date_fr": "26 octobre 2026", "read": 11,   # 26/10 : liste FEI relue (48 centres, Windsor)
+    "intro": """Au Canada, le TCF Canada se passe dans l'un des <strong>48 centres agréés</strong> par France
 Éducation international — le réseau des Alliances françaises, des universités et des cégeps —,
 présents dans <strong>neuf provinces et au Nunavut</strong>. Montréal en compte sept, Toronto quatre
 sites. On s'inscrit <strong>en ligne, centre par centre</strong>, entre <strong>390 et 440 $CA</strong>,
 et la vraie difficulté n'est pas le prix : c'est la <strong>place</strong>, les sessions se
 remplissant en quelques minutes à Toronto et Vancouver.""",
     "facts": [
-        "<strong>47 centres agréés</strong> au Canada (liste FEI du 17 septembre 2026), dont 44 avec des sessions sur ordinateur : 23 au Québec, 7 en Ontario, 5 en Colombie-Britannique, 3 en Alberta, 2 en Saskatchewan, 3 au Nouveau-Brunswick, 1 au Manitoba, en Nouvelle-Écosse, à Terre-Neuve et au Nunavut.",
+        "<strong>48 centres agréés</strong> au Canada (liste FEI du 26 octobre 2026), dont 44 avec des sessions sur ordinateur : 23 au Québec, 8 en Ontario, 5 en Colombie-Britannique, 3 en Alberta, 2 en Saskatchewan, 3 au Nouveau-Brunswick, 1 au Manitoba, en Nouvelle-Écosse, à Terre-Neuve et au Nunavut.",
         "Prix libre et <strong>souvent non publié</strong> : 390 $ à l'Alliance française de Vancouver, 400 $ à Edmonton, 440 $ à l'UQTR ; l'Alliance française de Montréal n'affiche aucun tarif.",
         "⚠️ <strong>Les places partent en minutes.</strong> À Toronto, sessions trimestrielles, inscription ouverte un mois avant à 10 h — « si une session n'est pas listée, elle est complète », pas de liste d'attente. À Vancouver, toutes les sessions affichaient complet le 17 septembre.",
         "Inscription <strong>en ligne uniquement</strong>, définitive : annulation à plus de 15 jours moyennant 75 $ (Montréal) ou 15 $ par épreuve (Stanislas), rien en deçà.",
@@ -862,7 +862,7 @@ remplissant en quelques minutes à Toronto et Vancouver.""",
         "Depuis les sessions du 1<sup>er</sup> septembre 2026, <strong>plus aucune recorrection</strong> : le score est définitif.",
     ],
     "toc": [
-        ("reseau", "47 centres, neuf provinces et le Nunavut"),
+        ("reseau", "48 centres, neuf provinces et le Nunavut"),
         ("montreal", "Montréal et le Québec"),
         ("ontario", "Toronto, Ottawa et l'Ontario"),
         ("ouest", "Vancouver, Calgary, Edmonton et les Prairies"),
@@ -873,10 +873,10 @@ remplissant en quelques minutes à Toronto et Vancouver.""",
         ("pieges", "Les pièges : TCF Québec, annulation, recorrection"),
     ],
     "body": """
-<h2 id="reseau">47 centres, neuf provinces et le Nunavut</h2>
+<h2 id="reseau">48 centres, neuf provinces et le Nunavut</h2>
 
-<p>La liste officielle de France Éducation international recense, au 17 septembre 2026,
-<strong>48 entrées « Canada »</strong> — 47 centres distincts, l'un d'eux apparaissant deux fois.
+<p>La liste officielle de France Éducation international recense, au 26 octobre 2026,
+<strong>49 entrées « Canada »</strong> — 48 centres distincts, l'un d'eux apparaissant deux fois.
 Trois familles : les <strong>Alliances françaises</strong> (Montréal, Toronto et ses campus,
 Ottawa, Vancouver, Victoria, Calgary, Edmonton, Winnipeg, Halifax, Moncton), les
 <strong>universités et cégeps</strong> (UQAM, Concordia, Laval, UQTR, UQAC, UQAT, Sherbrooke,
@@ -905,7 +905,7 @@ janvier 2022 », rappelle l'Alliance française de Montréal.</p>
 
 <div class="tablewrap wide">
 <table>
-<caption>Centres TCF agréés au Québec (liste FEI du 17 septembre 2026). SO = sessions sur ordinateur disponibles.</caption>
+<caption>Centres TCF agréés au Québec (liste FEI du 26 octobre 2026). SO = sessions sur ordinateur disponibles.</caption>
 <thead><tr><th>Ville</th><th>Centre</th><th>SO</th><th>Relevé le 17 septembre 2026</th></tr></thead>
 <tbody>
 <tr><td rowspan="7"><strong>Montréal</strong></td><td>Alliance Française de Montréal (Vieux-Montréal)</td><td><span class="badge ok">oui</span></td><td><strong>Aucun tarif publié</strong> ; inscription en ligne « dans la limite des places disponibles » ; 75 $ retenus si annulation à plus de 15 jours, rien après ; horaires envoyés 7 jours avant, « réserver la journée entière ».</td></tr>
@@ -937,7 +937,7 @@ janvier 2022 », rappelle l'Alliance française de Montréal.</p>
 
 <div class="tablewrap wide">
 <table>
-<caption>Centres TCF agréés en Ontario (liste FEI du 17 septembre 2026).</caption>
+<caption>Centres TCF agréés en Ontario (liste FEI du 26 octobre 2026).</caption>
 <thead><tr><th>Ville</th><th>Centre</th><th>SO</th><th>Relevé le 17 septembre 2026</th></tr></thead>
 <tbody>
 <tr><td><strong>Toronto</strong></td><td>Alliance française de Toronto – campus Spadina</td><td><span class="badge ok">oui</span></td><td rowspan="4">Quatre sites, papier ou ordinateur ; <strong>sessions trimestrielles</strong>, inscription ouverte <strong>un mois avant, à 10 h</strong> — pour 2027 : 1<sup>er</sup> décembre 2026 (T1), 2 mars (T2), 20 mai (T3), 17 août 2027 (T4). « Si une session n'est pas listée, elle est complète » ; pas de liste d'attente, une seule inscription à la fois.</td></tr>
@@ -947,6 +947,7 @@ janvier 2022 », rappelle l'Alliance française de Montréal.</p>
 <tr><td><strong>North York</strong></td><td>GB Language Centre</td><td><span class="badge ok">oui</span></td><td>—</td></tr>
 <tr><td><strong>Ottawa</strong></td><td>Alliance française Ottawa</td><td><span class="badge ok">oui</span></td><td>Ordinateur ou papier ; <strong>passeport valide et convocation imprimée</strong> obligatoires, « aucune exception » ; résultats par e-mail sous 2 à 3 semaines.</td></tr>
 <tr><td><strong>Ottawa (Kanata)</strong></td><td>FrancoLangues</td><td><span class="badge ok">oui</span></td><td>—</td></tr>
+<tr><td><strong>Windsor</strong></td><td>Collège Boréal</td><td><span class="badge no">non</span></td><td>Ajouté à la liste FEI entre le 19 septembre et le 26 octobre 2026 ; non relevé.</td></tr>
 </tbody>
 </table>
 </div>
@@ -955,7 +956,7 @@ janvier 2022 », rappelle l'Alliance française de Montréal.</p>
 
 <div class="tablewrap wide">
 <table>
-<caption>Centres TCF agréés en Colombie-Britannique, en Alberta, en Saskatchewan et au Manitoba (liste FEI du 17 septembre 2026).</caption>
+<caption>Centres TCF agréés en Colombie-Britannique, en Alberta, en Saskatchewan et au Manitoba (liste FEI du 26 octobre 2026).</caption>
 <thead><tr><th>Ville</th><th>Centre</th><th>SO</th><th>Relevé le 17 septembre 2026</th></tr></thead>
 <tbody>
 <tr><td><strong>Vancouver</strong></td><td>Alliance française Canada Pacific (Cambie St.)</td><td><span class="badge ok">oui</span></td><td><strong>390 $</strong>, 10 %% de remise aux membres ; <strong>toutes les sessions listées « SOLD OUT »</strong> le 17 septembre ; inscription en ligne seulement, « définitive, ni remboursement ni crédit » ; résultats par e-mail sous 3 à 4 semaines ; clavier QWERTY, accents via la plateforme de FEI.</td></tr>
@@ -977,7 +978,7 @@ janvier 2022 », rappelle l'Alliance française de Montréal.</p>
 
 <div class="tablewrap wide">
 <table>
-<caption>Centres TCF agréés au Nouveau-Brunswick, en Nouvelle-Écosse, à Terre-Neuve-et-Labrador et au Nunavut (liste FEI du 17 septembre 2026).</caption>
+<caption>Centres TCF agréés au Nouveau-Brunswick, en Nouvelle-Écosse, à Terre-Neuve-et-Labrador et au Nunavut (liste FEI du 26 octobre 2026).</caption>
 <thead><tr><th>Ville</th><th>Centre</th><th>SO</th></tr></thead>
 <tbody>
 <tr><td><strong>Moncton</strong></td><td>Alliance française de Moncton</td><td><span class="badge ok">oui</span></td></tr>
@@ -1098,7 +1099,7 @@ partir de quand&nbsp;?</a></li>
 le papier (Ottawa, Toronto, Sherbrooke, Lethbridge, Victoria).</li>
 </ul>
 """ % {"serie": serie("/blog/ou-passer-le-tcf-canada-au-canada/"),
-       "stats": stats([("47", "centres agréés", "dans 9 provinces et au Nunavut"),
+       "stats": stats([("48", "centres agréés", "dans 9 provinces et au Nunavut"),
                        ("44", "sur ordinateur", "les autres sur papier"),
                        ("390-440 $", "le test complet", "sur les centres qui publient un prix"),
                        ("20 jours", "entre deux passations", "quel que soit le centre")])},
@@ -1131,7 +1132,7 @@ qu'il faut, pas avec l'espoir de l'avoir.""",
         ("/blog/ou-passer-le-tcf-canada-en-france/", "Où passer le TCF Canada en France&nbsp;?", "Les centres qui le proposent, de 195 à 285 €, et leurs dates de session."),
     ],
     "sources": """<strong>Sources.</strong> Liste des centres de passation TCF de France Éducation
-international (filtre « Canada », 48 entrées), consultée le 17 septembre 2026 ; pages TCF de
+international (filtre « Canada », 49 entrées), relue le 26 octobre 2026 ; pages TCF de
 l'Alliance Française de Montréal, du Collège Stanislas (Montréal et Québec), de l'Alliance
 française de Toronto, de l'Alliance française Ottawa et de l'Alliance française de Vancouver
 (page TCF Canada et calendrier des sessions), consultées le 17 septembre 2026 ; tarifs de
@@ -1156,7 +1157,7 @@ HUB = {
     "og_title": "Où passer le DELF, le TCF ou le TEF ? Centres par pays",
     "og_desc": "Les centres agréés, l'inscription, les prix relevés et les pièges — en France, au Canada, au Maghreb, en Europe et aux Amériques.",
     "h1": "Où passer le DELF, le TCF ou le TEF&nbsp;?",
-    "published": DATE, "modified": "2026-10-08", "date_fr": "8 octobre 2026", "read": 7,
+    "published": DATE, "modified": "2026-10-26", "date_fr": "26 octobre 2026", "read": 7,   # 26/10 : liste FEI relue (TCF France 247, Canada 48)
     "intro": """Tous ces examens se passent <strong>en présentiel, dans un centre agréé</strong> — par
 France Éducation international pour le DELF, le DALF et le TCF, par Le français des affaires
 (CCI Paris Île-de-France) pour le TEF. Il n'existe <strong>aucune passation en ligne</strong>. On
@@ -1164,7 +1165,7 @@ s'inscrit auprès du centre, qui fixe ses dates et son prix ; ni FEI ni la CCI n
 candidats. Choisissez votre examen et votre pays : chaque guide donne les centres, les prix
 relevés, les dates et le pas-à-pas.""",
     "facts": [
-        "<strong>143 centres DELF-DALF</strong> et <strong>251 centres TCF</strong> en France, <strong>47 centres TCF</strong> au Canada, 16 au Maroc, 14 en Tunisie, 5 en Algérie (liste FEI, 17 septembre 2026).",
+        "<strong>143 centres DELF-DALF</strong> et <strong>247 centres TCF</strong> en France, <strong>48 centres TCF</strong> au Canada, 16 au Maroc, 14 en Tunisie, 5 en Algérie (liste FEI, 26 octobre 2026).",
         "Hors de France et du Maghreb, <strong>neuf pays détaillés</strong> le 8 octobre 2026 — Espagne, Royaume-Uni, États-Unis, Mexique, Colombie, Argentine, Chili, Pérou, Équateur : qui propose le TCF Canada, à quel prix, et le calendrier du DELF.",
         "Un centre est agréé ou ne l'est pas : la seule preuve est la <strong>liste officielle</strong> de FEI (DELF, DALF, TCF) ou du Français des affaires (TEF).",
         "<strong>Aucun tarif national</strong> : du simple au double pour le même examen, parfois dans la même ville.",
@@ -1202,7 +1203,7 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <tr><td><strong>DELF · DALF</strong> (diplômes, à vie)</td><td><a href="/blog/ou-passer-le-delf-en-france/">Guide : 143 centres, 10 sessions par an</a></td><td><a href="%(ca_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(dz_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_delf)s" rel="noopener">Liste FEI</a></td></tr>
 <tr><td><strong>TCF IRN</strong> (naturalisation, titres de séjour)</td><td><a href="/blog/ou-passer-le-tcf-irn-en-france/">Guide : centres, 140 à 220 €</a></td><td>—</td><td><a href="/blog/tcf-canada-algerie/#inscription">Mêmes antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/#prix">1 900 Dhs, sur place</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">625 DT à l'Institut</a></td></tr>
 <tr><td><strong>Examen civique</strong> (France, depuis 2026)</td><td><a href="/blog/ou-passer-l-examen-civique/">Guide : 244 centres FEI + réseau CCIP</a></td><td>—</td><td><a href="/blog/ou-passer-l-examen-civique/#etranger">IF Alger, 9 000 DA</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td></tr>
-<tr><td><strong>TCF Canada</strong> (IRCC)</td><td><a href="/blog/ou-passer-le-tcf-canada-en-france/">Guide : centres, 195 à 285 €</a></td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Guide : les 47 centres</a></td><td><a href="/blog/tcf-canada-algerie/">Guide : 5 antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/">Guide : 16 centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/">Guide : 14 centres, 880 DT</a></td></tr>
+<tr><td><strong>TCF Canada</strong> (IRCC)</td><td><a href="/blog/ou-passer-le-tcf-canada-en-france/">Guide : centres, 195 à 285 €</a></td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Guide : les 48 centres</a></td><td><a href="/blog/tcf-canada-algerie/">Guide : 5 antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/">Guide : 16 centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/">Guide : 14 centres, 880 DT</a></td></tr>
 <tr><td><strong>TCF Québec</strong> (MIFI)</td><td>Mêmes centres que le TCF Canada</td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Mêmes centres</a></td><td><a href="/blog/tcf-canada-algerie/">Mêmes antennes</a></td><td><a href="/blog/tcf-canada-maroc/#prix">Mêmes centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">Mêmes pôles, 880 DT</a></td></tr>
 <tr><td><strong>TEF</strong> (Canada, IRN, Québec)</td><td colspan="5"><a href="%(fda)s" rel="noopener">Annuaire des centres agréés du Français des affaires</a>, tous pays</td></tr>
 </tbody>
@@ -1213,7 +1214,7 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <div class="card card-link"><span class="tag">France · diplôme</span><h3><a href="/blog/ou-passer-le-delf-en-france/">Où passer le DELF en France&nbsp;?</a></h3><p>143 centres, le calendrier 2026-2027, les 7 centres parisiens, un B2 de 125 à 280 € et des fenêtres d'inscription de deux jours.</p></div>
 <div class="card card-link"><span class="tag">France · naturalisation</span><h3><a href="/blog/ou-passer-le-tcf-irn-en-france/">Où passer le TCF IRN en France&nbsp;?</a></h3><p>Des sessions chaque semaine à Paris, 140 à 220 € selon le centre, papier ou ordinateur, et l'examen civique à ne pas oublier.</p></div>
 <div class="card card-link"><span class="tag">France · Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-en-france/">Où passer le TCF Canada en France&nbsp;?</a></h3><p>Les centres qui le proposent — pas tous —, 195 à 285 €, des sessions mensuelles et la fin des recorrections.</p></div>
-<div class="card card-link"><span class="tag">Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Où passer le TCF Canada au Canada&nbsp;?</a></h3><p>Les 47 centres agréés par province, 390 à 440 $, et la méthode pour décrocher une place quand tout affiche complet.</p></div>
+<div class="card card-link"><span class="tag">Canada</span><h3><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Où passer le TCF Canada au Canada&nbsp;?</a></h3><p>Les 48 centres agréés par province, 390 à 440 $, et la méthode pour décrocher une place quand tout affiche complet.</p></div>
 <div class="card card-link"><span class="tag">Algérie</span><h3><a href="/blog/tcf-canada-algerie/">TCF Canada en Algérie</a></h3><p>Les cinq antennes de l'Institut français, l'inscription sur la plateforme IFAL, 37 500 DA le TCF Canada — et le faux site qui imite l'Institut.</p></div>
 <div class="card card-link"><span class="tag">Maroc</span><h3><a href="/blog/tcf-canada-maroc/">TCF Canada au Maroc</a></h3><p>Seize centres, 2 900 dirhams partout, des sessions plusieurs fois par semaine à Casablanca et l'inscription en ligne site par site.</p></div>
 <div class="card card-link"><span class="tag">Tunisie</span><h3><a href="/blog/tcf-canada-tunisie/">TCF Canada en Tunisie</a></h3><p>880 dinars, un rendez-vous en ligne puis l'inscription sur place, une session par mois par pôle et des résultats en cinq semaines.</p></div>
@@ -1248,15 +1249,15 @@ la marche à suivre pour s'inscrire.</p>
 <h2 id="listes">L'annuaire des centres, avec leurs contacts</h2>
 
 <p>Nous avons repris la liste officielle de France Éducation international, pays par pays, avec
-l'adresse, le téléphone, l'e-mail et le site de chaque centre — <strong>1 067 centres dans 35 pays</strong>
-au 8 octobre 2026 — dans un <a href="/centres/">annuaire des centres</a> :
-<a href="/centres/tcf-france/">TCF en France</a> (251), <a href="/centres/delf-france/">DELF-DALF en
+l'adresse, le téléphone, l'e-mail et le site de chaque centre — <strong>1 265 centres dans 46 pays</strong>
+au 26 octobre 2026 — dans un <a href="/centres/">annuaire des centres</a> :
+<a href="/centres/tcf-france/">TCF en France</a> (247), <a href="/centres/delf-france/">DELF-DALF en
 France</a> (143), <a href="/centres/examen-civique-france/">examen civique en France</a> (245),
-<a href="/centres/tcf-canada/">TCF au Canada</a> (47), <a href="/centres/tcf-maroc/">Maroc</a> (16),
+<a href="/centres/tcf-canada/">TCF au Canada</a> (48), <a href="/centres/tcf-maroc/">Maroc</a> (16),
 <a href="/centres/tcf-tunisie/">Tunisie</a> (14), <a href="/centres/tcf-algerie/">Algérie</a> (5),
-<a href="/centres/tcf-afrique/">Afrique subsaharienne</a> (23), <a href="/centres/tcf-europe/">Espagne,
-Suisse, Belgique, Royaume-Uni</a> (26), <a href="/centres/tcf-ameriques/">États-Unis et Amérique latine</a> (62),
-<a href="/centres/tcf-moyen-orient/">Liban, Émirats, Égypte, Turquie</a> (16), <a href="/centres/tcf-inde/">Inde</a> (7).</p>
+<a href="/centres/tcf-afrique/">Afrique subsaharienne</a> (23), <a href="/centres/tcf-europe/">Europe,
+quatorze pays</a> (78), <a href="/centres/tcf-ameriques/">États-Unis et Amérique latine</a> (62),
+<a href="/centres/tcf-moyen-orient/">Liban, Émirats, Égypte, Turquie</a> (17), <a href="/centres/tcf-inde/">Inde</a> (7).</p>
 
 <p>Les listes officielles restent la référence en cas de doute :</p>
 <ul>
@@ -1312,8 +1313,8 @@ du Français des affaires, et ne cliquer que sur le site qui y figure. FEI rappe
 et la tentative de fraude à un examen ou un test officiel du gouvernement français sont des délits
 qui entraînent des sanctions disciplinaires et des procédures pénales ».</p>
 """ % {"stats": stats([("143", "centres DELF en France", "liste FEI du 17/09/2026"),
-                       ("251", "centres TCF en France", "dont 126 sur ordinateur"),
-                       ("47", "centres TCF au Canada", "neuf provinces et le Nunavut"),
+                       ("247", "centres TCF en France", "dont 129 sur ordinateur"),
+                       ("48", "centres TCF au Canada", "neuf provinces et le Nunavut"),
                        ("35", "centres TCF au Maghreb", "Maroc 16 · Tunisie 14 · Algérie 5")]),
        "carte": FEI_CARTE, "fda": FDA_CENTRES,
        "ca_delf": FEI_L % (112, "delf_dalf"), "dz_delf": FEI_L % (115, "delf_dalf"),
@@ -1341,7 +1342,7 @@ notation du vrai test et la correction IA de l'écrit et de l'oral.""",
         ("/blog/diplome-ou-test-delf-tcf/", "Diplôme ou test : DELF, DALF, TCF ou TEF, lequel vous faut-il&nbsp;?", "Un diplôme s'obtient à vie et peut se rater ; un test vous situe pour deux ans."),
         ("/blog/prix-tcf-tef/", "Combien coûte vraiment le TCF ou le TEF&nbsp;?", "Aucun tarif national : les prix relevés centre par centre, en France et au Canada."),
         ("/blog/difference-tcf-tef/", "TCF ou TEF : les 9 versions comparées", "Formats, échelles, reconnaissance administrative de chaque déclinaison."),
-        ("/centres/", "L'annuaire des centres d'examen", "1 067 centres agréés dans 35 pays, avec adresse, téléphone, e-mail et site."),
+        ("/centres/", "L'annuaire des centres d'examen", "1 265 centres agréés dans 46 pays, avec adresse, téléphone, e-mail et site."),
     ],
     "sources": """<strong>Sources.</strong> Listes et carte des centres d'examen de France Éducation
 international (DELF-DALF, TCF, examen civique), par pays, consultées le 17 septembre 2026, et le 8 octobre

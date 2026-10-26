@@ -15,7 +15,7 @@ ARTICLES = [
 "og_desc": "Un exercice, 60 minutes, 250 mots minimum. Ce que le correcteur évalue vraiment, le plan qui fonctionne et les erreurs qui coûtent le plus cher.",
 "crumb": "Production écrite DELF B2",
 "h1": "Production écrite du DELF B2 : la méthode, épreuve la plus discriminante",
-"date_fr": "7 août 2026",
+"date_fr": "26 octobre 2026", "modified": "2026-10-26",
 "read": 7,
 "accent": "accent-delf",
 "intro": """<strong>Un exercice, 60 minutes, 250 mots minimum.</strong> C'est l'épreuve où l'écart
@@ -28,7 +28,7 @@ Et cela s'apprend beaucoup plus vite qu'un niveau de langue.""",
 "⚠️ Une note sous <strong>5/25</strong> est <strong>éliminatoire</strong>, quelle que soit votre moyenne.",
 "250 mots est un <strong>plancher</strong>, pas une cible : en dessous, la consigne n'est pas respectée.",
 "Le correcteur évalue la <strong>construction</strong>, pas votre opinion.",
-"Depuis la réforme, c'est la <strong>seule épreuve rédigée</strong> : les compréhensions sont 100 % QCM.",
+"Au format de la réforme, c'est la <strong>seule épreuve rédigée</strong> : les compréhensions y sont 100 % QCM.",
 ],
 "toc": [
 ("format", "Le format exact"),
@@ -47,7 +47,7 @@ d'examen — un détail qui compte pour la gestion de l'énergie.</p>
 
 <div class="tablewrap">
 <table>
-<caption>La production écrite dans l'ensemble du DELF B2. Source : France Éducation international, format issu de la réforme 2020, généralisé en septembre 2024.</caption>
+<caption>La production écrite dans l'ensemble du DELF B2. Source : France Éducation international, consulté le 26 octobre 2026 (les compréhensions existent en deux formats).</caption>
 <thead><tr><th>Épreuve</th><th>Durée</th><th>Note</th></tr></thead>
 <tbody>
 <tr><td>Compréhension de l'oral</td><td>30 min</td><td>/25</td></tr>
@@ -58,9 +58,10 @@ d'examen — un détail qui compte pour la gestion de l'énergie.</p>
 </table>
 </div>
 
-<p>Depuis la réforme, les deux compréhensions sont passées en <strong>QCM intégral</strong> : les
-questions ouvertes et les vrai/faux avec justification ont disparu. La production écrite est donc
-devenue <strong>la seule épreuve où vous rédigez</strong> avant l'oral. Tout ce qui relève de
+<p>Au format de la réforme, les deux compréhensions sont en <strong>QCM intégral</strong> : ni
+questions ouvertes ni vrai/faux avec justification. La production écrite y est donc
+<strong>la seule épreuve où vous rédigez</strong> avant l'oral (France Éducation international diffuse aussi
+un second format de compréhension, aux questions d'une autre forme). Tout ce qui relève de
 l'expression écrite se joue là, sur une seule copie.</p>
 
 <h2 id="evalue">Ce que le correcteur évalue vraiment</h2>
@@ -225,8 +226,9 @@ peut encore changer la structure sans tout réécrire."""),
  "Le protocole de passation pour s'entraîner en conditions réelles."),
 ],
 "sources": """<strong>Les formats évoluent.</strong> Cette page est à jour au 7 août 2026 et décrit
-le format issu de la réforme 2020, pleinement généralisé depuis septembre 2024. Attention aux
-annales et tutoriels antérieurs, qui décrivent un examen différent. Vérifiez le format en vigueur
+la production écrite du format issu de la réforme 2020 (corrigé le 26 octobre 2026 : en compréhension,
+France Éducation international diffuse deux formats). Attention aux annales et tutoriels antérieurs, qui
+décrivent parfois un examen différent. Vérifiez le format en vigueur
 sur
 <a href="https://www.france-education-international.fr/diplome/delf-tout-public" target="_blank" rel="noopener">france-education-international.fr</a>
 avant votre session.""",
