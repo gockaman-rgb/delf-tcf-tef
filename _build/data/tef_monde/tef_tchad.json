@@ -1,0 +1,33 @@
+{
+ "country": "Tchad",
+ "iso2": "TD",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRE D'APPRENTISSAGE DE LA LANGUE FRANÇAISE (CALF)",
+   "city": "NDJAMENA",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Maréchal Idriss Déby, NDJAMENA",
+   "address_lines": [
+    "Avenue Maréchal Idriss Déby",
+    "NDJAMENA"
+   ],
+   "phone": "+235 65 65 24 01",
+   "emails": [
+    "calf.ndj@gmail.com"
+   ],
+   "url": "www.calf-tchad.org",
+   "so": false,
+   "products": [],
+   "cci_id": 294,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/294"
+  }
+ ]
+}

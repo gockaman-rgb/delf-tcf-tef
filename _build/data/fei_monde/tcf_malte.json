@@ -1,0 +1,30 @@
+{
+ "country": "Malte",
+ "iso2": "MT",
+ "fei_id": "379",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Malte-Méditerranée",
+   "city": "Il-Hamrun",
+   "cp": "",
+   "city_cp": "",
+   "address": "College Hamrun Secondary School- San Gorg Preca Triq Wenzu Mallia, HMR-1241 Il-Hamrun",
+   "address_lines": [
+    "College Hamrun Secondary School- San Gorg Preca Triq Wenzu Mallia",
+    "HMR-1241 Il-Hamrun"
+   ],
+   "phone": "356-21-22-07-01",
+   "emails": [
+    "info@alliancefr.org.mt"
+   ],
+   "url": "http://www.alliancefrmalta.com",
+   "so": true
+  }
+ ]
+}

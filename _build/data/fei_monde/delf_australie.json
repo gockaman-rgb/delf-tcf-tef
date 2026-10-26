@@ -1,0 +1,127 @@
+{
+ "country": "Australie",
+ "iso2": "AU",
+ "fei_id": "97",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Canberra",
+  "cp": "",
+  "city_cp": "",
+  "address": "66 McCaughey Street, 2612 Canberra",
+  "address_lines": [
+   "66 McCaughey Street",
+   "2612 Canberra"
+  ],
+  "phone": "490464191",
+  "emails": [],
+  "url": "http://www.afcanberra.com.au",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Adelaide",
+   "city": "Adelaide",
+   "cp": "",
+   "city_cp": "",
+   "address": "319 Young Street, 5034 Adelaide",
+   "address_lines": [
+    "319 Young Street",
+    "5034 Adelaide"
+   ],
+   "phone": "+61882724281",
+   "emails": [
+    "adelaide@af.org.au"
+   ],
+   "url": "http://www.af.org.au/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Brisbane",
+   "city": "Brisbane",
+   "cp": "",
+   "city_cp": "",
+   "address": "262 Montague Road, 4101 Brisbane",
+   "address_lines": [
+    "262 Montague Road",
+    "4101 Brisbane"
+   ],
+   "phone": "+61738444460",
+   "emails": [
+    "info@afbrisbane.com"
+   ],
+   "url": "http://www.afbrisbane.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Canberra",
+   "city": "Canberra",
+   "cp": "",
+   "city_cp": "",
+   "address": "66 McCaughey Street, 2602 Canberra",
+   "address_lines": [
+    "66 McCaughey Street",
+    "2602 Canberra"
+   ],
+   "phone": "0490464191",
+   "emails": [],
+   "url": "http://www.afcanberra.com.au/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Melbourne",
+   "city": "Melbourne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Level 4, 140 Bourke Street, 3000 Melbourne",
+   "address_lines": [
+    "Level 4, 140 Bourke Street",
+    "3000 Melbourne"
+   ],
+   "phone": "+61395253463",
+   "emails": [
+    "info@afmelbourne.com.au"
+   ],
+   "url": "http://www.afmelbourne.com.au/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Perth",
+   "city": "Perth",
+   "cp": "",
+   "city_cp": "",
+   "address": "75 Broadway, 6009 Perth",
+   "address_lines": [
+    "75 Broadway",
+    "6009 Perth"
+   ],
+   "phone": "+61893867921",
+   "emails": [
+    "exam@afperth.com.au"
+   ],
+   "url": "http://www.afperth.com.au/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Sydney",
+   "city": "Sydney",
+   "cp": "",
+   "city_cp": "",
+   "address": "257 Clarence street, 2000 Sydney",
+   "address_lines": [
+    "257 Clarence street",
+    "2000 Sydney"
+   ],
+   "phone": "+61292925721",
+   "emails": [
+    "enquiries@afsydney.com.au"
+   ],
+   "url": "http://www.afsydney.com.au/",
+   "so": false
+  }
+ ]
+}

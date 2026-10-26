@@ -1,0 +1,45 @@
+{
+ "country": "Cambodge",
+ "iso2": "KH",
+ "fei_id": "40",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Centre des langues",
+  "city": "Phnom Penh",
+  "cp": "",
+  "city_cp": "",
+  "address": "N° 218, rue Kéo Chea (184) BP 827 Phnom Penh",
+  "address_lines": [
+   "N° 218, rue Kéo Chea (184) BP 827 Phnom Penh"
+  ],
+  "phone": "(855) 23 721",
+  "emails": [
+   "secretariat@institutfrancais-cambodge.com"
+  ],
+  "url": "https://kh.ambafrance.org/Institut-Francais-du-Cambodge",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Cambodge",
+   "city": "Phnom Penh",
+   "cp": "",
+   "city_cp": "",
+   "address": "N°218, rue 184 Kéo Chea, 12211 Phnom Penh",
+   "address_lines": [
+    "N°218, rue 184 Kéo Chea",
+    "12211 Phnom Penh"
+   ],
+   "phone": "23 985 611",
+   "emails": [
+    "certifications@ifcambodge.com"
+   ],
+   "url": "http://ifcambodge.com/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "country": "Gabon",
+ "iso2": "GA",
+ "fei_id": "130",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "IFG / français",
+  "city": "Libreville",
+  "cp": "",
+  "city_cp": "",
+  "address": "Boulevard Triomphal - BP 2125 Libreville",
+  "address_lines": [
+   "Boulevard Triomphal - BP 2125 Libreville"
+  ],
+  "phone": "065541628",
+  "emails": [
+   "cours@institutfrancais-gabon.com"
+  ],
+  "url": "http://institutfrançais-gabon.com",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Gabon",
+   "city": "Libreville",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Triomphal Omar Bongo Libreville",
+   "address_lines": [
+    "Boulevard Triomphal Omar Bongo Libreville"
+   ],
+   "phone": "60473611",
+   "emails": [],
+   "url": "http://www.institutfrancais-gabon.com/",
+   "so": false
+  }
+ ]
+}

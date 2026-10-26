@@ -1,0 +1,33 @@
+{
+ "country": "Bulgarie",
+ "iso2": "BG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANCAIS DE BULGARIE",
+   "city": "SOFIA",
+   "cp": "1000",
+   "city_cp": "",
+   "address": "pl. Petko R. Slaveykov\" 3\", 1000 SOFIA",
+   "address_lines": [
+    "pl. Petko R. Slaveykov\" 3\"",
+    "1000 SOFIA"
+   ],
+   "phone": "+359 2 937 7957",
+   "emails": [
+    "ifb-cours@institutfrancais.bg"
+   ],
+   "url": "www.institutfrancais.bg",
+   "so": false,
+   "products": [],
+   "cci_id": 507,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/507"
+  }
+ ]
+}

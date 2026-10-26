@@ -1,0 +1,30 @@
+{
+ "country": "République Tchèque",
+ "iso2": "CZ",
+ "fei_id": "88",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Prague 1",
+   "cp": "",
+   "city_cp": "",
+   "address": "Service des cours / examens Stepanska 35, 11000 Prague 1",
+   "address_lines": [
+    "Service des cours / examens Stepanska 35",
+    "11000 Prague 1"
+   ],
+   "phone": "420-221-401-006",
+   "emails": [
+    "cours@ifp.cz"
+   ],
+   "url": "http://www.ifp.cz",
+   "so": true
+  }
+ ]
+}

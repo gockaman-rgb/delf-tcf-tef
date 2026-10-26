@@ -1,0 +1,30 @@
+{
+ "country": "Mali",
+ "iso2": "ML",
+ "fei_id": "137",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Mali",
+   "city": "Bamako",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard de l'Indépendance BP 1547, Bamako",
+   "address_lines": [
+    "Boulevard de l'Indépendance BP 1547",
+    "Bamako"
+   ],
+   "phone": "223-71-70-77-77",
+   "emails": [
+    "info.cdl@institutfrancaismali.org"
+   ],
+   "url": "http://www.institutfrancaismali.org",
+   "so": true
+  }
+ ]
+}

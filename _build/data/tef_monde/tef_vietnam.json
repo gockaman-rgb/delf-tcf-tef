@@ -1,0 +1,31 @@
+{
+ "country": "Vietnam",
+ "iso2": "VN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRE FRANCO-VIETNAMIEN DE FORMATION À LA GESTION - HCM",
+   "city": "HO CHI MINH",
+   "cp": "700000",
+   "city_cp": "",
+   "address": "91 Ba Tháng Hai, Phường 11, Quận 10, 700000 HO CHI MINH",
+   "address_lines": [
+    "91 Ba Tháng Hai, Phường 11, Quận 10",
+    "700000 HO CHI MINH"
+   ],
+   "phone": "+84 28 3830 0103",
+   "emails": [],
+   "url": "www.cfvg.org",
+   "so": false,
+   "products": [],
+   "cci_id": 342,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/342"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "country": "Autriche",
+ "iso2": "AT",
+ "fei_id": "61",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Vienne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ambassade de France - Autriche Praterstraße 38, 1020 Vienne",
+   "address_lines": [
+    "Ambassade de France - Autriche Praterstraße 38",
+    "1020 Vienne"
+   ],
+   "phone": "431-90-90-899-132",
+   "emails": [],
+   "url": "http://www.institutfrancais.at/sprachzertifikate/stud.enten/tcf",
+   "so": false
+  }
+ ]
+}

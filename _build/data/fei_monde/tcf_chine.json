@@ -1,0 +1,378 @@
+{
+ "country": "Chine",
+ "iso2": "CN",
+ "fei_id": "41",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 22,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Campus France Chine - Ambassade de France",
+   "city": "Canton",
+   "cp": "",
+   "city_cp": "",
+   "address": "Central Tower (Kaihua International Center) 15th floor Room 1507B-1508 No.5, Xiancun Road, 510623 Canton",
+   "address_lines": [
+    "Central Tower (Kaihua International Center) 15th floor Room 1507B-1508 No.5, Xiancun Road",
+    "510623 Canton"
+   ],
+   "phone": "86-20-83-80-58-41",
+   "emails": [
+    "test.guangzhou@campusfrancechine.org"
+   ],
+   "url": "http://www.chine.campusfrance.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Chengdu",
+   "cp": "",
+   "city_cp": "",
+   "address": "UESTC,Jianshe Beilu 2 Duan 4 Hao Dianzi Keji Daxue Shahe Xiaoqu Zhu Lou Zhong 110 Shi, 610054 Chengdu",
+   "address_lines": [
+    "UESTC,Jianshe Beilu 2 Duan 4 Hao Dianzi Keji Daxue Shahe Xiaoqu Zhu Lou Zhong 110 Shi",
+    "610054 Chengdu"
+   ],
+   "phone": "86-28-83-20-21-16",
+   "emails": [
+    "info.chengdu@afchine.org"
+   ],
+   "url": "http://www.afchengdu.org",
+   "so": true
+  },
+  {
+   "name": "Campus France Chine - Ambassade de France",
+   "city": "Chengdu",
+   "cp": "",
+   "city_cp": "",
+   "address": "26/F, Office Tower 1 IFS,No. 1, Section 3 Hong Xing Road, 610021 Chengdu",
+   "address_lines": [
+    "26/F, Office Tower 1 IFS,No. 1, Section 3 Hong Xing Road",
+    "610021 Chengdu"
+   ],
+   "phone": "86-28-66-66-60-70",
+   "emails": [
+    "test.chengdu@campusfrancechine.org"
+   ],
+   "url": "https://www.chine.campusfrance.org/fr",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Dalian",
+   "cp": "",
+   "city_cp": "",
+   "address": "School of inter. education 26 Shengli Donglu, 2nd floor Zhongshang District, 116001 Dalian",
+   "address_lines": [
+    "School of inter. education 26 Shengli Donglu, 2nd floor Zhongshang District",
+    "116001 Dalian"
+   ],
+   "phone": "86-411-6586-4270",
+   "emails": [
+    "info.dalian@afchine.org"
+   ],
+   "url": "https://afdalian.dlufl.edu.cn/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Guangzhou (Canton)",
+   "cp": "",
+   "city_cp": "",
+   "address": "3A07, RuiFu Building N°8 Chigang North Road Haizhu District, 510310 Guangzhou (Canton)",
+   "address_lines": [
+    "3A07, RuiFu Building N°8 Chigang North Road Haizhu District",
+    "510310 Guangzhou (Canton)"
+   ],
+   "phone": "86-020-8380-2501",
+   "emails": [
+    "examens.guangzhou@afchine.org"
+   ],
+   "url": "https://www.afcanton-cn.jnu.edu.cn/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Hangzhou",
+   "cp": "",
+   "city_cp": "",
+   "address": "149 Jiaogong Lu, 310012 Hangzhou",
+   "address_lines": [
+    "149 Jiaogong Lu",
+    "310012 Hangzhou"
+   ],
+   "phone": "86-1516-8374-537",
+   "emails": [
+    "info.hangzhou@afchine.org"
+   ],
+   "url": "http://www.hangzhou.afchine.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Hong Kong",
+   "cp": "",
+   "city_cp": "",
+   "address": "G/F-3/F 52 Jordan Road Kowloon, Hong Kong",
+   "address_lines": [
+    "G/F-3/F 52 Jordan Road Kowloon",
+    "Hong Kong"
+   ],
+   "phone": "852-2738-2714",
+   "emails": [
+    "exam@afhongkong.org"
+   ],
+   "url": "http://www.afhongkong.org/en/",
+   "so": true
+  },
+  {
+   "name": "HKU Space French Languages",
+   "city": "Hong Kong",
+   "cp": "",
+   "city_cp": "",
+   "address": "11/F Fortress Tower 250 King's Road, North Point, Hong Kong",
+   "address_lines": [
+    "11/F Fortress Tower 250 King's Road, North Point",
+    "Hong Kong"
+   ],
+   "phone": "852-297-556-95",
+   "emails": [],
+   "url": "http://www.hkuspace.hku.hk",
+   "so": false
+  },
+  {
+   "name": "UOW College Hong Kong",
+   "city": "Hong Kong",
+   "cp": "",
+   "city_cp": "",
+   "address": "Faculty of Arts and Humanities 3/F, 18 Che Kung Miu Road, Tai Wai, New Territories, Hong Kong",
+   "address_lines": [
+    "Faculty of Arts and Humanities 3/F, 18 Che Kung Miu Road, Tai Wai, New Territories",
+    "Hong Kong"
+   ],
+   "phone": "852-27073113",
+   "emails": [],
+   "url": "https://www.uowchk.edu.hk",
+   "so": false
+  },
+  {
+   "name": "Alliance Française",
+   "city": "Kunming",
+   "cp": "",
+   "city_cp": "",
+   "address": "Yunnan Province,Cuihu North Rd No.2, Yunnan University, Donglu campus, Nanxue Building, 1st floor, 650091 Kunming",
+   "address_lines": [
+    "Yunnan Province,Cuihu North Rd No.2, Yunnan University, Donglu campus, Nanxue Building, 1st floor",
+    "650091 Kunming"
+   ],
+   "phone": "086-133-5499-1470",
+   "emails": [
+    "accueil.kunming@afchine.org"
+   ],
+   "url": "https://kunming.afchine.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Nanjing",
+   "cp": "",
+   "city_cp": "",
+   "address": "Librairie Phoenix - 5e étage 1 rue Hunan - Métro Xuanxumen Gulou district, province du Jiang, 210002 Nanjing",
+   "address_lines": [
+    "Librairie Phoenix - 5e étage 1 rue Hunan - Métro Xuanxumen Gulou district, province du Jiang",
+    "210002 Nanjing"
+   ],
+   "phone": "86-025-8320-3680",
+   "emails": [
+    "info2.nanjing@afchine.org",
+    "admin.nanjing@afchine.org"
+   ],
+   "url": "http://www.afnanjing.njnu.edu.cn",
+   "so": true
+  },
+  {
+   "name": "Campus France Chine, centre de Pékin",
+   "city": "Pékin",
+   "cp": "",
+   "city_cp": "",
+   "address": "18 Gongtixilu Chaoyang District, 100028 Pékin",
+   "address_lines": [
+    "18 Gongtixilu Chaoyang District",
+    "100028 Pékin"
+   ],
+   "phone": "86-10-65-53-26-27",
+   "emails": [
+    "test.beijing@campusfrancechine.org"
+   ],
+   "url": "http://www.chine.campusfrance.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Pékin (Beijing)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Guangcai International Mansion 18 Gongtixilu - Chaoyang District, 100020 Pékin (Beijing)",
+   "address_lines": [
+    "Guangcai International Mansion 18 Gongtixilu - Chaoyang District",
+    "100020 Pékin (Beijing)"
+   ],
+   "phone": "86-10-65-53-26-78",
+   "emails": [
+    "examen.beijing@afchine.org"
+   ],
+   "url": "https://afchine.org/nos-alliances/pekin/",
+   "so": true
+  },
+  {
+   "name": "Alliance française du Shandong",
+   "city": "Shandong province",
+   "cp": "",
+   "city_cp": "",
+   "address": "Room 801, 8th floor,Chuangzhan Zhongxin,N°201 Shanda Road, Lixia District,Shandong Province, 250000 Shandong province",
+   "address_lines": [
+    "Room 801, 8th floor,Chuangzhan Zhongxin,N°201 Shanda Road, Lixia District,Shandong Province",
+    "250000 Shandong province"
+   ],
+   "phone": "86-531-8900-1068",
+   "emails": [],
+   "url": "http://www.jinan.afchine.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Shanghai",
+   "cp": "",
+   "city_cp": "",
+   "address": "297 Wusong Lu District Hongkou, 200080 Shanghai",
+   "address_lines": [
+    "297 Wusong Lu District Hongkou",
+    "200080 Shanghai"
+   ],
+   "phone": "86-21-63-57-53-88",
+   "emails": [],
+   "url": "http://www.afshanghai.org/",
+   "so": true
+  },
+  {
+   "name": "Campus France Chine - Ambassade de France",
+   "city": "Shanghai",
+   "cp": "",
+   "city_cp": "",
+   "address": "155 Wuyi Road, Building B, 201 Changning District, Null Shanghai",
+   "address_lines": [
+    "155 Wuyi Road, Building B, 201 Changning District",
+    "Null Shanghai"
+   ],
+   "phone": "86-21-6225-2000",
+   "emails": [
+    "communication.shanghai@campusfrancechine.org"
+   ],
+   "url": "http://www.chine.campusfrance.org",
+   "so": true
+  },
+  {
+   "name": "Campus France Chine - Ambassade de France",
+   "city": "Shenyang",
+   "cp": "",
+   "city_cp": "",
+   "address": "34 rue Nan shi san wei Heping district, 110003 Shenyang",
+   "address_lines": [
+    "34 rue Nan shi san wei Heping district",
+    "110003 Shenyang"
+   ],
+   "phone": "86-24-23190033",
+   "emails": [
+    "test.shenyang@campusfrancechine.org"
+   ],
+   "url": "http://chine.campusfrance.org",
+   "so": true
+  },
+  {
+   "name": "Shenzhen, Alliance Française de Shenzhen",
+   "city": "Shenzhen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Shenzhen University 3686 Nanhai Avenue-Nanshan District Province du Guangdong, 518060 Shenzhen",
+   "address_lines": [
+    "Shenzhen University 3686 Nanhai Avenue-Nanshan District Province du Guangdong",
+    "518060 Shenzhen"
+   ],
+   "phone": "+86-755-8693-7909",
+   "emails": [
+    "examens.shenzhen@afchine.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Tianjin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tianjin Fayu Lianméng Tianjin Shi Héping Qu Xikang Lu 101-3 Saidun Zhongxin VIP Shangwu, Tianjin",
+   "address_lines": [
+    "Tianjin Fayu Lianméng Tianjin Shi Héping Qu Xikang Lu 101-3 Saidun Zhongxin VIP Shangwu",
+    "Tianjin"
+   ],
+   "phone": "86-136-720-081-96",
+   "emails": [
+    "info.tianjin@afchine.org"
+   ],
+   "url": "http://www.aftianjin.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Wuhan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Wuda LuoJiaShan Wuchang, 430072 Wuhan",
+   "address_lines": [
+    "Wuda LuoJiaShan Wuchang",
+    "430072 Wuhan"
+   ],
+   "phone": "8627-8734-8743",
+   "emails": [],
+   "url": "http://www.afwuhan.org",
+   "so": true
+  },
+  {
+   "name": "Campus France Chine - Ambassade de France",
+   "city": "Wuhan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Inter. Intelligence Center Room 2902 1398 Jinghan Avenue, Jiang’an Distr, 430000 Wuhan",
+   "address_lines": [
+    "Inter. Intelligence Center Room 2902 1398 Jinghan Avenue, Jiang’an Distr",
+    "430000 Wuhan"
+   ],
+   "phone": "86-27-85-55-79-33",
+   "emails": [
+    "test.wuhan@campusfrancechine.org"
+   ],
+   "url": "http://www.chine.campusfrance.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Xi'An",
+   "cp": "",
+   "city_cp": "",
+   "address": "Northwest University Taibai Beilu 229, 710069 Xi'An",
+   "address_lines": [
+    "Northwest University Taibai Beilu 229",
+    "710069 Xi'An"
+   ],
+   "phone": "086-029-883-040-86",
+   "emails": [
+    "examens.xian@afchine.org"
+   ],
+   "url": "http://www.xian.afchine.org",
+   "so": true
+  }
+ ]
+}

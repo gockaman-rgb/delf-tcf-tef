@@ -1,0 +1,166 @@
+{
+ "country": "Indonésie",
+ "iso2": "ID",
+ "fei_id": "46",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 9,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action culturelle",
+  "city": "Jakarta",
+  "cp": "",
+  "city_cp": "",
+  "address": "Jalan M.H. Thamrin n°20, 10350 Jakarta",
+  "address_lines": [
+   "Jalan M.H. Thamrin n°20",
+   "10350 Jakarta"
+  ],
+  "phone": "+6202123557900",
+  "emails": [],
+  "url": "http://www.ifi-id.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français d'Indonésie Bandung",
+   "city": "Bandung",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jl. Purnawarman No. 32, 40117 Bandung",
+   "address_lines": [
+    "Jl. Purnawarman No. 32",
+    "40117 Bandung"
+   ],
+   "phone": "224212417",
+   "emails": [],
+   "url": "http://www.ifi-id.com/bandung",
+   "so": false
+  },
+  {
+   "name": "Alliance française Bali",
+   "city": "Denpasar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jln. Raya Puputan I No.13A, Renon, Sumerta Kelod, 80235 Denpasar",
+   "address_lines": [
+    "Jln. Raya Puputan I No.13A, Renon, Sumerta Kelod",
+    "80235 Denpasar"
+   ],
+   "phone": "361 23 41 43",
+   "emails": [
+    "info@afbali.org"
+   ],
+   "url": "http://www.afbali.org/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Indonésie Jakarta (Thamrin)",
+   "city": "Jakarta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jl. MH. Thamrin 20, 10350 Jakarta",
+   "address_lines": [
+    "Jl. MH. Thamrin 20",
+    "10350 Jakarta"
+   ],
+   "phone": "2123557900",
+   "emails": [],
+   "url": "http://ifi-id.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Indonésie Jakarta (Wijaya)",
+   "city": "Jakarta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan wijaya 1, n°48, 12170 Jakarta",
+   "address_lines": [
+    "Jalan wijaya 1, n°48",
+    "12170 Jakarta"
+   ],
+   "phone": "217208133",
+   "emails": [],
+   "url": "http://www.ifi-id.com/jakarta",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Makassar",
+   "city": "Makassar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jl. Maipa, n°2, Losari, 90112 Makassar",
+   "address_lines": [
+    "Jl. Maipa, n°2, Losari",
+    "90112 Makassar"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Medan",
+   "city": "Medan",
+   "cp": "",
+   "city_cp": "",
+   "address": "5b rue hasanuddin, 20153 Medan",
+   "address_lines": [
+    "5b rue hasanuddin",
+    "20153 Medan"
+   ],
+   "phone": "081214217628",
+   "emails": [
+    "pedagogie.afmedan@outlook.com"
+   ],
+   "url": "http://www.afmedan.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Semarang",
+   "city": "Semarang",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jl. Dr. Wahidin No.54, Kaliwiru, Kec. Candisari, Jawa Tengah, 50255 Semarang",
+   "address_lines": [
+    "Jl. Dr. Wahidin No.54, Kaliwiru, Kec. Candisari, Jawa Tengah",
+    "50255 Semarang"
+   ],
+   "phone": "818295275",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Indonésie Surabaya",
+   "city": "Surabaya",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Ratna No. 14, Kompleks AJBS, 60246 Surabaya",
+   "address_lines": [
+    "Jalan Ratna No. 14, Kompleks AJBS",
+    "60246 Surabaya"
+   ],
+   "phone": "315035035",
+   "emails": [],
+   "url": "http://www.ifi-id.com/surabaya",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Indonésie - Antenne de Yogyakarta",
+   "city": "Yogyakarta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Sagan No.3, 55223 Yogyakarta",
+   "address_lines": [
+    "Jalan Sagan No.3",
+    "55223 Yogyakarta"
+   ],
+   "phone": "274 566520",
+   "emails": [],
+   "url": "http://ifi-id.com/yogyakarta",
+   "so": false
+  }
+ ]
+}

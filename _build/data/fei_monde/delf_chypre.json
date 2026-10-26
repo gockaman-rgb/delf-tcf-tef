@@ -1,0 +1,101 @@
+{
+ "country": "Chypre",
+ "iso2": "CY",
+ "fei_id": "67",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Nicosie",
+  "cp": "",
+  "city_cp": "",
+  "address": "59 avenue Strovolos, 2018 Nicosie",
+  "address_lines": [
+   "59 avenue Strovolos",
+   "2018 Nicosie"
+  ],
+  "phone": "22 45 93 36",
+  "emails": [],
+  "url": "http://www.ifchypre.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut Français de Chypre",
+   "city": "Larnaca",
+   "cp": "",
+   "city_cp": "",
+   "address": "59 rue Strovolos Larnaca",
+   "address_lines": [
+    "59 rue Strovolos Larnaca"
+   ],
+   "phone": "+35722459336",
+   "emails": [],
+   "url": "http://www.ifchypre.org/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Chypre",
+   "city": "Limassol",
+   "cp": "",
+   "city_cp": "",
+   "address": "59 rue Strovolos, 2018 Limassol",
+   "address_lines": [
+    "59 rue Strovolos",
+    "2018 Limassol"
+   ],
+   "phone": "+35722459336",
+   "emails": [],
+   "url": "http://www.ifchypre.org/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Chypre",
+   "city": "Nicosie",
+   "cp": "",
+   "city_cp": "",
+   "address": "59 rue Strovolos, 2018 Nicosie",
+   "address_lines": [
+    "59 rue Strovolos",
+    "2018 Nicosie"
+   ],
+   "phone": "+35722459336",
+   "emails": [],
+   "url": "http://www.ifchypre.org/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Chypre",
+   "city": "Nicosie 2",
+   "cp": "",
+   "city_cp": "",
+   "address": "59 rue Strovolos, 2018 Nicosie 2",
+   "address_lines": [
+    "59 rue Strovolos",
+    "2018 Nicosie 2"
+   ],
+   "phone": "+35722459336",
+   "emails": [],
+   "url": "http://www.ifchypre.org/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Chypre",
+   "city": "Paphos",
+   "cp": "",
+   "city_cp": "",
+   "address": "59 rue Strovolos, 2018 Paphos",
+   "address_lines": [
+    "59 rue Strovolos",
+    "2018 Paphos"
+   ],
+   "phone": "+35722459336",
+   "emails": [],
+   "url": "http://www.ifchypre.org/",
+   "so": false
+  }
+ ]
+}

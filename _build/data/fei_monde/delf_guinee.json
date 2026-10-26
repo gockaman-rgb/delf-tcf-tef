@@ -1,0 +1,44 @@
+{
+ "country": "Guinée",
+ "iso2": "GN",
+ "fei_id": "132",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Institut français de Guinée",
+  "city": "Conakry",
+  "cp": "",
+  "city_cp": "",
+  "address": "Bd du Commerce, BP 373/570 Conakry",
+  "address_lines": [
+   "Bd du Commerce",
+   "BP 373/570 Conakry"
+  ],
+  "phone": "628 603 773",
+  "emails": [
+   "infocours@institutfrancais-guinee.fr"
+  ],
+  "url": "https://institutfrancais-guinee.fr/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Guinée",
+   "city": "Conakry",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centre Culturel Franco-guinéen, Prés du pont du 8 novembre, BP 492 Conakry",
+   "address_lines": [
+    "Centre Culturel Franco-guinéen, Prés du pont du 8 novembre",
+    "BP 492 Conakry"
+   ],
+   "phone": "628 459 365",
+   "emails": [],
+   "url": "http://www.institutfrancais-guinee.fr/",
+   "so": false
+  }
+ ]
+}

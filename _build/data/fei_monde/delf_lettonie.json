@@ -1,0 +1,42 @@
+{
+ "country": "Lettonie",
+ "iso2": "LV",
+ "fei_id": "371",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Pôle langue française",
+  "city": "Riga",
+  "cp": "",
+  "city_cp": "",
+  "address": "Raiņa bulv. 9, LV-1050 Riga",
+  "address_lines": [
+   "Raiņa bulv. 9",
+   "LV-1050 Riga"
+  ],
+  "phone": "67201854",
+  "emails": [],
+  "url": "http://www.institut-francais.lv",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Lettonie",
+   "city": "Riga",
+   "cp": "",
+   "city_cp": "",
+   "address": "Raiņa bulv. 9, LV-1050 Riga",
+   "address_lines": [
+    "Raiņa bulv. 9",
+    "LV-1050 Riga"
+   ],
+   "phone": "67201854",
+   "emails": [],
+   "url": "http://www.institut-francais.lv/",
+   "so": false
+  }
+ ]
+}

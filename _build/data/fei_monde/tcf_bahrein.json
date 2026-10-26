@@ -1,0 +1,30 @@
+{
+ "country": "Bahreïn",
+ "iso2": "BH",
+ "fei_id": "325",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française du Bahrein",
+   "city": "Manama",
+   "cp": "",
+   "city_cp": "",
+   "address": "Building 51, Road 4109 Educational area, Isa Town, Null Manama",
+   "address_lines": [
+    "Building 51, Road 4109 Educational area, Isa Town",
+    "Null Manama"
+   ],
+   "phone": "973-13-67-76-67",
+   "emails": [
+    "info@afbahrain.org"
+   ],
+   "url": "http://www.afbahrain.com",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "country": "Pays-Bas",
+ "iso2": "NL",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE AMSTERDAM",
+   "city": "AMSTERDAM",
+   "cp": "1011DK",
+   "city_cp": "",
+   "address": "Oosterdokstraat 110, 1011DK AMSTERDAM",
+   "address_lines": [
+    "Oosterdokstraat 110",
+    "1011DK AMSTERDAM"
+   ],
+   "phone": "+31 20 523 0700",
+   "emails": [
+    "examens@afamsterdam.nl"
+   ],
+   "url": "https://www.afamsterdam.nl/en/",
+   "so": false,
+   "products": [],
+   "cci_id": 34,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/34"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA HAYE",
+   "city": "LA HAYE",
+   "cp": "2595 ET DEN HAAG",
+   "city_cp": "",
+   "address": "Emmapark 6, 2595 ET DEN HAAG LA HAYE",
+   "address_lines": [
+    "Emmapark 6",
+    "2595 ET DEN HAAG LA HAYE"
+   ],
+   "phone": "+31 6 16471063",
+   "emails": [
+    "examens@aflahaye.nl"
+   ],
+   "url": "www.aflahaye.nl",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 122,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/122"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE ROTTERDAM",
+   "city": "ROTTERDAM",
+   "cp": "3014 GN",
+   "city_cp": "",
+   "address": "Westersingel 14, 3014 GN ROTTERDAM",
+   "address_lines": [
+    "Westersingel 14",
+    "3014 GN ROTTERDAM"
+   ],
+   "phone": "+31 10 436 0421",
+   "emails": [
+    "bonjour@alliancerotterdam.nl"
+   ],
+   "url": "https://www.alliancerotterdam.nl/",
+   "so": false,
+   "products": [],
+   "cci_id": 183,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/183"
+  }
+ ]
+}

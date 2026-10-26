@@ -1359,3 +1359,6 @@ diplôme, envoyé de France, arrive quatre à six mois après.</p>"""),
     urls={"bahia-blanca-alliance-francaise-de-bahia-blanca": "", "ushuaia-alliance-francaise-de-la-terre-de-feu": "",
           "san-salvador-de-jujuy-alliance-francaise-jujuy": "", "mendoza-alliance-francaise-de-mendoza": "https://alianzafrancesamendoza.com/"},
 ))
+
+# Europe (26/10/2026) : Allemagne, Suisse, Belgique, Italie, Pays-Bas, Portugal, Roumanie, Pologne, Grèce, Irlande.
+from pays_config_eu import PAGES as _EU; PAGES += _EU  # noqa: E402,E702

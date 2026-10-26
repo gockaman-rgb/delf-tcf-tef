@@ -1,0 +1,53 @@
+{
+ "country": "Serbie",
+ "iso2": "RS",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE SERBIE - BELGRADE",
+   "city": "BELGRADE",
+   "cp": "11000",
+   "city_cp": "",
+   "address": "Zmaj Jovina 11, 11000 BELGRADE",
+   "address_lines": [
+    "Zmaj Jovina 11",
+    "11000 BELGRADE"
+   ],
+   "phone": "+381 63 238244",
+   "emails": [
+    "FRANCUSKIZAODRASLE@INSTITUTFRANCAIS"
+   ],
+   "url": "http://www.institutfrancais.rs/",
+   "so": false,
+   "products": [],
+   "cci_id": 540,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/540"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU KOSOVO",
+   "city": "PRISTINA",
+   "cp": "10000",
+   "city_cp": "",
+   "address": "8 rue Sejdi Kryeziu, Pejton, 10000 PRISTINA",
+   "address_lines": [
+    "8 rue Sejdi Kryeziu, Pejton",
+    "10000 PRISTINA"
+   ],
+   "phone": "",
+   "emails": [
+    "direction@if-kosovo.com"
+   ],
+   "url": "https://if-kosovo.com/fr/accueil/",
+   "so": false,
+   "products": [],
+   "cci_id": 967,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/967"
+  }
+ ]
+}

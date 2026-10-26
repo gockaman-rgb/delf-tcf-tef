@@ -1,0 +1,46 @@
+{
+ "country": "Kirghizistan",
+ "iso2": "KG",
+ "fei_id": "367",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Association locale",
+  "city": "Bichkek",
+  "cp": "",
+  "city_cp": "",
+  "address": "Bâtiment de la Bibliothèque pour la jeunesse Bayalinov 242, rue Ogonbaev, 720040 Bichkek",
+  "address_lines": [
+   "Bâtiment de la Bibliothèque pour la jeunesse Bayalinov 242, rue Ogonbaev",
+   "720040 Bichkek"
+  ],
+  "phone": "+996772251700",
+  "emails": [
+   "afbichkek.direction@gmail.com"
+  ],
+  "url": "http://www.afbichkek.kg/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Bichkek",
+   "city": "Bichkek",
+   "cp": "",
+   "city_cp": "",
+   "address": "242, rue Ogonbaev, 720040 Bichkek",
+   "address_lines": [
+    "242, rue Ogonbaev",
+    "720040 Bichkek"
+   ],
+   "phone": "+996701799191",
+   "emails": [
+    "afbichkek.direction@gmail.com"
+   ],
+   "url": "http://afbichkek.kg/",
+   "so": false
+  }
+ ]
+}

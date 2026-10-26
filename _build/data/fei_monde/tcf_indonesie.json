@@ -1,0 +1,75 @@
+{
+ "country": "Indonésie",
+ "iso2": "ID",
+ "fei_id": "46",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français d'Indonésie",
+   "city": "Bandung",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Purnawarman no.32 Jawa Barat, 40117 Bandung",
+   "address_lines": [
+    "Jalan Purnawarman no.32 Jawa Barat",
+    "40117 Bandung"
+   ],
+   "phone": "62-22-421-2417",
+   "emails": [],
+   "url": "http://www.institutfrancais-indonesia.com/",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Indonésie",
+   "city": "Jakarta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan M. H. Thamrin n°20, 10350 Jakarta",
+   "address_lines": [
+    "Jalan M. H. Thamrin n°20",
+    "10350 Jakarta"
+   ],
+   "phone": "62-21-23-55-79-48",
+   "emails": [],
+   "url": "http://www.ifi-id.com",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Surabaya",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Ratna 14, Blok C2 Komplek AJBS, 60246 Surabaya",
+   "address_lines": [
+    "Jalan Ratna 14, Blok C2 Komplek AJBS",
+    "60246 Surabaya"
+   ],
+   "phone": "62-31-5-035-035",
+   "emails": [
+    "info.surabaya@ifi-id.com"
+   ],
+   "url": "http://www.ifi-id.com/surabaya",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Indonésie",
+   "city": "Yogyakarta",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Sagan N° 3, 55223 Yogyakarta",
+   "address_lines": [
+    "Jalan Sagan N° 3",
+    "55223 Yogyakarta"
+   ],
+   "phone": "62-274-566-520",
+   "emails": [],
+   "url": "https://www.ifi-id.com/yogyakarta/",
+   "so": true
+  }
+ ]
+}

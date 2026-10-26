@@ -1,0 +1,74 @@
+{
+ "country": "Lituanie",
+ "iso2": "LT",
+ "fei_id": "80",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Vilnius",
+  "cp": "",
+  "city_cp": "",
+  "address": "Didzioji g. 1, LT-01128 Vilnius",
+  "address_lines": [
+   "Didzioji g. 1",
+   "LT-01128 Vilnius"
+  ],
+  "phone": "5 219 96 54",
+  "emails": [],
+  "url": "http://www.institutfrancais-lituanie.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Université Vytautas Magnus",
+   "city": "Kaunas",
+   "cp": "",
+   "city_cp": "",
+   "address": "K. Donelaicio g. 58, 44248 Kaunas",
+   "address_lines": [
+    "K. Donelaicio g. 58",
+    "44248 Kaunas"
+   ],
+   "phone": "+37068786442",
+   "emails": [],
+   "url": "http://uki.vdu.lt/en/",
+   "so": false
+  },
+  {
+   "name": "Siauliu Juliaus Janonio Gimnazija",
+   "city": "Siauliai",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tilzes g. 137, LT-76348 Siauliai",
+   "address_lines": [
+    "Tilzes g. 137",
+    "LT-76348 Siauliai"
+   ],
+   "phone": "+37061249209",
+   "emails": [
+    "delfdalfsiauliai@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Lituanie",
+   "city": "Vilnius",
+   "cp": "",
+   "city_cp": "",
+   "address": "Didzioji g.1, LT 01128 Vilnius",
+   "address_lines": [
+    "Didzioji g.1",
+    "LT 01128 Vilnius"
+   ],
+   "phone": "0033641020328",
+   "emails": [],
+   "url": "http://www.institutfrancais-lituanie.com/",
+   "so": false
+  }
+ ]
+}

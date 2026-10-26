@@ -1,0 +1,53 @@
+{
+ "country": "Slovaquie",
+ "iso2": "SK",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANCAIS DE BRATISLAVA",
+   "city": "BRATISLAVA",
+   "cp": "81283",
+   "city_cp": "",
+   "address": "Sedlarska 7, 81283 BRATISLAVA",
+   "address_lines": [
+    "Sedlarska 7",
+    "81283 BRATISLAVA"
+   ],
+   "phone": "+421 2 672 952 32",
+   "emails": [
+    "dfp.faj@euba.sk"
+   ],
+   "url": "https://euba.sk/",
+   "so": false,
+   "products": [],
+   "cci_id": 542,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/542"
+  },
+  {
+   "name": "UNIVERSITE D'ECONOMIE DE BRATISLAVA",
+   "city": "BRATISLAVA",
+   "cp": "85232",
+   "city_cp": "",
+   "address": "Faculté des langues appliquées, 85232 BRATISLAVA",
+   "address_lines": [
+    "Faculté des langues appliquées",
+    "85232 BRATISLAVA"
+   ],
+   "phone": "+421 2 672 952 63",
+   "emails": [
+    "dfp.faj@euba.sk"
+   ],
+   "url": "www.euba.sk",
+   "so": false,
+   "products": [],
+   "cci_id": 803,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/803"
+  }
+ ]
+}

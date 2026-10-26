@@ -1,0 +1,177 @@
+{
+ "country": "Suisse",
+ "iso2": "CH",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 8,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRE LINGUISTIQUE DU CHABLAIS",
+   "city": "AIGLE",
+   "cp": "1860",
+   "city_cp": "",
+   "address": "Rue de Jérusalem 2, 1860 AIGLE",
+   "address_lines": [
+    "Rue de Jérusalem 2",
+    "1860 AIGLE"
+   ],
+   "phone": "+41 24 525 50 42",
+   "emails": [
+    "info@centrelinguistique.ch"
+   ],
+   "url": "www.celi-info.ch",
+   "so": false,
+   "products": [
+    "TEF"
+   ],
+   "cci_id": 898,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/898"
+  },
+  {
+   "name": "INLINGUA - BERNE",
+   "city": "BERNE",
+   "cp": "3011",
+   "city_cp": "",
+   "address": "Genfergasse 3+5, 3011 BERNE",
+   "address_lines": [
+    "Genfergasse 3+5",
+    "3011 BERNE"
+   ],
+   "phone": "+41 31 313 15 15",
+   "emails": [
+    "pruefungen@inlingua-bernundthun.ch"
+   ],
+   "url": "www.inlingua-bern.ch",
+   "so": false,
+   "products": [],
+   "cci_id": 478,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/478"
+  },
+  {
+   "name": "IFAGE",
+   "city": "GENÈVE",
+   "cp": "1205",
+   "city_cp": "",
+   "address": "IFAGE - Fondation pour la formation des adultes, 1205 GENÈVE",
+   "address_lines": [
+    "IFAGE - Fondation pour la formation des adultes",
+    "1205 GENÈVE"
+   ],
+   "phone": "+41 22 807 30 00",
+   "emails": [],
+   "url": "https://www.ifage.ch/",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 963,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/963"
+  },
+  {
+   "name": "CENTRE DE LANGUES DE L'UNIVERSITÉ DE ST GALL",
+   "city": "SAINT-GALL",
+   "cp": "9000",
+   "city_cp": "",
+   "address": "Gatterstrasse 3, 9000 SAINT-GALL",
+   "address_lines": [
+    "Gatterstrasse 3",
+    "9000 SAINT-GALL"
+   ],
+   "phone": "+41 71 224 25 80",
+   "emails": [
+    "sprachenservices@unisg.ch"
+   ],
+   "url": "www.unisg.ch/en/",
+   "so": false,
+   "products": [],
+   "cci_id": 335,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/335"
+  },
+  {
+   "name": "THE LANGUAGE CORNER SWITZERLAND SÀRL",
+   "city": "Vevey / Montreux",
+   "cp": "1800",
+   "city_cp": "",
+   "address": "Rue du Lac 3, 1800 Vevey, 1800 Vevey / Montreux",
+   "address_lines": [
+    "Rue du Lac 3, 1800 Vevey",
+    "1800 Vevey / Montreux"
+   ],
+   "phone": "",
+   "emails": [
+    "info@swisslanguagecorner.ch"
+   ],
+   "url": "www.swisslanguagecorner.ch",
+   "so": false,
+   "products": [],
+   "cci_id": 786,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/786"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE ZÜRICH",
+   "city": "ZÜRICH",
+   "cp": "8032",
+   "city_cp": "",
+   "address": "Merkurstrasse 34, 8032 ZÜRICH",
+   "address_lines": [
+    "Merkurstrasse 34",
+    "8032 ZÜRICH"
+   ],
+   "phone": "+41 44 261 93 06",
+   "emails": [
+    "presidence@afzurich.ch"
+   ],
+   "url": "www.afz.ch",
+   "so": false,
+   "products": [],
+   "cci_id": 227,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/227"
+  },
+  {
+   "name": "FLYING TEACHERS",
+   "city": "ZURICH",
+   "cp": "8001",
+   "city_cp": "",
+   "address": "Loewenstrasse 20, 8001 ZURICH",
+   "address_lines": [
+    "Loewenstrasse 20",
+    "8001 ZURICH"
+   ],
+   "phone": "+41 44 350 33 44",
+   "emails": [
+    "office@flyingteachers.com"
+   ],
+   "url": "https://www.flyingteachers.com",
+   "so": false,
+   "products": [],
+   "cci_id": 422,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/422"
+  },
+  {
+   "name": "INSTITUT CULTUREL ZURICH",
+   "city": "ZURICH DUEBENDORF",
+   "cp": "8600",
+   "city_cp": "",
+   "address": "Wasserfurrenstrasse 4, 8600 ZURICH DUEBENDORF",
+   "address_lines": [
+    "Wasserfurrenstrasse 4",
+    "8600 ZURICH DUEBENDORF"
+   ],
+   "phone": "+41 44 252 70 44",
+   "emails": [
+    "examen@institutculturel.ch"
+   ],
+   "url": "www.institutculturel.ch",
+   "so": false,
+   "products": [],
+   "cci_id": 966,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/966"
+  }
+ ]
+}

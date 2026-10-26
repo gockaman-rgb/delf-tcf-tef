@@ -1,0 +1,30 @@
+{
+ "country": "Koweït",
+ "iso2": "KW",
+ "fei_id": "369",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "KOWEIT",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jabriyah, block 12 rue 6, Villa 41 Gouvernorat de Hawally, KOWEIT",
+   "address_lines": [
+    "Jabriyah, block 12 rue 6, Villa 41 Gouvernorat de Hawally",
+    "KOWEIT"
+   ],
+   "phone": "965-66-26-69-80",
+   "emails": [
+    "cours@ifk.edu.kw"
+   ],
+   "url": "http://www.institutfrancais-koweit.com",
+   "so": true
+  }
+ ]
+}

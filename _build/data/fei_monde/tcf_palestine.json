@@ -1,0 +1,47 @@
+{
+ "country": "Palestine",
+ "iso2": "PS",
+ "fei_id": "109",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Bethléem",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bab Eddeir,water authority str Central bus station area Rue Beit Sahour, Bethléem",
+   "address_lines": [
+    "Bab Eddeir,water authority str Central bus station area Rue Beit Sahour",
+    "Bethléem"
+   ],
+   "phone": "970-595-54-05-40",
+   "emails": [
+    "cours@af-bethleem.org"
+   ],
+   "url": "http://www.af-bethleem.org",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Jérusalem",
+   "city": "Ramallah",
+   "cp": "",
+   "city_cp": "",
+   "address": "12, rue Al Salam BP 2113, Ramallah",
+   "address_lines": [
+    "12, rue Al Salam BP 2113",
+    "Ramallah"
+   ],
+   "phone": "972-59-99-974-76 / 972-2-298-1922",
+   "emails": [
+    "cours@iframallah.org"
+   ],
+   "url": "http://www.institutfrancais-jerusalem.org",
+   "so": true
+  }
+ ]
+}

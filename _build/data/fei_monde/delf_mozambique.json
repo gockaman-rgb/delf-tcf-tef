@@ -1,0 +1,55 @@
+{
+ "country": "Mozambique",
+ "iso2": "MZ",
+ "fei_id": "140",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Maputo",
+  "cp": "",
+  "city_cp": "",
+  "address": "2361 avenue Julius Nyerere Maputo",
+  "address_lines": [
+   "2361 avenue Julius Nyerere Maputo"
+  ],
+  "phone": "21484631",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Centre culturel franco-mozambicain",
+   "city": "Maputo",
+   "cp": "",
+   "city_cp": "",
+   "address": "468 avenida Samora Machel Maputo",
+   "address_lines": [
+    "468 avenida Samora Machel Maputo"
+   ],
+   "phone": "850291244",
+   "emails": [],
+   "url": "http://www.ccfmoz.com/",
+   "so": false
+  },
+  {
+   "name": "Institut de langues",
+   "city": "Maputo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Ahmed Sekou Touré, 4386 Maputo",
+   "address_lines": [
+    "Avenida Ahmed Sekou Touré",
+    "4386 Maputo"
+   ],
+   "phone": "824500530",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

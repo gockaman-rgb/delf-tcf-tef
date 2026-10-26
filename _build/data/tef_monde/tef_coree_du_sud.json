@@ -1,0 +1,33 @@
+{
+ "country": "Corée du Sud",
+ "iso2": "KR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE GANGNAM",
+   "city": "SÉOUL",
+   "cp": "06130",
+   "city_cp": "",
+   "address": "4F, 27-15, Gangnamdaero-94gil, Gangnam-gu, 06130 SÉOUL",
+   "address_lines": [
+    "4F, 27-15, Gangnamdaero-94gil, Gangnam-gu",
+    "06130 SÉOUL"
+   ],
+   "phone": "+82 2-555-1125",
+   "emails": [
+    "examen@afseoul.com"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 948,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/948"
+  }
+ ]
+}

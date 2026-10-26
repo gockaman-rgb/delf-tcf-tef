@@ -1,0 +1,31 @@
+{
+ "country": "Ghana",
+ "iso2": "GH",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "UNIVERSITY OF ENERGY AND NATURAL RESOURCES",
+   "city": "SUNYANI",
+   "cp": "214",
+   "city_cp": "",
+   "address": "Berekum Rd PO Box 214, 214 SUNYANI",
+   "address_lines": [
+    "Berekum Rd PO Box 214",
+    "214 SUNYANI"
+   ],
+   "phone": "+233 26 238 4333",
+   "emails": [],
+   "url": "www.uenr.edu.gh/",
+   "so": false,
+   "products": [],
+   "cci_id": 726,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/726"
+  }
+ ]
+}

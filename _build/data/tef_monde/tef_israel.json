@@ -1,0 +1,31 @@
+{
+ "country": "Israël",
+ "iso2": "IL",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS EN ISRAËL - HAÏFA",
+   "city": "HAÏFA",
+   "cp": "3505322",
+   "city_cp": "",
+   "address": "37 Rue Hagefen, 3505322 HAÏFA",
+   "address_lines": [
+    "37 Rue Hagefen",
+    "3505322 HAÏFA"
+   ],
+   "phone": "+972 4-833-1577",
+   "emails": [],
+   "url": "https://institutfrancais-israel.com/fr/contactez-nous/",
+   "so": false,
+   "products": [],
+   "cci_id": 754,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/754"
+  }
+ ]
+}

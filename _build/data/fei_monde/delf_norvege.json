@@ -1,0 +1,59 @@
+{
+ "country": "Norvège",
+ "iso2": "NO",
+ "fei_id": "83",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Institut français de Norvège",
+  "city": "Oslo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Holtegaten 29, 0355 Oslo",
+  "address_lines": [
+   "Holtegaten 29",
+   "0355 Oslo"
+  ],
+  "phone": "+47 40605132",
+  "emails": [],
+  "url": "http://www.france.no/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Fransk kulturhus",
+   "city": "Oslo",
+   "cp": "",
+   "city_cp": "",
+   "address": "St Olavs gate 21B, 0165 Oslo",
+   "address_lines": [
+    "St Olavs gate 21B",
+    "0165 Oslo"
+   ],
+   "phone": "91909404",
+   "emails": [
+    "contact@franskkulturhus.no"
+   ],
+   "url": "http://www.franskkulturhus.no/",
+   "so": false
+  },
+  {
+   "name": "Les Mousquetaires",
+   "city": "Oslo",
+   "cp": "",
+   "city_cp": "",
+   "address": "DRAMMENSVEIEN 83, 0271 Oslo",
+   "address_lines": [
+    "DRAMMENSVEIEN 83",
+    "0271 Oslo"
+   ],
+   "phone": "412 59 671",
+   "emails": [],
+   "url": "http://lesmousquetaires-oslo.com/fr/front_page",
+   "so": false
+  }
+ ]
+}

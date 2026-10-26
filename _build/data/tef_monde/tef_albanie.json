@@ -1,0 +1,35 @@
+{
+ "country": "Albanie",
+ "iso2": "AL",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE TIRANA",
+   "city": "TIRANA",
+   "cp": "1001",
+   "city_cp": "",
+   "address": "Rruga e Barrikadave, N°122, 1001 TIRANA",
+   "address_lines": [
+    "Rruga e Barrikadave, N°122",
+    "1001 TIRANA"
+   ],
+   "phone": "+355 4 222 5697",
+   "emails": [
+    "info@aftirana.org"
+   ],
+   "url": "www.aleancafranceze.al",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 209,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/209"
+  }
+ ]
+}

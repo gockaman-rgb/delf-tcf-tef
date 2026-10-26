@@ -1,0 +1,55 @@
+{
+ "country": "Égypte",
+ "iso2": "EG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS D'ÉGYPTE - ALEXANDRIE",
+   "city": "ALEXANDRIE",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 rue Nabi Daniel, ALEXANDRIE",
+   "address_lines": [
+    "30 rue Nabi Daniel",
+    "ALEXANDRIE"
+   ],
+   "phone": "+20 3 3913435",
+   "emails": [
+    "cours.alex@ifegypte.com"
+   ],
+   "url": "www.ifegypte.com/alexandrie/",
+   "so": false,
+   "products": [],
+   "cci_id": 495,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/495"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'ÉGYPTE - LE CAIRE",
+   "city": "LE CAIRE",
+   "cp": "11562",
+   "city_cp": "",
+   "address": "1 Madrasset Al Huquq Al Frinseya, 11562 LE CAIRE",
+   "address_lines": [
+    "1 Madrasset Al Huquq Al Frinseya",
+    "11562 LE CAIRE"
+   ],
+   "phone": "+20 12 82777956",
+   "emails": [
+    "infoexamens@ifegypte.com"
+   ],
+   "url": "www.ifegypte.com",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 498,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/498"
+  }
+ ]
+}

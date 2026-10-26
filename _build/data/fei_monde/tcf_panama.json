@@ -1,0 +1,30 @@
+{
+ "country": "Panama",
+ "iso2": "PA",
+ "fei_id": "32",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance Francaise de Panama",
+   "city": "Ciudad de Panama",
+   "cp": "",
+   "city_cp": "",
+   "address": "Edificio Casa Blanca - Calle 44 con Avenida Justo Arosemena, Ciudad de Panama",
+   "address_lines": [
+    "Edificio Casa Blanca - Calle 44 con Avenida Justo Arosemena",
+    "Ciudad de Panama"
+   ],
+   "phone": "005072237376",
+   "emails": [
+    "certificaciones@afpanama.org"
+   ],
+   "url": "https://afpanama.org",
+   "so": false
+  }
+ ]
+}

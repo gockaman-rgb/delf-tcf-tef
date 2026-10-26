@@ -1,0 +1,62 @@
+{
+ "country": "Arabie saoudite",
+ "iso2": "SA",
+ "fei_id": "100",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française d'Arabie Saoudite",
+   "city": "Al Khobar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Macro Twin Towers B, 5th floor King Salman Bin Abdulaziz Road Al Bandariyah, 31952 Al Khobar",
+   "address_lines": [
+    "Macro Twin Towers B, 5th floor King Salman Bin Abdulaziz Road Al Bandariyah",
+    "31952 Al Khobar"
+   ],
+   "phone": "966-5-34-54-71-44",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Djeddah",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hayy Jameel - 1st Floor 7829, Al Muhammadiyah, 23615 Djeddah",
+   "address_lines": [
+    "Hayy Jameel - 1st Floor 7829, Al Muhammadiyah",
+    "23615 Djeddah"
+   ],
+   "phone": "966-566-09-36-03",
+   "emails": [
+    "info.djeddah@af-ksa.org"
+   ],
+   "url": "http://www.af-ksa.com",
+   "so": true
+  },
+  {
+   "name": "Alliance Française d'Arabie Saoudite",
+   "city": "Riyadh",
+   "cp": "",
+   "city_cp": "",
+   "address": "Al Kindi Plaza - Gate 14 As-safarat, 12521 Riyadh",
+   "address_lines": [
+    "Al Kindi Plaza - Gate 14 As-safarat",
+    "12521 Riyadh"
+   ],
+   "phone": "966-551-372-313",
+   "emails": [
+    "riyadh@af-ksa.org"
+   ],
+   "url": "http://www.af-ksa.com",
+   "so": true
+  }
+ ]
+}

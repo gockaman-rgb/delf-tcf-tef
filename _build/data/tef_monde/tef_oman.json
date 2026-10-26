@@ -1,0 +1,35 @@
+{
+ "country": "Oman",
+ "iso2": "OM",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRE FRANCO-OMANAIS",
+   "city": "MASCATE",
+   "cp": "115",
+   "city_cp": "",
+   "address": "207 Al Inshirah Street, 115 MASCATE",
+   "address_lines": [
+    "207 Al Inshirah Street",
+    "115 MASCATE"
+   ],
+   "phone": "+968 24 697579",
+   "emails": [
+    "certifications@cfoman.org"
+   ],
+   "url": "http://www.cfoman.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 340,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/340"
+  }
+ ]
+}

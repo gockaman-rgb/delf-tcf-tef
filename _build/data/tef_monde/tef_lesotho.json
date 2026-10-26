@@ -1,0 +1,33 @@
+{
+ "country": "Lesotho",
+ "iso2": "LS",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCAISE DE MASERU",
+   "city": "MASERU",
+   "cp": "100",
+   "city_cp": "",
+   "address": "Corner Kingsway & Pioneer Roads, 100 MASERU",
+   "address_lines": [
+    "Corner Kingsway & Pioneer Roads",
+    "100 MASERU"
+   ],
+   "phone": "+266 2232 5722",
+   "emails": [
+    "director@afmaseru.org.ls"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 146,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/146"
+  }
+ ]
+}

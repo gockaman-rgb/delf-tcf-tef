@@ -1182,6 +1182,12 @@ relevés, les dates et le pas-à-pas.""",
     "body": """
 %(stats)s
 
+<form class="finder-mini" action="/trouver-un-centre/" method="get" role="search">
+<label for="finder-mini-q">Trouver un centre d'examen près de chez vous</label>
+<div class="finder-row"><input id="finder-mini-q" name="q" type="search" placeholder="Ville, pays ou nom du centre" autocomplete="off" enterkeyhint="search"><button type="submit">Chercher</button></div>
+<p>TCF, DELF-DALF, TEF et examen civique : les centres agréés les plus proches, avec la distance. <a href="/trouver-un-centre/">Ou autour de moi →</a></p>
+</form>
+
 <h2 id="guides">Les guides par examen et par pays</h2>
 
 <p>Le tableau croise l'examen et le pays de passation. Les cases avec un lien renvoient à un guide

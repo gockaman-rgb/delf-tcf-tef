@@ -12,6 +12,7 @@ françaises écrites à la main ; check_i18n.py pour contrôler les paires.
 import importlib
 
 SOURCES = ("pays_config_es", "pays_config_en", "i18n_pages_es", "i18n_pages_en", "pays_config_ar", "i18n_pages_ar")
+SOURCES += ("finder_pages",)   # chercheur de centres (26/10/2026) : /trouver-un-centre/ et ses versions en, es, ar
 LINK_LABEL = {"fr": "Lire en français", "es": "Leer en español", "en": "Read in English", "ar": "اقرأ بالعربية"}
 
 

@@ -1,0 +1,498 @@
+{
+ "country": "Brésil",
+ "iso2": "BR",
+ "fei_id": "19",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 29,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Brasilia",
+  "cp": "",
+  "city_cp": "",
+  "address": "SES Av. das Nações, lote 04 - quadra 801, 70404-900 Brasilia",
+  "address_lines": [
+   "SES Av. das Nações, lote 04 - quadra 801",
+   "70404-900 Brasilia"
+  ],
+  "phone": "61 32 22 38 70",
+  "emails": [],
+  "url": "http://www.br.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française d'Aracaju",
+   "city": "Aracaju",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Pacatuba, 288A, 49010150 Aracaju",
+   "address_lines": [
+    "Rua Pacatuba, 288A",
+    "49010150 Aracaju"
+   ],
+   "phone": "79 988777904",
+   "emails": [
+    "secretaria@afaju.com.br"
+   ],
+   "url": "http://www.afaju.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Belém",
+   "city": "Belém",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tv. Rui Barbosa Nº 1851, 66035-220 Belém",
+   "address_lines": [
+    "Tv. Rui Barbosa Nº 1851",
+    "66035-220 Belém"
+   ],
+   "phone": "91 98443-3572",
+   "emails": [
+    "diretoria@afbelem.com"
+   ],
+   "url": "http://www.afbelem.com",
+   "so": false
+  },
+  {
+   "name": "Associação de Cultura Franco Brasileira - Alliance Française BH",
+   "city": "Belo Horizonte",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Sergipe, 779 - Funcionários, 30130-171 Belo Horizonte",
+   "address_lines": [
+    "Rua Sergipe, 779 - Funcionários",
+    "30130-171 Belo Horizonte"
+   ],
+   "phone": "31 32 91 51 87",
+   "emails": [],
+   "url": "https://aliancafrancesabh.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Brasília",
+   "city": "Brasília",
+   "cp": "",
+   "city_cp": "",
+   "address": "SEPS 708/907 Lote A, 70390079 Brasília",
+   "address_lines": [
+    "SEPS 708/907 Lote A",
+    "70390079 Brasília"
+   ],
+   "phone": "06132627626",
+   "emails": [],
+   "url": "http://afbrasilia.org.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Campinas",
+   "city": "Campinas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Candido Gomide 65, 13073-200 Campinas",
+   "address_lines": [
+    "Rua Candido Gomide 65",
+    "13073-200 Campinas"
+   ],
+   "phone": "+551932521063",
+   "emails": [
+    "afcampinas@afcampinas.com.br"
+   ],
+   "url": "http://afcampinas.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Campo Grande",
+   "city": "Campo Grande",
+   "cp": "",
+   "city_cp": "",
+   "address": "1719, rue Antonio Maria Coelho, 79002-221 Campo Grande",
+   "address_lines": [
+    "1719, rue Antonio Maria Coelho",
+    "79002-221 Campo Grande"
+   ],
+   "phone": "5567992869480",
+   "emails": [],
+   "url": "http://afcampogrande.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Curitiba",
+   "city": "Curitiba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alameda Prudente de Moraes, 1101, 80430-220 Curitiba",
+   "address_lines": [
+    "Alameda Prudente de Moraes, 1101",
+    "80430-220 Curitiba"
+   ],
+   "phone": "4132234457",
+   "emails": [],
+   "url": "http://www.afcuritiba.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Florianópolis",
+   "city": "Florianópolis",
+   "cp": "",
+   "city_cp": "",
+   "address": "R Visconde De Ouro Preto, 282, 88020040 Florianópolis",
+   "address_lines": [
+    "R Visconde De Ouro Preto, 282",
+    "88020040 Florianópolis"
+   ],
+   "phone": "4832228925",
+   "emails": [
+    "direcao@affloripa.com.br"
+   ],
+   "url": "https://affloripa.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Fortaleza",
+   "city": "Fortaleza",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Catão Mamede 900 Aldeota, 60140-110 Fortaleza",
+   "address_lines": [
+    "Rua Catão Mamede 900 Aldeota",
+    "60140-110 Fortaleza"
+   ],
+   "phone": "85 3244.7887",
+   "emails": [
+    "direcao@affortaleza.com"
+   ],
+   "url": "https://affortaleza.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de João Pessoa",
+   "city": "João Pessoa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Adolfo Loureiro França, 408 - Cabo Branco., 58045-080 João Pessoa",
+   "address_lines": [
+    "Av. Adolfo Loureiro França, 408 - Cabo Branco.",
+    "58045-080 João Pessoa"
+   ],
+   "phone": "83987503895",
+   "emails": [
+    "secretaria@afjoaopessoa.com.br"
+   ],
+   "url": "https://www.afjoaopessoa.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Juiz de Fora",
+   "city": "Juiz De Fora",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Moraes e Castro 300 , sala 220 1º andar - Shopping Alameda - Bairro Alto dos Passos, 36025-160 Juiz De Fora",
+   "address_lines": [
+    "Rua Moraes e Castro 300 , sala 220 1º andar - Shopping Alameda - Bairro Alto dos Passos",
+    "36025-160 Juiz De Fora"
+   ],
+   "phone": "322157958",
+   "emails": [],
+   "url": "http://www.aliancafrancesajuizdefora.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Nord du Paraná",
+   "city": "Londrina",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Georgetown 325, 86050130 Londrina",
+   "address_lines": [
+    "Rua Georgetown 325",
+    "86050130 Londrina"
+   ],
+   "phone": "4333247508",
+   "emails": [
+    "diretoria@afnortepr.com.br"
+   ],
+   "url": "http://www.afnortepr.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Maceió",
+   "city": "Maceió",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Humberto Mendes, 250 - Jaraguá, 57022060 Maceió",
+   "address_lines": [
+    "Av. Humberto Mendes, 250 - Jaraguá",
+    "57022060 Maceió"
+   ],
+   "phone": "82993029734",
+   "emails": [],
+   "url": "http://www.afmaceio.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Manaus",
+   "city": "Manaus",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Ferreira Pena, Nº 37, Bairro - Centro, 69025-010 Manaus",
+   "address_lines": [
+    "Rua Ferreira Pena, Nº 37, Bairro - Centro",
+    "69025-010 Manaus"
+   ],
+   "phone": "92 3308-6057",
+   "emails": [],
+   "url": "https://www.afmanaus.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Natal",
+   "city": "Natal",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Potengi, 459, 59020-030 Natal",
+   "address_lines": [
+    "Rua Potengi, 459",
+    "59020-030 Natal"
+   ],
+   "phone": "84 3222-1558",
+   "emails": [
+    "info@afrnatal.com"
+   ],
+   "url": "http://www.afrnatal.com",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Niterói",
+   "city": "Niterói",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lopes Trovão 52 2°andar, 24220-071 Niterói",
+   "address_lines": [
+    "Lopes Trovão 52 2°andar",
+    "24220-071 Niterói"
+   ],
+   "phone": "(21) 2610-3966",
+   "emails": [
+    "exame@aliancafrancesa.niteroi.br"
+   ],
+   "url": "http://www.aliancafrancesa.niteroi.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Nova Friburgo",
+   "city": "Nova Friburgo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Carlos Alberto Braune 11, 28611-000 Nova Friburgo",
+   "address_lines": [
+    "Rua Carlos Alberto Braune 11",
+    "28611-000 Nova Friburgo"
+   ],
+   "phone": "22988514700",
+   "emails": [
+    "alliance@afnf.com.br"
+   ],
+   "url": "http://www.afnf.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Porto Alegre",
+   "city": "Porto Alegre",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Cristóvão Colombo, 2240 - 402, 90560-002 Porto Alegre",
+   "address_lines": [
+    "Av. Cristóvão Colombo, 2240 - 402",
+    "90560-002 Porto Alegre"
+   ],
+   "phone": "51984752606",
+   "emails": [
+    "recepcao@afpoa.com.br"
+   ],
+   "url": "https://www.afpoa.com.br/",
+   "so": false
+  },
+  {
+   "name": "Aliança Francesa Recife",
+   "city": "Recife",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Amaro Bezerra, 466 - Derby, 52.010-150 Recife",
+   "address_lines": [
+    "Rua Amaro Bezerra, 466 - Derby",
+    "52.010-150 Recife"
+   ],
+   "phone": "(81) 3202-6262",
+   "emails": [
+    "examens@af.rec.br"
+   ],
+   "url": "https://af.rec.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Ribeirão Preto",
+   "city": "Ribeirão Preto",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Independência, 3909 - Jardim California, Ribeirão Preto - SP,, 14026-150 Ribeirão Preto",
+   "address_lines": [
+    "Av. Independência, 3909 - Jardim California, Ribeirão Preto - SP,",
+    "14026-150 Ribeirão Preto"
+   ],
+   "phone": "16993478036",
+   "emails": [
+    "direcao@afribeirao.com.br"
+   ],
+   "url": "https://www.afribeirao.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Rio de Janeiro",
+   "city": "Rio De Janeiro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Muniz Barreto, 746, Botafogo, 22251090 Rio De Janeiro",
+   "address_lines": [
+    "Rua Muniz Barreto, 746, Botafogo",
+    "22251090 Rio De Janeiro"
+   ],
+   "phone": "2132992000",
+   "emails": [],
+   "url": "http://www.rioaliancafrancesa.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Salvador",
+   "city": "Salvador",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Sete de Setembro, 2726 (antigo 401), 40130-000 Salvador",
+   "address_lines": [
+    "Avenida Sete de Setembro, 2726 (antigo 401)",
+    "40130-000 Salvador"
+   ],
+   "phone": "7133367599",
+   "emails": [
+    "escola@afbahia.com.br"
+   ],
+   "url": "http://www.afbahia.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française Grande ABC",
+   "city": "Santo André",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua das Esmeraldas, 176 sala 31, 09090770 Santo André",
+   "address_lines": [
+    "Rua das Esmeraldas, 176 sala 31",
+    "09090770 Santo André"
+   ],
+   "phone": "551144369578",
+   "emails": [],
+   "url": "http://www.aliancafrancesagabc.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Santos",
+   "city": "Santos",
+   "cp": "",
+   "city_cp": "",
+   "address": "98, Rue Rio Grande do Norte, 11065-460 Santos",
+   "address_lines": [
+    "98, Rue Rio Grande do Norte",
+    "11065-460 Santos"
+   ],
+   "phone": "13 32372403",
+   "emails": [
+    "diretoria@afsantos.com.br"
+   ],
+   "url": "http://www.afsantos.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de São Carlos",
+   "city": "São Carlos",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua São Sebastião 1572 - Centro, 13560-230 São Carlos",
+   "address_lines": [
+    "Rua São Sebastião 1572 - Centro",
+    "13560-230 São Carlos"
+   ],
+   "phone": "16-981380377",
+   "emails": [],
+   "url": "http://www.afsaocarlos.com.br/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de São José dos Campos",
+   "city": "São José Dos Campos",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Barão do Rio Branco, 882, 12242-800 São José Dos Campos",
+   "address_lines": [
+    "Avenida Barão do Rio Branco, 882",
+    "12242-800 São José Dos Campos"
+   ],
+   "phone": "1239216069",
+   "emails": [
+    "afsjcampos@afsjcampos.com.br"
+   ],
+   "url": "http://www.afsjcampos.com.br",
+   "so": false
+  },
+  {
+   "name": "Alliance française São Paulo",
+   "city": "São Paulo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Brig. Faria Lima, 2421 - Pinheiros, São Paulo - SP,, 01452-000 São Paulo",
+   "address_lines": [
+    "Av. Brig. Faria Lima, 2421 - Pinheiros, São Paulo - SP,",
+    "01452-000 São Paulo"
+   ],
+   "phone": "5511991319157",
+   "emails": [],
+   "url": "https://www.aliancafrancesa.com.br/",
+   "so": false
+  },
+  {
+   "name": "Universidade Federal de Uberlândia - UFU",
+   "city": "Uberlândia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. João Naves de Ávila 2121 - Campus Santa Mônica - Bloco 3P Sala 3P01, Reitoria, 38400-902 Uberlândia",
+   "address_lines": [
+    "Av. João Naves de Ávila 2121 - Campus Santa Mônica - Bloco 3P Sala 3P01, Reitoria",
+    "38400-902 Uberlândia"
+   ],
+   "phone": "3432918969",
+   "emails": [
+    "dri@ufu.br"
+   ],
+   "url": "http://www.ufu.br/",
+   "so": false
+  },
+  {
+   "name": "CELIF - Université Fédérale de Viçosa",
+   "city": "Viçosa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Peter Henry Rolfs, s/n - Campus Universitário, Viçosa, 36570-900 Viçosa",
+   "address_lines": [
+    "Av. Peter Henry Rolfs, s/n - Campus Universitário, Viçosa",
+    "36570-900 Viçosa"
+   ],
+   "phone": "313612-3007",
+   "emails": [
+    "celif@ufv.br"
+   ],
+   "url": "http://www.celif.prelin.org.br",
+   "so": false
+  }
+ ]
+}

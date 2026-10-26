@@ -1,0 +1,43 @@
+{
+ "country": "Palestine",
+ "iso2": "PS",
+ "fei_id": "109",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Jérusalem",
+  "cp": "",
+  "city_cp": "",
+  "address": "3 rue Bibers – Sheikh Jarrah BP 182, 19071 Jérusalem",
+  "address_lines": [
+   "3 rue Bibers – Sheikh Jarrah BP 182",
+   "19071 Jérusalem"
+  ],
+  "phone": "+972025914015",
+  "emails": [],
+  "url": "http://www.consulfrance-jerusalem.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Jérusalem - antenne de Ramallah",
+   "city": "Ramallah",
+   "cp": "",
+   "city_cp": "",
+   "address": "12 Al Salaam Street Ramallah",
+   "address_lines": [
+    "12 Al Salaam Street Ramallah"
+   ],
+   "phone": "+972595098880",
+   "emails": [
+    "director@iframallah.org"
+   ],
+   "url": "https://www.institutfrancais-jerusalem.org/ramallah/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "country": "Namibie",
+ "iso2": "NA",
+ "fei_id": "390",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Centre culturel franco-namibien",
+   "city": "Windhoek",
+   "cp": "",
+   "city_cp": "",
+   "address": "118 Avenue Robert Mugabe PO Box 11622, Windhoek",
+   "address_lines": [
+    "118 Avenue Robert Mugabe PO Box 11622",
+    "Windhoek"
+   ],
+   "phone": "264-833-387-330",
+   "emails": [
+    "french-dpt@fncc.org.na"
+   ],
+   "url": "http://www.fncc.org.na",
+   "so": true
+  }
+ ]
+}

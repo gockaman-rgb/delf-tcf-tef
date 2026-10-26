@@ -1,0 +1,58 @@
+{
+ "country": "Ouzbékistan",
+ "iso2": "UZ",
+ "fei_id": "50",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Tachkent",
+  "cp": "",
+  "city_cp": "",
+  "address": "25, rue Istiqbol, 100047 Tachkent",
+  "address_lines": [
+   "25, rue Istiqbol",
+   "100047 Tachkent"
+  ],
+  "phone": "712328100",
+  "emails": [],
+  "url": "http://www.ambafrance-uz.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Samarcande",
+   "city": "Samarcande",
+   "cp": "",
+   "city_cp": "",
+   "address": "4 rue Temur Malik Samarcande",
+   "address_lines": [
+    "4 rue Temur Malik Samarcande"
+   ],
+   "phone": "944991443",
+   "emails": [
+    "direction@af-samarcande.uz"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tachkent",
+   "city": "Tachkent",
+   "cp": "",
+   "city_cp": "",
+   "address": "112 rue Zulfiya khonum, 100128 Tachkent",
+   "address_lines": [
+    "112 rue Zulfiya khonum",
+    "100128 Tachkent"
+   ],
+   "phone": "712449408",
+   "emails": [],
+   "url": "http://af-tachkent.uz/index_fr.html",
+   "so": false
+  }
+ ]
+}

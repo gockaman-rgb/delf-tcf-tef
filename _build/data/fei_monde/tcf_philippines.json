@@ -1,0 +1,30 @@
+{
+ "country": "Philippines",
+ "iso2": "PH",
+ "fei_id": "400",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Cebu, Alliance française",
+   "city": "Cebu",
+   "cp": "",
+   "city_cp": "",
+   "address": "371 Gorordo Avenue Cebu City -, 6000 Cebu",
+   "address_lines": [
+    "371 Gorordo Avenue Cebu City -",
+    "6000 Cebu"
+   ],
+   "phone": "63-915-433-8785",
+   "emails": [
+    "school@alliancefr.ph"
+   ],
+   "url": "https://alliancefr.ph/",
+   "so": true
+  }
+ ]
+}

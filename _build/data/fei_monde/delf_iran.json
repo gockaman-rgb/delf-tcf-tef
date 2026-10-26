@@ -1,0 +1,58 @@
+{
+ "country": "Iran",
+ "iso2": "IR",
+ "fei_id": "103",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "scac",
+  "city": "Teheran",
+  "cp": "",
+  "city_cp": "",
+  "address": "64 rue neauphle le château Teheran",
+  "address_lines": [
+   "64 rue neauphle le château Teheran"
+  ],
+  "phone": "0603675378",
+  "emails": [],
+  "url": "http://ir.ambafrance.org",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Centre de Langue Française",
+   "city": "Téhéran",
+   "cp": "",
+   "city_cp": "",
+   "address": "N°8 Avenue Enghelab, Rue Abivard, impasse Kimia, 009821 Téhéran",
+   "address_lines": [
+    "N°8 Avenue Enghelab, Rue Abivard, impasse Kimia",
+    "009821 Téhéran"
+   ],
+   "phone": "00982166705040",
+   "emails": [
+    "delf-dalf@clf-teh.org"
+   ],
+   "url": "http://www.clf-teh.org/",
+   "so": false
+  },
+  {
+   "name": "Institut de Langues d'Iran",
+   "city": "Téhéran",
+   "cp": "",
+   "city_cp": "",
+   "address": "N 33, rue fajr, avenue Ostad Motahari, 1589793413 Téhéran",
+   "address_lines": [
+    "N 33, rue fajr, avenue Ostad Motahari",
+    "1589793413 Téhéran"
+   ],
+   "phone": "21-88308035",
+   "emails": [],
+   "url": "http://www.ili.ir/",
+   "so": false
+  }
+ ]
+}

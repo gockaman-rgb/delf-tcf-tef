@@ -1,0 +1,60 @@
+{
+ "country": "Congo",
+ "iso2": "CG",
+ "fei_id": "127",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Brazzaville",
+  "cp": "",
+  "city_cp": "",
+  "address": "Place de la République BP 2141 Brazzaville",
+  "address_lines": [
+   "Place de la République BP 2141 Brazzaville"
+  ],
+  "phone": "+242069178880",
+  "emails": [
+   "direction.brazzaville@ifcongo.com"
+  ],
+  "url": "http://www.institutfrancais-congo.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Congo à Brazzaville",
+   "city": "Brazzaville",
+   "cp": "",
+   "city_cp": "",
+   "address": "place de la République, 2141 Brazzaville",
+   "address_lines": [
+    "place de la République",
+    "2141 Brazzaville"
+   ],
+   "phone": "069178880",
+   "emails": [
+    "direction.brazzaville@ifcongo.com"
+   ],
+   "url": "http://www.institutfrancais-congo.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Congo à Pointe-Noire",
+   "city": "Pointe-Noire",
+   "cp": "",
+   "city_cp": "",
+   "address": "11 avenue Kaat Matou, 1288 Pointe-Noire",
+   "address_lines": [
+    "11 avenue Kaat Matou",
+    "1288 Pointe-Noire"
+   ],
+   "phone": "+242069054810",
+   "emails": [],
+   "url": "http://www.ifc-pointenoire.com/",
+   "so": false
+  }
+ ]
+}

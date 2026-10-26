@@ -1,0 +1,30 @@
+{
+ "country": "Nicaragua",
+ "iso2": "NI",
+ "fei_id": "31",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Managua",
+   "cp": "",
+   "city_cp": "",
+   "address": "Planes de Altamira de la Embajada de Mexico 1/2 c. N., 14034 Managua",
+   "address_lines": [
+    "Planes de Altamira de la Embajada de Mexico 1/2 c. N.",
+    "14034 Managua"
+   ],
+   "phone": "505-22-67-28-11",
+   "emails": [
+    "pedagogia@alianzafrancesa.org.ni"
+   ],
+   "url": "http://www.facebook.com/alianzafrancesamanagua/",
+   "so": true
+  }
+ ]
+}

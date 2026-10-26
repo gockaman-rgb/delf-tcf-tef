@@ -1,0 +1,73 @@
+{
+ "country": "Espagne",
+ "iso2": "ES",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "LA MAISON DE FRANCE - S.L. - GRENADE",
+   "city": "GRENADE",
+   "cp": "18002",
+   "city_cp": "",
+   "address": "Carlos Pareja, 5, 18002 GRENADE",
+   "address_lines": [
+    "Carlos Pareja, 5",
+    "18002 GRENADE"
+   ],
+   "phone": "+34 958 26 14 47",
+   "emails": [],
+   "url": "https://lamaisondefrance.es/",
+   "so": false,
+   "products": [],
+   "cci_id": 613,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/613"
+  },
+  {
+   "name": "CENTRO DE IDIOMAS DE LA FGUMA",
+   "city": "MALAGA",
+   "cp": "29071",
+   "city_cp": "",
+   "address": "Fundacion General de la Universidad de Malaga, 29071 MALAGA",
+   "address_lines": [
+    "Fundacion General de la Universidad de Malaga",
+    "29071 MALAGA"
+   ],
+   "phone": "+34 951 95 26 59",
+   "emails": [
+    "c.idiomas@fguma.es"
+   ],
+   "url": "https://fguma.es/idiomas-informacion-general/",
+   "so": false,
+   "products": [],
+   "cci_id": 457,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/457"
+  },
+  {
+   "name": "CLAUDINE - CENTRO DE IDIOMAS",
+   "city": "OVIEDO",
+   "cp": "33005",
+   "city_cp": "",
+   "address": "c/ General Zubillaga n°10 Entresuelo Derecha, 33005 OVIEDO",
+   "address_lines": [
+    "c/ General Zubillaga n°10 Entresuelo Derecha",
+    "33005 OVIEDO"
+   ],
+   "phone": "+34 684 62 19 56",
+   "emails": [
+    "info@claudine.es"
+   ],
+   "url": "www.claudine.es",
+   "so": false,
+   "products": [
+    "TEF"
+   ],
+   "cci_id": 360,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/360"
+  }
+ ]
+}

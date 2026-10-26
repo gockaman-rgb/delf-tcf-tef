@@ -1,0 +1,30 @@
+{
+ "country": "Côte d'Ivoire",
+ "iso2": "CI",
+ "fei_id": "128",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Annexe Institut français Côte d'Ivoire",
+   "city": "Abidjan",
+   "cp": "",
+   "city_cp": "",
+   "address": "7 rue des Bougainvilliers Cocody - Saint-Jean, Abidjan",
+   "address_lines": [
+    "7 rue des Bougainvilliers Cocody - Saint-Jean",
+    "Abidjan"
+   ],
+   "phone": "225-22-54-87-50",
+   "emails": [
+    "admintests@institutfrancais.ci"
+   ],
+   "url": "http://www.institutfrancais.ci",
+   "so": true
+  }
+ ]
+}

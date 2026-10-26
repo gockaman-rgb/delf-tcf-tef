@@ -1,0 +1,179 @@
+{
+ "country": "Afrique du Sud",
+ "iso2": "ZA",
+ "fei_id": "120",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 10,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Bloemfontein",
+   "city": "Bloemfontein",
+   "cp": "",
+   "city_cp": "",
+   "address": "2 rue Cachet Dan Pienaar, 9301 Bloemfontein",
+   "address_lines": [
+    "2 rue Cachet Dan Pienaar",
+    "9301 Bloemfontein"
+   ],
+   "phone": "729391115",
+   "emails": [
+    "directrice.bloem@alliancefr.co.za"
+   ],
+   "url": "http://www.alliance.org.za/",
+   "so": false
+  },
+  {
+   "name": "Alliance française du Cap",
+   "city": "Cape Town",
+   "cp": "",
+   "city_cp": "",
+   "address": "155 Loop Street, 8001 Cape Town",
+   "address_lines": [
+    "155 Loop Street",
+    "8001 Cape Town"
+   ],
+   "phone": "214235699",
+   "emails": [
+    "exams@afcapetown.co.za"
+   ],
+   "url": "http://www.afcapetown.co.za/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Durban",
+   "city": "Durban",
+   "cp": "",
+   "city_cp": "",
+   "address": "43 Station Drive, Morningside, Berea, 4001 Durban",
+   "address_lines": [
+    "43 Station Drive, Morningside, Berea",
+    "4001 Durban"
+   ],
+   "phone": "031 3129582",
+   "emails": [
+    "director@durban.alliance.org.za"
+   ],
+   "url": "http://www.alliance.org.za/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Port-Elizabeth",
+   "city": "Gqeberha",
+   "cp": "",
+   "city_cp": "",
+   "address": "17 Mackay Street, 6001 Gqeberha",
+   "address_lines": [
+    "17 Mackay Street",
+    "6001 Gqeberha"
+   ],
+   "phone": "0792569092",
+   "emails": [
+    "director@afportelizabeth.com"
+   ],
+   "url": "https://www.afportelizabeth.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pietermaritzburg",
+   "city": "Hilton",
+   "cp": "",
+   "city_cp": "",
+   "address": "C/O Juliette Hunter, Hilton College, Private Bag 6001, 3245 Hilton",
+   "address_lines": [
+    "C/O Juliette Hunter, Hilton College, Private Bag 6001",
+    "3245 Hilton"
+   ],
+   "phone": "0824598801",
+   "emails": [],
+   "url": "http://www.alliance.org.za/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Johannesburg",
+   "city": "Johannesburg",
+   "cp": "",
+   "city_cp": "",
+   "address": "17 Lower Park Drive Corner Kerry Road, 2122 Johannesburg",
+   "address_lines": [
+    "17 Lower Park Drive Corner Kerry Road",
+    "2122 Johannesburg"
+   ],
+   "phone": "0116461169",
+   "emails": [
+    "delfdalf@jhb.alliance.org.za"
+   ],
+   "url": "http://www.alliance.org.za/",
+   "so": false
+  },
+  {
+   "name": "Northwest University",
+   "city": "Potchefstroom",
+   "cp": "",
+   "city_cp": "",
+   "address": "Private bag x6001 (IB395), 2520 Potchefstroom",
+   "address_lines": [
+    "Private bag x6001 (IB395)",
+    "2520 Potchefstroom"
+   ],
+   "phone": "+27182991057",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pretoria",
+   "city": "Pretoria",
+   "cp": "",
+   "city_cp": "",
+   "address": "99 Rivier Street, 0132 Pretoria",
+   "address_lines": [
+    "99 Rivier Street",
+    "0132 Pretoria"
+   ],
+   "phone": "012 343 6563",
+   "emails": [
+    "director@pta.alliance.org.za"
+   ],
+   "url": "https://pta.alliance.org.za/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Soweto",
+   "city": "Soweto",
+   "cp": "",
+   "city_cp": "",
+   "address": "735 Ngwe St, Diepkloof, Diepmeadow,, 1864 Soweto",
+   "address_lines": [
+    "735 Ngwe St, Diepkloof, Diepmeadow,",
+    "1864 Soweto"
+   ],
+   "phone": "011 568 5147",
+   "emails": [
+    "admin@soweto.alliance.org.za"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Stellenbosch",
+   "city": "Stellenbosch",
+   "cp": "",
+   "city_cp": "",
+   "address": "44 Ryneveld Street, 7600 Stellenbosch",
+   "address_lines": [
+    "44 Ryneveld Street",
+    "7600 Stellenbosch"
+   ],
+   "phone": "785207963",
+   "emails": [
+    "director@stellenbosch.alliance.org.za"
+   ],
+   "url": "http://www.alliance.org.za/",
+   "so": false
+  }
+ ]
+}

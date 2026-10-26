@@ -1,0 +1,599 @@
+{
+ "country": "Canada",
+ "iso2": "CA",
+ "fei_id": "112",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 36,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Ottawa",
+  "cp": "",
+  "city_cp": "",
+  "address": "42 Sussex Drive Ottawa",
+  "address_lines": [
+   "42 Sussex Drive Ottawa"
+  ],
+  "phone": "16135623772",
+  "emails": [],
+  "url": "https://delf-dalf.ambafrance-ca.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Centre DELF-DALF de l’université Simon Fraser",
+   "city": "Burnaby",
+   "cp": "",
+   "city_cp": "",
+   "address": "Édifice Cornerstone - 8960, rue University High, bur. 198A, V5A 4Y6 Burnaby",
+   "address_lines": [
+    "Édifice Cornerstone - 8960, rue University High, bur. 198A",
+    "V5A 4Y6 Burnaby"
+   ],
+   "phone": "778.782.7646",
+   "emails": [],
+   "url": "http://www.sfu.ca/baff-offa/fr.html",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Calgary",
+   "city": "Calgary",
+   "cp": "",
+   "city_cp": "",
+   "address": "#350, 1721 29th avenue SW, T2T6T7 Calgary",
+   "address_lines": [
+    "#350, 1721 29th avenue SW",
+    "T2T6T7 Calgary"
+   ],
+   "phone": "4032455662",
+   "emails": [
+    "courses@afcalgary.ca"
+   ],
+   "url": "http://www.afcalgary.ca/",
+   "so": false
+  },
+  {
+   "name": "Calgary Board of Education - CBE",
+   "city": "Calgary",
+   "cp": "",
+   "city_cp": "",
+   "address": "1221 - 8th Street SW, 6th Floor Languages, T2R 0L4 Calgary",
+   "address_lines": [
+    "1221 - 8th Street SW, 6th Floor Languages",
+    "T2R 0L4 Calgary"
+   ],
+   "phone": "4038177612",
+   "emails": [
+    "cbelanguages@cbe.ab.ca"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Calgary Catholic Schools",
+   "city": "Calgary",
+   "cp": "",
+   "city_cp": "",
+   "address": "708 47 St SE, T2A 1P8 Calgary",
+   "address_lines": [
+    "708 47 St SE",
+    "T2A 1P8 Calgary"
+   ],
+   "phone": "4036089649",
+   "emails": [],
+   "url": "http://www.cssd.ab.ca/",
+   "so": false
+  },
+  {
+   "name": "Lycée international de Calgary",
+   "city": "Calgary",
+   "cp": "",
+   "city_cp": "",
+   "address": "4099 Garrison Boulevard SW, T2T 6G2 Calgary",
+   "address_lines": [
+    "4099 Garrison Boulevard SW",
+    "T2T 6G2 Calgary"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "West Island College _ WIC",
+   "city": "Calgary",
+   "cp": "",
+   "city_cp": "",
+   "address": "7410 Blackfoot Trail SE, T2H 1M5 Calgary",
+   "address_lines": [
+    "7410 Blackfoot Trail SE",
+    "T2H 1M5 Calgary"
+   ],
+   "phone": "4032555300",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre DELF-DALF Com. scolaire Lester B. Pearson",
+   "city": "Dorval",
+   "cp": "",
+   "city_cp": "",
+   "address": "1925 Brookdale, h9p 2y7 Dorval",
+   "address_lines": [
+    "1925 Brookdale",
+    "h9p 2y7 Dorval"
+   ],
+   "phone": "5142685161",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE D'EDMONTON",
+   "city": "Edmonton",
+   "cp": "",
+   "city_cp": "",
+   "address": "10424 - 123 STREET N.W. - EDMONTON, AB T5N 1N7, T5N 1N7 Edmonton",
+   "address_lines": [
+    "10424 - 123 STREET N.W. - EDMONTON, AB T5N 1N7",
+    "T5N 1N7 Edmonton"
+   ],
+   "phone": "7804690399",
+   "emails": [
+    "delf@afedmonton.ca"
+   ],
+   "url": "http://afedmonton.com",
+   "so": false
+  },
+  {
+   "name": "École de langues - Campus Saint-Jean - University of Alberta",
+   "city": "Edmonton",
+   "cp": "",
+   "city_cp": "",
+   "address": "8406, rue Marie-Anne Gaboury (91st Street), T6C 4G9 Edmonton",
+   "address_lines": [
+    "8406, rue Marie-Anne Gaboury (91st Street)",
+    "T6C 4G9 Edmonton"
+   ],
+   "phone": "780-492-8575",
+   "emails": [
+    "edl@ualberta.ca"
+   ],
+   "url": "https://www.ualberta.ca/fr/campus-saint-jean/programmes/ecole-de-langues/index…",
+   "so": false
+  },
+  {
+   "name": "Grande Prairie French Language Resource Centre",
+   "city": "Grande Prairie",
+   "cp": "",
+   "city_cp": "",
+   "address": "6201 Tamarack Drive, T8W 0L2 Grande Prairie",
+   "address_lines": [
+    "6201 Tamarack Drive",
+    "T8W 0L2 Grande Prairie"
+   ],
+   "phone": "7805124784",
+   "emails": [],
+   "url": "http://www.frenchlrc.ca/",
+   "so": false
+  },
+  {
+   "name": "Collège Mathieu",
+   "city": "Gravelbourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "308, 1re Avenue Est, C.P. 989 Gravelbourg",
+   "address_lines": [
+    "308, 1re Avenue Est",
+    "C.P. 989 Gravelbourg"
+   ],
+   "phone": "3063842722",
+   "emails": [
+    "education.saskatoon@collegemathieu.sk.ca"
+   ],
+   "url": "http://www.collegemathieu.sk.ca/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Halifax",
+   "city": "Halifax",
+   "cp": "",
+   "city_cp": "",
+   "address": "5509 Young St., B3K 1Z7 Halifax",
+   "address_lines": [
+    "5509 Young St.",
+    "B3K 1Z7 Halifax"
+   ],
+   "phone": "9025808284",
+   "emails": [
+    "exam@afhalifax.ca"
+   ],
+   "url": "http://www.afhalifax.ca/",
+   "so": false
+  },
+  {
+   "name": "HILLFIELD STRATHALLAN COLLEGE",
+   "city": "Hamilton",
+   "cp": "",
+   "city_cp": "",
+   "address": "299 Fennell Ave W, L9C 1G3 Hamilton",
+   "address_lines": [
+    "299 Fennell Ave W",
+    "L9C 1G3 Hamilton"
+   ],
+   "phone": "9059230143",
+   "emails": [],
+   "url": "https://www.hsc.on.ca/",
+   "so": false
+  },
+  {
+   "name": "Kuper Academy High School",
+   "city": "Kirkland",
+   "cp": "",
+   "city_cp": "",
+   "address": "2975 Edmond, H9H 5K5 Kirkland",
+   "address_lines": [
+    "2975 Edmond",
+    "H9H 5K5 Kirkland"
+   ],
+   "phone": "438-878-6984",
+   "emails": [],
+   "url": "http://www.kuperacademy.ca/",
+   "so": false
+  },
+  {
+   "name": "Collège de Sainte-Anne-de-la-Pocatière",
+   "city": "La Pocatière",
+   "cp": "",
+   "city_cp": "",
+   "address": "100, 4e Avenue Painchaud, G0R1Z0 La Pocatière",
+   "address_lines": [
+    "100, 4e Avenue Painchaud",
+    "G0R1Z0 La Pocatière"
+   ],
+   "phone": "418 856-3012",
+   "emails": [],
+   "url": "http://www.leadercsa.com",
+   "so": false
+  },
+  {
+   "name": "French Language Centre, University of Lethbridge",
+   "city": "Lethbridge",
+   "cp": "",
+   "city_cp": "",
+   "address": "4401 University Drive, T1K 3M4 Lethbridge",
+   "address_lines": [
+    "4401 University Drive",
+    "T1K 3M4 Lethbridge"
+   ],
+   "phone": "403 329-2338",
+   "emails": [],
+   "url": "https://www.uleth.ca/artsci/modern-languages/french-language-centre-1",
+   "so": false
+  },
+  {
+   "name": "King's University College",
+   "city": "London",
+   "cp": "",
+   "city_cp": "",
+   "address": "266 Epworth Avenue, N6A 2M3 London",
+   "address_lines": [
+    "266 Epworth Avenue",
+    "N6A 2M3 London"
+   ],
+   "phone": "5194333491",
+   "emails": [],
+   "url": "https://www.kings.uwo.ca/",
+   "so": false
+  },
+  {
+   "name": "Western University - Canada",
+   "city": "London",
+   "cp": "",
+   "city_cp": "",
+   "address": "1137 Western Road, N6G 1G7 London",
+   "address_lines": [
+    "1137 Western Road",
+    "N6G 1G7 London"
+   ],
+   "phone": "5196144417",
+   "emails": [],
+   "url": "http://www.edu.uwo.ca/",
+   "so": false
+  },
+  {
+   "name": "Centre DELF scolaire de la Colombie-Britannique",
+   "city": "Mission",
+   "cp": "",
+   "city_cp": "",
+   "address": "33046 4e Avenue, V2V 1S5 Mission",
+   "address_lines": [
+    "33046 4e Avenue",
+    "V2V 1S5 Mission"
+   ],
+   "phone": "604-700-3669",
+   "emails": [],
+   "url": "https://centredelfcb.ca/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Moncton",
+   "city": "Moncton",
+   "cp": "",
+   "city_cp": "",
+   "address": "236 Rue Saint George - Suite 019, E1C 1W1 Moncton",
+   "address_lines": [
+    "236 Rue Saint George - Suite 019",
+    "E1C 1W1 Moncton"
+   ],
+   "phone": "5063875056",
+   "emails": [
+    "exams@afmoncton.ca"
+   ],
+   "url": "http://www.afmoncton.ca/",
+   "so": false
+  },
+  {
+   "name": "Montréal - AF",
+   "city": "Montréal",
+   "cp": "",
+   "city_cp": "",
+   "address": "317, place D'Youville, suite 100, H2Y 2B5 Montréal",
+   "address_lines": [
+    "317, place D'Youville, suite 100",
+    "H2Y 2B5 Montréal"
+   ],
+   "phone": "(514) 687 1919",
+   "emails": [
+    "info@afmontreal.ca"
+   ],
+   "url": "http://www.afmontreal.ca",
+   "so": false
+  },
+  {
+   "name": "Centre Delf-Dalf d'Ottawa-Carleton District School",
+   "city": "Nepean",
+   "cp": "",
+   "city_cp": "",
+   "address": "133 Greenbank Dr., K2H 6L3 Nepean",
+   "address_lines": [
+    "133 Greenbank Dr.",
+    "K2H 6L3 Nepean"
+   ],
+   "phone": "613-721-1820",
+   "emails": [
+    "delftesting@ocdsb.ca"
+   ],
+   "url": "https://www.ocdsb.ca/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Toronto",
+   "city": "North York",
+   "cp": "",
+   "city_cp": "",
+   "address": "47 Sheppard Sheppard Avenue East - 5th Floor - Room 502, M2N 5N1 North York",
+   "address_lines": [
+    "47 Sheppard Sheppard Avenue East - 5th Floor - Room 502",
+    "M2N 5N1 North York"
+   ],
+   "phone": "4162214684",
+   "emails": [],
+   "url": "http://www.alliance-francaise.ca/",
+   "so": false
+  },
+  {
+   "name": "COLAC",
+   "city": "North York",
+   "cp": "",
+   "city_cp": "",
+   "address": "5000 Yonge Street, Suite 1901, M2N 7E9 North York",
+   "address_lines": [
+    "5000 Yonge Street, Suite 1901",
+    "M2N 7E9 North York"
+   ],
+   "phone": "(416)-828-6192",
+   "emails": [
+    "info@edacademy.ca"
+   ],
+   "url": "https://www.edacademy.ca/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Ottawa",
+   "city": "Ottawa",
+   "cp": "",
+   "city_cp": "",
+   "address": "352 rue MacLaren, K2P0M6 Ottawa",
+   "address_lines": [
+    "352 rue MacLaren",
+    "K2P0M6 Ottawa"
+   ],
+   "phone": "6132349470",
+   "emails": [
+    "info@af.ca"
+   ],
+   "url": "http://www.af.ca/ottawa",
+   "so": false
+  },
+  {
+   "name": "Lycée Claudel",
+   "city": "Ottawa",
+   "cp": "",
+   "city_cp": "",
+   "address": "1635 Place Lycée, K1GOE5 Ottawa",
+   "address_lines": [
+    "1635 Place Lycée",
+    "K1GOE5 Ottawa"
+   ],
+   "phone": "6137338522",
+   "emails": [
+    "proviseur@claudel.org"
+   ],
+   "url": "http://www.claudel.org/",
+   "so": false
+  },
+  {
+   "name": "Centre DELF Ontario",
+   "city": "Sault Ste. Marie, Ontario",
+   "cp": "",
+   "city_cp": "",
+   "address": "232 Northern Avenue East (Boréal FI School), P6B 4H6 Sault Ste. Marie, Ontario",
+   "address_lines": [
+    "232 Northern Avenue East (Boréal FI School)",
+    "P6B 4H6 Sault Ste. Marie, Ontario"
+   ],
+   "phone": "1-888-569-3353",
+   "emails": [
+    "delfontario@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Memorial University of Newfoundland",
+   "city": "St. John'S",
+   "cp": "",
+   "city_cp": "",
+   "address": "Science Building 4039, A1B 3X9 St. John'S",
+   "address_lines": [
+    "Science Building 4039",
+    "A1B 3X9 St. John'S"
+   ],
+   "phone": "7096890967",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Ministère de l'Éducation de l'IPE",
+   "city": "Summerside",
+   "cp": "",
+   "city_cp": "",
+   "address": "250 rue Water, C1N 1B6 Summerside",
+   "address_lines": [
+    "250 rue Water",
+    "C1N 1B6 Summerside"
+   ],
+   "phone": "19024384130",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Novocentre",
+   "city": "Thunder Bay",
+   "cp": "",
+   "city_cp": "",
+   "address": "220 Downing Street,, P7A 7Z4 Thunder Bay",
+   "address_lines": [
+    "220 Downing Street,",
+    "P7A 7Z4 Thunder Bay"
+   ],
+   "phone": "8077676857",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française Canada Pacific – Vancouver",
+   "city": "Vancouver",
+   "cp": "",
+   "city_cp": "",
+   "address": "6161 Cambie Street, V5Z3B2 Vancouver",
+   "address_lines": [
+    "6161 Cambie Street",
+    "V5Z3B2 Vancouver"
+   ],
+   "phone": "6043270201",
+   "emails": [
+    "info@alliancefrancaise.ca"
+   ],
+   "url": "http://www.alliancefrancaise.ca/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Canada Pacific – Victoria",
+   "city": "Victoria",
+   "cp": "",
+   "city_cp": "",
+   "address": "1218 rue Langley - Bureau 2, V8W 1W2 Victoria",
+   "address_lines": [
+    "1218 rue Langley - Bureau 2",
+    "V8W 1W2 Victoria"
+   ],
+   "phone": "(778) 557-7322",
+   "emails": [
+    "courses@afvictoria.ca"
+   ],
+   "url": "https://www.afvictoria.ca/",
+   "so": false
+  },
+  {
+   "name": "University of Victoria, BC - Department of French",
+   "city": "Victoria",
+   "cp": "",
+   "city_cp": "",
+   "address": "Clearihue Building C247 Victoria",
+   "address_lines": [
+    "Clearihue Building C247 Victoria"
+   ],
+   "phone": "2507218884",
+   "emails": [
+    "delfdalf@uvic.ca"
+   ],
+   "url": "https://www.uvic.ca/humanities/french/delf-dalf/index.php",
+   "so": false
+  },
+  {
+   "name": "Alliance française du Manitoba",
+   "city": "Winnipeg",
+   "cp": "",
+   "city_cp": "",
+   "address": "934 Corydon Avenue, R3M 0Y5 Winnipeg",
+   "address_lines": [
+    "934 Corydon Avenue",
+    "R3M 0Y5 Winnipeg"
+   ],
+   "phone": "2044771515",
+   "emails": [
+    "info@afmanitoba.ca"
+   ],
+   "url": "http://www.afmanitoba.ca",
+   "so": false
+  },
+  {
+   "name": "Winnipeg - SD",
+   "city": "Winnipeg",
+   "cp": "",
+   "city_cp": "",
+   "address": "906 avenue Fleet, R3M 1L6 Winnipeg",
+   "address_lines": [
+    "906 avenue Fleet",
+    "R3M 1L6 Winnipeg"
+   ],
+   "phone": "204 471 6453",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre Delf-Dalf des Territoires du Nord-Ouest",
+   "city": "Yellowknife",
+   "cp": "",
+   "city_cp": "",
+   "address": "5124 , 49th Street, X1A 2P4 Yellowknife",
+   "address_lines": [
+    "5124 , 49th Street",
+    "X1A 2P4 Yellowknife"
+   ],
+   "phone": "867-766-7406",
+   "emails": [],
+   "url": "http://www.ycs.nt.ca/",
+   "so": false
+  }
+ ]
+}

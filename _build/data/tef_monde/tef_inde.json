@@ -1,0 +1,251 @@
+{
+ "country": "Inde",
+ "iso2": "IN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 12,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE D'AHMEDABAD",
+   "city": "AHMEDABAD",
+   "cp": "380015",
+   "city_cp": "",
+   "address": "Himali Tower Lane, 380015 AHMEDABAD",
+   "address_lines": [
+    "Himali Tower Lane",
+    "380015 AHMEDABAD"
+   ],
+   "phone": "+91 79 2673 3800",
+   "emails": [
+    "ahmedabad@afindia.org"
+   ],
+   "url": "ahmedabad.afindia.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 31,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/31"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BHOPAL",
+   "city": "BHOPAL",
+   "cp": "462016",
+   "city_cp": "",
+   "address": "B-75 Shahpura, 462016 BHOPAL",
+   "address_lines": [
+    "B-75 Shahpura",
+    "462016 BHOPAL"
+   ],
+   "phone": "+91 755 246 6595",
+   "emails": [],
+   "url": "www.bhopal.afindia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 52,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/52"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BOMBAY",
+   "city": "BOMBAY",
+   "cp": "400020",
+   "city_cp": "",
+   "address": "Theosophy Hall 40 New Marine Lines, 400020 BOMBAY",
+   "address_lines": [
+    "Theosophy Hall 40 New Marine Lines",
+    "400020 BOMBAY"
+   ],
+   "phone": "+91 122 203 6187",
+   "emails": [
+    "tef.mumbai@afindia.org"
+   ],
+   "url": "bombay.afindia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 56,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/56"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DU BENGALE",
+   "city": "CALCUTTA",
+   "cp": "700016",
+   "city_cp": "",
+   "address": "57A Park Street, Park Mansions, 700016 CALCUTTA",
+   "address_lines": [
+    "57A Park Street, Park Mansions",
+    "700016 CALCUTTA"
+   ],
+   "phone": "+91 99036 26392",
+   "emails": [],
+   "url": "https://bengale.afindia.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 229,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/229"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CHANDIGARH",
+   "city": "CHANDIGARH",
+   "cp": "160036",
+   "city_cp": "",
+   "address": "Next to Hibiscus Garden Sector 36 A, 160036 CHANDIGARH",
+   "address_lines": [
+    "Next to Hibiscus Garden Sector 36 A",
+    "160036 CHANDIGARH"
+   ],
+   "phone": "+91 98723 81581",
+   "emails": [
+    "info.chandigarh@afindia.org"
+   ],
+   "url": "chandigarh.afindia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 71,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/71"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE OF MADRAS",
+   "city": "CHENNAI",
+   "cp": "600006",
+   "city_cp": "",
+   "address": "24 College Road - Nungambakkam Chennai 600006 - India, 600006 CHENNAI",
+   "address_lines": [
+    "24 College Road - Nungambakkam Chennai 600006 - India",
+    "600006 CHENNAI"
+   ],
+   "phone": "+91 77087 11356",
+   "emails": [
+    "coursedirector@af-madras.org"
+   ],
+   "url": "af-madras.org",
+   "so": false,
+   "products": [],
+   "cci_id": 138,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/138"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE HYDERABAD",
+   "city": "HYDERABAD",
+   "cp": "500034",
+   "city_cp": "",
+   "address": "Plot no.4, Aurora Colony, 500034 HYDERABAD",
+   "address_lines": [
+    "Plot no.4, Aurora Colony",
+    "500034 HYDERABAD"
+   ],
+   "phone": "+91 99665 45652",
+   "emails": [
+    "info@afhyderabad.org"
+   ],
+   "url": "https://hyderabad.afindia.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 102,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/102"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE JAIPUR",
+   "city": "JAIPUR",
+   "cp": "302020",
+   "city_cp": "",
+   "address": "Neerja Modi Gate no.8, Shanti Nagar Prem Nagar 2, 302020 JAIPUR",
+   "address_lines": [
+    "Neerja Modi Gate no.8, Shanti Nagar Prem Nagar 2",
+    "302020 JAIPUR"
+   ],
+   "phone": "+91 84482 93871",
+   "emails": [
+    "coursesjaipur@afindia.org"
+   ],
+   "url": "https://jaipur.afindia.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 984,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/984"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LUCKNOW",
+   "city": "LUCKNOW",
+   "cp": "226001",
+   "city_cp": "",
+   "address": "La Martinière Girls College, Rana Pratap Marg, Hazratganj, 226001 LUCKNOW",
+   "address_lines": [
+    "La Martinière Girls College, Rana Pratap Marg, Hazratganj",
+    "226001 LUCKNOW"
+   ],
+   "phone": "+91 85430 37737",
+   "emails": [
+    "lucknow@afindia.org"
+   ],
+   "url": "www.lucknow.afindia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 134,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/134"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PONDICHÉRY",
+   "city": "PONDICHÉRY",
+   "cp": "605001",
+   "city_cp": "",
+   "address": "58, rue Suffren, 605001 PONDICHÉRY",
+   "address_lines": [
+    "58, rue Suffren",
+    "605001 PONDICHÉRY"
+   ],
+   "phone": "+91 84893 89511",
+   "emails": [
+    "accueil.afpondy@afindia.org"
+   ],
+   "url": "www.pondichery.afindia.org/en/",
+   "so": false,
+   "products": [],
+   "cci_id": 170,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/170"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PUNE",
+   "city": "PUNE",
+   "cp": "411016",
+   "city_cp": "",
+   "address": "Kala Chhaya Campus, 270-D, Patrakar Nagar Road, 411016 PUNE",
+   "address_lines": [
+    "Kala Chhaya Campus, 270-D, Patrakar Nagar Road",
+    "411016 PUNE"
+   ],
+   "phone": "+91 83790 90666",
+   "emails": [
+    "afpune@afindia.org"
+   ],
+   "url": "pune.afindia.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 176,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/176"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TRIVANDRUM",
+   "city": "TRIVANDRUM",
+   "cp": "690014",
+   "city_cp": "",
+   "address": "Forest Office Lane, Nandavanam, Vazhuthacaud, 690014 TRIVANDRUM",
+   "address_lines": [
+    "Forest Office Lane, Nandavanam, Vazhuthacaud",
+    "690014 TRIVANDRUM"
+   ],
+   "phone": "+91 471 232 0666",
+   "emails": [
+    "info.trivandrum@afindia.org"
+   ],
+   "url": "www.trivandrum.afindia.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 214,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/214"
+  }
+ ]
+}

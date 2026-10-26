@@ -1,0 +1,172 @@
+{
+ "country": "Bulgarie",
+ "iso2": "BG",
+ "fei_id": "65",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 9,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Sofia",
+  "cp": "",
+  "city_cp": "",
+  "address": "3, place Slaveykov, 1000 Sofia",
+  "address_lines": [
+   "3, place Slaveykov",
+   "1000 Sofia"
+  ],
+  "phone": "2 937 79 57",
+  "emails": [],
+  "url": "http://www.institutfrancais.bg",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Bourgas",
+   "city": "Bourgas",
+   "cp": "",
+   "city_cp": "",
+   "address": "2 rue Ferdinandova, 8000 Bourgas",
+   "address_lines": [
+    "2 rue Ferdinandova",
+    "8000 Bourgas"
+   ],
+   "phone": "56814619",
+   "emails": [
+    "afbourgas@gmail.com"
+   ],
+   "url": "http://afbourgas.iclasse.eu",
+   "so": false
+  },
+  {
+   "name": "Lycée G.S. RAKOVSKI",
+   "city": "Bourgas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Stefan Stambolov 19, 8001 Bourgas",
+   "address_lines": [
+    "Boulevard Stefan Stambolov 19",
+    "8001 Bourgas"
+   ],
+   "phone": "879009812",
+   "emails": [],
+   "url": "http://www.gre-rakovski.com",
+   "so": false
+  },
+  {
+   "name": "Lycée bilingue Ekzarh Yossif 1",
+   "city": "Lovetch",
+   "cp": "",
+   "city_cp": "",
+   "address": "11, rue Tsar Ivan Chichman, 5500 Lovetch",
+   "address_lines": [
+    "11, rue Tsar Ivan Chichman",
+    "5500 Lovetch"
+   ],
+   "phone": "878 962142",
+   "emails": [
+    "info-1100328@edu.mon.bg"
+   ],
+   "url": "https://ezikova-lovech.eu/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Bulgarie",
+   "city": "Sofia",
+   "cp": "",
+   "city_cp": "",
+   "address": "3, place Slaveykov, 1000 Sofia",
+   "address_lines": [
+    "3, place Slaveykov",
+    "1000 Sofia"
+   ],
+   "phone": "29377922",
+   "emails": [],
+   "url": "http://www.institutfrancais.bg/",
+   "so": false
+  },
+  {
+   "name": "Lycée 9 , Alphonse de Lamartine",
+   "city": "Sofia",
+   "cp": "",
+   "city_cp": "",
+   "address": "35 bd. Patriarche Evtimii, 1000 Sofia",
+   "address_lines": [
+    "35 bd. Patriarche Evtimii",
+    "1000 Sofia"
+   ],
+   "phone": "886699189",
+   "emails": [],
+   "url": "http://delf.alle.bg",
+   "so": false
+  },
+  {
+   "name": "Lycée français de Sofia-Victor Hugo",
+   "city": "Sofia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard \"Simeonovsko Shose\" 110,, 1700 Sofia",
+   "address_lines": [
+    "Boulevard \"Simeonovsko Shose\" 110,",
+    "1700 Sofia"
+   ],
+   "phone": "2 963 2964",
+   "emails": [
+    "directrice.primaire@vhugo.org"
+   ],
+   "url": "http://vhugo.org/",
+   "so": false
+  },
+  {
+   "name": "Lycée bilingue Romain Rolland",
+   "city": "Stara Zagora",
+   "cp": "",
+   "city_cp": "",
+   "address": "62, rue \"Tsar Ivan Chichman\", 6000 Stara Zagora",
+   "address_lines": [
+    "62, rue \"Tsar Ivan Chichman\"",
+    "6000 Stara Zagora"
+   ],
+   "phone": "878720092",
+   "emails": [],
+   "url": "http://www.romainrolland.org/site/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Varna",
+   "city": "Varna",
+   "cp": "",
+   "city_cp": "",
+   "address": "69, rue Préslav, 9000 Varna",
+   "address_lines": [
+    "69, rue Préslav",
+    "9000 Varna"
+   ],
+   "phone": "899800744",
+   "emails": [
+    "info@afvarna.org"
+   ],
+   "url": "http://www.afvarna.org",
+   "so": false
+  },
+  {
+   "name": "Lycée bilingue Fr.J.-Curie",
+   "city": "Varna",
+   "cp": "",
+   "city_cp": "",
+   "address": "54, rue D-r Vasilaki Papadopolu, Spirka Pochivka, 9010 Varna",
+   "address_lines": [
+    "54, rue D-r Vasilaki Papadopolu, Spirka Pochivka",
+    "9010 Varna"
+   ],
+   "phone": "52 385 321",
+   "emails": [
+    "4egvarna@4egvarna.com"
+   ],
+   "url": "http://4egvarna.com/",
+   "so": false
+  }
+ ]
+}

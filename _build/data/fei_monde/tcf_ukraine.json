@@ -1,0 +1,45 @@
+{
+ "country": "Ukraine",
+ "iso2": "UA",
+ "fei_id": "55",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Kiev",
+   "cp": "",
+   "city_cp": "",
+   "address": "84, rue Hontchara, 01054 Kiev",
+   "address_lines": [
+    "84, rue Hontchara",
+    "01054 Kiev"
+   ],
+   "phone": "380-44-482-23-71",
+   "emails": [],
+   "url": "http://www.institutfrancais-ukraine.com/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Odessa",
+   "cp": "",
+   "city_cp": "",
+   "address": "40 rue Koblevska, 65023 Odessa",
+   "address_lines": [
+    "40 rue Koblevska",
+    "65023 Odessa"
+   ],
+   "phone": "00-380-683458733",
+   "emails": [
+    "cours.odessa@afukraine.org"
+   ],
+   "url": "http://afodessa.com.ua",
+   "so": false
+  }
+ ]
+}

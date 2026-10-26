@@ -1,0 +1,973 @@
+{
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France)",
+ "source_url_pattern": "https://francais.cci-paris-idf.fr/candidat (carte, POST /candidat/search-results) ; fiche : https://francais.cci-paris-idf.fr/inscription-candidat/contact/<cci_id>",
+ "products_note": "« products » = épreuves pour lesquelles la carte CCI affichait des sessions disponibles le 26/10/2026 (marqueur bleu). Liste vide = aucune session publiée : la carte dit « Contacter le centre pour connaître les prochaines dates ». La carte ne publie pas la liste des épreuves agréées par centre (la recherche par pays renvoie tous les centres quel que soit le produit).",
+ "fields_note": "url = site web déclaré par le centre ; contact = page publique « Contacter le centre » (CCI) ; cci_id = identifiant du centre sur la plateforme CCI ; e-mails : adresses de service seulement.",
+ "countries": [
+  {
+   "name_fr": "Afrique du Sud",
+   "iso2": "ZA",
+   "tef": 6,
+   "files": [
+    "tef_afrique_du_sud.json"
+   ]
+  },
+  {
+   "name_fr": "Albanie",
+   "iso2": "AL",
+   "tef": 1,
+   "files": [
+    "tef_albanie.json"
+   ]
+  },
+  {
+   "name_fr": "Algérie",
+   "iso2": "DZ",
+   "tef": 2,
+   "files": [
+    "tef_algerie.json"
+   ]
+  },
+  {
+   "name_fr": "Allemagne",
+   "iso2": "DE",
+   "tef": 7,
+   "files": [
+    "tef_allemagne.json"
+   ]
+  },
+  {
+   "name_fr": "Arabie saoudite",
+   "iso2": "SA",
+   "tef": 1,
+   "files": [
+    "tef_arabie_saoudite.json"
+   ]
+  },
+  {
+   "name_fr": "Argentine",
+   "iso2": "AR",
+   "tef": 2,
+   "files": [
+    "tef_argentine.json"
+   ]
+  },
+  {
+   "name_fr": "Arménie",
+   "iso2": "AM",
+   "tef": 1,
+   "files": [
+    "tef_armenie.json"
+   ]
+  },
+  {
+   "name_fr": "Australie",
+   "iso2": "AU",
+   "tef": 1,
+   "files": [
+    "tef_australie.json"
+   ]
+  },
+  {
+   "name_fr": "Bahreïn",
+   "iso2": "BH",
+   "tef": 1,
+   "files": [
+    "tef_bahrein.json"
+   ]
+  },
+  {
+   "name_fr": "Bangladesh",
+   "iso2": "BD",
+   "tef": 1,
+   "files": [
+    "tef_bangladesh.json"
+   ]
+  },
+  {
+   "name_fr": "Barbade",
+   "iso2": "BB",
+   "tef": 1,
+   "files": [
+    "tef_barbade.json"
+   ]
+  },
+  {
+   "name_fr": "Belgique",
+   "iso2": "BE",
+   "tef": 4,
+   "files": [
+    "tef_belgique.json"
+   ]
+  },
+  {
+   "name_fr": "Bénin",
+   "iso2": "BJ",
+   "tef": 2,
+   "files": [
+    "tef_benin.json"
+   ]
+  },
+  {
+   "name_fr": "Bolivie",
+   "iso2": "BO",
+   "tef": 3,
+   "files": [
+    "tef_bolivie.json"
+   ]
+  },
+  {
+   "name_fr": "Botswana",
+   "iso2": "BW",
+   "tef": 1,
+   "files": [
+    "tef_botswana.json"
+   ]
+  },
+  {
+   "name_fr": "Brésil",
+   "iso2": "BR",
+   "tef": 7,
+   "files": [
+    "tef_bresil.json"
+   ]
+  },
+  {
+   "name_fr": "Bulgarie",
+   "iso2": "BG",
+   "tef": 1,
+   "files": [
+    "tef_bulgarie.json"
+   ]
+  },
+  {
+   "name_fr": "Cambodge",
+   "iso2": "KH",
+   "tef": 1,
+   "files": [
+    "tef_cambodge.json"
+   ]
+  },
+  {
+   "name_fr": "Cameroun",
+   "iso2": "CM",
+   "tef": 2,
+   "files": [
+    "tef_cameroun.json"
+   ]
+  },
+  {
+   "name_fr": "Canada",
+   "iso2": "CA",
+   "tef": 97,
+   "files": [
+    "tef_canada.json"
+   ]
+  },
+  {
+   "name_fr": "Chine",
+   "iso2": "CN",
+   "tef": 18,
+   "files": [
+    "tef_chine.json"
+   ]
+  },
+  {
+   "name_fr": "Chypre",
+   "iso2": "CY",
+   "tef": 1,
+   "files": [
+    "tef_chypre.json"
+   ]
+  },
+  {
+   "name_fr": "Colombie",
+   "iso2": "CO",
+   "tef": 2,
+   "files": [
+    "tef_colombie.json"
+   ]
+  },
+  {
+   "name_fr": "Congo",
+   "iso2": "CG",
+   "tef": 2,
+   "files": [
+    "tef_congo.json"
+   ]
+  },
+  {
+   "name_fr": "Corée du Sud",
+   "iso2": "KR",
+   "tef": 1,
+   "files": [
+    "tef_coree_du_sud.json"
+   ]
+  },
+  {
+   "name_fr": "Costa Rica",
+   "iso2": "CR",
+   "tef": 1,
+   "files": [
+    "tef_costa_rica.json"
+   ]
+  },
+  {
+   "name_fr": "Côte d'Ivoire",
+   "iso2": "CI",
+   "tef": 2,
+   "files": [
+    "tef_cote_d_ivoire.json"
+   ]
+  },
+  {
+   "name_fr": "Djibouti",
+   "iso2": "DJ",
+   "tef": 1,
+   "files": [
+    "tef_djibouti.json"
+   ]
+  },
+  {
+   "name_fr": "Dominique",
+   "iso2": "DM",
+   "tef": 1,
+   "files": [
+    "tef_dominique.json"
+   ]
+  },
+  {
+   "name_fr": "Égypte",
+   "iso2": "EG",
+   "tef": 2,
+   "files": [
+    "tef_egypte.json"
+   ]
+  },
+  {
+   "name_fr": "Émirats arabes unis",
+   "iso2": "AE",
+   "tef": 4,
+   "files": [
+    "tef_emirats_arabes_unis.json"
+   ]
+  },
+  {
+   "name_fr": "Équateur",
+   "iso2": "EC",
+   "tef": 3,
+   "files": [
+    "tef_equateur.json"
+   ]
+  },
+  {
+   "name_fr": "Espagne",
+   "iso2": "ES",
+   "tef": 3,
+   "files": [
+    "tef_espagne.json"
+   ]
+  },
+  {
+   "name_fr": "États-Unis",
+   "iso2": "US",
+   "tef": 20,
+   "files": [
+    "tef_etats_unis.json"
+   ]
+  },
+  {
+   "name_fr": "Éthiopie",
+   "iso2": "ET",
+   "tef": 1,
+   "files": [
+    "tef_ethiopie.json"
+   ]
+  },
+  {
+   "name_fr": "Finlande",
+   "iso2": "FI",
+   "tef": 1,
+   "files": [
+    "tef_finlande.json"
+   ]
+  },
+  {
+   "name_fr": "France",
+   "iso2": "FR",
+   "tef": 254,
+   "files": [
+    "tef_france.json"
+   ]
+  },
+  {
+   "name_fr": "Gabon",
+   "iso2": "GA",
+   "tef": 1,
+   "files": [
+    "tef_gabon.json"
+   ]
+  },
+  {
+   "name_fr": "Géorgie",
+   "iso2": "GE",
+   "tef": 1,
+   "files": [
+    "tef_georgie.json"
+   ]
+  },
+  {
+   "name_fr": "Ghana",
+   "iso2": "GH",
+   "tef": 1,
+   "files": [
+    "tef_ghana.json"
+   ]
+  },
+  {
+   "name_fr": "Grèce",
+   "iso2": "GR",
+   "tef": 1,
+   "files": [
+    "tef_grece.json"
+   ]
+  },
+  {
+   "name_fr": "Guadeloupe",
+   "iso2": "GP",
+   "tef": 1,
+   "files": [
+    "tef_guadeloupe.json"
+   ]
+  },
+  {
+   "name_fr": "Guinée",
+   "iso2": "GN",
+   "tef": 1,
+   "files": [
+    "tef_guinee.json"
+   ]
+  },
+  {
+   "name_fr": "Haïti",
+   "iso2": "HT",
+   "tef": 6,
+   "files": [
+    "tef_haiti.json"
+   ]
+  },
+  {
+   "name_fr": "Inde",
+   "iso2": "IN",
+   "tef": 12,
+   "files": [
+    "tef_inde.json"
+   ]
+  },
+  {
+   "name_fr": "Indonésie",
+   "iso2": "ID",
+   "tef": 2,
+   "files": [
+    "tef_indonesie.json"
+   ]
+  },
+  {
+   "name_fr": "Iran",
+   "iso2": "IR",
+   "tef": 2,
+   "files": [
+    "tef_iran.json"
+   ]
+  },
+  {
+   "name_fr": "Irlande",
+   "iso2": "IE",
+   "tef": 2,
+   "files": [
+    "tef_irlande.json"
+   ]
+  },
+  {
+   "name_fr": "Israël",
+   "iso2": "IL",
+   "tef": 1,
+   "files": [
+    "tef_israel.json"
+   ]
+  },
+  {
+   "name_fr": "Italie",
+   "iso2": "IT",
+   "tef": 17,
+   "files": [
+    "tef_italie.json"
+   ]
+  },
+  {
+   "name_fr": "Jamaïque",
+   "iso2": "JM",
+   "tef": 2,
+   "files": [
+    "tef_jamaique.json"
+   ]
+  },
+  {
+   "name_fr": "Japon",
+   "iso2": "JP",
+   "tef": 1,
+   "files": [
+    "tef_japon.json"
+   ]
+  },
+  {
+   "name_fr": "Kazakhstan",
+   "iso2": "KZ",
+   "tef": 1,
+   "files": [
+    "tef_kazakhstan.json"
+   ]
+  },
+  {
+   "name_fr": "Kenya",
+   "iso2": "KE",
+   "tef": 1,
+   "files": [
+    "tef_kenya.json"
+   ]
+  },
+  {
+   "name_fr": "Kirghizistan",
+   "iso2": "KG",
+   "tef": 1,
+   "files": [
+    "tef_kirghizistan.json"
+   ]
+  },
+  {
+   "name_fr": "Koweït",
+   "iso2": "KW",
+   "tef": 1,
+   "files": [
+    "tef_koweit.json"
+   ]
+  },
+  {
+   "name_fr": "La Réunion",
+   "iso2": "RE",
+   "tef": 1,
+   "files": [
+    "tef_la_reunion.json"
+   ]
+  },
+  {
+   "name_fr": "Lesotho",
+   "iso2": "LS",
+   "tef": 1,
+   "files": [
+    "tef_lesotho.json"
+   ]
+  },
+  {
+   "name_fr": "Lettonie",
+   "iso2": "LV",
+   "tef": 1,
+   "files": [
+    "tef_lettonie.json"
+   ]
+  },
+  {
+   "name_fr": "Liban",
+   "iso2": "LB",
+   "tef": 1,
+   "files": [
+    "tef_liban.json"
+   ]
+  },
+  {
+   "name_fr": "Lituanie",
+   "iso2": "LT",
+   "tef": 1,
+   "files": [
+    "tef_lituanie.json"
+   ]
+  },
+  {
+   "name_fr": "Luxembourg",
+   "iso2": "LU",
+   "tef": 1,
+   "files": [
+    "tef_luxembourg.json"
+   ]
+  },
+  {
+   "name_fr": "Macédoine du nord",
+   "iso2": "MK",
+   "tef": 1,
+   "files": [
+    "tef_macedoine_du_nord.json"
+   ]
+  },
+  {
+   "name_fr": "Madagascar",
+   "iso2": "MG",
+   "tef": 5,
+   "files": [
+    "tef_madagascar.json"
+   ]
+  },
+  {
+   "name_fr": "Malaisie",
+   "iso2": "MY",
+   "tef": 2,
+   "files": [
+    "tef_malaisie.json"
+   ]
+  },
+  {
+   "name_fr": "Mali",
+   "iso2": "ML",
+   "tef": 1,
+   "files": [
+    "tef_mali.json"
+   ]
+  },
+  {
+   "name_fr": "Malte",
+   "iso2": "MT",
+   "tef": 1,
+   "files": [
+    "tef_malte.json"
+   ]
+  },
+  {
+   "name_fr": "Maroc",
+   "iso2": "MA",
+   "tef": 9,
+   "files": [
+    "tef_maroc.json"
+   ]
+  },
+  {
+   "name_fr": "Martinique",
+   "iso2": "MQ",
+   "tef": 1,
+   "files": [
+    "tef_martinique.json"
+   ]
+  },
+  {
+   "name_fr": "Maurice",
+   "iso2": "MU",
+   "tef": 1,
+   "files": [
+    "tef_maurice.json"
+   ]
+  },
+  {
+   "name_fr": "Mauritanie",
+   "iso2": "MR",
+   "tef": 1,
+   "files": [
+    "tef_mauritanie.json"
+   ]
+  },
+  {
+   "name_fr": "Mexique",
+   "iso2": "MX",
+   "tef": 9,
+   "files": [
+    "tef_mexique.json"
+   ]
+  },
+  {
+   "name_fr": "Moldavie",
+   "iso2": "MD",
+   "tef": 1,
+   "files": [
+    "tef_moldavie.json"
+   ]
+  },
+  {
+   "name_fr": "Mongolie",
+   "iso2": "MN",
+   "tef": 1,
+   "files": [
+    "tef_mongolie.json"
+   ]
+  },
+  {
+   "name_fr": "Monténégro",
+   "iso2": "ME",
+   "tef": 1,
+   "files": [
+    "tef_montenegro.json"
+   ]
+  },
+  {
+   "name_fr": "Mozambique",
+   "iso2": "MZ",
+   "tef": 1,
+   "files": [
+    "tef_mozambique.json"
+   ]
+  },
+  {
+   "name_fr": "Népal",
+   "iso2": "NP",
+   "tef": 1,
+   "files": [
+    "tef_nepal.json"
+   ]
+  },
+  {
+   "name_fr": "Nicaragua",
+   "iso2": "NI",
+   "tef": 1,
+   "files": [
+    "tef_nicaragua.json"
+   ]
+  },
+  {
+   "name_fr": "Nigéria",
+   "iso2": "NG",
+   "tef": 3,
+   "files": [
+    "tef_nigeria.json"
+   ]
+  },
+  {
+   "name_fr": "Nouvelle-Zélande",
+   "iso2": "NZ",
+   "tef": 1,
+   "files": [
+    "tef_nouvelle_zelande.json"
+   ]
+  },
+  {
+   "name_fr": "Oman",
+   "iso2": "OM",
+   "tef": 1,
+   "files": [
+    "tef_oman.json"
+   ]
+  },
+  {
+   "name_fr": "Ouganda",
+   "iso2": "UG",
+   "tef": 1,
+   "files": [
+    "tef_ouganda.json"
+   ]
+  },
+  {
+   "name_fr": "Ouzbékistan",
+   "iso2": "UZ",
+   "tef": 1,
+   "files": [
+    "tef_ouzbekistan.json"
+   ]
+  },
+  {
+   "name_fr": "Pakistan",
+   "iso2": "PK",
+   "tef": 2,
+   "files": [
+    "tef_pakistan.json"
+   ]
+  },
+  {
+   "name_fr": "Panama",
+   "iso2": "PA",
+   "tef": 1,
+   "files": [
+    "tef_panama.json"
+   ]
+  },
+  {
+   "name_fr": "Pays-Bas",
+   "iso2": "NL",
+   "tef": 3,
+   "files": [
+    "tef_pays_bas.json"
+   ]
+  },
+  {
+   "name_fr": "Pérou",
+   "iso2": "PE",
+   "tef": 3,
+   "files": [
+    "tef_perou.json"
+   ]
+  },
+  {
+   "name_fr": "Philippines",
+   "iso2": "PH",
+   "tef": 2,
+   "files": [
+    "tef_philippines.json"
+   ]
+  },
+  {
+   "name_fr": "Pologne",
+   "iso2": "PL",
+   "tef": 2,
+   "files": [
+    "tef_pologne.json"
+   ]
+  },
+  {
+   "name_fr": "Polynésie française",
+   "iso2": "PF",
+   "tef": 1,
+   "files": [
+    "tef_polynesie_francaise.json"
+   ]
+  },
+  {
+   "name_fr": "Portugal",
+   "iso2": "PT",
+   "tef": 1,
+   "files": [
+    "tef_portugal.json"
+   ]
+  },
+  {
+   "name_fr": "Qatar",
+   "iso2": "QA",
+   "tef": 1,
+   "files": [
+    "tef_qatar.json"
+   ]
+  },
+  {
+   "name_fr": "République démocratique du Congo",
+   "iso2": "CD",
+   "tef": 3,
+   "files": [
+    "tef_republique_democratique_du_congo.json"
+   ]
+  },
+  {
+   "name_fr": "République dominicaine",
+   "iso2": "DO",
+   "tef": 2,
+   "files": [
+    "tef_republique_dominicaine.json"
+   ]
+  },
+  {
+   "name_fr": "République Tchèque",
+   "iso2": "CZ",
+   "tef": 1,
+   "files": [
+    "tef_republique_tcheque.json"
+   ]
+  },
+  {
+   "name_fr": "Roumanie",
+   "iso2": "RO",
+   "tef": 4,
+   "files": [
+    "tef_roumanie.json"
+   ]
+  },
+  {
+   "name_fr": "Royaume-Uni",
+   "iso2": "GB",
+   "tef": 4,
+   "files": [
+    "tef_royaume_uni.json"
+   ]
+  },
+  {
+   "name_fr": "Russie",
+   "iso2": "RU",
+   "tef": 2,
+   "files": [
+    "tef_russie.json"
+   ]
+  },
+  {
+   "name_fr": "Rwanda",
+   "iso2": "RW",
+   "tef": 1,
+   "files": [
+    "tef_rwanda.json"
+   ]
+  },
+  {
+   "name_fr": "Saint-Kitts-et-Nevis",
+   "iso2": "KN",
+   "tef": 1,
+   "files": [
+    "tef_saint_kitts_et_nevis.json"
+   ]
+  },
+  {
+   "name_fr": "Saint-Pierre-et-Miquelon",
+   "iso2": "PM",
+   "tef": 2,
+   "files": [
+    "tef_saint_pierre_et_miquelon.json"
+   ]
+  },
+  {
+   "name_fr": "Sainte-Lucie et les états membres de l'OECO",
+   "iso2": "LC",
+   "tef": 1,
+   "files": [
+    "tef_sainte_lucie_et_les_etats_membres_de_l_oeco.json"
+   ]
+  },
+  {
+   "name_fr": "Sénégal",
+   "iso2": "SN",
+   "tef": 3,
+   "files": [
+    "tef_senegal.json"
+   ]
+  },
+  {
+   "name_fr": "Serbie",
+   "iso2": "RS",
+   "tef": 2,
+   "files": [
+    "tef_serbie.json"
+   ]
+  },
+  {
+   "name_fr": "Singapour",
+   "iso2": "SG",
+   "tef": 1,
+   "files": [
+    "tef_singapour.json"
+   ]
+  },
+  {
+   "name_fr": "Slovaquie",
+   "iso2": "SK",
+   "tef": 2,
+   "files": [
+    "tef_slovaquie.json"
+   ]
+  },
+  {
+   "name_fr": "Sri Lanka",
+   "iso2": "LK",
+   "tef": 3,
+   "files": [
+    "tef_sri_lanka.json"
+   ]
+  },
+  {
+   "name_fr": "Suède",
+   "iso2": "SE",
+   "tef": 1,
+   "files": [
+    "tef_suede.json"
+   ]
+  },
+  {
+   "name_fr": "Suisse",
+   "iso2": "CH",
+   "tef": 8,
+   "files": [
+    "tef_suisse.json"
+   ]
+  },
+  {
+   "name_fr": "Tanzanie",
+   "iso2": "TZ",
+   "tef": 2,
+   "files": [
+    "tef_tanzanie.json"
+   ]
+  },
+  {
+   "name_fr": "Tchad",
+   "iso2": "TD",
+   "tef": 1,
+   "files": [
+    "tef_tchad.json"
+   ]
+  },
+  {
+   "name_fr": "Thaïlande",
+   "iso2": "TH",
+   "tef": 1,
+   "files": [
+    "tef_thailande.json"
+   ]
+  },
+  {
+   "name_fr": "Togo",
+   "iso2": "TG",
+   "tef": 1,
+   "files": [
+    "tef_togo.json"
+   ]
+  },
+  {
+   "name_fr": "Trinité et Tobago",
+   "iso2": "TT",
+   "tef": 1,
+   "files": [
+    "tef_trinite_et_tobago.json"
+   ]
+  },
+  {
+   "name_fr": "Tunisie",
+   "iso2": "TN",
+   "tef": 11,
+   "files": [
+    "tef_tunisie.json"
+   ]
+  },
+  {
+   "name_fr": "Turquie",
+   "iso2": "TR",
+   "tef": 3,
+   "files": [
+    "tef_turquie.json"
+   ]
+  },
+  {
+   "name_fr": "Ukraine",
+   "iso2": "UA",
+   "tef": 2,
+   "files": [
+    "tef_ukraine.json"
+   ]
+  },
+  {
+   "name_fr": "Uruguay",
+   "iso2": "UY",
+   "tef": 1,
+   "files": [
+    "tef_uruguay.json"
+   ]
+  },
+  {
+   "name_fr": "Vietnam",
+   "iso2": "VN",
+   "tef": 1,
+   "files": [
+    "tef_vietnam.json"
+   ]
+  }
+ ],
+ "totals": {
+  "countries": 119,
+  "tef_centres": 645,
+  "with_sessions": {
+   "TEF": 30,
+   "TEF Canada": 129,
+   "TEF Québec": 61,
+   "TEF IRN": 133
+  },
+  "without_published_session": 426
+ },
+ "anomalies": []
+}

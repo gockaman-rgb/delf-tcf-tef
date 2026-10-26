@@ -1,0 +1,33 @@
+{
+ "country": "Chypre",
+ "iso2": "CY",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE CHYPRE",
+   "city": "NICOSIE",
+   "cp": "2018",
+   "city_cp": "",
+   "address": "59 Strovolos Avenue, 2018 NICOSIE",
+   "address_lines": [
+    "59 Strovolos Avenue",
+    "2018 NICOSIE"
+   ],
+   "phone": "+357 22 459333",
+   "emails": [
+    "examen@ifchypre.org"
+   ],
+   "url": "www.ifchypre.org",
+   "so": false,
+   "products": [],
+   "cci_id": 509,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/509"
+  }
+ ]
+}

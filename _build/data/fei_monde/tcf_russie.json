@@ -1,0 +1,217 @@
+{
+ "country": "Russie",
+ "iso2": "RU",
+ "fei_id": "90",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 12,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Ekaterinbourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "81, avenue Lénine, 620075 Ekaterinbourg",
+   "address_lines": [
+    "81, avenue Lénine",
+    "620075 Ekaterinbourg"
+   ],
+   "phone": "7-343-350-21-67",
+   "emails": [
+    "ekaterinbourg@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/ekaterinbourg",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Irkoutsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "28 rue Gorky, 664025 Irkoutsk",
+   "address_lines": [
+    "28 rue Gorky",
+    "664025 Irkoutsk"
+   ],
+   "phone": "7-3952-50-06-17",
+   "emails": [
+    "irkoutsk@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/irkoutsk/fr",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Kazan",
+   "cp": "",
+   "city_cp": "",
+   "address": "5, rue Karla Marksa bureau 1302, 420111 Kazan",
+   "address_lines": [
+    "5, rue Karla Marksa bureau 1302",
+    "420111 Kazan"
+   ],
+   "phone": "7-90-50-38-66-33",
+   "emails": [
+    "kazan@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/kazan",
+   "so": true
+  },
+  {
+   "name": "Institut français de Russie",
+   "city": "Moscou",
+   "cp": "",
+   "city_cp": "",
+   "address": "10/1 Milyutinskiy Pereulok, 101000 Moscou",
+   "address_lines": [
+    "10/1 Milyutinskiy Pereulok",
+    "101000 Moscou"
+   ],
+   "phone": "7-495-902-69-34",
+   "emails": [
+    "scc@ifrussie.ru"
+   ],
+   "url": "http://www.institutfrancais.ru/fr",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Nijni Novgorod",
+   "city": "Nijni Novgorod",
+   "cp": "",
+   "city_cp": "",
+   "address": "18/1 Oulitsa Ocharskaya, 603006 Nijni Novgorod",
+   "address_lines": [
+    "18/1 Oulitsa Ocharskaya",
+    "603006 Nijni Novgorod"
+   ],
+   "phone": "79-875-404-126",
+   "emails": [
+    "nijni.novgorod@afrus.ru"
+   ],
+   "url": "https://afrus.ru/nijni-novgorod",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Novossibirsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "69, Krasniy Prospekt, 4e étage, 630091 Novossibirsk",
+   "address_lines": [
+    "69, Krasniy Prospekt, 4e étage",
+    "630091 Novossibirsk"
+   ],
+   "phone": "7-383-220-00-07",
+   "emails": [
+    "af.nsk@mail.ru"
+   ],
+   "url": "http://www.afrus.ru/novossibirsk",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Perm",
+   "cp": "",
+   "city_cp": "",
+   "address": "10, rue Lenine, 614000 Perm",
+   "address_lines": [
+    "10, rue Lenine",
+    "614000 Perm"
+   ],
+   "phone": "7342-206-65-56",
+   "emails": [
+    "perm@afrus.ru"
+   ],
+   "url": "https://afrus.ru/perm/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Rostov-sur-le-Don",
+   "cp": "",
+   "city_cp": "",
+   "address": "166a Maksima Gorkogo, 344006 Rostov-sur-le-Don",
+   "address_lines": [
+    "166a Maksima Gorkogo",
+    "344006 Rostov-sur-le-Don"
+   ],
+   "phone": "79897212233",
+   "emails": [
+    "cours.rostov@gmail.com"
+   ],
+   "url": "http://www.afrus.ru/rostov",
+   "so": true
+  },
+  {
+   "name": "Institut français de Russie",
+   "city": "Saint-Pétersbourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "antenne de Saint-Pétersbourg 12, avenue Nevsky, 191186 Saint-Pétersbourg",
+   "address_lines": [
+    "antenne de Saint-Pétersbourg 12, avenue Nevsky",
+    "191186 Saint-Pétersbourg"
+   ],
+   "phone": "7-495-902-69-34",
+   "emails": [
+    "scc@ifrussie.ru"
+   ],
+   "url": "http://www.institutfrancais.ru",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Samara",
+   "city": "Samara",
+   "cp": "",
+   "city_cp": "",
+   "address": "10 ul.Vyssotskogo, 443020 Samara",
+   "address_lines": [
+    "10 ul.Vyssotskogo",
+    "443020 Samara"
+   ],
+   "phone": "7-846-270-85-13",
+   "emails": [
+    "samara@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/samara",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Togliatti",
+   "city": "Togliatti",
+   "cp": "",
+   "city_cp": "",
+   "address": "oulitsa Yubileynaya,29 office 221, 445037 Togliatti",
+   "address_lines": [
+    "oulitsa Yubileynaya,29 office 221",
+    "445037 Togliatti"
+   ],
+   "phone": "790-93-63-92-19",
+   "emails": [
+    "cours.togliatti@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/togliatti/fr",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Vladivostok",
+   "cp": "",
+   "city_cp": "",
+   "address": "23, rue Svetlanskaya, 690090 Vladivostok",
+   "address_lines": [
+    "23, rue Svetlanskaya",
+    "690090 Vladivostok"
+   ],
+   "phone": "79-14-70-59-790",
+   "emails": [
+    "directeur.vladivostok@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/vladivostok",
+   "so": false
+  }
+ ]
+}

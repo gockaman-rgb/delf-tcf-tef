@@ -1,0 +1,30 @@
+{
+ "country": "Thaïlande",
+ "iso2": "TH",
+ "fei_id": "53",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Bangkok",
+   "cp": "",
+   "city_cp": "",
+   "address": "179 Wireless road Lumpini, Pathum Wan District, 10330 Bangkok",
+   "address_lines": [
+    "179 Wireless road Lumpini, Pathum Wan District",
+    "10330 Bangkok"
+   ],
+   "phone": "66-267-04-212",
+   "emails": [
+    "examen.bangkok@afthailande.org"
+   ],
+   "url": "http://www.afthailande.org",
+   "so": false
+  }
+ ]
+}

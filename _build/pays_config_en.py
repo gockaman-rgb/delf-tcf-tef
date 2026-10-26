@@ -21,7 +21,7 @@ PAGES.append(from_fr(
     crumb="TCF Canada in the USA",
     title="TCF Canada in the USA: 12 test centers, prices, dates",
     desc="Where to take the TCF Canada in the US: 12 of the 18 approved centers offer it, for $330 to $505. Houston, Los Angeles, Boston… Open dates, registration.",
-    modified="2026-10-18", date_label="October 18, 2026", list_date="October 8, 2026", releve_date="October 8 and 18, 2026",
+    modified="2026-10-26", date_label="October 26, 2026", list_date="October 8, 2026", releve_date="October 8 and 18, 2026",
     h1="TCF Canada in the USA: the test centers that offer it, prices and open seats",
     intro="""In the United States, {n} centers are approved for the TCF by France Éducation international, but
 <strong>twelve offer the TCF Canada</strong> according to their websites — nine found on October 8, 2026, plus Los
@@ -35,6 +35,7 @@ New York and San Diego were full too, while Houston, Boston and Los Angeles stil
            "TCF Canada fees: <strong>$330 to $505</strong> — Detroit $330, Boston $350, New York $350 (members) or $399, Denver and Philadelphia $360, Kansas City $370, Houston $400, Pluma Academy $435, San Diego $450, Pasadena and San Francisco $460, Los Angeles $505.",
            "⚠️ <strong>Full</strong> for the rest of 2026 in San Francisco, Philadelphia, Denver (Alliance) and Kansas City (October 8), New York and San Diego (October 18); until April 2027 in Detroit.",
            "Still open: <strong>Houston every Wednesday</strong> until January 27, 2027 and Pluma Academy (October 8); <strong>Boston</strong> November 21 and December 12, <strong>Los Angeles</strong> November 20 and December 18, <strong>New York</strong> from January 25, 2027 in Montclair (October 18).",
+           "October 26, 2026: <a href=\"/en/tcf-canada-detroit/\">Detroit</a> full until May 13, 2027 (June 10 open); <a href=\"/en/tcf-canada-houston/\">Houston</a>’s TCF page listed no session (TEF Canada $380, seats open); <a href=\"/en/tcf-canada-san-francisco/\">San Francisco</a> November 6 on waitlist, no 2027 date; <a href=\"/en/tcf-canada-denver/\">Denver</a>: the Alliance sold out to December 7, Pluma Academy dates to March 27, 2027.",
            "Waiting period between two attempts: from 20 days (Detroit) to one month (New York, Denver), depending on the center."],
     stats=[("12", "TCF Canada centers", "out of {n} approved"), ("$330-505", "TCF Canada fee", "depending on the center"),
            ("4", "centers full", "for the rest of 2026"), ("2 years", "validity", "results in 10 days to 6 weeks")],
@@ -42,27 +43,27 @@ New York and San Diego were full too, while Houston, Boston and Los Angeles stil
         ("tcf-canada-centers", "Who offers the TCF Canada in the USA", releve([
             ("Alliance française de Detroit (Bingham Farms, Michigan)", "<strong>Canada</strong>, IRN, tout public, DAP",
              "Canada <strong>$330</strong> · IRN $300 ($280 members) · tout public $190 to $350",
-             "Monthly, on Thursdays: Nov 12 and Dec 10, 2026, and every session through Apr 15, 2027, <strong>full</strong>; May 13 and Jun 10, 2027 open. Computer-based; results within 10 days."),
+             "Monthly, on Thursdays: Nov 12 and Dec 10, 2026, and every session through Apr 15, 2027, <strong>full</strong>; May 13 and Jun 10, 2027 open. Computer-based; results within 10 days. Oct 26: full until May 13, Jun 10 open — <a href=\"/en/tcf-canada-detroit/\">Detroit page</a>."),
             ("International School of Boston (Cambridge, Massachusetts)", "<strong>Canada</strong>, IRN, Québec, tout public",
              "Canada <strong>$350</strong> · IRN $350 · +$60 on weekdays",
              "Saturdays: Oct 10 full (waitlist), <strong>Nov 21</strong> (deadline Nov 17), <strong>Dec 12</strong> (deadline Dec 8), and a January Saturday (Oct 18). Card payment at registration. <a href=\"/en/tcf-canada-boston/\">Boston page</a>."),
             ("L'Alliance New York", "<strong>Canada</strong>, IRN", "<strong>$350</strong> members · $399 non-members, + $15 fee",
              "Oct 26 and Nov 16 and Dec 14 in Montclair, NJ, Nov 6 in Manhattan: all <strong>full</strong> on Oct 18; 2027: Jan 25, Feb 22, Mar 22, Apr 19, May 17, Jun 14, in Montclair. Computer-based. <a href=\"/en/tcf-canada-new-york/\">New York page</a>."),
             ("Alliance française de Denver", "<strong>Canada</strong>; IRN and tout public on request", "Canada <strong>$360</strong> · IRN $360",
-             "Nov 16, Nov 30 and Dec 7, 2026 <strong>full</strong>; no 2027 dates. Registration closes seven business days before; passport required."),
+             "Nov 16, Nov 30 and Dec 7, 2026 <strong>full</strong>; no 2027 dates. Registration closes seven business days before; passport required. <a href=\"/en/tcf-canada-denver/\">Denver page</a>."),
             ("Alliance Française de Philadelphie", "<strong>Canada</strong>, IRN, tout public", "Canada <strong>$360</strong> ($340 members) · IRN $300",
              "Oct 16 and Dec 18, 2026 <strong>full</strong>; waitlist; registration closes one month before. Paper-based."),
             ("Alliance française de Kansas City", "<strong>Canada</strong>, IRN, tout public, Québec", "Canada <strong>$370</strong> ($380 in 2027) · IRN $370",
              "2026 <strong>full</strong>; 2027: Jan 14 (one seat), Jan 28, Feb 4, Feb 18, Mar 4… through Jun 24, four seats per session. Computer-based."),
             ("Alliance française de Houston", "<strong>Canada</strong> (IRN, tout public and Québec announced, no dates)", "Canada <strong>$400</strong>",
-             "<strong>Every Wednesday</strong>, ten seats: Oct 14, 21, 28, Nov 4, Dec 2, 9, 16, 2026, then Jan 6 to 27, 2027; registration closes three days before. Computer-based."),
+             "<strong>Every Wednesday</strong>, ten seats: Oct 14, 21, 28, Nov 4, Dec 2, 9, 16, 2026, then Jan 6 to 27, 2027; registration closes three days before. Computer-based. Oct 26: no session listed — <a href=\"/en/tcf-canada-houston/\">Houston page</a>."),
             ("Pluma Academy (Denver)", "<strong>Canada</strong>, IRN, tout public", "Canada <strong>$435</strong> · IRN $435 · tout public $255 to $435",
-             "Individual sessions, about twenty dates a month from October to March; callback within 24 hours of registering. Computer-based (paper: +$70)."),
+             "Individual sessions, about twenty dates a month from October to March; callback within 24 hours of registering. Computer-based (paper: +$70). Oct 26: dates listed to Mar 27, 2027."),
             ("Alliance française de San Francisco", "<strong>Canada</strong>, IRN, tout public", "Canada <strong>$460</strong> · IRN $550 · tout public $250 + $180 per writing or speaking test",
-             "TCF Canada <strong>full</strong> through the end of 2026 (waitlist); no 2027 dates. Passport required; 25 days between two TCF attempts."),
+             "TCF Canada <strong>full</strong> through the end of 2026 (waitlist); no 2027 dates. Passport required; 25 days between two TCF attempts. <a href=\"/en/tcf-canada-san-francisco/\">San Francisco page</a>."),
             ("Alliance française d'Atlanta", "<strong>no TCF</strong>", "—", "“We do NOT currently offer TCF or TEF exams,” the Alliance says."),
             ("Alliance française de Chicago", "tout public and IRN — <strong>no Canada</strong>", "tout public $215 to $385", "Points candidates to the TEF Canada ($415): full until Dec 15, open from Jan 5, 2027 (Oct 18). <a href=\"/en/tcf-canada-chicago/\">Chicago page</a>."),
-            ("Alliance française de Seattle", "<strong>no TCF</strong> on its website", "—", "Points candidates to the TEF (TEF Canada $365)."),
+            ("Alliance française de Seattle", "<strong>no TCF</strong> on its website", "—", "Points candidates to the TEF (TEF Canada $365). <a href=\"/en/tcf-canada-seattle/\">Seattle page</a>."),
             ("Alliance française de Washington", "DAP only — <strong>no Canada</strong>", "DAP $350", "For Canadian immigration, the Alliance refers candidates to the TEF Canada."),
             ("Alliance française de Los Angeles", "<strong>Canada</strong>, tout public, IRN, Québec, DAP", "Canada <strong>$505</strong> (same fee for every version)",
              "Nov 20 and Dec 18, 2026, then Jan 22 to Jun 11, 2027, monthly; apply by email at least 15 days before (Oct 18). <a href=\"/en/tcf-canada-los-angeles/\">Los Angeles page</a>."),
@@ -71,7 +72,7 @@ New York and San Diego were full too, while Houston, Boston and Los Angeles stil
             ("Alliance française de San Diego", "<strong>Canada</strong>", "Canada <strong>$450</strong>",
              "Oct 20 closed, Nov 4 and 10 <strong>sold out</strong>, no later date listed; waitlist (Oct 18). Computer-based written part. <a href=\"/en/tcf-canada-san-diego/\">San Diego page</a>."),
             ("French American School of Puget Sound; Wesleyan University", NR, NR, "Approved by FEI, not checked: see their websites."),
-        ], "en-US", "What each center’s website showed on October 8, 2026, and on October 18 for Los Angeles, Pasadena, San Diego and the updates marked (Oct 18). “No data”: not published, or not checked — the center’s website is the reference.")),
+        ], "en-US", "What each center’s website showed on October 8, 2026, and on October 18 for Los Angeles, Pasadena, San Diego and the updates marked (Oct 18) or (Oct 26). “No data”: not published, or not checked — the center’s website is the reference.")),
         ("registration", "Registering — and finding a seat", """<p>Each center sells the test on its own website — online store, session picker, or a form followed by card
 payment — and your registration is only final once paid. Enter your name exactly as it appears on your passport:
 for the TCF Canada, Detroit reports your passport number to FEI, San Francisco and Denver require a valid passport,
@@ -90,6 +91,13 @@ opening a session every Wednesday until January 27, 2027, Kansas City was sellin
 Pluma Academy tests candidates one at a time: it may be worth taking the test in another city. The TEF Canada,
 the other French test accepted by IRCC, is offered by the Alliances that don’t run the TCF Canada — Chicago,
 Seattle, Washington, and also Dallas and Miami.</p>"""),
+        ("city-pages", "City by city", """<p>One page per city, with the center, the fee and the dates —
+the newest checked on October 26, 2026: <a href="/en/tcf-canada-new-york/">New York</a> ·
+<a href="/en/tcf-canada-boston/">Boston</a> · <a href="/en/tcf-canada-detroit/">Detroit</a> ·
+<a href="/en/tcf-canada-chicago/">Chicago</a> (TEF Canada only) · <a href="/en/tcf-canada-houston/">Houston</a> ·
+<a href="/en/tcf-canada-denver/">Denver</a> · <a href="/en/tcf-canada-seattle/">Seattle</a> (TEF Canada only) ·
+<a href="/en/tcf-canada-san-francisco/">San Francisco</a> · <a href="/en/tcf-canada-los-angeles/">Los Angeles</a> ·
+<a href="/en/tcf-canada-san-diego/">San Diego</a>.</p>"""),
     ],
     list_title="The {n} approved TCF test centers, state by state",
     faq=[("Where can I take the TCF Canada in the USA?", "At one of twelve centers: the Alliances Françaises in Detroit, New York, Denver, Philadelphia, Kansas City, Houston and San Francisco, the International School of Boston and Pluma Academy in Denver (October 8, 2026), and the Alliances in Los Angeles, Pasadena and San Diego (October 18). Atlanta, Chicago, Seattle and Washington are approved for the TCF but don’t offer the TCF Canada."),
@@ -100,7 +108,7 @@ Seattle, Washington, and also Dallas and Miami.</p>"""),
     also=[("/en/delf-usa/", "DELF and DALF in the USA", "The December 2026 session and the shared fee schedule."),
           ("/en/tcf-canada-test-centres/", "TCF Canada test centers in Canada", "The 47 approved centers, province by province."),
           ("/en/tcf-canada-uk/", "TCF Canada in the UK", "London (£260) and Glasgow (£325).")],
-    sources="the websites of the Alliances Françaises of Detroit, Atlanta, Chicago, Denver, Houston, Kansas City, New York, Philadelphia, San Francisco, Seattle and Washington, the International School of Boston and Pluma Academy (TCF pages, online stores and session pickers, exam terms and policies), checked on October 8, 2026; those of L'Alliance New York, the International School of Boston, the Alliances Françaises of Chicago, Los Angeles, Pasadena and San Diego, checked on October 18, 2026.",
+    sources="the websites of the Alliances Françaises of Detroit, Atlanta, Chicago, Denver, Houston, Kansas City, New York, Philadelphia, San Francisco, Seattle and Washington, the International School of Boston and Pluma Academy (TCF pages, online stores and session pickers, exam terms and policies), checked on October 8, 2026; those of L'Alliance New York, the International School of Boston, the Alliances Françaises of Chicago, Los Angeles, Pasadena and San Diego, checked on October 18, 2026; those of the Alliances Françaises of Detroit, Houston, San Francisco, Seattle and Denver and of Pluma Academy, checked on October 26, 2026 for the city pages.",
     notes={"cambridge-lycee-international-de-boston": "Now the International School of Boston (ISB Extension, open to adults).",
            "philadelphie-alliance-francaise": "Paper-based test, according to the Alliance."},
 ))
@@ -353,6 +361,7 @@ PAGES.append(canada(
     title="TCF Canada test centres 2026: 47 in Canada, fees, booking",
     desc="The 47 approved TCF Canada test centres in Canada — Montreal, Toronto, Vancouver, Ottawa… — province by province, with contacts, fees and booking rules.",
     h1="TCF Canada test centres in Canada: the 47 approved centres, province by province",
+    modified="2026-10-26", date_label="26 October 2026",   # seats of 26/10/2026 and the new province pages (package F)
     intro="""In Canada, you can take the TCF Canada and the TCF Québec at one of <strong>{n} test centres approved</strong> by
 France Éducation international (48 entries on its list of 19 September 2026, one centre appearing twice) —
 Alliances Françaises, universities, CEGEPs and training centres — in <strong>nine provinces and Nunavut</strong>,
@@ -362,6 +371,7 @@ publishes, and the registration rules we found at the main centres.""",
            "<strong>45 entries with computer-based sessions</strong>; paper-based only in Sherbrooke, in Lethbridge and at the University of Victoria.",
            "Each centre sets its own price, often unpublished: $390 (Alliance française, Vancouver), $400 (Alliance française, Edmonton), $440 (UQTR); nothing posted at the Alliance Française de Montréal.",
            "⚠️ Sessions in Toronto and Vancouver <strong>fill up within minutes</strong>: register the moment registration opens, not as your test date approaches.",
+           "Seats on 26 October 2026: open in <a href=\"/en/tcf-canada-new-brunswick/\">New Brunswick</a> ($390: Moncton, Edmundston, Bathurst) and <a href=\"/en/tcf-canada-ottawa/\">Ottawa</a> ($400, 10 November); sold out to December in Calgary, Edmonton, Halifax, Winnipeg and Vancouver; Toronto opens January–March 2027 on 1 December at 10 am.",
            "<strong>20 days</strong> between two attempts, whichever centre you test at; results in 2 to 4 weeks.",
            "No centre in Prince Edward Island, Yukon or the Northwest Territories."],
     stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("{so}", "computer-based", "the others paper-based"),
@@ -378,10 +388,21 @@ keeps $75 if you cancel more than 15 days ahead, and refunds nothing after that.
 Allow at least <strong>20 days</strong> between two attempts, whichever centre you test at. Results arrive by email
 within 2 to 4 weeks and are valid for two years. On test day, bring a valid passport and your printed test-day
 notice (admission letter).</p>"""),
-        ("city-guides", "City guides: Montreal, Toronto, Quebec City, Ottawa, Vancouver, Calgary, Edmonton", """<p>For the largest cities, one
+        ("city-guides", "City and province guides: Montreal, Toronto, Ottawa, Vancouver, Alberta, Ontario, New Brunswick…", """<p>For the largest cities, one
 page brings together the approved TCF centres with their contacts, what their websites showed on 17 September 2026
-— versions, prices, dates — and how to register:</p>
+— versions, prices, dates — and how to register; the pages dated 26 October 2026 add the next sessions and the
+booking windows:</p>
 <ul class="posts">
+<li><a href="/en/tcf-canada-ontario/">TCF Canada in Ontario</a>
+<p>Toronto, North York, Mississauga, Oakville, Ottawa, Kanata, Windsor: $390 to $452; Ottawa open on 10 November (26 October).</p></li>
+<li><a href="/en/tcf-canada-alberta/">TCF Canada in Alberta</a>
+<p>Calgary and Edmonton, $400, sold out to December; Lethbridge offers only the DELF (26 October).</p></li>
+<li><a href="/en/tcf-canada-new-brunswick/">TCF Canada in New Brunswick</a>
+<p>Moncton, Edmundston and Bathurst, $390, with open weekend dates to 20 December (26 October).</p></li>
+<li><a href="/en/tcf-canada-halifax/">TCF Canada in Halifax</a>
+<p>The Alliance Française, $400; the one session listed, 8 December, full (26 October).</p></li>
+<li><a href="/en/tcf-canada-winnipeg/">TCF Canada in Winnipeg</a>
+<p>The Alliance Française du Manitoba, $400; 9, 11 and 14 December sold out (26 October).</p></li>
 <li><a href="/en/tcf-canada-montreal/">TCF Canada in Montreal</a>
 <p>Seven approved centres, all computer-based, plus Laval, Kirkland and Saint-Constant; fees rarely published.</p></li>
 <li><a href="/en/tcf-canada-toronto/">TCF Canada in Toronto</a>
@@ -399,7 +420,12 @@ page brings together the approved TCF centres with their contacts, what their we
 </ul>"""),
     ],
     list_title="The {n} approved centres, province by province",
-    list_intro="""<p><strong>One addition since:</strong> read again on 8 October 2026, FEI’s list includes one centre that is
+    list_intro="""<form class="finder-mini" action="/en/test-centre-near-me/" method="get" role="search">
+<label for="finder-mini-q">Find a test centre near you</label>
+<div class="finder-row"><input id="finder-mini-q" name="q" type="search" placeholder="City, country or centre name" autocomplete="off" enterkeyhint="search"><button type="submit">Search</button></div>
+<p>TCF, DELF-DALF and TEF: the nearest approved centres, with the distance. <a href="/en/test-centre-near-me/">Or use your location →</a></p>
+</form>
+<p><strong>One addition since:</strong> read again on 8 October 2026, FEI’s list includes one centre that is
 not on the 19 September list used below — <strong>Collège Boréal</strong> in Windsor, Ontario (7515 Forest Glade
 Drive; paper-based, according to FEI).</p>""",
     faq=[("Where can I take the TCF Canada in Montreal?", "At one of the seven approved centres in Montreal — Alliance Française de Montréal, Collège Stanislas, UQAM, Concordia University, Cégep Marie-Victorin, Centre Yves-Thériault, Collège ELC — or in the suburbs, in Laval, Kirkland and Saint-Constant. All of them offer computer-based sessions."),
@@ -407,10 +433,10 @@ Drive; paper-based, according to FEI).</p>""",
          ("How much does the TCF Canada cost in Canada?", "There is no national fee, and many centres publish nothing: $390 at the Alliance française in Vancouver, $400 in Edmonton, $440 at UQTR among the centres we checked; the Alliance Française de Montréal posts no price."),
          ("Do all these centres offer both the TCF Canada and the TCF Québec?", "Most offer both, but FEI’s list doesn’t say: check which test you tick when you register — the TCF Québec, which is modular, is not accepted by IRCC."),
          ("What do I need to bring on test day?", "A valid passport and your printed test-day notice — no exceptions in Ottawa; your identity is checked throughout the test. For computer-based tests, the centre provides a QWERTY keyboard.")],
-    also=[("/en/tcf-canada-usa/", "TCF Canada in the USA", "9 of the 18 approved US centres offer it, from US$330 to US$460."),
-          ("/en/tcf-canada-uk/", "TCF Canada in the UK", "London (£260) and Glasgow (£325)."),
+    also=[("/en/tcf-canada-usa/", "TCF Canada in the USA", "12 of the 18 approved US centres offer it, from US$330 to US$505."),
+          ("/en/tcf-canada/fees-registration/", "TCF Canada fees 2026", "The fee country by country and city by city, each with its date."),
           ("/en/", "All locations", "Every country and city page in English.")],
-    sources="the websites of the Alliances Françaises in Montreal, Toronto, Ottawa and Vancouver (Alliance française Canada Pacific) — TCF pages, registration and cancellation terms — checked on 17 September 2026.",
+    sources="the websites of the Alliances Françaises in Montreal, Toronto, Ottawa and Vancouver (Alliance française Canada Pacific) — TCF pages, registration and cancellation terms — checked on 17 September 2026; the city and province pages linked above, checked on 26 October 2026, for the seats open that day.",
 ))
 
 # ===========================================================================
@@ -419,27 +445,44 @@ Drive; paper-based, according to FEI).</p>""",
 PAGES.append(canada(
     "tcf-toronto", slug="tcf-canada-toronto",
     crumb="TCF Canada in Toronto",
-    title="TCF Canada in Toronto: test centres, dates and booking",
-    desc="TCF Canada in Toronto: 5 approved centres — 4 Alliance française campuses (Spadina, North York, Mississauga, Oakville), GB Language — quarterly sessions.",
-    h1="Taking the TCF Canada in Toronto: the approved centres, the sessions and registration",
-    intro="""In Toronto, you can take the TCF Canada at <strong>{n} centres approved</strong> by France Éducation
+    title="TCF Canada Toronto: exam booking, test dates, $390 fee",
+    desc="TCF Canada exam booking in Toronto: $390 at the Alliance française (Spadina, North York, Mississauga, Oakville), $452 at GB Language; 2027 opens 1 Dec.",
+    h1="Booking the TCF Canada in Toronto: the approved centres, the fees and the 2027 dates",
+    modified="2026-10-26", date_label="26 October 2026",   # fees and booking rules read on 26/10/2026 (package F)
+    intro="""To book the TCF Canada in Toronto, you have <strong>{n} centres approved</strong> by France Éducation
 international: the four campuses of the <strong>Alliance française de Toronto</strong> — Spadina, North York,
-Mississauga, Oakville — and GB Language Centre in North York, all computer-based (paper is also possible at the
-Alliance). The Alliance’s sessions are <strong>quarterly</strong>, registration opens a month before at 10 am, and
-“If a session is not listed, it is full.” Below: the centres, their contacts, and how to get a seat.""",
+Mississauga, Oakville — at <strong>$390</strong>, and <strong>GB Language Centre</strong> in North York, at
+<strong>$452</strong> (26 October 2026), all computer-based (paper is also possible at the Alliance). The Alliance’s
+sessions are <strong>quarterly</strong>: registration opens a month before at 10 am — for January to March 2027, on
+<strong>1 December 2026 at 10 am</strong> — and “If a session is not listed, it is full.” Below: the centres, their
+contacts, and how to get a seat.""",
     facts=["<strong>{n} approved centres</strong> in the area: Alliance française de Toronto (Spadina, North York, Mississauga, Oakville) and GB Language Centre.",
+           "Fees on 26 October 2026: <strong>$390</strong> at the Alliance française de Toronto, <strong>$452</strong> at GB Language Centre (North York).",
            "<strong>Quarterly sessions</strong> at the Alliance; registration opens <strong>one month before, at 10 am</strong>.",
            "Registration openings for 2027: <strong>1 December 2026</strong> (January to March), 2 March, 20 May, 17 August 2027.",
-           "“If a session is not listed, it is full”; no waitlist; one registration at a time.",
+           "“If a session is not listed, it is full”; no waitlist; one registration at a time; no refunds, a transfer costs $100.",
            "FEI has dropped re-marking for sessions held since 1 September 2026."],
-    stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("{so}", "computer-based", "all centres in the area"),
-           ("checked", "17 Sept 2026", "prices and dates read on the websites"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("$390", "TCF Canada", "Alliance française, 26 Oct 2026"),
+           ("1 Dec", "next booking opening", "10 am, January–March 2027"), ("2 years", "validity", "20 to 30 days between two attempts")],
     sections=[
         ("what-we-found", "What we found, centre by centre", releve([
-            ("Alliance française de Toronto (4 campuses)", "Canada (paper or computer-based), Québec", "<strong>not published</strong> on the TCF page",
-             "Quarterly; registration 1 month before, at 10 am; 2027: 1 Dec 2026, 2 Mar, 20 May, 17 Aug; no waitlist."),
-            ("GB Language Centre (North York)", NR, NR, "On the centre’s website."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+            ("Alliance française de Toronto (4 campuses)", "Canada (paper or computer-based), Québec", "<strong>$390</strong> (26 Oct 2026; not published on 17 Sept)",
+             "Quarterly; registration 1 month before, at 10 am; 2027: 1 Dec 2026, 2 Mar, 20 May, 17 Aug; no waitlist; one registration at a time; transfer up to 15 days before (computer) or 30 days (paper) for $100; no refunds."),
+            ("GB Language Centre (North York)", "Canada, tout public, TEF Canada", "<strong>$452</strong> (26 Oct 2026)", "Online booking on its website; TCF tout public $520."),
+        ], "en-CA", "What each centre’s website showed on 17 September 2026, updated on 26 October 2026 (fees, transfers). “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ("booking-2027", "Booking the January–March 2027 sessions", """<p>The Alliance française de Toronto sells the
+TCF Canada <strong>only online</strong>: you create an account on its booking platform beforehand, then, when
+registration opens, choose a date — computer-based (E-TCF Canada) or paper-based (P-TCF Canada) — fill in a questionnaire
+and pay. For January to March 2027, that is <strong>1 December 2026 at 10 am</strong>; the next openings are 2 March,
+20 May and 17 August 2027. Log in before 10 am with your passport at hand: “If a session is not listed, it is full”, and
+“There is no waiting list for fully booked sessions”. You may hold only one registration at a time across the four
+campuses. Refunds are “not possible under any circumstances”; a transfer costs $100 and must be asked at least 15 days
+before a computer session, 30 days before a paper one. Results arrive by email two weeks after a computer-based test,
+four weeks after a paper one. Questions about dates go to toronto.exam@alliance-francaise.ca.</p>
+<p>GB Language Centre, 716 Gordon Baker Road in North York, sells its TCF Canada sessions on its own website for $452.
+If you can travel, the Alliance Française Ottawa ($400) had a computer-based session open on 10 November 2026, and
+New Brunswick ($390) had weekend dates until 20 December: see <a href="/en/tcf-canada-ontario/">TCF Canada in
+Ontario</a> and <a href="/en/tcf-canada-new-brunswick/">New Brunswick</a>.</p>"""),
         ("registration", "How to book the TCF Canada in Toronto", """<p>In Canada, each centre handles its own registrations
 <strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
 final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
@@ -453,12 +496,14 @@ test day, bring a valid passport and your printed test-day notice (admission let
     list_title="The {n} approved centres in Toronto and the surrounding area",
     faq=[("Where can I take the TCF Canada in Toronto?", "At the Alliance française de Toronto, on four campuses — Spadina (downtown), North York, Mississauga, Oakville — or at GB Language Centre in North York. Registration is online only."),
          ("When does TCF Canada registration open in Toronto?", "A month before each quarter, at 10 am: for 2027, on 1 December 2026 (sessions from January to March), then on 2 March, 20 May and 17 August 2027. Seats go within minutes; there is no waitlist, so check back regularly — seats do free up."),
-         ("How much does the TCF Canada cost in Toronto?", "The Alliance française de Toronto doesn’t post a fee on its TCF page; the price appears when you book. For reference: $390 in Vancouver, $400 in Edmonton, $440 at UQTR."),
+         ("How much does the TCF Canada cost in Toronto?", "$390 at the Alliance française de Toronto and $452 at GB Language Centre in North York (26 October 2026); on 17 September, the Alliance’s TCF page showed no fee. For reference: $390 in Vancouver, $400 in Edmonton, $440 at UQTR."),
+         ("How do I book the TCF Canada exam in Toronto?", "Online only: create an account on the Alliance française de Toronto’s booking platform in advance, then log in when registration opens — 1 December 2026 at 10 am for January to March 2027 — choose a computer or paper session, answer the questionnaire and pay. GB Language Centre takes bookings on its own website."),
+         ("Can I take the TCF Canada in North York or Mississauga?", "Yes: the Alliance française de Toronto runs sessions at its North York (47 Sheppard Avenue East) and Mississauga campuses, as well as Spadina and Oakville, for $390; GB Language Centre is also in North York ($452)."),
          ("Paper or computer-based in Toronto?", "The Alliance française offers both formats; GB Language Centre lists computer-based sessions.")],
-    also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, province by province, with contacts."),
+    also=[("/en/tcf-canada-ontario/", "TCF Canada in Ontario", "Toronto, North York, Ottawa, Kanata, Windsor: fees and next dates."),
           ("/en/tcf-canada-ottawa/", "TCF Canada in Ottawa", "Alliance française Ottawa and FrancoLangues; strict test-day rules."),
-          ("/en/tcf-canada-montreal/", "TCF Canada in Montreal", "Seven approved centres, plus Laval, Kirkland and Saint-Constant.")],
-    sources="the website of the Alliance française de Toronto (TCF page and registration calendar), checked on 17 September 2026.",
+          ("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, province by province, with contacts.")],
+    sources="the website of the Alliance française de Toronto (TCF page and registration calendar), checked on 17 September 2026; its TCF Canada pages (fee, 2027 calendar, transfer rules) and GB Language Centre’s website (gblc.ca), checked on 26 October 2026.",
 ))
 
 # ===========================================================================
@@ -563,27 +608,41 @@ test day, bring a valid passport and your printed test-day notice (admission let
 PAGES.append(canada(
     "tcf-ottawa", slug="tcf-canada-ottawa",
     crumb="TCF Canada in Ottawa",
-    title="TCF Canada Ottawa: FrancoLangues and Alliance française",
-    desc="TCF Canada in Ottawa: FrancoLangues in Kanata (105 Schneider Road) and the Alliance française (352 MacLaren Street) — test-day rules and how to register.",
-    h1="Taking the TCF Canada in Ottawa: the two approved centres and registration",
+    title="TCF Canada Ottawa: dates, $400 fee, FrancoLangues Kanata",
+    desc="TCF Canada in Ottawa: the Alliance Française ($400; 10 November and January dates open on 26 October 2026) and FrancoLangues in Kanata. How to book.",
+    h1="Taking the TCF Canada in Ottawa: the two approved centres, the next dates and booking",
+    modified="2026-10-26", date_label="26 October 2026",   # fee, sessions and FrancoLangues rules read on 26/10/2026 (package F)
     intro="""In Ottawa, you can take the TCF Canada at <strong>{n} centres approved</strong> by France Éducation international,
 both computer-based: the <strong>Alliance française Ottawa</strong> (352 MacLaren Street), which also offers it on
-paper, and <strong>FrancoLangues</strong> in Kanata. The Alliance is strict on test day — a valid passport and the
-printed test-day notice, with no exceptions — and sends results by email within two to three weeks. Below: the
-centres, their contacts, and how to register.""",
+paper, and <strong>FrancoLangues</strong> in Kanata. On 26 October 2026, the Alliance charged <strong>$400</strong> and
+had seats on <strong>10 November 2026</strong> and on 6 and 8 January 2027 (computer), and on 14 January 2027 (paper).
+It is strict on test day — a valid passport and the printed test-day notice, with no exceptions — and sends results by
+email within two to three weeks. Below: the centres, their contacts, and how to book.""",
     facts=["<strong>{n} approved centres</strong>: Alliance française Ottawa and FrancoLangues (Kanata).",
+           "<strong>Alliance française Ottawa: $400</strong>; open on 26 October 2026: <strong>10 November 2026</strong>, 6 and 8 January 2027 (computer), 14 January 2027 (paper); further January dates on sale from 1 November.",
            "<strong>Alliance française Ottawa</strong>: TCF Canada computer-based or paper-based; a valid passport and the printed test-day notice are mandatory, with no exceptions.",
+           "<strong>FrancoLangues</strong> (105 Schneider Road, Kanata): booking through its online appointment page; no refunds or date changes; 30 days between two tests.",
            "Results by email within 2 to 3 weeks; no duplicate of the results certificate.",
            "Accommodations: request them before you register, with medical documentation.",
            "FEI has dropped re-marking for sessions held since 1 September 2026."],
-    stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("{so}", "computer-based", "all centres in the city"),
-           ("checked", "17 Sept 2026", "prices and dates read on the websites"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("$400", "TCF Canada", "Alliance française, 26 Oct 2026"),
+           ("10 Nov", "next open date", "computer-based, 2026"), ("2 years", "validity", "20 to 30 days between two attempts")],
     sections=[
         ("what-we-found", "What we found, centre by centre", releve([
-            ("Alliance française Ottawa", "Canada (computer or paper-based), other versions", NR,
-             "Passport + printed test-day notice mandatory; identity checked during the test; results in 2–3 weeks."),
-            ("FrancoLangues", NR, NR, "On the centre’s website."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+            ("Alliance française Ottawa", "Canada (computer or paper-based), other versions", "<strong>$400</strong> (26 Oct 2026)",
+             "Computer: 10 Nov 2026, 6 and 8 Jan 2027 open; paper: 14 Jan 2027 open (26 Oct); «No dates will be communicated by email or phone»; passport + printed test-day notice mandatory; identity checked during the test; results in 2–3 weeks."),
+            ("FrancoLangues (Kanata)", "Canada, Québec", NR,
+             "Online appointment page; fee given by the centre; no refunds or date changes; 30 days between two tests; certificate 4 to 8 weeks after the test (26 Oct)."),
+        ], "en-CA", "What each centre’s website showed on 17 September 2026, updated on 26 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ("booking", "Booking the next sessions in Ottawa", """<p>The <strong>Alliance française Ottawa</strong> lists its
+TCF Canada sessions on its TCF page, each with its price and either an «Add to cart» button or the date its sales open;
+«No dates will be communicated by email or phone», so the page is the only place to watch. On 26 October 2026, the
+computer-based sessions of 10 November 2026 and 6 and 8 January 2027 were open, the paper-based session of 14 January
+2027 too, and later January dates were to go on sale on 1 November 2026 — all at $400.</p>
+<p><strong>FrancoLangues</strong>, at 105 Schneider Road in Kanata, takes TCF bookings through its online appointment
+page and gives its fee when you book. Its rules are strict: «No refunds or test date changes will be accepted under any
+circumstances», 30 days between two tests, and the certificate arrives four to eight weeks after the test. Every
+centre in the province: <a href="/en/tcf-canada-ontario/">TCF Canada in Ontario</a>.</p>"""),
         ("registration", "How to register in Ottawa", """<p>In Canada, each centre handles its own registrations
 <strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
 final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
@@ -597,11 +656,13 @@ test day, bring a valid passport and your printed test-day notice (admission let
     list_title="The {n} approved centres in Ottawa",
     faq=[("Where can I take the TCF Canada in Ottawa?", "At the Alliance française Ottawa (352 MacLaren Street), computer-based or on paper, or at FrancoLangues in Kanata; both are approved."),
          ("What should I bring on test day in Ottawa?", "A valid passport and your printed test-day notice: the Alliance française refuses entry without both, with no exceptions, and checks identity throughout the test."),
-         ("How much does the TCF Canada cost in Ottawa?", "The Alliance française Ottawa doesn’t publish the fee on its TCF page; for reference: $390 in Vancouver, $400 in Edmonton, $440 at UQTR.")],
-    also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, province by province, with contacts."),
-          ("/en/tcf-canada-montreal/", "TCF Canada in Montreal", "Seven approved centres, plus Laval, Kirkland and Saint-Constant."),
-          ("/en/tcf-canada-toronto/", "TCF Canada in Toronto", "Five centres, quarterly sessions, registration at 10 am a month before.")],
-    sources="the website of the Alliance française Ottawa (TCF page and test-day rules), checked on 17 September 2026.",
+         ("How much does the TCF Canada cost in Ottawa?", "$400 at the Alliance française Ottawa, for the computer-based or the paper-based test (26 October 2026); on 17 September its TCF page showed no fee. FrancoLangues gives its fee when you book. For reference: $390 in Vancouver, $400 in Edmonton, $440 at UQTR."),
+         ("When is the next TCF Canada in Ottawa?", "On 26 October 2026, the Alliance française Ottawa had seats on 10 November 2026 and on 6 and 8 January 2027 (computer), and on 14 January 2027 (paper); further January sessions were to go on sale on 1 November."),
+         ("How do I book the TCF at FrancoLangues in Kanata?", "Through FrancoLangues’ online appointment page, linked from its TCF page; the test takes place at 105 Schneider Road, Kanata. No refunds or date changes are accepted, and you must wait 30 days between two tests.")],
+    also=[("/en/tcf-canada-ontario/", "TCF Canada in Ontario", "Toronto, North York, Ottawa, Kanata, Windsor: fees and next dates."),
+          ("/en/tcf-canada-toronto/", "TCF Canada in Toronto", "$390; 2027 bookings open on 1 December at 10 am."),
+          ("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, province by province, with contacts.")],
+    sources="the website of the Alliance française Ottawa (TCF page and test-day rules), checked on 17 September 2026; its TCF Canada session list and FrancoLangues’ TCF page (francolangues.com), checked on 26 October 2026.",
 ))
 
 # ===========================================================================
@@ -610,27 +671,44 @@ test day, bring a valid passport and your printed test-day notice (admission let
 PAGES.append(canada(
     "tcf-vancouver", slug="tcf-canada-vancouver",
     crumb="TCF Canada in Vancouver",
-    title="TCF Canada in Vancouver: test centres, $390 fee, booking",
-    desc="The 3 approved TCF test centres in Vancouver and New Westminster — Alliance française Canada Pacific ($390), Ashton — and test dates that sell out fast.",
-    h1="Taking the TCF Canada in Vancouver: the approved centres, the fee and registration",
+    title="TCF Canada Vancouver: booking, $390, New Westminster",
+    desc="TCF Canada in Vancouver and New Westminster: $390 at the Alliance française; December sold out on 26 October, sales open ~10 weeks ahead. Booking tips.",
+    h1="Booking the TCF Canada in Vancouver and New Westminster: the centres, the fee, the sales windows",
+    modified="2026-10-26", date_label="26 October 2026",   # December sessions and sales windows read on 26/10/2026 (package F)
     intro="""In Vancouver, you can take the TCF Canada at <strong>{n} centres approved</strong> by France Éducation international,
-all computer-based: the <strong>Alliance française Canada Pacific</strong> — on Cambie Street, with a second site in
-New Westminster — and Ashton Testing Services. The Alliance charges <strong>$390</strong>, with 10% off for members
-and no refunds, and on 17 September 2026 <strong>every session it listed was “SOLD OUT”</strong>. Below: the
-centres, their contacts, and how to get a seat.""",
+all computer-based: the <strong>Alliance française Canada Pacific</strong> — on Cambie Street, with a second site at
+320 Columbia Street in <strong>New Westminster</strong> — and Ashton Testing Services. The Alliance charges
+<strong>$390</strong>, with 10% off for members and no refunds, and on 17 September 2026 <strong>every session it listed
+was “SOLD OUT”</strong>. On 26 October, its December sessions at both sites were sold out too: each one went on sale
+about ten weeks ahead, for one week. Below: the centres, their contacts, and how to get a seat.""",
     facts=["<strong>{n} approved centres</strong>: Alliance française Canada Pacific (Vancouver and New Westminster), Ashton Testing Services.",
            "<strong>Alliance française: $390</strong>, 10% off for members; online registration only, and final — no refund, no credit.",
            "Every listed session “SOLD OUT” on 17 September 2026: log in when registration opens, in a single tab, with your passport at hand.",
+           "26 October 2026: the December sessions (2, 4, 7, 9, 11, 14, 16, 18 December…) <strong>sold out</strong> in Vancouver and in New Westminster; Vancouver’s were sold from 15 to 22 September, New Westminster’s from 29 September to 6 October.",
            "Results by email within 3 to 4 weeks; QWERTY keyboard, accents through FEI’s platform.",
            "Victoria has two more approved centres (Alliance française de Victoria, University of Victoria)."],
-    stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("{so}", "computer-based", "all centres in the area"),
-           ("checked", "17 Sept 2026", "prices and dates read on the websites"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[("{n}", "approved centres", "FEI list of 19 September 2026"), ("$390", "TCF Canada", "$351 for members"),
+           ("~10 weeks", "sales open ahead", "for one week"), ("2 years", "validity", "20 to 30 days between two attempts")],
     sections=[
         ("what-we-found", "What we found, centre by centre", releve([
-            ("Alliance française Canada Pacific", "Canada (+ TEF)", "<strong>$390</strong> ($351 for members)",
-             "Online registration only, final; sessions full; results in 3–4 weeks; QWERTY."),
+            ("Alliance française Canada Pacific (Vancouver and New Westminster)", "Canada (+ TEF)", "<strong>$390</strong> ($351 for members)",
+             "Online registration only, final; sessions full; December 2026 sold out at both sites (26 Oct); results in 3–4 weeks; QWERTY."),
             ("Ashton Testing Services", NR, NR, "Private testing centre, computer-based."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ], "en-CA", "What each centre’s website showed on 17 September 2026, updated on 26 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ("sales-windows", "When TCF Canada bookings open in Vancouver", """<p>The Alliance française Canada Pacific
+lists each session with its <strong>registration dates</strong>, its site and the seats left. On 26 October 2026, the
+December 2026 sessions — at 6161 Cambie Street in Vancouver and at 320 Columbia Street in New Westminster — were all
+“SOLD OUT”. Their sales windows show how early you must be ready: about <strong>ten weeks before the test, for one
+week</strong> — from 15 to 22 September for the Vancouver sessions, from 29 September to 6 October for New Westminster.
+Log in to your account before the window opens, keep your passport number at hand and use a single tab: “Opening multiple
+tabs or repeatedly refreshing the page may cancel your reservation”. The Alliance also gives TCF workshop participants
+<strong>priority access</strong> to some exam seats, on dates it assigns. The exam location is shown when you buy, and
+you get your exact time about a week before the test; the passport is the only ID accepted.</p>
+<p><strong>TEF Canada in Vancouver.</strong> IRCC also accepts the TEF Canada, and the same Alliance runs it: on
+26 October 2026, the map of TEF centres of Le français des affaires (CCI Paris Île-de-France) showed TEF Canada
+sessions published at its Cambie Street site; Collège Éducacentre, also in Vancouver, is an approved TEF centre. The
+Alliance sends TEF results within about two weeks, and prefers the TEF for candidates who need accommodations
+(<a href="/en/tcf-vs-tef-canada/">TCF vs TEF Canada</a>).</p>"""),
         ("registration", "How to book the TCF Canada in Vancouver", """<p>In Canada, each centre handles its own registrations
 <strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
 final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
@@ -644,11 +722,14 @@ test day, bring a valid passport and your printed test-day notice (admission let
     list_title="The {n} approved centres in Vancouver and New Westminster",
     faq=[("Where can I take the TCF Canada in Vancouver?", "At the Alliance française Canada Pacific (6161 Cambie Street, and New Westminster) or at Ashton Testing Services, all approved and computer-based; you register online, centre by centre."),
          ("How much does the TCF Canada cost in Vancouver?", "$390 at the Alliance française Canada Pacific on 17 September 2026 ($351 for members), and “prices are subject to change without notice”; Ashton doesn’t publish a clear fee."),
-         ("How do I get a TCF Canada test date in Vancouver?", "By registering the moment registration opens: the Alliance advises logging in ahead of time with your passport number ready and opening a single tab — “opening multiple tabs or repeatedly refreshing the page may cancel your reservation”.")],
+         ("How do I get a TCF Canada test date in Vancouver?", "By registering the moment registration opens: the Alliance advises logging in ahead of time with your passport number ready and opening a single tab — “opening multiple tabs or repeatedly refreshing the page may cancel your reservation”."),
+         ("When do TCF Canada bookings open in Vancouver?", "About ten weeks before each session, for one week: the December 2026 sessions were sold from 15 to 22 September (Vancouver) and from 29 September to 6 October (New Westminster), and were all sold out on 26 October 2026."),
+         ("Can I take the TCF Canada in New Westminster?", "Yes: the Alliance française Canada Pacific holds sessions at #101-320 Columbia Street, New Westminster, at the same $390 fee; the site is shown when you book."),
+         ("Can I take the TEF Canada in Vancouver?", "Yes: the Alliance française Canada Pacific runs the TEF Canada too, and on 26 October 2026 the map of Le français des affaires (CCI Paris Île-de-France) showed TEF Canada sessions published there; Collège Éducacentre is also an approved TEF centre.")],
     also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 47 approved centres, province by province, with contacts."),
-          ("/en/tcf-canada-toronto/", "TCF Canada in Toronto", "Five centres, quarterly sessions, registration at 10 am a month before."),
-          ("/en/tcf-canada-montreal/", "TCF Canada in Montreal", "Seven approved centres, plus Laval, Kirkland and Saint-Constant.")],
-    sources="the websites of the Alliance française Canada Pacific and Ashton Testing Services, checked on 17 September 2026.",
+          ("/en/tcf-canada-alberta/", "TCF Canada in Alberta", "Calgary and Edmonton, $400; Lethbridge DELF only."),
+          ("/en/tcf-vs-tef-canada/", "TCF vs TEF Canada", "The two French tests IRCC accepts, side by side.")],
+    sources="the websites of the Alliance française Canada Pacific and Ashton Testing Services, checked on 17 September 2026; the Alliance’s TEF & TCF and TCF Canada pages (session table and registration dates) and the map of TEF centres of Le français des affaires, checked on 26 October 2026.",
 ))
 
 
@@ -999,12 +1080,15 @@ listing states “No postponement, no refund, no change of date allowed”, and 
 venue where AFAS schedules its e-TCF and e-TEF Canada sessions in Riyadh is not on France Éducation international’s list,
 which gives the AFAS Riyadh centre at Al Kindi Plaza (Gate 14, As-Safarat); ask AFAS if in doubt. No TCF session was
 listed for Al Khobar on 13 October.</p>"""),
-        ("gulf", "Elsewhere in the Gulf and the Levant", """<p>If the Saudi sessions are full, the nearest approved TCF
-centres on France Éducation international’s list of 13 October 2026 are in Bahrain (Alliance française, Manama), Qatar
-(Institut français, Doha), Kuwait (Institut français) and Jordan (Institut français, Amman) — one each; we did not check
-whether they offer the TCF Canada itself, so check their websites. Oman has no TCF centre on the list. The
-<a href="/en/tcf-canada-dubai/">United Arab Emirates</a> have four centres, two of them in Dubai; see also
-<a href="/en/tcf-canada-egypt/">Egypt</a> and <a href="/en/tcf-canada-lebanon/">Lebanon</a>.</p>"""),
+        ("gulf", "Elsewhere in the Gulf and the Levant", """<p>If the Saudi sessions are full, the nearest TCF Canada
+sessions in the Gulf are in <a href="/en/tcf-canada-qatar/">Qatar</a> (Institut français, Doha: 1,300 QAR, 16 December
+2026, marked “registration closed” on 26 October) and the <a href="/en/tcf-canada-dubai/">United Arab Emirates</a> (Dubai
+and Abu Dhabi, 1,800 AED). In <a href="/en/tcf-canada-kuwait/">Kuwait</a>, the Institut français published no TCF Canada
+session on 26 October 2026, only the TEF Canada (130 KD); in <a href="/en/tcf-canada-jordan/">Jordan</a>, the Institut
+français in Amman holds three TCF Canada sessions a year. Bahrain has one approved TCF centre (Alliance française, Isa
+Town), whose website did not open on 26 October; Oman has none, but the Centre franco-omanais in Muscat had TEF Canada
+sessions on the CCI Paris centre map that day. See also <a href="/en/tcf-canada-egypt/">Egypt</a> and
+<a href="/en/tcf-canada-lebanon/">Lebanon</a>.</p>"""),
     ],
     list_title="The {n} approved TCF centres in Saudi Arabia",
     faq=[("Can I take the TCF Canada in Saudi Arabia?", "Yes. The Alliance française d’Arabie Saoudite runs it: on 13 October 2026 its platform listed a TCF Canada in Jeddah on Tuesday 20 October (computer-based) and an e-TCF Canada in Riyadh on Thursday 12 November, which was already full."),
@@ -1026,46 +1110,61 @@ whether they offer the TCF Canada itself, so check their websites. Oman has no T
 
 PAGES.append(dict(ME,
     lang="en", variant="en-GB", og_locale="en_EG", fr_path=None, slug="tcf-canada-egypt",
+    date_label="26 October 2026", modified="2026-10-26",   # 2026 calendar and fee read on 26/10/2026 (FEI list unchanged)
     country_name="Egypt", exam="tcf", file="tcf_egypte_v2", layout="cities",
     crumb="TCF Canada in Egypt",
-    title="TCF Canada in Egypt 2026: Cairo, next session December",
-    desc="TCF Canada in Egypt: the Institut français d’Égypte (Cairo Mounira, Heliopolis, Alexandria), next session December 2026, registration and results.",
+    title="TCF Canada in Egypt: Cairo, 8 Dec 2026, register 2–12 Nov",
+    desc="TCF Canada in Egypt: Institut français d’Égypte, Cairo (Mounira), 8 December 2026, registration 2–12 November; how the fee in Egyptian pounds is set.",
     h1="TCF Canada in Egypt: the Institut français centres and the next session",
     intro="""In Egypt, France Éducation international lists {n} approved TCF centres, all part of the <strong>Institut
-français d’Égypte</strong>: Cairo (Mounira and Heliopolis) and Alexandria. On 13 October 2026, its website announced the
-next TCF Canada session for <strong>December 2026</strong>, with registration <strong>closed</strong> for now. The fee is
-published only in a PDF calendar of dates and fees on the same site — check it there before registering. Results come
-in about four weeks.""",
+français d’Égypte</strong>: Cairo (Mounira and Heliopolis) and Alexandria. Its 2026 TCF calendar, read on 26 October
+2026, gives the next TCF Canada at Mounira on <strong>Tuesday 8 December 2026</strong>, with registration from
+<strong>2 to 12 November</strong>. It gives no fee: the institute’s last published fee list (2024) set the TCF Canada at the
+equivalent of €250, paid in Egyptian pounds at the exchange rate of the month you pay. Results come in about four weeks.""",
     facts=["<strong>{n} approved TCF centres</strong> (FEI list of 13 October 2026): Cairo – Mounira, Cairo – Heliopolis, Alexandria; computer sessions at Mounira and Alexandria.",
-           "TCF Canada: next session <strong>December 2026</strong>; “registration is currently closed” (13 October).",
-           "Fee: in the Institut’s PDF “Dates et tarifs du TCF” calendar only — not published on a web page.",
+           "TCF Canada: next session <strong>Tuesday 8 December 2026</strong> at Mounira; registration <strong>2 to 12 November 2026</strong> (2026 calendar, read on 26 October).",
+           "Fee: <strong>not published for 2026</strong> — the 2026 “Dates et tarifs du TCF” calendar lists dates only; the 2024 fee list said the equivalent of <strong>€250</strong>, paid in Egyptian pounds.",
            "Registration: an online form for each version, a copy of your passport, payment, then your exam invitation by email.",
            "Results in about <strong>4 weeks</strong>; <strong>30 days</strong> between two TCF attempts."],
-    stats=[("{n}", "approved TCF centres", "Cairo and Alexandria"), ("Dec 2026", "next TCF Canada session", "registration closed on 13 Oct"),
+    stats=[("{n}", "approved TCF centres", "Cairo and Alexandria"), ("8 Dec", "next TCF Canada session", "registration 2–12 Nov 2026"),
            ("~4 weeks", "results", "Institut français d’Égypte"), ("30 days", "between two attempts", "TCF")],
     sections=[
-        ("sessions", "The TCF Canada at the Institut français d’Égypte", """<p>The Institut français d’Égypte publishes
-its sessions for all its centres on one page: on 13 October 2026, the TCF Canada had its own section — next to the TCF
-tout public, the TCF IRN, the TCF Québec and the e-TEF — announcing the <strong>next session in December 2026</strong>
-and stating that “registration is currently closed”. The exact date and the fee are in the institute’s PDF calendar
-(“Dates et tarifs du TCF”), which downloads as a file rather than opening, so we have not read it.</p>
+        ("sessions", "The TCF Canada at the Institut français d’Égypte", table(
+            "TCF Canada sessions in the Institut français d’Égypte’s 2026 TCF calendar (“Calendrier TCF 2026 – IF Mounira”, PDF dated 4 February 2026), read on 26 October 2026.",
+            ["Session", "Registration", "Status on 26 October 2026"],
+            [("Tue 10 Feb 2026", "5–15 Jan", "past"), ("Tue 5 May 2026", "5–16 Apr", "past"),
+             ("Tue 21 Jul 2026", "1–11 Jun", "past"), ("Tue 22 Sep 2026", "9–20 Aug", "past"),
+             ("<strong>Tue 8 Dec 2026</strong>", "<strong>2–12 Nov</strong>", "next session")], wide=False) + """
+<p>The Institut français d’Égypte publishes its sessions for all its centres on one page, with a link to its 2026 TCF
+calendar (<a href="https://www.ifegypte.com/wp-content/uploads/2026/02/Calendrier-TCF-2026-IF-Mounira-VF-04.02.2026.pdf" rel="noopener">“Dates et tarifs du TCF”, PDF</a>). On 26 October 2026 the page
+still said that TCF Canada registration was closed and that the next session was in December; the calendar gives the
+date — <strong>Tuesday 8 December 2026</strong>, at the Mounira centre in Cairo — and the registration period,
+<strong>2 to 12 November 2026</strong>. Despite its title, it gives no fee.</p>
 
 <p>Which centre runs it? The Mounira centre in Cairo has published TCF Canada results for past sessions; the TCF Canada
 results sections of Alexandria and Heliopolis were empty on 13 October, so we have not confirmed that they hold the TCF
 Canada. You register with an online form for the version you want, then send a copy of your passport and pay; your exam
 invitation arrives by email. Results come “within about 4 weeks” of the test, and you must wait 30 days between two
-TCF attempts. The institute also offers the TEF Canada (e-TEF), with registration closed on 13 October.</p>"""),
+TCF attempts. The institute also offers the e-TEF Canada: its own 2026 calendar lists 10 February, 30 April and
+22 October, yet on 26 October 2026 the TEF centre map of Le français des affaires (CCI Paris) still showed TEF Canada
+sessions for the Cairo institute — check the next date with the institute.</p>"""),
+        ("fee", "The fee in Egyptian pounds", """<p>The Institut français d’Égypte has not published its 2026 TCF fees: the
+2026 calendar lists dates only, and no web page gives a price. The last fee list it published, in its 2024 TCF flyer, set
+the TCF Canada at the <strong>equivalent of €250</strong> (the TCF tout public at €200, the TCF IRN at €175), paid in
+<strong>Egyptian pounds at the exchange rate of the month of payment</strong>, rounded up. So the amount in pounds is not
+fixed: it follows the euro rate of the month you pay, and the 2026 base may differ from 2024’s. Ask the institute for
+the exact amount when registration opens on 2 November, before you pay.</p>"""),
     ],
     list_title="The {n} approved TCF centres in Egypt",
     faq=[("Where can I take the TCF Canada in Egypt?", "At the Institut français d’Égypte. FEI lists three approved TCF centres (Cairo – Mounira, Cairo – Heliopolis, Alexandria); Mounira has published TCF Canada results, while the TCF Canada results sections of the other two were empty on 13 October 2026."),
-         ("When is the next TCF Canada session in Egypt?", "December 2026, according to the Institut français d’Égypte’s website on 13 October 2026; registration was closed that day. The exact date is in its PDF calendar."),
-         ("How much does the TCF Canada cost in Egypt?", "The Institut français d’Égypte publishes its TCF fees in a PDF calendar (“Dates et tarifs du TCF”), not on a web page; we could not read it, so check it on ifegypte.com before registering."),
+         ("When is the next TCF Canada session in Egypt?", "Tuesday 8 December 2026, at the Mounira centre in Cairo; registration runs from 2 to 12 November 2026 (the Institut français d’Égypte’s 2026 TCF calendar, read on 26 October 2026)."),
+         ("How much does the TCF Canada cost in Egypt, in Egyptian pounds?", "The 2026 fee is not published: the 2026 calendar lists dates only. The institute’s last fee list (2024) set the TCF Canada at the equivalent of €250, paid in Egyptian pounds at the exchange rate of the month of payment, rounded up — so the amount in pounds changes from month to month. Ask the institute before paying."),
          ("How do I register?", "With the online form for the TCF Canada, a copy of your passport and the payment; your exam invitation is then sent by email."),
          ("How long do results take?", "About four weeks after the test, according to the institute’s FAQ. The results certificate is valid for two years for IRCC.")],
     also=[("/en/tcf-canada-lebanon/", "TCF Canada in Lebanon", "Six Institut français centres."),
           ("/en/tcf-canada-saudi-arabia/", "TCF Canada in Saudi Arabia", "Jeddah and Riyadh, 1,950 SAR."),
           ("/en/tcf-canada-practice-test/", "Free TCF Canada practice test", "Check your level before the December session.")],
-    sources="the website of the Institut français d’Égypte (ifegypte.com: upcoming sessions, exam results by centre, FAQ), checked on 13 October 2026.",
+    sources="the website of the Institut français d’Égypte (ifegypte.com: upcoming sessions, exam results by centre, FAQ), checked on 13 October 2026; its 2026 TCF and TEF calendars (PDF, dated 4 February 2026) and its 2024 TCF flyer (fees), read on 26 October 2026.",
     badges={"le-caire-institut-francais-d-egypte": _CA,
             "le-caire-heliopolis-institut-francais": [("part", "TCF Canada not confirmed")],
             "alexandrie-institut-francais-d-egypte-a-alexandrie": [("part", "TCF Canada not confirmed")]},
@@ -1162,14 +1261,14 @@ website on FEI’s list. The central body’s website on that list did not open 
 <p><strong>For Express Entry, the DELF won’t do.</strong> IRCC accepts only the TCF Canada and the TEF Canada: see <a href="/en/tcf-canada-dubai/">TCF Canada in Dubai and Abu Dhabi</a>.</p>"""),
     ],
     list_title="The {n} approved DELF-DALF centres in the UAE",
-    faq=[("When is the next DELF session in Dubai?", "Friday 11 December 2026 for adults at the Alliance Française de Dubai (Oud Metha), as published on 13 October 2026. No 2027 date had been published by then."),
+    faq=[("When is the next DELF session in Dubai?", "Friday 11 December 2026 for adults at the Alliance Française de Dubai (Oud Metha), as published on 13 October 2026 and unchanged on 26 October 2026, when the Alliance described the exam as for adults aged 18 and above. No 2027 date had been published by then; for other countries, see <a href=\"/en/delf-exam-dates-2027/#by-country\">DELF exam dates 2027 by country</a>."),
          ("How much does the DELF B2 cost in Dubai?", "680 AED at the Alliance Française de Dubai (13 October 2026); DELF B1 is also 680 AED, A1 and A2 560 AED, DALF C1 and C2 875 AED."),
          ("Where can I take the DELF in Abu Dhabi?", "At the Alliance Française d’Abu Dhabi or the Institut français des Émirats arabes unis, both approved by FEI (on 13 October 2026 the Institut’s website showed only the DELF Junior). That day, the Alliance’s dates and fees were only in a PDF calendar."),
          ("Can I use a DELF for Canadian immigration?", "No: for Express Entry, IRCC accepts only the TCF Canada and the TEF Canada. The DELF is valid for life and is accepted by French universities, for French residence and citizenship applications and, under certain conditions, for Quebec.")],
     also=[("/en/tcf-canada-dubai/", "TCF Canada in Dubai and Abu Dhabi", "Four centres, 1,800 AED."),
           ("/en/delf-b2/", "DELF B2 exam", "Format, scoring and preparation."),
           ("/en/delf-b2-practice-test/", "DELF B2 practice test", "One exercise per section, with answers.")],
-    sources="the websites of the Alliance Française de Dubai (DELF-DALF exam page) and of the Alliance Française d’Abu Dhabi (DELF-DALF page), and the Institut français des Émirats arabes unis, checked on 13 October 2026.",
+    sources="the websites of the Alliance Française de Dubai (DELF-DALF exam page) and of the Alliance Française d’Abu Dhabi (DELF-DALF page), and the Institut français des Émirats arabes unis, checked on 13 October 2026; the Alliance Française de Dubai’s DELF-DALF page again on 26 October 2026 (same session and fees, still no 2027 date).",
     org_url="",
     urls={"dubai-alliance-francaise-dubai": "https://www.afdubai.org/french-diplomas-exams-learning-french-with-alliance-francaise-dubai/delf-dalf-exam/",
           "abu-dhabi-alliance-francaise-d-abu-dhabi": "https://www.afabudhabi.org/delf-dalf/"},
@@ -1182,23 +1281,32 @@ website on FEI’s list. The central body’s website on that list did not open 
 def _hub_table():
     from pays_i18n import table
     fei_ca_delf = "https://www.france-education-international.fr/centres-d-examen/liste?pays=112&type-centre=delf_dalf"
-    rows = [("Canada", '<a href="/en/tcf-canada-test-centres/">47 centres, $390 to $440</a> — <a href="/en/tcf-canada-toronto/">Toronto</a>, '
+    rows = [("Canada", '<a href="/en/tcf-canada-test-centres/">47 centres, $390 to $452</a> — <a href="/en/tcf-canada-toronto/">Toronto</a>, '
                        '<a href="/en/tcf-canada-montreal/">Montreal</a>, <a href="/en/tcf-canada-vancouver/">Vancouver</a>, '
                        '<a href="/en/tcf-canada-ottawa/">Ottawa</a>, <a href="/en/tcf-canada-quebec-city/">Quebec City</a>, '
-                       '<a href="/en/tcf-canada-calgary/">Calgary</a>, <a href="/en/tcf-canada-edmonton/">Edmonton</a>',
+                       '<a href="/en/tcf-canada-calgary/">Calgary</a>, <a href="/en/tcf-canada-edmonton/">Edmonton</a>, '
+                       '<a href="/en/tcf-canada-halifax/">Halifax</a>, <a href="/en/tcf-canada-winnipeg/">Winnipeg</a>; provinces: '
+                       '<a href="/en/tcf-canada-ontario/">Ontario</a>, <a href="/en/tcf-canada-alberta/">Alberta</a>, '
+                       '<a href="/en/tcf-canada-new-brunswick/">New Brunswick</a>',
              f'<a href="{fei_ca_delf}" rel="noopener">FEI’s official list</a>'),
             ("United States", '<a href="/en/tcf-canada-usa/">12 of 18 centres, US$330 to US$505</a> — <a href="/en/tcf-canada-new-york/">New York</a>, '
                               '<a href="/en/tcf-canada-boston/">Boston</a>, <a href="/en/tcf-canada-chicago/">Chicago</a>, '
-                              '<a href="/en/tcf-canada-los-angeles/">Los Angeles</a>, <a href="/en/tcf-canada-san-diego/">San Diego</a>',
+                              '<a href="/en/tcf-canada-los-angeles/">Los Angeles</a>, <a href="/en/tcf-canada-san-diego/">San Diego</a>, '
+                              '<a href="/en/tcf-canada-san-francisco/">San Francisco</a>, <a href="/en/tcf-canada-seattle/">Seattle</a>, '
+                              '<a href="/en/tcf-canada-detroit/">Detroit</a>, <a href="/en/tcf-canada-houston/">Houston</a>, '
+                              '<a href="/en/tcf-canada-denver/">Denver</a>',
              '<a href="/en/delf-usa/">40 centres, B2 US$190</a>'),
             ("United Kingdom", '<a href="/en/tcf-canada-uk/">London £260, Glasgow £325</a>', '<a href="/en/delf-uk/">11 centres, B2 £160</a>'),
             ("India", '<a href="/en/tcf-canada-india/">5 Alliances, ₹26,000</a>', "—"),
             ("United Arab Emirates", '<a href="/en/tcf-canada-dubai/">Dubai and Abu Dhabi, 1,800 AED</a> — <a href="/en/tcf-canada-abu-dhabi/">Abu Dhabi</a>', '<a href="/en/delf-dubai/">Dubai 11 Dec, B2 680 AED</a>'),
             ("Saudi Arabia", '<a href="/en/tcf-canada-saudi-arabia/">Jeddah and Riyadh, 1,950 SAR</a>', "—"),
-            ("Egypt", '<a href="/en/tcf-canada-egypt/">Institut français d’Égypte, next session Dec 2026</a>', "—"),
-            ("Lebanon", '<a href="/en/tcf-canada-lebanon/">6 Institut français centres</a>', "—")]
+            ("Egypt", '<a href="/en/tcf-canada-egypt/">Institut français d’Égypte, Cairo 8 Dec 2026</a>', "—"),
+            ("Lebanon", '<a href="/en/tcf-canada-lebanon/">6 Institut français centres</a>', "—"),
+            ("Qatar", '<a href="/en/tcf-canada-qatar/">Doha, 1,300 QAR</a>', "—"),
+            ("Jordan", '<a href="/en/tcf-canada-jordan/">Amman, 3 sessions a year</a>', "—"),
+            ("Kuwait", '<a href="/en/tcf-canada-kuwait/">no TCF Canada listed; TEF Canada 130 KD</a>', "—")]
     return table("The TCF Canada and the DELF-DALF, from each centre’s website (Canada: 17 September 2026; United States, "
-                 "United Kingdom, India and the UAE TCF: 8 October 2026; UAE DELF, Saudi Arabia, Egypt, Lebanon: 13 October 2026; the US, Alberta and Abu Dhabi city pages: 18 October 2026). "
+                 "United Kingdom, India and the UAE TCF: 8 October 2026; UAE DELF, Saudi Arabia, Egypt, Lebanon: 13 October 2026; the US, Alberta and Abu Dhabi city pages: 18 October 2026; Qatar, Jordan, Kuwait and Egypt’s 2026 calendar, the North American city and province pages: 26 October 2026). "
                  "Fees in local currency, for an individual candidate.",
                  ["Country", "TCF Canada", "DELF · DALF"], [(f"<strong>{p}</strong>", a, b) for p, a, b in rows], wide=False)
 
@@ -1213,10 +1321,12 @@ HUB = dict(
 <strong>DELF</strong> and <strong>DALF</strong> diplomas, each page lists the test centres approved by France
 Éducation international in one country or city, what each centre’s website showed when we checked — fees, dates,
 versions — and how to register. Canada: all 47 centres, plus Toronto, Montreal, Vancouver, Ottawa, Quebec City,
-Calgary and Edmonton. The United States — with New York, Boston, Chicago, Los Angeles and San Diego — and the United
-Kingdom: the TCF Canada and the DELF.""",
+Calgary, Edmonton, Halifax and Winnipeg, and Ontario, Alberta and New Brunswick province by province. The United
+States — with New York, Boston, Chicago, Detroit, Houston, Denver, Seattle, San Francisco, Los Angeles and San Diego —
+and the United Kingdom: the TCF Canada and the DELF.""",
     facts=["<strong>Canada: 47 approved TCF centres</strong> in nine provinces and Nunavut (FEI list of 19 September 2026); fees seen: $390 (Alliance française, Vancouver), $400 (Alliance française, Edmonton), $440 (UQTR).",
            "⚠️ Sessions in Toronto and Vancouver <strong>fill up within minutes</strong>: register the moment bookings open.",
+           "Seats on 26 October 2026: <a href=\"/en/tcf-canada-new-brunswick/\">New Brunswick</a> ($390, weekends to 20 December and Moncton from 1 December) and <a href=\"/en/tcf-canada-ottawa/\">Ottawa</a> ($400, 10 November); <a href=\"/en/tcf-canada-toronto/\">Toronto</a> opens January–March 2027 on 1 December at 10 am.",
            "<strong>United States</strong>: 12 of the 18 approved TCF centres offer the TCF Canada, for US$330 to US$505 (8 and 18 October 2026).",
            "<strong>United Kingdom</strong>: the TCF Canada at the Institut français in London (£260) and the Alliance française de Glasgow (£325); when we checked on 8 October 2026, the earliest free seat in London was on 23 April 2027.",
            "<strong>India</strong>: 5 Alliances Françaises offer the TCF Canada (₹26,000 where published); <strong>UAE</strong>: Dubai and Abu Dhabi, 1,800 AED; <strong>Saudi Arabia</strong>: Jeddah and Riyadh, 1,950 SAR; Egypt and Lebanon: Institut français centres.",
@@ -1229,6 +1339,12 @@ Kingdom: the TCF Canada and the DELF.""",
 <div class="stat"><b>12 of 18</b><span>US centres</span><em>offer the TCF Canada</em></div>
 <div class="stat"><b>£260</b><span>TCF Canada in London</span><em>earliest free seat: 23 April 2027</em></div>
 </div>
+
+<form class="finder-mini" action="/en/test-centre-near-me/" method="get" role="search">
+<label for="finder-mini-q">Find a test centre near you</label>
+<div class="finder-row"><input id="finder-mini-q" name="q" type="search" placeholder="City, country or centre name" autocomplete="off" enterkeyhint="search"><button type="submit">Search</button></div>
+<p>TCF, DELF-DALF and TEF: the nearest approved centres, with the distance. <a href="/en/test-centre-near-me/">Or use your location →</a></p>
+</form>
 
 <h2 id="countries">Where to take the exams</h2>
 """ + _hub_table() + """
@@ -1270,7 +1386,7 @@ tests that prove it: <a href="/en/french-citizenship-b2/">French citizenship lan
 <p>Spain and Latin America, in Spanish: <a href="/es/" lang="es">TCF Canada y DELF en español</a>.</p>
 """,
     faq=[("Where can I take the TCF Canada in Canada?", "At one of the 47 centres approved by France Éducation international, in nine provinces and Nunavut — 23 in Quebec (7 in Montreal), 7 in Ontario, 5 in British Columbia, 3 in Alberta. Sessions in Toronto and Vancouver fill up within minutes: register the moment bookings open."),
-         ("How much does the TCF Canada cost?", "There is no national fee. In Canada: $390 at the Alliance française in Vancouver, $400 in Edmonton, $440 at UQTR. In the United States: US$330 to US$460. In the United Kingdom: £260 in London, £325 in Glasgow."),
+         ("How much does the TCF Canada cost?", "There is no national fee. In Canada: $390 in Vancouver, Toronto, Moncton and at the CCNB, $400 in Ottawa, Calgary, Edmonton, Halifax and Winnipeg, $440 at UQTR, $452 at GB Language Centre (26 October 2026; UQTR 17 September). In the United States: US$330 to US$505. In the United Kingdom: £260 in London, £325 in Glasgow. All countries: <a href=\"/en/tcf-canada/fees-registration/\">TCF Canada fees 2026</a>."),
          ("TCF Canada or DELF: which one do I need?", "For Canadian immigration, IRCC accepts two French tests: the TCF Canada and the TEF Canada, with results valid for two years. The DELF and DALF are diplomas, passed level by level and valid for life."),
          ("Can I take the TCF Canada at any TCF centre?", "No: a centre approved for the TCF doesn’t necessarily offer the Canada version — in the United States, Atlanta, Chicago, Seattle and Washington don’t. Each page shows which centres advertised it on their website.")],
     also=[("/es/", "TCF Canada y DELF en español", "Spain and Latin America: seven countries, fourteen pages."),
@@ -1522,7 +1638,8 @@ provinces are on our <a href="/en/tcf-canada-test-centres/">list of centres in C
          ("When is the next TCF Canada in Calgary?", "On 18 October 2026, every session from October to December 2026 was sold out and no 2027 date was published; the Alliance was working to open additional sessions."),
          ("How much does the TCF Canada cost in Calgary?", "$400 at the Alliance Française de Calgary, with no refund or deferment possible (18 October 2026)."),
          ("Where else can I take the TCF in Alberta?", "At the Alliance Française d'Edmonton ($400). The University of Lethbridge is on FEI's list, but its pages showed only the DELF on 18 October 2026.")],
-    also=[("/en/tcf-canada-edmonton/", "TCF Canada in Edmonton", "$400; each session opens for about an hour."), _CAN, _PRACTICE],
+    also=[("/en/tcf-canada-edmonton/", "TCF Canada in Edmonton", "$400; each session opens for about an hour."),
+          ("/en/tcf-canada-alberta/", "TCF Canada in Alberta", "Calgary, Edmonton, Lethbridge: fees, dates, where seats are."), _PRACTICE],
     sources="the Alliance Française de Calgary's TCF and registration pages (afcalgary.ca) and the University of Lethbridge's exam pages, checked on 18 October 2026.",
     badges={"calgary-alliance-francaise": [("ok", "TCF Canada"), ("part", "sold out to December")]},
     urls={"calgary-alliance-francaise": "https://www.afcalgary.ca/exams/tcf/"}))
@@ -1557,7 +1674,8 @@ to December; the other provinces are on our <a href="/en/tcf-canada-test-centres
          ("When is the next TCF Canada in Edmonton?", "On 18 October 2026, every listed session up to 20 November was sold out or closed, and no December or 2027 date was listed. Each session goes on sale for about an hour on a single day."),
          ("How much does the TCF Canada cost in Edmonton?", "$400 for the full exam at the Alliance Française d'Edmonton (18 October 2026)."),
          ("How soon can I retake the TCF Canada in Edmonton?", "20 days after your last attempt, according to the Alliance; score re-evaluations have been suspended since 1 September 2026.")],
-    also=[("/en/tcf-canada-calgary/", "TCF Canada in Calgary", "$400, 14 seats a session, sold out to December."), _CAN, _PRACTICE],
+    also=[("/en/tcf-canada-calgary/", "TCF Canada in Calgary", "$400, 14 seats a session, sold out to December."),
+          ("/en/tcf-canada-alberta/", "TCF Canada in Alberta", "Calgary, Edmonton, Lethbridge: fees, dates, where seats are."), _PRACTICE],
     sources="the Alliance Française d'Edmonton's TCF page and session table (afedmonton.com), checked on 18 October 2026.",
     badges={"edmonton-alliance-francaise": [("ok", "TCF Canada"), ("part", "sold out to 20 Nov")]},
     urls={"edmonton-alliance-francaise": "https://www.afedmonton.com/en/exams/tcf/"}))
@@ -1597,3 +1715,7 @@ and none at Al Ain. In Dubai, the Alliance Française also holds the TCF Canada 
             "al-ain-alliance-francais-d-abu-dhabi-antenne-al-ain": [("no", "no TCF Canada session")]},
     urls={"abou-dhabi-french-ambassy-institut-francais-antenne-afad": "https://www.afabudhabi.org/tcf/"},
     nearby=["Al Ain"]))
+
+from pays_config_en_arab import PAGES as _ARAB; PAGES += _ARAB  # Jordan, Qatar, Kuwait (26/10/2026)
+from pays_config_en_na import PAGES as _NA; PAGES += _NA  # North America: US cities, Alberta, Ontario, New Brunswick, Halifax, Winnipeg (26/10/2026)
+from pays_config_en_eu import PAGES as _EU, hub_patch as _eu_hub; PAGES += _EU; _eu_hub(HUB)  # Europe: Germany, Switzerland, Belgium, Italy, Netherlands, Portugal, Romania, Poland, Greece, Ireland (26/10/2026)

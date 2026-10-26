@@ -1,0 +1,30 @@
+{
+ "country": "Porto Rico",
+ "iso2": "PR",
+ "fei_id": "403",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "San Juan",
+   "cp": "",
+   "city_cp": "",
+   "address": "206 Calle Rosario, 00911 San Juan",
+   "address_lines": [
+    "206 Calle Rosario",
+    "00911 San Juan"
+   ],
+   "phone": "1-787-722-3174",
+   "emails": [
+    "info@afpuertorico.org"
+   ],
+   "url": "http://www.afpuertorico.org",
+   "so": false
+  }
+ ]
+}

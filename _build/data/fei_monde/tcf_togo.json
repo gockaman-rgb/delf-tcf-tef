@@ -1,0 +1,28 @@
+{
+ "country": "Togo",
+ "iso2": "TG",
+ "fei_id": "149",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut Français du Togo",
+   "city": "Lomé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier administratif Avenue Charles de Gaulle BP 2090, Lomé",
+   "address_lines": [
+    "Quartier administratif Avenue Charles de Gaulle BP 2090",
+    "Lomé"
+   ],
+   "phone": "228-22-53-58-00",
+   "emails": [],
+   "url": "http://institutfrancais-togo.com",
+   "so": true
+  }
+ ]
+}

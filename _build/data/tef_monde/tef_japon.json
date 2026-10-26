@@ -1,0 +1,31 @@
+{
+ "country": "Japon",
+ "iso2": "JP",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ACADÉMIE DE LA LANGUE FRANÇAISE (ALF)",
+   "city": "TOKYO",
+   "cp": "105013",
+   "city_cp": "",
+   "address": "Tokyo-to, Minato-ku, Hamamatsucho 1 Chome 10-11, 105013 TOKYO",
+   "address_lines": [
+    "Tokyo-to, Minato-ku, Hamamatsucho 1 Chome 10-11",
+    "105013 TOKYO"
+   ],
+   "phone": "+81 70-2667-4501",
+   "emails": [],
+   "url": "www.alf-francais.jp/",
+   "so": false,
+   "products": [],
+   "cci_id": 22,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/22"
+  }
+ ]
+}

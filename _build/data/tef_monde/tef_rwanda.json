@@ -1,0 +1,33 @@
+{
+ "country": "Rwanda",
+ "iso2": "RW",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU RWANDA - KIGALI",
+   "city": "KIGALI",
+   "cp": "",
+   "city_cp": "",
+   "address": "25 KG 624 Street, KIGALI",
+   "address_lines": [
+    "25 KG 624 Street",
+    "KIGALI"
+   ],
+   "phone": "+250 788 331 913",
+   "emails": [
+    "accueil@if-rwanda.org"
+   ],
+   "url": "www.if-rwanda.org",
+   "so": false,
+   "products": [],
+   "cci_id": 571,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/571"
+  }
+ ]
+}

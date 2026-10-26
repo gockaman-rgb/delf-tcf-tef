@@ -1,0 +1,111 @@
+{
+ "country": "Portugal",
+ "iso2": "PT",
+ "fei_id": "86",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Coimbra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Pinheiro Chagas, 60 Apartado 2049, 3000333 Coimbra",
+   "address_lines": [
+    "Rua Pinheiro Chagas, 60 Apartado 2049",
+    "3000333 Coimbra"
+   ],
+   "phone": "351939785370",
+   "emails": [
+    "info.coimbra@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt",
+   "so": true
+  },
+  {
+   "name": "Alliance française de l'Algarve",
+   "city": "Faro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Primeiro de Maio n° 15, 8000-411 Faro",
+   "address_lines": [
+    "Rua Primeiro de Maio n° 15",
+    "8000-411 Faro"
+   ],
+   "phone": "351-289-828-881",
+   "emails": [
+    "algarve@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt/algarve",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Lisbonne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Conselheiro Fernando de Sousa, 21-A, 1070-072 Lisbonne",
+   "address_lines": [
+    "Av. Conselheiro Fernando de Sousa, 21-A",
+    "1070-072 Lisbonne"
+   ],
+   "phone": "351-212-400-086",
+   "emails": [],
+   "url": "http://www.alliancefr.pt/lisboa",
+   "so": true
+  },
+  {
+   "name": "Instituto de Linguas da Universidade Nova de Lisbo",
+   "city": "Lisbonne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida de Berna, 26-C, 1069-061 Lisbonne",
+   "address_lines": [
+    "Avenida de Berna, 26-C",
+    "1069-061 Lisbonne"
+   ],
+   "phone": "351-21-790-83-82",
+   "emails": [],
+   "url": "http://www.ilnova.fcsh.unl.pt",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Porto",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Santa Isabel, n°88, 4050-536 Porto",
+   "address_lines": [
+    "Rua Santa Isabel, n°88",
+    "4050-536 Porto"
+   ],
+   "phone": "351-226-098-616",
+   "emails": [
+    "geral.porto@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Viseu",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Alexandre Lobo, n°52 2° Dto, 3500-070 Viseu",
+   "address_lines": [
+    "Rua Alexandre Lobo, n°52 2° Dto",
+    "3500-070 Viseu"
+   ],
+   "phone": "351-927-202-881",
+   "emails": [
+    "geral.viseu@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt/viseu/fr/",
+   "so": true
+  }
+ ]
+}

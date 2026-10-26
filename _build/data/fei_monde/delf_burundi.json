@@ -1,0 +1,60 @@
+{
+ "country": "Burundi",
+ "iso2": "BI",
+ "fei_id": "66",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Bujumbura",
+  "cp": "",
+  "city_cp": "",
+  "address": "9, CHAUSSEE DU PRINCE LOUIS RWAGASORE, BP 460 Bujumbura",
+  "address_lines": [
+   "9, CHAUSSEE DU PRINCE LOUIS RWAGASORE",
+   "BP 460 Bujumbura"
+  ],
+  "phone": "+25722222351",
+  "emails": [
+   "direction@ifburundi.org"
+  ],
+  "url": "http://www.ifburundi.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Ecole indépendante de Bujumbura",
+   "city": "Bujumbura",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue de la mission n°10 Bujumbura",
+   "address_lines": [
+    "Avenue de la mission n°10 Bujumbura"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français du Burundi",
+   "city": "Bujumbura",
+   "cp": "",
+   "city_cp": "",
+   "address": "9, Chaussée P.L. RWAGASORE ;, BP 460 Bujumbura",
+   "address_lines": [
+    "9, Chaussée P.L. RWAGASORE ;",
+    "BP 460 Bujumbura"
+   ],
+   "phone": "22 22 23 51",
+   "emails": [
+    "DIRECTION@IFBURUNDI.ORG"
+   ],
+   "url": "http://www.ifburundi.org/",
+   "so": false
+  }
+ ]
+}

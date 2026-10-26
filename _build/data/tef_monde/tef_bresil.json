@@ -1,0 +1,147 @@
+{
+ "country": "Brésil",
+ "iso2": "BR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE BELO HORIZONTE",
+   "city": "BELO HORIZONTE",
+   "cp": "30130_171",
+   "city_cp": "",
+   "address": "R. Sergipe, 779 - Funcionários, Belo Horizonte - MG, 30130-171, 30130_171 BELO HORIZONTE",
+   "address_lines": [
+    "R. Sergipe, 779 - Funcionários, Belo Horizonte - MG, 30130-171",
+    "30130_171 BELO HORIZONTE"
+   ],
+   "phone": "",
+   "emails": [
+    "exames@aliancafrancesabh.com.br"
+   ],
+   "url": "https://aliancafrancesabh.com.br/in%C3%ADcio",
+   "so": false,
+   "products": [],
+   "cci_id": 50,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/50"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BRASILIA",
+   "city": "BRASILIA",
+   "cp": "70390-079 DF",
+   "city_cp": "",
+   "address": "SEP/SUL - EQ 708/907 - Lote A - Av W4, 70390-079 DF BRASILIA",
+   "address_lines": [
+    "SEP/SUL - EQ 708/907 - Lote A - Av W4",
+    "70390-079 DF BRASILIA"
+   ],
+   "phone": "+55 61 3562-7610",
+   "emails": [],
+   "url": "https://www.afbrasilia.org.br/",
+   "so": false,
+   "products": [],
+   "cci_id": 59,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/59"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CURITIBA",
+   "city": "CURITIBA",
+   "cp": "80430-220",
+   "city_cp": "",
+   "address": "Rua Prudente de Morais 1101 - Centro, 80430-220 CURITIBA",
+   "address_lines": [
+    "Rua Prudente de Morais 1101 - Centro",
+    "80430-220 CURITIBA"
+   ],
+   "phone": "+55 41 3223-4457",
+   "emails": [],
+   "url": "www.afcuritiba.com.br",
+   "so": false,
+   "products": [],
+   "cci_id": 78,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/78"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE FLORIANÓPOLIS",
+   "city": "FLORIANÓPOLIS",
+   "cp": "88020-040",
+   "city_cp": "",
+   "address": "Rua Visconde de Ouro Preto, 282, 88020-040 FLORIANÓPOLIS",
+   "address_lines": [
+    "Rua Visconde de Ouro Preto, 282",
+    "88020-040 FLORIANÓPOLIS"
+   ],
+   "phone": "+55 48 3222-8925",
+   "emails": [
+    "affloripa@affloripa.com.br"
+   ],
+   "url": "https://affloripa.com.br/",
+   "so": false,
+   "products": [],
+   "cci_id": 92,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/92"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE NATAL",
+   "city": "NATAL",
+   "cp": "59020-030",
+   "city_cp": "",
+   "address": "Rua Potengi, 459, 59020-030 NATAL",
+   "address_lines": [
+    "Rua Potengi, 459",
+    "59020-030 NATAL"
+   ],
+   "phone": "+55 84 3222-1558",
+   "emails": [
+    "info@afrnatal.com"
+   ],
+   "url": "www.afrnatal.com",
+   "so": false,
+   "products": [],
+   "cci_id": 160,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/160"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE SALVADOR",
+   "city": "SALVADOR",
+   "cp": "40130000",
+   "city_cp": "",
+   "address": "Avenida Sete de Setembro, 40130000 SALVADOR",
+   "address_lines": [
+    "Avenida Sete de Setembro",
+    "40130000 SALVADOR"
+   ],
+   "phone": "+55 71 3336-7599",
+   "emails": [],
+   "url": "www.afbahia.com.br",
+   "so": false,
+   "products": [],
+   "cci_id": 189,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/189"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE SÃO PAULO",
+   "city": "SÃO PAULO",
+   "cp": "01223-010",
+   "city_cp": "",
+   "address": "Avenida Faria Lima 2421, 01223-010 SÃO PAULO",
+   "address_lines": [
+    "Avenida Faria Lima 2421",
+    "01223-010 SÃO PAULO"
+   ],
+   "phone": "+55 11 3017-5699",
+   "emails": [
+    "exames@aliancafrancesa.com.br"
+   ],
+   "url": "www.aliancafrancesa.com.br",
+   "so": false,
+   "products": [],
+   "cci_id": 197,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/197"
+  }
+ ]
+}

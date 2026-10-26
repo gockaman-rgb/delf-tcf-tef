@@ -1,0 +1,113 @@
+{
+ "country": "Madagascar",
+ "iso2": "MG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE D'ANTSIRABE",
+   "city": "ANTSIRABE",
+   "cp": "110",
+   "city_cp": "",
+   "address": "Près Lot 0912 C 15 - Rue de l'Alliance Française, 110 ANTSIRABE",
+   "address_lines": [
+    "Près Lot 0912 C 15 - Rue de l'Alliance Française",
+    "110 ANTSIRABE"
+   ],
+   "phone": "+261 32 05 119 46",
+   "emails": [
+    "secretariat.afantsirabe@gmail.com"
+   ],
+   "url": "https://web.facebook.com/AllianceAntsirabe",
+   "so": false,
+   "products": [],
+   "cci_id": 35,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/35"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE FIANARANTSOA",
+   "city": "FIANARANTSOA",
+   "cp": "301",
+   "city_cp": "",
+   "address": "301 Fianarantsoa, 301 FIANARANTSOA",
+   "address_lines": [
+    "301 Fianarantsoa",
+    "301 FIANARANTSOA"
+   ],
+   "phone": "+261 20 75 515 71",
+   "emails": [
+    "da.alliance.fianar@gmail.com"
+   ],
+   "url": "http://www.alliancefrancaise-fianarantsoa.mg/",
+   "so": false,
+   "products": [],
+   "cci_id": 90,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/90"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MAHAJANGA",
+   "city": "MAHAJANGA",
+   "cp": "411",
+   "city_cp": "",
+   "address": "Rue Edouard VII - BP 639, 411 MAHAJANGA",
+   "address_lines": [
+    "Rue Edouard VII - BP 639",
+    "411 MAHAJANGA"
+   ],
+   "phone": "+261 32 05 119 81",
+   "emails": [
+    "afm.pedagogie@gmail.com"
+   ],
+   "url": "www.facebook.com/afmajunga",
+   "so": false,
+   "products": [],
+   "cci_id": 140,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/140"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TAMATAVE",
+   "city": "TAMATAVE",
+   "cp": "501",
+   "city_cp": "",
+   "address": "13 bd Paul Doumer, 501 TAMATAVE",
+   "address_lines": [
+    "13 bd Paul Doumer",
+    "501 TAMATAVE"
+   ],
+   "phone": "+261 37 05 119 94",
+   "emails": [
+    "examens.aftamatave@gmail.com"
+   ],
+   "url": "https://www.facebook.com/aftamatave",
+   "so": false,
+   "products": [],
+   "cci_id": 204,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/204"
+  },
+  {
+   "name": "ALLIANCE FRANCAISE D'ANTANANARIVO",
+   "city": "TANANARIVE",
+   "cp": "101",
+   "city_cp": "",
+   "address": "BP 916 Andavamamba, 101 TANANARIVE",
+   "address_lines": [
+    "BP 916 Andavamamba",
+    "101 TANANARIVE"
+   ],
+   "phone": "+261 34 80 119 95",
+   "emails": [
+    "contact@afantananarivo.mg"
+   ],
+   "url": "www.afantananarivo.mg",
+   "so": false,
+   "products": [],
+   "cci_id": 205,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/205"
+  }
+ ]
+}

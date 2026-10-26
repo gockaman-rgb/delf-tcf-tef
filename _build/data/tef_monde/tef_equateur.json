@@ -1,0 +1,71 @@
+{
+ "country": "Équateur",
+ "iso2": "EC",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE CUENCA",
+   "city": "CUENCA",
+   "cp": "010107",
+   "city_cp": "",
+   "address": "Tadeo Torres 1-92 Cuenca, 010107 CUENCA",
+   "address_lines": [
+    "Tadeo Torres 1-92 Cuenca",
+    "010107 CUENCA"
+   ],
+   "phone": "+593 98 338 2421",
+   "emails": [
+    "pedagogia@afcuenca.org.ec"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 768,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/768"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE GUAYAQUIL",
+   "city": "GUAYAQUIL",
+   "cp": "090150",
+   "city_cp": "",
+   "address": "Hurtado 436 y Jose Mascote, 090150 GUAYAQUIL",
+   "address_lines": [
+    "Hurtado 436 y Jose Mascote",
+    "090150 GUAYAQUIL"
+   ],
+   "phone": "+593 4-253-2009",
+   "emails": [
+    "pedagogia@afguayaquil.org.ec"
+   ],
+   "url": "https://afguayaquil.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 100,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/100"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE QUITO",
+   "city": "QUITO",
+   "cp": "99",
+   "city_cp": "",
+   "address": "Avenue Eloy Alfaro N32-468 y Rusia, 99 QUITO",
+   "address_lines": [
+    "Avenue Eloy Alfaro N32-468 y Rusia",
+    "99 QUITO"
+   ],
+   "phone": "+593 95 988 4536",
+   "emails": [],
+   "url": "https://www.afquito.org.ec/home-page/",
+   "so": false,
+   "products": [],
+   "cci_id": 177,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/177"
+  }
+ ]
+}

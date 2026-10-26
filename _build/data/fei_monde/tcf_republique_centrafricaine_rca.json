@@ -1,0 +1,30 @@
+{
+ "country": "République Centrafricaine (RCA)",
+ "iso2": "CF",
+ "fei_id": "337",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Bangui",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Poitou, BP 971, Bangui",
+   "address_lines": [
+    "Rue Poitou, BP 971",
+    "Bangui"
+   ],
+   "phone": "236-74-25-64-71",
+   "emails": [
+    "direction.afbangui@gmail.com"
+   ],
+   "url": "http://www.afbangui.com",
+   "so": false
+  }
+ ]
+}

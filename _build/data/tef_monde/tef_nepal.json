@@ -1,0 +1,33 @@
+{
+ "country": "Népal",
+ "iso2": "NP",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE KATMANDOU",
+   "city": "KATMANDOU",
+   "cp": "44600",
+   "city_cp": "",
+   "address": "1100 Damkal Sundarighat marg, Ward no.4, Pulchowk - Dhobighat Rd, Lalitpur, Népal, 44600 KATMANDOU",
+   "address_lines": [
+    "1100 Damkal Sundarighat marg, Ward no.4, Pulchowk - Dhobighat Rd, Lalitpur, Népal",
+    "44600 KATMANDOU"
+   ],
+   "phone": "+977 1-5420466",
+   "emails": [
+    "courses@afknepal.com"
+   ],
+   "url": "www.alliancefrancaise.org.np",
+   "so": false,
+   "products": [],
+   "cci_id": 113,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/113"
+  }
+ ]
+}

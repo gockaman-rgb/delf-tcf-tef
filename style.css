@@ -698,3 +698,69 @@ html[dir="rtl"] .steps li::before { left: auto; right: 16px; }
     html[dir="rtl"] .menu-btn { margin-right: 0; margin-left: -6px; }
   }
 }
+
+/* ===== Finder (26/10/2026) ===== */
+/* Chercheur de centres (/trouver-un-centre/ et ses versions en, es, ar) et petit formulaire des hubs. Propriétés
+   logiques (inline-start/end) : le même bloc sert l'arabe en droite-à-gauche. */
+.finder, .finder-mini { margin: 1.4em 0 1.8em; padding: 18px 18px 14px; border: 1px solid var(--line);
+  border-radius: var(--radius); background: var(--bg2); }
+section.alt .finder-mini { background: var(--card); }
+section .finder-mini { max-width: 760px; margin-bottom: 0; }
+.finder [hidden], .finder-mini [hidden] { display: none !important; }
+article.page .finder h2 { margin: 0 0 .5em; font-size: 1.2em; }
+.finder-label, .finder-mini label { display: block; font-weight: 650; font-size: .95em; margin-bottom: 6px; }
+.finder-row { display: flex; gap: 8px; }
+.finder-field { position: relative; flex: 1; min-width: 0; }
+.finder-field input, .finder-row > input { width: 100%; min-width: 0; flex: 1; font: inherit; font-size: 1.02em; min-height: 46px;
+  padding: 9px 14px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--bg); color: var(--text);
+  -webkit-appearance: none; appearance: none; }
+.finder-field input:focus, .finder-row > input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.finder-row button { flex: none; font: inherit; font-weight: 650; min-height: 46px; padding: 0 18px; border: 0;
+  border-radius: 12px; color: #fff; cursor: pointer;
+  background: linear-gradient(180deg, var(--accent), color-mix(in srgb, var(--accent) 82%, #001a4d)); }
+.finder-row button:focus-visible, .finder-near:focus-visible, .finder-more:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.finder-list { position: absolute; z-index: 5; inset-inline: 0; top: calc(100% + 4px); margin: 0; padding: 4px;
+  list-style: none; max-height: 22em; overflow: auto; background: var(--card); border: 1px solid var(--line);
+  border-radius: 12px; box-shadow: 0 14px 34px rgba(15, 30, 70, .18); }
+.finder-opt { display: flex; flex-direction: column; padding: 8px 10px; border-radius: 8px; cursor: pointer; line-height: 1.35; }
+.finder-opt[aria-selected="true"], .finder-opt:hover { background: var(--bg2); }
+.finder-opt[aria-selected="true"] { outline: 2px solid var(--accent); outline-offset: -2px; }
+.finder-opt-main { font-weight: 600; color: var(--text); }
+.finder-opt-sub { font-size: .84em; color: var(--muted); }
+.finder-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 12px; }
+.finder-exams { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; border: 0; min-width: 0; }
+.finder-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.finder-exams label { position: relative; }
+.finder-exams input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+.finder-exams span { display: inline-flex; align-items: center; min-height: 36px; padding: 0 12px; border-radius: 99px;
+  font-size: .85em; font-weight: 600; color: var(--muted); background: var(--card); border: 1px solid var(--line); }
+.finder-exams input:checked + span { color: #fff; background: var(--accent); border-color: var(--accent); }
+.finder-exams input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+.finder-near { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 0 14px; font: inherit;
+  font-size: .9em; font-weight: 650; color: var(--accent); background: transparent; border: 1.5px solid var(--accent);
+  border-radius: 99px; cursor: pointer; }
+.finder-near::before { content: ""; width: 10px; height: 10px; border-radius: 50%; border: 2px solid currentColor; }
+.finder-privacy, .finder-note, .finder-mini p { font-size: .84em; color: var(--muted); margin: 10px 0 0; }
+.finder-status { font-size: .9em; color: var(--muted); margin: 10px 0 0; min-height: 1.5em; }
+.finder-status:empty { min-height: 0; margin: 0; }
+.finder-results .finder-h { font-size: 1.05em; margin: .8em 0 .3em; }
+.finder-results .finder-city { font-size: 1em; margin: 1.2em 0 .3em; }
+.finder-results ol { list-style: none; margin: .5em 0 1em; padding: 0; display: grid; gap: 10px; }
+.finder-card h5 { margin: 0 0 .25em; font-size: 1em; line-height: 1.3; }
+.card.centre .finder-where { color: var(--text); font-weight: 600; }
+.card.centre .finder-dist { color: var(--accent); white-space: nowrap; }
+.badge.exam { background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); }
+.card.centre .finder-tef { font-size: .84em; }
+.card.centre .finder-actions { margin-top: .5em; font-size: .88em; }
+.finder-more { font: inherit; font-size: .95em; padding: 10px 18px; margin: .2em 0 1em; cursor: pointer; }
+.finder-static details { border-bottom: 1px solid var(--line); }
+.finder-static summary { padding: 10px 0; font-weight: 600; cursor: pointer; }
+.finder-static summary .count, .finder-static h3 .count { font-weight: 500; color: var(--muted); font-size: .9em; }
+.finder-static p { font-size: .92em; margin: 0 0 .6em; }
+.finder-static .finder-ex, .finder-static .finder-links { color: var(--muted); font-size: .86em; }
+@media (max-width: 560px) {
+  .finder, .finder-mini { padding: 14px 12px 12px; margin-inline: -6px; }
+  .finder-row button { padding: 0 14px; }
+}
+article.page .finder-list, html[dir="rtl"] article.page .finder-list { margin: 0; }
+article.page .finder-results ol, html[dir="rtl"] article.page .finder-results ol { margin: .5em 0 1em; }

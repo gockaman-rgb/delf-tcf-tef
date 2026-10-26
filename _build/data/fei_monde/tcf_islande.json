@@ -1,0 +1,30 @@
+{
+ "country": "Islande",
+ "iso2": "IS",
+ "fei_id": "77",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Reykjavik",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tryggvagata 8, 101 Reykjavik",
+   "address_lines": [
+    "Tryggvagata 8",
+    "101 Reykjavik"
+   ],
+   "phone": "354-55-23-870",
+   "emails": [
+    "alliance@af.is"
+   ],
+   "url": "http://www.af.is",
+   "so": true
+  }
+ ]
+}

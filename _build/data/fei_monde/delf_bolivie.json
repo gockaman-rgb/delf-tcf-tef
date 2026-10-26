@@ -1,0 +1,122 @@
+{
+ "country": "Bolivie",
+ "iso2": "BO",
+ "fei_id": "18",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Alliance française de La Paz",
+  "city": "La Paz",
+  "cp": "",
+  "city_cp": "",
+  "address": "Calle F. Guachalla Nº 399 esq. 20 de Octubre - Sopocachi La Paz",
+  "address_lines": [
+   "Calle F. Guachalla Nº 399 esq. 20 de Octubre - Sopocachi La Paz"
+  ],
+  "phone": "2 242 50 04",
+  "emails": [],
+  "url": "http://alianzafrancesa.org.bo/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Cochabamba",
+   "city": "Cochabamba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle La Paz, 784 (casi Crisostomo Carrillo) Cochabamba",
+   "address_lines": [
+    "Calle La Paz, 784 (casi Crisostomo Carrillo) Cochabamba"
+   ],
+   "phone": "44525771",
+   "emails": [
+    "asistente.afcochabamba@gmail.com"
+   ],
+   "url": "https://cochabamba.alianzafrancesa.org.bo/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "La Paz",
+   "cp": "",
+   "city_cp": "",
+   "address": "399, rue Fernando GUACHALLA La Paz",
+   "address_lines": [
+    "399, rue Fernando GUACHALLA La Paz"
+   ],
+   "phone": "62559733",
+   "emails": [],
+   "url": "http://alianzafrancesa.org.bo/",
+   "so": false
+  },
+  {
+   "name": "Lycée franco-bolivien Alcide d'Orbigny de La Paz",
+   "city": "La Paz",
+   "cp": "",
+   "city_cp": "",
+   "address": "avenue de la Republique Francaise, 591 La Paz",
+   "address_lines": [
+    "avenue de la Republique Francaise",
+    "591 La Paz"
+   ],
+   "phone": "73741803",
+   "emails": [
+    "adjoint.proviseur@francobolivien.edu.bo"
+   ],
+   "url": "http://www.francobolivien.edu.bo/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Santa Cruz De La Sierra",
+   "cp": "",
+   "city_cp": "",
+   "address": "place du 21 Septembre numero 36, 591 Santa Cruz De La Sierra",
+   "address_lines": [
+    "place du 21 Septembre numero 36",
+    "591 Santa Cruz De La Sierra"
+   ],
+   "phone": "73642946",
+   "emails": [
+    "direccion.santacruz@alianzafrancesa.org.bo"
+   ],
+   "url": "http://alianzafrancesa.org.bo/",
+   "so": false
+  },
+  {
+   "name": "Ecole française de Santa Cruz de la Sierra",
+   "city": "Santa Cruz De La Sierra",
+   "cp": "",
+   "city_cp": "",
+   "address": "BARIO SIRARI calle Claveles, 591 Santa Cruz De La Sierra",
+   "address_lines": [
+    "BARIO SIRARI calle Claveles",
+    "591 Santa Cruz De La Sierra"
+   ],
+   "phone": "61585598",
+   "emails": [],
+   "url": "http://www.colegiofrances.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Sucre",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle ANICETO ARCE NU 35, 591 Sucre",
+   "address_lines": [
+    "Calle ANICETO ARCE NU 35",
+    "591 Sucre"
+   ],
+   "phone": "72877288",
+   "emails": [
+    "direccion.afsucre@gmail.com"
+   ],
+   "url": "http://alianzafrancesa.org.bo/",
+   "so": false
+  }
+ ]
+}

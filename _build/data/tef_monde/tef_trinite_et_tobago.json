@@ -1,0 +1,34 @@
+{
+ "country": "Trinité et Tobago",
+ "iso2": "TT",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE TRINIDAD ET TOBAGO",
+   "city": "PORT-D'ESPAGNE",
+   "cp": "99",
+   "city_cp": "",
+   "address": "17 Alcazar St, St. Clair, 99 PORT-D'ESPAGNE",
+   "address_lines": [
+    "17 Alcazar St, St. Clair",
+    "99 PORT-D'ESPAGNE"
+   ],
+   "phone": "+1 868-622-6119",
+   "emails": [],
+   "url": "https://aftnt.afcaraibe.org/",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada"
+   ],
+   "cci_id": 213,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/213"
+  }
+ ]
+}

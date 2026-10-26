@@ -1,0 +1,102 @@
+{
+ "country": "Royaume-Uni",
+ "iso2": "GB",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCAISE DE BRISTOL",
+   "city": "BRISTOL",
+   "cp": "BS82QG",
+   "city_cp": "",
+   "address": "Tyndale Centre, BS82QG BRISTOL",
+   "address_lines": [
+    "Tyndale Centre",
+    "BS82QG BRISTOL"
+   ],
+   "phone": "+44 7903 821655",
+   "emails": [
+    "exam.queries@afbristol.org.uk"
+   ],
+   "url": "http://www.afbristol.org.uk",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 61,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/61"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CAMBRIDGE",
+   "city": "CAMBRIDGE",
+   "cp": "CB2 0QU",
+   "city_cp": "",
+   "address": "1 Red Cross Lane, CB2 0QU CAMBRIDGE",
+   "address_lines": [
+    "1 Red Cross Lane",
+    "CB2 0QU CAMBRIDGE"
+   ],
+   "phone": "+44 1223 561854",
+   "emails": [
+    "exam.alliance.cam@gmail.com"
+   ],
+   "url": "www.alliance-cam.co.uk",
+   "so": false,
+   "products": [],
+   "cci_id": 66,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/66"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MANCHESTER",
+   "city": "MANCHESTER",
+   "cp": "M1 4QD",
+   "city_cp": "",
+   "address": "125 Portland Street, M1 4QD MANCHESTER",
+   "address_lines": [
+    "125 Portland Street",
+    "M1 4QD MANCHESTER"
+   ],
+   "phone": "+44 161 236 7117",
+   "emails": [
+    "reception@afmanchester.org"
+   ],
+   "url": "www.afmanchester.org",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 143,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/143"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE D'OXFORD",
+   "city": "OXFORD",
+   "cp": "OX2 6TN",
+   "city_cp": "",
+   "address": "30 Polstead Road, OX2 6TN OXFORD",
+   "address_lines": [
+    "30 Polstead Road",
+    "OX2 6TN OXFORD"
+   ],
+   "phone": "+44 7393 984888",
+   "emails": [
+    "courses@af-oxford.org"
+   ],
+   "url": "af-oxford.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 860,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/860"
+  }
+ ]
+}

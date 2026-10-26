@@ -1,0 +1,53 @@
+{
+ "country": "Philippines",
+ "iso2": "PH",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE CEBU",
+   "city": "CEBU CITY",
+   "cp": "6000",
+   "city_cp": "",
+   "address": "371, Gorordo Avenue, Lahug, 6000 CEBU CITY",
+   "address_lines": [
+    "371, Gorordo Avenue, Lahug",
+    "6000 CEBU CITY"
+   ],
+   "phone": "+63 915 433 8785",
+   "emails": [
+    "school@alliancefr.ph"
+   ],
+   "url": "https://alliancefr.ph",
+   "so": false,
+   "products": [],
+   "cci_id": 70,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/70"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MANILLE",
+   "city": "MAKATI",
+   "cp": "1209",
+   "city_cp": "",
+   "address": "209 Nicanor Garcia Street, 1209 MAKATI",
+   "address_lines": [
+    "209 Nicanor Garcia Street",
+    "1209 MAKATI"
+   ],
+   "phone": "+63 2 8895 7757",
+   "emails": [],
+   "url": "www.alliance.ph/accueil-en/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 144,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/144"
+  }
+ ]
+}

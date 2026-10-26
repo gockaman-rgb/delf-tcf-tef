@@ -1,0 +1,30 @@
+{
+ "country": "Vanuatu",
+ "iso2": "VU",
+ "fei_id": "438",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Port-Vila",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 219 Rue Emile Mercet, Port-Vila",
+   "address_lines": [
+    "BP 219 Rue Emile Mercet",
+    "Port-Vila"
+   ],
+   "phone": "678-22-947",
+   "emails": [
+    "contact@alliancefr.vu"
+   ],
+   "url": "http://www.alliancefr.vu",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "country": "Eswatini",
+ "iso2": "SZ",
+ "fei_id": "429",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Mbabane",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lusutfu road Behind Ministry of Education, H100 Mbabane",
+   "address_lines": [
+    "Lusutfu road Behind Ministry of Education",
+    "H100 Mbabane"
+   ],
+   "phone": "26824043667",
+   "emails": [
+    "info@afmbabane.org"
+   ],
+   "url": "http://www.mbabane.alliance.org.za/",
+   "so": true
+  }
+ ]
+}

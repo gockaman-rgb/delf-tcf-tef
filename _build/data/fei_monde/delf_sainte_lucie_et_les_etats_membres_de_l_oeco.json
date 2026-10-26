@@ -1,0 +1,46 @@
+{
+ "country": "Sainte-Lucie et les états membres de l'OECO",
+ "iso2": "LC",
+ "fei_id": "416",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Pointe Séraphine",
+  "cp": "",
+  "city_cp": "",
+  "address": "The Pyramid - Pointe Seraphine, P.O. BOX 898 Pointe Séraphine",
+  "address_lines": [
+   "The Pyramid - Pointe Seraphine",
+   "P.O. BOX 898 Pointe Séraphine"
+  ],
+  "phone": "758 452 66 02",
+  "emails": [
+   "dg@afslu.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Sainte-Lucie",
+   "city": "Castries",
+   "cp": "",
+   "city_cp": "",
+   "address": "The Pyramid, Pointe Seraphine P.O. Box 898, LC04101 Castries",
+   "address_lines": [
+    "The Pyramid, Pointe Seraphine P.O. Box 898",
+    "LC04101 Castries"
+   ],
+   "phone": "7584526602",
+   "emails": [
+    "pedagogie@afslu.org"
+   ],
+   "url": "https://afslu.afcaraibe.org/",
+   "so": false
+  }
+ ]
+}

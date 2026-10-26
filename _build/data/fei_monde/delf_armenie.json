@@ -1,0 +1,44 @@
+{
+ "country": "Arménie",
+ "iso2": "AM",
+ "fei_id": "322",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service des cours et des examens",
+  "city": "Erevan",
+  "cp": "",
+  "city_cp": "",
+  "address": "8, rue Grigor Loussavoritch, 0015 Erevan",
+  "address_lines": [
+   "8, rue Grigor Loussavoritch",
+   "0015 Erevan"
+  ],
+  "phone": "+37498205585",
+  "emails": [
+   "examens@institutfrancais.am"
+  ],
+  "url": "http://www.institutfrancais.am",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut Français d'Arménie",
+   "city": "Erevan",
+   "cp": "",
+   "city_cp": "",
+   "address": "26 rue Amiryan, 0002 Erevan",
+   "address_lines": [
+    "26 rue Amiryan",
+    "0002 Erevan"
+   ],
+   "phone": "55408913",
+   "emails": [],
+   "url": "http://www.institutfrancais.am",
+   "so": false
+  }
+ ]
+}

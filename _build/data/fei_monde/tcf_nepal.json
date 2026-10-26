@@ -1,0 +1,30 @@
+{
+ "country": "Népal",
+ "iso2": "NP",
+ "fei_id": "392",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Katmandou",
+   "cp": "",
+   "city_cp": "",
+   "address": "1100 Dhamkal Sundarighat Marg (East) -Pulchowk Ward n°4-Lalitpur Metropolitan City, 44600 Katmandou",
+   "address_lines": [
+    "1100 Dhamkal Sundarighat Marg (East) -Pulchowk Ward n°4-Lalitpur Metropolitan City",
+    "44600 Katmandou"
+   ],
+   "phone": "01-54-20-466",
+   "emails": [
+    "info@afknepal.com"
+   ],
+   "url": "http://www.alliancefrancaise.org.np",
+   "so": true
+  }
+ ]
+}

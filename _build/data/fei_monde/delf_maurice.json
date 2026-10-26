@@ -1,0 +1,75 @@
+{
+ "country": "Maurice",
+ "iso2": "MU",
+ "fei_id": "138",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action Culturelle",
+  "city": "Port Louis",
+  "cp": "",
+  "city_cp": "",
+  "address": "14 rue Saint Georges Port Louis",
+  "address_lines": [
+   "14 rue Saint Georges Port Louis"
+  ],
+  "phone": "4609320",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Mauritius Examinations Syndicate",
+   "city": "Moka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Réduit, 80834 Moka",
+   "address_lines": [
+    "Réduit",
+    "80834 Moka"
+   ],
+   "phone": "4038408",
+   "emails": [],
+   "url": "http://mes.intnet.mu/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Ile Maurice",
+   "city": "Port Louis",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, rue Victor Hugo, 11202 Port Louis",
+   "address_lines": [
+    "1, rue Victor Hugo",
+    "11202 Port Louis"
+   ],
+   "phone": "2122949",
+   "emails": [
+    "gestion.afim@gmail.com"
+   ],
+   "url": "https://alliance-francaise-maurice.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Maurice",
+   "city": "Rose Hill",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 avenue Julius Nyerere, 71366 Rose Hill",
+   "address_lines": [
+    "30 avenue Julius Nyerere",
+    "71366 Rose Hill"
+   ],
+   "phone": "4674222",
+   "emails": [
+    "formation@ifmaurice.org"
+   ],
+   "url": "http://www.institutfrancais.mu/fr",
+   "so": false
+  }
+ ]
+}

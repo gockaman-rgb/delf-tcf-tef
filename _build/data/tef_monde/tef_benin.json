@@ -1,0 +1,51 @@
+{
+ "country": "Bénin",
+ "iso2": "BJ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU BÉNIN - COTONOU",
+   "city": "COTONOU",
+   "cp": "",
+   "city_cp": "",
+   "address": "N° 2345 Avenue Jean Paul II, COTONOU",
+   "address_lines": [
+    "N° 2345 Avenue Jean Paul II",
+    "COTONOU"
+   ],
+   "phone": "",
+   "emails": [
+    "coordinationdlf@if-benin.com"
+   ],
+   "url": "www.if-benin.com",
+   "so": false,
+   "products": [],
+   "cci_id": 552,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/552"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU BÉNIN - COTONOU",
+   "city": "Parakou",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ladjifarani, Parakou",
+   "address_lines": [
+    "Ladjifarani",
+    "Parakou"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.if-benin.com",
+   "so": false,
+   "products": [],
+   "cci_id": 838,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/838"
+  }
+ ]
+}

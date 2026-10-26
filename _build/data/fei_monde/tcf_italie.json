@@ -1,0 +1,249 @@
+{
+ "country": "Italie",
+ "iso2": "IT",
+ "fei_id": "78",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 14,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Aoste",
+   "cp": "",
+   "city_cp": "",
+   "address": "3, rue Promis Palais Valbruna, 11100 Aoste",
+   "address_lines": [
+    "3, rue Promis Palais Valbruna",
+    "11100 Aoste"
+   ],
+   "phone": "0039-01-65-42-331",
+   "emails": [
+    "pedagogie@alliancefraoste.it"
+   ],
+   "url": "http://www.alliancefraoste.it",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Bari",
+   "cp": "",
+   "city_cp": "",
+   "address": "Asso. Culturale Italo Francese Strada de’ Gironda, 22, 70122 Bari",
+   "address_lines": [
+    "Asso. Culturale Italo Francese Strada de’ Gironda, 22",
+    "70122 Bari"
+   ],
+   "phone": "0039-080-521-0017",
+   "emails": [
+    "certificazioni@afbari.it"
+   ],
+   "url": "http://www.alliancefrba.it",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Bologne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via De' Marchi, 4, 40123 Bologne",
+   "address_lines": [
+    "Via De' Marchi, 4",
+    "40123 Bologne"
+   ],
+   "phone": "39-051-33-28-28",
+   "emails": [
+    "segreteria@afbologna.it"
+   ],
+   "url": "http://www.afbologna.it",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Gênes",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Garibaldi, 20, 16124 Gênes",
+   "address_lines": [
+    "Via Garibaldi, 20",
+    "16124 Gênes"
+   ],
+   "phone": "0039-010-247-63-36",
+   "emails": [
+    "info@alliancefrge.it"
+   ],
+   "url": "http://www.alliancefrge.it",
+   "so": false
+  },
+  {
+   "name": "Alliance française Sud Latium",
+   "city": "Latina",
+   "cp": "",
+   "city_cp": "",
+   "address": "via Quarto, 65, 04100 Latina",
+   "address_lines": [
+    "via Quarto, 65",
+    "04100 Latina"
+   ],
+   "phone": "39-33-12-19-93-04",
+   "emails": [
+    "tcf@afsudlatium.it"
+   ],
+   "url": "http://www.afsudlatium.it",
+   "so": true
+  },
+  {
+   "name": "Institut français Italia",
+   "city": "Milan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Corso Magenta 63, 20123 Milan",
+   "address_lines": [
+    "Corso Magenta 63",
+    "20123 Milan"
+   ],
+   "phone": "00390-248-59-19-39",
+   "emails": [
+    "esami-milano@institutfrancais.it"
+   ],
+   "url": "https://www.institutfrancais.it/fr/milan",
+   "so": false
+  },
+  {
+   "name": "Centro linguistico di Ateneo",
+   "city": "Naples",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Mezzocannone, 8 5° Piano, 80134 Naples",
+   "address_lines": [
+    "Via Mezzocannone, 8 5° Piano",
+    "80134 Naples"
+   ],
+   "phone": "390812534699",
+   "emails": [
+    "certificazioni.cla@unina.it"
+   ],
+   "url": "http://www.cla.unina.it/",
+   "so": true
+  },
+  {
+   "name": "Alliance française di Padova",
+   "city": "Padova",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Monte di Pieta 3, 35139 Padova",
+   "address_lines": [
+    "Via Monte di Pieta 3",
+    "35139 Padova"
+   ],
+   "phone": "00-393334212258",
+   "emails": [
+    "afpadova@gmail.com"
+   ],
+   "url": "http://www.alliancefr.it/padova",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Palerme",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cantieri culturali alla Zisa Via Paolo Gili 4, 90138 Palerme",
+   "address_lines": [
+    "Cantieri culturali alla Zisa Via Paolo Gili 4",
+    "90138 Palerme"
+   ],
+   "phone": "09-12-12-389",
+   "emails": [],
+   "url": "http://www.institutfrancais.it/palermo",
+   "so": true
+  },
+  {
+   "name": "Institut Français - Centre Saint-Louis",
+   "city": "Rome",
+   "cp": "",
+   "city_cp": "",
+   "address": "Largo Giuseppe Toniolo, 20-23, 00186 Rome",
+   "address_lines": [
+    "Largo Giuseppe Toniolo, 20-23",
+    "00186 Rome"
+   ],
+   "phone": "00390-66-80-26-25",
+   "emails": [
+    "esami@ifcsl.com"
+   ],
+   "url": "http://www.ifcsl.com",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Trieste",
+   "cp": "",
+   "city_cp": "",
+   "address": "Piazza Sant' Antonio Nuovo, 2, 34122 Trieste",
+   "address_lines": [
+    "Piazza Sant' Antonio Nuovo, 2",
+    "34122 Trieste"
+   ],
+   "phone": "0039-040-37-10-91",
+   "emails": [
+    "alliancefrancaise.trieste@gmail.com"
+   ],
+   "url": "http://www.aftrieste.it",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Turin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Corso Filippo Turati, 12, 10128 Turin",
+   "address_lines": [
+    "Corso Filippo Turati, 12",
+    "10128 Turin"
+   ],
+   "phone": "0039-011-19-71-65-65",
+   "emails": [
+    "esami@alliancefrto.it"
+   ],
+   "url": "http://www.alliancefrto.it",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Venise",
+   "cp": "",
+   "city_cp": "",
+   "address": "San Marco 4939, 30124 Venise",
+   "address_lines": [
+    "San Marco 4939",
+    "30124 Venise"
+   ],
+   "phone": "0039-041-522-7079",
+   "emails": [
+    "certificazioni@afvenezia.it"
+   ],
+   "url": "http://www.afvenezia.it",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Vicenza",
+   "cp": "",
+   "city_cp": "",
+   "address": "Contrà G. De Proti 3, 36100 Vicenza",
+   "address_lines": [
+    "Contrà G. De Proti 3",
+    "36100 Vicenza"
+   ],
+   "phone": "0039-32-05-75-60-50",
+   "emails": [
+    "alliancevicenza@hotmail.com"
+   ],
+   "url": "https://www.alliancefr.it/vicenza/",
+   "so": true
+  }
+ ]
+}

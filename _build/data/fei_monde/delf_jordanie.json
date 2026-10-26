@@ -1,0 +1,45 @@
+{
+ "country": "Jordanie",
+ "iso2": "JO",
+ "fei_id": "105",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Pole examens",
+  "city": "Amman",
+  "cp": "",
+  "city_cp": "",
+  "address": "4 Al Sharia College Street Jabal Al Webdeh, 11191 Amman",
+  "address_lines": [
+   "4 Al Sharia College Street Jabal Al Webdeh",
+   "11191 Amman"
+  ],
+  "phone": "781977622",
+  "emails": [
+   "examens@ifjordan.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Jordanie",
+   "city": "Amman",
+   "cp": "",
+   "city_cp": "",
+   "address": "4 Al Sharia College Street Jabal Al Webdeh Amman",
+   "address_lines": [
+    "4 Al Sharia College Street Jabal Al Webdeh Amman"
+   ],
+   "phone": "64612658",
+   "emails": [
+    "examens@ifjordan.com"
+   ],
+   "url": "http://www.ifjordan.com/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "country": "Nigéria",
+ "iso2": "NG",
+ "fei_id": "142",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 10,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Bureau des Examens",
+  "city": "Lagos",
+  "cp": "",
+  "city_cp": "",
+  "address": "Mike Adenuga Centre 9, Osborne road Lagos",
+  "address_lines": [
+   "Mike Adenuga Centre 9, Osborne road Lagos"
+  ],
+  "phone": "",
+  "emails": [
+   "certification.lagos@afnigeria.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Nigéria",
+   "city": "Abuja",
+   "cp": "",
+   "city_cp": "",
+   "address": "52 libreville street Abuja",
+   "address_lines": [
+    "52 libreville street Abuja"
+   ],
+   "phone": "08059478456",
+   "emails": [
+    "contact@institutfr-nigeria.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Enugu",
+   "city": "Enugu",
+   "cp": "",
+   "city_cp": "",
+   "address": "40 Nneni Street Independence layout Enugu",
+   "address_lines": [
+    "40 Nneni Street Independence layout Enugu"
+   ],
+   "phone": "8037143439",
+   "emails": [
+    "enugu@afnigeria.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Ilorin",
+   "city": "Ilorin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ilorin Innovation Hub G.R.A, Ilorin Ilorin",
+   "address_lines": [
+    "Ilorin Innovation Hub G.R.A, Ilorin Ilorin"
+   ],
+   "phone": "8104921405",
+   "emails": [
+    "director.ilorin@afnigeria.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Jos",
+   "city": "Jos",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance Française de Jos, French Cultural Centre. Opposite Standard Building, West of Mines, Jos, 930261 Jos",
+   "address_lines": [
+    "Alliance Française de Jos, French Cultural Centre. Opposite Standard Building, West of Mines, Jos",
+    "930261 Jos"
+   ],
+   "phone": "+2348161783396",
+   "emails": [
+    "jos@afnigeria.org"
+   ],
+   "url": "http://www.afnigeria.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Kaduna",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ilorin road ,off katsina road, opposite KASSES., 1293 Kaduna",
+   "address_lines": [
+    "Ilorin road ,off katsina road, opposite KASSES.",
+    "1293 Kaduna"
+   ],
+   "phone": "8061583204",
+   "emails": [
+    "kaduna@afnigeria.org"
+   ],
+   "url": "http://www.afnigeria.com",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kano",
+   "city": "Kano",
+   "cp": "",
+   "city_cp": "",
+   "address": "14 yandutse road Kano",
+   "address_lines": [
+    "14 yandutse road Kano"
+   ],
+   "phone": "+2348025891059",
+   "emails": [
+    "kano@afnigeria.org"
+   ],
+   "url": "http://www.afkano.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Lagos",
+   "city": "Lagos",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mike Adenuga Centre 9, Osborne road Lagos",
+   "address_lines": [
+    "Mike Adenuga Centre 9, Osborne road Lagos"
+   ],
+   "phone": "+2347052288001",
+   "emails": [
+    "certification.lagos@afnigeria.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Maiduguri",
+   "city": "Maiduguri",
+   "cp": "",
+   "city_cp": "",
+   "address": "Unimaid, near Staff Club, 1802 Maiduguri",
+   "address_lines": [
+    "Unimaid, near Staff Club",
+    "1802 Maiduguri"
+   ],
+   "phone": "8064832239",
+   "emails": [
+    "director.maiduguri@afnigeria.org"
+   ],
+   "url": "http://www.afnigeria.org/maiduguri",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Owerri",
+   "city": "Owerri",
+   "cp": "",
+   "city_cp": "",
+   "address": "No 1 shellcamp off Orlu road Owerri",
+   "address_lines": [
+    "No 1 shellcamp off Orlu road Owerri"
+   ],
+   "phone": "8034056198",
+   "emails": [
+    "owerri@afnigeria.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Port Harcourt",
+   "city": "Port Harcourt",
+   "cp": "",
+   "city_cp": "",
+   "address": "20 Herbert Macauley Street Amadi Flats, 500101 Port Harcourt",
+   "address_lines": [
+    "20 Herbert Macauley Street Amadi Flats",
+    "500101 Port Harcourt"
+   ],
+   "phone": "805 323 3579",
+   "emails": [
+    "reception.phc@af-nigeria.org"
+   ],
+   "url": "https://af-nigeria.org/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "country": "Togo",
+ "iso2": "TG",
+ "fei_id": "149",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Lomé",
+  "cp": "",
+  "city_cp": "",
+  "address": "Boulevard Charles de Gaulle (face au consulat, BP 2090 Lomé",
+  "address_lines": [
+   "Boulevard Charles de Gaulle (face au consulat",
+   "BP 2090 Lomé"
+  ],
+  "phone": "+22822535832",
+  "emails": [
+   "certifications@institutfrancais-togo.com"
+  ],
+  "url": "https://institutfrancais-togo.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Togo",
+   "city": "Lomé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue De Gaulle, BP 2090 Lomé",
+   "address_lines": [
+    "Avenue De Gaulle",
+    "BP 2090 Lomé"
+   ],
+   "phone": "22 53 58 32",
+   "emails": [
+    "certifications@institutfrancais-togo.com"
+   ],
+   "url": "http://www.institutfrancais-togo.com/",
+   "so": false
+  },
+  {
+   "name": "Village du Bénin",
+   "city": "Lomé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Université de Lomé Lomé",
+   "address_lines": [
+    "Université de Lomé Lomé"
+   ],
+   "phone": "22535832",
+   "emails": [
+    "certifications@institutfrancais-togo.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

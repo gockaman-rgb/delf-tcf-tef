@@ -1,0 +1,188 @@
+{
+ "country": "Roumanie",
+ "iso2": "RO",
+ "fei_id": "87",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 10,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Bucarest",
+  "cp": "",
+  "city_cp": "",
+  "address": "Bd. Dacia, 77, 020051 Bucarest",
+  "address_lines": [
+   "Bd. Dacia, 77",
+   "020051 Bucarest"
+  ],
+  "phone": "374 125 218",
+  "emails": [],
+  "url": "http://www.institutfrancais.ro/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Brasov",
+   "city": "Brasov",
+   "cp": "",
+   "city_cp": "",
+   "address": "33, bd. Eroilor (Casa Baiulescu) Brasov",
+   "address_lines": [
+    "33, bd. Eroilor (Casa Baiulescu) Brasov"
+   ],
+   "phone": "0368412179",
+   "emails": [
+    "alliancefrancaisebv@yahoo.fr"
+   ],
+   "url": "http://www.afbv.ro/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Roumanie à Bucarest",
+   "city": "Bucarest",
+   "cp": "",
+   "city_cp": "",
+   "address": "77, bd. Dacia, 020051 Bucarest",
+   "address_lines": [
+    "77, bd. Dacia",
+    "020051 Bucarest"
+   ],
+   "phone": "0374128200",
+   "emails": [
+    "inscri@institutfrancais.ro"
+   ],
+   "url": "https://institutfrancais.ro/bucuresti/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Roumanie à Cluj-Napoca",
+   "city": "Cluj-Napoca",
+   "cp": "",
+   "city_cp": "",
+   "address": "22, rue Bratianu, 400079 Cluj-Napoca",
+   "address_lines": [
+    "22, rue Bratianu",
+    "400079 Cluj-Napoca"
+   ],
+   "phone": "0264598551",
+   "emails": [],
+   "url": "https://institutfrancais.ro/cluj-napoca/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Constanta",
+   "city": "Constanta",
+   "cp": "",
+   "city_cp": "",
+   "address": "14, rue Nicolae Iorga, 900622 Constanta",
+   "address_lines": [
+    "14, rue Nicolae Iorga",
+    "900622 Constanta"
+   ],
+   "phone": "0241619438",
+   "emails": [
+    "afconstanta@yahoo.fr"
+   ],
+   "url": "http://afconstanta.ro/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Craiova",
+   "city": "Craiova",
+   "cp": "",
+   "city_cp": "",
+   "address": "17, rue Bujorului Craiova",
+   "address_lines": [
+    "17, rue Bujorului Craiova"
+   ],
+   "phone": "0351170663",
+   "emails": [
+    "alliancefrancaisedecraiova@gmail.com"
+   ],
+   "url": "http://www.afcraiova.ro",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Roumanie à Iasi",
+   "city": "Iasi",
+   "cp": "",
+   "city_cp": "",
+   "address": "2, rue Cuza Voda, Palais Braunstein, 1er étage, 700259 Iasi",
+   "address_lines": [
+    "2, rue Cuza Voda, Palais Braunstein, 1er étage",
+    "700259 Iasi"
+   ],
+   "phone": "0232267637",
+   "emails": [],
+   "url": "https://institutfrancais.ro/iasi/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pitesti",
+   "city": "Pitesti",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, rue Targul din Vale, 110040 Pitesti",
+   "address_lines": [
+    "1, rue Targul din Vale",
+    "110040 Pitesti"
+   ],
+   "phone": "0248212927",
+   "emails": [
+    "alliance_fr_pitesti@yahoo.fr"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Ploiesti",
+   "city": "Ploiesti",
+   "cp": "",
+   "city_cp": "",
+   "address": "bd. Republicii 2-4, Palatul Administrativ, intrarea G Ploiesti",
+   "address_lines": [
+    "bd. Republicii 2-4, Palatul Administrativ, intrarea G Ploiesti"
+   ],
+   "phone": "0244510792",
+   "emails": [
+    "alliance_francaise@hotmail.com"
+   ],
+   "url": "http://www.afploiesti.ro/wordpress/fr/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Suceava",
+   "city": "Suceava",
+   "cp": "",
+   "city_cp": "",
+   "address": "50, rue Stefan cel Mare, bl. 50, ap. 1, 720026 Suceava",
+   "address_lines": [
+    "50, rue Stefan cel Mare, bl. 50, ap. 1",
+    "720026 Suceava"
+   ],
+   "phone": "0737784074",
+   "emails": [
+    "aliantafrancezasv@gmail.com"
+   ],
+   "url": "https://afsuceava.ro/fr/accueil/",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Roumanie àTimisoara",
+   "city": "Timisoara",
+   "cp": "",
+   "city_cp": "",
+   "address": "46, bd. C.D. Loga, 300020 Timisoara",
+   "address_lines": [
+    "46, bd. C.D. Loga",
+    "300020 Timisoara"
+   ],
+   "phone": "0256490544",
+   "emails": [],
+   "url": "https://institutfrancais.ro/timisoara/",
+   "so": false
+  }
+ ]
+}

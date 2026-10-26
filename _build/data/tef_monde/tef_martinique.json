@@ -1,0 +1,33 @@
+{
+ "country": "Martinique",
+ "iso2": "MQ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CCI MARTINIQUE FORMATION",
+   "city": "SCHOELCHER",
+   "cp": "97233",
+   "city_cp": "",
+   "address": "Rue Aubin Edmond, 97233 SCHOELCHER",
+   "address_lines": [
+    "Rue Aubin Edmond",
+    "97233 SCHOELCHER"
+   ],
+   "phone": "",
+   "emails": [
+    "accueil_skillfor@martinique.cci.fr"
+   ],
+   "url": "https://www.martinique.cci.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 277,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/277"
+  }
+ ]
+}

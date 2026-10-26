@@ -1,0 +1,43 @@
+{
+ "country": "Irak",
+ "iso2": "IQ",
+ "fei_id": "102",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français d'Irak",
+   "city": "Bagdad",
+   "cp": "",
+   "city_cp": "",
+   "address": "rue Abou Nawas, Bagdad",
+   "address_lines": [
+    "rue Abou Nawas",
+    "Bagdad"
+   ],
+   "phone": "964-79-01-91-23-38",
+   "emails": [],
+   "url": "https://bagdad.institutfrancais-irak.com",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Irak",
+   "city": "Erbil",
+   "cp": "",
+   "city_cp": "",
+   "address": "35 rue Salahaddin, 44001 Erbil",
+   "address_lines": [
+    "35 rue Salahaddin",
+    "44001 Erbil"
+   ],
+   "phone": "964-751-802-1096",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "country": "Kazakhstan",
+ "iso2": "KZ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE D'ALMATY",
+   "city": "ALMATY",
+   "cp": "50031",
+   "city_cp": "",
+   "address": "7a/3, rue Satpayev, 50031 ALMATY",
+   "address_lines": [
+    "7a/3, rue Satpayev",
+    "50031 ALMATY"
+   ],
+   "phone": "+7 707 372 4840",
+   "emails": [
+    "admin@af-almaty.kz"
+   ],
+   "url": "https://alliancefr.kz/",
+   "so": false,
+   "products": [],
+   "cci_id": 33,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/33"
+  }
+ ]
+}

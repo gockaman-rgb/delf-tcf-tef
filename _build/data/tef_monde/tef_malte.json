@@ -1,0 +1,33 @@
+{
+ "country": "Malte",
+ "iso2": "MT",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE MALTE MEDITERRANEE",
+   "city": "HAMRUN",
+   "cp": "HMR 1241",
+   "city_cp": "",
+   "address": "College Hamrun - Secondary School, San Gorg Preca, HMR 1241 HAMRUN",
+   "address_lines": [
+    "College Hamrun - Secondary School, San Gorg Preca",
+    "HMR 1241 HAMRUN"
+   ],
+   "phone": "+356 2122 0701",
+   "emails": [
+    "info@alliancefr.org.mt"
+   ],
+   "url": "www.alliancefr.org.mt/",
+   "so": false,
+   "products": [],
+   "cci_id": 141,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/141"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "country": "Cap Vert",
+ "iso2": "CV",
+ "fei_id": "125",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d’Action Culturelle",
+  "city": "Praia",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rua Tenente Valadim, n°28 – Plateau, CP 192 Praia",
+  "address_lines": [
+   "Rua Tenente Valadim, n°28 – Plateau",
+   "CP 192 Praia"
+  ],
+  "phone": "260 45 35",
+  "emails": [],
+  "url": "https://cv.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Mindelo",
+   "city": "Mindelo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Santo Antonio Mindelo",
+   "address_lines": [
+    "Rua Santo Antonio Mindelo"
+   ],
+   "phone": "2321149",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "UNIVERSIDADE DE CABO VERDE - ILF",
+   "city": "Praia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus - Palmarejo Grande Praia",
+   "address_lines": [
+    "Campus - Palmarejo Grande Praia"
+   ],
+   "phone": "3340243",
+   "emails": [
+    "ilf@adm.unicv.edu.cv"
+   ],
+   "url": "http://www.unicv.edu.cv/",
+   "so": false
+  }
+ ]
+}

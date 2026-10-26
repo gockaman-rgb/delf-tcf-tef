@@ -1,0 +1,31 @@
+{
+ "country": "Uruguay",
+ "iso2": "UY",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRO DE IDIOMAS UNIVERSIDAD CATÓLICA DEL URUGUAY (UCU)",
+   "city": "MONTEVIDEO",
+   "cp": "11600",
+   "city_cp": "",
+   "address": "Av. 8 de Octubre 2738, 11600 MONTEVIDEO",
+   "address_lines": [
+    "Av. 8 de Octubre 2738",
+    "11600 MONTEVIDEO"
+   ],
+   "phone": "+598 2487 2717",
+   "emails": [],
+   "url": "ucu.edu.uy",
+   "so": false,
+   "products": [],
+   "cci_id": 1004,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1004"
+  }
+ ]
+}

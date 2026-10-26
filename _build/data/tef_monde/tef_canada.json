@@ -1,0 +1,2015 @@
+{
+ "country": "Canada",
+ "iso2": "CA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 97,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRE DE SERVICES SCOLAIRE DU LAC-SAINT-JEAN",
+   "city": "ALMA",
+   "cp": "G8B 2K8",
+   "city_cp": "",
+   "address": "775 boulevard Saint-Luc, G8B 2K8 ALMA",
+   "address_lines": [
+    "775 boulevard Saint-Luc",
+    "G8B 2K8 ALMA"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cfgalacstjean.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 338,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/338"
+  },
+  {
+   "name": "MAISON ALPHA ABC CÔTE-NORD",
+   "city": "BAIE-COMEAU",
+   "cp": "G5C 1C5",
+   "city_cp": "",
+   "address": "625 Boulevard la flèche, G5C 1C5 BAIE-COMEAU",
+   "address_lines": [
+    "625 Boulevard la flèche",
+    "G5C 1C5 BAIE-COMEAU"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.abccotenord.com/",
+   "so": false,
+   "products": [
+    "TEF Québec"
+   ],
+   "cci_id": 773,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/773"
+  },
+  {
+   "name": "COLLEGE BOREAL HAMILTON & WELLAND",
+   "city": "Barrie",
+   "cp": "L4M 3B1",
+   "city_cp": "",
+   "address": "136 Bayfield St Suite 100, L4M 3B1 Barrie",
+   "address_lines": [
+    "136 Bayfield St Suite 100",
+    "L4M 3B1 Barrie"
+   ],
+   "phone": "+1 705-737-9088",
+   "emails": [],
+   "url": "https://collegeboreal.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 1084,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1084"
+  },
+  {
+   "name": "COLLÈGE DE SAINTE-ANNE-DE-LA-POCATIÈRE",
+   "city": "BRAMPTON (ONTARIO)",
+   "cp": "L6V 1A9",
+   "city_cp": "",
+   "address": "Centre de passation d'examens de français de Brampton, 60 rue Queen Street East, bureau 206, L6V 1A9 BRAMPTON (ONTARIO)",
+   "address_lines": [
+    "Centre de passation d'examens de français de Brampton, 60 rue Queen Street East, bureau 206",
+    "L6V 1A9 BRAMPTON (ONTARIO)"
+   ],
+   "phone": "+1 647-763-5593",
+   "emails": [
+    "tef.tor@leadercsa.com"
+   ],
+   "url": "www.leadercsa.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1090,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1090"
+  },
+  {
+   "name": "CÉGEP SAINT-JEAN-SUR-RICHELIEU",
+   "city": "BROSSARD",
+   "cp": "J4Y0L3",
+   "city_cp": "",
+   "address": "1025, rue du Lux, suite 250, J4Y0L3 BROSSARD",
+   "address_lines": [
+    "1025, rue du Lux, suite 250",
+    "J4Y0L3 BROSSARD"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.cstjean.qc.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 880,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/880"
+  },
+  {
+   "name": "UNIVERSITÉ DE MONTRÉAL",
+   "city": "Brossard",
+   "cp": "QC J4Z 0S2",
+   "city_cp": "",
+   "address": "2000, rue de l’Éclipse, QC J4Z 0S2 Brossard",
+   "address_lines": [
+    "2000, rue de l’Éclipse",
+    "QC J4Z 0S2 Brossard"
+   ],
+   "phone": "+1 613-727-4723",
+   "emails": [
+    "centretests@fep.umontreal.ca"
+   ],
+   "url": "www.ecoledefrancais.umontreal.ca/test-de-francais",
+   "so": false,
+   "products": [],
+   "cci_id": 936,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/936"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CALGARY",
+   "city": "CALGARY",
+   "cp": "T2T6T7",
+   "city_cp": "",
+   "address": "#315, 105 12th Ave SE, T2T6T7 CALGARY",
+   "address_lines": [
+    "#315, 105 12th Ave SE",
+    "T2T6T7 CALGARY"
+   ],
+   "phone": "",
+   "emails": [
+    "info@afcalgary.ca"
+   ],
+   "url": "www.afcalgary.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 65,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/65"
+  },
+  {
+   "name": "CANLANGUAGE",
+   "city": "CALGARY",
+   "cp": "T2L 1L1",
+   "city_cp": "",
+   "address": "4039 Brentwood Road NW, Units 135, 136, 138, 142, 180, T2L 1L1 CALGARY",
+   "address_lines": [
+    "4039 Brentwood Road NW, Units 135, 136, 138, 142, 180",
+    "T2L 1L1 CALGARY"
+   ],
+   "phone": "+1 403-688-9999",
+   "emails": [
+    "info@canlanguage.com"
+   ],
+   "url": "www.canlanguage.com",
+   "so": false,
+   "products": [],
+   "cci_id": 1113,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1113"
+  },
+  {
+   "name": "SOLUTIONS MIGRA",
+   "city": "CHICOUTIMI",
+   "cp": "Québec G7J 2M4",
+   "city_cp": "",
+   "address": "282 Rue Ste Anne, Québec G7J 2M4 CHICOUTIMI",
+   "address_lines": [
+    "282 Rue Ste Anne",
+    "Québec G7J 2M4 CHICOUTIMI"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.solutionsmigra.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1118,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1118"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE CANADA PACIFIC",
+   "city": "Columbia",
+   "cp": "320 Columbia",
+   "city_cp": "",
+   "address": "101, 320 Columbia Columbia",
+   "address_lines": [
+    "101",
+    "320 Columbia Columbia"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefrancaise.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 1141,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1141"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE D'EDMONTON",
+   "city": "EDMONTON",
+   "cp": "T5N1N7",
+   "city_cp": "",
+   "address": "10424 123 street, T5N1N7 EDMONTON",
+   "address_lines": [
+    "10424 123 street",
+    "T5N1N7 EDMONTON"
+   ],
+   "phone": "",
+   "emails": [
+    "tef@afedmonton.ca"
+   ],
+   "url": "https://www.afedmonton.com/en/",
+   "so": false,
+   "products": [],
+   "cci_id": 233,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/233"
+  },
+  {
+   "name": "UNIVERSITÉ DE MONCTON",
+   "city": "EDMUNSTON",
+   "cp": "E3V 2S8",
+   "city_cp": "",
+   "address": "165 Bd Hébert, NB, E3V 2S8 EDMUNSTON",
+   "address_lines": [
+    "165 Bd Hébert, NB",
+    "E3V 2S8 EDMUNSTON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "http://www.umoncton.ca/umcs/",
+   "so": false,
+   "products": [],
+   "cci_id": 910,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/910"
+  },
+  {
+   "name": "COLLÈGE UNIVERSEL",
+   "city": "GATINEAU",
+   "cp": "J8Y3Y3",
+   "city_cp": "",
+   "address": "290 boulevard Saint Joseph, J8Y3Y3 GATINEAU",
+   "address_lines": [
+    "290 boulevard Saint Joseph",
+    "J8Y3Y3 GATINEAU"
+   ],
+   "phone": "+1 819-485-0500",
+   "emails": [],
+   "url": "www.collegeuniversel.ca/ecoledelangues",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 374,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/374"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE HALIFAX",
+   "city": "HALIFAX",
+   "cp": "B3K 1Z7",
+   "city_cp": "",
+   "address": "5509 rue Young, B3K 1Z7 HALIFAX",
+   "address_lines": [
+    "5509 rue Young",
+    "B3K 1Z7 HALIFAX"
+   ],
+   "phone": "+1 902-455-4411",
+   "emails": [
+    "exam@afhalifax.ca"
+   ],
+   "url": "www.afhalifax.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 43,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/43"
+  },
+  {
+   "name": "INTERNATIONAL LANGUAGE INSTITUTE (ILI)",
+   "city": "HALIFAX",
+   "cp": "B3J 2V9",
+   "city_cp": "",
+   "address": "Unit 604, 1800 Argyle St, Halifax, NS, B3J 2V9 HALIFAX",
+   "address_lines": [
+    "Unit 604, 1800 Argyle St, Halifax, NS",
+    "B3J 2V9 HALIFAX"
+   ],
+   "phone": "+1 902-404-8880",
+   "emails": [
+    "french@ili.ca"
+   ],
+   "url": "https://ili.ca/contact-us/",
+   "so": false,
+   "products": [],
+   "cci_id": 1105,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1105"
+  },
+  {
+   "name": "UNIVERSITÉ SAINTE-ANNE",
+   "city": "HALIFAX",
+   "cp": "B3J 3R4",
+   "city_cp": "",
+   "address": "100-5657 Spring Garden Road, B3J 3R4 HALIFAX",
+   "address_lines": [
+    "100-5657 Spring Garden Road",
+    "B3J 3R4 HALIFAX"
+   ],
+   "phone": "+1 902-424-1164",
+   "emails": [],
+   "url": "www.usainteanne.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 722,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/722"
+  },
+  {
+   "name": "COLLEGE BOREAL HAMILTON & WELLAND",
+   "city": "HAMILTON",
+   "cp": "L8P 4V2",
+   "city_cp": "",
+   "address": "Niveau Plaza, 120 King Street West, L8P 4V2 HAMILTON",
+   "address_lines": [
+    "Niveau Plaza, 120 King Street West",
+    "L8P 4V2 HAMILTON"
+   ],
+   "phone": "+1 905-544-9824",
+   "emails": [],
+   "url": "https://collegeboreal.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 892,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/892"
+  },
+  {
+   "name": "SERVICE D’ÉVALUATION LINGUISTIQUE DE L'UNIVERSITÉ DE HEARST",
+   "city": "HEARST",
+   "cp": "P0L1N0",
+   "city_cp": "",
+   "address": "Le Groupe InnovaNor, P0L1N0 HEARST",
+   "address_lines": [
+    "Le Groupe InnovaNor",
+    "P0L1N0 HEARST"
+   ],
+   "phone": "+1 705-372-1781",
+   "emails": [],
+   "url": "www.uhearst.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 667,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/667"
+  },
+  {
+   "name": "CENTRE CULTUREL FRANCOPHONE DE L'OKANAGAN",
+   "city": "KELOWNA",
+   "cp": "V1Y 6P5",
+   "city_cp": "",
+   "address": "702, avenue Bernard, V1Y 6P5 KELOWNA",
+   "address_lines": [
+    "702, avenue Bernard",
+    "V1Y 6P5 KELOWNA"
+   ],
+   "phone": "+1 250-860-4074",
+   "emails": [
+    "info@leccfo.org"
+   ],
+   "url": "www.leccfo.org",
+   "so": false,
+   "products": [],
+   "cci_id": 778,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/778"
+  },
+  {
+   "name": "KUPER ACADEMY",
+   "city": "KIRKLAND",
+   "cp": "H9H 5K5",
+   "city_cp": "",
+   "address": "2975 Rue Edmond, H9H 5K5 KIRKLAND",
+   "address_lines": [
+    "2975 Rue Edmond",
+    "H9H 5K5 KIRKLAND"
+   ],
+   "phone": "+1 514-426-3007",
+   "emails": [],
+   "url": "https://www.kuperacademy.ca/",
+   "so": false,
+   "products": [],
+   "cci_id": 609,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/609"
+  },
+  {
+   "name": "COLLÈGE DE SAINTE-ANNE-DE-LA-POCATIÈRE",
+   "city": "LA POCATIÈRE",
+   "cp": "G0R 1Z0",
+   "city_cp": "",
+   "address": "100, 4e Avenue Painchaud, G0R 1Z0 LA POCATIÈRE",
+   "address_lines": [
+    "100, 4e Avenue Painchaud",
+    "G0R 1Z0 LA POCATIÈRE"
+   ],
+   "phone": "+1 418-292-2001",
+   "emails": [
+    "tef@leadercsa.com",
+    "tef.mtl@leadercsa.com"
+   ],
+   "url": "www.leadercsa.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 373,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/373"
+  },
+  {
+   "name": "CENTRE DE FORMATION DES ADULTES LES BERGES",
+   "city": "LAVAL",
+   "cp": "H7S2G5",
+   "city_cp": "",
+   "address": "2100 rue Cunard, H7S2G5 LAVAL",
+   "address_lines": [
+    "2100 rue Cunard",
+    "H7S2G5 LAVAL"
+   ],
+   "phone": "+1 450-662-7000",
+   "emails": [
+    "les-Berges-tcf_tef@csslaval.gouv.qc.ca"
+   ],
+   "url": "https://ealaval.com/centre-de-formation-les-berges/",
+   "so": false,
+   "products": [],
+   "cci_id": 330,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/330"
+  },
+  {
+   "name": "ECF COLLÈGE DE LANGUES",
+   "city": "LAVAL",
+   "cp": "H7N 5N6",
+   "city_cp": "",
+   "address": "205-2 Place Laval, H7N 5N6 LAVAL",
+   "address_lines": [
+    "205-2 Place Laval",
+    "H7N 5N6 LAVAL"
+   ],
+   "phone": "+1 514-543-6025",
+   "emails": [],
+   "url": "https://ecfcollege.com/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 992,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/992"
+  },
+  {
+   "name": "UNIVERSITÉ DE MONTRÉAL",
+   "city": "Laval",
+   "cp": "QC H7N 0B6",
+   "city_cp": "",
+   "address": "1700 rue Jacques-Tétreault, QC H7N 0B6 Laval",
+   "address_lines": [
+    "1700 rue Jacques-Tétreault",
+    "QC H7N 0B6 Laval"
+   ],
+   "phone": "+1 613-727-4723",
+   "emails": [
+    "centretests@fep.umontreal.ca"
+   ],
+   "url": "www.ecoledefrancais.umontreal.ca/test-de-francais",
+   "so": false,
+   "products": [],
+   "cci_id": 937,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/937"
+  },
+  {
+   "name": "COLLEGE BOREAL - LONDON",
+   "city": "LONDON",
+   "cp": "N6A0A4",
+   "city_cp": "",
+   "address": "142 Fullarton Street, unité R74, N6A0A4 LONDON",
+   "address_lines": [
+    "142 Fullarton Street, unité R74",
+    "N6A0A4 LONDON"
+   ],
+   "phone": "+1 519-451-5194",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 944,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/944"
+  },
+  {
+   "name": "CENTRE D’ENSEIGNEMENT ET DE CERTIFICATION DU FRANÇAIS DU QUEBEC (CECFQ)",
+   "city": "LONGUEUIL",
+   "cp": "J4H1C6",
+   "city_cp": "",
+   "address": "50 Rue Saint-Charles O, local 100, J4H1C6 LONGUEUIL",
+   "address_lines": [
+    "50 Rue Saint-Charles O, local 100",
+    "J4H1C6 LONGUEUIL"
+   ],
+   "phone": "+1 579-423-5189",
+   "emails": [
+    "info@cecfq.ca"
+   ],
+   "url": "https://cecfq.ca/",
+   "so": false,
+   "products": [],
+   "cci_id": 1148,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1148"
+  },
+  {
+   "name": "CESTAR COLLÈGE",
+   "city": "LONGUEUIL",
+   "cp": "J4J1W9",
+   "city_cp": "",
+   "address": "174, chemin du Coteau-Rouge, J4J1W9 LONGUEUIL",
+   "address_lines": [
+    "174, chemin du Coteau-Rouge",
+    "J4J1W9 LONGUEUIL"
+   ],
+   "phone": "",
+   "emails": [
+    "infoTEF@cestarcollege.com"
+   ],
+   "url": "https://quebec.cestarcollege.com/produit/test-devaluation-de-francais-tef-et-dfp/",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 861,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/861"
+  },
+  {
+   "name": "COLLÈGE CANADA",
+   "city": "Mississauga",
+   "cp": "L5T 2J8",
+   "city_cp": "",
+   "address": "989 Derry Road East - Suite 201, L5T 2J8 Mississauga",
+   "address_lines": [
+    "989 Derry Road East - Suite 201",
+    "L5T 2J8 Mississauga"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.ccsl.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 884,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/884"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MONCTON",
+   "city": "MONCTON",
+   "cp": "E1C1W1",
+   "city_cp": "",
+   "address": "236 rue Saint George - Suite19, E1C1W1 MONCTON",
+   "address_lines": [
+    "236 rue Saint George - Suite19",
+    "E1C1W1 MONCTON"
+   ],
+   "phone": "+1 506-387-5056",
+   "emails": [
+    "direction@afmoncton"
+   ],
+   "url": "www.afmoncton.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 154,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/154"
+  },
+  {
+   "name": "ACADÉMIE LINGUISTIQUE CHARLEMAGNE INC",
+   "city": "MONTRÉAL",
+   "cp": "H2L4G4",
+   "city_cp": "",
+   "address": "3565 Rue Berri, H2L4G4 MONTRÉAL",
+   "address_lines": [
+    "3565 Rue Berri",
+    "H2L4G4 MONTRÉAL"
+   ],
+   "phone": "+1 514-844-4849",
+   "emails": [],
+   "url": "www.alcmontreal.com",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 7,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/7"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MONTRÉAL",
+   "city": "MONTRÉAL",
+   "cp": "H2Y2B5",
+   "city_cp": "",
+   "address": "317 Place d'Youville, H2Y2B5 MONTRÉAL",
+   "address_lines": [
+    "317 Place d'Youville",
+    "H2Y2B5 MONTRÉAL"
+   ],
+   "phone": "+1 514-687-1919",
+   "emails": [
+    "info@afmontreal.ca"
+   ],
+   "url": "www.afmontreal.ca",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 774,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/774"
+  },
+  {
+   "name": "CECL-UQAM",
+   "city": "MONTRÉAL",
+   "cp": "H2X 1L2",
+   "city_cp": "",
+   "address": "CECL- UQAM - Centre d'évaluation de compétences linguistiques, H2X 1L2 MONTRÉAL",
+   "address_lines": [
+    "CECL- UQAM - Centre d'évaluation de compétences linguistiques",
+    "H2X 1L2 MONTRÉAL"
+   ],
+   "phone": "+1 514-987-3000",
+   "emails": [
+    "tef-cecl@uqam.ca"
+   ],
+   "url": "www.cecl.uqam.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 972,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/972"
+  },
+  {
+   "name": "CENTRE DE LANGUES POINT3",
+   "city": "MONTRÉAL",
+   "cp": "H2Y 2M2",
+   "city_cp": "",
+   "address": "404 rue Saint-Pierre, bureau 201, H2Y 2M2 MONTRÉAL",
+   "address_lines": [
+    "404 rue Saint-Pierre, bureau 201",
+    "H2Y 2M2 MONTRÉAL"
+   ],
+   "phone": "+1 514-840-7228",
+   "emails": [
+    "info@point3.com"
+   ],
+   "url": "www.point3.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 337,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/337"
+  },
+  {
+   "name": "CENTRE YVES-THERIAULT",
+   "city": "MONTRÉAL",
+   "cp": "H2A1H1",
+   "city_cp": "",
+   "address": "3925 Villeray Est, H2A1H1 MONTRÉAL",
+   "address_lines": [
+    "3925 Villeray Est",
+    "H2A1H1 MONTRÉAL"
+   ],
+   "phone": "+1 514-596-7110",
+   "emails": [],
+   "url": "centre-yves-theriault.csdm.ca/",
+   "so": false,
+   "products": [],
+   "cci_id": 348,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/348"
+  },
+  {
+   "name": "COLLÈGE CANADA",
+   "city": "MONTRÉAL",
+   "cp": "H2L 1L3",
+   "city_cp": "",
+   "address": "Département de Langues, H2L 1L3 MONTRÉAL",
+   "address_lines": [
+    "Département de Langues",
+    "H2L 1L3 MONTRÉAL"
+   ],
+   "phone": "+1 514-532-1098",
+   "emails": [],
+   "url": "www.ccsl.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 367,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/367"
+  },
+  {
+   "name": "COLLÈGE DAWSON",
+   "city": "MONTRÉAL",
+   "cp": "H3Z 1A4",
+   "city_cp": "",
+   "address": "3040, rue Sherbrooke Ouest, H3Z 1A4 MONTRÉAL",
+   "address_lines": [
+    "3040, rue Sherbrooke Ouest",
+    "H3Z 1A4 MONTRÉAL"
+   ],
+   "phone": "+1 514-931-8731",
+   "emails": [
+    "ctd@dawsoncollege.qc.ca"
+   ],
+   "url": "www.dawsoncollege.qc.ca/",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 385,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/385"
+  },
+  {
+   "name": "COLLÈGE DE SAINTE-ANNE-DE-LA-POCATIÈRE",
+   "city": "MONTREAL",
+   "cp": "H2Z 9Y9",
+   "city_cp": "",
+   "address": "Centre de passation d'examens de français de MONTRÉAL, 1071, rue St-Urbain, Bureau 117, H2Z 9Y9 MONTREAL",
+   "address_lines": [
+    "Centre de passation d'examens de français de MONTRÉAL, 1071, rue St-Urbain, Bureau 117",
+    "H2Z 9Y9 MONTREAL"
+   ],
+   "phone": "+1 514-618-4484",
+   "emails": [
+    "tef.mtl@leadercsa.com"
+   ],
+   "url": "www.leadercsa.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 989,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/989"
+  },
+  {
+   "name": "COLLÈGE ELC",
+   "city": "MONTRÉAL",
+   "cp": "H2R 3A8",
+   "city_cp": "",
+   "address": "201-600 Jean-Talon Est., H2R 3A8 MONTRÉAL",
+   "address_lines": [
+    "201-600 Jean-Talon Est.",
+    "H2R 3A8 MONTRÉAL"
+   ],
+   "phone": "+1 514-903-3198",
+   "emails": [
+    "tef@elccollege.ca"
+   ],
+   "url": "www.elccollege.ca",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 856,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/856"
+  },
+  {
+   "name": "CONCORDIA LANGUAGE TEST CENTRE",
+   "city": "MONTRÉAL",
+   "cp": "H3H 2T4",
+   "city_cp": "",
+   "address": "1250 Rue Guy, FB building, premier étage, FB-117, H3H 2T4 MONTRÉAL",
+   "address_lines": [
+    "1250 Rue Guy, FB building, premier étage, FB-117",
+    "H3H 2T4 MONTRÉAL"
+   ],
+   "phone": "",
+   "emails": [
+    "language.test@concordia.ca"
+   ],
+   "url": "https://www.concordia.ca/cce/services/language-testing.html",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 938,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/938"
+  },
+  {
+   "name": "ILSC - MONTRÉAL",
+   "city": "MONTRÉAL",
+   "cp": "H3A1B9",
+   "city_cp": "",
+   "address": "ILSC Montreal, 550 rue Sherbrooke Ouest, H3A1B9 MONTRÉAL",
+   "address_lines": [
+    "ILSC Montreal, 550 rue Sherbrooke Ouest",
+    "H3A1B9 MONTRÉAL"
+   ],
+   "phone": "+1 514-876-4572",
+   "emails": [
+    "TEF.montreal@ilsc.com"
+   ],
+   "url": "www.ilsc.com/services/tef-canada-tefaq",
+   "so": false,
+   "products": [],
+   "cci_id": 475,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/475"
+  },
+  {
+   "name": "UNIVERSITÉ DE MONTRÉAL",
+   "city": "MONTRÉAL",
+   "cp": "H3T1N8",
+   "city_cp": "",
+   "address": "Centre de tests - École de français, H3T1N8 MONTRÉAL",
+   "address_lines": [
+    "Centre de tests - École de français",
+    "H3T1N8 MONTRÉAL"
+   ],
+   "phone": "+1 514-343-6090",
+   "emails": [
+    "centretests@fep.umontreal.ca"
+   ],
+   "url": "www.ecoledefrancais.umontreal.ca/test-de-francais",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 716,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/716"
+  },
+  {
+   "name": "UNIVERSITÉ MCGILL",
+   "city": "MONTRÉAL",
+   "cp": "H3A 2M7",
+   "city_cp": "",
+   "address": "School of Contining Studies /École d'éducation permanente, H3A 2M7 MONTRÉAL",
+   "address_lines": [
+    "School of Contining Studies /École d'éducation permanente",
+    "H3A 2M7 MONTRÉAL"
+   ],
+   "phone": "",
+   "emails": [
+    "tefaq.scs@mcgill.ca"
+   ],
+   "url": "www.mcgill.ca/continuingstudies/program/tef-canada-tefaq-test-devaluation-de-francais",
+   "so": false,
+   "products": [],
+   "cci_id": 720,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/720"
+  },
+  {
+   "name": "GB LANGUAGE CENTRE",
+   "city": "NORTH YORK",
+   "cp": "M2H3B4",
+   "city_cp": "",
+   "address": "GB Language Centre, 716 Gordon Baker Road, Suite 211, M2H3B4 NORTH YORK",
+   "address_lines": [
+    "GB Language Centre, 716 Gordon Baker Road, Suite 211",
+    "M2H3B4 NORTH YORK"
+   ],
+   "phone": "+1 437-317-7180",
+   "emails": [
+    "admin@gblc.ca"
+   ],
+   "url": "https://gblc.ca/fr",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 999,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/999"
+  },
+  {
+   "name": "ABC LOTBINIÈRE",
+   "city": "NOTRE-DAME-DU-SACRÉ-COEUR-D'ISSOUDUN",
+   "cp": "G0S 1L0",
+   "city_cp": "",
+   "address": "268A rue Principale, G0S 1L0 NOTRE-DAME-DU-SACRÉ-COEUR-D'ISSOUDUN",
+   "address_lines": [
+    "268A rue Principale",
+    "G0S 1L0 NOTRE-DAME-DU-SACRÉ-COEUR-D'ISSOUDUN"
+   ],
+   "phone": "+1 418-728-2226",
+   "emails": [
+    "info@abclotbiniere.com"
+   ],
+   "url": "abclotbiniere.com",
+   "so": false,
+   "products": [],
+   "cci_id": 912,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/912"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TORONTO",
+   "city": "ON",
+   "cp": "Toronto",
+   "city_cp": "",
+   "address": "24 Spadina Road, M5R 2S7, Toronto ON",
+   "address_lines": [
+    "24 Spadina Road, M5R 2S7",
+    "Toronto ON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "alliance-francaise.ca/en/exams/tests/tef-canada",
+   "so": false,
+   "products": [],
+   "cci_id": 792,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/792"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TORONTO",
+   "city": "ON",
+   "cp": "Oakville",
+   "city_cp": "",
+   "address": "247 North Service Rd.West - Suite 303, L6M3E6, Oakville ON",
+   "address_lines": [
+    "247 North Service Rd.West - Suite 303, L6M3E6",
+    "Oakville ON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "alliance-francaise.ca/en/exams/tests/tef-canada",
+   "so": false,
+   "products": [],
+   "cci_id": 853,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/853"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TORONTO",
+   "city": "ON",
+   "cp": "Mississauga",
+   "city_cp": "",
+   "address": "4261 Sherwoodtowne Blvd, L4Z 1Y5, Mississauga ON",
+   "address_lines": [
+    "4261 Sherwoodtowne Blvd, L4Z 1Y5",
+    "Mississauga ON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "alliance-francaise.ca/en/exams/tests/tef-canada",
+   "so": false,
+   "products": [],
+   "cci_id": 869,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/869"
+  },
+  {
+   "name": "ALGONQUIN COLLEGE",
+   "city": "OTTAWA",
+   "cp": "K2G1V8",
+   "city_cp": "",
+   "address": "1385 Woodroffe Ave, K2G1V8 OTTAWA",
+   "address_lines": [
+    "1385 Woodroffe Ave",
+    "K2G1V8 OTTAWA"
+   ],
+   "phone": "+1 613-727-4723",
+   "emails": [
+    "TEF_Test@algonquincollege.com"
+   ],
+   "url": "www.algonquincollege.com/languages/tef-test-devaluation-de-francais/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 23,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/23"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE D'OTTAWA",
+   "city": "OTTAWA",
+   "cp": "K2P0M6",
+   "city_cp": "",
+   "address": "352 Maclaren Street, K2P0M6 OTTAWA",
+   "address_lines": [
+    "352 Maclaren Street",
+    "K2P0M6 OTTAWA"
+   ],
+   "phone": "+1 613-234-9470",
+   "emails": [
+    "info@af.ca"
+   ],
+   "url": "https://af.ca/ottawa/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 748,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/748"
+  },
+  {
+   "name": "BOUCHEREAU LINGUA INTERNATIONAL",
+   "city": "QUÉBEC",
+   "cp": "G1R 2H8",
+   "city_cp": "",
+   "address": "201 Grande allée est, G1R 2H8 QUÉBEC",
+   "address_lines": [
+    "201 Grande allée est",
+    "G1R 2H8 QUÉBEC"
+   ],
+   "phone": "+1 418-692-1370",
+   "emails": [
+    "quebec@bli.ca"
+   ],
+   "url": "www.bli.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 258,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/258"
+  },
+  {
+   "name": "CÉGEP DE SAINTE-FOY",
+   "city": "QUÉBEC",
+   "cp": "G1V 1T2",
+   "city_cp": "",
+   "address": "2410 Chemin Ste-Foy, G1V 1T2 QUÉBEC",
+   "address_lines": [
+    "2410 Chemin Ste-Foy",
+    "G1V 1T2 QUÉBEC"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.csfoy.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 1103,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1103"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Vaudreuil-Dorion",
+   "city_cp": "",
+   "address": "2555, rue Dutrisac, suite 155, J7V 7N9, Vaudreuil-Dorion Québec",
+   "address_lines": [
+    "2555, rue Dutrisac, suite 155, J7V 7N9",
+    "Vaudreuil-Dorion Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 818,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/818"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Saint-Constant",
+   "city_cp": "",
+   "address": "121, rue Saint-Pierre, Suite 100, J5A 0M3, Saint-Constant Québec",
+   "address_lines": [
+    "121, rue Saint-Pierre, Suite 100, J5A 0M3",
+    "Saint-Constant Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 819,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/819"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Drummondville",
+   "city_cp": "",
+   "address": "960, rue Saint-Georges, J2C 6A2, Drummondville Québec",
+   "address_lines": [
+    "960, rue Saint-Georges, J2C 6A2",
+    "Drummondville Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 820,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/820"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Rouyn-Noranda",
+   "city_cp": "",
+   "address": "CEGEP DE VALLEYFIELD - 185, avenue Principale, J9X 4P9, Rouyn-Noranda Québec",
+   "address_lines": [
+    "CEGEP DE VALLEYFIELD - 185, avenue Principale, J9X 4P9",
+    "Rouyn-Noranda Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 821,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/821"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Montréal",
+   "city_cp": "",
+   "address": "Montréal Québec",
+   "address_lines": [
+    "Montréal Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 822,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/822"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Saint-Romuald",
+   "city_cp": "",
+   "address": "970 rue de la Concorde, G6W 8A8, Saint-Romuald Québec",
+   "address_lines": [
+    "970 rue de la Concorde, G6W 8A8",
+    "Saint-Romuald Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 823,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/823"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Québec",
+   "cp": "Rivière-du-Loup",
+   "city_cp": "",
+   "address": "80, rue Frontenac, G5R 1R1, Rivière-du-Loup Québec",
+   "address_lines": [
+    "80, rue Frontenac, G5R 1R1",
+    "Rivière-du-Loup Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 915,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/915"
+  },
+  {
+   "name": "COLLÈGE DE SAINTE-ANNE-DE-LA-POCATIÈRE",
+   "city": "QUEBEC",
+   "cp": "G1W 0C4",
+   "city_cp": "",
+   "address": "Centre de passation d'examens de français de QUÉBEC, 1015, Avenue Wilfrid-Pelletier, G1W 0C4 QUEBEC",
+   "address_lines": [
+    "Centre de passation d'examens de français de QUÉBEC, 1015, Avenue Wilfrid-Pelletier",
+    "G1W 0C4 QUEBEC"
+   ],
+   "phone": "+1 418-292-2001",
+   "emails": [
+    "tef@leadercsa.com"
+   ],
+   "url": "www.leadercsa.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 990,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/990"
+  },
+  {
+   "name": "EDU-INTER",
+   "city": "QUEBEC",
+   "cp": "G1S1C1",
+   "city_cp": "",
+   "address": "871, Grande Allée Ouest, bureau 50, G1S1C1 QUEBEC",
+   "address_lines": [
+    "871, Grande Allée Ouest, bureau 50",
+    "G1S1C1 QUEBEC"
+   ],
+   "phone": "+1 418-573-5956",
+   "emails": [
+    "inscriptions@edu-inter.net"
+   ],
+   "url": "https://learningfrenchinquebec.com/lp-v2/fr/test-francais-tef-tefaq/inscription/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 400,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/400"
+  },
+  {
+   "name": "RM RECRUTEMENT INTERNATIONAL",
+   "city": "QUEBEC",
+   "cp": "G1C 1V6",
+   "city_cp": "",
+   "address": "2500 Chem. du Petit Village, Québec, QC, G1C 1V6 QUEBEC",
+   "address_lines": [
+    "2500 Chem. du Petit Village, Québec, QC",
+    "G1C 1V6 QUEBEC"
+   ],
+   "phone": "+1 418-831-3337",
+   "emails": [
+    "TEF.TEFAQ@rmrecrutement.ca"
+   ],
+   "url": "https://www.groupe-rm.ca/",
+   "so": false,
+   "products": [],
+   "cci_id": 846,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/846"
+  },
+  {
+   "name": "RM RECRUTEMENT INTERNATIONAL",
+   "city": "QUEBEC",
+   "cp": "QC G1C 1V6",
+   "city_cp": "",
+   "address": "2500, chemin du Petite-Village Québec, QC G1C 1V6 QUEBEC",
+   "address_lines": [
+    "2500, chemin du Petite-Village Québec",
+    "QC G1C 1V6 QUEBEC"
+   ],
+   "phone": "+1 418-831-3337",
+   "emails": [
+    "TEF.TEFAQ@rmrecrutement.ca"
+   ],
+   "url": "https://www.groupe-rm.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 852,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/852"
+  },
+  {
+   "name": "SOLUTIONS LANGUES QUÉBEC",
+   "city": "QUÉBEC",
+   "cp": "G1N 2G1",
+   "city_cp": "",
+   "address": "2065 Rue Frank-Carrel, G1N 2G1 QUÉBEC",
+   "address_lines": [
+    "2065 Rue Frank-Carrel",
+    "G1N 2G1 QUÉBEC"
+   ],
+   "phone": "",
+   "emails": [
+    "contact@solutionslangues.com"
+   ],
+   "url": "https://www.solutionslangues.com/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 1102,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1102"
+  },
+  {
+   "name": "SOLUTIONS MIGRA",
+   "city": "QUEBEC",
+   "cp": "Québec G2K 0H1",
+   "city_cp": "",
+   "address": "1280 Bd Lebourgneuf - bureau 200, Québec G2K 0H1 QUEBEC",
+   "address_lines": [
+    "1280 Bd Lebourgneuf - bureau 200",
+    "Québec G2K 0H1 QUEBEC"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.solutionsmigra.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1117,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1117"
+  },
+  {
+   "name": "LA CITE UNIVERSITAIRE FRANCOPHONE DE L'UNIVERSITE DE REGINA",
+   "city": "REGINA",
+   "cp": "S4S 0A2",
+   "city_cp": "",
+   "address": "Université de Regina, S4S 0A2 REGINA",
+   "address_lines": [
+    "Université de Regina",
+    "S4S 0A2 REGINA"
+   ],
+   "phone": "+1 306-585-4828",
+   "emails": [],
+   "url": "https://lacite.uregina.ca/fr",
+   "so": false,
+   "products": [],
+   "cci_id": 612,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/612"
+  },
+  {
+   "name": "COLLÈGE DE SAINTE-ANNE-DE-LA-POCATIÈRE",
+   "city": "RIMOUSKI",
+   "cp": "G5L 1P2",
+   "city_cp": "",
+   "address": "225, Boulevard René Lepage E., G5L 1P2 RIMOUSKI",
+   "address_lines": [
+    "225, Boulevard René Lepage E.",
+    "G5L 1P2 RIMOUSKI"
+   ],
+   "phone": "+1 418-856-3012",
+   "emails": [
+    "tef@leadercsa.com"
+   ],
+   "url": "www.leadercsa.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1091,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1091"
+  },
+  {
+   "name": "COLLÈGE DE SAINTE-ANNE-DE-LA-POCATIÈRE",
+   "city": "Rivière-du-Loup",
+   "cp": "G5R 1E2",
+   "city_cp": "",
+   "address": "171, rue Fraser, G5R 1E2 Rivière-du-Loup",
+   "address_lines": [
+    "171, rue Fraser",
+    "G5R 1E2 Rivière-du-Loup"
+   ],
+   "phone": "+1 418-856-3012",
+   "emails": [
+    "tef@leadercsa.com"
+   ],
+   "url": "www.leadercsa.com",
+   "so": false,
+   "products": [],
+   "cci_id": 1092,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1092"
+  },
+  {
+   "name": "CENTRE DE SERVICES SCOLAIRE DE LA BEAUCE ETCHEMIN",
+   "city": "SAINT-GEORGES",
+   "cp": "G5Y4W2",
+   "city_cp": "",
+   "address": "425 16e Rue, G5Y4W2 SAINT-GEORGES",
+   "address_lines": [
+    "425 16e Rue",
+    "G5Y4W2 SAINT-GEORGES"
+   ],
+   "phone": "+1 418-228-5541",
+   "emails": [
+    "tefinfo@cssbe.gouv.qc.ca"
+   ],
+   "url": "https://cssbe.gouv.qc.ca/",
+   "so": false,
+   "products": [],
+   "cci_id": 375,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/375"
+  },
+  {
+   "name": "CENTRE DE SERVICES SCOLAIRE DE LA BEAUCE ETCHEMIN",
+   "city": "SAINT-GEORGES",
+   "cp": "G5Y 4W2",
+   "city_cp": "",
+   "address": "425, 16e Rue, G5Y 4W2 SAINT-GEORGES",
+   "address_lines": [
+    "425, 16e Rue",
+    "G5Y 4W2 SAINT-GEORGES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://cssbe.gouv.qc.ca/",
+   "so": false,
+   "products": [],
+   "cci_id": 1074,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1074"
+  },
+  {
+   "name": "CENTRE D’EDUCATION DES ADULTES SAINT - HYACINTHE - ACTON",
+   "city": "SAINT-HYACINTHE",
+   "cp": "J2S4Y1",
+   "city_cp": "",
+   "address": "2495 boulevard Laframboise, J2S4Y1 SAINT-HYACINTHE",
+   "address_lines": [
+    "2495 boulevard Laframboise",
+    "J2S4Y1 SAINT-HYACINTHE"
+   ],
+   "phone": "+1 450-773-8401",
+   "emails": [
+    "tef.inscriptions@csssh.gouv.qc.ca"
+   ],
+   "url": "https://www.csssh.gouv.qc.ca/centre-education-adultes-saint-hyacinthe-acton/notre-ecole/presentation/",
+   "so": false,
+   "products": [],
+   "cci_id": 331,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/331"
+  },
+  {
+   "name": "CÉGEP DE SAINT-LAURENT",
+   "city": "SAINT-LAURENT",
+   "cp": "H4L3X7",
+   "city_cp": "",
+   "address": "625, avenue Sainte-Croix, H4L3X7 SAINT-LAURENT",
+   "address_lines": [
+    "625, avenue Sainte-Croix",
+    "H4L3X7 SAINT-LAURENT"
+   ],
+   "phone": "+1 514-747-6521",
+   "emails": [],
+   "url": "https://www.cegepsl.qc.ca/a-propos/notre-histoire/",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 956,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/956"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "SALABERRY-DE-VALLEYFIELD",
+   "cp": "J6T1X6",
+   "city_cp": "",
+   "address": "169, rue Champlain, J6T1X6 SALABERRY-DE-VALLEYFIELD",
+   "address_lines": [
+    "169, rue Champlain",
+    "J6T1X6 SALABERRY-DE-VALLEYFIELD"
+   ],
+   "phone": "+1 450-373-9441",
+   "emails": [
+    "infotef@cegepvalleyfield.ca"
+   ],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 370,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/370"
+  },
+  {
+   "name": "ACCÈS ADMIN INC.",
+   "city": "SEPT-ÎLES",
+   "cp": "G4R 4C8",
+   "city_cp": "",
+   "address": "225 rue lafontaine, G4R 4C8 SEPT-ÎLES",
+   "address_lines": [
+    "225 rue lafontaine",
+    "G4R 4C8 SEPT-ÎLES"
+   ],
+   "phone": "+1 418-478-9969",
+   "emails": [
+    "info@agenceaccesadmin.com"
+   ],
+   "url": "agenceaccesadmin.com",
+   "so": false,
+   "products": [],
+   "cci_id": 959,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/959"
+  },
+  {
+   "name": "CENTRE ALPHA LIRA",
+   "city": "SEPT-ILES",
+   "cp": "G4R3B3",
+   "city_cp": "",
+   "address": "425, Avenue Arnaud, G4R3B3 SEPT-ILES",
+   "address_lines": [
+    "425, Avenue Arnaud",
+    "G4R3B3 SEPT-ILES"
+   ],
+   "phone": "+1 418-968-9843",
+   "emails": [
+    "direction@centrealphalira.org"
+   ],
+   "url": "www.centrealphalira.org",
+   "so": false,
+   "products": [],
+   "cci_id": 239,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/239"
+  },
+  {
+   "name": "CARREFOUR ACCÈS LOISIRS",
+   "city": "SHERBROOKE",
+   "cp": "J1H2C5",
+   "city_cp": "",
+   "address": "172, rue Élaine-C.-Poirier, J1H2C5 SHERBROOKE",
+   "address_lines": [
+    "172, rue Élaine-C.-Poirier",
+    "J1H2C5 SHERBROOKE"
+   ],
+   "phone": "+1 819-821-1995",
+   "emails": [
+    "info@carrefouraccesloisirs.com"
+   ],
+   "url": "https://carrefouraccesloisirs.com/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1022,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1022"
+  },
+  {
+   "name": "UNIVERSITÉ BISHOP'S",
+   "city": "SHERBROOKE",
+   "cp": "J1M1Z7",
+   "city_cp": "",
+   "address": "Département d'études françaises et québécoises, J1M1Z7 SHERBROOKE",
+   "address_lines": [
+    "Département d'études françaises et québécoises",
+    "J1M1Z7 SHERBROOKE"
+   ],
+   "phone": "+1 819-822-9600",
+   "emails": [],
+   "url": "https://www.ubishops.ca/fr/programmes-d-etudes/faculte-des-arts-et-des-sciences/lettres-et-sciences-humaines/etudes-francaises-et-quebecoises/tefaq-tef/",
+   "so": false,
+   "products": [],
+   "cci_id": 708,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/708"
+  },
+  {
+   "name": "UNIVERSITÉ DE MONCTON",
+   "city": "SHIPPAGAN",
+   "cp": "E8S16P",
+   "city_cp": "",
+   "address": "Campus de Shippagan, E8S16P SHIPPAGAN",
+   "address_lines": [
+    "Campus de Shippagan",
+    "E8S16P SHIPPAGAN"
+   ],
+   "phone": "+1 506-336-3400",
+   "emails": [
+    "tef-ciaf@umoncton.ca"
+   ],
+   "url": "http://www.umoncton.ca/umcs/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 714,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/714"
+  },
+  {
+   "name": "MEMORIAL UNIVERSITY OF NEWFOUNDLAND",
+   "city": "ST JOHN'S",
+   "cp": "A1B3X9",
+   "city_cp": "",
+   "address": "Science Building - Room 4039, A1B3X9 ST JOHN'S",
+   "address_lines": [
+    "Science Building - Room 4039",
+    "A1B3X9 ST JOHN'S"
+   ],
+   "phone": "+1 709-864-7636",
+   "emails": [],
+   "url": "www.mun.ca/delf",
+   "so": false,
+   "products": [],
+   "cci_id": 625,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/625"
+  },
+  {
+   "name": "COLLEGE BOREAL TIMMINS & SUDBURY",
+   "city": "Sudbury",
+   "cp": "P3A 6B1",
+   "city_cp": "",
+   "address": "21 boulevard Lasalle, P3A 6B1 Sudbury",
+   "address_lines": [
+    "21 boulevard Lasalle",
+    "P3A 6B1 Sudbury"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.collegeboreal.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 806,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/806"
+  },
+  {
+   "name": "NOVOCENTRE",
+   "city": "THUNDER BAY",
+   "cp": "P7A4B8",
+   "city_cp": "",
+   "address": "234 rue Van Norman, P7A4B8 THUNDER BAY",
+   "address_lines": [
+    "234 rue Van Norman",
+    "P7A4B8 THUNDER BAY"
+   ],
+   "phone": "+1 807-684-1960",
+   "emails": [],
+   "url": "www.novocentre.com",
+   "so": false,
+   "products": [],
+   "cci_id": 643,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/643"
+  },
+  {
+   "name": "COLLEGE BOREAL TIMMINS & SUDBURY",
+   "city": "TIMMINS",
+   "cp": "P4N 0A7",
+   "city_cp": "",
+   "address": "395 boulevard Theriault, P4N 0A7 TIMMINS",
+   "address_lines": [
+    "395 boulevard Theriault",
+    "P4N 0A7 TIMMINS"
+   ],
+   "phone": "+1 800-361-6673",
+   "emails": [
+    "fc@collegeboreal.ca"
+   ],
+   "url": "www.collegeboreal.ca",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 762,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/762"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TORONTO",
+   "city": "TORONTO",
+   "cp": "M2N5N1",
+   "city_cp": "",
+   "address": "47 Sheppard Avenue East - Suite 502, M2N5N1 TORONTO",
+   "address_lines": [
+    "47 Sheppard Avenue East - Suite 502",
+    "M2N5N1 TORONTO"
+   ],
+   "phone": "",
+   "emails": [
+    "tef@alliance-francaise.ca"
+   ],
+   "url": "alliance-francaise.ca/en/exams/tests/tef-canada",
+   "so": false,
+   "products": [],
+   "cci_id": 211,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/211"
+  },
+  {
+   "name": "COLLEGE BOREAL",
+   "city": "TORONTO",
+   "cp": "M5A 3C4",
+   "city_cp": "",
+   "address": "60 Distillery Lane, M5A 3C4 TORONTO",
+   "address_lines": [
+    "60 Distillery Lane",
+    "M5A 3C4 TORONTO"
+   ],
+   "phone": "+1 800-361-6673",
+   "emails": [],
+   "url": "www.collegeboreal.ca/test-devaluation-de-francais-tef",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 756,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/756"
+  },
+  {
+   "name": "ILSC - TORONTO",
+   "city": "TORONTO",
+   "cp": "M5G2H6",
+   "city_cp": "",
+   "address": "443 University Avenue - 3rd floor, M5G2H6 TORONTO",
+   "address_lines": [
+    "443 University Avenue - 3rd floor",
+    "M5G2H6 TORONTO"
+   ],
+   "phone": "+1 647-417-8193",
+   "emails": [
+    "tef.toronto@ilsc.com"
+   ],
+   "url": "www.ilsc.com/fr/services/tef-canada-tefaq",
+   "so": false,
+   "products": [],
+   "cci_id": 476,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/476"
+  },
+  {
+   "name": "MONTREAL LANGUAGE INSTITUTE - MLI",
+   "city": "TORONTO",
+   "cp": "M2J 5B2",
+   "city_cp": "",
+   "address": "259, rue Yorkland, bureau #212, North York, M2J 5B2 TORONTO",
+   "address_lines": [
+    "259, rue Yorkland, bureau #212, North York",
+    "M2J 5B2 TORONTO"
+   ],
+   "phone": "647-846-5266",
+   "emails": [],
+   "url": "https://register.tef.mlicanada.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 1114,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1114"
+  },
+  {
+   "name": "ÉCOLE INTERNATIONALE DE FRANÇAIS (UQTR)",
+   "city": "TROIS-RIVIÈRES",
+   "cp": "G8Z 4M3",
+   "city_cp": "",
+   "address": "3351, boulevard des Forges, G8Z 4M3 TROIS-RIVIÈRES",
+   "address_lines": [
+    "3351, boulevard des Forges",
+    "G8Z 4M3 TROIS-RIVIÈRES"
+   ],
+   "phone": "+1 819-376-5011",
+   "emails": [
+    "eif.tef@uqtr.ca"
+   ],
+   "url": "uqtr.ca/eif",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1058,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1058"
+  },
+  {
+   "name": "CEGEP DE VALLEYFIELD",
+   "city": "Trois-Rivières (Québec",
+   "cp": "G9A 5E6",
+   "city_cp": "",
+   "address": "3500, rue DE Courval, G9A 5E6 Trois-Rivières (Québec",
+   "address_lines": [
+    "3500, rue DE Courval",
+    "G9A 5E6 Trois-Rivières (Québec"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.cegepvalleyfield.ca",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 1124,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1124"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE CANADA PACIFIC",
+   "city": "VANCOUVER",
+   "cp": "V5Z 3B2",
+   "city_cp": "",
+   "address": "6161 Cambie Street, V5Z 3B2 VANCOUVER",
+   "address_lines": [
+    "6161 Cambie Street",
+    "V5Z 3B2 VANCOUVER"
+   ],
+   "phone": "+1 604-327-0201",
+   "emails": [
+    "info@alliancefrancaise.ca"
+   ],
+   "url": "www.alliancefrancaise.ca",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 218,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/218"
+  },
+  {
+   "name": "COLLÈGE EDUCACENTRE",
+   "city": "VANCOUVER",
+   "cp": "V6E1W2",
+   "city_cp": "",
+   "address": "842 Thurlow Street, V6E1W2 VANCOUVER",
+   "address_lines": [
+    "842 Thurlow Street",
+    "V6E1W2 VANCOUVER"
+   ],
+   "phone": "+1 604-708-5100",
+   "emails": [
+    "tef@educacentre.com"
+   ],
+   "url": "www.educacentre.com",
+   "so": false,
+   "products": [],
+   "cci_id": 371,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/371"
+  },
+  {
+   "name": "COMMISSION SCOLAIRE LESTER-B.-PEARSON",
+   "city": "VERDUN",
+   "cp": "H4H1A5",
+   "city_cp": "",
+   "address": "6050 Boulevard Champlain, H4H1A5 VERDUN",
+   "address_lines": [
+    "6050 Boulevard Champlain",
+    "H4H1A5 VERDUN"
+   ],
+   "phone": "+1 514-422-3000",
+   "emails": [
+    "infotef@lbpearson.ca"
+   ],
+   "url": "https://careerds.ca/program/tef/",
+   "so": false,
+   "products": [],
+   "cci_id": 376,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/376"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE CANADA PACIFIC",
+   "city": "Victoria BC",
+   "cp": "V8R 0A4",
+   "city_cp": "",
+   "address": "1-1218 Langley street, V8R 0A4 Victoria BC",
+   "address_lines": [
+    "1-1218 Langley street",
+    "V8R 0A4 Victoria BC"
+   ],
+   "phone": "+1 778-326-0701",
+   "emails": [],
+   "url": "www.alliancefrancaise.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 1017,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1017"
+  },
+  {
+   "name": "SOLUTIONS MIGRA",
+   "city": "VICTORIAVILLE",
+   "cp": "G6T 1S7",
+   "city_cp": "",
+   "address": "Hub de Destination Entreprise, 747 Bd Pierre-Roux E, G6T 1S7 VICTORIAVILLE",
+   "address_lines": [
+    "Hub de Destination Entreprise, 747 Bd Pierre-Roux E",
+    "G6T 1S7 VICTORIAVILLE"
+   ],
+   "phone": "+1 819-806-5591",
+   "emails": [
+    "info@solutionsmigra.com"
+   ],
+   "url": "www.solutionsmigra.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 953,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/953"
+  },
+  {
+   "name": "COLLEGE BOREAL HAMILTON & WELLAND",
+   "city": "WELLAND",
+   "cp": "L3B 3W8",
+   "city_cp": "",
+   "address": "225 E Main St, L3B 3W8 WELLAND",
+   "address_lines": [
+    "225 E Main St",
+    "L3B 3W8 WELLAND"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://collegeboreal.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 897,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/897"
+  },
+  {
+   "name": "COLLEGE BOREAL HAMILTON & WELLAND",
+   "city": "WINDSOR",
+   "cp": "",
+   "city_cp": "",
+   "address": "7515 Forest Glade Drive, WINDSOR",
+   "address_lines": [
+    "7515 Forest Glade Drive",
+    "WINDSOR"
+   ],
+   "phone": "+1 226-759-5821",
+   "emails": [],
+   "url": "https://collegeboreal.ca/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 965,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/965"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DU MANITOBA",
+   "city": "WINNIPEG",
+   "cp": "R3M 0Y5",
+   "city_cp": "",
+   "address": "934 Avenue Corydon, R3M 0Y5 WINNIPEG",
+   "address_lines": [
+    "934 Avenue Corydon",
+    "R3M 0Y5 WINNIPEG"
+   ],
+   "phone": "+1 204-477-1515",
+   "emails": [
+    "info@afmanitoba.ca"
+   ],
+   "url": "www.afmanitoba.ca",
+   "so": false,
+   "products": [],
+   "cci_id": 231,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/231"
+  },
+  {
+   "name": "COLLEGE NORDIQUE FRANCOPHONE",
+   "city": "YELLOWKNIFE",
+   "cp": "X1A 1B3",
+   "city_cp": "",
+   "address": "201-4921 49e rue, X1A 1B3 YELLOWKNIFE",
+   "address_lines": [
+    "201-4921 49e rue",
+    "X1A 1B3 YELLOWKNIFE"
+   ],
+   "phone": "+1 867-920-7017",
+   "emails": [
+    "info@cnordique.ca"
+   ],
+   "url": "www.cnordique.ca",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 372,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/372"
+  },
+  {
+   "name": "COLLÈGE EDUCACENTRE",
+   "city": "YT",
+   "cp": "Whitehorse",
+   "city_cp": "",
+   "address": "Association Franco-Yukonnaise - 302 Strickland Street, Whitehorse YT",
+   "address_lines": [
+    "Association Franco-Yukonnaise - 302 Strickland Street",
+    "Whitehorse YT"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.educacentre.com",
+   "so": false,
+   "products": [],
+   "cci_id": 817,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/817"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "country": "Mozambique",
+ "iso2": "MZ",
+ "fei_id": "140",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Centre culturel franco-mozambicain",
+   "city": "Maputo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Samora Machel, 468, CP491 Maputo",
+   "address_lines": [
+    "Avenida Samora Machel, 468",
+    "CP491 Maputo"
+   ],
+   "phone": "258-85-026-1244",
+   "emails": [
+    "info@ccfmoz.com"
+   ],
+   "url": "http://www.ccfmoz.com",
+   "so": true
+  }
+ ]
+}

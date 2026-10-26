@@ -1,0 +1,104 @@
+{
+ "country": "Mauritanie",
+ "iso2": "MR",
+ "fei_id": "139",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Nouakchott",
+  "cp": "",
+  "city_cp": "",
+  "address": "Quartier de Tevragh Zeina Rue Ahmed Ould Mohamed, TEFRAGH ZAINA Nouakchott",
+  "address_lines": [
+   "Quartier de Tevragh Zeina Rue Ahmed Ould Mohamed",
+   "TEFRAGH ZAINA Nouakchott"
+  ],
+  "phone": "46051797",
+  "emails": [],
+  "url": "http://afmauritanie.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Atar",
+   "city": "Atar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue du cinéma, Atar Atar",
+   "address_lines": [
+    "Rue du cinéma, Atar Atar"
+   ],
+   "phone": "22 80 69 80",
+   "emails": [
+    "afm.atar@gmail.com"
+   ],
+   "url": "http://afmauritanie.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Kiffa",
+   "city": "Kiffa",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 426 Kiffa",
+   "address_lines": [
+    "BP 426 Kiffa"
+   ],
+   "phone": "46 92 37 47",
+   "emails": [
+    "direction.afmkiffa03@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Nouadhibou",
+   "city": "Nouadhibou",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP217 BOULEVARD MARITIME, 32000 Nouadhibou",
+   "address_lines": [
+    "BP217 BOULEVARD MARITIME",
+    "32000 Nouadhibou"
+   ],
+   "phone": "46401741",
+   "emails": [],
+   "url": "http://afmauritanie.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Nouakchott",
+   "city": "Nouakchott",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 5022 NOUAKCHOTT Nouakchott",
+   "address_lines": [
+    "BP 5022 NOUAKCHOTT Nouakchott"
+   ],
+   "phone": "36 34 82 08",
+   "emails": [],
+   "url": "http://afmauritanie.org/",
+   "so": false
+  },
+  {
+   "name": "CREL UNIVERSITE AL ASRIYA DE NOUAKCHOTT",
+   "city": "Nouakchott",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 789 Capitale Mauritanie Nouakchott",
+   "address_lines": [
+    "BP 789 Capitale Mauritanie Nouakchott"
+   ],
+   "phone": "48 48 00 61",
+   "emails": [
+    "centre.crel@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "country": "Turkménistan",
+ "iso2": "TM",
+ "fei_id": "435",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Achgabat",
+  "cp": "",
+  "city_cp": "",
+  "address": "69 rue Aga Garryyew (ex-Sokolovskogo), 744020 Achgabat",
+  "address_lines": [
+   "69 rue Aga Garryyew (ex-Sokolovskogo)",
+   "744020 Achgabat"
+  ],
+  "phone": "65 69 44 97",
+  "emails": [
+   "ift.directeur@gmail.com"
+  ],
+  "url": "http://www.ambafrance-tm.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Turkménistan",
+   "city": "Achgabat",
+   "cp": "",
+   "city_cp": "",
+   "address": "69 rue Aga Garryyev (ex-Sokolovskaya), 744020 Achgabat",
+   "address_lines": [
+    "69 rue Aga Garryyev (ex-Sokolovskaya)",
+    "744020 Achgabat"
+   ],
+   "phone": "+99365694497",
+   "emails": [
+    "ift.directeur@gmail.com"
+   ],
+   "url": "http://www.ambafrance-tm.org/",
+   "so": false
+  }
+ ]
+}

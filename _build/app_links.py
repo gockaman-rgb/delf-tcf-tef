@@ -36,6 +36,9 @@ EXAMS_FR = {"tcf-canada", "tcf-irn", "tcf-quebec", "tef-canada", "delf-b1", "del
 _LOC = {}
 
 
+FINDER = {"test-centre-near-me", "centro-de-examen-cerca-de-mi"}   # /en/, /ar/ et /es/ (26/10/2026)
+
+
 def _maghreb_centres():
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from villes_config import VILLES
@@ -59,7 +62,8 @@ def campaign(rel_path):
     if head in ("en", "es", "ar"):
         if len(parts) == 1:
             return f"web-{head}-accueil"
-        return f"web-{head}-" + ("centres" if parts[1] in _loc(head) else "preparation")
+        # Le moteur de recherche de centres (26/10/2026) compte avec les pages de centres.
+        return f"web-{head}-" + ("centres" if parts[1] in _loc(head) or parts[1] in FINDER else "preparation")
     slug = parts[1] if len(parts) > 1 else ""
     if head == "centres":
         return "web-fr-maghreb" if slug in _maghreb_centres() else "web-fr-centres"
@@ -71,7 +75,7 @@ def campaign(rel_path):
         if slug.startswith(("exercices-", "sujets-", "examen-blanc", "production-ecrite", "synthese-", "tefaq-")):
             return "web-fr-entrainement"
         return "web-fr-blog"
-    if head == "ou-passer":
+    if head in ("ou-passer", "trouver-un-centre"):
         return "web-fr-centres"
     if head in TRAINING_FR:
         return "web-fr-entrainement"

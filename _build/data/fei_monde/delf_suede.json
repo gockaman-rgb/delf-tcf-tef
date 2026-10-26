@@ -1,0 +1,410 @@
+{
+ "country": "Suède",
+ "iso2": "SE",
+ "fei_id": "93",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 26,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Stockholm",
+  "cp": "",
+  "city_cp": "",
+  "address": "Kommendörsgatan 13 BOX 5296, 10246 Stockholm",
+  "address_lines": [
+   "Kommendörsgatan 13 BOX 5296",
+   "10246 Stockholm"
+  ],
+  "phone": "8-45 95 348",
+  "emails": [],
+  "url": "http://www.institutfrancais-suede.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Bodaskolan",
+   "city": "Borås",
+   "cp": "",
+   "city_cp": "",
+   "address": "Milstensgatan 25 Borås",
+   "address_lines": [
+    "Milstensgatan 25 Borås"
+   ],
+   "phone": "+46 33 35 7909",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Internationella Engelska Skolan",
+   "city": "Bromma",
+   "cp": "",
+   "city_cp": "",
+   "address": "Riksbyvägen 40-48, 16874 Bromma",
+   "address_lines": [
+    "Riksbyvägen 40-48",
+    "16874 Bromma"
+   ],
+   "phone": "4670 870 53 21",
+   "emails": [],
+   "url": "http://www.bromma.engelska.se",
+   "so": false
+  },
+  {
+   "name": "Högskolan Dalarna",
+   "city": "Falun",
+   "cp": "",
+   "city_cp": "",
+   "address": "Högskolegatan 2 Falun",
+   "address_lines": [
+    "Högskolegatan 2 Falun"
+   ],
+   "phone": "+46 23 778000",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Franska skolan i Göteborg",
+   "city": "Göteborg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Molinsgatan 7, 41133 Göteborg",
+   "address_lines": [
+    "Molinsgatan 7",
+    "41133 Göteborg"
+   ],
+   "phone": "+46 31 13 3750",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Göteborgs Högre Samskola",
+   "city": "Göteborg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Stampgatan 13, 411664 Göteborg",
+   "address_lines": [
+    "Stampgatan 13",
+    "411664 Göteborg"
+   ],
+   "phone": "0733896268",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Le coin des copains",
+   "city": "Göteborg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Doktor Lindhs gata 3, 413 25 Göteborg",
+   "address_lines": [
+    "Doktor Lindhs gata 3",
+    "413 25 Göteborg"
+   ],
+   "phone": "076 013 78 15",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Lycée Hvitfeldtska gymnasiet",
+   "city": "Göteborg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rektorsgatan 2, 41133 Göteborg",
+   "address_lines": [
+    "Rektorsgatan 2",
+    "41133 Göteborg"
+   ],
+   "phone": "+46722124117",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alléskolan",
+   "city": "Hallsberg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Södra Allén 14, 694 30 Hallsberg",
+   "address_lines": [
+    "Södra Allén 14",
+    "694 30 Hallsberg"
+   ],
+   "phone": "+46 582 355 00",
+   "emails": [],
+   "url": "http://www.alleskolan.eu/",
+   "so": false
+  },
+  {
+   "name": "Internationella Engelska Skolan Järfälla",
+   "city": "Järfälla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hästskovägen 76, 177 39 Järfälla",
+   "address_lines": [
+    "Hästskovägen 76",
+    "177 39 Järfälla"
+   ],
+   "phone": "+46 8 58430630",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Calmare internationellaskola",
+   "city": "Kalmar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Nygatan 18a, 392 34 Kalmar",
+   "address_lines": [
+    "Nygatan 18a",
+    "392 34 Kalmar"
+   ],
+   "phone": "0768581864",
+   "emails": [],
+   "url": "http://cis.se/",
+   "so": false
+  },
+  {
+   "name": "Bilingual Montessori school of Lund",
+   "city": "Lund",
+   "cp": "",
+   "city_cp": "",
+   "address": "Margaretavägen 1 Lund",
+   "address_lines": [
+    "Margaretavägen 1 Lund"
+   ],
+   "phone": "+46462760080",
+   "emails": [],
+   "url": "http://www.bmsl.se/",
+   "so": false
+  },
+  {
+   "name": "Katedralskolan",
+   "city": "Lund",
+   "cp": "",
+   "city_cp": "",
+   "address": "Stora Södergatan 22 Lund",
+   "address_lines": [
+    "Stora Södergatan 22 Lund"
+   ],
+   "phone": "+46 46 35 7610",
+   "emails": [],
+   "url": "https://www.lund.se/katedralskolan/",
+   "so": false
+  },
+  {
+   "name": "Malmö Borgarskola",
+   "city": "Malmö",
+   "cp": "",
+   "city_cp": "",
+   "address": "Regementsgatan 36 Malmö",
+   "address_lines": [
+    "Regementsgatan 36 Malmö"
+   ],
+   "phone": "+4640347019",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Jämtlandgymnasium Wargentin",
+   "city": "Östersund",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rådhusgatan 19, 83182 Östersund",
+   "address_lines": [
+    "Rådhusgatan 19",
+    "83182 Östersund"
+   ],
+   "phone": "+46104902500",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Ecole du coin",
+   "city": "Sollentua",
+   "cp": "",
+   "city_cp": "",
+   "address": "c/o Bugeon, 19269 Sollentua",
+   "address_lines": [
+    "c/o Bugeon",
+    "19269 Sollentua"
+   ],
+   "phone": "+46762072940",
+   "emails": [],
+   "url": "http://www.ecoleducoin.com/",
+   "so": false
+  },
+  {
+   "name": "Franska Skolan",
+   "city": "Stockholm",
+   "cp": "",
+   "city_cp": "",
+   "address": "Döbelnsgatan 9 Stockholm",
+   "address_lines": [
+    "Döbelnsgatan 9 Stockholm"
+   ],
+   "phone": "+468598 889 00",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Stockholm",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kommendörsgatan 13 Stockholm",
+   "address_lines": [
+    "Kommendörsgatan 13 Stockholm"
+   ],
+   "phone": "084595348",
+   "emails": [],
+   "url": "http://www.ifsuede.com/",
+   "so": false
+  },
+  {
+   "name": "L'École Buissonnière",
+   "city": "Stockholm",
+   "cp": "",
+   "city_cp": "",
+   "address": "Frejgatan 58, 11326 Stockholm",
+   "address_lines": [
+    "Frejgatan 58",
+    "11326 Stockholm"
+   ],
+   "phone": "+46727143123",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Lilla Språkskolan",
+   "city": "Stockholm",
+   "cp": "",
+   "city_cp": "",
+   "address": "Holländargatan 36, 113 59 Stockholm",
+   "address_lines": [
+    "Holländargatan 36",
+    "113 59 Stockholm"
+   ],
+   "phone": "+46708406299",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Lycée français saint Louis",
+   "city": "Stockholm",
+   "cp": "",
+   "city_cp": "",
+   "address": "Essingestråket 24 Stockholm",
+   "address_lines": [
+    "Essingestråket 24 Stockholm"
+   ],
+   "phone": "+468 441 30 33",
+   "emails": [
+    "dir.elementaire@lfsl.net"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Tyska Skolan",
+   "city": "Stockholm",
+   "cp": "",
+   "city_cp": "",
+   "address": "Karlavägen 25, 114 31 Stockholm",
+   "address_lines": [
+    "Karlavägen 25",
+    "114 31 Stockholm"
+   ],
+   "phone": "+46 8 40919400",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Skvaderns gymnasieskola",
+   "city": "Sundsvall",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kungsvägen 21 Sundsvall",
+   "address_lines": [
+    "Kungsvägen 21 Sundsvall"
+   ],
+   "phone": "060-644909",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Östra gymnasiet Huddinge",
+   "city": "Trångsund",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kvartettvägen 2-6, 142 63 Trångsund",
+   "address_lines": [
+    "Kvartettvägen 2-6",
+    "142 63 Trångsund"
+   ],
+   "phone": "704535780",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Uppsala universitet",
+   "city": "Uppsala",
+   "cp": "",
+   "city_cp": "",
+   "address": "Box 2137, 752 36 Uppsala",
+   "address_lines": [
+    "Box 2137",
+    "752 36 Uppsala"
+   ],
+   "phone": "701679191",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Internationella Engelska Skolan",
+   "city": "Växjö",
+   "cp": "",
+   "city_cp": "",
+   "address": "Olga Bohlins gata 4B, 352 21 Växjö",
+   "address_lines": [
+    "Olga Bohlins gata 4B",
+    "352 21 Växjö"
+   ],
+   "phone": "0470 155 52",
+   "emails": [],
+   "url": "http://www.vaxjo.engelska.se",
+   "so": false
+  },
+  {
+   "name": "Linnéuniversitetet",
+   "city": "Växjö",
+   "cp": "",
+   "city_cp": "",
+   "address": "Universitetsplatsen 1, 352 52 Växjö",
+   "address_lines": [
+    "Universitetsplatsen 1",
+    "352 52 Växjö"
+   ],
+   "phone": "+46 470708012",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

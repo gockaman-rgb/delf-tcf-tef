@@ -1,0 +1,28 @@
+{
+ "country": "Cuba",
+ "iso2": "CU",
+ "fei_id": "23",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française - Ambassade de France à Cuba",
+   "city": "La Havane",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle J n° 302 Esquina a 15 El Vedado, La Havane",
+   "address_lines": [
+    "Calle J n° 302 Esquina a 15 El Vedado",
+    "La Havane"
+   ],
+   "phone": "53-78-33-11-05",
+   "emails": [],
+   "url": "http://www.alianzafrancesacuba.org",
+   "so": true
+  }
+ ]
+}

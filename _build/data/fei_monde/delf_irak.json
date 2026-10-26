@@ -1,0 +1,74 @@
+{
+ "country": "Irak",
+ "iso2": "IQ",
+ "fei_id": "102",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Bagdad",
+  "cp": "",
+  "city_cp": "",
+  "address": "rue Abu Nawas Bagdad",
+  "address_lines": [
+   "rue Abu Nawas Bagdad"
+  ],
+  "phone": "+9647901912338",
+  "emails": [
+   "info-bagdad@institutfrancais-irak.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français en Irak",
+   "city": "Bagdad",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Abu Nawas Bagdad",
+   "address_lines": [
+    "Rue Abu Nawas Bagdad"
+   ],
+   "phone": "07901912338",
+   "emails": [
+    "info-bagdad@institutfrancais-irak.com"
+   ],
+   "url": "https://bagdad.institutfrancais-irak.com/",
+   "so": false
+  },
+  {
+   "name": "Institut Français d'Erbil",
+   "city": "Erbil",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 Mtr, 35 Salahaddin street Erbil",
+   "address_lines": [
+    "30 Mtr, 35 Salahaddin street Erbil"
+   ],
+   "phone": "07518021096",
+   "emails": [
+    "info-erbil@institutfrancais-irak.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut Culturel Franco-Irakien à Mossoul - ICFI",
+   "city": "Mossoul",
+   "cp": "",
+   "city_cp": "",
+   "address": "Université de Mossoul Mossoul",
+   "address_lines": [
+    "Université de Mossoul Mossoul"
+   ],
+   "phone": "07701870592",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

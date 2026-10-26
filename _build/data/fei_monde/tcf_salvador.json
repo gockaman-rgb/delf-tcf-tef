@@ -1,0 +1,30 @@
+{
+ "country": "Salvador",
+ "iso2": "SV",
+ "fei_id": "24",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "San Salvador",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle y colonia La Mascota 547 Pasaje 2, San Salvador",
+   "address_lines": [
+    "Calle y colonia La Mascota 547 Pasaje 2",
+    "San Salvador"
+   ],
+   "phone": "503-21335750",
+   "emails": [
+    "informacion@afelsalvador.org"
+   ],
+   "url": "http://www.afelsalvador.org/",
+   "so": true
+  }
+ ]
+}

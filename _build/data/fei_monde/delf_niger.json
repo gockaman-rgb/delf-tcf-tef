@@ -1,0 +1,88 @@
+{
+ "country": "Niger",
+ "iso2": "NE",
+ "fei_id": "141",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Niamey",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rue du Musée National BP 11413, Niamey-Niger Niamey",
+  "address_lines": [
+   "Rue du Musée National BP 11413, Niamey-Niger Niamey"
+  ],
+  "phone": "+22720734240",
+  "emails": [],
+  "url": "http://ccfnjeanrouch.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française d'Agadez",
+   "city": "Agadez",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 187 Agadez",
+   "address_lines": [
+    "BP 187 Agadez"
+   ],
+   "phone": "20 44 05 13",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Maradi",
+   "city": "Maradi",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 426 Maradi",
+   "address_lines": [
+    "BP 426 Maradi"
+   ],
+   "phone": "20 41 15 99",
+   "emails": [
+    "dirafmaradi@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre Culturel Franco Nigérien de Niamey",
+   "city": "Niamey",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 11 413 Niamey",
+   "address_lines": [
+    "BP 11 413 Niamey"
+   ],
+   "phone": "20 73 48 34",
+   "emails": [
+    "dir@ccfnjeanrouch.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre Culturel Franco Nigérien de Zinder",
+   "city": "Zinder",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 154 Zinder",
+   "address_lines": [
+    "BP 154 Zinder"
+   ],
+   "phone": "20 51 05 35",
+   "emails": [
+    "dir@ccfnjeanrouch.org"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

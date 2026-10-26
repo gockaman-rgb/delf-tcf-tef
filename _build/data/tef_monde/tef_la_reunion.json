@@ -1,0 +1,33 @@
+{
+ "country": "La Réunion",
+ "iso2": "RE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA RÉUNION",
+   "city": "Saint-Denis",
+   "cp": "97400",
+   "city_cp": "",
+   "address": "107 Rue de la République, 97400 Saint-Denis",
+   "address_lines": [
+    "107 Rue de la République",
+    "97400 Saint-Denis"
+   ],
+   "phone": "+262 692 20 02 10",
+   "emails": [
+    "aflareunion@gmail.com"
+   ],
+   "url": "https://www.facebook.com/AFlareunion/",
+   "so": false,
+   "products": [],
+   "cci_id": 1123,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1123"
+  }
+ ]
+}

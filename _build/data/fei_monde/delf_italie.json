@@ -1,0 +1,456 @@
+{
+ "country": "Italie",
+ "iso2": "IT",
+ "fei_id": "78",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 26,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Coopération éducative",
+  "city": "Rome",
+  "cp": "",
+  "city_cp": "",
+  "address": "Piazza Farnese 67, 00186 Rome",
+  "address_lines": [
+   "Piazza Farnese 67",
+   "00186 Rome"
+  ],
+  "phone": "+390668601386",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française du Val d'Aoste",
+   "city": "Aosta",
+   "cp": "",
+   "city_cp": "",
+   "address": "via Carlo Promis 3, 11100 Aosta",
+   "address_lines": [
+    "via Carlo Promis 3",
+    "11100 Aosta"
+   ],
+   "phone": "0165 42 331",
+   "emails": [
+    "delf.dalf.vda@alliancefraoste.it"
+   ],
+   "url": "http://www.alliancefraoste.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Bari",
+   "city": "Bari",
+   "cp": "",
+   "city_cp": "",
+   "address": "Strada de' Gironda 22, 70122 Bari",
+   "address_lines": [
+    "Strada de' Gironda 22",
+    "70122 Bari"
+   ],
+   "phone": "0805210017",
+   "emails": [
+    "direzione@afbari.it"
+   ],
+   "url": "http://www.alliancefrba.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Biella",
+   "city": "Biella",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Ivrea, 71, 13900 Biella",
+   "address_lines": [
+    "Via Ivrea, 71",
+    "13900 Biella"
+   ],
+   "phone": "015352700",
+   "emails": [
+    "alliancebiella@libero.it"
+   ],
+   "url": "http://www.alliancefrbiella.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bologne",
+   "city": "Bologna",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via De' Marchi 4, 40123 Bologna",
+   "address_lines": [
+    "Via De' Marchi 4",
+    "40123 Bologna"
+   ],
+   "phone": "0039 051332828",
+   "emails": [
+    "segreteria@afbologna.it"
+   ],
+   "url": "http://www.afbologna.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cagliari",
+   "city": "Cagliari",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Giuseppe Palomba 64, 09129 Cagliari",
+   "address_lines": [
+    "Via Giuseppe Palomba 64",
+    "09129 Cagliari"
+   ],
+   "phone": "3479727235",
+   "emails": [
+    "certif.af.cagliari@gmail.com"
+   ],
+   "url": "http://www.alliancefrancaisecagliari.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Catane",
+   "city": "Catania",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Caronda, 482 Catania",
+   "address_lines": [
+    "Via Caronda, 482 Catania"
+   ],
+   "phone": "095444282",
+   "emails": [
+    "info@alliancefrct.org"
+   ],
+   "url": "http://www.alliancefrct.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Catanzaro",
+   "city": "Catanzaro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via A.Turco,93, 88100 Catanzaro",
+   "address_lines": [
+    "Via A.Turco,93",
+    "88100 Catanzaro"
+   ],
+   "phone": "3382676487",
+   "emails": [
+    "alliancefrancaisecz@libero.it"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française Cosenza",
+   "city": "Cosenza",
+   "cp": "",
+   "city_cp": "",
+   "address": "presso IIS Pezzullo Via Popilia, 87100 Cosenza",
+   "address_lines": [
+    "presso IIS Pezzullo Via Popilia",
+    "87100 Cosenza"
+   ],
+   "phone": "3392484276",
+   "emails": [],
+   "url": "http://alliancefrcs.it",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Cuneo",
+   "city": "Cuneo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Viale Angeli, 24, 12100 Cuneo",
+   "address_lines": [
+    "Viale Angeli, 24",
+    "12100 Cuneo"
+   ],
+   "phone": "3387460796",
+   "emails": [
+    "info@alliancecuneo.eu"
+   ],
+   "url": "http://www.alliancecuneo.eu/",
+   "so": false
+  },
+  {
+   "name": "Lycée français Victor Hugo - Florence",
+   "city": "Firenze",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via della Scala, 85, 50123 Firenze",
+   "address_lines": [
+    "Via della Scala, 85",
+    "50123 Firenze"
+   ],
+   "phone": "+39055029911",
+   "emails": [
+    "proviseur.florence.hugo@mlfmonde.org"
+   ],
+   "url": "http://www.vhugo.eu/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Italie - Florence",
+   "city": "Florence",
+   "cp": "",
+   "city_cp": "",
+   "address": "Piazza Ognissanti 2, 50123 Florence",
+   "address_lines": [
+    "Piazza Ognissanti 2",
+    "50123 Florence"
+   ],
+   "phone": "0552718832",
+   "emails": [],
+   "url": "http://www.institutfrancais.it/firenze",
+   "so": false
+  },
+  {
+   "name": "Alliance française Foligno",
+   "city": "Foligno",
+   "cp": "",
+   "city_cp": "",
+   "address": "Viale Marconi 12, 06034 Foligno",
+   "address_lines": [
+    "Viale Marconi 12",
+    "06034 Foligno"
+   ],
+   "phone": "3409640061",
+   "emails": [
+    "folignoalliancefrancaise@gmail.com"
+   ],
+   "url": "http://alliancefrancaisefoligno.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française Gênes",
+   "city": "Gênes",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Garibaldi, 20, 16 124 Gênes",
+   "address_lines": [
+    "Via Garibaldi, 20",
+    "16 124 Gênes"
+   ],
+   "phone": "010 247 63 36",
+   "emails": [
+    "info@alliancefrge.it"
+   ],
+   "url": "http://alliancefrge.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Latina",
+   "city": "Latina",
+   "cp": "",
+   "city_cp": "",
+   "address": "65,via Quarto, 04100 Latina",
+   "address_lines": [
+    "65,via Quarto",
+    "04100 Latina"
+   ],
+   "phone": "3382421418",
+   "emails": [],
+   "url": "http://afsudlatium.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Lecce",
+   "city": "Lecce",
+   "cp": "",
+   "city_cp": "",
+   "address": "Viale Giovanni Paolo II, n° 11, 73100 Lecce",
+   "address_lines": [
+    "Viale Giovanni Paolo II, n° 11",
+    "73100 Lecce"
+   ],
+   "phone": "3356723336",
+   "emails": [
+    "aflecce@yahoo.it"
+   ],
+   "url": "https://sites.google.com/view/alliancefrlecce",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Messine",
+   "city": "Messine",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Giuseppe La Farina - Is. 278 n°17, 98123 Messine",
+   "address_lines": [
+    "Via Giuseppe La Farina - Is. 278 n°17",
+    "98123 Messine"
+   ],
+   "phone": "090 9564343",
+   "emails": [
+    "allianceme@tiscali.it"
+   ],
+   "url": "http://www.alliancefrancaisemessina.com",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Italie - Milan",
+   "city": "Milan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Corso Magenta, 63, 20123 Milan",
+   "address_lines": [
+    "Corso Magenta, 63",
+    "20123 Milan"
+   ],
+   "phone": "02 48 59 19 39",
+   "emails": [
+    "esami-milano@institutfrancais.it"
+   ],
+   "url": "http://www.institutfrancais.it/milano",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Italie - Naples",
+   "city": "Naples",
+   "cp": "",
+   "city_cp": "",
+   "address": "via Francesco Crispi, 86, 80121 Naples",
+   "address_lines": [
+    "via Francesco Crispi, 86",
+    "80121 Naples"
+   ],
+   "phone": "0817616262",
+   "emails": [],
+   "url": "http://www.institutfrancais.it/napoli",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Italie - Palerme",
+   "city": "Palerme",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Paolo Gili, 4, 90138 Palerme",
+   "address_lines": [
+    "Via Paolo Gili, 4",
+    "90138 Palerme"
+   ],
+   "phone": "091212389",
+   "emails": [],
+   "url": "http://www.institutfrancais.it/palermo",
+   "so": false
+  },
+  {
+   "name": "Institut français - Centre Saint Louis",
+   "city": "Rome",
+   "cp": "",
+   "city_cp": "",
+   "address": "Largo Toniolo, 20/22, 00186 Rome",
+   "address_lines": [
+    "Largo Toniolo, 20/22",
+    "00186 Rome"
+   ],
+   "phone": "06 68 02 625",
+   "emails": [
+    "esami@ifcsl.com"
+   ],
+   "url": "http://www.ifcsl.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Sassari c/o Liceo Statale Margherita di Castelvì",
+   "city": "Sassari",
+   "cp": "",
+   "city_cp": "",
+   "address": "Viale E. Berlinguer, 2, 07100 Sassari",
+   "address_lines": [
+    "Viale E. Berlinguer, 2",
+    "07100 Sassari"
+   ],
+   "phone": "3500334993",
+   "emails": [
+    "alliancefrancaisesassari@gmail.com"
+   ],
+   "url": "https://sites.google.com/view/alliancefrancaisesassari/home",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Torino",
+   "city": "Torino",
+   "cp": "",
+   "city_cp": "",
+   "address": "Corso F. Turati 12, 10128 Torino",
+   "address_lines": [
+    "Corso F. Turati 12",
+    "10128 Torino"
+   ],
+   "phone": "01119716565",
+   "emails": [
+    "pedagogia@alliancefrto.it"
+   ],
+   "url": "http://www.alliancefrto.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Trieste",
+   "city": "Trieste",
+   "cp": "",
+   "city_cp": "",
+   "address": "Piazza Sant'Antonio Nuovo 2, 34122 Trieste",
+   "address_lines": [
+    "Piazza Sant'Antonio Nuovo 2",
+    "34122 Trieste"
+   ],
+   "phone": "0039 040371091",
+   "emails": [
+    "alliancefrancaise.trieste@gmail.com"
+   ],
+   "url": "http://www.aftrieste.it",
+   "so": false
+  },
+  {
+   "name": "Alliance française Venise",
+   "city": "Venise",
+   "cp": "",
+   "city_cp": "",
+   "address": "San Marco 4939, 30124 Venise",
+   "address_lines": [
+    "San Marco 4939",
+    "30124 Venise"
+   ],
+   "phone": "041 5227079",
+   "emails": [
+    "certificazioni@afvenezia.it"
+   ],
+   "url": "http://afvenezia.it/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Vintimille",
+   "city": "Ventimiglia",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Via Martiri della Libertà, 18039 Ventimiglia",
+   "address_lines": [
+    "1 Via Martiri della Libertà",
+    "18039 Ventimiglia"
+   ],
+   "phone": "0184352568",
+   "emails": [],
+   "url": "http://Alliance Francaise Riviera dei Fiori",
+   "so": false
+  },
+  {
+   "name": "Alliance française Vérone",
+   "city": "Verona",
+   "cp": "",
+   "city_cp": "",
+   "address": "Vicolo Cieco Coeli 18, 37129 Verona",
+   "address_lines": [
+    "Vicolo Cieco Coeli 18",
+    "37129 Verona"
+   ],
+   "phone": "3429615258",
+   "emails": [
+    "afverona.delf@gmail.com"
+   ],
+   "url": "http://www.alliancefr-verona.org/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "country": "Dominique",
+ "iso2": "DM",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "MINISTÈRE DE L'EDUCATION DE LA DOMINIQUE",
+   "city": "roseau",
+   "cp": "00152",
+   "city_cp": "",
+   "address": "Ministry of Education, 00152 roseau",
+   "address_lines": [
+    "Ministry of Education",
+    "00152 roseau"
+   ],
+   "phone": "+1 767-266-5537",
+   "emails": [],
+   "url": "www.education.gov.dm",
+   "so": false,
+   "products": [],
+   "cci_id": 840,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/840"
+  }
+ ]
+}

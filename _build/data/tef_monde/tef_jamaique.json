@@ -1,0 +1,51 @@
+{
+ "country": "Jamaïque",
+ "iso2": "JM",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA JAMAÏQUE",
+   "city": "KINGSTON",
+   "cp": "10",
+   "city_cp": "",
+   "address": "12 Merrick Avenue, 10 KINGSTON",
+   "address_lines": [
+    "12 Merrick Avenue",
+    "10 KINGSTON"
+   ],
+   "phone": "+1 876-669-7945",
+   "emails": [
+    "admin@afjamaica.com"
+   ],
+   "url": "https://afj.afcaraibe.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 123,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/123"
+  },
+  {
+   "name": "CARIBBEAN MARITIME UNIVERSITY",
+   "city": "KINGSTON",
+   "cp": "10",
+   "city_cp": "",
+   "address": "Norman Manley Highway, Palisadoes Park, 10 KINGSTON",
+   "address_lines": [
+    "Norman Manley Highway, Palisadoes Park",
+    "10 KINGSTON"
+   ],
+   "phone": "+1 876-924-8150",
+   "emails": [],
+   "url": "www.cmu.edu.jm",
+   "so": false,
+   "products": [],
+   "cci_id": 268,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/268"
+  }
+ ]
+}

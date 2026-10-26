@@ -1,0 +1,102 @@
+{
+ "country": "Algérie",
+ "iso2": "DZ",
+ "fei_id": "115",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Alger",
+  "cp": "",
+  "city_cp": "",
+  "address": "25, chemin Abdelkader Gadouche Hydra ALGER, 16035 Alger",
+  "address_lines": [
+   "25, chemin Abdelkader Gadouche Hydra ALGER",
+   "16035 Alger"
+  ],
+  "phone": "+21321981540",
+  "emails": [],
+  "url": "http://www.ambafrance-dz.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français d'Algérie antenne Alger",
+   "city": "Alger",
+   "cp": "",
+   "city_cp": "",
+   "address": "30, rue des frères Kadri, Hydra,, 16000 Alger",
+   "address_lines": [
+    "30, rue des frères Kadri, Hydra,",
+    "16000 Alger"
+   ],
+   "phone": "770752445",
+   "emails": [],
+   "url": "http://www.if-algerie.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Algérie antenne Annaba",
+   "city": "Annaba",
+   "cp": "",
+   "city_cp": "",
+   "address": "8, bd du 1er novembre 1954, 23000 Annaba",
+   "address_lines": [
+    "8, bd du 1er novembre 1954",
+    "23000 Annaba"
+   ],
+   "phone": "671475348",
+   "emails": [],
+   "url": "http://www.if-algerie.com/annaba",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Algérie antenne Constantine",
+   "city": "Constantine",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, boulevard de l'Indépendance, 25000 Constantine",
+   "address_lines": [
+    "1, boulevard de l'Indépendance",
+    "25000 Constantine"
+   ],
+   "phone": "00213799501250",
+   "emails": [],
+   "url": "http://www.if-algerie.com/constantine",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Algérie antenne Oran",
+   "city": "Oran",
+   "cp": "",
+   "city_cp": "",
+   "address": "112 rue Larbi Ben Mhidi, 31000 Oran",
+   "address_lines": [
+    "112 rue Larbi Ben Mhidi",
+    "31000 Oran"
+   ],
+   "phone": "770909164",
+   "emails": [],
+   "url": "http://www.if-algerie.com/oran",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Algérie antenne Tlemcen",
+   "city": "Tlemcen",
+   "cp": "",
+   "city_cp": "",
+   "address": "01 RUE COMMANDANT DJABER, 13000 Tlemcen",
+   "address_lines": [
+    "01 RUE COMMANDANT DJABER",
+    "13000 Tlemcen"
+   ],
+   "phone": "043261722",
+   "emails": [],
+   "url": "http://www.if-algerie.com/tlemcen",
+   "so": false
+  }
+ ]
+}

@@ -80,8 +80,10 @@ FOOT = """</div></article>
       <li><a href="/delf-b2/">DELF B2</a></li>
       <li><a href="/delf-b1/">DELF B1</a></li>
       <li><a href="/dalf/">DALF C1 · C2</a></li>
+      <li><a href="/blog/calendrier-delf-dalf-2026-2027/">Calendrier DELF-DALF 2027</a></li>
       <li><a href="/ou-passer/">Où passer l'examen</a></li>
       <li><a href="/centres/">Annuaire des centres</a></li>
+      <li><a href="/trouver-un-centre/">Trouver un centre près de chez vous</a></li>
     </ul></div>
     <div><h4>Ressources</h4><ul>
       <li><a href="/examens-blancs/">Examens blancs</a></li>

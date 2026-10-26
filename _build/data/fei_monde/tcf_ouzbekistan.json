@@ -1,0 +1,45 @@
+{
+ "country": "Ouzbékistan",
+ "iso2": "UZ",
+ "fei_id": "50",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Samarcande",
+   "cp": "",
+   "city_cp": "",
+   "address": "3-4 rue Temur Malik, 140100 Samarcande",
+   "address_lines": [
+    "3-4 rue Temur Malik",
+    "140100 Samarcande"
+   ],
+   "phone": "998-55-705-07-50",
+   "emails": [
+    "cours@af-samarcande.uz"
+   ],
+   "url": "",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Tachkent",
+   "cp": "",
+   "city_cp": "",
+   "address": "112, rue Zulfiyakhonim, 100128 Tachkent",
+   "address_lines": [
+    "112, rue Zulfiyakhonim",
+    "100128 Tachkent"
+   ],
+   "phone": "998-71-244-94-09",
+   "emails": [],
+   "url": "http://af-tachkent.uz/",
+   "so": true
+  }
+ ]
+}

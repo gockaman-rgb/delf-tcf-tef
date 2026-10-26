@@ -1,0 +1,28 @@
+{
+ "country": "Cambodge",
+ "iso2": "KH",
+ "fei_id": "40",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Cambodge - Centre de langues",
+   "city": "Phnom Penh",
+   "cp": "",
+   "city_cp": "",
+   "address": "218 rue 184 (Keo Chea) BP 827, Phnom Penh",
+   "address_lines": [
+    "218 rue 184 (Keo Chea) BP 827",
+    "Phnom Penh"
+   ],
+   "phone": "855-875-757-24",
+   "emails": [],
+   "url": "http://www.institutfrancais-cambodge.com",
+   "so": true
+  }
+ ]
+}

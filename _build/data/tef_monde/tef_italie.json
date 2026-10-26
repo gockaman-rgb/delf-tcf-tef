@@ -1,0 +1,340 @@
+{
+ "country": "Italie",
+ "iso2": "IT",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 17,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "Arzignano (VI)",
+   "cp": "36071",
+   "city_cp": "",
+   "address": "Viale Vicenza 49/A, 36071 Arzignano (VI)",
+   "address_lines": [
+    "Viale Vicenza 49/A",
+    "36071 Arzignano (VI)"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 886,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/886"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BARI",
+   "city": "BARI",
+   "cp": "70122",
+   "city_cp": "",
+   "address": "Strada de' Gironda, 22, 70122 BARI",
+   "address_lines": [
+    "Strada de' Gironda, 22",
+    "70122 BARI"
+   ],
+   "phone": "+39 080 521 0017",
+   "emails": [
+    "certificazioni@afbari.it"
+   ],
+   "url": "www.alliancefrba.it",
+   "so": false,
+   "products": [],
+   "cci_id": 747,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/747"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "BO",
+   "cp": "Bologne",
+   "city_cp": "",
+   "address": "Via de' Marchi, 4, 40123, Bologne BO",
+   "address_lines": [
+    "Via de' Marchi, 4, 40123",
+    "Bologne BO"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 889,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/889"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "LANCENIGO TV",
+   "cp": "31020",
+   "city_cp": "",
+   "address": "Via Franchini 1, 31020 LANCENIGO TV",
+   "address_lines": [
+    "Via Franchini 1",
+    "31020 LANCENIGO TV"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 890,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/890"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE RIMINI",
+   "city": "MAREBELLO DI RIMINI",
+   "cp": "47924",
+   "city_cp": "",
+   "address": "viale Regina Margherita, 20, 47924 MAREBELLO DI RIMINI",
+   "address_lines": [
+    "viale Regina Margherita, 20",
+    "47924 MAREBELLO DI RIMINI"
+   ],
+   "phone": "+39 331 369 3135",
+   "emails": [
+    "dfp.tef.afrimini@gmail.com"
+   ],
+   "url": "www.alliancefrancaise.sm/",
+   "so": false,
+   "products": [],
+   "cci_id": 180,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/180"
+  },
+  {
+   "name": "STUDIO REICH",
+   "city": "MILAN",
+   "cp": "20154",
+   "city_cp": "",
+   "address": "Via Prina, 15, 20154 MILAN",
+   "address_lines": [
+    "Via Prina, 15",
+    "20154 MILAN"
+   ],
+   "phone": "+39 02 331 4301",
+   "emails": [],
+   "url": "www.corsidifrancese.it",
+   "so": false,
+   "products": [
+    "TEF Québec"
+   ],
+   "cci_id": 675,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/675"
+  },
+  {
+   "name": "MEDIAZONE LINGUISTICA",
+   "city": "PÉROUSE",
+   "cp": "6124",
+   "city_cp": "",
+   "address": "Via Villa Glori 7/C, 6124 PÉROUSE",
+   "address_lines": [
+    "Via Villa Glori 7/C",
+    "6124 PÉROUSE"
+   ],
+   "phone": "+39 075 500 8822",
+   "emails": [
+    "info@mediazionelinguisticaperugia.it"
+   ],
+   "url": "www.mediazionelinguisticaperugia.it",
+   "so": false,
+   "products": [],
+   "cci_id": 674,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/674"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BASILICATE",
+   "city": "POTENZA",
+   "cp": "85025 Melfi (PZ)",
+   "city_cp": "",
+   "address": "Via Eugenio Montale 2A, 85025 Melfi (PZ) POTENZA",
+   "address_lines": [
+    "Via Eugenio Montale 2A",
+    "85025 Melfi (PZ) POTENZA"
+   ],
+   "phone": "+39 333 655 9020",
+   "emails": [
+    "certificazioni@afpotenza.it"
+   ],
+   "url": "www.afpotenza.it/",
+   "so": false,
+   "products": [],
+   "cci_id": 48,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/48"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "Roma",
+   "cp": "00182",
+   "city_cp": "",
+   "address": "Via Saluzzo 8, 00182 Roma",
+   "address_lines": [
+    "Via Saluzzo 8",
+    "00182 Roma"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 900,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/900"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TRIESTE",
+   "city": "TRIESTE",
+   "cp": "34122",
+   "city_cp": "",
+   "address": "Piazza San Antonio Nuovo 2, 34122 TRIESTE",
+   "address_lines": [
+    "Piazza San Antonio Nuovo 2",
+    "34122 TRIESTE"
+   ],
+   "phone": "+39 040 371091",
+   "emails": [
+    "alliancefrancaise.trieste@gmail.com"
+   ],
+   "url": "www.aftrieste.it",
+   "so": false,
+   "products": [],
+   "cci_id": 212,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/212"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "VALDAGNO VI",
+   "cp": "36078",
+   "city_cp": "",
+   "address": "Viale Trento 1, 36078 VALDAGNO VI",
+   "address_lines": [
+    "Viale Trento 1",
+    "36078 VALDAGNO VI"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 891,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/891"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VÉRONE",
+   "city": "VÉRONE",
+   "cp": "37129",
+   "city_cp": "",
+   "address": "Vicolo Cieco Coeli, 37129 VÉRONE",
+   "address_lines": [
+    "Vicolo Cieco Coeli",
+    "37129 VÉRONE"
+   ],
+   "phone": "+39 320 575 6050",
+   "emails": [
+    "afverona.dfp.tef@gmail.com"
+   ],
+   "url": "http://www.alliancefr-verona.org/wp/fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 219,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/219"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "VICENCE",
+   "cp": "36100",
+   "city_cp": "",
+   "address": "Contrà Proti 3, 36100 VICENCE",
+   "address_lines": [
+    "Contrà Proti 3",
+    "36100 VICENCE"
+   ],
+   "phone": "+39 320 575 6050",
+   "emails": [
+    "alliancevicenza@hotmail.com"
+   ],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 220,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/220"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "VICENCE",
+   "cp": "36100",
+   "city_cp": "",
+   "address": "Institut Farina - Via IV Novembre, 34, 36100 VICENCE",
+   "address_lines": [
+    "Institut Farina - Via IV Novembre, 34",
+    "36100 VICENCE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 804,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/804"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "Vicence",
+   "cp": "36100",
+   "city_cp": "",
+   "address": "Viale Giosuè Carducci, 17, 36100 Vicence",
+   "address_lines": [
+    "Viale Giosuè Carducci, 17",
+    "36100 Vicence"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 887,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/887"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "Vicence",
+   "cp": "36100",
+   "city_cp": "",
+   "address": "Via D'Annunzio, 15, 36100 Vicence",
+   "address_lines": [
+    "Via D'Annunzio, 15",
+    "36100 Vicence"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 888,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/888"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE VICENZA",
+   "city": "VIGEVANO PV",
+   "cp": "27029",
+   "city_cp": "",
+   "address": "Via Ludovico il Moro 6/8, 27029 VIGEVANO PV",
+   "address_lines": [
+    "Via Ludovico il Moro 6/8",
+    "27029 VIGEVANO PV"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.alliancefr.it/vicenza/",
+   "so": false,
+   "products": [],
+   "cci_id": 930,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/930"
+  }
+ ]
+}

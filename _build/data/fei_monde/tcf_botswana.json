@@ -1,0 +1,30 @@
+{
+ "country": "Botswana",
+ "iso2": "BW",
+ "fei_id": "332",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Gaborone",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mobuto Drive PO Box 1817, Gaborone",
+   "address_lines": [
+    "Mobuto Drive PO Box 1817",
+    "Gaborone"
+   ],
+   "phone": "267-395-16-50",
+   "emails": [
+    "admin@afgaborone.org"
+   ],
+   "url": "http://www.alliance.org.za",
+   "so": false
+  }
+ ]
+}

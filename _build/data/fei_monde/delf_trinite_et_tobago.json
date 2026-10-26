@@ -1,0 +1,43 @@
+{
+ "country": "Trinité et Tobago",
+ "iso2": "TT",
+ "fei_id": "36",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Port of Spain",
+  "cp": "",
+  "city_cp": "",
+  "address": "17 Alcazar Street, St Clair, PO Box 1288 Port of Spain",
+  "address_lines": [
+   "17 Alcazar Street, St Clair",
+   "PO Box 1288 Port of Spain"
+  ],
+  "phone": "622 61 19",
+  "emails": [],
+  "url": "http://www.alliancetnt.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Port Of Spain",
+   "cp": "",
+   "city_cp": "",
+   "address": "17 Alcazar Street Port Of Spain",
+   "address_lines": [
+    "17 Alcazar Street Port Of Spain"
+   ],
+   "phone": "(868) 622-6119",
+   "emails": [
+    "director@alliancetnt.org"
+   ],
+   "url": "https://aftnt.afcaraibe.org/",
+   "so": false
+  }
+ ]
+}

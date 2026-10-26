@@ -1,0 +1,412 @@
+{
+ "country": "États-Unis",
+ "iso2": "US",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 20,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "UNIVERSITÉ DE MASSACHUSETTS",
+   "city": "AMHERST",
+   "cp": "MA 01003",
+   "city_cp": "",
+   "address": "1 Campus Center Way, MA 01003 AMHERST",
+   "address_lines": [
+    "1 Campus Center Way",
+    "MA 01003 AMHERST"
+   ],
+   "phone": "+1 413-545-2314",
+   "emails": [
+    "Tcftest@umass.edu"
+   ],
+   "url": "www.umass.edu/french/",
+   "so": false,
+   "products": [],
+   "cci_id": 713,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/713"
+  },
+  {
+   "name": "ALLIANCE FRANCAISE DE DETROIT",
+   "city": "BINGHAM FARMS",
+   "cp": "48025",
+   "city_cp": "",
+   "address": "30800 Telegraph Rd, 48025 BINGHAM FARMS",
+   "address_lines": [
+    "30800 Telegraph Rd",
+    "48025 BINGHAM FARMS"
+   ],
+   "phone": "+1 248-538-5440",
+   "emails": [],
+   "url": "https://www.afdetroit.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 835,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/835"
+  },
+  {
+   "name": "FRENCH LIBRARY - ALLIANCE FRANÇAISE OF BOSTON AND CAMBRIDGE",
+   "city": "BOSTON",
+   "cp": "2116",
+   "city_cp": "",
+   "address": "53 Marlborough Street, 2116 BOSTON",
+   "address_lines": [
+    "53 Marlborough Street",
+    "2116 BOSTON"
+   ],
+   "phone": "+1 617-912-0400",
+   "emails": [
+    "exams@frenchlibrary.org"
+   ],
+   "url": "www.frenchculturalcenter.org",
+   "so": false,
+   "products": [],
+   "cci_id": 454,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/454"
+  },
+  {
+   "name": "BROOKLYN COLLEGE",
+   "city": "BROOKLYN",
+   "cp": "11210",
+   "city_cp": "",
+   "address": "Modern Languages and Literatures Department, 11210 BROOKLYN",
+   "address_lines": [
+    "Modern Languages and Literatures Department",
+    "11210 BROOKLYN"
+   ],
+   "phone": "+1 718-951-5000",
+   "emails": [],
+   "url": "https://www.brooklyn.edu/mll/",
+   "so": false,
+   "products": [],
+   "cci_id": 919,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/919"
+  },
+  {
+   "name": "LYCÉE INTERNATIONAL DE BOSTON",
+   "city": "CAMBRIDGE",
+   "cp": "2140",
+   "city_cp": "",
+   "address": "45 Matignon Road, 2140 CAMBRIDGE",
+   "address_lines": [
+    "45 Matignon Road",
+    "2140 CAMBRIDGE"
+   ],
+   "phone": "+1 617-499-1451",
+   "emails": [
+    "adulted@isbos.org"
+   ],
+   "url": "www.isbos.org",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 620,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/620"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CHICAGO",
+   "city": "CHICAGO",
+   "cp": "60610",
+   "city_cp": "",
+   "address": "810 North Dearborn Street, 60610 CHICAGO",
+   "address_lines": [
+    "810 North Dearborn Street",
+    "60610 CHICAGO"
+   ],
+   "phone": "+1 312-337-1070",
+   "emails": [
+    "certifications@af-chicago.org"
+   ],
+   "url": "www.af-chicago.org",
+   "so": false,
+   "products": [],
+   "cci_id": 73,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/73"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE DALLAS",
+   "city": "DALLAS",
+   "cp": "TX 75248",
+   "city_cp": "",
+   "address": "15150 Preston Road, Suite 250, TX 75248 DALLAS",
+   "address_lines": [
+    "15150 Preston Road, Suite 250",
+    "TX 75248 DALLAS"
+   ],
+   "phone": "+1 972-733-0844",
+   "emails": [
+    "director@afdallas.org"
+   ],
+   "url": "www.afdallas.org",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 751,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/751"
+  },
+  {
+   "name": "UNIVERSITY OF ARKANSAS",
+   "city": "FAYETTEVILLE",
+   "cp": "72701",
+   "city_cp": "",
+   "address": "280 N. McElroy, 72701 FAYETTEVILLE",
+   "address_lines": [
+    "280 N. McElroy",
+    "72701 FAYETTEVILLE"
+   ],
+   "phone": "+1 479-409-5663",
+   "emails": [],
+   "url": "https://wllc.uark.edu",
+   "so": false,
+   "products": [],
+   "cci_id": 721,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/721"
+  },
+  {
+   "name": "FLORIDA GULF COAST UNIVERSITY",
+   "city": "FORT MYERS",
+   "cp": "33965",
+   "city_cp": "",
+   "address": "10501 FGCU Blvd. S., 33965 FORT MYERS",
+   "address_lines": [
+    "10501 FGCU Blvd. S.",
+    "33965 FORT MYERS"
+   ],
+   "phone": "+1 239-590-7271",
+   "emails": [],
+   "url": "www.fgcu.edu",
+   "so": false,
+   "products": [],
+   "cci_id": 421,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/421"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE HOUSTON",
+   "city": "HOUSTON",
+   "cp": "77006",
+   "city_cp": "",
+   "address": "427 Lovett Blvd., 77006 HOUSTON",
+   "address_lines": [
+    "427 Lovett Blvd.",
+    "77006 HOUSTON"
+   ],
+   "phone": "+1 713-526-1121",
+   "emails": [
+    "programs@alliancehouston.org"
+   ],
+   "url": "www.alliancehouston.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 969,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/969"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA NOUVELLE ORLÉANS",
+   "city": "LA NOUVELLE ORLÉANS",
+   "cp": "LA70130",
+   "city_cp": "",
+   "address": "1519 Jackson Avenue, LA70130 LA NOUVELLE ORLÉANS",
+   "address_lines": [
+    "1519 Jackson Avenue",
+    "LA70130 LA NOUVELLE ORLÉANS"
+   ],
+   "phone": "+1 504-568-0770",
+   "emails": [
+    "afno@af-neworleans.org"
+   ],
+   "url": "www.af-neworleans.org",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 124,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/124"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MIAMI METRO",
+   "city": "MIAMI",
+   "cp": "33132",
+   "city_cp": "",
+   "address": "100 N Biscayne boulevard Suite 2120, 33132 MIAMI",
+   "address_lines": [
+    "100 N Biscayne boulevard Suite 2120",
+    "33132 MIAMI"
+   ],
+   "phone": "+1 305-417-6243",
+   "emails": [
+    "info@af-miami.org"
+   ],
+   "url": "www.af-miami.org",
+   "so": false,
+   "products": [],
+   "cci_id": 151,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/151"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE MINNEAPOLIS ST PAUL",
+   "city": "MINNEAPOLIS",
+   "cp": "MN 55405",
+   "city_cp": "",
+   "address": "227 North Colfax Ave, MN 55405 MINNEAPOLIS",
+   "address_lines": [
+    "227 North Colfax Ave",
+    "MN 55405 MINNEAPOLIS"
+   ],
+   "phone": "+1 612-332-0436",
+   "emails": [
+    "bonjour@afmsp.org"
+   ],
+   "url": "afmsp.org",
+   "so": false,
+   "products": [],
+   "cci_id": 152,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/152"
+  },
+  {
+   "name": "MIDDLE TENNESSEE STATE UNIVERSITY",
+   "city": "MURFREESBORO",
+   "cp": "TN 37132",
+   "city_cp": "",
+   "address": "1301 East Main Street, TN 37132 MURFREESBORO",
+   "address_lines": [
+    "1301 East Main Street",
+    "TN 37132 MURFREESBORO"
+   ],
+   "phone": "+1 615-904-8046",
+   "emails": [],
+   "url": "www.mtsu.edu/worldlang/",
+   "so": false,
+   "products": [],
+   "cci_id": 628,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/628"
+  },
+  {
+   "name": "VANDERBILT UNIVERSITY",
+   "city": "NASHVILLE",
+   "cp": "37235",
+   "city_cp": "",
+   "address": "2301 Vanderbilt Place, 37235 NASHVILLE",
+   "address_lines": [
+    "2301 Vanderbilt Place",
+    "37235 NASHVILLE"
+   ],
+   "phone": "+1 615-875-8481",
+   "emails": [],
+   "url": "https://as.vanderbilt.edu/french-italian/bio/dieu-porter/",
+   "so": false,
+   "products": [],
+   "cci_id": 899,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/899"
+  },
+  {
+   "name": "RUTGERS UNIVERSITY",
+   "city": "NEW BRUNSWICK",
+   "cp": "08901-1414",
+   "city_cp": "",
+   "address": "Dept. of French, Academic Building, 08901-1414 NEW BRUNSWICK",
+   "address_lines": [
+    "Dept. of French, Academic Building",
+    "08901-1414 NEW BRUNSWICK"
+   ],
+   "phone": "+1 732-614-3120",
+   "emails": [],
+   "url": "rutgers.edu",
+   "so": false,
+   "products": [],
+   "cci_id": 664,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/664"
+  },
+  {
+   "name": "L'ALLIANCE NEW YORK",
+   "city": "NEW YORK",
+   "cp": "10022",
+   "city_cp": "",
+   "address": "22 East 60th Street, 10022 NEW YORK",
+   "address_lines": [
+    "22 East 60th Street",
+    "10022 NEW YORK"
+   ],
+   "phone": "+1 646-388-6612",
+   "emails": [],
+   "url": "https://fiaf.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 456,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/456"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE RALEIGH",
+   "city": "RALEIGH",
+   "cp": "27613",
+   "city_cp": "",
+   "address": "6320 Pleasant Pines Drive, 27613 RALEIGH",
+   "address_lines": [
+    "6320 Pleasant Pines Drive",
+    "27613 RALEIGH"
+   ],
+   "phone": "+1 919-985-3919",
+   "emails": [
+    "frenchallianceraleigh@gmail.com"
+   ],
+   "url": "www.afraleigh.org",
+   "so": false,
+   "products": [],
+   "cci_id": 178,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/178"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE SEATTLE",
+   "city": "SEATTLE",
+   "cp": "98103",
+   "city_cp": "",
+   "address": "4649 Sunnyside Ave N, 98103 SEATTLE",
+   "address_lines": [
+    "4649 Sunnyside Ave N",
+    "98103 SEATTLE"
+   ],
+   "phone": "+1 206-632-5433",
+   "emails": [
+    "info@afseattle.org"
+   ],
+   "url": "https://www.afseattle.org/exam-center/tef/",
+   "so": false,
+   "products": [],
+   "cci_id": 198,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/198"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE WASHINGTON",
+   "city": "WASHINGTON DC",
+   "cp": "20008",
+   "city_cp": "",
+   "address": "2142 Wyoming Avenue, NW, 20008 WASHINGTON DC",
+   "address_lines": [
+    "2142 Wyoming Avenue, NW",
+    "20008 WASHINGTON DC"
+   ],
+   "phone": "+1 202-234-7911",
+   "emails": [
+    "certifications@francedc.org"
+   ],
+   "url": "www.francedc.org",
+   "so": false,
+   "products": [],
+   "cci_id": 222,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/222"
+  }
+ ]
+}

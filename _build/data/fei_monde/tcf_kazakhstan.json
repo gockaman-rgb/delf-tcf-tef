@@ -1,0 +1,48 @@
+{
+ "country": "Kazakhstan",
+ "iso2": "KZ",
+ "fei_id": "48",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Almaty",
+   "cp": "",
+   "city_cp": "",
+   "address": "M. Vivien FOUQUET 7a/3 rue Satpayev, 050031 Almaty",
+   "address_lines": [
+    "M. Vivien FOUQUET 7a/3 rue Satpayev",
+    "050031 Almaty"
+   ],
+   "phone": "7-727-262-03-43 / 7-707-292-19-20",
+   "emails": [
+    "examens@af-almaty.kz",
+    "pedagogie@af-almaty.kz"
+   ],
+   "url": "http://www.almaty.alliancefr.kz",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Astana (Nur-Sultan)",
+   "cp": "",
+   "city_cp": "",
+   "address": "25, Tashenov street, 4th floor, 010000 Astana (Nur-Sultan)",
+   "address_lines": [
+    "25, Tashenov street, 4th floor",
+    "010000 Astana (Nur-Sultan)"
+   ],
+   "phone": "7-70-26-30-20-44",
+   "emails": [
+    "contact@af-astana.kz"
+   ],
+   "url": "http://www.alliance.kz/ns",
+   "so": true
+  }
+ ]
+}

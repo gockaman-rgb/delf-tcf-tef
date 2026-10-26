@@ -1,0 +1,29 @@
+{
+ "country": "Guyana",
+ "iso2": "GY",
+ "fei_id": "359",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance Francaise de Guyana",
+   "city": "Georgetown",
+   "cp": "",
+   "city_cp": "",
+   "address": "25 Lama Avenue, Bel Air Park Georgetown",
+   "address_lines": [
+    "25 Lama Avenue, Bel Air Park Georgetown"
+   ],
+   "phone": "6379426",
+   "emails": [
+    "info@alliancefrancaisegy.com"
+   ],
+   "url": "https://alliancefrancaisegy.com/",
+   "so": false
+  }
+ ]
+}

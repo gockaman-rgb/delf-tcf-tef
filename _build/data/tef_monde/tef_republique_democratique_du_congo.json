@@ -1,0 +1,73 @@
+{
+ "country": "République démocratique du Congo",
+ "iso2": "CD",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE RDC - BUKAVU",
+   "city": "BUKAVU",
+   "cp": "24300",
+   "city_cp": "",
+   "address": "110 boulevard Patrice Emery, 24300 BUKAVU",
+   "address_lines": [
+    "110 boulevard Patrice Emery",
+    "24300 BUKAVU"
+   ],
+   "phone": "+243 841 193 475",
+   "emails": [
+    "accueilifbukavu@gmail.com"
+   ],
+   "url": "https://www.institutfrancais-kinshasa.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 535,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/535"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE RDC - KINSHASA",
+   "city": "KINSHASA",
+   "cp": "B.P.5236",
+   "city_cp": "",
+   "address": "33 Avenue de la Gombe / Kinshasa-Gombe, B.P.5236 KINSHASA",
+   "address_lines": [
+    "33 Avenue de la Gombe / Kinshasa-Gombe",
+    "B.P.5236 KINSHASA"
+   ],
+   "phone": "+243 843 964 802",
+   "emails": [
+    "cdl@ifkinshasa.org"
+   ],
+   "url": "https://www.institutfrancais-kinshasa.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 522,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/522"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE RDC - LUBUMBASHI",
+   "city": "LUBUMBASHI",
+   "cp": "7010",
+   "city_cp": "",
+   "address": "63 chaussée Laurent Désiré Kabila, 7010 LUBUMBASHI",
+   "address_lines": [
+    "63 chaussée Laurent Désiré Kabila",
+    "7010 LUBUMBASHI"
+   ],
+   "phone": "+243 819 991 314",
+   "emails": [],
+   "url": "https://www.institutfranais-lubumbashi.com",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 527,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/527"
+  }
+ ]
+}

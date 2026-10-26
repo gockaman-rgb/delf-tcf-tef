@@ -34,6 +34,8 @@ PAYS_ID = {"France": 73, "Canada": 112, "Algérie": 115, "Maroc": 117, "Tunisie"
            "Égypte": 116, "Suisse": 94, "Royaume-Uni": 89, "États-Unis": 113,
            "Émirats arabes unis": 101, "Turquie": 95, "Brésil": 19, "Mexique": 30, "Colombie": 21,
            "Espagne": 70, "Argentine": 15, "Chili": 20, "Pérou": 34, "Équateur": 25}
+PAYS_ID.update({"Allemagne": 60, "Italie": 78, "Pays-Bas": 84, "Portugal": 86, "Roumanie": 87, "Pologne": 85,
+                "Grèce": 74, "Irlande": 76})   # Europe (26/10/2026 : pays_config_eu.py)
 CC = {"France": "33", "Canada": "1", "Algérie": "213", "Maroc": "212", "Tunisie": "216", "Sénégal": "221",
       "Côte d'Ivoire": "225", "Cameroun": "237", "Belgique": "32", "Liban": "961", "Inde": "91",
       "République démocratique du Congo": "243", "Bénin": "229", "Togo": "228", "Guinée": "224",
@@ -688,39 +690,48 @@ qu'ailleurs. Voici les coordonnées de chaque centre, pays par pays.""",
                ("/centres/tcf-algerie/", "Centres TCF en Algérie", "Les cinq antennes de l'Institut français."),
                ("/centres/tcf-tunisie/", "Centres TCF en Tunisie", "Les 14 centres agréés."),
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", "")]),
-    dict(slug="tcf-europe", files=["tcf_espagne", "tcf_royaume_uni", "tcf_suisse", "tcf_belgique"], layout="multi", exam="TCF", accent="accent-tcf",
-         pointers=pays_pointers("Espagne", "Royaume-Uni"), modified="2026-10-08", date_fr="8 octobre 2026", list_date_fr="8 octobre 2026",
-         crumb="Centres TCF en Espagne, Suisse, Belgique, Royaume-Uni",
-         title="Centres TCF en Espagne, en Suisse, en Belgique et au R.-U.",
-         desc="Les 26 centres TCF agréés en Espagne, en Suisse, en Belgique et au Royaume-Uni — Madrid, Genève, Bruxelles, Londres… — avec contacts, prix et dates.",
-         h1="Centres TCF en Espagne, en Suisse, en Belgique et au Royaume-Uni : les centres agréés",
-         intro="""Hors de France, en Europe, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France
-Éducation international en Espagne, en Suisse, en Belgique et au Royaume-Uni au 8 octobre 2026 — Instituts
-français, Alliances françaises, écoles —, dont %(so)d avec des sessions sur ordinateur. L'Espagne et le
-Royaume-Uni ont chacun leur page détaillée : qui propose le TCF Canada, à quel prix, à quelles dates. Pour un
-dossier de naturalisation française, c'est le TCF IRN qu'il faut demander ; pour Entrée express, le TCF Canada.""",
-         facts=["<strong>{n} centres</strong> : Espagne 14, Suisse 7, Royaume-Uni 3, Belgique 2 (liste FEI du 8 octobre 2026).",
-                "Espagne : <strong>11 centres proposent le TCF Canada</strong>, de 275 à 287 € ; Royaume-Uni : Londres (£260) et Glasgow (£325), où les places manquent jusqu'au printemps 2027.",
-                "Le réseau français reste le plus dense d'Europe : <strong>251 centres</strong>, dont plusieurs près des frontières espagnole, belge et suisse.",
-                "Chaque centre choisit ses déclinaisons, ses dates et son tarif : en Suisse, quatre des sept centres relèvent de Swiss Exams.",
-                "20 à 30 jours entre deux passations ; attestation valable deux ans.",
-                "Un organisme absent de cette liste n'est pas agréé."],
-         stat4=("4", "pays", "Espagne, Suisse, Belgique, Royaume-Uni"), cities_note="de Madrid à Londres",
+    # Europe (26/10/2026) : douze pays, chacun renvoyé à sa page pays ; listes FEI du 26 octobre 2026 (data/fei_monde/), sauf
+    # l'Espagne et le Royaume-Uni, qui gardent le fichier de leur page (8 octobre) pour n'être comptés qu'une fois sur /centres/.
+    dict(slug="tcf-europe", files=["tcf_espagne"] + ["fei_monde/tcf_" + f for f in ("italie", "allemagne", "suisse", "pays_bas", "portugal")]
+         + ["tcf_royaume_uni"] + ["fei_monde/tcf_" + f for f in ("roumanie", "belgique", "pologne", "grece", "irlande")],
+         layout="multi", exam="TCF", accent="accent-tcf",
+         pointers=pays_pointers("Espagne", "Royaume-Uni", "Allemagne", "Suisse", "Belgique", "Italie", "Pays-Bas", "Portugal",
+                                "Roumanie", "Pologne", "Grèce", "Irlande"),
+         modified="2026-10-26", date_fr="26 octobre 2026", list_date_fr="8 et 26 octobre 2026",
+         crumb="Centres TCF en Europe",
+         title="Centres TCF en Europe : le TCF Canada pays par pays",
+         desc="Les 75 centres TCF agréés dans 12 pays d'Europe — Espagne, Allemagne, Italie, Suisse, Belgique… — et qui propose le TCF Canada, à quel prix.",
+         h1="Centres TCF en Europe : le TCF Canada pays par pays, les prix et les dates",
+         intro="""Hors de France, en Europe, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France Éducation
+international dans les douze pays de cette page — Instituts français, Alliances françaises, écoles,
+universités —, dont %(so)d avec des sessions sur ordinateur. Chaque pays a sa page détaillée : qui propose le TCF Canada,
+à quel prix, à quelles dates. Les tarifs relevés vont de 210 € (Gênes, Erlangen) à 295 € (Allemagne), CHF 290 en Suisse
+et £325 à Glasgow. Pour Entrée express, demandez le TCF Canada ; pour la naturalisation française, le TCF IRN.""",
+         facts=["<strong>{n} centres</strong> dans 12 pays : Espagne 14, Italie 14, Allemagne 13, Suisse 7, Pays-Bas 7, Portugal 6, Royaume-Uni 3, Roumanie 3, Belgique 2, Pologne 2, Grèce 2, Irlande 2 (listes FEI du 8 octobre 2026 pour l'Espagne et le Royaume-Uni, du 26 octobre pour les autres).",
+                "TCF Canada : Espagne de 275 à 287 € ; Allemagne 295 € (210 € à Erlangen) ; Italie de 210 à 250 € ; Belgique 260 et 268 € ; Irlande 270 € ; Pays-Bas 290 € à Amsterdam ; Portugal 211 et 220 € ; Suisse CHF 290 à Montreux ; Royaume-Uni £260 et £325.",
+                "Un centre TCF ne fait pas forcément passer le TCF Canada : en Suisse, seuls ALPADIA (Montreux) et l'Alliance française de Zurich l'annoncent ; à Rome et à Francfort, le centre agréé ne le propose pas.",
+                "⚠️ Places rares : Berlin (4 novembre) et Amsterdam (25 novembre 2026) étaient complets le 26 octobre ; à Londres, la première place libre était le 23 avril 2027 au relevé du 8 octobre.",
+                "Le réseau français reste le plus dense d'Europe : <strong>251 centres</strong>, dont plusieurs près des frontières.",
+                "Chaque centre choisit ses déclinaisons, ses dates et son tarif ; attestation valable deux ans. Un organisme absent de ces listes n'est pas agréé."],
+         stat4=("12", "pays", "de l'Espagne à l'Irlande"), cities_note="de Lisbonne à Varsovie",
          liste_label="pays par pays", decl="Canada, Québec, IRN, tout public, DAP",
          guides=[("/centres/tcf-espagne/", "TCF Canada en Espagne : 11 centres, 281 à 287 €, dates", "Le relevé des 14 centres agréés : déclinaisons, prix, prochaines sessions."),
+                 ("/centres/tcf-allemagne/", "TCF Canada en Allemagne : 10 centres, 295 €, dates", "Les Instituts français et leur module commun, 23 sessions jusqu'en 2027."),
+                 ("/centres/tcf-italie/", "TCF Canada en Italie : 7 centres, 210 à 250 €, dates", "Turin, Gênes, Milan, Venise… et ceux qui ne le proposent pas."),
+                 ("/centres/tcf-suisse/", "TCF Canada en Suisse : Montreux, Zurich, prix en CHF", "Swiss Exams et Fribourg : le tout public seulement."),
                  ("/centres/tcf-royaume-uni/", "TCF Canada à Londres et au Royaume-Uni", "L'Institut français de Londres et l'Alliance de Glasgow, leurs règles, les places."),
                  ("/centres/tcf-france/", "Centres TCF en France : les 251 centres agréés", "Pour les frontaliers, le réseau le plus dense.")],
          sources_links=[("Liste des centres TCF par pays (FEI)", "https://www.france-education-international.fr/centres-d-examen/liste?type-centre=tcf"), ("Carte des centres TCF", FEI_CARTE % "tcf")],
-         sources_text="type « TCF », filtres Espagne, Suisse, Belgique et Royaume-Uni",
-         faq=[("Où passer le TCF en Espagne ?", "Dans l'un des 14 centres agréés au 8 octobre 2026 — Instituts français de Madrid, Barcelone, Valence et Bilbao, Alliances françaises, CELF et ILF à Séville… —, dont 11 proposent le TCF Canada, de 275 à 287 €. Notre page TCF Canada en Espagne les détaille un par un."),
-              ("Où passer le TCF en Suisse ?", "Dans l'un des sept centres agréés listés ci-dessous : Swiss Exams à Berne, Genève, Lausanne et Winterthur, le Centre de langues de l'Université de Fribourg, ALPADIA à Montreux et l'Alliance française de Zurich ; cinq proposent des sessions sur ordinateur."),
-              ("Où passer le TCF en Belgique ?", "À l'Alliance française de Bruxelles-Europe ou à celle de Flandre orientale, à Gand, les deux centres agréés au 8 octobre 2026 — ou dans un centre français proche de la frontière, à Lille par exemple."),
-              ("Où passer le TCF à Londres ?", "À l'Institut français du Royaume-Uni (Cromwell Place) : TCF Canada à £260, sur papier ; le 8 octobre 2026, la première session TCF Canada avec des places était celle du 23 avril 2027. Notre page TCF au Royaume-Uni détaille les règles et les solutions de repli."),
+         sources_text="type « TCF », filtres Espagne, Italie, Allemagne, Suisse, Pays-Bas, Portugal, Royaume-Uni, Roumanie, Belgique, Pologne, Grèce et Irlande",
+         faq=[("Où passer le TCF Canada en Europe ?", "Dans un centre agréé qui annonce la version Canada : en Espagne, 11 des 14 centres ; en Allemagne, 10 sur 13 ; en Italie, 7 sur 14 ; les deux centres belges et les deux irlandais ; les trois Alliances des Pays-Bas ; en Suisse, ALPADIA à Montreux et l'Alliance française de Zurich. Chaque page pays les détaille."),
+              ("Combien coûte le TCF Canada en Europe ?", "Aucun tarif commun : de 210 € (Gênes, Erlangen) à 295 € (Instituts français d'Allemagne), 290 € à Amsterdam, CHF 290 à Montreux, £260 à Londres et £325 à Glasgow, relevés les 8 et 26 octobre 2026."),
+              ("Où passer le TCF en Allemagne ?", "Dans l'un des 13 centres agréés ; dix annoncent le TCF Canada, dont les Instituts français de Berlin, Hambourg, Munich, Stuttgart, Mayence et Brême, à 295 €, sur un module d'inscription commun."),
+              ("Où passer le TCF en Suisse ?", "Dans l'un des sept centres agréés : Swiss Exams à Berne, Genève, Lausanne et Winterthur et l'Université de Fribourg font passer le TCF tout public ; ALPADIA à Montreux et l'Alliance française de Zurich annoncent aussi le TCF Canada."),
               ("Le TCF IRN passé à l'étranger est-il accepté pour la naturalisation française ?", "Oui : l'attestation est délivrée par France Éducation international quel que soit le centre, et l'arrêté du 22 décembre 2025 n'exige que la passation en présentiel dans un centre agréé.")],
          also=[("/centres/tcf-france/", "Centres TCF en France", "Les 251 centres agréés, région par région."),
-               ("/centres/delf-espagne/", "DELF et DALF en Espagne", "Le calendrier national 2027 et la grille unique."),
-               ("/tcf-irn/", "TCF IRN : le test de français pour votre naturalisation", ""),
-               ("/blog/difference-tcf-tef/", "TCF ou TEF : les 9 versions comparées", "")]),
+               ("/centres/delf-allemagne/", "DELF et DALF en Allemagne", "Les dates 2026-2027, B2 à 201 €."),
+               ("/centres/delf-suisse/", "DELF et DALF en Suisse", "Le calendrier national 2027."),
+               ("/tcf-irn/", "TCF IRN : le test de français pour votre naturalisation", "")]),
     dict(slug="tcf-ameriques", files=["tcf_etats_unis", "tcf_mexique", "tcf_colombie", "tcf_argentine", "tcf_equateur", "tcf_chili", "tcf_perou", "tcf_bresil", "tcf_haiti"],
          layout="multi", exam="TCF", accent="accent-tcf",
          pointers=pays_pointers("États-Unis", "Mexique", "Colombie", "Argentine", "Équateur", "Chili", "Pérou"),
@@ -852,7 +863,7 @@ def hub(pages_built):
         rows.append(f'<tr><td><a href="/centres/{spec["slug"]}/">{esc(spec["crumb"])}</a></td><td><strong>{n}</strong></td><td>{so}</td><td>{ncity}</td></tr>')
     for p, (n, so, ncity) in pays:
         rows.append(f'<tr><td><a href="/centres/{p["slug"]}/">{esc(p["crumb"])}</a></td><td><strong>{n}</strong></td><td>{so if p["exam"] == "tcf" else "—"}</td><td>{ncity}</td></tr>')
-    table = ('<div class="tablewrap">\n<table>\n<caption>Les listes de centres publiées sur ce site, d\'après la liste officielle de France Éducation international lue le 19 septembre 2026, et le 8 octobre 2026 pour les neuf pays détaillés. L\'option « sur ordinateur » n\'existe que pour le TCF.</caption>\n'
+    table = ('<div class="tablewrap">\n<table>\n<caption>Les listes de centres publiées sur ce site, d\'après la liste officielle de France Éducation international lue le 19 septembre 2026, et le 8 ou le 26 octobre 2026 pour les pays détaillés. L\'option « sur ordinateur » n\'existe que pour le TCF.</caption>\n'
              '<thead><tr><th>Liste</th><th>Centres</th><th>Sur ordinateur</th><th>Villes</th></tr></thead>\n<tbody>\n' + "\n".join(rows) + "\n</tbody>\n</table>\n</div>")
     # Chaque fichier de données compté une fois : un pays présent sur une page régionale (en renvoi)
     # et sur sa page pays n'est pas compté deux fois.
@@ -871,7 +882,7 @@ def hub(pages_built):
             return "—"
         p, (n, _, _) = cell[(ctry, exam)]
         return f'<a href="/centres/{p["slug"]}/">{n} centre{"s" if n > 1 else ""}</a>'
-    pays_table = ('<div class="tablewrap">\n<table>\n<caption>Une page par examen et par pays : la liste FEI du 8 octobre 2026, le relevé des sites des centres (déclinaisons, prix, dates) et l\'inscription.</caption>\n'
+    pays_table = ('<div class="tablewrap">\n<table>\n<caption>Une page par examen et par pays : la liste FEI du 8 ou du 26 octobre 2026, le relevé des sites des centres (déclinaisons, prix, dates) et l\'inscription.</caption>\n'
                   '<thead><tr><th>Pays</th><th>TCF, dont TCF Canada</th><th>DELF-DALF</th></tr></thead>\n<tbody>\n'
                   + "\n".join(f'<tr><td><strong>{esc(c)}</strong></td><td>{link(c, "tcf")}</td><td>{link(c, "delf")}</td></tr>' for c in order)
                   + "\n</tbody>\n</table>\n</div>")
@@ -881,7 +892,13 @@ def hub(pages_built):
         f'<div class="card card-link"><span class="tag">{esc(spec["exam"])}</span><h3><a href="/centres/{spec["slug"]}/">{esc(spec["crumb"])}</a></h3><p>{n} centres · {so} sur ordinateur · {ncity} villes</p></div>'
         for spec, (n, so, ncity) in pages_built)
     body = f"""
-{stats([(fr_int(total), "centres listés", "avec leurs contacts"), (str(npays), "pays", "sur les listes FEI"), (str(nlists), "listes", "par pays ou région"), ("08/10", "dernière lecture", "de la liste FEI")])}
+{stats([(fr_int(total), "centres listés", "avec leurs contacts"), (str(npays), "pays", "sur les listes FEI"), (str(nlists), "listes", "par pays ou région"), ("26/10", "dernière lecture", "de la liste FEI")])}
+
+<form class="finder-mini" action="/trouver-un-centre/" method="get" role="search">
+<label for="finder-mini-q">Trouver un centre d'examen près de chez vous</label>
+<div class="finder-row"><input id="finder-mini-q" name="q" type="search" placeholder="Ville, pays ou nom du centre" autocomplete="off" enterkeyhint="search"><button type="submit">Chercher</button></div>
+<p>TCF, DELF-DALF, TEF et examen civique : les centres agréés les plus proches, avec la distance. <a href="/trouver-un-centre/">Ou autour de moi →</a></p>
+</form>
 
 <h2 id="listes">Les listes, par examen et par pays</h2>
 <div class="grid c2 guides">
@@ -892,7 +909,7 @@ def hub(pages_built):
 
 <h2 id="pays">Hors de France : le DELF et le TCF dans {len(order)} pays, avec prix et dates</h2>
 <p>Pour {len(order)} pays d'Europe et des Amériques, une page par examen réunit la liste officielle lue le
-8 octobre 2026 — {n_tcf_pays} centres TCF, {n_delf_pays} centres DELF-DALF —, ce que le site de chaque centre affichait
+8 ou le 26 octobre 2026 — {n_tcf_pays} centres TCF, {n_delf_pays} centres DELF-DALF —, ce que le site de chaque centre affichait
 ce jour-là — qui propose le TCF Canada, à quel prix, à quelles dates ; le calendrier et les tarifs du DELF — et
 la marche à suivre pour s'inscrire.</p>
 {pays_table}
@@ -906,7 +923,7 @@ procédure d'inscription du pays.</p>
 <h2 id="methode">D'où viennent ces listes</h2>
 <p>Toutes reprennent la <strong>liste officielle des centres d'examen de France Éducation
 international</strong> — DELF-DALF, TCF et examen civique —, lue pays par pays le 19 septembre
-2026 et le 8 octobre 2026, avec les coordonnées que FEI publie : adresse, téléphone, adresse e-mail générique, site.
+2026, le 8 et le 26 octobre 2026, avec les coordonnées que FEI publie : adresse, téléphone, adresse e-mail générique, site.
 Elles disent qu'un centre est agréé ; elles ne disent pas quelles déclinaisons il organise, ni ses
 dates, ni ses tarifs. C'est le travail de nos guides <a href="/ou-passer/">« Où passer »</a>, qui ont
 ouvert les sites des principaux centres. Le TEF, lui, relève du Français des affaires (CCI Paris
@@ -932,26 +949,26 @@ nom — et une attestation « à distance » n'existe pas. En cas de doute, la l
         "desc": f"{fr_int(total)} centres agréés par FEI dans {npays} pays, avec adresse, téléphone, e-mail et site : France, Canada, Maghreb, Europe, Amériques, Afrique.",
         "og_title": "Centres d'examen DELF, TCF et examen civique : l'annuaire", "og_desc": f"{fr_int(total)} centres agréés dans {npays} pays, avec leurs contacts, d'après la liste officielle de FEI.",
         "h1": "Centres d'examen DELF, TCF et examen civique : l'annuaire des centres agréés",
-        "published": DATE, "modified": "2026-10-08", "date_fr": "8 octobre 2026", "read": 5,
+        "published": DATE, "modified": "2026-10-26", "date_fr": "26 octobre 2026", "read": 5,
         "intro": f"""Tous les examens de ce site se passent dans un <strong>centre agréé</strong> — par France Éducation
 international pour le DELF, le DALF, le TCF et l'examen civique. Cet annuaire reprend sa liste
-officielle, lue le 19 septembre 2026 et complétée le 8 octobre 2026 : <strong>{fr_int(total)} centres dans {npays} pays</strong>,
+officielle, lue le 19 septembre 2026 et complétée les 8 et 26 octobre 2026 : <strong>{fr_int(total)} centres dans {npays} pays</strong>,
 avec l'adresse, le téléphone, l'e-mail et le site de chacun, classés par pays, région et ville. Choisissez votre
 liste, puis vérifiez sur le site du centre la déclinaison, la date et le prix.""",
-        "facts": [f"<strong>{fr_int(total)} centres</strong> avec leurs contacts, d'après la liste officielle de FEI (19 septembre 2026, complétée le 8 octobre 2026).",
+        "facts": [f"<strong>{fr_int(total)} centres</strong> avec leurs contacts, d'après la liste officielle de FEI (19 septembre 2026, complétée les 8 et 26 octobre 2026).",
                   "France : <strong>251 centres TCF</strong>, <strong>143 centres DELF-DALF</strong>, <strong>245 centres d'examen civique</strong>.",
                   "TCF hors de France : Canada 47 · Maroc 16 · Tunisie 14 · Algérie 5 · Afrique subsaharienne 23 · " + " · ".join(f"{t} {n}" for t, n in regional_counts(pages_built)) + ".",
                   f"<strong>{len(order)} pays détaillés</strong> — {', '.join(order[:-1])} et {order[-1]} — : {n_tcf_pays} centres TCF et {n_delf_pays} centres DELF-DALF, avec prix et dates relevés.",
                   "Chaque liste dit qu'un centre est agréé, pas quelle déclinaison il organise : nos relevés le vérifient pour les pays détaillés et les grandes villes.",
                   "Un organisme absent de ces listes n'est pas agréé."],
-        "toc": [("listes", "Les listes, par examen et par pays"), ("pays", "Hors de France : neuf pays détaillés"), ("villes", "Les guides par ville"), ("methode", "D'où viennent ces listes"), ("regles", "Trois règles avant d'appeler un centre")],
+        "toc": [("listes", "Les listes, par examen et par pays"), ("pays", f"Hors de France : {len(order)} pays détaillés"), ("villes", "Les guides par ville"), ("methode", "D'où viennent ces listes"), ("regles", "Trois règles avant d'appeler un centre")],
         "body": body,
         "cta_h2": "Le centre vous donne la date ; le score, c'est vous",
         "cta_p": """Une session se paie en entier et se repasse après un délai. Les examens blancs de l'app
 «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent le format officiel de chaque déclinaison, avec
 la notation du vrai test et la correction IA de l'écrit et de l'oral.""",
         "faq": [("Comment trouver un centre d'examen près de chez moi ?", "Ouvrez la liste de votre pays ci-dessus : les centres y sont classés par région ou par ville, avec adresse, téléphone, e-mail et site. Pour un autre pays, la liste officielle de France Éducation international se filtre par pays."),
-                ("Ces listes sont-elles officielles ?", "Elles reproduisent la liste officielle de France Éducation international, lue le 19 septembre 2026 — et le 8 octobre 2026 pour l'Espagne, le Royaume-Uni, les États-Unis et l'Amérique latine —, avec les coordonnées que FEI publie. FEI agrée et retire des centres au fil de l'année : en cas de doute, sa liste en ligne fait foi."),
+                ("Ces listes sont-elles officielles ?", "Elles reproduisent la liste officielle de France Éducation international, lue le 19 septembre 2026 — le 8 octobre 2026 pour l'Espagne, le Royaume-Uni, les États-Unis et l'Amérique latine, le 26 octobre 2026 pour dix autres pays d'Europe —, avec les coordonnées que FEI publie. FEI agrée et retire des centres au fil de l'année : en cas de doute, sa liste en ligne fait foi."),
                 ("Un centre TCF fait-il passer le TCF Canada ?", "Pas forcément : chaque centre choisit ses déclinaisons — Canada, Québec, IRN, tout public. La liste de FEI ne le précise pas ; le site du centre, si. Nos guides « Où passer » l'ont vérifié pour les principaux centres."),
                 ("Où sont les centres TEF ?", "Le TEF relève du Français des affaires (CCI Paris Île-de-France), qui publie son propre annuaire « Trouver un centre agréé », tous pays confondus."),
                 ("Peut-on passer ces examens en ligne ?", "Non. DELF, DALF, TCF et examen civique se passent en présentiel, dans un centre agréé, sur convocation et avec contrôle d'identité. Toute offre « à distance » est une fraude.")],
@@ -962,7 +979,8 @@ la notation du vrai test et la correction IA de l'écrit et de l'oral.""",
         "sources": """<strong>Sources.</strong> Listes et carte des centres d'examen de France Éducation international
 (DELF-DALF, TCF, examen civique), lues pays par pays le 19 septembre 2026, et le 8 octobre 2026 pour
 l'Espagne, le Royaume-Uni, les États-Unis, le Mexique, la Colombie, l'Argentine, le Chili, le Pérou et
-l'Équateur ; annuaire « Trouver un centre agréé » du Français des affaires. Chaque liste cite son filtre
+l'Équateur, et le 26 octobre 2026 pour l'Allemagne, la Suisse, la Belgique, l'Italie, les Pays-Bas, le Portugal, la
+Roumanie, la Pologne, la Grèce et l'Irlande ; annuaire « Trouver un centre agréé » du Français des affaires. Chaque liste cite son filtre
 et sa date.""",
     }
 

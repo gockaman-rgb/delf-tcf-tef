@@ -1,0 +1,81 @@
+{
+ "country": "Afrique du Sud",
+ "iso2": "ZA",
+ "fei_id": "120",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Cape Town",
+   "cp": "",
+   "city_cp": "",
+   "address": "155 Loop Street, Western Cap, 8001 Cape Town",
+   "address_lines": [
+    "155 Loop Street, Western Cap",
+    "8001 Cape Town"
+   ],
+   "phone": "27-21-423-569",
+   "emails": [
+    "exams@afcapetown.co.za"
+   ],
+   "url": "http://www.alliance.org.za",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Durban",
+   "cp": "",
+   "city_cp": "",
+   "address": "43 Station drive Morningside, 4001 Durban",
+   "address_lines": [
+    "43 Station drive Morningside",
+    "4001 Durban"
+   ],
+   "phone": "27-31-312-95-82",
+   "emails": [
+    "courses@durban.alliance.org.za"
+   ],
+   "url": "http://www.alliance.org.za",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Pout-Elizabeth (Gqeberha)",
+   "cp": "",
+   "city_cp": "",
+   "address": "17 Mackay Street Richmond Hill P.O. 12981 Walmer, 6006 Pout-Elizabeth (Gqeberha)",
+   "address_lines": [
+    "17 Mackay Street Richmond Hill P.O. 12981 Walmer",
+    "6006 Pout-Elizabeth (Gqeberha)"
+   ],
+   "phone": "27-63-49-94-417",
+   "emails": [
+    "contact@afportelizabeth.com"
+   ],
+   "url": "http://www.alliance.org.za/port-elizabeth",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Stellenbosch",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ryneveld 44, 7600 Stellenbosch",
+   "address_lines": [
+    "Ryneveld 44",
+    "7600 Stellenbosch"
+   ],
+   "phone": "027-785-207-963",
+   "emails": [
+    "director@stellenbosch.alliance.org.za"
+   ],
+   "url": "https://stellenbosch.alliance.org.za/",
+   "so": false
+  }
+ ]
+}

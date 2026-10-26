@@ -732,9 +732,11 @@ PAGES.append(dict(
     fr_path="/blog/exercices-delf-b2/", lang="es", variant="es-419", slug="delf-b2-ejemplos", accent="accent-delf",
     crumbs=[INICIO], crumb="Ejemplos del DELF B2",
     title="Examen DELF B2: ejemplos resueltos de las 4 pruebas",
-    desc="Ejemplos del examen DELF B2 con el formato reformado: un ejercicio resuelto por prueba, lo que espera el corrector y el método para la expresión escrita.",
+    desc="Exámenes DELF B2 resueltos: los modelos oficiales gratuitos de France Éducation international, archivo por archivo, y un ejercicio resuelto por prueba.",
     h1="Examen DELF B2: ejemplos de las cuatro pruebas, resueltos",
-    intro="""Cuatro pruebas calificadas sobre 25, un total sobre <strong>100</strong>, el aprobado con <strong>50/100</strong>
+    intro="""Los <strong>exámenes oficiales del DELF B2, resueltos, son gratuitos</strong>: France Éducation international
+publica dos modelos completos con las respuestas, los audios y las rejillas de evaluación —<a
+href="#examenes-oficiales">qué contiene cada archivo</a>—. Cuatro pruebas calificadas sobre 25, un total sobre <strong>100</strong>, el aprobado con <strong>50/100</strong>
 —y una nota inferior a <strong>5/25</strong> en una sola prueba que te elimina, sea cual sea tu promedio—. Desde la
 reforma, las dos comprensiones son <strong>100 % de opción múltiple</strong>. Aquí tienes un ejercicio resuelto por
 prueba, con los documentos y las consignas en francés, como el día del examen, y después el método de la expresión
@@ -744,8 +746,10 @@ escrita: 250 palabras en 60 minutos, la prueba que más decide.""",
            "<strong>Comprensión oral 30 min · comprensión escrita 60 min · expresión escrita 60 min · expresión oral 20 min</strong> (+ 30 min de preparación).",
            "Desde la reforma: comprensiones <strong>100 % de opción múltiple</strong>, entrevista dirigida <strong>eliminada</strong> del oral.",
            "⚠️ En comprensión oral, los 2 primeros ejercicios se escuchan <strong>2 veces</strong>; el 3.º, una sola.",
-           "Expresión escrita: <strong>250 palabras como mínimo</strong>, y el corrector evalúa la <strong>construcción</strong>, no tu opinión."],
-    toc=[("estructura", "La estructura de las cuatro pruebas"), ("ejercicios", "Un ejercicio resuelto por prueba"),
+           "Expresión escrita: <strong>250 palabras como mínimo</strong>, y el corrector evalúa la <strong>construcción</strong>, no tu opinión.",
+           "<strong>Exámenes oficiales resueltos</strong>: dos modelos gratuitos de France Éducation international, con las respuestas, los audios MP3 y las rejillas — <a href=\"#examenes-oficiales\">archivo por archivo</a>."],
+    toc=[("estructura", "La estructura de las cuatro pruebas"), ("examenes-oficiales", "Exámenes oficiales del DELF B2 resueltos (PDF gratuitos)"),
+         ("ejercicios", "Un ejercicio resuelto por prueba"),
          ("eliminatoria", "La nota eliminatoria cambia la estrategia"), ("metodo", "El método"),
          ("evalua", "Expresión escrita: lo que evalúa el corrector"), ("plan", "El plan que funciona"),
          ("generos", "Los tres géneros, y lo que exigen"), ("errores", "Los cinco errores que más cuestan"),
@@ -764,6 +768,30 @@ escrita: 250 palabras en 60 minutos, la prueba que más decide.""",
 en el oral o preguntas abiertas en comprensión, describe un examen que ya no existe. Gran parte de los recursos en
 internet es anterior a la reforma.</p>
 </div>
+
+<h2 id="examenes-oficiales">Exámenes oficiales del DELF B2 resueltos (PDF gratuitos de France Éducation international)</h2>
+<p>France Éducation international (FEI), que elabora el DELF, publica gratis modelos de examen en su
+<a href="https://www.france-education-international.fr/diplome/delf-tout-public/niveau-b2/exemples-sujets" rel="noopener">página de ejemplos de exámenes del DELF B2</a> (en francés, como el examen). Hay
+dos modelos de las pruebas colectivas porque, según explica FEI, <strong>en las convocatorias oficiales se usan dos
+formatos de las pruebas de comprensión oral y escrita</strong>: el número de ejercicios y de preguntas, la extensión de
+los documentos y la forma de las preguntas cambian de un formato a otro, y ninguno de los dos facilita ni dificulta el
+aprobado. Cada modelo ilustra un formato, y un tercer juego de documentos cubre el oral.</p>
+""" + table("Los archivos de la página de ejemplos de exámenes del DELF B2 de France Éducation international (exemples de sujets), consultada el 26 de octubre de 2026. Gratuitos; documentos PDF y audios MP3.",
+            ["Archivo", "Qué contiene"],
+            [("Ejemplo 1 — documento del candidato (pruebas colectivas)", "Las pruebas de comprensión oral, comprensión escrita y expresión escrita, tal como se entregan al candidato"),
+             ("Ejemplo 1 — documento del corrector (<em lang=\"fr\">document correcteur</em>)", "Las respuestas y las instrucciones de corrección de esas pruebas"),
+             ("Ejemplo 1 — documento del vigilante (<em lang=\"fr\">document surveillant</em>)", "La transcripción de los audios de la comprensión oral"),
+             ("Ejemplo 1 — audios", "Tres archivos MP3, uno por ejercicio de comprensión oral, y la grabación completa"),
+             ("Ejemplo 2 — documentos del candidato, del corrector y del vigilante", "Los mismos tres documentos, en el otro formato"),
+             ("Ejemplo 2 — audios", "Dos archivos MP3, uno por ejercicio, y la grabación completa"),
+             ("Prueba individual — documento del candidato", "Los documentos de la expresión oral (<em lang=\"fr\">production orale</em>) que recibe el candidato"),
+             ("Prueba individual — documento del examinador", "La parte del examinador de la prueba oral"),
+             ("Rejillas de evaluación", "La rejilla de la expresión escrita y la de la expresión oral del DELF B2, cada una con sus descriptores, y la explicación de FEI de cada criterio")]) + """
+<p>Para aprovecharlos, haz el documento del candidato en tiempo real —30 minutos de comprensión oral, 60 de comprensión
+escrita y 60 de expresión escrita—, corrige las comprensiones con el documento del corrector y relee la transcripción de
+cada pregunta fallada. La expresión escrita y la oral no se corrigen con una clave: califícate, o pide que te califiquen,
+con las rejillas oficiales, que son las que usan los examinadores. La misma página existe para el
+<a href="https://www.france-education-international.fr/diplome/delf-tout-public/niveau-b1/exemples-sujets" rel="noopener">DELF B1</a> y el <a href="https://www.france-education-international.fr/diplome/dalf/exemples-sujets" rel="noopener">DALF C1</a>.</p>
 
 <h2 id="ejercicios">Un ejercicio resuelto por prueba</h2>
 <p>Los documentos, las preguntas y las consignas están en francés, como el día del examen; las respuestas y las
@@ -951,14 +979,16 @@ alerta de nota eliminatoria, y corrección con IA de la expresión escrita y ora
          ("¿Qué distingue el B2 del B1 en la expresión escrita?", "Tener en cuenta la objeción contraria. En el B1 das tu opinión; en el B2 la defiendes frente a una objeción que primero reconociste. El párrafo de concesión y refutación es el que más a menudo marca la diferencia, y muchos textos lo omiten por completo."),
          ("¿Cómo repartir los 60 minutos de la expresión escrita?", "Unos 10 minutos para analizar la consigna y fijar el plan, 35 minutos para redactar de un tirón, 7 minutos para verificar la extensión, la concesión y el género, y 8 minutos de relectura de la lengua. Los 10 primeros minutos parecen perdidos: son, sin embargo, el único momento en que todavía puedes cambiar la estructura sin reescribirlo todo."),
          ("¿Todavía existe la entrevista dirigida en el oral del DELF B2?", "No, la reforma la eliminó. La prueba empieza ahora directamente con el monólogo, y después viene el debate con los examinadores. El calentamiento que permitía relajarse ya no existe en el B2; en cambio, sigue existiendo en el DELF B1."),
+         ("¿Dónde encontrar exámenes oficiales del DELF B2 resueltos?", "En la web de France Éducation international, gratis: dos modelos completos de las pruebas colectivas del DELF B2 —uno por cada formato de las comprensiones—, cada uno con el documento del candidato, el del corrector con las respuestas, la transcripción y los audios MP3, además de un modelo de la prueba oral y las rejillas oficiales de la expresión escrita y oral. Están en francés, como el examen."),
          ("¿El jurado tiene que estar de acuerdo conmigo?", "No, y es a propósito. En la segunda parte del oral, el jurado te contradice para poner a prueba tu capacidad de sostener una postura, matizar y conceder sin ceder. Los candidatos que abandonan su tesis a la primera objeción pierden puntos en la competencia evaluada.")],
     also=[("/es/delf-b2/", "Examen DELF B2: estructura, puntuación y fechas", "El formato reformado, los dos umbrales y las fechas en cada país."),
           ("/es/dalf-c1/", "Examen DALF C1 y C2", "El nivel siguiente: la síntesis de documentos de 200 a 240 palabras."),
           ("/es/certificado-de-frances/", "¿Qué certificado de francés elegir?", "Lo que prueba el DELF, y los trámites en los que no basta.")],
     sources="""<strong>Los formatos cambian.</strong> Esta página está actualizada al 7 de agosto de 2026 y describe el formato
 surgido de la reforma de 2020, generalizado desde septiembre de 2024. Los ejercicios presentados son contenidos originales
-de nuestra app. Cuidado con los modelos de examen y los tutoriales anteriores, que describen un examen distinto. Verifica
-el formato vigente en
+de nuestra app. Los exámenes oficiales se describen según la página de ejemplos del DELF B2 de France Éducation
+international, consultada el 26 de octubre de 2026. Cuidado con los modelos de examen y los tutoriales anteriores, que
+describen un examen distinto. Verifica el formato vigente en
 <a href="https://www.france-education-international.fr/diplome/delf-tout-public" rel="noopener">france-education-international.fr</a>
 antes de tu sesión.""",
 ))

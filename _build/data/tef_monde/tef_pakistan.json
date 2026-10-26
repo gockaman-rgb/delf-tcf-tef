@@ -1,0 +1,53 @@
+{
+ "country": "Pakistan",
+ "iso2": "PK",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE KARACHI",
+   "city": "KARACHI",
+   "cp": "75600",
+   "city_cp": "",
+   "address": "Plot/St-1 Kehkashan, 75600 KARACHI",
+   "address_lines": [
+    "Plot/St-1 Kehkashan",
+    "75600 KARACHI"
+   ],
+   "phone": "+92 21 35873402",
+   "emails": [],
+   "url": "www.afkarachi.com",
+   "so": false,
+   "products": [],
+   "cci_id": 112,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/112"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LAHORE",
+   "city": "LAHORE",
+   "cp": "54770",
+   "city_cp": "",
+   "address": "155, Scotch Corner Street 3, 54770 LAHORE",
+   "address_lines": [
+    "155, Scotch Corner Street 3",
+    "54770 LAHORE"
+   ],
+   "phone": "+92 301 8237201",
+   "emails": [
+    "contact@aflahore.org"
+   ],
+   "url": "www.aflahore.org/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 128,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/128"
+  }
+ ]
+}

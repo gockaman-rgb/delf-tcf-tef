@@ -1,0 +1,30 @@
+{
+ "country": "Serbie",
+ "iso2": "RS",
+ "fei_id": "91",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Belgrade",
+   "cp": "",
+   "city_cp": "",
+   "address": "Zmaj Jovina 11, 11000 Belgrade",
+   "address_lines": [
+    "Zmaj Jovina 11",
+    "11000 Belgrade"
+   ],
+   "phone": "381-63-23-82-44",
+   "emails": [
+    "francuskizaodrasle@institutfrancais.rs"
+   ],
+   "url": "http://www.institutfrancais.rs",
+   "so": true
+  }
+ ]
+}

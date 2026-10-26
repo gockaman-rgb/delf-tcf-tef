@@ -1,0 +1,289 @@
+{
+ "country": "Inde",
+ "iso2": "IN",
+ "fei_id": "45",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 16,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Coopération et d'action culturelle",
+  "city": "New Delhi",
+  "cp": "",
+  "city_cp": "",
+  "address": "Secteur Langue française No. 2, Dr. APJ Abdul Kalam Road, 110 011 New Delhi",
+  "address_lines": [
+   "Secteur Langue française No. 2, Dr. APJ Abdul Kalam Road",
+   "110 011 New Delhi"
+  ],
+  "phone": "+911130410064",
+  "emails": [],
+  "url": "https://www.institutfrancaisindia.in/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Ahmedabad",
+   "city": "Ahmedabad",
+   "cp": "",
+   "city_cp": "",
+   "address": "Manekbaug, Shyamal Cross Rd, beside Food Corporation of India, Shyamal, 380015 Ahmedabad",
+   "address_lines": [
+    "Manekbaug, Shyamal Cross Rd, beside Food Corporation of India, Shyamal",
+    "380015 Ahmedabad"
+   ],
+   "phone": "79907 69111",
+   "emails": [
+    "director.ahmedabad@afindia.org"
+   ],
+   "url": "http://www.afindia.org/ahmedabad/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bangalore",
+   "city": "Bangalore",
+   "cp": "",
+   "city_cp": "",
+   "address": "Thimmaiah Rd, opposite UNI, Kaverappa Layout, Vasanth Nagar, 560052 Bangalore",
+   "address_lines": [
+    "Thimmaiah Rd, opposite UNI, Kaverappa Layout, Vasanth Nagar",
+    "560052 Bangalore"
+   ],
+   "phone": "7899098181",
+   "emails": [
+    "director.afbangalore@afindia.org"
+   ],
+   "url": "https://bangalore.afindia.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bhopal",
+   "city": "Bhopal",
+   "cp": "",
+   "city_cp": "",
+   "address": "B-75 Shahpura, B Sector, 462016 Bhopal",
+   "address_lines": [
+    "B-75 Shahpura, B Sector",
+    "462016 Bhopal"
+   ],
+   "phone": "755 246 6595",
+   "emails": [
+    "bhopal@afindia.org"
+   ],
+   "url": "http://www.afindia.org/bhopal",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Chandigarh",
+   "city": "Chandigarh",
+   "cp": "",
+   "city_cp": "",
+   "address": "Next to Hibiscus Garden - Sector 36 A, 160036 Chandigarh",
+   "address_lines": [
+    "Next to Hibiscus Garden - Sector 36 A",
+    "160036 Chandigarh"
+   ],
+   "phone": "172 266 8627",
+   "emails": [
+    "info.chandigarh@afindia.org"
+   ],
+   "url": "http://www.afindia.org/chandigarh",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Madras",
+   "city": "Chennai",
+   "cp": "",
+   "city_cp": "",
+   "address": "No.24, College Road, Nungambakkam, 600 006 Chennai",
+   "address_lines": [
+    "No.24, College Road, Nungambakkam",
+    "600 006 Chennai"
+   ],
+   "phone": "44 28279803",
+   "emails": [
+    "director@af-madras.org"
+   ],
+   "url": "http://www.af-madras.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Hyderabad",
+   "city": "Hyderabad",
+   "cp": "",
+   "city_cp": "",
+   "address": "8-2-603/B/12, Road Number 10, Zehra Nagar, Road No 10, Banjara Hills, 500034 Hyderabad",
+   "address_lines": [
+    "8-2-603/B/12, Road Number 10, Zehra Nagar, Road No 10, Banjara Hills",
+    "500034 Hyderabad"
+   ],
+   "phone": "40 2355 4485",
+   "emails": [
+    "director@afhyderabad.org"
+   ],
+   "url": "http://hyderabad.afindia.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Jaipur",
+   "city": "Jaipur",
+   "cp": "",
+   "city_cp": "",
+   "address": "Shanthi Nagar, Mansarovar, 302020 Jaipur",
+   "address_lines": [
+    "Shanthi Nagar, Mansarovar",
+    "302020 Jaipur"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française du Bengale",
+   "city": "KOLKATA",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance Française du Bengale 57A Park Street, Park Mansions Gate 3, Flat 1, 700 016 KOLKATA",
+   "address_lines": [
+    "Alliance Française du Bengale 57A Park Street, Park Mansions Gate 3, Flat 1",
+    "700 016 KOLKATA"
+   ],
+   "phone": "33 4006 4801",
+   "emails": [
+    "director.kolkata@afindia.org"
+   ],
+   "url": "http://www.afindia.org/calcutta",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Lucknow",
+   "city": "Lucknow",
+   "cp": "",
+   "city_cp": "",
+   "address": "La Martinière Girls Rana Pratap Marg, Lucknow, 226001 Lucknow",
+   "address_lines": [
+    "La Martinière Girls Rana Pratap Marg, Lucknow",
+    "226001 Lucknow"
+   ],
+   "phone": "77100 88760",
+   "emails": [
+    "director.lucknow@afindia.org"
+   ],
+   "url": "http://lucknow.afindia.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bombay",
+   "city": "Mumbai",
+   "cp": "",
+   "city_cp": "",
+   "address": "Theosophy Hall 40 new marine lines, 400020 Mumbai",
+   "address_lines": [
+    "Theosophy Hall 40 new marine lines",
+    "400020 Mumbai"
+   ],
+   "phone": "22 2203 6187",
+   "emails": [],
+   "url": "http://www.afindia.org/bombay",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Delhi",
+   "city": "New-Delhi",
+   "cp": "",
+   "city_cp": "",
+   "address": "72, KK Birla Marg, Lodhi Estate, 110003 New-Delhi",
+   "address_lines": [
+    "72, KK Birla Marg, Lodhi Estate",
+    "110003 New-Delhi"
+   ],
+   "phone": "9311146491",
+   "emails": [],
+   "url": "http://www.afdelhi.org/",
+   "so": false
+  },
+  {
+   "name": "Institut français en Inde",
+   "city": "New-Delhi",
+   "cp": "",
+   "city_cp": "",
+   "address": "2 Dr. APJ Abdul Kalam Road, 110011 New-Delhi",
+   "address_lines": [
+    "2 Dr. APJ Abdul Kalam Road",
+    "110011 New-Delhi"
+   ],
+   "phone": "11 30410064",
+   "emails": [],
+   "url": "http://www.institutfrancais.in/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Panjim-Goa",
+   "city": "Panjim, Goa",
+   "cp": "",
+   "city_cp": "",
+   "address": "E 426 Ajenor, 31st January Road, Behind Mary Immaculate School, 403001 Panjim, Goa",
+   "address_lines": [
+    "E 426 Ajenor, 31st January Road, Behind Mary Immaculate School",
+    "403001 Panjim, Goa"
+   ],
+   "phone": "9529497005",
+   "emails": [],
+   "url": "http://www.afindia.org/goa",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pondichéry",
+   "city": "Pondichery",
+   "cp": "",
+   "city_cp": "",
+   "address": "58 Suffren Street, White Town, 605001 Pondichery",
+   "address_lines": [
+    "58 Suffren Street, White Town",
+    "605001 Pondichery"
+   ],
+   "phone": "413 233 8146",
+   "emails": [
+    "directeur.afpondy@afindia.org"
+   ],
+   "url": "http://www.afindia.org/pondichery",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Pune",
+   "city": "Pune",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kala Chhaya Campus, Off Senapati Bapat Road, Opp. Vikhe Patil School, Gokhale Nagar, 411016 Pune",
+   "address_lines": [
+    "Kala Chhaya Campus, Off Senapati Bapat Road, Opp. Vikhe Patil School, Gokhale Nagar",
+    "411016 Pune"
+   ],
+   "phone": "20 2566 8001",
+   "emails": [
+    "director.pune@afindia.org"
+   ],
+   "url": "http://www.afindia.org/pune",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Trivandrum",
+   "city": "Trivandrum",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sudharsana, Forest Office Ln, Line, Vazhuthacaud, Thiruvananthapuram, 695014 Trivandrum",
+   "address_lines": [
+    "Sudharsana, Forest Office Ln, Line, Vazhuthacaud, Thiruvananthapuram",
+    "695014 Trivandrum"
+   ],
+   "phone": "70349 88666",
+   "emails": [
+    "director.trivandrum@afindia.org"
+   ],
+   "url": "http://www.afindia.org/trivandrum",
+   "so": false
+  }
+ ]
+}

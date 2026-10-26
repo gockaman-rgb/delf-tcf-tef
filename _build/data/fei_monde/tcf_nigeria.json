@@ -1,0 +1,47 @@
+{
+ "country": "Nigéria",
+ "iso2": "NG",
+ "fei_id": "142",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Lagos",
+   "city": "Lagos",
+   "cp": "",
+   "city_cp": "",
+   "address": "9 Osborne road Ikoyi, Lagos",
+   "address_lines": [
+    "9 Osborne road Ikoyi",
+    "Lagos"
+   ],
+   "phone": "234-705-22-88-001",
+   "emails": [
+    "certification.lagos@afnigeria.org"
+   ],
+   "url": "http://www.afnigeria.org/lagos",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Port Harcourt",
+   "cp": "",
+   "city_cp": "",
+   "address": "20 Herbert Macauley Road Old GRA, Orogbum Rivers State, 500101 Port Harcourt",
+   "address_lines": [
+    "20 Herbert Macauley Road Old GRA, Orogbum Rivers State",
+    "500101 Port Harcourt"
+   ],
+   "phone": "2347062534631",
+   "emails": [
+    "reception.phc@af-nigeria.org"
+   ],
+   "url": "http://www.af-nigeria.org/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "country": "Iran",
+ "iso2": "IR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT KOWSAR",
+   "city": "ISPAHAN",
+   "cp": "8184854817",
+   "city_cp": "",
+   "address": "Motahary Gharby Street, 8184854817 ISPAHAN",
+   "address_lines": [
+    "Motahary Gharby Street",
+    "8184854817 ISPAHAN"
+   ],
+   "phone": "+98 31 3236 1274",
+   "emails": [
+    "info@kowsarinstitute.com"
+   ],
+   "url": "www.kowsarinstitute.com",
+   "so": false,
+   "products": [],
+   "cci_id": 579,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/579"
+  },
+  {
+   "name": "INSTITUT FARHANG-SINA",
+   "city": "TÉHÉRAN",
+   "cp": "1578714539",
+   "city_cp": "",
+   "address": "Ave. Habibollah Zanjani, 1578714539 TÉHÉRAN",
+   "address_lines": [
+    "Ave. Habibollah Zanjani",
+    "1578714539 TÉHÉRAN"
+   ],
+   "phone": "+98 21 8819 5517",
+   "emails": [],
+   "url": "www.farhangsina.com",
+   "so": false,
+   "products": [],
+   "cci_id": 494,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/494"
+  }
+ ]
+}

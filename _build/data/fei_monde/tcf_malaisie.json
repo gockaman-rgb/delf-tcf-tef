@@ -1,0 +1,47 @@
+{
+ "country": "Malaisie",
+ "iso2": "MY",
+ "fei_id": "49",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Kuala Lumpur",
+   "cp": "",
+   "city_cp": "",
+   "address": "15, Lorong Gurney Off, Jalan Sultan Yahya Petra, 54100 Kuala Lumpur",
+   "address_lines": [
+    "15, Lorong Gurney Off, Jalan Sultan Yahya Petra",
+    "54100 Kuala Lumpur"
+   ],
+   "phone": "60-326947880",
+   "emails": [
+    "exams@afkualalumpur.org"
+   ],
+   "url": "http://www.alliancefrancaise.org.my/alliance-francaise-de-kuala-lumpur/",
+   "so": false
+  },
+  {
+   "name": "The French Academy",
+   "city": "Petaling Jaya, SDE",
+   "cp": "",
+   "city_cp": "",
+   "address": "31-3 & 31-4 Block F2 Jalan PJU 1/42A Dataran Prima, 47301 Petaling Jaya, SDE",
+   "address_lines": [
+    "31-3 & 31-4 Block F2 Jalan PJU 1/42A Dataran Prima",
+    "47301 Petaling Jaya, SDE"
+   ],
+   "phone": "603-7614-7867",
+   "emails": [
+    "exam@thefrenchacademy.net"
+   ],
+   "url": "https://www.thefrenchacademy.net/",
+   "so": true
+  }
+ ]
+}

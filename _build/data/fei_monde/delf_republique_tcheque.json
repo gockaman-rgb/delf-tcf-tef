@@ -1,0 +1,191 @@
+{
+ "country": "République Tchèque",
+ "iso2": "CZ",
+ "fei_id": "88",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 10,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "pôle linguistique",
+  "city": "Prague",
+  "cp": "",
+  "city_cp": "",
+  "address": "Stepanska 35, 11000 Prague",
+  "address_lines": [
+   "Stepanska 35",
+   "11000 Prague"
+  ],
+  "phone": "+420221401064",
+  "emails": [],
+  "url": "http://www.ifp.cz",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française Brno",
+   "city": "Brno",
+   "cp": "",
+   "city_cp": "",
+   "address": "Moravské náměstí 690/15, 602 00 Brno",
+   "address_lines": [
+    "Moravské náměstí 690/15",
+    "602 00 Brno"
+   ],
+   "phone": "608341794",
+   "emails": [
+    "direction.brno@alliancefrancaise.cz"
+   ],
+   "url": "http://www.afbrno.cz/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bohême du Sud",
+   "city": "Ceske Budejovice",
+   "cp": "",
+   "city_cp": "",
+   "address": "Náměstí Přemysla Otakara II, 21, 37001 Ceske Budejovice",
+   "address_lines": [
+    "Náměstí Přemysla Otakara II, 21",
+    "37001 Ceske Budejovice"
+   ],
+   "phone": "721 416 034",
+   "emails": [
+    "direction.bohemedusud@alliancefrancaise.cz"
+   ],
+   "url": "http://www.alliancefrancaise.cz/jiznicechy/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Liberec",
+   "city": "Liberec",
+   "cp": "",
+   "city_cp": "",
+   "address": "Voroněžská 1329/13, 46001 Liberec",
+   "address_lines": [
+    "Voroněžská 1329/13",
+    "46001 Liberec"
+   ],
+   "phone": "601 357 597",
+   "emails": [
+    "direction.liberec@alliancefrancaise.cz"
+   ],
+   "url": "http://www.alliancefrancaise.cz/liberec",
+   "so": false
+  },
+  {
+   "name": "Centre français de l'Université Palacky d'Olomouc",
+   "city": "Olomouc",
+   "cp": "",
+   "city_cp": "",
+   "address": "Krizkovskeho 10, 77180 Olomouc",
+   "address_lines": [
+    "Krizkovskeho 10",
+    "77180 Olomouc"
+   ],
+   "phone": "731743514",
+   "emails": [],
+   "url": "http://www.sjs-olomouc.cz/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Ostrava",
+   "city": "Ostrava",
+   "cp": "",
+   "city_cp": "",
+   "address": "Čs. legií 1364/20 Česká republika, 702 00 Ostrava",
+   "address_lines": [
+    "Čs. legií 1364/20 Česká republika",
+    "702 00 Ostrava"
+   ],
+   "phone": "+420596125424",
+   "emails": [
+    "direction.ostrava@alliancefrancaise.cz"
+   ],
+   "url": "http://www.alliancefrancaise.cz/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pardubice",
+   "city": "Pardubice",
+   "cp": "",
+   "city_cp": "",
+   "address": "Klášterní 54, 530 02 Pardubice",
+   "address_lines": [
+    "Klášterní 54",
+    "530 02 Pardubice"
+   ],
+   "phone": "725000816",
+   "emails": [
+    "direction.pardubice@alliancefrancaise.cz"
+   ],
+   "url": "https://www.alliancefrancaise.cz/pardubice/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Plzen",
+   "city": "Plzen",
+   "cp": "",
+   "city_cp": "",
+   "address": "náměstí Republiky 12, 30100 Plzen",
+   "address_lines": [
+    "náměstí Republiky 12",
+    "30100 Plzen"
+   ],
+   "phone": "377237358",
+   "emails": [
+    "direction.plzen@alliancefrancaise.cz"
+   ],
+   "url": "http://www.alliancefrancaise.cz/plzen/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Prague",
+   "city": "Prague",
+   "cp": "",
+   "city_cp": "",
+   "address": "Stepanska 35, 110 00 Prague",
+   "address_lines": [
+    "Stepanska 35",
+    "110 00 Prague"
+   ],
+   "phone": "221401046",
+   "emails": [],
+   "url": "http://www.ifp.cz/",
+   "so": false
+  },
+  {
+   "name": "Lycée français de Prague",
+   "city": "Prague",
+   "cp": "",
+   "city_cp": "",
+   "address": "Drtinova 304/7, 15000 Prague",
+   "address_lines": [
+    "Drtinova 304/7",
+    "15000 Prague"
+   ],
+   "phone": "777192402",
+   "emails": [
+    "proviseur.adjoint@lfp.cz"
+   ],
+   "url": "http://www.lfp.cz/",
+   "so": false
+  },
+  {
+   "name": "Club franco-tchèque de Zlín",
+   "city": "Zlín",
+   "cp": "",
+   "city_cp": "",
+   "address": "Divadelní 1333, 76001 Zlín",
+   "address_lines": [
+    "Divadelní 1333",
+    "76001 Zlín"
+   ],
+   "phone": "+420728915386",
+   "emails": [],
+   "url": "https://www.cftzlin.eu/",
+   "so": false
+  }
+ ]
+}

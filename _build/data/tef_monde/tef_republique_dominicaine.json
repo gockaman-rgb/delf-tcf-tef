@@ -1,0 +1,55 @@
+{
+ "country": "République dominicaine",
+ "iso2": "DO",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE SAINT-DOMINGUE",
+   "city": "SAINT-DOMINGUE",
+   "cp": "10101",
+   "city_cp": "",
+   "address": "Calle Horacio Vicioso 103, 10101 SAINT-DOMINGUE",
+   "address_lines": [
+    "Calle Horacio Vicioso 103",
+    "10101 SAINT-DOMINGUE"
+   ],
+   "phone": "+1 809-532-2844",
+   "emails": [
+    "info@afsd.net"
+   ],
+   "url": "https://www.afsd.net/tef/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 186,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/186"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE SANTIAGO DE LOS CABALLEROS",
+   "city": "SANTIAGO DE LOS CABALLEROS",
+   "cp": "99",
+   "city_cp": "",
+   "address": "Calle Virgilio Espaillat No 3., 99 SANTIAGO DE LOS CABALLEROS",
+   "address_lines": [
+    "Calle Virgilio Espaillat No 3.",
+    "99 SANTIAGO DE LOS CABALLEROS"
+   ],
+   "phone": "+1 829-930-4999",
+   "emails": [
+    "coordinacion.pedagogica@afsantiago.org.do"
+   ],
+   "url": "www.afsantiago.org.do",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 196,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/196"
+  }
+ ]
+}

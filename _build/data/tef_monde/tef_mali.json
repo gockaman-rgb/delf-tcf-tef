@@ -1,0 +1,35 @@
+{
+ "country": "Mali",
+ "iso2": "ML",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU MALI",
+   "city": "BAMAKO",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rond-point du boulevard de l'indépendance, BAMAKO",
+   "address_lines": [
+    "Rond-point du boulevard de l'indépendance",
+    "BAMAKO"
+   ],
+   "phone": "+223 71 70 77 77",
+   "emails": [
+    "info.cdl@institutfrancaismali.org"
+   ],
+   "url": "www.institutfrancaismali.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 564,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/564"
+  }
+ ]
+}

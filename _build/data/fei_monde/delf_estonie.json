@@ -1,0 +1,57 @@
+{
+ "country": "Estonie",
+ "iso2": "EE",
+ "fei_id": "71",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Tallinn",
+  "cp": "",
+  "city_cp": "",
+  "address": "4, rue Kuninga, 10146 Tallinn",
+  "address_lines": [
+   "4, rue Kuninga",
+   "10146 Tallinn"
+  ],
+  "phone": "627 11 99",
+  "emails": [],
+  "url": "http://www.ife.ee/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Agence de l’éducation et de la jeunesse d’Estonie (Haridus- ja Noorteamet)",
+   "city": "Tallinn",
+   "cp": "",
+   "city_cp": "",
+   "address": "A. H. Tammsaare tee 47, 11316 Tallinn",
+   "address_lines": [
+    "A. H. Tammsaare tee 47",
+    "11316 Tallinn"
+   ],
+   "phone": "58840380",
+   "emails": [],
+   "url": "https://harno.ee/en/contact",
+   "so": false
+  },
+  {
+   "name": "Institut Français d'Estonie",
+   "city": "Tallinn",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kuninga 4, 10146 Tallinn",
+   "address_lines": [
+    "Kuninga 4",
+    "10146 Tallinn"
+   ],
+   "phone": "+3726271199",
+   "emails": [],
+   "url": "http://www.ife.ee/",
+   "so": false
+  }
+ ]
+}

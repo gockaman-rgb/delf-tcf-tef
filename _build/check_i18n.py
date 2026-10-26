@@ -57,6 +57,8 @@ def editorial(h):
     """La partie rédigée : de l'intro à « À lire aussi », sans les cartes des centres (données FEI)."""
     a = h.find('<p class="intro">')
     g = h.find('<h2 id="a-lire">')
+    if g < 0:
+        g = h.find('<footer class="site"')   # 26/10/2026 : sans « À lire aussi », le pied de page n'est pas rédigé
     part = h[a:g if g > 0 else len(h)]
     return re.sub(r'<div class="card centre">.*?</div>', " ", part, flags=re.S)
 

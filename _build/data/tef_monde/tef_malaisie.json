@@ -1,0 +1,51 @@
+{
+ "country": "Malaisie",
+ "iso2": "MY",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE KUALA LUMPUR",
+   "city": "KUALA LUMPUR",
+   "cp": "54100",
+   "city_cp": "",
+   "address": "15 Lorong Gurney, Off, Jalan Sultan Yahya Petra, 54100 KUALA LUMPUR",
+   "address_lines": [
+    "15 Lorong Gurney, Off, Jalan Sultan Yahya Petra",
+    "54100 KUALA LUMPUR"
+   ],
+   "phone": "+60 3-2694 7880",
+   "emails": [
+    "exams@afkualalumpur.org"
+   ],
+   "url": "www.alliancefrancaise.org.my/alliance-francaise-de-kuala-lumpur/",
+   "so": false,
+   "products": [],
+   "cci_id": 118,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/118"
+  },
+  {
+   "name": "THE FRENCH ACADEMY",
+   "city": "SELANGOR",
+   "cp": "PETALING JAYA",
+   "city_cp": "",
+   "address": "31-3 Block F2, jalan PJU 1/42A, 47301, PETALING JAYA SELANGOR",
+   "address_lines": [
+    "31-3 Block F2, jalan PJU 1/42A, 47301",
+    "PETALING JAYA SELANGOR"
+   ],
+   "phone": "+60 3-7614 7867",
+   "emails": [],
+   "url": "www.thefrenchacademy.net",
+   "so": false,
+   "products": [],
+   "cci_id": 680,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/680"
+  }
+ ]
+}

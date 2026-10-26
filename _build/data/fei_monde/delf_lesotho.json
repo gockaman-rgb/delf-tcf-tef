@@ -1,0 +1,45 @@
+{
+ "country": "Lesotho",
+ "iso2": "LS",
+ "fei_id": "134",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Maseru",
+   "city": "Maseru",
+   "cp": "",
+   "city_cp": "",
+   "address": "Corner Kingsway and Pioneer Rd, 100 Maseru",
+   "address_lines": [
+    "Corner Kingsway and Pioneer Rd",
+    "100 Maseru"
+   ],
+   "phone": "22325722",
+   "emails": [
+    "director@afmaseru.org.ls"
+   ],
+   "url": "https://maseru.alliance.org.za/",
+   "so": false
+  },
+  {
+   "name": "Examinations Council of Lesotho",
+   "city": "Maseru",
+   "cp": "",
+   "city_cp": "",
+   "address": "Constitution Road, 100 Maseru",
+   "address_lines": [
+    "Constitution Road",
+    "100 Maseru"
+   ],
+   "phone": "22312880",
+   "emails": [],
+   "url": "http://www.examscouncil.org.ls/",
+   "so": false
+  }
+ ]
+}

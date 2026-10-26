@@ -1,0 +1,49 @@
+{
+ "country": "Cameroun",
+ "iso2": "CM",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU CAMEROUN - DOUALA",
+   "city": "DOUALA",
+   "cp": "BP01",
+   "city_cp": "",
+   "address": "61 bis, boulevard de la Liberté, BP01 DOUALA",
+   "address_lines": [
+    "61 bis, boulevard de la Liberté",
+    "BP01 DOUALA"
+   ],
+   "phone": "+237 6 55 66 72 99",
+   "emails": [],
+   "url": "www.ifcameroun.com",
+   "so": false,
+   "products": [],
+   "cci_id": 556,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/556"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU CAMEROUN - YAOUNDÉ",
+   "city": "YAOUNDÉ",
+   "cp": "",
+   "city_cp": "",
+   "address": "140 avenue du Président Ahmadou Ahidjo, YAOUNDÉ",
+   "address_lines": [
+    "140 avenue du Président Ahmadou Ahidjo",
+    "YAOUNDÉ"
+   ],
+   "phone": "+237 2 22 22 09 44",
+   "emails": [],
+   "url": "www.ifcameroun.com/category/yaounde/",
+   "so": false,
+   "products": [],
+   "cci_id": 557,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/557"
+  }
+ ]
+}

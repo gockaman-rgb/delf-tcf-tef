@@ -1,0 +1,33 @@
+{
+ "country": "Saint-Kitts-et-Nevis",
+ "iso2": "KN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE ST KITTS & NEVIS",
+   "city": "BASSETERRE",
+   "cp": "265",
+   "city_cp": "",
+   "address": "1 Orchid Street, 265 BASSETERRE",
+   "address_lines": [
+    "1 Orchid Street",
+    "265 BASSETERRE"
+   ],
+   "phone": "+1 869-465-9415",
+   "emails": [
+    "direction.afskn@gmail.com"
+   ],
+   "url": "www.afskn.afcaraibe.org",
+   "so": false,
+   "products": [],
+   "cci_id": 203,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/203"
+  }
+ ]
+}

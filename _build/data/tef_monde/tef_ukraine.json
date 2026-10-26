@@ -1,0 +1,51 @@
+{
+ "country": "Ukraine",
+ "iso2": "UA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCAISE DE KHARKIV",
+   "city": "KHARKIV",
+   "cp": "61145",
+   "city_cp": "",
+   "address": "21, rue Kosmichna, KHARKIV 61145, 61145 KHARKIV",
+   "address_lines": [
+    "21, rue Kosmichna, KHARKIV 61145",
+    "61145 KHARKIV"
+   ],
+   "phone": "",
+   "emails": [
+    "contact.kharkiv@afukraine.org"
+   ],
+   "url": "http://afkharkiv.com.ua/",
+   "so": false,
+   "products": [],
+   "cci_id": 116,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/116"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'UKRAINE",
+   "city": "KYIV",
+   "cp": "01054",
+   "city_cp": "",
+   "address": "84, rue Hontchara, 01054 KYIV",
+   "address_lines": [
+    "84, rue Hontchara",
+    "01054 KYIV"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://institutfrancais-ukraine.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 501,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/501"
+  }
+ ]
+}

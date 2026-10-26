@@ -1,0 +1,40 @@
+{
+ "country": "Soudan du Sud",
+ "iso2": "SS",
+ "fei_id": "425",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Djouba",
+  "cp": "",
+  "city_cp": "",
+  "address": "université de Juba, Juba university University road, Djouba",
+  "address_lines": [
+   "université de Juba, Juba university University road, Djouba"
+  ],
+  "phone": "+211924034423",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Djouba",
+   "city": "Djouba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Université de Djouba Djouba",
+   "address_lines": [
+    "Université de Djouba Djouba"
+   ],
+   "phone": "924034423",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

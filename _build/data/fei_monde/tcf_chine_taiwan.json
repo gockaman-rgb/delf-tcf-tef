@@ -1,0 +1,47 @@
+{
+ "country": "Chine (Taïwan)",
+ "iso2": "TW",
+ "fei_id": "54",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Université Ursuline Wenzao de Langues Etrangères",
+   "city": "Kaohsiung",
+   "cp": "",
+   "city_cp": "",
+   "address": "900 Mintsu 1st Road, 807-93 Kaohsiung",
+   "address_lines": [
+    "900 Mintsu 1st Road",
+    "807-93 Kaohsiung"
+   ],
+   "phone": "886-7-342-6031",
+   "emails": [
+    "french@mail.wzu.edu.tw"
+   ],
+   "url": "http://www.wzu.edu.tw",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Taipei",
+   "cp": "",
+   "city_cp": "",
+   "address": "2 fl., No 107 Roosevelt rd, sec.4, 10673 Taipei",
+   "address_lines": [
+    "2 fl., No 107 Roosevelt rd, sec.4",
+    "10673 Taipei"
+   ],
+   "phone": "886-2-2364-8833",
+   "emails": [
+    "taipei@alliancefrancaise.org.tw"
+   ],
+   "url": "http://www.alliancefrancaise.org.tw",
+   "so": false
+  }
+ ]
+}

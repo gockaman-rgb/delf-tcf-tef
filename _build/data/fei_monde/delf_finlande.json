@@ -1,0 +1,390 @@
+{
+ "country": "Finlande",
+ "iso2": "FI",
+ "fei_id": "72",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 23,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Examens",
+  "city": "Helsinki",
+  "cp": "",
+  "city_cp": "",
+  "address": "Tehtaankatu 27-29 D, 00150 Helsinki",
+  "address_lines": [
+   "Tehtaankatu 27-29 D",
+   "00150 Helsinki"
+  ],
+  "phone": "+358468751201",
+  "emails": [
+   "examen@france.fi"
+  ],
+  "url": "http://www.france.fi",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "École de Saarnilaakso",
+   "city": "Espoo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hösmärintie 1, 02760 Espoo",
+   "address_lines": [
+    "Hösmärintie 1",
+    "02760 Espoo"
+   ],
+   "phone": "+358981630479",
+   "emails": [],
+   "url": "https://www.espoo.fi/fi/saarnilaakson-koulu",
+   "so": false
+  },
+  {
+   "name": "Lycée d'Otaniemi",
+   "city": "Espoo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tietotie 6, 02150 Espoo",
+   "address_lines": [
+    "Tietotie 6",
+    "02150 Espoo"
+   ],
+   "phone": "+358438245151",
+   "emails": [],
+   "url": "https://otaniemenlukio.fi/",
+   "so": false
+  },
+  {
+   "name": "Lycée de Espoonlahti",
+   "city": "Espoo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Opettajantie 3, 02360 Espoo",
+   "address_lines": [
+    "Opettajantie 3",
+    "02360 Espoo"
+   ],
+   "phone": "+358406394511",
+   "emails": [],
+   "url": "https://www.espoo.fi/fi/espoonlahden-lukio",
+   "so": false
+  },
+  {
+   "name": "Lycée de Tapiola / Tapiolan lukio",
+   "city": "Espoo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Opintie 1, 02100 Espoo",
+   "address_lines": [
+    "Opintie 1",
+    "02100 Espoo"
+   ],
+   "phone": "+358981639071",
+   "emails": [],
+   "url": "https://www.espoo.fi/fi/tapiolan-lukio",
+   "so": false
+  },
+  {
+   "name": "Lycée Mattliden - Mattlidens gymnasium",
+   "city": "Espoo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mattliden 1, 02230 Espoo",
+   "address_lines": [
+    "Mattliden 1",
+    "02230 Espoo"
+   ],
+   "phone": "+358981643050",
+   "emails": [],
+   "url": "https://www.mattliden.fi/",
+   "so": false
+  },
+  {
+   "name": "Collège de Tapiola / Tapiolan koulu",
+   "city": "Espoon Kaupunki",
+   "cp": "",
+   "city_cp": "",
+   "address": "PL 3221, 02070 Espoon Kaupunki",
+   "address_lines": [
+    "PL 3221",
+    "02070 Espoon Kaupunki"
+   ],
+   "phone": "+358438257123",
+   "emails": [],
+   "url": "https://www.tapiolankoulu.fi/",
+   "so": false
+  },
+  {
+   "name": "Lycée de Forssa / Forssan yhteislyseo",
+   "city": "Forssa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lyseokatu 2, 30100 Forssa",
+   "address_lines": [
+    "Lyseokatu 2",
+    "30100 Forssa"
+   ],
+   "phone": "+358341415459",
+   "emails": [
+    "yhteislyseo@forssa.fi"
+   ],
+   "url": "http://www.forssanyhteislyseo.fi/",
+   "so": false
+  },
+  {
+   "name": "École Allemande - Deutsche Schule Helsinki",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Malminkatu 14, 00100 Helsinki",
+   "address_lines": [
+    "Malminkatu 14",
+    "00100 Helsinki"
+   ],
+   "phone": "+35896850650",
+   "emails": [
+    "dsh@dsh.fi"
+   ],
+   "url": "http://www.dsh.fi/",
+   "so": false
+  },
+  {
+   "name": "École française Jules Verne Helsinki",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lönnrotinkatu 37, 00180 Helsinki",
+   "address_lines": [
+    "Lönnrotinkatu 37",
+    "00180 Helsinki"
+   ],
+   "phone": "+35895651926",
+   "emails": [
+    "direction@ecolejulesverne.fi"
+   ],
+   "url": "https://ecolejulesverne.fi/fr/",
+   "so": false
+  },
+  {
+   "name": "École normale de Viikki de l'université d'Helsinki",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kevätkatu 2, 00790 Helsinki",
+   "address_lines": [
+    "Kevätkatu 2",
+    "00790 Helsinki"
+   ],
+   "phone": "+358503501361",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "European School of Helsinki",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bulevardi 18, 00120 Helsinki",
+   "address_lines": [
+    "Bulevardi 18",
+    "00120 Helsinki"
+   ],
+   "phone": "+358295332451",
+   "emails": [],
+   "url": "https://www.eshelsinki.com/",
+   "so": false
+  },
+  {
+   "name": "Helsingin Suomalainen Yhteiskoulu - SYK",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Isonnevantie 8, 00320 Helsinki",
+   "address_lines": [
+    "Isonnevantie 8",
+    "00320 Helsinki"
+   ],
+   "phone": "+35894774180",
+   "emails": [
+    "syk@syk.fi"
+   ],
+   "url": "http://www.syk.fi/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Finlande",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tehtaankatu 27-29 D, 00150 Helsinki",
+   "address_lines": [
+    "Tehtaankatu 27-29 D",
+    "00150 Helsinki"
+   ],
+   "phone": "092510210",
+   "emails": [
+    "examen@france.fi"
+   ],
+   "url": "http://www.france.fi/",
+   "so": false
+  },
+  {
+   "name": "Lycée de Töölö / Töölön yhteiskoulu",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Urheilukatu 10, 00250 Helsinki",
+   "address_lines": [
+    "Urheilukatu 10",
+    "00250 Helsinki"
+   ],
+   "phone": "+358407761105",
+   "emails": [],
+   "url": "https://www.tyk.fi/",
+   "so": false
+  },
+  {
+   "name": "Lycée franco-finlandais d'Helsinki",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Raumantie 4, 00350 Helsinki",
+   "address_lines": [
+    "Raumantie 4",
+    "00350 Helsinki"
+   ],
+   "phone": "+358295332525",
+   "emails": [],
+   "url": "http://www.hrsk.fi/",
+   "so": false
+  },
+  {
+   "name": "Oulunkylän Yhteiskoulu",
+   "city": "Helsinki",
+   "cp": "",
+   "city_cp": "",
+   "address": "Siltavoudintie 24, 00640 Helsinki",
+   "address_lines": [
+    "Siltavoudintie 24",
+    "00640 Helsinki"
+   ],
+   "phone": "+35897206730",
+   "emails": [
+    "oyk@oyk.fi"
+   ],
+   "url": "https://oulunkylanyhteiskoulu.fi/",
+   "so": false
+  },
+  {
+   "name": "Ville de Hyvinkää / Hyvinkään lukio",
+   "city": "Hyvinkää",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kenkätehtaankatu 1, 05900 Hyvinkää",
+   "address_lines": [
+    "Kenkätehtaankatu 1",
+    "05900 Hyvinkää"
+   ],
+   "phone": "+358405301081",
+   "emails": [
+    "hyvinkaanlukio@hyvinkaa.fi"
+   ],
+   "url": "https://www.hyvinkaa.fi/hyvinkaan-lukio/lukiomme/hyvinkaan-lukio/",
+   "so": false
+  },
+  {
+   "name": "Kauniaisten lukio",
+   "city": "Kauniainen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kasavuorentie 1, 02700 Kauniainen",
+   "address_lines": [
+    "Kasavuorentie 1",
+    "02700 Kauniainen"
+   ],
+   "phone": "+358503313321",
+   "emails": [],
+   "url": "https://www.kauniaistenlukio.fi/",
+   "so": false
+  },
+  {
+   "name": "Filière franco-finlandaise de Tampere / Wivi Lönnin koulu",
+   "city": "Tampere",
+   "cp": "",
+   "city_cp": "",
+   "address": "Koulukatu 23 / Eteläpuisto 6, 33200 Tampere",
+   "address_lines": [
+    "Koulukatu 23 / Eteläpuisto 6",
+    "33200 Tampere"
+   ],
+   "phone": "+358408064161",
+   "emails": [],
+   "url": "https://www.tampere.fi/wivi-lonnin-koulu",
+   "so": false
+  },
+  {
+   "name": "Sammon keskuslukio / Lycée Sammon keskuslukio",
+   "city": "Tampere",
+   "cp": "",
+   "city_cp": "",
+   "address": "Uimalankatu 5, 33540 Tampere",
+   "address_lines": [
+    "Uimalankatu 5",
+    "33540 Tampere"
+   ],
+   "phone": "+358401512092",
+   "emails": [
+    "lukio.sampo@tampere.fi"
+   ],
+   "url": "https://www.tampere.fi/varhaiskasvatus-ja-koulutus/lukiokoulutus/sammon-keskusl…",
+   "so": false
+  },
+  {
+   "name": "Filière bilingue de Turku / Vähä-Heikkilän koulu",
+   "city": "Turku",
+   "cp": "",
+   "city_cp": "",
+   "address": "Myllymäentie 42, 20810 Turku",
+   "address_lines": [
+    "Myllymäentie 42",
+    "20810 Turku"
+   ],
+   "phone": "+358408268352",
+   "emails": [],
+   "url": "https://www.turku.fi/toimipaikat/vaha-heikkilan-koulu-vaha-heikkilan-yksikko",
+   "so": false
+  },
+  {
+   "name": "Ville de Turku / Puolalanmäen lukio",
+   "city": "Turku",
+   "cp": "",
+   "city_cp": "",
+   "address": "Aurakatu 11, 20100 Turku",
+   "address_lines": [
+    "Aurakatu 11",
+    "20100 Turku"
+   ],
+   "phone": "+358408268352",
+   "emails": [],
+   "url": "https://www.turku.fi/toimipaikat/puolalanmaen-lukio",
+   "so": false
+  },
+  {
+   "name": "École et lycée Helsinge / Helsinge skola/gymnasium",
+   "city": "Vantaa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ylästöntie 3, 01510 Vantaa",
+   "address_lines": [
+    "Ylästöntie 3",
+    "01510 Vantaa"
+   ],
+   "phone": "+358401936460",
+   "emails": [],
+   "url": "https://sivistysvantaa.fi/helsingegymnasium/index.html",
+   "so": false
+  }
+ ]
+}

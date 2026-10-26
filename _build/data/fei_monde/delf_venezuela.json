@@ -1,0 +1,156 @@
+{
+ "country": "Venezuela",
+ "iso2": "VE",
+ "fei_id": "57",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 8,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Caracas",
+  "cp": "",
+  "city_cp": "",
+  "address": "Calle Madrid con Avenida Trinidad Las Mercedes BP 60385, 1060 Caracas",
+  "address_lines": [
+   "Calle Madrid con Avenida Trinidad Las Mercedes BP 60385",
+   "1060 Caracas"
+  ],
+  "phone": "212-909-65-01",
+  "emails": [],
+  "url": "https://ve.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Barquisimeto",
+   "city": "Barquisimeto",
+   "cp": "",
+   "city_cp": "",
+   "address": "Urbanización Nueva Segovia, carrera 2 entre calles 7A y 8, 3001 Barquisimeto",
+   "address_lines": [
+    "Urbanización Nueva Segovia, carrera 2 entre calles 7A y 8",
+    "3001 Barquisimeto"
+   ],
+   "phone": "2512549669",
+   "emails": [],
+   "url": "http://alianzafrancesabarquisimeto.com",
+   "so": false
+  },
+  {
+   "name": "Alliance française Caracas",
+   "city": "Caracas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Mohedano entre primera y segunda transversal. Quinta Wilmaru. La Castellana, 1060 Caracas",
+   "address_lines": [
+    "Avenida Mohedano entre primera y segunda transversal. Quinta Wilmaru. La Castellana",
+    "1060 Caracas"
+   ],
+   "phone": "212 2633820",
+   "emails": [
+    "delfdalftcf2023@gmail.com"
+   ],
+   "url": "http://www.afvenezuela.org/",
+   "so": false
+  },
+  {
+   "name": "Colegio Francia",
+   "city": "Caracas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av \"D\" Campo Claro, 1071 Caracas",
+   "address_lines": [
+    "Av \"D\" Campo Claro",
+    "1071 Caracas"
+   ],
+   "phone": "2122375959",
+   "emails": [
+    "proviseur@cfcaracas.org"
+   ],
+   "url": "http://www.colegiofrancia.edu.ve/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Puerto La Cruz",
+   "city": "Lechería",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Diego Bautista Urbaneja., 6016 Lechería",
+   "address_lines": [
+    "Av. Diego Bautista Urbaneja.",
+    "6016 Lechería"
+   ],
+   "phone": "4140857191",
+   "emails": [],
+   "url": "http://www.puertolacruz.afvenezuela.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Maracaibo",
+   "city": "Maracaibo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Sta Rita. Con C. 67. Cecilio Acosta. Maracaibo., 4001 Maracaibo",
+   "address_lines": [
+    "Av. Sta Rita. Con C. 67. Cecilio Acosta. Maracaibo.",
+    "4001 Maracaibo"
+   ],
+   "phone": "+584246457717",
+   "emails": [
+    "coordinacion.afmcbo@gmail.com"
+   ],
+   "url": "http://www.afmaracaibo.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Maracay",
+   "city": "Maracay",
+   "cp": "",
+   "city_cp": "",
+   "address": "CC. Y PASEO LAS DELICIAS 1, LOCAL PB 73 URBANIZACION BASE ARAGUA, 2102 Maracay",
+   "address_lines": [
+    "CC. Y PASEO LAS DELICIAS 1, LOCAL PB 73 URBANIZACION BASE ARAGUA",
+    "2102 Maracay"
+   ],
+   "phone": "2432380729",
+   "emails": [
+    "alianzafrancesademaracay@gmail.com"
+   ],
+   "url": "http://www.maracay.afvenezuela.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Merida",
+   "city": "Merida",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quinta Coromoto calle 31 Junín con Avda 6 No 5-49, 5110 Merida",
+   "address_lines": [
+    "Quinta Coromoto calle 31 Junín con Avda 6 No 5-49",
+    "5110 Merida"
+   ],
+   "phone": "2742528442",
+   "emails": [
+    "afmerida@gmail.com"
+   ],
+   "url": "http://www.afmerida.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Valencia",
+   "city": "Valencia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 139 - casa 102-28 Urb El Viñedo Parroquia San Jose Municipio Valencia Valencia",
+   "address_lines": [
+    "Calle 139 - casa 102-28 Urb El Viñedo Parroquia San Jose Municipio Valencia Valencia"
+   ],
+   "phone": "241 8258178",
+   "emails": [],
+   "url": "http://www.valencia.afvenezuela.org/",
+   "so": false
+  }
+ ]
+}

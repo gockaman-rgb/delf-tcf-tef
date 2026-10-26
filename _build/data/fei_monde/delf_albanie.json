@@ -1,0 +1,110 @@
+{
+ "country": "Albanie",
+ "iso2": "AL",
+ "fei_id": "59",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Tirana",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rruga e Barrikadave, 122, 1001 Tirana",
+  "address_lines": [
+   "Rruga e Barrikadave, 122",
+   "1001 Tirana"
+  ],
+  "phone": "688048910",
+  "emails": [],
+  "url": "http://www.aftirana.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Durrës",
+   "city": "Durrës",
+   "cp": "",
+   "city_cp": "",
+   "address": "L.4, Rruga “Egnatia”, pallati i Papajve, 2001 Durrës",
+   "address_lines": [
+    "L.4, Rruga “Egnatia”, pallati i Papajve",
+    "2001 Durrës"
+   ],
+   "phone": "672874952",
+   "emails": [
+    "af.durres@gmail.com"
+   ],
+   "url": "http://aleancafranceze.al/af-de-durres/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Elbasan",
+   "city": "Elbasan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rruga : Ali Deliallisi Ndërtesa 30 H2, 3001 Elbasan",
+   "address_lines": [
+    "Rruga : Ali Deliallisi Ndërtesa 30 H2",
+    "3001 Elbasan"
+   ],
+   "phone": "69 20 59 284",
+   "emails": [
+    "afelbasan@gmail.com"
+   ],
+   "url": "http://aleancafranceze.al/af-de-elbasan/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Korça",
+   "city": "Korçe",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rr : 28 « Nëntori » pranë Bashkisë, 7001 Korçe",
+   "address_lines": [
+    "Rr : 28 « Nëntori » pranë Bashkisë",
+    "7001 Korçe"
+   ],
+   "phone": "69 40 92 681",
+   "emails": [],
+   "url": "http://aleancafranceze.al/af-de-korca/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Shkoder",
+   "city": "Shkoder",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rruga « Qemal Draçini » ZK 8592, nr 1/1406N31, kati i dyte, 4001, Shkodër, Albanie, 4001 Shkoder",
+   "address_lines": [
+    "Rruga « Qemal Draçini » ZK 8592, nr 1/1406N31, kati i dyte, 4001, Shkodër, Albanie",
+    "4001 Shkoder"
+   ],
+   "phone": "696045606",
+   "emails": [
+    "aleancafranceze.shkoder@gmail.com"
+   ],
+   "url": "http://aleancafranceze.al/af-de-shkodra/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tirana",
+   "city": "Tirana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rr. e Barrikadave, 122, 1001 Tirana",
+   "address_lines": [
+    "Rr. e Barrikadave, 122",
+    "1001 Tirana"
+   ],
+   "phone": "04 222 5697",
+   "emails": [
+    "info@aftirana.org"
+   ],
+   "url": "http://aleancafranceze.al/af-de-tirana/",
+   "so": false
+  }
+ ]
+}

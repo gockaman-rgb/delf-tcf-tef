@@ -1,0 +1,51 @@
+{
+ "country": "Colombie",
+ "iso2": "CO",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE BOGOTA",
+   "city": "BOGOTA",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carrera 11 N° 93-40, BOGOTA",
+   "address_lines": [
+    "Carrera 11 N° 93-40",
+    "BOGOTA"
+   ],
+   "phone": "+57 601 3905000",
+   "emails": [],
+   "url": "https://alianzafrancesa.edu.co/bogota/",
+   "so": false,
+   "products": [],
+   "cci_id": 54,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/54"
+  },
+  {
+   "name": "ALLIANCE FRANCAISE DE MEDELLIN",
+   "city": "MEDELLIN",
+   "cp": "50015",
+   "city_cp": "",
+   "address": "Carrera 49 # 44 – 94, Parque San Antonio, 50015 MEDELLIN",
+   "address_lines": [
+    "Carrera 49 # 44 – 94, Parque San Antonio",
+    "50015 MEDELLIN"
+   ],
+   "phone": "+57 604 4442620",
+   "emails": [
+    "certificaciones-afm@alianzafrancesa.edu.co"
+   ],
+   "url": "https://medellin.alianzafrancesa.edu.co/",
+   "so": false,
+   "products": [],
+   "cci_id": 148,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/148"
+  }
+ ]
+}

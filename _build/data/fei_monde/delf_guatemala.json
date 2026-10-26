@@ -1,0 +1,78 @@
+{
+ "country": "Guatemala",
+ "iso2": "GT",
+ "fei_id": "26",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Ciudad De Guatemala",
+  "cp": "",
+  "city_cp": "",
+  "address": "5a Calle 10-55, zona 13, Finca la Aurora, 01013 Ciudad De Guatemala",
+  "address_lines": [
+   "5a Calle 10-55, zona 13, Finca la Aurora",
+   "01013 Ciudad De Guatemala"
+  ],
+  "phone": "2207 5757",
+  "emails": [
+   "pedagogia@alianzafrancesa.org.gt"
+  ],
+  "url": "http://www.alianzafrancesa.org.gt/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de La Antigua",
+   "city": "Antigua",
+   "cp": "",
+   "city_cp": "",
+   "address": "13A calle del Emperador, San Pedro El Panorama, 03100 Antigua",
+   "address_lines": [
+    "13A calle del Emperador, San Pedro El Panorama",
+    "03100 Antigua"
+   ],
+   "phone": "79346416",
+   "emails": [
+    "alianzafrancesaantigua@gmail.com"
+   ],
+   "url": "https://www.afantigua.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Guatemala",
+   "city": "Guatemala Ciudad",
+   "cp": "",
+   "city_cp": "",
+   "address": "5a calle 10-55 Finca la Aurora Zona 13, 01013 Guatemala Ciudad",
+   "address_lines": [
+    "5a calle 10-55 Finca la Aurora Zona 13",
+    "01013 Guatemala Ciudad"
+   ],
+   "phone": "58794825",
+   "emails": [
+    "pedagogia@alianzafrancesa.org.gt"
+   ],
+   "url": "http://www.alianzafrancesa.org.gt/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Quetzaltenango",
+   "city": "Quezaltenango",
+   "cp": "",
+   "city_cp": "",
+   "address": "3-21, 14 Avenida A, zona 1, 09001 Quezaltenango",
+   "address_lines": [
+    "3-21, 14 Avenida A, zona 1",
+    "09001 Quezaltenango"
+   ],
+   "phone": "7765 1270",
+   "emails": [],
+   "url": "https://www.facebook.com/af.quetzaltenango/",
+   "so": false
+  }
+ ]
+}

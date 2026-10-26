@@ -1,0 +1,30 @@
+{
+ "country": "Arménie",
+ "iso2": "AM",
+ "fei_id": "322",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Erevan",
+   "cp": "",
+   "city_cp": "",
+   "address": "89/3, rue Teryan, 0009 Erevan",
+   "address_lines": [
+    "89/3, rue Teryan",
+    "0009 Erevan"
+   ],
+   "phone": "374-93-59-66-99",
+   "emails": [
+    "info@alliancefr.am"
+   ],
+   "url": "https://www.alliancefr.am/",
+   "so": true
+  }
+ ]
+}

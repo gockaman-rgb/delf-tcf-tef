@@ -1,0 +1,60 @@
+{
+ "country": "Arabie saoudite",
+ "iso2": "SA",
+ "fei_id": "100",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française d'Arabie Saoudite - Al-Khobar",
+   "city": "Al Khobar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Macro Twin Towers, King Salman Bin Abdulaziz Rd, Al Bandariyah, 31952 Al Khobar",
+   "address_lines": [
+    "Macro Twin Towers, King Salman Bin Abdulaziz Rd, Al Bandariyah",
+    "31952 Al Khobar"
+   ],
+   "phone": "0531846738",
+   "emails": [],
+   "url": "http://www.af-ksa.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Arabie Saoudite - Djeddah",
+   "city": "Djeddah",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hayy Jameel 1st floor, Al Mohammadiyyah, 23617 Djeddah",
+   "address_lines": [
+    "Hayy Jameel 1st floor, Al Mohammadiyyah",
+    "23617 Djeddah"
+   ],
+   "phone": "056 609 3603",
+   "emails": [
+    "djeddah@af-ksa.org"
+   ],
+   "url": "http://www.af-ksa.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Arabie Saoudite - Riyad",
+   "city": "Riyad",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier Diplomatique, Al Kindi Plaza, Gate 14, 11264 Riyad",
+   "address_lines": [
+    "Quartier Diplomatique, Al Kindi Plaza, Gate 14",
+    "11264 Riyad"
+   ],
+   "phone": "0112816539",
+   "emails": [],
+   "url": "http://www.af-ksa.org/",
+   "so": false
+  }
+ ]
+}

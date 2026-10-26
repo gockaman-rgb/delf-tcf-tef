@@ -1,0 +1,31 @@
+{
+ "country": "Arabie saoudite",
+ "iso2": "SA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française, Riyad Ar- Rabih",
+   "city": "Riyadh",
+   "cp": "13315",
+   "city_cp": "",
+   "address": "Alliance française, Riyad Ar- Rabih, 13315 Riyadh",
+   "address_lines": [
+    "Alliance française, Riyad Ar- Rabih",
+    "13315 Riyadh"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.af-ksa.org",
+   "so": false,
+   "products": [],
+   "cci_id": 788,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/788"
+  }
+ ]
+}

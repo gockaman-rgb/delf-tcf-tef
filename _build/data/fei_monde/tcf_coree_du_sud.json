@@ -1,0 +1,62 @@
+{
+ "country": "Corée du Sud",
+ "iso2": "KR",
+ "fei_id": "42",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Busan",
+   "cp": "",
+   "city_cp": "",
+   "address": "311 Chungnyeol-daero Dongnae-gu, 47755 Busan",
+   "address_lines": [
+    "311 Chungnyeol-daero Dongnae-gu",
+    "47755 Busan"
+   ],
+   "phone": "82-51-465-03-06",
+   "emails": [],
+   "url": "http://www.afbusan.co.kr",
+   "so": true
+  },
+  {
+   "name": "Alliance française - centre de Gangnam",
+   "city": "Séoul",
+   "cp": "",
+   "city_cp": "",
+   "address": "4F, 27-15 Gangnam-daero 94-gil Gangnam-gu, Séoul",
+   "address_lines": [
+    "4F, 27-15 Gangnam-daero 94-gil Gangnam-gu",
+    "Séoul"
+   ],
+   "phone": "82-2-555-1125",
+   "emails": [
+    "examen@afseoul.com"
+   ],
+   "url": "https://afseoul.com/",
+   "so": true
+  },
+  {
+   "name": "Alliance française – site de Hoehyun",
+   "city": "Séoul",
+   "cp": "",
+   "city_cp": "",
+   "address": "29, Toegye-ro 10gil Jung-gu, 04632 Séoul",
+   "address_lines": [
+    "29, Toegye-ro 10gil Jung-gu",
+    "04632 Séoul"
+   ],
+   "phone": "82-2-755-4975",
+   "emails": [
+    "tcf@afseoul.or.kr"
+   ],
+   "url": "http://www.afseoul.or.kr",
+   "so": false
+  }
+ ]
+}

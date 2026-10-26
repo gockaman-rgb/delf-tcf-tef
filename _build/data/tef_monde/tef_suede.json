@@ -1,0 +1,33 @@
+{
+ "country": "Suède",
+ "iso2": "SE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE SUÈDE - STOCKHOLM",
+   "city": "STOCKHOLM",
+   "cp": "10246",
+   "city_cp": "",
+   "address": "Kommendörsgatan 13, 10246 STOCKHOLM",
+   "address_lines": [
+    "Kommendörsgatan 13",
+    "10246 STOCKHOLM"
+   ],
+   "phone": "+46 8 459 53 80",
+   "emails": [
+    "francais@institutfrancais-suede.com"
+   ],
+   "url": "www.institutfrancais-suede.com",
+   "so": false,
+   "products": [],
+   "cci_id": 544,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/544"
+  }
+ ]
+}

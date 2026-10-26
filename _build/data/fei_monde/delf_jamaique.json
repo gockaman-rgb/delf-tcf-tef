@@ -1,0 +1,45 @@
+{
+ "country": "Jamaïque",
+ "iso2": "JM",
+ "fei_id": "29",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Kingston",
+  "cp": "",
+  "city_cp": "",
+  "address": "12 Merrick Avenue, 10 Kingston",
+  "address_lines": [
+   "12 Merrick Avenue",
+   "10 Kingston"
+  ],
+  "phone": "8766697945",
+  "emails": [
+   "director@afjamaica.com"
+  ],
+  "url": "https://afj.afcaraibe.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de la Jamaïque",
+   "city": "Kingston",
+   "cp": "",
+   "city_cp": "",
+   "address": "12 Merrick Avenue Kingston",
+   "address_lines": [
+    "12 Merrick Avenue Kingston"
+   ],
+   "phone": "18766697945",
+   "emails": [
+    "director@afjamaica.com"
+   ],
+   "url": "http://www.alliancefrjm.org/",
+   "so": false
+  }
+ ]
+}

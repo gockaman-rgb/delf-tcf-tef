@@ -1,0 +1,33 @@
+{
+ "country": "République Tchèque",
+ "iso2": "CZ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE PRAGUE",
+   "city": "PRAGUE",
+   "cp": "11000",
+   "city_cp": "",
+   "address": "Stepanska 35, 11000 PRAGUE",
+   "address_lines": [
+    "Stepanska 35",
+    "11000 PRAGUE"
+   ],
+   "phone": "+420 221 401 006",
+   "emails": [
+    "cours@ifp.cz"
+   ],
+   "url": "www.ifp.cz",
+   "so": false,
+   "products": [],
+   "cci_id": 533,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/533"
+  }
+ ]
+}

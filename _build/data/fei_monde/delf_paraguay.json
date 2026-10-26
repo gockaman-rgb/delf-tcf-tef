@@ -1,0 +1,44 @@
+{
+ "country": "Paraguay",
+ "iso2": "PY",
+ "fei_id": "33",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction",
+  "city": "Assomption",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avda Mariscal Estigarribia 1039, entre Brasil y EEUU Assomption",
+  "address_lines": [
+   "Avda Mariscal Estigarribia 1039, entre Brasil y EEUU Assomption"
+  ],
+  "phone": "021204456",
+  "emails": [
+   "direccion@alianzafrancesa.edu.py"
+  ],
+  "url": "http://alianzafrancesa.edu.py",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Assomption",
+   "city": "Assomption",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Mariscal Estigarribia 1039 Assomption",
+   "address_lines": [
+    "Calle Mariscal Estigarribia 1039 Assomption"
+   ],
+   "phone": "21204456",
+   "emails": [
+    "direccion@alianzafrancesa.edu.py"
+   ],
+   "url": "http://www.alianzafrancesa.edu.py/",
+   "so": false
+  }
+ ]
+}

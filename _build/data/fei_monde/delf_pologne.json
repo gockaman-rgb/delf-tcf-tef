@@ -1,0 +1,274 @@
+{
+ "country": "Pologne",
+ "iso2": "PL",
+ "fei_id": "85",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 15,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Varsovie",
+  "cp": "",
+  "city_cp": "",
+  "address": "ul. Widok 12, 00-023 Varsovie",
+  "address_lines": [
+   "ul. Widok 12",
+   "00-023 Varsovie"
+  ],
+  "phone": "22 505 98 87",
+  "emails": [],
+  "url": "http://www.institutfrancais.pl/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Pologne - Cracovie",
+   "city": "Cracovie",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ulica Stolarska 15, 30-043 Cracovie",
+   "address_lines": [
+    "Ulica Stolarska 15",
+    "30-043 Cracovie"
+   ],
+   "phone": "124245355",
+   "emails": [],
+   "url": "http://www.institutfrancais.pl/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Gdansk",
+   "city": "Gdansk",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sienkiewicza 5, 80-227 Gdansk",
+   "address_lines": [
+    "Sienkiewicza 5",
+    "80-227 Gdansk"
+   ],
+   "phone": "512125388",
+   "emails": [
+    "alliance.gdansk@gmail.com"
+   ],
+   "url": "http://www.af.gda.pl/",
+   "so": false
+  },
+  {
+   "name": "Alliance",
+   "city": "Katowice",
+   "cp": "",
+   "city_cp": "",
+   "address": "Staromiejska, 12/3, 40-013 Katowice",
+   "address_lines": [
+    "Staromiejska, 12/3",
+    "40-013 Katowice"
+   ],
+   "phone": "518 868 344",
+   "emails": [
+    "afkatowice.sekretariat@gmail.com"
+   ],
+   "url": "http://afkatowice.com/",
+   "so": false
+  },
+  {
+   "name": "Association Alliance française Lodz",
+   "city": "Lódz",
+   "cp": "",
+   "city_cp": "",
+   "address": "ul.Drewnowska 58A, 91-002 Lódz",
+   "address_lines": [
+    "ul.Drewnowska 58A",
+    "91-002 Lódz"
+   ],
+   "phone": "512846202",
+   "emails": [
+    "egzaminy@aflodz.pl"
+   ],
+   "url": "https://lodz.afpolska.pl/",
+   "so": false
+  },
+  {
+   "name": "Lubelskie Stowarzyszenie Alliance Française",
+   "city": "Lublin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cicha 10/U5, 20-078 Lublin",
+   "address_lines": [
+    "Cicha 10/U5",
+    "20-078 Lublin"
+   ],
+   "phone": "81 532 47 31",
+   "emails": [
+    "alliance@aflublin.pl"
+   ],
+   "url": "http://lublin.afpolska.pl/",
+   "so": false
+  },
+  {
+   "name": "Centrum Polsko-Francuskie Côtes d'Armor-Warmia i Mazury w Olsztynie",
+   "city": "Olsztyn",
+   "cp": "",
+   "city_cp": "",
+   "address": "Dąbrowszczaków 39, 10-542 Olsztyn",
+   "address_lines": [
+    "Dąbrowszczaków 39",
+    "10-542 Olsztyn"
+   ],
+   "phone": "504914186",
+   "emails": [
+    "info@cpf.olsztyn.pl"
+   ],
+   "url": "http://www.cpf.olsztyn.pl/",
+   "so": false
+  },
+  {
+   "name": "Fundacja Poznań-Ille-et-Vilaine Dom Bretanii",
+   "city": "Poznań",
+   "cp": "",
+   "city_cp": "",
+   "address": "Stary Rynek 37, 61-772 Poznań",
+   "address_lines": [
+    "Stary Rynek 37",
+    "61-772 Poznań"
+   ],
+   "phone": "618510190",
+   "emails": [
+    "kursy@dombretanii.org.pl"
+   ],
+   "url": "http://www.dombretanii.org.pl/",
+   "so": false
+  },
+  {
+   "name": "Poznan UAM (Université Adam Mickiewicz)",
+   "city": "Poznan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Collegium Heliodori Święcicki ul. Grunwaldzka 6, 60-780 Poznan",
+   "address_lines": [
+    "Collegium Heliodori Święcicki ul. Grunwaldzka 6",
+    "60-780 Poznan"
+   ],
+   "phone": "61 829 29 47",
+   "emails": [],
+   "url": "http://www.sj.amu.edu.pl/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Rzeszów",
+   "city": "Rzeszów",
+   "cp": "",
+   "city_cp": "",
+   "address": "Podwisłocze 48, 35-309 Rzeszów",
+   "address_lines": [
+    "Podwisłocze 48",
+    "35-309 Rzeszów"
+   ],
+   "phone": "724180520",
+   "emails": [
+    "kontakt@rzeszow.afpolska.pl"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Szczecin",
+   "city": "Szczecin",
+   "cp": "",
+   "city_cp": "",
+   "address": "ul. Zubrow 1/u9, 71-617 Szczecin",
+   "address_lines": [
+    "ul. Zubrow 1/u9",
+    "71-617 Szczecin"
+   ],
+   "phone": "91 83 14 563",
+   "emails": [
+    "alliance.szczecin@gmail.com"
+   ],
+   "url": "http://szczecin.afpolska.pl/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Torun",
+   "city": "Torun",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mikołaja Kopernika 20, 87-100 Torun",
+   "address_lines": [
+    "Mikołaja Kopernika 20",
+    "87-100 Torun"
+   ],
+   "phone": "531 319 149",
+   "emails": [
+    "sekretariat@aftorun.pl"
+   ],
+   "url": "http://www.aftorun.pl/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Pologne",
+   "city": "Varsovie",
+   "cp": "",
+   "city_cp": "",
+   "address": "rue Widok 12, 00-023 Varsovie",
+   "address_lines": [
+    "rue Widok 12",
+    "00-023 Varsovie"
+   ],
+   "phone": "225059852",
+   "emails": [],
+   "url": "http://www.institutfrancais.pl/",
+   "so": false
+  },
+  {
+   "name": "Lycée français de Varsovie",
+   "city": "Varsovie",
+   "cp": "",
+   "city_cp": "",
+   "address": "ul. Walecznych 4/6, 03-916 Varsovie",
+   "address_lines": [
+    "ul. Walecznych 4/6",
+    "03-916 Varsovie"
+   ],
+   "phone": "22 651 96 12",
+   "emails": [
+    "directeur@lfv.pl"
+   ],
+   "url": "https://lfv.pl/fr/page-daccueil/",
+   "so": false
+  },
+  {
+   "name": "Association polonaise - Europe des langues et des cultures (ELC)",
+   "city": "Wodzislaw Slaski",
+   "cp": "",
+   "city_cp": "",
+   "address": "44-313 Wodzisław Śląski, 85A, Kokoszycka, 44-313 Wodzislaw Slaski",
+   "address_lines": [
+    "44-313 Wodzisław Śląski, 85A, Kokoszycka",
+    "44-313 Wodzislaw Slaski"
+   ],
+   "phone": "+48607344334",
+   "emails": [],
+   "url": "http://www.frankofonia.pl/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Stowarzyszenie Wroclaw",
+   "city": "Wroclaw",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rynek 58, 50-116 Wroclaw",
+   "address_lines": [
+    "Rynek 58",
+    "50-116 Wroclaw"
+   ],
+   "phone": "+48532722878",
+   "emails": [
+    "sekretariat@alliance.wroclaw.pl"
+   ],
+   "url": "http://www.alliance-francaise.pl/wroclaw",
+   "so": false
+  }
+ ]
+}

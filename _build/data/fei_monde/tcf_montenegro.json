@@ -1,0 +1,30 @@
+{
+ "country": "Monténégro",
+ "iso2": "ME",
+ "fei_id": "387",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Podgorica",
+   "cp": "",
+   "city_cp": "",
+   "address": "Njegoseva 26, 81000 Podgorica",
+   "address_lines": [
+    "Njegoseva 26",
+    "81000 Podgorica"
+   ],
+   "phone": "382-20-667-000",
+   "emails": [
+    "ifm@institutfrancais.me"
+   ],
+   "url": "http://www.institutfrancais.me",
+   "so": true
+  }
+ ]
+}

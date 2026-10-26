@@ -1,0 +1,432 @@
+{
+ "country": "Malaisie",
+ "iso2": "MY",
+ "fei_id": "49",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 26,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "DELF/DALF",
+  "city": "Kuala Lumpur",
+  "cp": "",
+  "city_cp": "",
+  "address": "15, Lorong Gurney, Off Jalan Semarak, 54100 Kuala Lumpur",
+  "address_lines": [
+   "15, Lorong Gurney, Off Jalan Semarak",
+   "54100 Kuala Lumpur"
+  ],
+  "phone": "3 2694 7880",
+  "emails": [
+   "delfdalf.malaisie@gmail.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "SMK St Joseph Miri",
+   "city": "Miri",
+   "cp": "",
+   "city_cp": "",
+   "address": "",
+   "address_lines": [],
+   "phone": "",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMK Agama Kedah",
+   "city": "Alor Setar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lebuhraya Sultanah Bahiyah, 05350 Alor Setar",
+   "address_lines": [
+    "Lebuhraya Sultanah Bahiyah",
+    "05350 Alor Setar"
+   ],
+   "phone": "47314345",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Muzaffar Syah",
+   "city": "Ayer Keroh",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sekolah Menengah Sains Muzaffar Syah, 75450 Ayer Keroh",
+   "address_lines": [
+    "Sekolah Menengah Sains Muzaffar Syah",
+    "75450 Ayer Keroh"
+   ],
+   "phone": "62320833",
+   "emails": [],
+   "url": "http://moe.edu.my.com/",
+   "so": false
+  },
+  {
+   "name": "Universiti Kuala Lumpur Malaysia France Institute",
+   "city": "Bandar Baru Bangi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Section 14, Jalan Damai, Seksyen 14, 43650 Bandar Baru Bangi",
+   "address_lines": [
+    "Section 14, Jalan Damai, Seksyen 14",
+    "43650 Bandar Baru Bangi"
+   ],
+   "phone": "389132800",
+   "emails": [],
+   "url": "http://www.unikl.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Selangor",
+   "city": "Cheras",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Yakob Latiff, Bandar Tun Razak, 56000 Cheras",
+   "address_lines": [
+    "Jalan Yakob Latiff, Bandar Tun Razak",
+    "56000 Cheras"
+   ],
+   "phone": "391316093",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SM SAINS DUNGUN",
+   "city": "DUNGUN",
+   "cp": "",
+   "city_cp": "",
+   "address": "JALAN PAKA, 23000 DUNGUN",
+   "address_lines": [
+    "JALAN PAKA",
+    "23000 DUNGUN"
+   ],
+   "phone": "098422550",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "SMS Dungun",
+   "city": "Dungun",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Paka, 23000 Dungun",
+   "address_lines": [
+    "Jalan Paka",
+    "23000 Dungun"
+   ],
+   "phone": "098422550",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Penang",
+   "city": "George Town",
+   "cp": "",
+   "city_cp": "",
+   "address": "46 Jalan Phuah Hin Leong, 10050 George Town",
+   "address_lines": [
+    "46 Jalan Phuah Hin Leong",
+    "10050 George Town"
+   ],
+   "phone": "042261741",
+   "emails": [
+    "director@afpenang.com"
+   ],
+   "url": "http://afpenang.com/",
+   "so": false
+  },
+  {
+   "name": "SMK Convent Green Lane",
+   "city": "Georgetown",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Masjid Negeri, 11600 Georgetown",
+   "address_lines": [
+    "Jalan Masjid Negeri",
+    "11600 Georgetown"
+   ],
+   "phone": "42814842",
+   "emails": [
+    "peb1097@moe.edu.my"
+   ],
+   "url": "https://www.moe.gov.my/en/",
+   "so": false
+  },
+  {
+   "name": "SMK Taman Melawati",
+   "city": "GOMBAK",
+   "cp": "",
+   "city_cp": "",
+   "address": "Taman Melawati, 53100 GOMBAK",
+   "address_lines": [
+    "Taman Melawati",
+    "53100 GOMBAK"
+   ],
+   "phone": "+60341613383",
+   "emails": [],
+   "url": "http://www.moe-gov.my/bpk",
+   "so": false
+  },
+  {
+   "name": "Sekolah Tun Fatimah",
+   "city": "Johor Bahru",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Tun Abdul Razak, 80000 Johor Bahru",
+   "address_lines": [
+    "Jalan Tun Abdul Razak",
+    "80000 Johor Bahru"
+   ],
+   "phone": "72364706",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Sabah",
+   "city": "Kota Kinabalu",
+   "cp": "",
+   "city_cp": "",
+   "address": "D/A IPG Kent (Old Campus), Jalan Bolong, Tuaran, 87207 Kota Kinabalu",
+   "address_lines": [
+    "D/A IPG Kent (Old Campus), Jalan Bolong, Tuaran",
+    "87207 Kota Kinabalu"
+   ],
+   "phone": "88793806",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kuala Lumpur",
+   "city": "Kuala Lumpur",
+   "cp": "",
+   "city_cp": "",
+   "address": "15 lorong Gurney, off Jalan Sultan Yahya Petra, 54100 Kuala Lumpur",
+   "address_lines": [
+    "15 lorong Gurney, off Jalan Sultan Yahya Petra",
+    "54100 Kuala Lumpur"
+   ],
+   "phone": "326947880",
+   "emails": [
+    "delfdalf.malaisie@gmail.com"
+   ],
+   "url": "http://www.alliancefrancaise.org.my/",
+   "so": false
+  },
+  {
+   "name": "Lycée français de Kuala Lumpur",
+   "city": "Kuala Lumpur",
+   "cp": "",
+   "city_cp": "",
+   "address": "34 Jalan Dutamas Raya, Segambut, 51200 Kuala Lumpur",
+   "address_lines": [
+    "34 Jalan Dutamas Raya, Segambut",
+    "51200 Kuala Lumpur"
+   ],
+   "phone": "362504415",
+   "emails": [],
+   "url": "https://www.lfkl.edu.my/?lang=fr",
+   "so": false
+  },
+  {
+   "name": "SMS Kuching Utara",
+   "city": "Kuching",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lot 2666 Lorong 6A9 Jalan Matang, 93050 Kuching",
+   "address_lines": [
+    "Lot 2666 Lorong 6A9 Jalan Matang",
+    "93050 Kuching"
+   ],
+   "phone": "082-646 540",
+   "emails": [],
+   "url": "https://smsakura.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Labuan",
+   "city": "Labuan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Sungai Pagar, 87032 Labuan",
+   "address_lines": [
+    "Jalan Sungai Pagar",
+    "87032 Labuan"
+   ],
+   "phone": "87461525",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Lahad Datu",
+   "city": "Lahad Datu",
+   "cp": "",
+   "city_cp": "",
+   "address": "Beg Berkunci, 18, 91108 Lahad Datu",
+   "address_lines": [
+    "Beg Berkunci, 18",
+    "91108 Lahad Datu"
+   ],
+   "phone": "89884905",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SBP Integrasi Tun Abdul Razak",
+   "city": "Pekan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sekolah Berasrama Penuh Integrasi Tun Abdul Razak, 26600 Pekan",
+   "address_lines": [
+    "Sekolah Berasrama Penuh Integrasi Tun Abdul Razak",
+    "26600 Pekan"
+   ],
+   "phone": "94101010",
+   "emails": [
+    "cra5001@moe.edu.my"
+   ],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Tengku Muhammad Faris Petra",
+   "city": "Pengkalan Chepa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sekolah Menengah Sains Tengku Muhammad Faris Petra, 16100 Pengkalan Chepa",
+   "address_lines": [
+    "Sekolah Menengah Sains Tengku Muhammad Faris Petra",
+    "16100 Pengkalan Chepa"
+   ],
+   "phone": "97738277",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SBP Integrasi Rawang",
+   "city": "Rawang",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bandar Tasik Puteri, 48020 Rawang",
+   "address_lines": [
+    "Bandar Tasik Puteri",
+    "48020 Rawang"
+   ],
+   "phone": "360928192",
+   "emails": [
+    "bra7011@moe.edu.my"
+   ],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SBP Integrasi Sabak Bernam",
+   "city": "Sabak Bernam",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kampung Sungai Apong, 45100 Sabak Bernam",
+   "address_lines": [
+    "Kampung Sungai Apong",
+    "45100 Sabak Bernam"
+   ],
+   "phone": "332138348",
+   "emails": [
+    "bra6001@moe.edu.my"
+   ],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "University of Nottingham Malaysia",
+   "city": "Semenyih",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jalan Broga, 43500 Semenyih",
+   "address_lines": [
+    "Jalan Broga",
+    "43500 Semenyih"
+   ],
+   "phone": "389248744",
+   "emails": [],
+   "url": "http://www.nottingham.edu.my/index.aspx",
+   "so": false
+  },
+  {
+   "name": "SMA Persekutuan Labu",
+   "city": "Seremban",
+   "cp": "",
+   "city_cp": "",
+   "address": "KM 11, JALAN LABU, 71900 Seremban",
+   "address_lines": [
+    "KM 11, JALAN LABU",
+    "71900 Seremban"
+   ],
+   "phone": "67912245",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "Sekolah Dato' Abdul Razak",
+   "city": "Seremban",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sungai Gadut, 71450 Seremban",
+   "address_lines": [
+    "Sungai Gadut",
+    "71450 Seremban"
+   ],
+   "phone": "066770806",
+   "emails": [],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Setiu",
+   "city": "Setiu",
+   "cp": "",
+   "city_cp": "",
+   "address": "Air Sejuk, Bandar Permaisuri, 22100 Setiu",
+   "address_lines": [
+    "Air Sejuk, Bandar Permaisuri",
+    "22100 Setiu"
+   ],
+   "phone": "96095003",
+   "emails": [
+    "tea6090@moe.edu.my"
+   ],
+   "url": "http://moe.edu.my/",
+   "so": false
+  },
+  {
+   "name": "SMS Raja Tun Azlan Shah Taiping",
+   "city": "Taiping",
+   "cp": "",
+   "city_cp": "",
+   "address": "Peti Surat 79, 34000 Taiping",
+   "address_lines": [
+    "Peti Surat 79",
+    "34000 Taiping"
+   ],
+   "phone": "58083020",
+   "emails": [
+    "aea6050@moe.edu.my"
+   ],
+   "url": "http://moe.edu.my/",
+   "so": false
+  }
+ ]
+}

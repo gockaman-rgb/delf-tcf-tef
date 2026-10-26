@@ -1,0 +1,600 @@
+{
+ "country": "Russie",
+ "iso2": "RU",
+ "fei_id": "90",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 37,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Moscou",
+  "cp": "",
+  "city_cp": "",
+  "address": "Milioutinski pereoulok 10 / 1, 103000 Moscou",
+  "address_lines": [
+   "Milioutinski pereoulok 10 / 1",
+   "103000 Moscou"
+  ],
+  "phone": "495 917 03 58",
+  "emails": [],
+  "url": "http://www.institutfrancais.ru/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Université d'Etat d'Astrakhan",
+   "city": "Astrakhan",
+   "cp": "",
+   "city_cp": "",
+   "address": "20a, rue Taticheva / 11, rue Akhmatovskaia, 414000 Astrakhan",
+   "address_lines": [
+    "20a, rue Taticheva / 11, rue Akhmatovskaia",
+    "414000 Astrakhan"
+   ],
+   "phone": "+79033483533",
+   "emails": [],
+   "url": "https://asu.edu.ru/universitet/1922-centr-mejdunarodnogo-testirovaniia-po-franc…",
+   "so": false
+  },
+  {
+   "name": "Université pédagogique d'Etat de Blagovechtchensk",
+   "city": "Blagovechtchensk",
+   "cp": "",
+   "city_cp": "",
+   "address": "104, rue Lénine, 675000 Blagovechtchensk",
+   "address_lines": [
+    "104, rue Lénine",
+    "675000 Blagovechtchensk"
+   ],
+   "phone": "+789143905895",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Ekaterinbourg",
+   "city": "Ekaterinbourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "81, avenue Lénine, 620075 Ekaterinbourg",
+   "address_lines": [
+    "81, avenue Lénine",
+    "620075 Ekaterinbourg"
+   ],
+   "phone": "+73433502167",
+   "emails": [
+    "directeur.ekaterinbourg@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/ekaterinbourg",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat d'Oudmourtie",
+   "city": "Ijevsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, rue Universitetskaya, 426034 Ijevsk",
+   "address_lines": [
+    "1, rue Universitetskaya",
+    "426034 Ijevsk"
+   ],
+   "phone": "+73412916174",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Irkoutsk",
+   "city": "Irkoutsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "28, rue Gorky, 664025 BP 17 Irkoutsk",
+   "address_lines": [
+    "28, rue Gorky",
+    "664025 BP 17 Irkoutsk"
+   ],
+   "phone": "+73952500617",
+   "emails": [
+    "irkoutsk@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/irkoutsk",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat Energétique d'Ivanovo",
+   "city": "Ivanovo",
+   "cp": "",
+   "city_cp": "",
+   "address": "29, rue Rabfakovskaya, 153003 Ivanovo",
+   "address_lines": [
+    "29, rue Rabfakovskaya",
+    "153003 Ivanovo"
+   ],
+   "phone": "+74932412670",
+   "emails": [],
+   "url": "http://www.ispu.ru",
+   "so": false
+  },
+  {
+   "name": "Université Fédérale Baltique Emmanuel Kant",
+   "city": "Kaliningrad",
+   "cp": "",
+   "city_cp": "",
+   "address": "56, rue Tchernychevskogo, 236022 Kaliningrad",
+   "address_lines": [
+    "56, rue Tchernychevskogo",
+    "236022 Kaliningrad"
+   ],
+   "phone": "+79062385752",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kazan",
+   "city": "Kazan",
+   "cp": "",
+   "city_cp": "",
+   "address": "52, rue Pouchkina bureau 1134, 420015 Kazan",
+   "address_lines": [
+    "52, rue Pouchkina bureau 1134",
+    "420015 Kazan"
+   ],
+   "phone": "+78432927865",
+   "emails": [],
+   "url": "http://www.afrus.ru/kazan",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Kemerovo",
+   "city": "Kemerovo",
+   "cp": "",
+   "city_cp": "",
+   "address": "6, rue Krasnaia, 650000 Kemerovo",
+   "address_lines": [
+    "6, rue Krasnaia",
+    "650000 Kemerovo"
+   ],
+   "phone": "+79132870146",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Koursk",
+   "city": "Koursk",
+   "cp": "",
+   "city_cp": "",
+   "address": "33, rue Radistchev, 305000 Koursk",
+   "address_lines": [
+    "33, rue Radistchev",
+    "305000 Koursk"
+   ],
+   "phone": "+74712512798",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université Technique d'Etat de Magnitogorsk",
+   "city": "Magnitogorsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "26, avenue de Lénine, 455000 Magnitogorsk",
+   "address_lines": [
+    "26, avenue de Lénine",
+    "455000 Magnitogorsk"
+   ],
+   "phone": "+79068549416",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat du Daguestan",
+   "city": "Makhatchkala",
+   "cp": "",
+   "city_cp": "",
+   "address": "37, rue M.Gadzhieva, 367000 Makhatchkala",
+   "address_lines": [
+    "37, rue M.Gadzhieva",
+    "367000 Makhatchkala"
+   ],
+   "phone": "+78722671003",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français de Russie, antenne de Moscou",
+   "city": "Moscou",
+   "cp": "",
+   "city_cp": "",
+   "address": "Miliutinski 10, bât 1, 103000 Moscou",
+   "address_lines": [
+    "Miliutinski 10, bât 1",
+    "103000 Moscou"
+   ],
+   "phone": "985 027 44 77",
+   "emails": [],
+   "url": "http://www.institutfrancais.ru/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Nijni Novgorod",
+   "city": "Nijni Novgorod",
+   "cp": "",
+   "city_cp": "",
+   "address": "18/1, rue Ocharskaia, 603006 Nijni Novgorod",
+   "address_lines": [
+    "18/1, rue Ocharskaia",
+    "603006 Nijni Novgorod"
+   ],
+   "phone": "+78314378135",
+   "emails": [
+    "cours.nijni-novgorod@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/nijni-novgorod",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Novossibirsk",
+   "city": "Novossibirsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "69, Krasniy prospekt, 630091 Novossibirsk",
+   "address_lines": [
+    "69, Krasniy prospekt",
+    "630091 Novossibirsk"
+   ],
+   "phone": "+73832200007",
+   "emails": [
+    "af.nsk@mail.ru"
+   ],
+   "url": "https://www.afrus.ru/novossibirsk",
+   "so": false
+  },
+  {
+   "name": "Université Pédagogique d'Etat d'Omsk",
+   "city": "Omsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "14, rue Naberejnaya Toukhatchevskogo, 644099 Omsk",
+   "address_lines": [
+    "14, rue Naberejnaya Toukhatchevskogo",
+    "644099 Omsk"
+   ],
+   "phone": "+7 3812243795",
+   "emails": [],
+   "url": "https://omgpu.ru/delf-dalf",
+   "so": false
+  },
+  {
+   "name": "Université de la science et des technologies d'Oufa",
+   "city": "Oufa",
+   "cp": "",
+   "city_cp": "",
+   "address": "19, rue Kommunistitcheskaya, 450074 Oufa",
+   "address_lines": [
+    "19, rue Kommunistitcheskaya",
+    "450074 Oufa"
+   ],
+   "phone": "+79174016150",
+   "emails": [],
+   "url": "http://www.uust.ru/",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Technologie et de Gestion",
+   "city": "Oulan-Oudé",
+   "cp": "",
+   "city_cp": "",
+   "address": "40V, rue Klutchevskaya, 670013 Oulan-Oudé",
+   "address_lines": [
+    "40V, rue Klutchevskaya",
+    "670013 Oulan-Oudé"
+   ],
+   "phone": "+79021677077",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université Pédagogique d’Etat d’Oulianovsk",
+   "city": "Oulianovsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "4/5 Plochtchad Lenina, 432072 Oulianovsk",
+   "address_lines": [
+    "4/5 Plochtchad Lenina",
+    "432072 Oulianovsk"
+   ],
+   "phone": "+79061418395",
+   "emails": [],
+   "url": "http://www.ulspu.ru/",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Penza",
+   "city": "Penza",
+   "cp": "",
+   "city_cp": "",
+   "address": "40 rue Krasnaya, 440026 Penza",
+   "address_lines": [
+    "40 rue Krasnaya",
+    "440026 Penza"
+   ],
+   "phone": "+78412643648",
+   "emails": [],
+   "url": "https://international.pnzgu.ru/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Perm",
+   "city": "Perm",
+   "cp": "",
+   "city_cp": "",
+   "address": "10, rue Lenina, 614015 Perm",
+   "address_lines": [
+    "10, rue Lenina",
+    "614015 Perm"
+   ],
+   "phone": "+73422066556",
+   "emails": [],
+   "url": "http://www.afrus.ru/perm",
+   "so": false
+  },
+  {
+   "name": "Université d’Etat de Piatigorsk",
+   "city": "Piatigorsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "9, avenue Kalinine, 357500 Piatigorsk",
+   "address_lines": [
+    "9, avenue Kalinine",
+    "357500 Piatigorsk"
+   ],
+   "phone": "+79282254873",
+   "emails": [],
+   "url": "https://pgu.ru/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Rostov sur le Don",
+   "city": "Rostov Sur Le Don",
+   "cp": "",
+   "city_cp": "",
+   "address": "166-a, rue M. Gorkogo, 344006 Rostov Sur Le Don",
+   "address_lines": [
+    "166-a, rue M. Gorkogo",
+    "344006 Rostov Sur Le Don"
+   ],
+   "phone": "+78632692045",
+   "emails": [
+    "directeur.rostov@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/rostov",
+   "so": false
+  },
+  {
+   "name": "Institut français de Russie, Saint-Pétersbourg",
+   "city": "Saint-Pétersbourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "12, avenue Nevsky, 191186 Saint-Pétersbourg",
+   "address_lines": [
+    "12, avenue Nevsky",
+    "191186 Saint-Pétersbourg"
+   ],
+   "phone": "+78126160031",
+   "emails": [],
+   "url": "http://www.institutfrancais.ru/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Samara",
+   "city": "Samara",
+   "cp": "",
+   "city_cp": "",
+   "address": "10 rue Vyssotskogo, 443020 Samara",
+   "address_lines": [
+    "10 rue Vyssotskogo",
+    "443020 Samara"
+   ],
+   "phone": "+78462708513",
+   "emails": [
+    "directeur.samara@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/samara",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Saratov",
+   "city": "Saratov",
+   "cp": "",
+   "city_cp": "",
+   "address": "32, rue Moskovskaya, 410031 Saratov",
+   "address_lines": [
+    "32, rue Moskovskaya",
+    "410031 Saratov"
+   ],
+   "phone": "+78452233045",
+   "emails": [
+    "saratov@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/",
+   "so": false
+  },
+  {
+   "name": "Université d’Etat de Smolensk",
+   "city": "Smolensk",
+   "cp": "",
+   "city_cp": "",
+   "address": "4, rue Prjévalsky, 214000 Smolensk",
+   "address_lines": [
+    "4, rue Prjévalsky",
+    "214000 Smolensk"
+   ],
+   "phone": "+79066680458",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Syktyvkar",
+   "city": "Syktyvkar",
+   "cp": "",
+   "city_cp": "",
+   "address": "55, Oktiabrski prospekt, 167001 Syktyvkar",
+   "address_lines": [
+    "55, Oktiabrski prospekt",
+    "167001 Syktyvkar"
+   ],
+   "phone": "+78212390433",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Tambov",
+   "city": "Tambov",
+   "cp": "",
+   "city_cp": "",
+   "address": "33, rue Internatsionalnaya, 392000 Tambov",
+   "address_lines": [
+    "33, rue Internatsionalnaya",
+    "392000 Tambov"
+   ],
+   "phone": "+74752723434",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Tioumen",
+   "city": "Tioumen",
+   "cp": "",
+   "city_cp": "",
+   "address": "6, Volodarskogo, 625003 Tioumen",
+   "address_lines": [
+    "6, Volodarskogo",
+    "625003 Tioumen"
+   ],
+   "phone": "+73452597434",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Togliatti",
+   "city": "Togliatti",
+   "cp": "",
+   "city_cp": "",
+   "address": "29, bureau 221, rue Yubileynaya, 445037 Togliatti",
+   "address_lines": [
+    "29, bureau 221, rue Yubileynaya",
+    "445037 Togliatti"
+   ],
+   "phone": "+78482318377",
+   "emails": [
+    "cours.togliatti@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/togliatti",
+   "so": false
+  },
+  {
+   "name": "Université Pédagogique d'Etat de Tomsk",
+   "city": "Tomsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "75, prospekt Komsomolskiy, 634041 Tomsk",
+   "address_lines": [
+    "75, prospekt Komsomolskiy",
+    "634041 Tomsk"
+   ],
+   "phone": "+73822311361",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université pédagogique d'Etat de Toula Léon Tolstoi",
+   "city": "Toula",
+   "cp": "",
+   "city_cp": "",
+   "address": "125, prospekt Lenina, 300026 Toula",
+   "address_lines": [
+    "125, prospekt Lenina",
+    "300026 Toula"
+   ],
+   "phone": "+74872355474",
+   "emails": [],
+   "url": "https://tsput.ru/sveden/struct/center_for_language_and_culture/exams.php",
+   "so": false
+  },
+  {
+   "name": "Université d’Etat d’Ossétie du Nord",
+   "city": "Vladikavkaz",
+   "cp": "",
+   "city_cp": "",
+   "address": "44-46, rue Vatoutine, 362025 Vladikavkaz",
+   "address_lines": [
+    "44-46, rue Vatoutine",
+    "362025 Vladikavkaz"
+   ],
+   "phone": "+78672333373",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Vladivostok",
+   "city": "Vladivostok",
+   "cp": "",
+   "city_cp": "",
+   "address": "23 rue Svetlanskaya, 690090 Vladivostok",
+   "address_lines": [
+    "23 rue Svetlanskaya",
+    "690090 Vladivostok"
+   ],
+   "phone": "+79247303224",
+   "emails": [
+    "directeur.vladivostok@afrus.ru"
+   ],
+   "url": "http://www.afrus.ru/vladivostok",
+   "so": false
+  },
+  {
+   "name": "Université d'Etat de Volgograd",
+   "city": "Volgograd",
+   "cp": "",
+   "city_cp": "",
+   "address": "100, prospekt Universitetski, 400062 Volgograd",
+   "address_lines": [
+    "100, prospekt Universitetski",
+    "400062 Volgograd"
+   ],
+   "phone": "+78442405525",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Université fédérale du Nord-Est",
+   "city": "Yakoutsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "58, ULK-515, Belinskgo, 677000 Yakoutsk",
+   "address_lines": [
+    "58, ULK-515, Belinskgo",
+    "677000 Yakoutsk"
+   ],
+   "phone": "+74112496818",
+   "emails": [],
+   "url": "https://www.s-vfu.ru/en/projects&activities/french-resource-center/",
+   "so": false
+  }
+ ]
+}

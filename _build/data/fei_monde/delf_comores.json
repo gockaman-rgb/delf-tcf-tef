@@ -1,0 +1,59 @@
+{
+ "country": "Comores",
+ "iso2": "KM",
+ "fei_id": "126",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Pédagogique",
+  "city": "Moroni",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rue de la corniche Moroni",
+  "address_lines": [
+   "Rue de la corniche Moroni"
+  ],
+  "phone": "773 10 87",
+  "emails": [],
+  "url": "http://www.af-comores.org",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Moroni-Hankounou",
+   "city": "Moroni",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue de la Corniche Moroni",
+   "address_lines": [
+    "Rue de la Corniche Moroni"
+   ],
+   "phone": "7731087",
+   "emails": [
+    "direction@afcomores.com"
+   ],
+   "url": "http://af-comores.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mutsamudu",
+   "city": "Mutsamudu",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier de l'alliance, BP191 Mutsamudu",
+   "address_lines": [
+    "Quartier de l'alliance",
+    "BP191 Mutsamudu"
+   ],
+   "phone": "7711194",
+   "emails": [
+    "afmutsamudu@gmail.com"
+   ],
+   "url": "https://www.af-mutsamudu.com/",
+   "so": false
+  }
+ ]
+}

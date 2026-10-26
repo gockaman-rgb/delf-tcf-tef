@@ -1,0 +1,30 @@
+{
+ "country": "Angola",
+ "iso2": "AO",
+ "fei_id": "121",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Luanda",
+   "cp": "",
+   "city_cp": "",
+   "address": "12, Travessa do Bocage Largo Sagrada Familia Maculusso, Luanda",
+   "address_lines": [
+    "12, Travessa do Bocage Largo Sagrada Familia Maculusso",
+    "Luanda"
+   ],
+   "phone": "+244-225300235",
+   "emails": [
+    "recepcao@afluanda.net"
+   ],
+   "url": "http://www.afluanda.com",
+   "so": true
+  }
+ ]
+}

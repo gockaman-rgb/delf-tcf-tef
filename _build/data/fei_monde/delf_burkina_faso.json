@@ -1,0 +1,44 @@
+{
+ "country": "Burkina Faso",
+ "iso2": "BF",
+ "fei_id": "123",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Ouagadougou",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rue de l'hospitalité, BP-504 Ouagadougou",
+  "address_lines": [
+   "Rue de l'hospitalité",
+   "BP-504 Ouagadougou"
+  ],
+  "phone": "25306992",
+  "emails": [],
+  "url": "http://institutfrancais-burkinafaso.com",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français Burkina Faso - Ouagadougou",
+   "city": "Ouagadougou",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue de la Nation, 01 BP 561 Ouagadougou",
+   "address_lines": [
+    "Avenue de la Nation",
+    "01 BP 561 Ouagadougou"
+   ],
+   "phone": "25306099",
+   "emails": [
+    "centredelangues@if-bf.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

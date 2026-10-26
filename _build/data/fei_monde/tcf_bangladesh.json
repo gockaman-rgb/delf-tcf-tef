@@ -1,0 +1,47 @@
+{
+ "country": "Bangladesh",
+ "iso2": "BD",
+ "fei_id": "326",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Chittagong",
+   "city": "Chittagong",
+   "cp": "",
+   "city_cp": "",
+   "address": "123 K.B. Fazlul Kader Rd, 4203 Chittagong",
+   "address_lines": [
+    "123 K.B. Fazlul Kader Rd",
+    "4203 Chittagong"
+   ],
+   "phone": "880-13-18-89-64-44 / 880-17-30-64-18-53",
+   "emails": [
+    "info@af-chittagong.org"
+   ],
+   "url": "https://www.afchittagong.org",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Dhaka",
+   "cp": "",
+   "city_cp": "",
+   "address": "26, Mirpur Road - Dhanmondi Corner Road #3, 1205 Dhaka",
+   "address_lines": [
+    "26, Mirpur Road - Dhanmondi Corner Road #3",
+    "1205 Dhaka"
+   ],
+   "phone": "880-2-967-52-49",
+   "emails": [
+    "formation@afdhaka.org"
+   ],
+   "url": "http://www.afdhaka.org",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "country": "Brunéi Darussalam",
+ "iso2": "BN",
+ "fei_id": "334",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction",
+  "city": "Bandar Seri Begawan",
+  "cp": "",
+  "city_cp": "",
+  "address": "No.1, BH Garden, Spg 116, Jalan Tungku, Gadong, BE2119 Bandar Seri Begawan",
+  "address_lines": [
+   "No.1, BH Garden, Spg 116, Jalan Tungku, Gadong",
+   "BE2119 Bandar Seri Begawan"
+  ],
+  "phone": "8351984",
+  "emails": [
+   "executive.director@afbrunei.org"
+  ],
+  "url": "http://www.afbrunei.org",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Bandar Seri Begawan",
+   "city": "Bandar Seri Begawan",
+   "cp": "",
+   "city_cp": "",
+   "address": "No.1, BH Garden, Spg 116, Jalan Tungku, Gadong,, BE2119 Bandar Seri Begawan",
+   "address_lines": [
+    "No.1, BH Garden, Spg 116, Jalan Tungku, Gadong,",
+    "BE2119 Bandar Seri Begawan"
+   ],
+   "phone": "829 1986",
+   "emails": [
+    "contact@afbrunei.org"
+   ],
+   "url": "http://www.afbrunei.org/",
+   "so": false
+  }
+ ]
+}

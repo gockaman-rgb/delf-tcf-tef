@@ -1,0 +1,304 @@
+{
+ "country": "Tunisie",
+ "iso2": "TN",
+ "fei_id": "118",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 18,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Tunis",
+  "cp": "",
+  "city_cp": "",
+  "address": "20-22 Avenue de Paris, 1000 Tunis",
+  "address_lines": [
+   "20-22 Avenue de Paris",
+   "1000 Tunis"
+  ],
+  "phone": "+21631325287",
+  "emails": [],
+  "url": "http://www.institutfrancais-tunisie.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Tunis",
+   "city": "Ariana",
+   "cp": "",
+   "city_cp": "",
+   "address": "29 rue Ali Ibn Abi Taleb, 2091 Ariana",
+   "address_lines": [
+    "29 rue Ali Ibn Abi Taleb",
+    "2091 Ariana"
+   ],
+   "phone": "24776652",
+   "emails": [],
+   "url": "http://alliancefr.tn",
+   "so": false
+  },
+  {
+   "name": "Centre de langue IFT Béja",
+   "city": "Béja",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Habib Thameur , Béja Sud 9000, 9000 Béja",
+   "address_lines": [
+    "Avenue Habib Thameur , Béja Sud 9000",
+    "9000 Béja"
+   ],
+   "phone": "+21658 274 032",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Bizerte",
+   "city": "Bizerte",
+   "cp": "",
+   "city_cp": "",
+   "address": "26, Rue Ali Khamessi, 7000 Bizerte",
+   "address_lines": [
+    "26, Rue Ali Khamessi",
+    "7000 Bizerte"
+   ],
+   "phone": "216 98186887",
+   "emails": [
+    "direction.afbizerte@gmail.com"
+   ],
+   "url": "https://www.alliancefr-bizerte.tn/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Djerba",
+   "city": "Djerba",
+   "cp": "",
+   "city_cp": "",
+   "address": "7 rue Ettaamir Houmt Souk, 4180 Djerba",
+   "address_lines": [
+    "7 rue Ettaamir Houmt Souk",
+    "4180 Djerba"
+   ],
+   "phone": "53 737 396",
+   "emails": [
+    "direction.afdjerba@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - Pôle de Mourouj",
+   "city": "El Mourouj 1",
+   "cp": "",
+   "city_cp": "",
+   "address": "Complexe THABET (2ème étage ) - 02 RUE DE TUNIS, 2074 El Mourouj 1",
+   "address_lines": [
+    "Complexe THABET (2ème étage ) - 02 RUE DE TUNIS",
+    "2074 El Mourouj 1"
+   ],
+   "phone": "+21658440308",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Gafsa",
+   "city": "Gafsa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cité Echérif, rue Platon, Gafsa, 2100, 2100 Gafsa",
+   "address_lines": [
+    "Cité Echérif, rue Platon, Gafsa, 2100",
+    "2100 Gafsa"
+   ],
+   "phone": "97300498",
+   "emails": [
+    "af.gafsa@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kairouan",
+   "city": "Kairouan",
+   "cp": "",
+   "city_cp": "",
+   "address": "15, avenue de la Victoire, 3100 Kairouan",
+   "address_lines": [
+    "15, avenue de la Victoire",
+    "3100 Kairouan"
+   ],
+   "phone": "54544243",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - Pôle de Kebili",
+   "city": "Kebili",
+   "cp": "",
+   "city_cp": "",
+   "address": "lycée privé Ibnou Kholdoun - Avenue Habib Bourguiba, 4200 Kebili",
+   "address_lines": [
+    "lycée privé Ibnou Kholdoun - Avenue Habib Bourguiba",
+    "4200 Kebili"
+   ],
+   "phone": "+21658589 398",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - pôle de La Marsa",
+   "city": "La Marsa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ecole Paul Verlaine - Rue Othman Kaak La Marsa",
+   "address_lines": [
+    "Ecole Paul Verlaine - Rue Othman Kaak La Marsa"
+   ],
+   "phone": "+21658440 343",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - Pôle de Mednine",
+   "city": "Mednine",
+   "cp": "",
+   "city_cp": "",
+   "address": "Institut supérieur des langues de Médenine, 4100 Mednine",
+   "address_lines": [
+    "Institut supérieur des langues de Médenine",
+    "4100 Mednine"
+   ],
+   "phone": "+21658440309",
+   "emails": [],
+   "url": "http://www.institutfrancais-tunisie.com",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - pôle de Mégrine",
+   "city": "Mégrine Côteaux",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ecole Georges Brassens - 7, rue Mongi Bali, 2033 Mégrine Côteaux",
+   "address_lines": [
+    "Ecole Georges Brassens - 7, rue Mongi Bali",
+    "2033 Mégrine Côteaux"
+   ],
+   "phone": "+21658 531 934",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - pôle de Nabeul / Hammamet",
+   "city": "Nabeul",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Taieb Mhiri, 8000 Nabeul",
+   "address_lines": [
+    "Avenue Taieb Mhiri",
+    "8000 Nabeul"
+   ],
+   "phone": "58440339",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - pôle de Sfax",
+   "city": "Sfax",
+   "cp": "",
+   "city_cp": "",
+   "address": "Maison de France - 9, avenue Habib Bourguiba, 3000 Sfax",
+   "address_lines": [
+    "Maison de France - 9, avenue Habib Bourguiba",
+    "3000 Sfax"
+   ],
+   "phone": "74 224 600",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "Centre de langue -pôle de Sousse",
+   "city": "Sousse",
+   "cp": "",
+   "city_cp": "",
+   "address": "15 rue Abou Hamed Ghazeli Bouhsina, Sousse, Tunisia, 4002 Sousse",
+   "address_lines": [
+    "15 rue Abou Hamed Ghazeli Bouhsina, Sousse, Tunisia",
+    "4002 Sousse"
+   ],
+   "phone": "58440344",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance Tuniso-Française Interculturelle de Gabès « ATFIG »",
+   "city": "Tunis",
+   "cp": "",
+   "city_cp": "",
+   "address": "’Immeuble HBG, 5 ème étage, Rue Ile de Failaka, Cité les Pins, les Berges du Lac II,, 1053 Tunis",
+   "address_lines": [
+    "’Immeuble HBG, 5 ème étage, Rue Ile de Failaka, Cité les Pins, les Berges du Lac II,",
+    "1053 Tunis"
+   ],
+   "phone": "50882931",
+   "emails": [
+    "direction.afgabes@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - pôle de El Omrane",
+   "city": "Tunis",
+   "cp": "",
+   "city_cp": "",
+   "address": "École Robert Desnos - 92 bis route de l’hôpital militaire El Omrane, 1005 Tunis",
+   "address_lines": [
+    "École Robert Desnos - 92 bis route de l’hôpital militaire El Omrane",
+    "1005 Tunis"
+   ],
+   "phone": "+21698432536",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "Centre de langue - pôle de Mutuelleville",
+   "city": "Tunis",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lycée Pierre Mendès France 9, rue Pierre Mendès France, 1082 Tunis",
+   "address_lines": [
+    "Lycée Pierre Mendès France 9, rue Pierre Mendès France",
+    "1082 Tunis"
+   ],
+   "phone": "+21658440340",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  },
+  {
+   "name": "I.F.T - Centre de langue",
+   "city": "Tunis",
+   "cp": "",
+   "city_cp": "",
+   "address": "Institut Francais de Tunisie - 20/22 avenue de Paris, 1080 Tunis",
+   "address_lines": [
+    "Institut Francais de Tunisie - 20/22 avenue de Paris",
+    "1080 Tunis"
+   ],
+   "phone": "+21631325286",
+   "emails": [],
+   "url": "http://institutfrancais-tunisie.com/",
+   "so": false
+  }
+ ]
+}

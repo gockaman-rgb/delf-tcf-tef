@@ -1,0 +1,141 @@
+{
+ "country": "Afrique du Sud",
+ "iso2": "ZA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE DURBAN",
+   "city": "BEREA",
+   "cp": "4001",
+   "city_cp": "",
+   "address": "43 Station Dr, 4001 BEREA",
+   "address_lines": [
+    "43 Station Dr",
+    "4001 BEREA"
+   ],
+   "phone": "+27 31 312 9582",
+   "emails": [
+    "admin@durban.alliance.org.za"
+   ],
+   "url": "https://durban.alliance.org.za/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 89,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/89"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DU CAP",
+   "city": "CAPE TOWN",
+   "cp": "8000",
+   "city_cp": "",
+   "address": "155 Loop Street, 8000 CAPE TOWN",
+   "address_lines": [
+    "155 Loop Street",
+    "8000 CAPE TOWN"
+   ],
+   "phone": "+27 21 423 5699",
+   "emails": [
+    "info@afcapetown.co.za"
+   ],
+   "url": "https://cpt.alliance.org.za/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 230,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/230"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PORT ELIZABETH",
+   "city": "GQEBERHA",
+   "cp": "6001",
+   "city_cp": "",
+   "address": "17 Mackay Street, 6001 GQEBERHA",
+   "address_lines": [
+    "17 Mackay Street",
+    "6001 GQEBERHA"
+   ],
+   "phone": "+27 63 499 4417",
+   "emails": [
+    "contact@afportelizabeth.com"
+   ],
+   "url": "www.afportelizabeth.com",
+   "so": false,
+   "products": [],
+   "cci_id": 171,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/171"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE JOHANNESBOURG",
+   "city": "JOHANNESBURG",
+   "cp": "2122",
+   "city_cp": "",
+   "address": "17 Lower Park Drive, Corner Kerry Road, 2122 JOHANNESBURG",
+   "address_lines": [
+    "17 Lower Park Drive, Corner Kerry Road",
+    "2122 JOHANNESBURG"
+   ],
+   "phone": "+27 11 646 1169",
+   "emails": [
+    "tef@jhb.alliance.org.za"
+   ],
+   "url": "https://jhb.alliance.org.za/test-certification/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 106,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/106"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PRETORIA",
+   "city": "PRETORIA",
+   "cp": "2",
+   "city_cp": "",
+   "address": "99 Rivier Street, Sunnyside, 2 PRETORIA",
+   "address_lines": [
+    "99 Rivier Street, Sunnyside",
+    "2 PRETORIA"
+   ],
+   "phone": "+27 12 343 6563",
+   "emails": [
+    "courses@pta.alliance.org.za"
+   ],
+   "url": "pta.alliance.org.za",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 174,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/174"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE STELLENBOSCH",
+   "city": "Stellenbosch",
+   "cp": "7600",
+   "city_cp": "",
+   "address": "Ryneveld Street 44, 7600 Stellenbosch",
+   "address_lines": [
+    "Ryneveld Street 44",
+    "7600 Stellenbosch"
+   ],
+   "phone": "+27 78 520 7963",
+   "emails": [
+    "director@stellenbosch.alliance.org.za"
+   ],
+   "url": "https://stellenbosch.alliance.org.za/",
+   "so": false,
+   "products": [],
+   "cci_id": 922,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/922"
+  }
+ ]
+}

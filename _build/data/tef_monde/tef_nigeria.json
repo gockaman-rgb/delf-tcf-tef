@@ -1,0 +1,73 @@
+{
+ "country": "Nigéria",
+ "iso2": "NG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU NIGÉRIA",
+   "city": "ABUJA",
+   "cp": "Wuse 2",
+   "city_cp": "",
+   "address": "52, Libreville Crescent, Wuse 2 ABUJA",
+   "address_lines": [
+    "52, Libreville Crescent",
+    "Wuse 2 ABUJA"
+   ],
+   "phone": "+234 811 357 9551",
+   "emails": [
+    "contact@institutfr-nigeria.org"
+   ],
+   "url": "https://institutfr-nigeria.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 570,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/570"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LAGOS",
+   "city": "LAGOS",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mike Adenuga Centre, LAGOS",
+   "address_lines": [
+    "Mike Adenuga Centre",
+    "LAGOS"
+   ],
+   "phone": "+234 705 228 8001",
+   "emails": [
+    "reception.lagos@afnigeria.org"
+   ],
+   "url": "www.afnigeria.org/lagos",
+   "so": false,
+   "products": [],
+   "cci_id": 127,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/127"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PORT HARCOURT",
+   "city": "PORT HARCOURT",
+   "cp": "500101",
+   "city_cp": "",
+   "address": "20 Herbert Macaulay Street, 500101 PORT HARCOURT",
+   "address_lines": [
+    "20 Herbert Macaulay Street",
+    "500101 PORT HARCOURT"
+   ],
+   "phone": "+234 805 323 3579",
+   "emails": [
+    "reception.phc@af-nigeria.org"
+   ],
+   "url": "www.af-nigeria.org",
+   "so": false,
+   "products": [],
+   "cci_id": 172,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/172"
+  }
+ ]
+}

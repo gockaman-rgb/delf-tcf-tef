@@ -1,0 +1,31 @@
+{
+ "country": "Bangladesh",
+ "iso2": "BD",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE DACCA",
+   "city": "DACCA",
+   "cp": "1205",
+   "city_cp": "",
+   "address": "26, Mirpur Road, 1205 DACCA",
+   "address_lines": [
+    "26, Mirpur Road",
+    "1205 DACCA"
+   ],
+   "phone": "+880 1678-086442",
+   "emails": [],
+   "url": "www.afdhaka.org",
+   "so": false,
+   "products": [],
+   "cci_id": 750,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/750"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "country": "Djibouti",
+ "iso2": "DJ",
+ "fei_id": "129",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Cours et examens",
+  "city": "Djibouti Ville",
+  "cp": "",
+  "city_cp": "",
+  "address": "Boulevard Idriss Omar Guelleh - BP 2039 Djibouti Ville",
+  "address_lines": [
+   "Boulevard Idriss Omar Guelleh - BP 2039 Djibouti Ville"
+  ],
+  "phone": "21359989",
+  "emails": [
+   "administration@institutfrancais-djibouti.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Djibouti",
+   "city": "Djibouti",
+   "cp": "",
+   "city_cp": "",
+   "address": "Institut français de Djibouti (IFD) B.P. 64 Salines Ouest – Djibouti Djibouti",
+   "address_lines": [
+    "Institut français de Djibouti (IFD) B.P. 64 Salines Ouest – Djibouti Djibouti"
+   ],
+   "phone": "21359989",
+   "emails": [
+    "cours@institutfrancais-djibouti.com"
+   ],
+   "url": "http://institutfrancais-djibouti.com/",
+   "so": false
+  }
+ ]
+}

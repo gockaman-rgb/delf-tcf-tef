@@ -1,0 +1,44 @@
+{
+ "country": "Moldavie",
+ "iso2": "MD",
+ "fei_id": "82",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Pôle pédagogique",
+  "city": "Chisinau",
+  "cp": "",
+  "city_cp": "",
+  "address": "18 rue Sfatul Tarii, MD-2012 Chisinau",
+  "address_lines": [
+   "18 rue Sfatul Tarii",
+   "MD-2012 Chisinau"
+  ],
+  "phone": "22 23 45 10",
+  "emails": [],
+  "url": "http://www.alfr.md/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Moldavie",
+   "city": "Chisinau",
+   "cp": "",
+   "city_cp": "",
+   "address": "18 rue SFATUL TARII, 2012 Chisinau",
+   "address_lines": [
+    "18 rue SFATUL TARII",
+    "2012 Chisinau"
+   ],
+   "phone": "22 23 45 10",
+   "emails": [
+    "alfr@alfr.md"
+   ],
+   "url": "http://www.alfr.md/",
+   "so": false
+  }
+ ]
+}

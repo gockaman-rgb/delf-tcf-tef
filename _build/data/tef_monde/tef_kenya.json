@@ -1,0 +1,33 @@
+{
+ "country": "Kenya",
+ "iso2": "KE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE NAIROBI",
+   "city": "NAIROBI",
+   "cp": "00100",
+   "city_cp": "",
+   "address": "5, Utalii lane, 00100 NAIROBI",
+   "address_lines": [
+    "5, Utalii lane",
+    "00100 NAIROBI"
+   ],
+   "phone": "+254 724 714680",
+   "emails": [
+    "exams@afkenya.org"
+   ],
+   "url": "www.afkenya.org",
+   "so": false,
+   "products": [],
+   "cci_id": 158,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/158"
+  }
+ ]
+}

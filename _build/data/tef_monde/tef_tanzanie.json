@@ -1,0 +1,53 @@
+{
+ "country": "Tanzanie",
+ "iso2": "TZ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCO-TANZANIENNE D'ARUSHA",
+   "city": "ARUSHA",
+   "cp": "99",
+   "city_cp": "",
+   "address": "6 Karata Street behind Gloryland church, 99 ARUSHA",
+   "address_lines": [
+    "6 Karata Street behind Gloryland church",
+    "99 ARUSHA"
+   ],
+   "phone": "+255 763 756 386",
+   "emails": [
+    "course@aftarusha.org"
+   ],
+   "url": "www.aftarusha.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 237,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/237"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DAR ES SALAAM",
+   "city": "DAR ES SALAAM",
+   "cp": "P.O Box 2566",
+   "city_cp": "",
+   "address": "Ali Hassan Mwinyi Road, P.O Box 2566 DAR ES SALAAM",
+   "address_lines": [
+    "Ali Hassan Mwinyi Road",
+    "P.O Box 2566 DAR ES SALAAM"
+   ],
+   "phone": "+255 687 481 374",
+   "emails": [],
+   "url": "https://afdar.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 81,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/81"
+  }
+ ]
+}

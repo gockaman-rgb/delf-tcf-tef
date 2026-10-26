@@ -1,0 +1,31 @@
+{
+ "country": "Géorgie",
+ "iso2": "GE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE GÉORGIE - TBILISSI",
+   "city": "TBILISSI",
+   "cp": "0105",
+   "city_cp": "",
+   "address": "4 ruelle I Chakhrukhadze, 0105 TBILISSI",
+   "address_lines": [
+    "4 ruelle I Chakhrukhadze",
+    "0105 TBILISSI"
+   ],
+   "phone": "+995 32 292 28 55",
+   "emails": [],
+   "url": "https://institutfrancais.ge/",
+   "so": false,
+   "products": [],
+   "cci_id": 514,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/514"
+  }
+ ]
+}

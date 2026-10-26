@@ -1,0 +1,112 @@
+{
+ "country": "Irlande",
+ "iso2": "IE",
+ "fei_id": "76",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Dublin",
+  "cp": "",
+  "city_cp": "",
+  "address": "1 Kildare Street, Dublin 2 Dublin",
+  "address_lines": [
+   "1 Kildare Street",
+   "Dublin 2 Dublin"
+  ],
+  "phone": "1 6761732",
+  "emails": [],
+  "url": "http://www.alliance-francaise.ie/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Cork",
+   "city": "Cork",
+   "cp": "",
+   "city_cp": "",
+   "address": "Enterprise House, 36 Mary Street, T12RCY9 Cork",
+   "address_lines": [
+    "Enterprise House, 36 Mary Street",
+    "T12RCY9 Cork"
+   ],
+   "phone": "0214310677",
+   "emails": [
+    "directeur.afcork@gmail.com"
+   ],
+   "url": "http://alliancefrancaisecork.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Dublin",
+   "city": "Dublin",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Kildare Street, D02TP94 Dublin",
+   "address_lines": [
+    "1 Kildare Street",
+    "D02TP94 Dublin"
+   ],
+   "phone": "016381446",
+   "emails": [
+    "exams@alliance-francaise.ie"
+   ],
+   "url": "http://www.alliance-francaise.ie/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Kilkenny",
+   "city": "Kilkenny",
+   "cp": "",
+   "city_cp": "",
+   "address": "c/o Club House Hotel, 22&23 Lower Patrick Street, R95DX76 Kilkenny",
+   "address_lines": [
+    "c/o Club House Hotel, 22&23 Lower Patrick Street",
+    "R95DX76 Kilkenny"
+   ],
+   "phone": "(086)1622400",
+   "emails": [
+    "teacher@afkilkenny.org"
+   ],
+   "url": "https://www.afkilkenny.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Limerick",
+   "city": "Limerick",
+   "cp": "",
+   "city_cp": "",
+   "address": "7 Pery Square, V94EE65 Limerick",
+   "address_lines": [
+    "7 Pery Square",
+    "V94EE65 Limerick"
+   ],
+   "phone": "61 414 818",
+   "emails": [
+    "bonjour@aflimerick.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française Waterford-Wexford",
+   "city": "Waterford",
+   "cp": "",
+   "city_cp": "",
+   "address": "Farronshoneen Youth & Community Centre, Ardkeen, X91 PY99 Waterford",
+   "address_lines": [
+    "Farronshoneen Youth & Community Centre, Ardkeen",
+    "X91 PY99 Waterford"
+   ],
+   "phone": "089 244 3551",
+   "emails": [
+    "info@afwaterfordwexford.ie"
+   ],
+   "url": "https://afwaterfordwexford.ie/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "country": "Norvège",
+ "iso2": "NO",
+ "fei_id": "83",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Fransk kulturhus AS",
+   "city": "Oslo",
+   "cp": "",
+   "city_cp": "",
+   "address": "St. Olavs gate 21B, 0165 Oslo",
+   "address_lines": [
+    "St. Olavs gate 21B",
+    "0165 Oslo"
+   ],
+   "phone": "47-919-09-404",
+   "emails": [
+    "contact@franskkulturhus.no"
+   ],
+   "url": "https://franskkulturhus.no/",
+   "so": false
+  }
+ ]
+}

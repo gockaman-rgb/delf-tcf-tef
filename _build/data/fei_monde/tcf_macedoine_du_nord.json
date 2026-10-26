@@ -1,0 +1,30 @@
+{
+ "country": "Macédoine du nord",
+ "iso2": "MK",
+ "fei_id": "81",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français - Ambassade de France",
+   "city": "Skopje",
+   "cp": "",
+   "city_cp": "",
+   "address": "ul. Sv. Kiril i Metodij br 48 BP 388, 1000 Skopje",
+   "address_lines": [
+    "ul. Sv. Kiril i Metodij br 48 BP 388",
+    "1000 Skopje"
+   ],
+   "phone": "389-23-11-85-03",
+   "emails": [
+    "education@ifs.mk"
+   ],
+   "url": "http://www.ifs.mk",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "country": "Rwanda",
+ "iso2": "RW",
+ "fei_id": "144",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action culturelle",
+  "city": "Kigali",
+  "cp": "",
+  "city_cp": "",
+  "address": "3, KN 33, Kiyovu. Kigali",
+  "address_lines": [
+   "3, KN 33, Kiyovu. Kigali"
+  ],
+  "phone": "+250788331913",
+  "emails": [
+   "accueil@if-rwanda.org"
+  ],
+  "url": "http://www.if-rwanda.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Rwanda",
+   "city": "Kigali",
+   "cp": "",
+   "city_cp": "",
+   "address": "25KG 624 street Kigali",
+   "address_lines": [
+    "25KG 624 street Kigali"
+   ],
+   "phone": "250788331913",
+   "emails": [
+    "accueil@if-rwanda.org"
+   ],
+   "url": "https://if-rwanda.org/",
+   "so": false
+  }
+ ]
+}

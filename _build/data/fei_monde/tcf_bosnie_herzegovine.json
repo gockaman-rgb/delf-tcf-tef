@@ -1,0 +1,47 @@
+{
+ "country": "Bosnie-Herzégovine",
+ "iso2": "BA",
+ "fei_id": "64",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français de Bosnie-Herzégovine",
+   "city": "Banja Luka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jevrejka 30 (JU NUB RS), 78000 Banja Luka",
+   "address_lines": [
+    "Jevrejka 30 (JU NUB RS)",
+    "78000 Banja Luka"
+   ],
+   "phone": "387-51-219-238",
+   "emails": [
+    "banjaluka@institutfrancais.ba"
+   ],
+   "url": "http://www.institutfrancais.ba",
+   "so": true
+  },
+  {
+   "name": "Institut français en Bosnie-Herzégovine",
+   "city": "Sarajevo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tina Ujevica 8, 71000 Sarajevo",
+   "address_lines": [
+    "Tina Ujevica 8",
+    "71000 Sarajevo"
+   ],
+   "phone": "387-33-668-605 / 387-33-586-199",
+   "emails": [
+    "cours@institutfrancais.ba"
+   ],
+   "url": "http://www.institutfrancais.ba",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "country": "Grèce",
+ "iso2": "GR",
+ "fei_id": "74",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Ambassade de France en Grèce - Institut français de Grèce",
+  "city": "Athènes",
+  "cp": "",
+  "city_cp": "",
+  "address": "31, rue Sina, 106 80 Athènes",
+  "address_lines": [
+   "31, rue Sina",
+   "106 80 Athènes"
+  ],
+  "phone": "210 33 98 629",
+  "emails": [],
+  "url": "http://www.ifg.gr/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Ambassade de France - Institut français de Grèce",
+   "city": "Athènes",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sina 31, 10680 Athènes",
+   "address_lines": [
+    "Sina 31",
+    "10680 Athènes"
+   ],
+   "phone": "2103398629",
+   "emails": [],
+   "url": "http://www.ifg.gr/",
+   "so": false
+  }
+ ]
+}

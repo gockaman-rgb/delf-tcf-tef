@@ -202,7 +202,7 @@ DELF_CAL = {
     "og_title": "Calendrier DELF-DALF 2026-2027 : les dates des sessions",
     "og_desc": "Les dix sessions par an, les écrits 2026 et 2027, les fenêtres d'inscription — et pourquoi chaque centre n'en ouvre qu'une partie.",
     "h1": "Calendrier DELF-DALF 2026-2027 : les dates des sessions et des inscriptions",
-    "published": DATE, "modified": "2026-10-17", "date_fr": "17 octobre 2026", "read": 6,
+    "published": DATE, "modified": "2026-10-26", "date_fr": "26 octobre 2026", "read": 6,
     "intro": """Le DELF et le DALF tout public se passent à <strong>dix sessions nationales par an</strong>, fixées par
 France Éducation international — une par mois, <strong>jamais en avril ni en septembre</strong>. En 2026, il
 reste les écrits des <strong>6-8 octobre, 3-5 novembre et 1<sup>er</sup>-3 décembre</strong> ; 2027 commence
@@ -215,6 +215,7 @@ fenêtres d'inscription relevées, et la méthode pour ne pas rater la vôtre.""
         "Chaque centre <strong>choisit ses sessions</strong> : Nantes Université en ouvre quatre par an, l'Alliance française de Lyon les dix.",
         "Inscriptions closes <strong>4 à 10 semaines avant</strong> : jusqu'au 4 octobre pour novembre à l'Alliance française de Paris, deux jours seulement (22-23 septembre) pour décembre à Nantes.",
         "Résultats sous <strong>4 à 6 semaines</strong> ; diplôme <strong>valable à vie</strong>.",
+        "<strong>Hors de France</strong>, chaque pays a son propre calendrier : <a href=\"#hors-de-france\">les dates pays par pays</a>.",
     ],
     "toc": [
         ("calendrier", "Le calendrier national 2026-2027"),
@@ -255,6 +256,14 @@ et A2 passent le 1<sup>er</sup>, les B1 et B2 le 2, les DALF le 3. <strong>Ce ca
 France</strong> : ailleurs, chaque pays fixe ses dates — en Espagne, l'écrit de février 2027 a lieu du 10 au
 12 février, et les adultes ont une session en septembre ; aux États-Unis, la session de décembre 2026 se tient du
 7 au 11 décembre.</p>
+<div class="note" id="hors-de-france">
+<p><strong>Hors de France.</strong> Chaque pays publie son propre calendrier. Au 26 octobre 2026, Taïwan avait déjà
+publié ses sessions 2027 (B1 et B2 le 10 janvier à Taipei, puis mai, juin, juillet et novembre) ; la Corée du Sud, le
+Japon, Hong Kong, la Turquie, le Vietnam, l'Inde et le Liban n'avaient publié que leurs dates 2026. Les dates pays par
+pays, en anglais : <a href="/en/delf-exam-dates-2027/#by-country" hreflang="en" lang="en">DELF exam dates 2027 by
+country</a> ; l'Espagne et l'Amérique latine, en espagnol : <a href="/es/fechas-delf-2027/#por-pais" hreflang="es"
+lang="es">Fechas DELF 2027</a>.</p>
+</div>
 
 <h2 id="centres">Ce que les centres en font : les sessions relevées</h2>
 <p>Le calendrier national est un <strong>menu</strong>, pas une promesse : chaque centre y choisit les sessions

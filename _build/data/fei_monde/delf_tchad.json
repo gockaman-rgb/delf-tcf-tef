@@ -1,0 +1,114 @@
+{
+ "country": "Tchad",
+ "iso2": "TD",
+ "fei_id": "148",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "N'Djamena",
+  "cp": "",
+  "city_cp": "",
+  "address": "Ambassade de France à N'Djaména (TCHAD) SCAC, B.P 431 N'Djamena",
+  "address_lines": [
+   "Ambassade de France à N'Djaména (TCHAD) SCAC",
+   "B.P 431 N'Djamena"
+  ],
+  "phone": "+23562535054",
+  "emails": [],
+  "url": "http://www.ambafrance-td.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "CALF ABECHE",
+   "city": "Abeche",
+   "cp": "",
+   "city_cp": "",
+   "address": "Maison de la culture/CALF ABECHE Abeche",
+   "address_lines": [
+    "Maison de la culture/CALF ABECHE Abeche"
+   ],
+   "phone": "66251973",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "CALF ADRE",
+   "city": "Adre",
+   "cp": "",
+   "city_cp": "",
+   "address": "CALF ADRE/MAISON DE LA CULTURE Adre",
+   "address_lines": [
+    "CALF ADRE/MAISON DE LA CULTURE Adre"
+   ],
+   "phone": "23566258497",
+   "emails": [],
+   "url": "http://www.ambafrance-td.org/",
+   "so": false
+  },
+  {
+   "name": "CALF Mongo",
+   "city": "Mongo",
+   "cp": "",
+   "city_cp": "",
+   "address": "nicolas.cartron@expertisefrance.fr, 991346 Mongo",
+   "address_lines": [
+    "nicolas.cartron@expertisefrance.fr",
+    "991346 Mongo"
+   ],
+   "phone": "68083355",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "CALF Moundou",
+   "city": "Moundou",
+   "cp": "",
+   "city_cp": "",
+   "address": "CALF Moundou/Maison de la culture Moundou",
+   "address_lines": [
+    "CALF Moundou/Maison de la culture Moundou"
+   ],
+   "phone": "23566750956",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "CALF NDJAMENA",
+   "city": "Ndjamena",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier Ardep Djoumal - route de l'ENA Ndjamena",
+   "address_lines": [
+    "Quartier Ardep Djoumal - route de l'ENA Ndjamena"
+   ],
+   "phone": "23566277689",
+   "emails": [
+    "calf.ndj@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "CALF SARH",
+   "city": "Sarh",
+   "cp": "",
+   "city_cp": "",
+   "address": "CALF SARH - MAISON DE LA CULTURE Sarh",
+   "address_lines": [
+    "CALF SARH - MAISON DE LA CULTURE Sarh"
+   ],
+   "phone": "23566381909",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

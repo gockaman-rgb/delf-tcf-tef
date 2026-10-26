@@ -1,0 +1,30 @@
+{
+ "country": "Hongrie",
+ "iso2": "HU",
+ "fei_id": "75",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Budapest",
+   "cp": "",
+   "city_cp": "",
+   "address": "Fö u. 17, 1011 Budapest",
+   "address_lines": [
+    "Fö u. 17",
+    "1011 Budapest"
+   ],
+   "phone": "36-1-489-42-00",
+   "emails": [
+    "cours@inst-france.hu"
+   ],
+   "url": "http://www.franciaintezet.hu",
+   "so": false
+  }
+ ]
+}

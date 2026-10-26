@@ -1,0 +1,30 @@
+{
+ "country": "Lituanie",
+ "iso2": "LT",
+ "fei_id": "80",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français de Lituanie",
+   "city": "Vilnius",
+   "cp": "",
+   "city_cp": "",
+   "address": "Didzioji g. 1, LT-01128 Vilnius",
+   "address_lines": [
+    "Didzioji g. 1",
+    "LT-01128 Vilnius"
+   ],
+   "phone": "370-5-219-96-96",
+   "emails": [
+    "cours.vilnius@gmail.com"
+   ],
+   "url": "http://www.institutfrancais-lituanie.com",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "country": "Macédoine du nord",
+ "iso2": "MK",
+ "fei_id": "81",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Institut français de Skopje",
+  "city": "Skopje",
+  "cp": "",
+  "city_cp": "",
+  "address": "ul. Sv. Kiril i Metodij, br.48 BP 388, 1000 Skopje",
+  "address_lines": [
+   "ul. Sv. Kiril i Metodij, br.48 BP 388",
+   "1000 Skopje"
+  ],
+  "phone": "(0)2 31 18 386",
+  "emails": [],
+  "url": "http://www.ifs.mk/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Skopje",
+   "city": "Skopje",
+   "cp": "",
+   "city_cp": "",
+   "address": "ul. Sv. Kiril i Metodij 48 BP 388, 1000 Skopje",
+   "address_lines": [
+    "ul. Sv. Kiril i Metodij 48 BP 388",
+    "1000 Skopje"
+   ],
+   "phone": "2 31 29 288",
+   "emails": [
+    "education@ifs.mk"
+   ],
+   "url": "http://www.ifs.mk/",
+   "so": false
+  }
+ ]
+}

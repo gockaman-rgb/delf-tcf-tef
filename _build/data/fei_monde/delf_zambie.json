@@ -1,0 +1,46 @@
+{
+ "country": "Zambie",
+ "iso2": "ZM",
+ "fei_id": "440",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Lusaka",
+  "cp": "",
+  "city_cp": "",
+  "address": "31F Leopard's Hill Close Kabulonga PO Box 30062, 10101 Lusaka",
+  "address_lines": [
+   "31F Leopard's Hill Close Kabulonga PO Box 30062",
+   "10101 Lusaka"
+  ],
+  "phone": "+260971054128",
+  "emails": [
+   "directionaflusaka@gmail.com"
+  ],
+  "url": "http://zm.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Lusaka",
+   "city": "Lusaka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plot 22725 Alick Nkhata Avenue, Longacres, 10101 Lusaka",
+   "address_lines": [
+    "Plot 22725 Alick Nkhata Avenue, Longacres",
+    "10101 Lusaka"
+   ],
+   "phone": "950934640",
+   "emails": [
+    "directionaflusaka@gmail.com"
+   ],
+   "url": "https://alliancefr.co.zm/",
+   "so": false
+  }
+ ]
+}

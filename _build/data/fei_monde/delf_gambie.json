@@ -1,0 +1,45 @@
+{
+ "country": "Gambie",
+ "iso2": "GM",
+ "fei_id": "349",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Serrekunda - Service de coopération et d'action culturelle",
+  "city": "Banjul",
+  "cp": "",
+  "city_cp": "",
+  "address": "5 Kairaba Avenue, Kanifing PO Box 2930 Banjul - Serrekunda",
+  "address_lines": [
+   "5 Kairaba Avenue, Kanifing PO Box 2930 Banjul - Serrekunda"
+  ],
+  "phone": "+2204375418",
+  "emails": [
+   "directeur@afbanjul.org"
+  ],
+  "url": "http://afbanjul.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Banjul",
+   "city": "Serrekunda",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kairaba Avenue, Kanifing, P.O. BOX 2930 Serrekunda",
+   "address_lines": [
+    "Kairaba Avenue, Kanifing",
+    "P.O. BOX 2930 Serrekunda"
+   ],
+   "phone": "+2202009734",
+   "emails": [
+    "directeur@afbanjul.org"
+   ],
+   "url": "https://afbanjul.org/",
+   "so": false
+  }
+ ]
+}

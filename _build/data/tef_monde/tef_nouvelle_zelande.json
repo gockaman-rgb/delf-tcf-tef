@@ -1,0 +1,31 @@
+{
+ "country": "Nouvelle-Zélande",
+ "iso2": "NZ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE D'AUCKLAND",
+   "city": "AUCKLAND",
+   "cp": "1050",
+   "city_cp": "",
+   "address": "131 Remuera Road, Newmarket, 1050 AUCKLAND",
+   "address_lines": [
+    "131 Remuera Road, Newmarket",
+    "1050 AUCKLAND"
+   ],
+   "phone": "+64 9 376 0009",
+   "emails": [],
+   "url": "www.alliance-francaise.co.nz",
+   "so": false,
+   "products": [],
+   "cci_id": 40,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/40"
+  }
+ ]
+}

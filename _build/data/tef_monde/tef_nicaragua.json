@@ -1,0 +1,33 @@
+{
+ "country": "Nicaragua",
+ "iso2": "NI",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCAISE DE MANAGUA",
+   "city": "MANAGUA",
+   "cp": "1/2 Norte",
+   "city_cp": "",
+   "address": "De la Embaja de Mexico, 1/2 Norte MANAGUA",
+   "address_lines": [
+    "De la Embaja de Mexico",
+    "1/2 Norte MANAGUA"
+   ],
+   "phone": "+505 8238 2232",
+   "emails": [
+    "pedagogia@alianzafrancesa.org.ni"
+   ],
+   "url": "Alianza Francesa de Managua",
+   "so": false,
+   "products": [],
+   "cci_id": 142,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/142"
+  }
+ ]
+}

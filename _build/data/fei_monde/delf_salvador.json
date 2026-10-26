@@ -1,0 +1,58 @@
+{
+ "country": "Salvador",
+ "iso2": "SV",
+ "fei_id": "24",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "San Salvador",
+  "cp": "",
+  "city_cp": "",
+  "address": "Colonia y Calle La Mascota # 547 y pasaje 2 San Salvador",
+  "address_lines": [
+   "Colonia y Calle La Mascota # 547 y pasaje 2 San Salvador"
+  ],
+  "phone": "2529 7200",
+  "emails": [
+   "direccion@afelsalvador.com"
+  ],
+  "url": "http://www.afelsalvador.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de San Salvador",
+   "city": "San Salvador",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle y colonia la Mascota pje#2 casa 547 San Salvador",
+   "address_lines": [
+    "Calle y colonia la Mascota pje#2 casa 547 San Salvador"
+   ],
+   "phone": "2133 5750",
+   "emails": [
+    "informacion@afelsalvador.org"
+   ],
+   "url": "http://www.afelsalvador.org/",
+   "so": false
+  },
+  {
+   "name": "Lycée Français de San Salvador",
+   "city": "Santa Tecla",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carretera a Santa Tecla 19 Avenida Sur km 10 1/2 Santa Tecla",
+   "address_lines": [
+    "Carretera a Santa Tecla 19 Avenida Sur km 10 1/2 Santa Tecla"
+   ],
+   "phone": "2249 3300",
+   "emails": [],
+   "url": "http://www.lfelsalvador.org/",
+   "so": false
+  }
+ ]
+}

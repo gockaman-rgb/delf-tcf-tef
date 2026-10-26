@@ -1,0 +1,30 @@
+{
+ "country": "Kirghizistan",
+ "iso2": "KG",
+ "fei_id": "367",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Bichkek",
+   "cp": "",
+   "city_cp": "",
+   "address": "242 rue Ogonbaeva, 720040 Bichkek",
+   "address_lines": [
+    "242 rue Ogonbaeva",
+    "720040 Bichkek"
+   ],
+   "phone": "996-701-799-191",
+   "emails": [
+    "afbichkek.direction@gmail.com"
+   ],
+   "url": "http://www.afbichkek.kg",
+   "so": true
+  }
+ ]
+}

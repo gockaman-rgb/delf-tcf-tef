@@ -1,0 +1,46 @@
+{
+ "country": "Dominique",
+ "iso2": "DM",
+ "fei_id": "343",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Roseau",
+  "cp": "",
+  "city_cp": "",
+  "address": "P.O. BOX 251 Elmshall Road, DM1800 Roseau",
+  "address_lines": [
+   "P.O. BOX 251 Elmshall Road",
+   "DM1800 Roseau"
+  ],
+  "phone": "767 235 4557",
+  "emails": [
+   "pedagogie.afdominique@gmail.com"
+  ],
+  "url": "http://www.afdominique.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de la Dominique",
+   "city": "Roseau",
+   "cp": "",
+   "city_cp": "",
+   "address": "P.O. BOX 251 Elmshall Road, DM1800 Roseau",
+   "address_lines": [
+    "P.O. BOX 251 Elmshall Road",
+    "DM1800 Roseau"
+   ],
+   "phone": "7672354557",
+   "emails": [
+    "pedagogie.afdominique@gmail.com"
+   ],
+   "url": "http://www.afdominique.com/",
+   "so": false
+  }
+ ]
+}

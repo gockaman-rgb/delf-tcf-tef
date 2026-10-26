@@ -1,0 +1,47 @@
+{
+ "country": "Bolivie",
+ "iso2": "BO",
+ "fei_id": "18",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Cochabamba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle La Paz N° 784 Casilla 341 (entre 16 de jul. y Criso. Carrillo, Cochabamba",
+   "address_lines": [
+    "Calle La Paz N° 784 Casilla 341 (entre 16 de jul. y Criso. Carrillo",
+    "Cochabamba"
+   ],
+   "phone": "59162698260",
+   "emails": [
+    "coordopeda.afcochabamba@gmail.com"
+   ],
+   "url": "http://www.cochabamba.alianzafrancesa.org.bo",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Santa Cruz de la Sierra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 24 de Septiembre n° 36 casalia 1266, Santa Cruz de la Sierra",
+   "address_lines": [
+    "Calle 24 de Septiembre n° 36 casalia 1266",
+    "Santa Cruz de la Sierra"
+   ],
+   "phone": "591-3-333-33-92",
+   "emails": [
+    "direccion.santacruz@alianzafrancesa.org.bo"
+   ],
+   "url": "http://www.santacruz.alianzafrancesa.org.bo",
+   "so": false
+  }
+ ]
+}

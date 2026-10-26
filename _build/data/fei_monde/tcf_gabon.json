@@ -1,0 +1,30 @@
+{
+ "country": "Gabon",
+ "iso2": "GA",
+ "fei_id": "130",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Libreville",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Triomphal - BP 2125, Libreville",
+   "address_lines": [
+    "Boulevard Triomphal - BP 2125",
+    "Libreville"
+   ],
+   "phone": "241-65-54-16-28",
+   "emails": [
+    "cours@institutfrancais-gabon.com"
+   ],
+   "url": "http://www.institutfrancais-gabon.com",
+   "so": true
+  }
+ ]
+}

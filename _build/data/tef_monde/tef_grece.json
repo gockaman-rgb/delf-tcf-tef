@@ -1,0 +1,31 @@
+{
+ "country": "Grèce",
+ "iso2": "GR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE GRÈCE",
+   "city": "ATHENES",
+   "cp": "10680",
+   "city_cp": "",
+   "address": "Sina 31, 10680 ATHENES",
+   "address_lines": [
+    "Sina 31",
+    "10680 ATHENES"
+   ],
+   "phone": "+30 21 0339 8629",
+   "emails": [],
+   "url": "www.ifg.gr",
+   "so": false,
+   "products": [],
+   "cci_id": 516,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/516"
+  }
+ ]
+}

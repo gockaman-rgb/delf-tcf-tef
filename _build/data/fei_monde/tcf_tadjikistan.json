@@ -1,0 +1,30 @@
+{
+ "country": "Tadjikistan",
+ "iso2": "TJ",
+ "fei_id": "430",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Khoudjand",
+   "cp": "",
+   "city_cp": "",
+   "address": "183A rue de Kamoli Khoudjandi 11eme étage, 735701 Khoudjand",
+   "address_lines": [
+    "183A rue de Kamoli Khoudjandi 11eme étage",
+    "735701 Khoudjand"
+   ],
+   "phone": "+99-29-27-07-36-41",
+   "emails": [
+    "direction@afkhoudjand.org"
+   ],
+   "url": "",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "country": "Togo",
+ "iso2": "TG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU TOGO",
+   "city": "LOMÉ",
+   "cp": "BP2090",
+   "city_cp": "",
+   "address": "Quartier administratif, Avenue de Gaulle, face au Consulat de France, Lomé, BP2090 LOMÉ",
+   "address_lines": [
+    "Quartier administratif, Avenue de Gaulle, face au Consulat de France, Lomé",
+    "BP2090 LOMÉ"
+   ],
+   "phone": "+228 22 53 58 32",
+   "emails": [
+    "certifications@institutfrancais-togo.com"
+   ],
+   "url": "www.institutfrancais-togo.com",
+   "so": false,
+   "products": [],
+   "cci_id": 573,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/573"
+  }
+ ]
+}

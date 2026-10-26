@@ -1,0 +1,30 @@
+{
+ "country": "Zambie",
+ "iso2": "ZM",
+ "fei_id": "440",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Lusaka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plot 22725 Alick Nkhata avenue Longacres, Lusaka",
+   "address_lines": [
+    "Plot 22725 Alick Nkhata avenue Longacres",
+    "Lusaka"
+   ],
+   "phone": "260-95-0934640",
+   "emails": [
+    "info@alliancefr.co.zm"
+   ],
+   "url": "https://www.alliancefr.co.zm",
+   "so": true
+  }
+ ]
+}

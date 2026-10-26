@@ -1,0 +1,31 @@
+{
+ "country": "Singapour",
+ "iso2": "SG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE SINGAPOUR",
+   "city": "SINGAPOUR",
+   "cp": "258130",
+   "city_cp": "",
+   "address": "1 Sarkies Road, 258130 SINGAPOUR",
+   "address_lines": [
+    "1 Sarkies Road",
+    "258130 SINGAPOUR"
+   ],
+   "phone": "+65 6817 8170",
+   "emails": [],
+   "url": "www.alliancefrancaise.org.sg/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 202,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/202"
+  }
+ ]
+}

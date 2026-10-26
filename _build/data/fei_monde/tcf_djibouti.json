@@ -1,0 +1,30 @@
+{
+ "country": "Djibouti",
+ "iso2": "DJ",
+ "fei_id": "129",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Djibouti ville",
+   "cp": "",
+   "city_cp": "",
+   "address": "Salines Ouest - BP 64 Rue de Genève, Djibouti ville",
+   "address_lines": [
+    "Salines Ouest - BP 64 Rue de Genève",
+    "Djibouti ville"
+   ],
+   "phone": "253-21-35-35-13",
+   "emails": [
+    "cours@institutfrancais-djibouti.com"
+   ],
+   "url": "https://institutfrancais-djibouti.com/",
+   "so": false
+  }
+ ]
+}

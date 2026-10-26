@@ -1,0 +1,30 @@
+{
+ "country": "Honduras",
+ "iso2": "HN",
+ "fei_id": "28",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Tegucigalpa, M.D.C.",
+   "cp": "",
+   "city_cp": "",
+   "address": "Colonia Lomas del Guijarro Calzada Llamas del Bosque Entre Elements e instituto Sagrado, 3445 Tegucigalpa, M.D.C.",
+   "address_lines": [
+    "Colonia Lomas del Guijarro Calzada Llamas del Bosque Entre Elements e instituto Sagrado",
+    "3445 Tegucigalpa, M.D.C."
+   ],
+   "phone": "504-94309128",
+   "emails": [
+    "informacion@aftegucigalpa.hn"
+   ],
+   "url": "http://www.aftegucigalpa.hn",
+   "so": true
+  }
+ ]
+}

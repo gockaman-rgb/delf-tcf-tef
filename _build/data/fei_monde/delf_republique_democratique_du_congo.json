@@ -1,0 +1,60 @@
+{
+ "country": "République démocratique du Congo",
+ "iso2": "CD",
+ "fei_id": "143",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Centre de langue",
+  "city": "Kinshasa",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avenue de la Gombe Kinshasa",
+  "address_lines": [
+   "Avenue de la Gombe Kinshasa"
+  ],
+  "phone": "+243815559997",
+  "emails": [],
+  "url": "http://institutfrancais-kinshasa.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Kinshasa - Halle de la Gombe, EAF",
+   "city": "Gombe/Kinshasa",
+   "cp": "",
+   "city_cp": "",
+   "address": "33 avenue de la Gombe, BP5236 Gombe/Kinshasa",
+   "address_lines": [
+    "33 avenue de la Gombe",
+    "BP5236 Gombe/Kinshasa"
+   ],
+   "phone": "855320919",
+   "emails": [
+    "direction@ifkinshasa.org"
+   ],
+   "url": "http://www.institutfrancais-kinshasa.org",
+   "so": false
+  },
+  {
+   "name": "Institut français Lubumbashi",
+   "city": "Lubumbashi",
+   "cp": "",
+   "city_cp": "",
+   "address": "63, chaussée Laurent Désiré Kabila, 000 Lubumbashi",
+   "address_lines": [
+    "63, chaussée Laurent Désiré Kabila",
+    "000 Lubumbashi"
+   ],
+   "phone": "00243808595888",
+   "emails": [
+    "direction@institutfrancais-lubumbashi.com"
+   ],
+   "url": "http://www.institutfrancais-lubumbashi.com/",
+   "so": false
+  }
+ ]
+}

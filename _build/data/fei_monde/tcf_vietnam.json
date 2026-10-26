@@ -1,0 +1,77 @@
+{
+ "country": "Vietnam",
+ "iso2": "VN",
+ "fei_id": "56",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Vietnam",
+   "city": "Danang",
+   "cp": "",
+   "city_cp": "",
+   "address": "33 Tran Phu, Hai Chau, Danang",
+   "address_lines": [
+    "33 Tran Phu, Hai Chau",
+    "Danang"
+   ],
+   "phone": "84-23-63-81-82-70",
+   "emails": [],
+   "url": "http://www.ifv.vn",
+   "so": false
+  },
+  {
+   "name": "Institut français du Vietnam",
+   "city": "Hanoï",
+   "cp": "",
+   "city_cp": "",
+   "address": "15, Thien Quang Hai Ba Trung, 100000 Hanoï",
+   "address_lines": [
+    "15, Thien Quang Hai Ba Trung",
+    "100000 Hanoï"
+   ],
+   "phone": "2432013300",
+   "emails": [
+    "examen@ifv.vn"
+   ],
+   "url": "http://www.ifv.vn",
+   "so": false
+  },
+  {
+   "name": "Institut français du Vietnam",
+   "city": "Ho Chi Minh-Ville",
+   "cp": "",
+   "city_cp": "",
+   "address": "31 Thai Van Lung phuong Ben Nghe Quan 1, Ho Chi Minh-Ville",
+   "address_lines": [
+    "31 Thai Van Lung phuong Ben Nghe Quan 1",
+    "Ho Chi Minh-Ville"
+   ],
+   "phone": "84-8-38-27-43-55",
+   "emails": [],
+   "url": "http://www.vietnam.campusfrance.org",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Hué",
+   "cp": "",
+   "city_cp": "",
+   "address": "Vien Phap tai Hué 1 Lê Hông Phong, Hué",
+   "address_lines": [
+    "Vien Phap tai Hué 1 Lê Hông Phong",
+    "Hué"
+   ],
+   "phone": "84-234-38-22-678",
+   "emails": [
+    "contacthue@ifv.vn"
+   ],
+   "url": "http://www.vietnam.campusfrance.org",
+   "so": false
+  }
+ ]
+}

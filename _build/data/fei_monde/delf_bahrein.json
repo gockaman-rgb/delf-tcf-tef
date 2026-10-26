@@ -1,0 +1,46 @@
+{
+ "country": "Bahreïn",
+ "iso2": "BH",
+ "fei_id": "325",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service des cours et certifcations",
+  "city": "Isa Town",
+  "cp": "",
+  "city_cp": "",
+  "address": "Building 51, Road 4109, 841 Isa Town",
+  "address_lines": [
+   "Building 51, Road 4109",
+   "841 Isa Town"
+  ],
+  "phone": "13677667",
+  "emails": [
+   "exam@afbahrain.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Bahreïn",
+   "city": "Isa Town",
+   "cp": "",
+   "city_cp": "",
+   "address": "Building 51, avenue 4109, 841 Isa Town",
+   "address_lines": [
+    "Building 51, avenue 4109",
+    "841 Isa Town"
+   ],
+   "phone": "13677667",
+   "emails": [
+    "info@afbahrain.org"
+   ],
+   "url": "http://www.afbahrain.org/",
+   "so": false
+  }
+ ]
+}

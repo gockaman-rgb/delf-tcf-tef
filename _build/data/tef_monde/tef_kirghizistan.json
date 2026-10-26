@@ -1,0 +1,35 @@
+{
+ "country": "Kirghizistan",
+ "iso2": "KG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "UNIVERSITÉ INTERNATIONALE DU KIRGHIZISTAN (IUK)",
+   "city": "BICHKEK",
+   "cp": "720007",
+   "city_cp": "",
+   "address": "17A/1, rue Léon Tolstoï, 720007 BICHKEK",
+   "address_lines": [
+    "17A/1, rue Léon Tolstoï",
+    "720007 BICHKEK"
+   ],
+   "phone": "+996 509 436 888",
+   "emails": [
+    "languagecenter@iuk.kg"
+   ],
+   "url": "https://iuk.kg/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 1119,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1119"
+  }
+ ]
+}

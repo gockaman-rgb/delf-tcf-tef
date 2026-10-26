@@ -1,0 +1,42 @@
+{
+ "country": "Bahamas",
+ "iso2": "BS",
+ "fei_id": "16",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction",
+  "city": "Nassau",
+  "cp": "",
+  "city_cp": "",
+  "address": "1 Lyford Cay drive, N7776 Nassau",
+  "address_lines": [
+   "1 Lyford Cay drive",
+   "N7776 Nassau"
+  ],
+  "phone": "2423624031",
+  "emails": [],
+  "url": "http://www.lcis.bs/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Lyford Cay International School",
+   "city": "Nassau",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Lyford Cay Drive, N7776 Nassau",
+   "address_lines": [
+    "1 Lyford Cay Drive",
+    "N7776 Nassau"
+   ],
+   "phone": "2423764304",
+   "emails": [],
+   "url": "http://www.lcis.bs",
+   "so": false
+  }
+ ]
+}

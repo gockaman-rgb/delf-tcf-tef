@@ -1,0 +1,44 @@
+{
+ "country": "Danemark",
+ "iso2": "DK",
+ "fei_id": "69",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Frederiksberg C",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rolighedsvej 37, 1958 Frederiksberg C",
+  "address_lines": [
+   "Rolighedsvej 37",
+   "1958 Frederiksberg C"
+  ],
+  "phone": "26219343",
+  "emails": [],
+  "url": "https://www.institutfrancais.dk/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Frederiksberg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rolighedsvej 37, 1958 Frederiksberg",
+   "address_lines": [
+    "Rolighedsvej 37",
+    "1958 Frederiksberg"
+   ],
+   "phone": "+45 26219343",
+   "emails": [
+    "cours@institutfrancais.dk"
+   ],
+   "url": "http://www.institutfrancais.dk/",
+   "so": false
+  }
+ ]
+}

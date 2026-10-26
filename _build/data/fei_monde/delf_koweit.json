@@ -1,0 +1,46 @@
+{
+ "country": "Koweït",
+ "iso2": "KW",
+ "fei_id": "369",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Koweit",
+  "cp": "",
+  "city_cp": "",
+  "address": "Jabriya bloc 12 street 11 villa 41 PO Box 1037 Safat, 13011 Koweit",
+  "address_lines": [
+   "Jabriya bloc 12 street 11 villa 41 PO Box 1037 Safat",
+   "13011 Koweit"
+  ],
+  "phone": "+96522323031",
+  "emails": [
+   "cours@institutfrancais-koweit.com"
+  ],
+  "url": "http://www.institutfrancais-koweit.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut francais de Koweit",
+   "city": "Koweït",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jabriya block 12 street 6 villa 41 PO bOX 1037 SAFAT, 13011 Koweït",
+   "address_lines": [
+    "Jabriya block 12 street 6 villa 41 PO bOX 1037 SAFAT",
+    "13011 Koweït"
+   ],
+   "phone": "22323031",
+   "emails": [
+    "cours@institutfrancais-koweit.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

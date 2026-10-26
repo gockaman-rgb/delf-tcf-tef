@@ -1,0 +1,46 @@
+{
+ "country": "Sao Tomé-et-Principe",
+ "iso2": "ST",
+ "fei_id": "420",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction ALASTP",
+  "city": "São Tomé",
+  "cp": "",
+  "city_cp": "",
+  "address": "rue Ex-Gago Coutinho, CP 974 São Tomé",
+  "address_lines": [
+   "rue Ex-Gago Coutinho",
+   "CP 974 São Tomé"
+  ],
+  "phone": "+2392242300",
+  "emails": [
+   "direction@afstp.org"
+  ],
+  "url": "http://www.afstp.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Sao Tomé et Principe",
+   "city": "Sao Tomé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Ex. Coutinho, CP 974 Sao Tomé",
+   "address_lines": [
+    "Rua Ex. Coutinho",
+    "CP 974 Sao Tomé"
+   ],
+   "phone": "224 2300",
+   "emails": [
+    "direction@afstp.org"
+   ],
+   "url": "http://www.afstp.org/",
+   "so": false
+  }
+ ]
+}

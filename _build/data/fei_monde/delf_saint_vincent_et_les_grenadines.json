@@ -1,0 +1,41 @@
+{
+ "country": "Saint-Vincent-et-les-Grenadines",
+ "iso2": "VC",
+ "fei_id": "414",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Kingstown",
+  "cp": "",
+  "city_cp": "",
+  "address": "Old Public Library P.O.Box 560 Kingstown Saint-Vincent et les Grenadines WEST INDIES Kingstown",
+  "address_lines": [
+   "Old Public Library P.O.Box 560 Kingstown Saint-Vincent et les Grenadines WEST INDIES Kingstown"
+  ],
+  "phone": "784 531 76 37",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française Saint-Vincent et les Grenadines",
+   "city": "North Union",
+   "cp": "",
+   "city_cp": "",
+   "address": "P.O. Box 836, VC 0100 North Union",
+   "address_lines": [
+    "P.O. Box 836",
+    "VC 0100 North Union"
+   ],
+   "phone": "7845336563",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

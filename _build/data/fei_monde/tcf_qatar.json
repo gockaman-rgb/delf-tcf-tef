@@ -1,0 +1,30 @@
+{
+ "country": "Qatar",
+ "iso2": "QA",
+ "fei_id": "404",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Qatar",
+   "city": "Doha",
+   "cp": "",
+   "city_cp": "",
+   "address": "Villa n° 7, street n° 860 Al Tarfa Area Zone 68, PO 2669, Doha",
+   "address_lines": [
+    "Villa n° 7, street n° 860 Al Tarfa Area Zone 68, PO 2669",
+    "Doha"
+   ],
+   "phone": "974-44-93-08-62",
+   "emails": [
+    "info@if-qatar.com"
+   ],
+   "url": "http://www.if-qatar.com",
+   "so": true
+  }
+ ]
+}

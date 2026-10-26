@@ -1,0 +1,53 @@
+{
+ "country": "Congo",
+ "iso2": "CG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU CONGO - BRAZZAVILLE",
+   "city": "BRAZZAVILLE",
+   "cp": "BP 2141",
+   "city_cp": "",
+   "address": "Place de la République, BP 2141 BRAZZAVILLE",
+   "address_lines": [
+    "Place de la République",
+    "BP 2141 BRAZZAVILLE"
+   ],
+   "phone": "+242 06 917 8500",
+   "emails": [
+    "certifications.brazzaville@ifcongo.com"
+   ],
+   "url": "https://institutfrancais-congo.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 559,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/559"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU CONGO - POINTE-NOIRE",
+   "city": "POINTE-NOIRE",
+   "cp": "99",
+   "city_cp": "",
+   "address": "11 avenue Kaat Matou Rond-point Kassai, 99 POINTE-NOIRE",
+   "address_lines": [
+    "11 avenue Kaat Matou Rond-point Kassai",
+    "99 POINTE-NOIRE"
+   ],
+   "phone": "",
+   "emails": [
+    "pedagogie.pointenoire@ifcongo.com"
+   ],
+   "url": "www.ifc-pointenoire.com",
+   "so": false,
+   "products": [],
+   "cci_id": 560,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/560"
+  }
+ ]
+}

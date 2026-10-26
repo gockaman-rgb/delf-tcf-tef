@@ -121,7 +121,8 @@ def build_exam(slug, cfg):
             "section": slug, "section_name": name, "og_slug": slug,
             "slug": sp["slug"], "accent": src["accent"], "crumb": sp["crumb"],
             "title": sp["title"], "desc": sp["desc"], "h1": sp["h1"],
-            "published": DATE, "modified": DATE, "date_fr": DATE_FR,
+            # un module mis à jour seul porte sa date (26/10/2026 : modified / date_fr dans exam_hubs_config)
+            "published": DATE, "modified": sp.get("modified", DATE), "date_fr": sp.get("date_fr", DATE_FR),
             "read": max(3, (words(body) + 200) // 200),
             "intro": remap(sp["intro"], amap, keep),
             "facts": [remap(f, amap, keep) for f in sp["facts"]],

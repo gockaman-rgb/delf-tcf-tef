@@ -1,0 +1,61 @@
+{
+ "country": "Sri Lanka",
+ "iso2": "LK",
+ "fei_id": "426",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "direction",
+  "city": "Colombo 7",
+  "cp": "",
+  "city_cp": "",
+  "address": "11 Barnes Place Colombo 7",
+  "address_lines": [
+   "11 Barnes Place Colombo 7"
+  ],
+  "phone": "0770640629",
+  "emails": [
+   "direction@alliancefrancaise.lk"
+  ],
+  "url": "http://www.alliancefrancaise.lk/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Colombo",
+   "city": "Colombo 7",
+   "cp": "",
+   "city_cp": "",
+   "address": "11 BARNES PLACE, 00700 Colombo 7",
+   "address_lines": [
+    "11 BARNES PLACE",
+    "00700 Colombo 7"
+   ],
+   "phone": "112055255",
+   "emails": [
+    "direction@alliancefrancaise.lk"
+   ],
+   "url": "http://www.alliancefrancaise.lk/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kandy",
+   "city": "Kandy",
+   "cp": "",
+   "city_cp": "",
+   "address": "640/2 Peradeniya Road Kandy",
+   "address_lines": [
+    "640/2 Peradeniya Road Kandy"
+   ],
+   "phone": "76 490 41 63",
+   "emails": [
+    "directorafkandy@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

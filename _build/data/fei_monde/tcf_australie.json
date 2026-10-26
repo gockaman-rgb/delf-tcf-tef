@@ -1,0 +1,113 @@
+{
+ "country": "Australie",
+ "iso2": "AU",
+ "fei_id": "97",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Brisbane",
+   "cp": "",
+   "city_cp": "",
+   "address": "262 Montague Rd West End QLD, 4101 Brisbane",
+   "address_lines": [
+    "262 Montague Rd West End QLD",
+    "4101 Brisbane"
+   ],
+   "phone": "614-346-802-29",
+   "emails": [],
+   "url": "https://www.afbrisbane.com/",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Canberra",
+   "city": "Canberra",
+   "cp": "",
+   "city_cp": "",
+   "address": "66 McCaughey Street Turner ACT, 2612 Canberra",
+   "address_lines": [
+    "66 McCaughey Street Turner ACT",
+    "2612 Canberra"
+   ],
+   "phone": "61-4-17-18-24-92",
+   "emails": [
+    "director@afcanberra.com.au"
+   ],
+   "url": "http://www.afcanberra.com.au",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Melbourne VIC",
+   "cp": "",
+   "city_cp": "",
+   "address": "Level 4 - 140 Bourke Street, 3000 Melbourne VIC",
+   "address_lines": [
+    "Level 4 - 140 Bourke Street",
+    "3000 Melbourne VIC"
+   ],
+   "phone": "61-3-95-25-34-63",
+   "emails": [
+    "exams@afmelbourne.com.au"
+   ],
+   "url": "http://www.afmelbourne.com.au/exams/tcf/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Perth",
+   "cp": "",
+   "city_cp": "",
+   "address": "75, Broadway Nedlands, WA6009 Perth",
+   "address_lines": [
+    "75, Broadway Nedlands",
+    "WA6009 Perth"
+   ],
+   "phone": "61-8-93-86-79-21",
+   "emails": [
+    "exam@afperth.com.au"
+   ],
+   "url": "http://www.afperth.com.au",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Sydney",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ground Floor 257 Clarence Street, NSW2000 Sydney",
+   "address_lines": [
+    "Ground Floor 257 Clarence Street",
+    "NSW2000 Sydney"
+   ],
+   "phone": "61-2-92-92-57-00",
+   "emails": [
+    "enquiries@afsydney.com.au"
+   ],
+   "url": "http://www.afsydney.com.au",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Wayville SA (Adelaide)",
+   "cp": "",
+   "city_cp": "",
+   "address": "319 Young Street, 5034 Wayville SA (Adelaide)",
+   "address_lines": [
+    "319 Young Street",
+    "5034 Wayville SA (Adelaide)"
+   ],
+   "phone": "61882724281",
+   "emails": [
+    "adelaide@af.org.au"
+   ],
+   "url": "http://www.af.org.au",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "country": "Algérie",
+ "iso2": "DZ",
+ "fei_id": "115",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 5,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français d'Algérie, antenne d'Alger",
+   "city": "Alger",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 rue des frères Kadri - Hydra, 16000 Alger",
+   "address_lines": [
+    "30 rue des frères Kadri - Hydra",
+    "16000 Alger"
+   ],
+   "phone": "213-21-99-60-08",
+   "emails": [
+    "info.tcfalg@vfshelpline.com",
+    "examens@if-algerie.com"
+   ],
+   "url": "https://www.if-algerie.com/tests-et-examens/tcf#/",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, antenne d'Annaba",
+   "city": "Annaba",
+   "cp": "",
+   "city_cp": "",
+   "address": "08, Boulevard du 1er novembre, 23002 Annaba",
+   "address_lines": [
+    "08, Boulevard du 1er novembre",
+    "23002 Annaba"
+   ],
+   "phone": "213-67-14-63-686",
+   "emails": [],
+   "url": "http://www.if-algerie.com/annaba#/",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, ant. Constantine",
+   "city": "Constantine",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, boulevard de l'Indépendance, 25000 Constantine",
+   "address_lines": [
+    "1, boulevard de l'Indépendance",
+    "25000 Constantine"
+   ],
+   "phone": "21331912591",
+   "emails": [
+    "examens.constantine@if-algerie.com"
+   ],
+   "url": "http://www.if-algerie.com/constantine",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, antenne d'Oran",
+   "city": "Oran",
+   "cp": "",
+   "city_cp": "",
+   "address": "112, rue Larbi Ben M'hidi, 31000 Oran",
+   "address_lines": [
+    "112, rue Larbi Ben M'hidi",
+    "31000 Oran"
+   ],
+   "phone": "",
+   "emails": [
+    "examens.oran@if-algerie.com"
+   ],
+   "url": "http://www.if-algerie.com/oran",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Algérie, antenne Tlemcen",
+   "city": "Tlemcen",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, rue du commandant Djaber, 13000 Tlemcen",
+   "address_lines": [
+    "1, rue du commandant Djaber",
+    "13000 Tlemcen"
+   ],
+   "phone": "213-43-26-17-22",
+   "emails": [
+    "examens.tlemcen@if-algerie.com"
+   ],
+   "url": "http://www.if-algerie.com/tlemcen",
+   "so": true
+  }
+ ]
+}

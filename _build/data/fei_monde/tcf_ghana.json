@@ -1,0 +1,30 @@
+{
+ "country": "Ghana",
+ "iso2": "GH",
+ "fei_id": "131",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française d'Accra",
+   "city": "Accra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Casely Hayford Link Airport Residential area P.O.BOX CT 4904, Cantonments, P.O.CT4904 Accra",
+   "address_lines": [
+    "Casely Hayford Link Airport Residential area P.O.BOX CT 4904, Cantonments",
+    "P.O.CT4904 Accra"
+   ],
+   "phone": "233-50-128-78-12",
+   "emails": [
+    "infocours@afaccra.com"
+   ],
+   "url": "http://www.afaccra.org",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "country": "Australie",
+ "iso2": "AU",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE MELBOURNE",
+   "city": "MELBOURNE",
+   "cp": "3000",
+   "city_cp": "",
+   "address": "Level 13, 55 Swanston street, 3000 MELBOURNE",
+   "address_lines": [
+    "Level 13, 55 Swanston street",
+    "3000 MELBOURNE"
+   ],
+   "phone": "+61 3 9525 3463",
+   "emails": [
+    "educationcoordinator@afmelbourne.com.au"
+   ],
+   "url": "https://www.afmelbourne.com.au/",
+   "so": false,
+   "products": [],
+   "cci_id": 149,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/149"
+  }
+ ]
+}

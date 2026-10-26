@@ -1,0 +1,76 @@
+{
+ "country": "Pakistan",
+ "iso2": "PK",
+ "fei_id": "51",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action Culturelle",
+  "city": "Islamabad",
+  "cp": "",
+  "city_cp": "",
+  "address": "Diplomatic Enclave G5, GPO Box 1068, 44000 Islamabad",
+  "address_lines": [
+   "Diplomatic Enclave G5, GPO Box 1068",
+   "44000 Islamabad"
+  ],
+  "phone": "92512011532",
+  "emails": [],
+  "url": "https://pk.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Islamabad",
+   "city": "Islamabad",
+   "cp": "",
+   "city_cp": "",
+   "address": "House 5, Street 55, F-7/4, 44000 Islamabad",
+   "address_lines": [
+    "House 5, Street 55, F-7/4",
+    "44000 Islamabad"
+   ],
+   "phone": "051-2825218-9",
+   "emails": [],
+   "url": "http://www.afislamabad.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Karachi",
+   "city": "Karachi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plot St 1 Block 8 – Kehkashan - Clifton, 75600 Karachi",
+   "address_lines": [
+    "Plot St 1 Block 8 – Kehkashan - Clifton",
+    "75600 Karachi"
+   ],
+   "phone": "02135873402",
+   "emails": [
+    "director@afkarachi.com"
+   ],
+   "url": "http://www.afkarachi.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Lahore",
+   "city": "Lahore",
+   "cp": "",
+   "city_cp": "",
+   "address": "155 Scotch Corner- Street n°3, Upper Mall, 54000 Lahore",
+   "address_lines": [
+    "155 Scotch Corner- Street n°3, Upper Mall",
+    "54000 Lahore"
+   ],
+   "phone": "4235874301",
+   "emails": [
+    "director@aflahore.org"
+   ],
+   "url": "http://www.aflahore.org/",
+   "so": false
+  }
+ ]
+}

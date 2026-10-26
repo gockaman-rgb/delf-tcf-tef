@@ -1,0 +1,46 @@
+{
+ "country": "Vanuatu",
+ "iso2": "VU",
+ "fei_id": "438",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Port Vila",
+  "cp": "",
+  "city_cp": "",
+  "address": "Lycée français JMG Le Clézio, BP 40 Port Vila",
+  "address_lines": [
+   "Lycée français JMG Le Clézio",
+   "BP 40 Port Vila"
+  ],
+  "phone": "678 22 926",
+  "emails": [
+   "proviseur@lfportvila.edu.vu"
+  ],
+  "url": "http://www.lfportvila.edu.vu/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Lycée français JMG Le Clézio",
+   "city": "Port Vila",
+   "cp": "",
+   "city_cp": "",
+   "address": "LYCEE FRANCAIS PORT VILA VANUATU, BP 40 Port Vila",
+   "address_lines": [
+    "LYCEE FRANCAIS PORT VILA VANUATU",
+    "BP 40 Port Vila"
+   ],
+   "phone": "22 926",
+   "emails": [
+    "proviseur@lfportvila.edu.vu"
+   ],
+   "url": "http://www.lfportvila.edu.vu/",
+   "so": false
+  }
+ ]
+}

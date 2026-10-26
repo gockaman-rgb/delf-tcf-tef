@@ -1,0 +1,44 @@
+{
+ "country": "Mongolie",
+ "iso2": "MN",
+ "fei_id": "386",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Oulan-Bator",
+  "cp": "",
+  "city_cp": "",
+  "address": "Ikh Toiruu 83, Rue de Sodnom 56, Bâtiment du journal Ardyn Erkh Sous district de Sukhbaatar Oulan-Bator",
+  "address_lines": [
+   "Ikh Toiruu 83, Rue de Sodnom 56, Bâtiment du journal Ardyn Erkh Sous district de Sukhbaatar Oulan-Bator"
+  ],
+  "phone": "+97611351914",
+  "emails": [
+   "pedagogie@afm.mn"
+  ],
+  "url": "http://www.afm.mn/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Oulan Bator",
+   "city": "Oulan Bator",
+   "cp": "",
+   "city_cp": "",
+   "address": "56 rue de Sodnon, 81 Ikh Toiruu, 11ème arrondissement Oulan Bator",
+   "address_lines": [
+    "56 rue de Sodnon, 81 Ikh Toiruu, 11ème arrondissement Oulan Bator"
+   ],
+   "phone": "11351914",
+   "emails": [
+    "info@afm.mn"
+   ],
+   "url": "http://www.afm.mn/",
+   "so": false
+  }
+ ]
+}

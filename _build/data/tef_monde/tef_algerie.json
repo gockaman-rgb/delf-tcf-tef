@@ -1,0 +1,56 @@
+{
+ "country": "Algérie",
+ "iso2": "DZ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "PIGIER ALGER EDUCALGPRO",
+   "city": "ALGER",
+   "cp": "16016",
+   "city_cp": "",
+   "address": "N° 14, Boulevard du 11 décembre 1960 - Val d’Hydra, 16016 ALGER",
+   "address_lines": [
+    "N° 14, Boulevard du 11 décembre 1960 - Val d’Hydra",
+    "16016 ALGER"
+   ],
+   "phone": "+213 98 230 14 88",
+   "emails": [
+    "contact@pigier-algerie.com"
+   ],
+   "url": "https://pigier-algerie.com/",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada"
+   ],
+   "cci_id": 460,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/460"
+  },
+  {
+   "name": "PIGIER ALGER EDUCALGPRO",
+   "city": "Tizi Ouzou",
+   "cp": "étage 01 N°5",
+   "city_cp": "",
+   "address": "Coopérative du croisement de l'habitat, commune de Tizi-Ouzou, bâtiment B, étage 01 N°5 Tizi Ouzou",
+   "address_lines": [
+    "Coopérative du croisement de l'habitat, commune de Tizi-Ouzou, bâtiment B",
+    "étage 01 N°5 Tizi Ouzou"
+   ],
+   "phone": "+213 98 230 14 88",
+   "emails": [],
+   "url": "https://pigier-algerie.com/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 809,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/809"
+  }
+ ]
+}

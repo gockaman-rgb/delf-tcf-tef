@@ -1,0 +1,33 @@
+{
+ "country": "Sainte-Lucie et les états membres de l'OECO",
+ "iso2": "LC",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE SAINTE-LUCIE",
+   "city": "CASTRIES",
+   "cp": "LC04101",
+   "city_cp": "",
+   "address": "Point Seraphine, LC04101 CASTRIES",
+   "address_lines": [
+    "Point Seraphine",
+    "LC04101 CASTRIES"
+   ],
+   "phone": "+1 758-452-6602",
+   "emails": [
+    "pedagogie@afslu.org"
+   ],
+   "url": "www.afslu.afcaraibe.org",
+   "so": false,
+   "products": [],
+   "cci_id": 188,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/188"
+  }
+ ]
+}

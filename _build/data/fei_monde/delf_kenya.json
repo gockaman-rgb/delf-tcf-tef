@@ -1,0 +1,63 @@
+{
+ "country": "Kenya",
+ "iso2": "KE",
+ "fei_id": "133",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "00100 Nairobi Gpo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Loita / Monrovia Streets, PO Box 45475 00100 Nairobi Gpo",
+  "address_lines": [
+   "Loita / Monrovia Streets",
+   "PO Box 45475 00100 Nairobi Gpo"
+  ],
+  "phone": "+25420340054",
+  "emails": [
+   "classes@alliancefrnairobi.org"
+  ],
+  "url": "http://www.afkenya.or.ke/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française Mombasa",
+   "city": "Mombasa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Moyne Drive, 80118 Mombasa",
+   "address_lines": [
+    "Moyne Drive",
+    "80118 Mombasa"
+   ],
+   "phone": "748709669",
+   "emails": [
+    "director@afmombasa.org"
+   ],
+   "url": "https://www.facebook.com/afmba",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Nairobi",
+   "city": "Nairobi",
+   "cp": "",
+   "city_cp": "",
+   "address": "LOITA/MONROVIA STREET NAIROBI, 00100 Nairobi",
+   "address_lines": [
+    "LOITA/MONROVIA STREET NAIROBI",
+    "00100 Nairobi"
+   ],
+   "phone": "+254724714680",
+   "emails": [
+    "exams@afkenya.org"
+   ],
+   "url": "http://www.afkenya.org/",
+   "so": false
+  }
+ ]
+}

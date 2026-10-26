@@ -1,0 +1,46 @@
+{
+ "country": "Bénin",
+ "iso2": "BJ",
+ "fei_id": "122",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Cotonou",
+  "cp": "",
+  "city_cp": "",
+  "address": "01 BP 416 Avenue Jean Paul II, 75010 Cotonou",
+  "address_lines": [
+   "01 BP 416 Avenue Jean Paul II",
+   "75010 Cotonou"
+  ],
+  "phone": "+22950084693",
+  "emails": [
+   "coordinationdlf@if-benin.com"
+  ],
+  "url": "http://www.if-benin.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Bénin",
+   "city": "Cotonou",
+   "cp": "",
+   "city_cp": "",
+   "address": "N° 2345 Avenue Jean Paul II, 01 BP 416 Cotonou",
+   "address_lines": [
+    "N° 2345 Avenue Jean Paul II",
+    "01 BP 416 Cotonou"
+   ],
+   "phone": "21300856",
+   "emails": [
+    "coordinationdlf@if-benin.com"
+   ],
+   "url": "http://www.if-benin.com/",
+   "so": false
+  }
+ ]
+}

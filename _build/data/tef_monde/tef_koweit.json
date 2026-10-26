@@ -1,0 +1,33 @@
+{
+ "country": "Koweït",
+ "iso2": "KW",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU KOWEÏT",
+   "city": "JABRIYAH",
+   "cp": "13011",
+   "city_cp": "",
+   "address": "Villa 41, Street 6, block 12, 13011 JABRIYAH",
+   "address_lines": [
+    "Villa 41, Street 6, block 12",
+    "13011 JABRIYAH"
+   ],
+   "phone": "+965 6626 6980",
+   "emails": [
+    "accueil@institutfrancais-koweit.com"
+   ],
+   "url": "https://ifk.com.kw/",
+   "so": false,
+   "products": [],
+   "cci_id": 841,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/841"
+  }
+ ]
+}

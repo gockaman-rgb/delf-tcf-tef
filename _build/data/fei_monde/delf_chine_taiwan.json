@@ -1,0 +1,63 @@
+{
+ "country": "Chine (Taïwan)",
+ "iso2": "TW",
+ "fei_id": "54",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Alliance française",
+  "city": "Taipei",
+  "cp": "",
+  "city_cp": "",
+  "address": "2 fl., No 107, Roosevelt Road, sec.4, 106 Taipei",
+  "address_lines": [
+   "2 fl., No 107, Roosevelt Road, sec.4",
+   "106 Taipei"
+  ],
+  "phone": "2 8369 3536",
+  "emails": [
+   "taipei@alliancefrancaise.org.tw"
+  ],
+  "url": "http://www.alliancefrancaise.org.tw/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Taïwan (Kaohsiung)",
+   "city": "Kaohsiung",
+   "cp": "",
+   "city_cp": "",
+   "address": "N° 2 Darong Street, 804 Kaohsiung",
+   "address_lines": [
+    "N° 2 Darong Street",
+    "804 Kaohsiung"
+   ],
+   "phone": "75214600",
+   "emails": [
+    "direction@alliancefrancaise.org.tw"
+   ],
+   "url": "http://www.alliancefrancaise.org.tw/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Taiwan (Taipei)",
+   "city": "Taipei",
+   "cp": "",
+   "city_cp": "",
+   "address": "N° 107 Roosevelt Road, Section 4, 10673 Taipei",
+   "address_lines": [
+    "N° 107 Roosevelt Road, Section 4",
+    "10673 Taipei"
+   ],
+   "phone": "283693536",
+   "emails": [
+    "direction@alliancefrancaise.org.tw"
+   ],
+   "url": "http://www.alliancefrancaise.org.tw/",
+   "so": false
+  }
+ ]
+}

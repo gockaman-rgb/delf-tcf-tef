@@ -1,0 +1,30 @@
+{
+ "country": "Albanie",
+ "iso2": "AL",
+ "fei_id": "59",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Tirana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rruga e Barrikadave, Nr. 122, 1001 Tirana",
+   "address_lines": [
+    "Rruga e Barrikadave, Nr. 122",
+    "1001 Tirana"
+   ],
+   "phone": "355-42-22-56-97",
+   "emails": [
+    "info@aftirana.org"
+   ],
+   "url": "http://www.aftirana.org",
+   "so": true
+  }
+ ]
+}

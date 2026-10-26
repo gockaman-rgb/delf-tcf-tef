@@ -1,0 +1,46 @@
+{
+ "country": "Ouganda",
+ "iso2": "UG",
+ "fei_id": "397",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Kampala",
+  "cp": "",
+  "city_cp": "",
+  "address": "Plot 52 Bukoto street, PO Box 7212 Kampala",
+  "address_lines": [
+   "Plot 52 Bukoto street",
+   "PO Box 7212 Kampala"
+  ],
+  "phone": "+256792624064",
+  "emails": [
+   "courses@afkampala.org"
+  ],
+  "url": "http://www.afkampala.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française Kampala",
+   "city": "Kampala",
+   "cp": "",
+   "city_cp": "",
+   "address": "BUKOTO STREET, PLOT 52, P.O Box 4314 Kampala",
+   "address_lines": [
+    "BUKOTO STREET, PLOT 52",
+    "P.O Box 4314 Kampala"
+   ],
+   "phone": "414.344.490",
+   "emails": [
+    "headofcourses@afkampala.org"
+   ],
+   "url": "http://afkampala.org/",
+   "so": false
+  }
+ ]
+}

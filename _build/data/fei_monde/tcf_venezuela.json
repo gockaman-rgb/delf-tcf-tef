@@ -1,0 +1,47 @@
+{
+ "country": "Venezuela",
+ "iso2": "VE",
+ "fei_id": "57",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Caracas",
+   "city": "Caracas",
+   "cp": "",
+   "city_cp": "",
+   "address": "1060 Av Mohedano, entre 1era y 2da transversal Quinta Wilmaru. La Castellana,, Null Caracas",
+   "address_lines": [
+    "1060 Av Mohedano, entre 1era y 2da transversal Quinta Wilmaru. La Castellana,",
+    "Null Caracas"
+   ],
+   "phone": "58-212-267-6458",
+   "emails": [
+    "delfdalftcf2023@gmail.com"
+   ],
+   "url": "http://www.caracas.afvenezuela.org",
+   "so": true
+  },
+  {
+   "name": "SCAC",
+   "city": "Caracas",
+   "cp": "",
+   "city_cp": "",
+   "address": "Colegio Francia avenida D De Campos Claro Las Mercedes, 1071 Caracas",
+   "address_lines": [
+    "Colegio Francia avenida D De Campos Claro Las Mercedes",
+    "1071 Caracas"
+   ],
+   "phone": "58-212-909-65-45",
+   "emails": [
+    "campusfrance.caracas@gmail.com"
+   ],
+   "url": "http://www.venezuela.campusfrance.org",
+   "so": true
+  }
+ ]
+}

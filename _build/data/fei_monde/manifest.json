@@ -1,0 +1,2115 @@
+{
+ "date": "2026-10-26",
+ "source": "France Éducation international, centres d'examen (liste par pays)",
+ "source_url_pattern": "https://www.france-education-international.fr/centres-d-examen/liste?pays=<fei_id>&type-centre=<tcf|delf_dalf>",
+ "batches": [
+  "europe",
+  "arabe",
+  "reste"
+ ],
+ "complete": true,
+ "regions": {
+  "europe": "Europe (dont France, Turquie, Russie, Caucase)",
+  "monde_arabe": "Ligue arabe",
+  "afrique": "Afrique subsaharienne et océan Indien",
+  "ameriques": "Amériques et Caraïbes",
+  "asie_oceanie": "Asie et Océanie",
+  "moyen_orient": "Iran, Israël"
+ },
+ "countries": [
+  {
+   "name_fr": "Afghanistan",
+   "iso2": "AF",
+   "fei_id": "39",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_afghanistan.json"
+   ]
+  },
+  {
+   "name_fr": "Afrique du Sud",
+   "iso2": "ZA",
+   "fei_id": "120",
+   "region": "afrique",
+   "tcf": 4,
+   "delf": 10,
+   "files": [
+    "delf_afrique_du_sud.json",
+    "tcf_afrique_du_sud.json"
+   ]
+  },
+  {
+   "name_fr": "Albanie",
+   "iso2": "AL",
+   "fei_id": "59",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 5,
+   "files": [
+    "delf_albanie.json",
+    "tcf_albanie.json"
+   ]
+  },
+  {
+   "name_fr": "Algérie",
+   "iso2": "DZ",
+   "fei_id": "115",
+   "region": "monde_arabe",
+   "tcf": 5,
+   "delf": 5,
+   "files": [
+    "delf_algerie.json",
+    "tcf_algerie.json"
+   ]
+  },
+  {
+   "name_fr": "Allemagne",
+   "iso2": "DE",
+   "fei_id": "60",
+   "region": "europe",
+   "tcf": 13,
+   "delf": 24,
+   "files": [
+    "delf_allemagne.json",
+    "tcf_allemagne.json"
+   ]
+  },
+  {
+   "name_fr": "Andorre",
+   "iso2": "AD",
+   "fei_id": "318",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_andorre.json"
+   ]
+  },
+  {
+   "name_fr": "Angola",
+   "iso2": "AO",
+   "fei_id": "121",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 7,
+   "files": [
+    "delf_angola.json",
+    "tcf_angola.json"
+   ]
+  },
+  {
+   "name_fr": "Arabie saoudite",
+   "iso2": "SA",
+   "fei_id": "100",
+   "region": "monde_arabe",
+   "tcf": 3,
+   "delf": 3,
+   "files": [
+    "delf_arabie_saoudite.json",
+    "tcf_arabie_saoudite.json"
+   ]
+  },
+  {
+   "name_fr": "Argentine",
+   "iso2": "AR",
+   "fei_id": "15",
+   "region": "ameriques",
+   "tcf": 5,
+   "delf": 28,
+   "files": [
+    "delf_argentine.json",
+    "tcf_argentine.json"
+   ]
+  },
+  {
+   "name_fr": "Arménie",
+   "iso2": "AM",
+   "fei_id": "322",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_armenie.json",
+    "tcf_armenie.json"
+   ]
+  },
+  {
+   "name_fr": "Australie",
+   "iso2": "AU",
+   "fei_id": "97",
+   "region": "asie_oceanie",
+   "tcf": 6,
+   "delf": 6,
+   "files": [
+    "delf_australie.json",
+    "tcf_australie.json"
+   ]
+  },
+  {
+   "name_fr": "Autriche",
+   "iso2": "AT",
+   "fei_id": "61",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_autriche.json",
+    "tcf_autriche.json"
+   ]
+  },
+  {
+   "name_fr": "Azerbaïdjan",
+   "iso2": "AZ",
+   "fei_id": "324",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_azerbaidjan.json",
+    "tcf_azerbaidjan.json"
+   ]
+  },
+  {
+   "name_fr": "Bahamas",
+   "iso2": "BS",
+   "fei_id": "16",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_bahamas.json"
+   ]
+  },
+  {
+   "name_fr": "Bahreïn",
+   "iso2": "BH",
+   "fei_id": "325",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_bahrein.json",
+    "tcf_bahrein.json"
+   ]
+  },
+  {
+   "name_fr": "Bangladesh",
+   "iso2": "BD",
+   "fei_id": "326",
+   "region": "asie_oceanie",
+   "tcf": 2,
+   "delf": 2,
+   "files": [
+    "delf_bangladesh.json",
+    "tcf_bangladesh.json"
+   ]
+  },
+  {
+   "name_fr": "Barbade",
+   "iso2": "BB",
+   "fei_id": "17",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_barbade.json",
+    "tcf_barbade.json"
+   ]
+  },
+  {
+   "name_fr": "Belgique",
+   "iso2": "BE",
+   "fei_id": "62",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 6,
+   "files": [
+    "delf_belgique.json",
+    "tcf_belgique.json"
+   ]
+  },
+  {
+   "name_fr": "Bénin",
+   "iso2": "BJ",
+   "fei_id": "122",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_benin.json",
+    "tcf_benin.json"
+   ]
+  },
+  {
+   "name_fr": "Biélorussie",
+   "iso2": "BY",
+   "fei_id": "63",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_bielorussie.json",
+    "tcf_bielorussie.json"
+   ]
+  },
+  {
+   "name_fr": "Birmanie",
+   "iso2": "MM",
+   "fei_id": "389",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_birmanie.json",
+    "tcf_birmanie.json"
+   ]
+  },
+  {
+   "name_fr": "Bolivie",
+   "iso2": "BO",
+   "fei_id": "18",
+   "region": "ameriques",
+   "tcf": 2,
+   "delf": 6,
+   "files": [
+    "delf_bolivie.json",
+    "tcf_bolivie.json"
+   ]
+  },
+  {
+   "name_fr": "Bosnie-Herzégovine",
+   "iso2": "BA",
+   "fei_id": "64",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 3,
+   "files": [
+    "delf_bosnie_herzegovine.json",
+    "tcf_bosnie_herzegovine.json"
+   ]
+  },
+  {
+   "name_fr": "Botswana",
+   "iso2": "BW",
+   "fei_id": "332",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_botswana.json",
+    "tcf_botswana.json"
+   ]
+  },
+  {
+   "name_fr": "Brésil",
+   "iso2": "BR",
+   "fei_id": "19",
+   "region": "ameriques",
+   "tcf": 14,
+   "delf": 29,
+   "files": [
+    "delf_bresil.json",
+    "tcf_bresil.json"
+   ]
+  },
+  {
+   "name_fr": "Brunéi Darussalam",
+   "iso2": "BN",
+   "fei_id": "334",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_brunei_darussalam.json"
+   ]
+  },
+  {
+   "name_fr": "Bulgarie",
+   "iso2": "BG",
+   "fei_id": "65",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 9,
+   "files": [
+    "delf_bulgarie.json",
+    "tcf_bulgarie.json"
+   ]
+  },
+  {
+   "name_fr": "Burkina Faso",
+   "iso2": "BF",
+   "fei_id": "123",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_burkina_faso.json"
+   ]
+  },
+  {
+   "name_fr": "Burundi",
+   "iso2": "BI",
+   "fei_id": "66",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_burundi.json",
+    "tcf_burundi.json"
+   ]
+  },
+  {
+   "name_fr": "Cambodge",
+   "iso2": "KH",
+   "fei_id": "40",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_cambodge.json",
+    "tcf_cambodge.json"
+   ]
+  },
+  {
+   "name_fr": "Cameroun",
+   "iso2": "CM",
+   "fei_id": "124",
+   "region": "afrique",
+   "tcf": 7,
+   "delf": 6,
+   "files": [
+    "delf_cameroun.json",
+    "tcf_cameroun.json"
+   ]
+  },
+  {
+   "name_fr": "Canada",
+   "iso2": "CA",
+   "fei_id": "112",
+   "region": "ameriques",
+   "tcf": 49,
+   "delf": 36,
+   "files": [
+    "delf_canada.json",
+    "tcf_canada.json"
+   ]
+  },
+  {
+   "name_fr": "Cap Vert",
+   "iso2": "CV",
+   "fei_id": "125",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_cap_vert.json"
+   ]
+  },
+  {
+   "name_fr": "Chili",
+   "iso2": "CL",
+   "fei_id": "20",
+   "region": "ameriques",
+   "tcf": 2,
+   "delf": 4,
+   "files": [
+    "delf_chili.json",
+    "tcf_chili.json"
+   ]
+  },
+  {
+   "name_fr": "Chine",
+   "iso2": "CN",
+   "fei_id": "41",
+   "region": "asie_oceanie",
+   "tcf": 22,
+   "delf": 16,
+   "files": [
+    "delf_chine.json",
+    "tcf_chine.json"
+   ]
+  },
+  {
+   "name_fr": "Chine (Taïwan)",
+   "iso2": "TW",
+   "fei_id": "54",
+   "region": "asie_oceanie",
+   "tcf": 2,
+   "delf": 2,
+   "files": [
+    "delf_chine_taiwan.json",
+    "tcf_chine_taiwan.json"
+   ]
+  },
+  {
+   "name_fr": "Chypre",
+   "iso2": "CY",
+   "fei_id": "67",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 5,
+   "files": [
+    "delf_chypre.json",
+    "tcf_chypre.json"
+   ]
+  },
+  {
+   "name_fr": "Colombie",
+   "iso2": "CO",
+   "fei_id": "21",
+   "region": "ameriques",
+   "tcf": 7,
+   "delf": 15,
+   "files": [
+    "delf_colombie.json",
+    "tcf_colombie.json"
+   ]
+  },
+  {
+   "name_fr": "Comores",
+   "iso2": "KM",
+   "fei_id": "126",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_comores.json",
+    "tcf_comores.json"
+   ]
+  },
+  {
+   "name_fr": "Congo",
+   "iso2": "CG",
+   "fei_id": "127",
+   "region": "afrique",
+   "tcf": 2,
+   "delf": 2,
+   "files": [
+    "delf_congo.json",
+    "tcf_congo.json"
+   ]
+  },
+  {
+   "name_fr": "Corée du Sud",
+   "iso2": "KR",
+   "fei_id": "42",
+   "region": "asie_oceanie",
+   "tcf": 3,
+   "delf": 6,
+   "files": [
+    "delf_coree_du_sud.json",
+    "tcf_coree_du_sud.json"
+   ]
+  },
+  {
+   "name_fr": "Costa Rica",
+   "iso2": "CR",
+   "fei_id": "22",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_costa_rica.json"
+   ]
+  },
+  {
+   "name_fr": "Côte d'Ivoire",
+   "iso2": "CI",
+   "fei_id": "128",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_cote_d_ivoire.json",
+    "tcf_cote_d_ivoire.json"
+   ]
+  },
+  {
+   "name_fr": "Croatie",
+   "iso2": "HR",
+   "fei_id": "68",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 7,
+   "files": [
+    "delf_croatie.json"
+   ]
+  },
+  {
+   "name_fr": "Cuba",
+   "iso2": "CU",
+   "fei_id": "23",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_cuba.json",
+    "tcf_cuba.json"
+   ]
+  },
+  {
+   "name_fr": "Danemark",
+   "iso2": "DK",
+   "fei_id": "69",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_danemark.json",
+    "tcf_danemark.json"
+   ]
+  },
+  {
+   "name_fr": "Djibouti",
+   "iso2": "DJ",
+   "fei_id": "129",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_djibouti.json",
+    "tcf_djibouti.json"
+   ]
+  },
+  {
+   "name_fr": "Dominique",
+   "iso2": "DM",
+   "fei_id": "343",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_dominique.json"
+   ]
+  },
+  {
+   "name_fr": "Égypte",
+   "iso2": "EG",
+   "fei_id": "116",
+   "region": "monde_arabe",
+   "tcf": 3,
+   "delf": 3,
+   "files": [
+    "delf_egypte.json",
+    "tcf_egypte.json"
+   ]
+  },
+  {
+   "name_fr": "Émirats arabes unis",
+   "iso2": "AE",
+   "fei_id": "101",
+   "region": "monde_arabe",
+   "tcf": 4,
+   "delf": 4,
+   "files": [
+    "delf_emirats_arabes_unis.json",
+    "tcf_emirats_arabes_unis.json"
+   ]
+  },
+  {
+   "name_fr": "Équateur",
+   "iso2": "EC",
+   "fei_id": "25",
+   "region": "ameriques",
+   "tcf": 3,
+   "delf": 5,
+   "files": [
+    "delf_equateur.json",
+    "tcf_equateur.json"
+   ]
+  },
+  {
+   "name_fr": "Érythrée",
+   "iso2": "ER",
+   "fei_id": "344",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_erythree.json"
+   ]
+  },
+  {
+   "name_fr": "Espagne",
+   "iso2": "ES",
+   "fei_id": "70",
+   "region": "europe",
+   "tcf": 14,
+   "delf": 32,
+   "files": [
+    "delf_espagne.json",
+    "tcf_espagne.json"
+   ]
+  },
+  {
+   "name_fr": "Estonie",
+   "iso2": "EE",
+   "fei_id": "71",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_estonie.json"
+   ]
+  },
+  {
+   "name_fr": "Eswatini",
+   "iso2": "SZ",
+   "fei_id": "429",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_eswatini.json",
+    "tcf_eswatini.json"
+   ]
+  },
+  {
+   "name_fr": "États-Unis",
+   "iso2": "US",
+   "fei_id": "113",
+   "region": "ameriques",
+   "tcf": 18,
+   "delf": 40,
+   "files": [
+    "delf_etats_unis.json",
+    "tcf_etats_unis.json"
+   ]
+  },
+  {
+   "name_fr": "Éthiopie",
+   "iso2": "ET",
+   "fei_id": "345",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_ethiopie.json"
+   ]
+  },
+  {
+   "name_fr": "Fidji",
+   "iso2": "FJ",
+   "fei_id": "348",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_fidji.json"
+   ]
+  },
+  {
+   "name_fr": "Finlande",
+   "iso2": "FI",
+   "fei_id": "72",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 23,
+   "files": [
+    "delf_finlande.json"
+   ]
+  },
+  {
+   "name_fr": "France",
+   "iso2": "FR",
+   "fei_id": "73",
+   "region": "europe",
+   "tcf": 247,
+   "delf": 144,
+   "files": [
+    "delf_france.json",
+    "tcf_france.json"
+   ]
+  },
+  {
+   "name_fr": "Gabon",
+   "iso2": "GA",
+   "fei_id": "130",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_gabon.json",
+    "tcf_gabon.json"
+   ]
+  },
+  {
+   "name_fr": "Gambie",
+   "iso2": "GM",
+   "fei_id": "349",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_gambie.json"
+   ]
+  },
+  {
+   "name_fr": "Géorgie",
+   "iso2": "GE",
+   "fei_id": "43",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_georgie.json"
+   ]
+  },
+  {
+   "name_fr": "Ghana",
+   "iso2": "GH",
+   "fei_id": "131",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_ghana.json",
+    "tcf_ghana.json"
+   ]
+  },
+  {
+   "name_fr": "Grèce",
+   "iso2": "GR",
+   "fei_id": "74",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 1,
+   "files": [
+    "delf_grece.json",
+    "tcf_grece.json"
+   ]
+  },
+  {
+   "name_fr": "Grenade",
+   "iso2": "GD",
+   "fei_id": "352",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_grenade.json"
+   ]
+  },
+  {
+   "name_fr": "Guatemala",
+   "iso2": "GT",
+   "fei_id": "26",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 3,
+   "files": [
+    "delf_guatemala.json",
+    "tcf_guatemala.json"
+   ]
+  },
+  {
+   "name_fr": "Guinée",
+   "iso2": "GN",
+   "fei_id": "132",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_guinee.json",
+    "tcf_guinee.json"
+   ]
+  },
+  {
+   "name_fr": "Guinée Équatoriale",
+   "iso2": "GQ",
+   "fei_id": "358",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_guinee_equatoriale.json",
+    "tcf_guinee_equatoriale.json"
+   ]
+  },
+  {
+   "name_fr": "Guinée-Bissau",
+   "iso2": "GW",
+   "fei_id": "357",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_guinee_bissau.json"
+   ]
+  },
+  {
+   "name_fr": "Guyana",
+   "iso2": "GY",
+   "fei_id": "359",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_guyana.json"
+   ]
+  },
+  {
+   "name_fr": "Haïti",
+   "iso2": "HT",
+   "fei_id": "27",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 6,
+   "files": [
+    "delf_haiti.json",
+    "tcf_haiti.json"
+   ]
+  },
+  {
+   "name_fr": "Honduras",
+   "iso2": "HN",
+   "fei_id": "28",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_honduras.json",
+    "tcf_honduras.json"
+   ]
+  },
+  {
+   "name_fr": "Hongrie",
+   "iso2": "HU",
+   "fei_id": "75",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 6,
+   "files": [
+    "delf_hongrie.json",
+    "tcf_hongrie.json"
+   ]
+  },
+  {
+   "name_fr": "Inde",
+   "iso2": "IN",
+   "fei_id": "45",
+   "region": "asie_oceanie",
+   "tcf": 7,
+   "delf": 16,
+   "files": [
+    "delf_inde.json",
+    "tcf_inde.json"
+   ]
+  },
+  {
+   "name_fr": "Indonésie",
+   "iso2": "ID",
+   "fei_id": "46",
+   "region": "asie_oceanie",
+   "tcf": 4,
+   "delf": 9,
+   "files": [
+    "delf_indonesie.json",
+    "tcf_indonesie.json"
+   ]
+  },
+  {
+   "name_fr": "Irak",
+   "iso2": "IQ",
+   "fei_id": "102",
+   "region": "monde_arabe",
+   "tcf": 2,
+   "delf": 3,
+   "files": [
+    "delf_irak.json",
+    "tcf_irak.json"
+   ]
+  },
+  {
+   "name_fr": "Iran",
+   "iso2": "IR",
+   "fei_id": "103",
+   "region": "moyen_orient",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_iran.json",
+    "tcf_iran.json"
+   ]
+  },
+  {
+   "name_fr": "Irlande",
+   "iso2": "IE",
+   "fei_id": "76",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 5,
+   "files": [
+    "delf_irlande.json",
+    "tcf_irlande.json"
+   ]
+  },
+  {
+   "name_fr": "Islande",
+   "iso2": "IS",
+   "fei_id": "77",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_islande.json",
+    "tcf_islande.json"
+   ]
+  },
+  {
+   "name_fr": "Israël",
+   "iso2": "IL",
+   "fei_id": "104",
+   "region": "moyen_orient",
+   "tcf": 3,
+   "delf": 3,
+   "files": [
+    "delf_israel.json",
+    "tcf_israel.json"
+   ]
+  },
+  {
+   "name_fr": "Italie",
+   "iso2": "IT",
+   "fei_id": "78",
+   "region": "europe",
+   "tcf": 14,
+   "delf": 26,
+   "files": [
+    "delf_italie.json",
+    "tcf_italie.json"
+   ]
+  },
+  {
+   "name_fr": "Jamaïque",
+   "iso2": "JM",
+   "fei_id": "29",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_jamaique.json"
+   ]
+  },
+  {
+   "name_fr": "Japon",
+   "iso2": "JP",
+   "fei_id": "47",
+   "region": "asie_oceanie",
+   "tcf": 8,
+   "delf": 9,
+   "files": [
+    "delf_japon.json",
+    "tcf_japon.json"
+   ]
+  },
+  {
+   "name_fr": "Jordanie",
+   "iso2": "JO",
+   "fei_id": "105",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_jordanie.json",
+    "tcf_jordanie.json"
+   ]
+  },
+  {
+   "name_fr": "Kazakhstan",
+   "iso2": "KZ",
+   "fei_id": "48",
+   "region": "asie_oceanie",
+   "tcf": 2,
+   "delf": 4,
+   "files": [
+    "delf_kazakhstan.json",
+    "tcf_kazakhstan.json"
+   ]
+  },
+  {
+   "name_fr": "Kenya",
+   "iso2": "KE",
+   "fei_id": "133",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_kenya.json",
+    "tcf_kenya.json"
+   ]
+  },
+  {
+   "name_fr": "Kirghizistan",
+   "iso2": "KG",
+   "fei_id": "367",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_kirghizistan.json",
+    "tcf_kirghizistan.json"
+   ]
+  },
+  {
+   "name_fr": "Koweït",
+   "iso2": "KW",
+   "fei_id": "369",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_koweit.json",
+    "tcf_koweit.json"
+   ]
+  },
+  {
+   "name_fr": "Lao, République Démocratique populaire",
+   "iso2": "LA",
+   "fei_id": "370",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_lao_republique_democratique_populaire.json"
+   ]
+  },
+  {
+   "name_fr": "Lesotho",
+   "iso2": "LS",
+   "fei_id": "134",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_lesotho.json"
+   ]
+  },
+  {
+   "name_fr": "Lettonie",
+   "iso2": "LV",
+   "fei_id": "371",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_lettonie.json"
+   ]
+  },
+  {
+   "name_fr": "Liban",
+   "iso2": "LB",
+   "fei_id": "106",
+   "region": "monde_arabe",
+   "tcf": 6,
+   "delf": 9,
+   "files": [
+    "delf_liban.json",
+    "tcf_liban.json"
+   ]
+  },
+  {
+   "name_fr": "Lituanie",
+   "iso2": "LT",
+   "fei_id": "80",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 3,
+   "files": [
+    "delf_lituanie.json",
+    "tcf_lituanie.json"
+   ]
+  },
+  {
+   "name_fr": "Luxembourg",
+   "iso2": "LU",
+   "fei_id": "375",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 2,
+   "files": [
+    "delf_luxembourg.json",
+    "tcf_luxembourg.json"
+   ]
+  },
+  {
+   "name_fr": "Macédoine du nord",
+   "iso2": "MK",
+   "fei_id": "81",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_macedoine_du_nord.json",
+    "tcf_macedoine_du_nord.json"
+   ]
+  },
+  {
+   "name_fr": "Madagascar",
+   "iso2": "MG",
+   "fei_id": "136",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 24,
+   "files": [
+    "delf_madagascar.json"
+   ]
+  },
+  {
+   "name_fr": "Malaisie",
+   "iso2": "MY",
+   "fei_id": "49",
+   "region": "asie_oceanie",
+   "tcf": 2,
+   "delf": 26,
+   "files": [
+    "delf_malaisie.json",
+    "tcf_malaisie.json"
+   ]
+  },
+  {
+   "name_fr": "Malawi",
+   "iso2": "MW",
+   "fei_id": "377",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_malawi.json"
+   ]
+  },
+  {
+   "name_fr": "Maldives",
+   "iso2": "MV",
+   "fei_id": "378",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_maldives.json"
+   ]
+  },
+  {
+   "name_fr": "Mali",
+   "iso2": "ML",
+   "fei_id": "137",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_mali.json",
+    "tcf_mali.json"
+   ]
+  },
+  {
+   "name_fr": "Malte",
+   "iso2": "MT",
+   "fei_id": "379",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_malte.json",
+    "tcf_malte.json"
+   ]
+  },
+  {
+   "name_fr": "Maroc",
+   "iso2": "MA",
+   "fei_id": "117",
+   "region": "monde_arabe",
+   "tcf": 16,
+   "delf": 14,
+   "files": [
+    "delf_maroc.json",
+    "tcf_maroc.json"
+   ]
+  },
+  {
+   "name_fr": "Maurice",
+   "iso2": "MU",
+   "fei_id": "138",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 3,
+   "files": [
+    "delf_maurice.json",
+    "tcf_maurice.json"
+   ]
+  },
+  {
+   "name_fr": "Mauritanie",
+   "iso2": "MR",
+   "fei_id": "139",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 5,
+   "files": [
+    "delf_mauritanie.json",
+    "tcf_mauritanie.json"
+   ]
+  },
+  {
+   "name_fr": "Mexique",
+   "iso2": "MX",
+   "fei_id": "30",
+   "region": "ameriques",
+   "tcf": 11,
+   "delf": 71,
+   "files": [
+    "delf_mexique.json",
+    "tcf_mexique.json"
+   ]
+  },
+  {
+   "name_fr": "Moldavie",
+   "iso2": "MD",
+   "fei_id": "82",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_moldavie.json",
+    "tcf_moldavie.json"
+   ]
+  },
+  {
+   "name_fr": "Monaco",
+   "iso2": "MC",
+   "fei_id": "385",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_monaco.json"
+   ]
+  },
+  {
+   "name_fr": "Mongolie",
+   "iso2": "MN",
+   "fei_id": "386",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_mongolie.json"
+   ]
+  },
+  {
+   "name_fr": "Monténégro",
+   "iso2": "ME",
+   "fei_id": "387",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_montenegro.json",
+    "tcf_montenegro.json"
+   ]
+  },
+  {
+   "name_fr": "Mozambique",
+   "iso2": "MZ",
+   "fei_id": "140",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_mozambique.json",
+    "tcf_mozambique.json"
+   ]
+  },
+  {
+   "name_fr": "Namibie",
+   "iso2": "NA",
+   "fei_id": "390",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_namibie.json",
+    "tcf_namibie.json"
+   ]
+  },
+  {
+   "name_fr": "Népal",
+   "iso2": "NP",
+   "fei_id": "392",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_nepal.json",
+    "tcf_nepal.json"
+   ]
+  },
+  {
+   "name_fr": "Nicaragua",
+   "iso2": "NI",
+   "fei_id": "31",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_nicaragua.json",
+    "tcf_nicaragua.json"
+   ]
+  },
+  {
+   "name_fr": "Niger",
+   "iso2": "NE",
+   "fei_id": "141",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 4,
+   "files": [
+    "delf_niger.json"
+   ]
+  },
+  {
+   "name_fr": "Nigéria",
+   "iso2": "NG",
+   "fei_id": "142",
+   "region": "afrique",
+   "tcf": 2,
+   "delf": 10,
+   "files": [
+    "delf_nigeria.json",
+    "tcf_nigeria.json"
+   ]
+  },
+  {
+   "name_fr": "Norvège",
+   "iso2": "NO",
+   "fei_id": "83",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_norvege.json",
+    "tcf_norvege.json"
+   ]
+  },
+  {
+   "name_fr": "Nouvelle-Zélande",
+   "iso2": "NZ",
+   "fei_id": "98",
+   "region": "asie_oceanie",
+   "tcf": 2,
+   "delf": 7,
+   "files": [
+    "delf_nouvelle_zelande.json",
+    "tcf_nouvelle_zelande.json"
+   ]
+  },
+  {
+   "name_fr": "Oman",
+   "iso2": "OM",
+   "fei_id": "107",
+   "region": "monde_arabe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_oman.json"
+   ]
+  },
+  {
+   "name_fr": "Ouganda",
+   "iso2": "UG",
+   "fei_id": "397",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_ouganda.json",
+    "tcf_ouganda.json"
+   ]
+  },
+  {
+   "name_fr": "Ouzbékistan",
+   "iso2": "UZ",
+   "fei_id": "50",
+   "region": "asie_oceanie",
+   "tcf": 2,
+   "delf": 2,
+   "files": [
+    "delf_ouzbekistan.json",
+    "tcf_ouzbekistan.json"
+   ]
+  },
+  {
+   "name_fr": "Pakistan",
+   "iso2": "PK",
+   "fei_id": "51",
+   "region": "asie_oceanie",
+   "tcf": 3,
+   "delf": 3,
+   "files": [
+    "delf_pakistan.json",
+    "tcf_pakistan.json"
+   ]
+  },
+  {
+   "name_fr": "Palestine",
+   "iso2": "PS",
+   "fei_id": "109",
+   "region": "monde_arabe",
+   "tcf": 2,
+   "delf": 1,
+   "files": [
+    "delf_palestine.json",
+    "tcf_palestine.json"
+   ]
+  },
+  {
+   "name_fr": "Panama",
+   "iso2": "PA",
+   "fei_id": "32",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 3,
+   "files": [
+    "delf_panama.json",
+    "tcf_panama.json"
+   ]
+  },
+  {
+   "name_fr": "Paraguay",
+   "iso2": "PY",
+   "fei_id": "33",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_paraguay.json"
+   ]
+  },
+  {
+   "name_fr": "Pays-Bas",
+   "iso2": "NL",
+   "fei_id": "84",
+   "region": "europe",
+   "tcf": 7,
+   "delf": 7,
+   "files": [
+    "delf_pays_bas.json",
+    "tcf_pays_bas.json"
+   ]
+  },
+  {
+   "name_fr": "Pérou",
+   "iso2": "PE",
+   "fei_id": "34",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 6,
+   "files": [
+    "delf_perou.json",
+    "tcf_perou.json"
+   ]
+  },
+  {
+   "name_fr": "Philippines",
+   "iso2": "PH",
+   "fei_id": "400",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_philippines.json",
+    "tcf_philippines.json"
+   ]
+  },
+  {
+   "name_fr": "Pologne",
+   "iso2": "PL",
+   "fei_id": "85",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 15,
+   "files": [
+    "delf_pologne.json",
+    "tcf_pologne.json"
+   ]
+  },
+  {
+   "name_fr": "Porto Rico",
+   "iso2": "PR",
+   "fei_id": "403",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 0,
+   "files": [
+    "tcf_porto_rico.json"
+   ]
+  },
+  {
+   "name_fr": "Portugal",
+   "iso2": "PT",
+   "fei_id": "86",
+   "region": "europe",
+   "tcf": 6,
+   "delf": 16,
+   "files": [
+    "delf_portugal.json",
+    "tcf_portugal.json"
+   ]
+  },
+  {
+   "name_fr": "Qatar",
+   "iso2": "QA",
+   "fei_id": "404",
+   "region": "monde_arabe",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_qatar.json",
+    "tcf_qatar.json"
+   ]
+  },
+  {
+   "name_fr": "République Centrafricaine (RCA)",
+   "iso2": "CF",
+   "fei_id": "337",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_republique_centrafricaine_rca.json",
+    "tcf_republique_centrafricaine_rca.json"
+   ]
+  },
+  {
+   "name_fr": "République démocratique du Congo",
+   "iso2": "CD",
+   "fei_id": "143",
+   "region": "afrique",
+   "tcf": 3,
+   "delf": 2,
+   "files": [
+    "delf_republique_democratique_du_congo.json",
+    "tcf_republique_democratique_du_congo.json"
+   ]
+  },
+  {
+   "name_fr": "République dominicaine",
+   "iso2": "DO",
+   "fei_id": "35",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_republique_dominicaine.json"
+   ]
+  },
+  {
+   "name_fr": "République Tchèque",
+   "iso2": "CZ",
+   "fei_id": "88",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 10,
+   "files": [
+    "delf_republique_tcheque.json",
+    "tcf_republique_tcheque.json"
+   ]
+  },
+  {
+   "name_fr": "Roumanie",
+   "iso2": "RO",
+   "fei_id": "87",
+   "region": "europe",
+   "tcf": 3,
+   "delf": 10,
+   "files": [
+    "delf_roumanie.json",
+    "tcf_roumanie.json"
+   ]
+  },
+  {
+   "name_fr": "Royaume-Uni",
+   "iso2": "GB",
+   "fei_id": "89",
+   "region": "europe",
+   "tcf": 3,
+   "delf": 11,
+   "files": [
+    "delf_royaume_uni.json",
+    "tcf_royaume_uni.json"
+   ]
+  },
+  {
+   "name_fr": "Russie",
+   "iso2": "RU",
+   "fei_id": "90",
+   "region": "europe",
+   "tcf": 12,
+   "delf": 37,
+   "files": [
+    "delf_russie.json",
+    "tcf_russie.json"
+   ]
+  },
+  {
+   "name_fr": "Rwanda",
+   "iso2": "RW",
+   "fei_id": "144",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_rwanda.json",
+    "tcf_rwanda.json"
+   ]
+  },
+  {
+   "name_fr": "Saint-Kitts-et-Nevis",
+   "iso2": "KN",
+   "fei_id": "408",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_saint_kitts_et_nevis.json",
+    "tcf_saint_kitts_et_nevis.json"
+   ]
+  },
+  {
+   "name_fr": "Saint-Vincent-et-les-Grenadines",
+   "iso2": "VC",
+   "fei_id": "414",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_saint_vincent_et_les_grenadines.json"
+   ]
+  },
+  {
+   "name_fr": "Sainte-Lucie et les états membres de l'OECO",
+   "iso2": "LC",
+   "fei_id": "416",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_sainte_lucie_et_les_etats_membres_de_l_oeco.json"
+   ]
+  },
+  {
+   "name_fr": "Salvador",
+   "iso2": "SV",
+   "fei_id": "24",
+   "region": "ameriques",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_salvador.json",
+    "tcf_salvador.json"
+   ]
+  },
+  {
+   "name_fr": "Sao Tomé-et-Principe",
+   "iso2": "ST",
+   "fei_id": "420",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_sao_tome_et_principe.json"
+   ]
+  },
+  {
+   "name_fr": "Sénégal",
+   "iso2": "SN",
+   "fei_id": "145",
+   "region": "afrique",
+   "tcf": 3,
+   "delf": 4,
+   "files": [
+    "delf_senegal.json",
+    "tcf_senegal.json"
+   ]
+  },
+  {
+   "name_fr": "Serbie",
+   "iso2": "RS",
+   "fei_id": "91",
+   "region": "europe",
+   "tcf": 1,
+   "delf": 3,
+   "files": [
+    "delf_serbie.json",
+    "tcf_serbie.json"
+   ]
+  },
+  {
+   "name_fr": "Seychelles",
+   "iso2": "SC",
+   "fei_id": "421",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_seychelles.json"
+   ]
+  },
+  {
+   "name_fr": "Sierra Leone",
+   "iso2": "SL",
+   "fei_id": "422",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_sierra_leone.json"
+   ]
+  },
+  {
+   "name_fr": "Singapour",
+   "iso2": "SG",
+   "fei_id": "52",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_singapour.json"
+   ]
+  },
+  {
+   "name_fr": "Slovaquie",
+   "iso2": "SK",
+   "fei_id": "92",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 3,
+   "files": [
+    "delf_slovaquie.json"
+   ]
+  },
+  {
+   "name_fr": "Slovénie",
+   "iso2": "SI",
+   "fei_id": "423",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_slovenie.json"
+   ]
+  },
+  {
+   "name_fr": "Somalie",
+   "iso2": "SO",
+   "fei_id": "424",
+   "region": "monde_arabe",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_somalie.json"
+   ]
+  },
+  {
+   "name_fr": "Soudan",
+   "iso2": "SD",
+   "fei_id": "146",
+   "region": "monde_arabe",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_soudan.json"
+   ]
+  },
+  {
+   "name_fr": "Soudan du Sud",
+   "iso2": "SS",
+   "fei_id": "425",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_soudan_du_sud.json"
+   ]
+  },
+  {
+   "name_fr": "Sri Lanka",
+   "iso2": "LK",
+   "fei_id": "426",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_sri_lanka.json"
+   ]
+  },
+  {
+   "name_fr": "Suède",
+   "iso2": "SE",
+   "fei_id": "93",
+   "region": "europe",
+   "tcf": 0,
+   "delf": 26,
+   "files": [
+    "delf_suede.json"
+   ]
+  },
+  {
+   "name_fr": "Suisse",
+   "iso2": "CH",
+   "fei_id": "94",
+   "region": "europe",
+   "tcf": 7,
+   "delf": 12,
+   "files": [
+    "delf_suisse.json",
+    "tcf_suisse.json"
+   ]
+  },
+  {
+   "name_fr": "Suriname",
+   "iso2": "SR",
+   "fei_id": "427",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_suriname.json"
+   ]
+  },
+  {
+   "name_fr": "Tadjikistan",
+   "iso2": "TJ",
+   "fei_id": "430",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_tadjikistan.json",
+    "tcf_tadjikistan.json"
+   ]
+  },
+  {
+   "name_fr": "Tanzanie",
+   "iso2": "TZ",
+   "fei_id": "147",
+   "region": "afrique",
+   "tcf": 2,
+   "delf": 2,
+   "files": [
+    "delf_tanzanie.json",
+    "tcf_tanzanie.json"
+   ]
+  },
+  {
+   "name_fr": "Tchad",
+   "iso2": "TD",
+   "fei_id": "148",
+   "region": "afrique",
+   "tcf": 0,
+   "delf": 6,
+   "files": [
+    "delf_tchad.json"
+   ]
+  },
+  {
+   "name_fr": "Thaïlande",
+   "iso2": "TH",
+   "fei_id": "53",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_thailande.json",
+    "tcf_thailande.json"
+   ]
+  },
+  {
+   "name_fr": "Togo",
+   "iso2": "TG",
+   "fei_id": "149",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_togo.json",
+    "tcf_togo.json"
+   ]
+  },
+  {
+   "name_fr": "Tonga",
+   "iso2": "TO",
+   "fei_id": "434",
+   "region": "asie_oceanie",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_tonga.json"
+   ]
+  },
+  {
+   "name_fr": "Trinité et Tobago",
+   "iso2": "TT",
+   "fei_id": "36",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 1,
+   "files": [
+    "delf_trinite_et_tobago.json"
+   ]
+  },
+  {
+   "name_fr": "Tunisie",
+   "iso2": "TN",
+   "fei_id": "118",
+   "region": "monde_arabe",
+   "tcf": 14,
+   "delf": 18,
+   "files": [
+    "delf_tunisie.json",
+    "tcf_tunisie.json"
+   ]
+  },
+  {
+   "name_fr": "Turkménistan",
+   "iso2": "TM",
+   "fei_id": "435",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_turkmenistan.json",
+    "tcf_turkmenistan.json"
+   ]
+  },
+  {
+   "name_fr": "Turquie",
+   "iso2": "TR",
+   "fei_id": "95",
+   "region": "europe",
+   "tcf": 4,
+   "delf": 4,
+   "files": [
+    "delf_turquie.json",
+    "tcf_turquie.json"
+   ]
+  },
+  {
+   "name_fr": "Ukraine",
+   "iso2": "UA",
+   "fei_id": "55",
+   "region": "europe",
+   "tcf": 2,
+   "delf": 9,
+   "files": [
+    "delf_ukraine.json",
+    "tcf_ukraine.json"
+   ]
+  },
+  {
+   "name_fr": "Uruguay",
+   "iso2": "UY",
+   "fei_id": "37",
+   "region": "ameriques",
+   "tcf": 0,
+   "delf": 2,
+   "files": [
+    "delf_uruguay.json"
+   ]
+  },
+  {
+   "name_fr": "Vanuatu",
+   "iso2": "VU",
+   "fei_id": "438",
+   "region": "asie_oceanie",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_vanuatu.json",
+    "tcf_vanuatu.json"
+   ]
+  },
+  {
+   "name_fr": "Venezuela",
+   "iso2": "VE",
+   "fei_id": "57",
+   "region": "ameriques",
+   "tcf": 2,
+   "delf": 8,
+   "files": [
+    "delf_venezuela.json",
+    "tcf_venezuela.json"
+   ]
+  },
+  {
+   "name_fr": "Vietnam",
+   "iso2": "VN",
+   "fei_id": "56",
+   "region": "asie_oceanie",
+   "tcf": 4,
+   "delf": 11,
+   "files": [
+    "delf_vietnam.json",
+    "tcf_vietnam.json"
+   ]
+  },
+  {
+   "name_fr": "Zambie",
+   "iso2": "ZM",
+   "fei_id": "440",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 1,
+   "files": [
+    "delf_zambie.json",
+    "tcf_zambie.json"
+   ]
+  },
+  {
+   "name_fr": "Zimbabwe",
+   "iso2": "ZW",
+   "fei_id": "441",
+   "region": "afrique",
+   "tcf": 1,
+   "delf": 2,
+   "files": [
+    "delf_zimbabwe.json",
+    "tcf_zimbabwe.json"
+   ]
+  }
+ ],
+ "totals": {
+  "countries": 176,
+  "countries_with_centres": 176,
+  "tcf_centres": 675,
+  "delf_centres": 1111,
+  "distinct_centres": 1721
+ },
+ "anomalies": [
+  "Afghanistan|delf_dalf: organisme de gestion centrale affiché vide (« - ») → org = null",
+  "Afghanistan|delf_dalf: 2 fiches FEI → 1 centres + org=non",
+  "Afghanistan|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Afghanistan|delf_dalf: fiche sans ville : Institut français d'Afghanistan",
+  "Afrique du Sud|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Arabie saoudite|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Canada|tcf: même nom+ville, fiches différentes (gardées) : Gaspé (Québec) - Cégep de la Gaspésie et des Iles",
+  "Fidji|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "France|delf_dalf: même nom+ville, fiches différentes (gardées) : La Courneuve - LE POLE",
+  "France|delf_dalf: même nom+ville, fiches différentes (gardées) : La Courneuve - LE POLE",
+  "France|delf_dalf: même nom+ville, fiches différentes (gardées) : Les Abymes - CASNAV de la Guadeloupe",
+  "France|delf_dalf: même nom+ville, fiches différentes (gardées) : Saint-Denis - CASNAV Académie de La Réunion",
+  "France|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Guyana|delf_dalf: organisme de gestion centrale affiché vide (« - ») → org = null",
+  "Guyana|delf_dalf: 2 fiches FEI → 1 centres + org=non",
+  "Guyana|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Jordanie|delf_dalf: doublon exact écarté : Amman - Institut français de Jordanie",
+  "Jordanie|delf_dalf: 3 fiches FEI → 1 centres + org=oui",
+  "Lesotho|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Sierra Leone|delf_dalf: organisme de gestion centrale affiché vide (« - ») → org = null",
+  "Sierra Leone|delf_dalf: 2 fiches FEI → 1 centres + org=non",
+  "Sierra Leone|delf_dalf: pas d'organisme de gestion centrale affiché",
+  "Sierra Leone|delf_dalf: fiche sans ville : FOURAH BAY COLLEGE",
+  "Vanuatu|delf_dalf: téléphone atypique « 22 926 » (Port Vila - Lycée français JMG Le Clézio)"
+ ]
+}

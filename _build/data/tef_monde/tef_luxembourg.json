@@ -1,0 +1,33 @@
+{
+ "country": "Luxembourg",
+ "iso2": "LU",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INLINGUA - LUXEMBOURG",
+   "city": "LUXEMBOURG",
+   "cp": "L1731",
+   "city_cp": "",
+   "address": "5, rue de Hesperange, L1731 LUXEMBOURG",
+   "address_lines": [
+    "5, rue de Hesperange",
+    "L1731 LUXEMBOURG"
+   ],
+   "phone": "+352 40 35 47",
+   "emails": [
+    "infoinlingua@inlingua.lu"
+   ],
+   "url": "www.inlingua.lu",
+   "so": false,
+   "products": [],
+   "cci_id": 480,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/480"
+  }
+ ]
+}

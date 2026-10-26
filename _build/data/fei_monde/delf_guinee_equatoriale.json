@@ -1,0 +1,42 @@
+{
+ "country": "Guinée Équatoriale",
+ "iso2": "GQ",
+ "fei_id": "358",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Malabo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Calle Acacio Mane Bario Ewaiso Malabo, Bioko Norte Malabo",
+  "address_lines": [
+   "Calle Acacio Mane Bario Ewaiso Malabo, Bioko Norte Malabo"
+  ],
+  "phone": "+240333093732",
+  "emails": [
+   "direction@institutfrancais-malabo.org"
+  ],
+  "url": "http://www.institutfrancais-malabo.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Guinée Equatoriale - IFGE",
+   "city": "Malabo",
+   "cp": "",
+   "city_cp": "",
+   "address": "carretera del Aeropuerto - BP 134 Malabo Malabo",
+   "address_lines": [
+    "carretera del Aeropuerto - BP 134 Malabo Malabo"
+   ],
+   "phone": "+240 333092005",
+   "emails": [],
+   "url": "http://www.institutfrancais-malabo.org/",
+   "so": false
+  }
+ ]
+}

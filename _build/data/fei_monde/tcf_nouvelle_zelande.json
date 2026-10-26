@@ -1,0 +1,47 @@
+{
+ "country": "Nouvelle-Zélande",
+ "iso2": "NZ",
+ "fei_id": "98",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Auckland",
+   "cp": "",
+   "city_cp": "",
+   "address": "131 Remuera Road Newmarket, 1050 Auckland",
+   "address_lines": [
+    "131 Remuera Road Newmarket",
+    "1050 Auckland"
+   ],
+   "phone": "64-93-76-00-09",
+   "emails": [
+    "director@alliance-francaise.co.nz"
+   ],
+   "url": "http://www.alliance-francaise.co.nz",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Willington",
+   "city": "Wellington",
+   "cp": "",
+   "city_cp": "",
+   "address": "78 Victoria Street, LvL3, PO BOX 11141, 6011 Wellington",
+   "address_lines": [
+    "78 Victoria Street, LvL3, PO BOX 11141",
+    "6011 Wellington"
+   ],
+   "phone": "64-44-72-12-72",
+   "emails": [
+    "admin@french.co.nz"
+   ],
+   "url": "http://www.french.co.nz",
+   "so": true
+  }
+ ]
+}

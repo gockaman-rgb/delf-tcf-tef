@@ -1,0 +1,42 @@
+{
+ "country": "Birmanie",
+ "iso2": "MM",
+ "fei_id": "389",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Cours",
+  "city": "Yangon (Rangoun)",
+  "cp": "",
+  "city_cp": "",
+  "address": "340 Pyay Road, 11111 Yangon (Rangoun)",
+  "address_lines": [
+   "340 Pyay Road",
+   "11111 Yangon (Rangoun)"
+  ],
+  "phone": "+959457497463",
+  "emails": [],
+  "url": "https://www.ifbirmanie.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Birmanie",
+   "city": "Yangon( Rangoun)",
+   "cp": "",
+   "city_cp": "",
+   "address": "340 PYAY ROAD, 11111 Yangon( Rangoun)",
+   "address_lines": [
+    "340 PYAY ROAD",
+    "11111 Yangon( Rangoun)"
+   ],
+   "phone": "+959420330648",
+   "emails": [],
+   "url": "http://www.institutfrancais-birmanie.com/",
+   "so": false
+  }
+ ]
+}

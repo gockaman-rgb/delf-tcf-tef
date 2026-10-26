@@ -1390,6 +1390,12 @@ Ecuador.""",
 <div class="stat"><b>8 oct.</b><span>2026</span><em>revisión de los sitios de los centros</em></div>
 </div>
 
+<form class="finder-mini" action="/es/centro-de-examen-cerca-de-mi/" method="get" role="search">
+<label for="finder-mini-q">Encuentra un centro de examen cerca de ti</label>
+<div class="finder-row"><input id="finder-mini-q" name="q" type="search" placeholder="Ciudad, país o nombre del centro" autocomplete="off" enterkeyhint="search"><button type="submit">Buscar</button></div>
+<p>DELF-DALF, TCF y TEF: los centros autorizados más cercanos, con la distancia. <a href="/es/centro-de-examen-cerca-de-mi/">O usa tu ubicación →</a></p>
+</form>
+
 <h2 id="paises">Siete países, dos exámenes</h2>
 """ + _hub_table() + """
 

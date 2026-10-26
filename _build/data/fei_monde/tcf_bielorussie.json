@@ -1,0 +1,28 @@
+{
+ "country": "Biélorussie",
+ "iso2": "BY",
+ "fei_id": "63",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Ambassade de France en Biélorussie",
+   "city": "Minsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "11 place de la liberté, 220030 Minsk",
+   "address_lines": [
+    "11 place de la liberté",
+    "220030 Minsk"
+   ],
+   "phone": "375-17-229-18-07",
+   "emails": [],
+   "url": "https://by.ambafrance.org/",
+   "so": false
+  }
+ ]
+}

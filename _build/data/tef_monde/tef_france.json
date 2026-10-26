@@ -1,0 +1,5116 @@
+{
+ "country": "France",
+ "iso2": "FR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 254,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "AGDE",
+   "cp": "34300",
+   "city_cp": "",
+   "address": "2 Rue du Saphir - Bâtiment G, 34300 AGDE",
+   "address_lines": [
+    "2 Rue du Saphir - Bâtiment G",
+    "34300 AGDE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1019,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1019"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - BERGERAC",
+   "city": "AGEN BOE",
+   "cp": "47550",
+   "city_cp": "",
+   "address": "1615 rue de la Gare, 47550 AGEN BOE",
+   "address_lines": [
+    "1615 rue de la Gare",
+    "47550 AGEN BOE"
+   ],
+   "phone": "+33 5 53 24 74 96",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1109,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1109"
+  },
+  {
+   "name": "ELFE - ÉVRY COURCOURONNES",
+   "city": "AIX-EN-PROVENCE",
+   "cp": "13290",
+   "city_cp": "",
+   "address": "155 Rue Paul Langevin, 13290 AIX-EN-PROVENCE",
+   "address_lines": [
+    "155 Rue Paul Langevin",
+    "13290 AIX-EN-PROVENCE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://elfe-formation.fr/la-formation/",
+   "so": false,
+   "products": [],
+   "cci_id": 1070,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1070"
+  },
+  {
+   "name": "MOVE UP FORMATION - AIX-EN-PROVENCE",
+   "city": "AIX-EN-PROVENCE",
+   "cp": "13290",
+   "city_cp": "",
+   "address": "155 rue Paul Langevin, 13290 AIX-EN-PROVENCE",
+   "address_lines": [
+    "155 rue Paul Langevin",
+    "13290 AIX-EN-PROVENCE"
+   ],
+   "phone": "+33 4 65 07 22 22",
+   "emails": [
+    "contact@moveup-formation-aix.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 631,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/631"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "Ajaccio",
+   "cp": "20000",
+   "city_cp": "",
+   "address": "Place Miot, boulevard Albert 1er, 20000 Ajaccio",
+   "address_lines": [
+    "Place Miot, boulevard Albert 1er",
+    "20000 Ajaccio"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1008,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1008"
+  },
+  {
+   "name": "PURPLE CAMPUS-ALBI",
+   "city": "ALBI",
+   "cp": "81000",
+   "city_cp": "",
+   "address": "6 avenue du Général Hoche, 81000 ALBI",
+   "address_lines": [
+    "6 avenue du Général Hoche",
+    "81000 ALBI"
+   ],
+   "phone": "+33 5 63 49 05 83",
+   "emails": [],
+   "url": "www.purple-campus.com",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 663,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/663"
+  },
+  {
+   "name": "EFFICIA - ALÈS",
+   "city": "ALÈS",
+   "cp": "30100",
+   "city_cp": "",
+   "address": "5, rue Herstal, 30100 ALÈS",
+   "address_lines": [
+    "5, rue Herstal",
+    "30100 ALÈS"
+   ],
+   "phone": "",
+   "emails": [
+    "contact@efficia.org"
+   ],
+   "url": "www.efficia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 993,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/993"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - AMBÉRIEUX EN BUGEY",
+   "city": "AMBÉRIEUX EN BUGEY",
+   "cp": "01500",
+   "city_cp": "",
+   "address": "14 Rue Marius Berliet, 01500 AMBÉRIEUX EN BUGEY",
+   "address_lines": [
+    "14 Rue Marius Berliet",
+    "01500 AMBÉRIEUX EN BUGEY"
+   ],
+   "phone": "+33 800 11 02 54",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1088,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1088"
+  },
+  {
+   "name": "AEFTI SAVOIRS ET COMPÉTENCES",
+   "city": "AMIENS",
+   "cp": "80002",
+   "city_cp": "",
+   "address": "5 Place d’Auvergne B.P. 60221, 80002 AMIENS",
+   "address_lines": [
+    "5 Place d’Auvergne B.P. 60221",
+    "80002 AMIENS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.aefti.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 19,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/19"
+  },
+  {
+   "name": "INSTITUT SUPÉRIEUR DE PROPÉDEUTIQUE D'AMIENS (ISPA)",
+   "city": "AMIENS",
+   "cp": "80000",
+   "city_cp": "",
+   "address": "5 rue des Francs-Mûriers, 80000 AMIENS",
+   "address_lines": [
+    "5 rue des Francs-Mûriers",
+    "80000 AMIENS"
+   ],
+   "phone": "+33 3 22 91 08 66",
+   "emails": [
+    "examens@ispa-langues.com"
+   ],
+   "url": "www.ispa-langues.com",
+   "so": false,
+   "products": [],
+   "cci_id": 581,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/581"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - BREST",
+   "city": "ANCENIS-SAINT-GEREON",
+   "cp": "44150",
+   "city_cp": "",
+   "address": "Habitat des jeunes du Pays d'Ancenis - 85 boulevard Huchon, 44150 ANCENIS-SAINT-GEREON",
+   "address_lines": [
+    "Habitat des jeunes du Pays d'Ancenis - 85 boulevard Huchon",
+    "44150 ANCENIS-SAINT-GEREON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1051,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1051"
+  },
+  {
+   "name": "TOUT AU LONG DE LA VIE",
+   "city": "ANGERS",
+   "cp": "49000",
+   "city_cp": "",
+   "address": "29 rue Bougère, 49000 ANGERS",
+   "address_lines": [
+    "29 rue Bougère",
+    "49000 ANGERS"
+   ],
+   "phone": "+33 2 41 48 68 10",
+   "emails": [],
+   "url": "http://www.toutaulongdelavie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 929,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/929"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - ANNEMASSE",
+   "city": "ANNEMASSE",
+   "cp": "74100",
+   "city_cp": "",
+   "address": "3 passage Jean Moulin, 74100 ANNEMASSE",
+   "address_lines": [
+    "3 passage Jean Moulin",
+    "74100 ANNEMASSE"
+   ],
+   "phone": "+33 4 74 47 32 96",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 434,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/434"
+  },
+  {
+   "name": "AFI - ACTION FORMATION INSERTION",
+   "city": "ARGENTEUIL",
+   "cp": "95100",
+   "city_cp": "",
+   "address": "9 avenue du Marais, 95100 ARGENTEUIL",
+   "address_lines": [
+    "9 avenue du Marais",
+    "95100 ARGENTEUIL"
+   ],
+   "phone": "+33 1 34 34 16 50",
+   "emails": [
+    "afi@afi.asso.fr"
+   ],
+   "url": "www.afi.asso.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 775,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/775"
+  },
+  {
+   "name": "AEFTI SAVOIRS ET COMPÉTENCES",
+   "city": "ARRAS",
+   "cp": "62000",
+   "city_cp": "",
+   "address": "23 rue du dépôt, 62000 ARRAS",
+   "address_lines": [
+    "23 rue du dépôt",
+    "62000 ARRAS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.aefti.net",
+   "so": false,
+   "products": [],
+   "cci_id": 1011,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1011"
+  },
+  {
+   "name": "EMPLOI SERVICES FORMATION - ARRAS",
+   "city": "ARRAS",
+   "cp": "62000",
+   "city_cp": "",
+   "address": "168 avenue Kennedy, 62000 ARRAS",
+   "address_lines": [
+    "168 avenue Kennedy",
+    "62000 ARRAS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 998,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/998"
+  },
+  {
+   "name": "UNIVERSITÉ D'ARTOIS - UFR LETTRES ET ARTS",
+   "city": "ARRAS",
+   "cp": "62000",
+   "city_cp": "",
+   "address": "9 rue du Temple, 62000 ARRAS",
+   "address_lines": [
+    "9 rue du Temple",
+    "62000 ARRAS"
+   ],
+   "phone": "+33 3 21 60 37 20",
+   "emails": [],
+   "url": "http://www.univ-artois.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 705,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/705"
+  },
+  {
+   "name": "EFFICIA - AUBENAS",
+   "city": "AUBENAS",
+   "cp": "07200",
+   "city_cp": "",
+   "address": "2 Rue Marc Seguin, 07200 AUBENAS",
+   "address_lines": [
+    "2 Rue Marc Seguin",
+    "07200 AUBENAS"
+   ],
+   "phone": "",
+   "emails": [
+    "contact@efficia.org"
+   ],
+   "url": "www.efficia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 994,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/994"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "Auch",
+   "cp": "32000",
+   "city_cp": "",
+   "address": "1 allée Lagarrasic, 32000 Auch",
+   "address_lines": [
+    "1 allée Lagarrasic",
+    "32000 Auch"
+   ],
+   "phone": "+33 5 62 05 39 98",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 847,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/847"
+  },
+  {
+   "name": "ACTION PLURIELLE FORMATION",
+   "city": "Aulnay-sous-Bois",
+   "cp": "93600",
+   "city_cp": "",
+   "address": "1 avenue Antoine Bourdelle, 93600 Aulnay-sous-Bois",
+   "address_lines": [
+    "1 avenue Antoine Bourdelle",
+    "93600 Aulnay-sous-Bois"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 805,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/805"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - AUXERRE",
+   "city": "AUXERRE",
+   "cp": "89000",
+   "city_cp": "",
+   "address": "13 rue Jules Ferry, 89000 AUXERRE",
+   "address_lines": [
+    "13 rue Jules Ferry",
+    "89000 AUXERRE"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [
+    "auxerre@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 435,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/435"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "Avignon",
+   "cp": "84000",
+   "city_cp": "",
+   "address": "31 Rue Paul Manivet, 84000 Avignon",
+   "address_lines": [
+    "31 Rue Paul Manivet",
+    "84000 Avignon"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 824,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/824"
+  },
+  {
+   "name": "MÉDITERRANÉE FORMATION",
+   "city": "AVIGNON",
+   "cp": "84000",
+   "city_cp": "",
+   "address": "51 rue Alexandre Blanc, 84000 AVIGNON",
+   "address_lines": [
+    "51 rue Alexandre Blanc",
+    "84000 AVIGNON"
+   ],
+   "phone": "+33 4 32 75 13 20",
+   "emails": [
+    "medfo@medfo.fr"
+   ],
+   "url": "www.medfo.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 624,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/624"
+  },
+  {
+   "name": "MOVE UP FORMATION - BASTIA",
+   "city": "BASTIA",
+   "cp": "20200",
+   "city_cp": "",
+   "address": "6 Route de ville, 20200 BASTIA",
+   "address_lines": [
+    "6 Route de ville",
+    "20200 BASTIA"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1076,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1076"
+  },
+  {
+   "name": "JAKINOLA",
+   "city": "BAYONNE",
+   "cp": "64100",
+   "city_cp": "",
+   "address": "69 bd Alsace Lorraine, 64100 BAYONNE",
+   "address_lines": [
+    "69 bd Alsace Lorraine",
+    "64100 BAYONNE"
+   ],
+   "phone": "+33 5 54 81 02 40",
+   "emails": [],
+   "url": "jakinola.org",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 960,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/960"
+  },
+  {
+   "name": "LAHO FORMATION - BEAUVAIS",
+   "city": "BEAUVAIS",
+   "cp": "60000",
+   "city_cp": "",
+   "address": "18 Rue d'Allonne, 60000 BEAUVAIS",
+   "address_lines": [
+    "18 Rue d'Allonne",
+    "60000 BEAUVAIS"
+   ],
+   "phone": "+33 3 44 79 80 81",
+   "emails": [],
+   "url": "www.laho-formation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 834,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/834"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - BELFORT",
+   "city": "BELFORT",
+   "cp": "90000",
+   "city_cp": "",
+   "address": "ATRIA - 1 Avenue de l'espérance, 90000 BELFORT",
+   "address_lines": [
+    "ATRIA - 1 Avenue de l'espérance",
+    "90000 BELFORT"
+   ],
+   "phone": "+33 3 81 82 21 75",
+   "emails": [
+    "contact@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 1062,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1062"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - BERGERAC",
+   "city": "BERGERAC",
+   "cp": "24100",
+   "city_cp": "",
+   "address": "15 rue Neuve d’Argenson, 24100 BERGERAC",
+   "address_lines": [
+    "15 rue Neuve d’Argenson",
+    "24100 BERGERAC"
+   ],
+   "phone": "+33 5 53 24 74 96",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1108,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1108"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - BESANÇON",
+   "city": "BESANÇON",
+   "cp": "25000",
+   "city_cp": "",
+   "address": "83 rue de Dole, 25000 BESANÇON",
+   "address_lines": [
+    "83 rue de Dole",
+    "25000 BESANÇON"
+   ],
+   "phone": "+33 3 81 82 21 75",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 433,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/433"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "BEZIERS",
+   "cp": "34500",
+   "city_cp": "",
+   "address": "5/7 Rue Joseph Fabre, 34500 BEZIERS",
+   "address_lines": [
+    "5/7 Rue Joseph Fabre",
+    "34500 BEZIERS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1020,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1020"
+  },
+  {
+   "name": "PASSERELLES SCOP - BÉZIERS",
+   "city": "BEZIERS",
+   "cp": "34500",
+   "city_cp": "",
+   "address": "Espace Mutualité, 34500 BEZIERS",
+   "address_lines": [
+    "Espace Mutualité",
+    "34500 BEZIERS"
+   ],
+   "phone": "+33 4 67 49 21 71",
+   "emails": [
+    "beziers@passerelles34.fr"
+   ],
+   "url": "www.passerelles-formation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 656,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/656"
+  },
+  {
+   "name": "KENNEDY FORMATIONS - BMA BIARRITZ",
+   "city": "BIARRITZ",
+   "cp": "64200",
+   "city_cp": "",
+   "address": "42 Avenue Kennedy, 64200 BIARRITZ",
+   "address_lines": [
+    "42 Avenue Kennedy",
+    "64200 BIARRITZ"
+   ],
+   "phone": "+33 7 66 23 00 45",
+   "emails": [
+    "bma@wanadoo.fr"
+   ],
+   "url": "https://kennedy-formations.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 607,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/607"
+  },
+  {
+   "name": "MOVE UP FORMATION - BLOIS",
+   "city": "BLOIS",
+   "cp": "41000",
+   "city_cp": "",
+   "address": "16 Rue de la Vallée Maillard, 41000 BLOIS",
+   "address_lines": [
+    "16 Rue de la Vallée Maillard",
+    "41000 BLOIS"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1077,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1077"
+  },
+  {
+   "name": "PLATEFORME DE COMPÉTENCES - BOBIGNY",
+   "city": "BOBIGNY",
+   "cp": "93000",
+   "city_cp": "",
+   "address": "27 rue de paris, 93000 BOBIGNY",
+   "address_lines": [
+    "27 rue de paris",
+    "93000 BOBIGNY"
+   ],
+   "phone": "+33 6 68 61 58 40",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 1009,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1009"
+  },
+  {
+   "name": "LA TECHNIQUE",
+   "city": "BOISSY - SAINT-LÉGER",
+   "cp": "94470",
+   "city_cp": "",
+   "address": "3 AVENUE CHARLES DE GAULLE, 94470 BOISSY - SAINT-LÉGER",
+   "address_lines": [
+    "3 AVENUE CHARLES DE GAULLE",
+    "94470 BOISSY - SAINT-LÉGER"
+   ],
+   "phone": "+33 6 08 66 93 39",
+   "emails": [],
+   "url": "latechniqueformation.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1046,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1046"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BORDEAUX",
+   "city": "BORDEAUX",
+   "cp": "33000",
+   "city_cp": "",
+   "address": "126, rue Abbé de l'Épée, 33000 BORDEAUX",
+   "address_lines": [
+    "126, rue Abbé de l'Épée",
+    "33000 BORDEAUX"
+   ],
+   "phone": "+33 5 56 79 32 80",
+   "emails": [
+    "cours@alliance-bordeaux.org"
+   ],
+   "url": "https://www.alliance-bordeaux.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 57,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/57"
+  },
+  {
+   "name": "NEWDEAL INSTITUT BORDEAUX",
+   "city": "BORDEAUX",
+   "cp": "33800",
+   "city_cp": "",
+   "address": "2 Parvis Gattebourse, 33800 BORDEAUX",
+   "address_lines": [
+    "2 Parvis Gattebourse",
+    "33800 BORDEAUX"
+   ],
+   "phone": "+33 9 53 03 16 20",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 637,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/637"
+  },
+  {
+   "name": "VIBRALLYA",
+   "city": "BOULOGNE-BILLANCOURT",
+   "cp": "92100",
+   "city_cp": "",
+   "address": "126 Avenue du Général Leclerc, 92100 BOULOGNE-BILLANCOURT",
+   "address_lines": [
+    "126 Avenue du Général Leclerc",
+    "92100 BOULOGNE-BILLANCOURT"
+   ],
+   "phone": "+33 6 52 54 96 77",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1128,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1128"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - BOURG-EN-BRESSE",
+   "city": "BOURG-EN-BRESSE",
+   "cp": "01000",
+   "city_cp": "",
+   "address": "9 rue Colonel Arnaud Beltrame, 01000 BOURG-EN-BRESSE",
+   "address_lines": [
+    "9 rue Colonel Arnaud Beltrame",
+    "01000 BOURG-EN-BRESSE"
+   ],
+   "phone": "+33 4 74 47 32 96",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 436,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/436"
+  },
+  {
+   "name": "FRATE FORMATION - BOURGES",
+   "city": "BOURGES",
+   "cp": "18000",
+   "city_cp": "",
+   "address": "Association Tivoli Initiative, 18000 BOURGES",
+   "address_lines": [
+    "Association Tivoli Initiative",
+    "18000 BOURGES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 1003,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1003"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - BREST",
+   "city": "BREST",
+   "cp": "29200",
+   "city_cp": "",
+   "address": "82 Avenue Montaigne, 29200 BREST",
+   "address_lines": [
+    "82 Avenue Montaigne",
+    "29200 BREST"
+   ],
+   "phone": "+33 2 51 76 11 11",
+   "emails": [
+    "pdl@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1048,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1048"
+  },
+  {
+   "name": "ZD ACADEMY",
+   "city": "Brive La Gaillarde",
+   "cp": "19100",
+   "city_cp": "",
+   "address": "152 avenue jean Jaurès, 19100 Brive La Gaillarde",
+   "address_lines": [
+    "152 avenue jean Jaurès",
+    "19100 Brive La Gaillarde"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.zdacademy.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1073,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1073"
+  },
+  {
+   "name": "NEXT UP FORMATION",
+   "city": "BUSSY-SAINT-GEORGES",
+   "cp": "77600",
+   "city_cp": "",
+   "address": "7 avenue Jacques Cartier, 77600 BUSSY-SAINT-GEORGES",
+   "address_lines": [
+    "7 avenue Jacques Cartier",
+    "77600 BUSSY-SAINT-GEORGES"
+   ],
+   "phone": "+33 9 81 43 50 50",
+   "emails": [
+    "commercial@bynextup.com"
+   ],
+   "url": "bynextup.com",
+   "so": false,
+   "products": [],
+   "cci_id": 638,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/638"
+  },
+  {
+   "name": "GRETA VAL-DE-MARNE",
+   "city": "CACHAN",
+   "cp": "94230",
+   "city_cp": "",
+   "address": "5 rue Pierre Curie, 94230 CACHAN",
+   "address_lines": [
+    "5 rue Pierre Curie",
+    "94230 CACHAN"
+   ],
+   "phone": "+33 1 49 08 59 80",
+   "emails": [],
+   "url": "www.forpro-creteil.org",
+   "so": false,
+   "products": [],
+   "cci_id": 1143,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1143"
+  },
+  {
+   "name": "MOVE UP FORMATION - CAEN",
+   "city": "CAEN",
+   "cp": "14000",
+   "city_cp": "",
+   "address": "26 Avenue de Thiès, 14000 CAEN",
+   "address_lines": [
+    "26 Avenue de Thiès",
+    "14000 CAEN"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 985,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/985"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "CAHORS",
+   "cp": "46000",
+   "city_cp": "",
+   "address": "75 Rue Saint-Géry, 46000 CAHORS",
+   "address_lines": [
+    "75 Rue Saint-Géry",
+    "46000 CAHORS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1037,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1037"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "CANET EN ROUSSILLON",
+   "cp": "66140",
+   "city_cp": "",
+   "address": "98 Prom. de la Côte Vermeille, 66140 CANET EN ROUSSILLON",
+   "address_lines": [
+    "98 Prom. de la Côte Vermeille",
+    "66140 CANET EN ROUSSILLON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1032,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1032"
+  },
+  {
+   "name": "LANGUAZUR",
+   "city": "CANNES",
+   "cp": "06400",
+   "city_cp": "",
+   "address": "22 boulevard de la République, 06400 CANNES",
+   "address_lines": [
+    "22 boulevard de la République",
+    "06400 CANNES"
+   ],
+   "phone": "+33 4 93 39 02 90",
+   "emails": [
+    "contact@languazur.fr"
+   ],
+   "url": "www.languazur.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 928,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/928"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "CARCASSONNE",
+   "cp": "11000",
+   "city_cp": "",
+   "address": "170, Rue Jean Melliès, 11000 CARCASSONNE",
+   "address_lines": [
+    "170, Rue Jean Melliès",
+    "11000 CARCASSONNE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1034,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1034"
+  },
+  {
+   "name": "CFP PRESQU'ÎLE - CARQUEFOU",
+   "city": "CARQUEFOU",
+   "cp": "44470",
+   "city_cp": "",
+   "address": "Centre Commercial La Jalousie - Route de Paris, 44470 CARQUEFOU",
+   "address_lines": [
+    "Centre Commercial La Jalousie - Route de Paris",
+    "44470 CARQUEFOU"
+   ],
+   "phone": "+33 2 40 08 95 50",
+   "emails": [
+    "accueil.nantes@cfp-presquile.com"
+   ],
+   "url": "www.cfp-presquile.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 350,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/350"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "CASTELNAUDARY",
+   "cp": "11400",
+   "city_cp": "",
+   "address": "Hôtel du Canal - 88 Avenue Arnaut Vidal, 11400 CASTELNAUDARY",
+   "address_lines": [
+    "Hôtel du Canal - 88 Avenue Arnaut Vidal",
+    "11400 CASTELNAUDARY"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1033,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1033"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "CASTELSARRASIN",
+   "cp": "82100",
+   "city_cp": "",
+   "address": "16 Rue de la République, 82100 CASTELSARRASIN",
+   "address_lines": [
+    "16 Rue de la République",
+    "82100 CASTELSARRASIN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1043,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1043"
+  },
+  {
+   "name": "CREPT FORMATION",
+   "city": "CASTRES",
+   "cp": "81100",
+   "city_cp": "",
+   "address": "22 rue Mérigonde, 81100 CASTRES",
+   "address_lines": [
+    "22 rue Mérigonde",
+    "81100 CASTRES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.creptformation.com/FR/index.awp",
+   "so": false,
+   "products": [],
+   "cci_id": 1125,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1125"
+  },
+  {
+   "name": "CABINET PARLE TON LANGAGE",
+   "city": "CAYENNE",
+   "cp": "97300",
+   "city_cp": "",
+   "address": "34 Faubourg L'Abri Allée A, 97300 CAYENNE",
+   "address_lines": [
+    "34 Faubourg L'Abri Allée A",
+    "97300 CAYENNE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://canva.link/azwwtaouambc12l",
+   "so": false,
+   "products": [],
+   "cci_id": 1122,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1122"
+  },
+  {
+   "name": "POLYLANGUES - CERGY",
+   "city": "CERGY",
+   "cp": "95000",
+   "city_cp": "",
+   "address": "12 rue des chauffours, 95000 CERGY",
+   "address_lines": [
+    "12 rue des chauffours",
+    "95000 CERGY"
+   ],
+   "phone": "+33 7 44 96 21 85",
+   "emails": [
+    "admin@poly-langues.com"
+   ],
+   "url": "www.polylangues.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 660,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/660"
+  },
+  {
+   "name": "POLYLANGUES - CERGY",
+   "city": "Cergy",
+   "cp": "95000",
+   "city_cp": "",
+   "address": "12 rue des Chauffours, 95000 Cergy",
+   "address_lines": [
+    "12 rue des Chauffours",
+    "95000 Cergy"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.polylangues.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 837,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/837"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - CHALON-SUR-SAÔNE",
+   "city": "CHALON-SUR-SAONE",
+   "cp": "71100",
+   "city_cp": "",
+   "address": "1 avenue de Verdun, 71100 CHALON-SUR-SAONE",
+   "address_lines": [
+    "1 avenue de Verdun",
+    "71100 CHALON-SUR-SAONE"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 467,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/467"
+  },
+  {
+   "name": "ACCENTS UNIVERSITÉ SAVOIE MONT BLANC",
+   "city": "CHAMBÉRY",
+   "cp": "73011",
+   "city_cp": "",
+   "address": "Domaine universitaire de Jacob Bellecombette, 73011 CHAMBÉRY",
+   "address_lines": [
+    "Domaine universitaire de Jacob Bellecombette",
+    "73011 CHAMBÉRY"
+   ],
+   "phone": "+33 4 79 75 84 15",
+   "emails": [
+    "certifications.accents@univ-smb.fr"
+   ],
+   "url": "https://www.univ-smb.fr/accents/",
+   "so": false,
+   "products": [],
+   "cci_id": 12,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/12"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - CHAMBÉRY",
+   "city": "CHAMBÉRY",
+   "cp": "73011",
+   "city_cp": "",
+   "address": "1125 Av. de la Boisse, 73011 CHAMBÉRY",
+   "address_lines": [
+    "1125 Av. de la Boisse",
+    "73011 CHAMBÉRY"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 468,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/468"
+  },
+  {
+   "name": "ELFE - CHAMPIGNY-SUR-MARNE",
+   "city": "CHAMPIGNY-SUR-MARNE",
+   "cp": "94500",
+   "city_cp": "",
+   "address": "98 B Avenue Roger Salengro, 94500 CHAMPIGNY-SUR-MARNE",
+   "address_lines": [
+    "98 B Avenue Roger Salengro",
+    "94500 CHAMPIGNY-SUR-MARNE"
+   ],
+   "phone": "+33 7 49 61 57 94",
+   "emails": [],
+   "url": "https://www.elfeformation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 764,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/764"
+  },
+  {
+   "name": "GROUPE GEFOR",
+   "city": "CHANGIS",
+   "cp": "77660",
+   "city_cp": "",
+   "address": "Chemin de l'Ormois, 77660 CHANGIS",
+   "address_lines": [
+    "Chemin de l'Ormois",
+    "77660 CHANGIS"
+   ],
+   "phone": "+33 1 55 35 00 20",
+   "emails": [
+    "contact@gefor.com"
+   ],
+   "url": "www.gefor.com",
+   "so": false,
+   "products": [],
+   "cci_id": 1089,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1089"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - CHARLEVILLE-MÉZIÈRES",
+   "city": "CHARLEVILLE-MÉZIÈRES",
+   "cp": "08000",
+   "city_cp": "",
+   "address": "8 rue Jean Baptiste Lefort, 08000 CHARLEVILLE-MÉZIÈRES",
+   "address_lines": [
+    "8 rue Jean Baptiste Lefort",
+    "08000 CHARLEVILLE-MÉZIÈRES"
+   ],
+   "phone": "+33 7 69 41 70 63",
+   "emails": [],
+   "url": "https://frateformation.net/",
+   "so": false,
+   "products": [],
+   "cci_id": 1063,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1063"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - DREUX",
+   "city": "CHARTRES MAINVILLIERS",
+   "cp": "28300",
+   "city_cp": "",
+   "address": "58 rue du Château d'eau, 28300 CHARTRES MAINVILLIERS",
+   "address_lines": [
+    "58 rue du Château d'eau",
+    "28300 CHARTRES MAINVILLIERS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1052,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1052"
+  },
+  {
+   "name": "AEFTI SAVOIRS ET COMPÉTENCES",
+   "city": "CHATEAU-THIERRY",
+   "cp": "02400",
+   "city_cp": "",
+   "address": "73 Grande rue, 02400 CHATEAU-THIERRY",
+   "address_lines": [
+    "73 Grande rue",
+    "02400 CHATEAU-THIERRY"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.aefti.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1012,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1012"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - DREUX",
+   "city": "CHATEAUDUN",
+   "cp": "28200",
+   "city_cp": "",
+   "address": "37 rue Gambetta, 28200 CHATEAUDUN",
+   "address_lines": [
+    "37 rue Gambetta",
+    "28200 CHATEAUDUN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1053,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1053"
+  },
+  {
+   "name": "ACIFE",
+   "city": "CHÂTILLON",
+   "cp": "92320",
+   "city_cp": "",
+   "address": "44 rue Louveau, 92320 CHÂTILLON",
+   "address_lines": [
+    "44 rue Louveau",
+    "92320 CHÂTILLON"
+   ],
+   "phone": "+33 1 47 46 04 12",
+   "emails": [],
+   "url": "http://www.acife.org/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 14,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/14"
+  },
+  {
+   "name": "FRATE FORMATION - CHAUMONT",
+   "city": "CHAUMONT",
+   "cp": "52000",
+   "city_cp": "",
+   "address": "49 Rue Levy Alphandery, 52000 CHAUMONT",
+   "address_lines": [
+    "49 Rue Levy Alphandery",
+    "52000 CHAUMONT"
+   ],
+   "phone": "+33 3 81 94 95 35",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 437,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/437"
+  },
+  {
+   "name": "C-FIL PARIS",
+   "city": "CHAVILLE",
+   "cp": "92370",
+   "city_cp": "",
+   "address": "1117 Avenue Roger Salengro, 92370 CHAVILLE",
+   "address_lines": [
+    "1117 Avenue Roger Salengro",
+    "92370 CHAVILLE"
+   ],
+   "phone": "+33 6 76 48 81 26",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 1144,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1144"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE NORMANDIE - ROUEN",
+   "city": "CHERBOURG-EN-COTENTIN",
+   "cp": "50100",
+   "city_cp": "",
+   "address": "26 rue des Moulins, 50100 CHERBOURG-EN-COTENTIN",
+   "address_lines": [
+    "26 rue des Moulins",
+    "50100 CHERBOURG-EN-COTENTIN"
+   ],
+   "phone": "",
+   "emails": [
+    "examens@afnormandie.org"
+   ],
+   "url": "www.afnormandie.org",
+   "so": false,
+   "products": [],
+   "cci_id": 1086,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1086"
+  },
+  {
+   "name": "SASU MULTI FORMA",
+   "city": "CHESSY",
+   "cp": "77700",
+   "city_cp": "",
+   "address": "04 Place Octogonale, 77700 CHESSY",
+   "address_lines": [
+    "04 Place Octogonale",
+    "77700 CHESSY"
+   ],
+   "phone": "+33 1 60 61 43 02",
+   "emails": [
+    "contact@multi-forma.fr"
+   ],
+   "url": "www.multi-forma.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1142,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1142"
+  },
+  {
+   "name": "AFODIL",
+   "city": "CHOLET",
+   "cp": "49300",
+   "city_cp": "",
+   "address": "15 avenue du Président Kennedy, 49300 CHOLET",
+   "address_lines": [
+    "15 avenue du Président Kennedy",
+    "49300 CHOLET"
+   ],
+   "phone": "+33 2 41 62 26 54",
+   "emails": [],
+   "url": "www.afodil.org",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 21,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/21"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - CLERMONT-FERRAND",
+   "city": "CLERMONT-FERRAND",
+   "cp": "63000",
+   "city_cp": "",
+   "address": "8 rue Pablo Picasso, 63000 CLERMONT-FERRAND",
+   "address_lines": [
+    "8 rue Pablo Picasso",
+    "63000 CLERMONT-FERRAND"
+   ],
+   "phone": "+33 4 73 16 82 21",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 438,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/438"
+  },
+  {
+   "name": "ZD ACADEMY",
+   "city": "Clermont-Ferrand",
+   "cp": "63000",
+   "city_cp": "",
+   "address": "82 avenue de Charras, 63000 Clermont-Ferrand",
+   "address_lines": [
+    "82 avenue de Charras",
+    "63000 Clermont-Ferrand"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.zdacademy.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 882,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/882"
+  },
+  {
+   "name": "EASY LEARN",
+   "city": "CLICHY-LA-GARENNE",
+   "cp": "92110",
+   "city_cp": "",
+   "address": "1 rue du 8 mai 1945, 92110 CLICHY-LA-GARENNE",
+   "address_lines": [
+    "1 rue du 8 mai 1945",
+    "92110 CLICHY-LA-GARENNE"
+   ],
+   "phone": "+33 1 89 62 39 88",
+   "emails": [
+    "contact@easy-learn.academy"
+   ],
+   "url": "https://formation-francais.fr/fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1085,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1085"
+  },
+  {
+   "name": "C-FIL STRASBOURG",
+   "city": "COLMAR",
+   "cp": "68000",
+   "city_cp": "",
+   "address": "20 Rue d'Agen, 68000 COLMAR",
+   "address_lines": [
+    "20 Rue d'Agen",
+    "68000 COLMAR"
+   ],
+   "phone": "+33 7 77 93 75 10",
+   "emails": [],
+   "url": "https://c-filfrance.com/europass-strasbourg/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 415,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/415"
+  },
+  {
+   "name": "ASLY FORMATION-COLOMBES",
+   "city": "COLOMBES",
+   "cp": "92700",
+   "city_cp": "",
+   "address": "56 avenue de l'Agent Sarre, 92700 COLOMBES",
+   "address_lines": [
+    "56 avenue de l'Agent Sarre",
+    "92700 COLOMBES"
+   ],
+   "phone": "+33 6 09 38 54 60",
+   "emails": [
+    "contact@aslyformation.fr"
+   ],
+   "url": "www.aslyformation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1080,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1080"
+  },
+  {
+   "name": "CONSENSO FORMATION",
+   "city": "COMPIÈGNE",
+   "cp": "60200",
+   "city_cp": "",
+   "address": "1 rue Georges Gouigoux, 60200 COMPIÈGNE",
+   "address_lines": [
+    "1 rue Georges Gouigoux",
+    "60200 COMPIÈGNE"
+   ],
+   "phone": "+33 3 44 20 32 54",
+   "emails": [
+    "contact@consenso-formation.fr"
+   ],
+   "url": "www.consenso-formation.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 378,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/378"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "CONDOM",
+   "cp": "32100",
+   "city_cp": "",
+   "address": "16 rue Jean Jaurès, 32100 CONDOM",
+   "address_lines": [
+    "16 rue Jean Jaurès",
+    "32100 CONDOM"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1040,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1040"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - CRAN-GEVRIER ANNECY",
+   "city": "CRAN-GEVRIER",
+   "cp": "74960",
+   "city_cp": "",
+   "address": "33 route de Chevennes, 74960 CRAN-GEVRIER",
+   "address_lines": [
+    "33 route de Chevennes",
+    "74960 CRAN-GEVRIER"
+   ],
+   "phone": "+33 3 84 47 25 90",
+   "emails": [
+    "annecy@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 432,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/432"
+  },
+  {
+   "name": "AEFTI SAVOIRS ET COMPÉTENCES",
+   "city": "CREIL",
+   "cp": "60100",
+   "city_cp": "",
+   "address": "9 rue de Marl, 60100 CREIL",
+   "address_lines": [
+    "9 rue de Marl",
+    "60100 CREIL"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.aefti.net",
+   "so": false,
+   "products": [],
+   "cci_id": 1010,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1010"
+  },
+  {
+   "name": "ÉDUCATION ET FORMATION - DIEPPE",
+   "city": "DIEPPE",
+   "cp": "76200",
+   "city_cp": "",
+   "address": "88, avenue des Canadiens, 76200 DIEPPE",
+   "address_lines": [
+    "88, avenue des Canadiens",
+    "76200 DIEPPE"
+   ],
+   "phone": "",
+   "emails": [
+    "contact.dieppe@educationetformation.fr"
+   ],
+   "url": "https://www.educationetformation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1014,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1014"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - DIJON",
+   "city": "DIJON",
+   "cp": "21000",
+   "city_cp": "",
+   "address": "17 rue des Corroyeurs, 21000 DIJON",
+   "address_lines": [
+    "17 rue des Corroyeurs",
+    "21000 DIJON"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 439,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/439"
+  },
+  {
+   "name": "INSTITUT DE TOURAINE - IEFT",
+   "city": "Dijon",
+   "cp": "21000",
+   "city_cp": "",
+   "address": "Ligue de l'Enseignement BFC, 20 rue de l'Egalité, 21000 Dijon",
+   "address_lines": [
+    "Ligue de l'Enseignement BFC, 20 rue de l'Egalité",
+    "21000 Dijon"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://institutdetouraine.com",
+   "so": false,
+   "products": [],
+   "cci_id": 807,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/807"
+  },
+  {
+   "name": "LIGUE DE L'ENSEIGNEMENT DE COTE D'OR",
+   "city": "DIJON",
+   "cp": "21000",
+   "city_cp": "",
+   "address": "10 rue Camille Flammarion, 21000 DIJON",
+   "address_lines": [
+    "10 rue Camille Flammarion",
+    "21000 DIJON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.laliguebfc.org",
+   "so": false,
+   "products": [],
+   "cci_id": 836,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/836"
+  },
+  {
+   "name": "COOPILOTE",
+   "city": "DOLE",
+   "cp": "39100",
+   "city_cp": "",
+   "address": "17 chemin du Defois, 39100 DOLE",
+   "address_lines": [
+    "17 chemin du Defois",
+    "39100 DOLE"
+   ],
+   "phone": "+33 6 76 77 60 38",
+   "emails": [],
+   "url": "www.coopilote.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 379,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/379"
+  },
+  {
+   "name": "FORMACOOP - L.P. FORMATION",
+   "city": "DOLE",
+   "cp": "39100",
+   "city_cp": "",
+   "address": "17 chemin du Défois, 39100 DOLE",
+   "address_lines": [
+    "17 chemin du Défois",
+    "39100 DOLE"
+   ],
+   "phone": "+33 6 76 77 60 38",
+   "emails": [],
+   "url": "https://www.formacoop.pro/",
+   "so": false,
+   "products": [],
+   "cci_id": 425,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/425"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - DREUX",
+   "city": "DREUX",
+   "cp": "28100",
+   "city_cp": "",
+   "address": "LEO LAGRANGE FORMATION, 28100 DREUX",
+   "address_lines": [
+    "LEO LAGRANGE FORMATION",
+    "28100 DREUX"
+   ],
+   "phone": "+33 2 37 88 39 99",
+   "emails": [
+    "cvl@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1049,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1049"
+  },
+  {
+   "name": "NOFI FORMATION",
+   "city": "DUNKERQUE",
+   "cp": "59140",
+   "city_cp": "",
+   "address": "22 Rue Albert 1er, 59140 Dunkerque, 59140 DUNKERQUE",
+   "address_lines": [
+    "22 Rue Albert 1er, 59140 Dunkerque",
+    "59140 DUNKERQUE"
+   ],
+   "phone": "+33 6 85 89 84 70",
+   "emails": [
+    "info@nofiformation.fr"
+   ],
+   "url": "www.nofiformation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1059,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1059"
+  },
+  {
+   "name": "ASLY FORMATION-MAYOTTE",
+   "city": "DZAOUDZI",
+   "cp": "97615",
+   "city_cp": "",
+   "address": "53 bd des Amoureux, 97615 DZAOUDZI",
+   "address_lines": [
+    "53 bd des Amoureux",
+    "97615 DZAOUDZI"
+   ],
+   "phone": "+262 693 44 84 34",
+   "emails": [
+    "contact.mayotte@aslyformation.fr"
+   ],
+   "url": "www. aslyformation.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1081,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1081"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - ÉCHIROLLES",
+   "city": "ÉCHIROLLES",
+   "cp": "38130",
+   "city_cp": "",
+   "address": "11 Rue Clément Ader, 38130 ÉCHIROLLES",
+   "address_lines": [
+    "11 Rue Clément Ader",
+    "38130 ÉCHIROLLES"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 469,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/469"
+  },
+  {
+   "name": "HORIZONS 91",
+   "city": "ÉTAMPES",
+   "cp": "91150",
+   "city_cp": "",
+   "address": "10, chemin du Larris, 91150 ÉTAMPES",
+   "address_lines": [
+    "10, chemin du Larris",
+    "91150 ÉTAMPES"
+   ],
+   "phone": "+33 1 60 80 91 52",
+   "emails": [
+    "contact@horizons91.fr"
+   ],
+   "url": "https://www.horizonsformations.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 878,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/878"
+  },
+  {
+   "name": "ÉDUCATION ET FORMATION - ÉVREUX",
+   "city": "ÉVREUX",
+   "cp": "27000",
+   "city_cp": "",
+   "address": "63 rue de Rome, 27000 ÉVREUX",
+   "address_lines": [
+    "63 rue de Rome",
+    "27000 ÉVREUX"
+   ],
+   "phone": "+33 2 76 51 76 27",
+   "emails": [
+    "contact.evreux@educationetformation.fr"
+   ],
+   "url": "https://www.educationetformation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 769,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/769"
+  },
+  {
+   "name": "ELFE - ÉVRY COURCOURONNES",
+   "city": "ÉVRY COURCOURONNES",
+   "cp": "91000",
+   "city_cp": "",
+   "address": "34 Cours Blaise Pascal, 91000 ÉVRY COURCOURONNES",
+   "address_lines": [
+    "34 Cours Blaise Pascal",
+    "91000 ÉVRY COURCOURONNES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://elfe-formation.fr/la-formation/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1069,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1069"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "FIGEAC",
+   "cp": "46100",
+   "city_cp": "",
+   "address": "Maison de la Formation - 6 Avenue Bernard Fontanges, 46100 FIGEAC",
+   "address_lines": [
+    "Maison de la Formation - 6 Avenue Bernard Fontanges",
+    "46100 FIGEAC"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1038,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1038"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "Foix",
+   "cp": "09000",
+   "city_cp": "",
+   "address": "4, Cours Irénée CROS, 09000 Foix",
+   "address_lines": [
+    "4, Cours Irénée CROS",
+    "09000 Foix"
+   ],
+   "phone": "+33 9 63 53 00 48",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 848,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/848"
+  },
+  {
+   "name": "ABC FORMATION",
+   "city": "FRANCONVILLE",
+   "cp": "95130",
+   "city_cp": "",
+   "address": "3 allée du lavoir, 95130 FRANCONVILLE",
+   "address_lines": [
+    "3 allée du lavoir",
+    "95130 FRANCONVILLE"
+   ],
+   "phone": "+33 1 34 15 40 62",
+   "emails": [
+    "contact@abcformation1986.fr"
+   ],
+   "url": "www.abcformation1986.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1"
+  },
+  {
+   "name": "MYSTORY",
+   "city": "GAGNY",
+   "cp": "93220",
+   "city_cp": "",
+   "address": "3 bis avenue de gagny, 93220 GAGNY",
+   "address_lines": [
+    "3 bis avenue de gagny",
+    "93220 GAGNY"
+   ],
+   "phone": "+33 6 81 43 16 54",
+   "emails": [],
+   "url": "www.mystoryformation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 876,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/876"
+  },
+  {
+   "name": "KANGOUROU PROVENCE GAP",
+   "city": "GAP",
+   "cp": "05000",
+   "city_cp": "",
+   "address": "Micropolis Quartier Belle Aureille, 05000 GAP",
+   "address_lines": [
+    "Micropolis Quartier Belle Aureille",
+    "05000 GAP"
+   ],
+   "phone": "+33 4 92 51 57 97",
+   "emails": [
+    "info@kangourou.fr"
+   ],
+   "url": "www.kangourou.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 603,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/603"
+  },
+  {
+   "name": "ACTION PLURIELLE FORMATION",
+   "city": "GARGES-LÈS-GONESSE",
+   "cp": "95140",
+   "city_cp": "",
+   "address": "43-45 boulevard de la Muette, 95140 GARGES-LÈS-GONESSE",
+   "address_lines": [
+    "43-45 boulevard de la Muette",
+    "95140 GARGES-LÈS-GONESSE"
+   ],
+   "phone": "+33 1 34 53 66 38",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 16,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/16"
+  },
+  {
+   "name": "ACTION PLURIELLE FORMATION",
+   "city": "Garges-Lès-Gonesse",
+   "cp": "95140",
+   "city_cp": "",
+   "address": "Espace Europe - Bât B -36 avenue Frédéric Joliot Curie, 95140 Garges-Lès-Gonesse",
+   "address_lines": [
+    "Espace Europe - Bât B -36 avenue Frédéric Joliot Curie",
+    "95140 Garges-Lès-Gonesse"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 895,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/895"
+  },
+  {
+   "name": "THE PLACE DEBY",
+   "city": "GRENOBLE",
+   "cp": "38000",
+   "city_cp": "",
+   "address": "2 rue de Sault, 38000 GRENOBLE",
+   "address_lines": [
+    "2 rue de Sault",
+    "38000 GRENOBLE"
+   ],
+   "phone": "+33 4 76 58 21 66",
+   "emails": [
+    "examens@theplacedeby.com"
+   ],
+   "url": "www.theplacedeby.com",
+   "so": false,
+   "products": [],
+   "cci_id": 941,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/941"
+  },
+  {
+   "name": "1901 FORMATION",
+   "city": "ISSY-LES-MOULINEAUX",
+   "cp": "92130",
+   "city_cp": "",
+   "address": "4 rue Paul Bert, 92130 ISSY-LES-MOULINEAUX",
+   "address_lines": [
+    "4 rue Paul Bert",
+    "92130 ISSY-LES-MOULINEAUX"
+   ],
+   "phone": "+33 1 49 09 18 35",
+   "emails": [],
+   "url": "https://1901-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1129,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1129"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - JOIGNY",
+   "city": "JOIGNY",
+   "cp": "89300",
+   "city_cp": "",
+   "address": "9 boulevard Lesire Lacam, 89300 JOIGNY",
+   "address_lines": [
+    "9 boulevard Lesire Lacam",
+    "89300 JOIGNY"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [
+    "joigny@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 440,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/440"
+  },
+  {
+   "name": "ELO LES LANGUES ANGOULEME (CCI CHARENTE FORMATION)",
+   "city": "L'ISLE D'ESPAGNAC",
+   "cp": "16340",
+   "city_cp": "",
+   "address": "CCI Charente Formation CS 11625 ZI n°3 135 Bd S. Allende, 16340 L'ISLE D'ESPAGNAC",
+   "address_lines": [
+    "CCI Charente Formation CS 11625 ZI n°3 135 Bd S. Allende",
+    "16340 L'ISLE D'ESPAGNAC"
+   ],
+   "phone": "+33 5 45 90 13 43",
+   "emails": [],
+   "url": "www.ccicharente-formation.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1106,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1106"
+  },
+  {
+   "name": "FARBEE_BY_LEGALUNITE FRANCE",
+   "city": "La Défense",
+   "cp": "Puteaux",
+   "city_cp": "",
+   "address": "18 Terrasse Bellini, 92800, Puteaux La Défense",
+   "address_lines": [
+    "18 Terrasse Bellini, 92800",
+    "Puteaux La Défense"
+   ],
+   "phone": "+33 1 87 66 15 04",
+   "emails": [
+    "contact@farbee.fr"
+   ],
+   "url": "www.farbee.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 858,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/858"
+  },
+  {
+   "name": "CFP PRESQU'ÎLE - LA ROCHE-SUR-YON",
+   "city": "LA ROCHE SUR YON",
+   "cp": "85000",
+   "city_cp": "",
+   "address": "70 rue Chanzy, 85000 LA ROCHE SUR YON",
+   "address_lines": [
+    "70 rue Chanzy",
+    "85000 LA ROCHE SUR YON"
+   ],
+   "phone": "+33 7 84 24 55 61",
+   "emails": [
+    "administratif@cfp-presquile.com"
+   ],
+   "url": "https://www.cfp-presquile.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 351,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/351"
+  },
+  {
+   "name": "INLINGUA - LA ROCHELLE",
+   "city": "LA ROCHELLE",
+   "cp": "17000",
+   "city_cp": "",
+   "address": "3 rue Alfred Kastler, 17000 LA ROCHELLE",
+   "address_lines": [
+    "3 rue Alfred Kastler",
+    "17000 LA ROCHELLE"
+   ],
+   "phone": "+33 5 40 00 02 00",
+   "emails": [
+    "info@inlingua-larochelle.com"
+   ],
+   "url": "www.wellcom-langues-larochelle.fr/inscription-tef-la-rochelle/",
+   "so": false,
+   "products": [],
+   "cci_id": 479,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/479"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "LANNEMEZAN",
+   "cp": "65300",
+   "city_cp": "",
+   "address": "La demi-lune 6 462 route de Toulouse, 65300 LANNEMEZAN",
+   "address_lines": [
+    "La demi-lune 6 462 route de Toulouse",
+    "65300 LANNEMEZAN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1045,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1045"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "LAVELANET",
+   "cp": "09300",
+   "city_cp": "",
+   "address": "41 Rue Jean Jaurès, 09300 LAVELANET",
+   "address_lines": [
+    "41 Rue Jean Jaurès",
+    "09300 LAVELANET"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1028,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1028"
+  },
+  {
+   "name": "FARBEE_BY_LEGALUNITE FRANCE",
+   "city": "LE BOURGET",
+   "cp": "93350",
+   "city_cp": "",
+   "address": "53 avenue Jean-Jaurès, 93350 LE BOURGET",
+   "address_lines": [
+    "53 avenue Jean-Jaurès",
+    "93350 LE BOURGET"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.farbee.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1057,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1057"
+  },
+  {
+   "name": "ÉDUCATION ET FORMATION - LE HAVRE",
+   "city": "LE HAVRE",
+   "cp": "76600",
+   "city_cp": "",
+   "address": "68, boulevard Jules Durand, 76600 LE HAVRE",
+   "address_lines": [
+    "68, boulevard Jules Durand",
+    "76600 LE HAVRE"
+   ],
+   "phone": "+33 2 76 51 76 30",
+   "emails": [
+    "contact.lehavre@educationetformation.fr"
+   ],
+   "url": "https://www.educationetformation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1015,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1015"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - LE PUY-EN-VELAY",
+   "city": "LE PUY-EN-VELAY",
+   "cp": "43000",
+   "city_cp": "",
+   "address": "16 rue des Moulins, 43000 LE PUY-EN-VELAY",
+   "address_lines": [
+    "16 rue des Moulins",
+    "43000 LE PUY-EN-VELAY"
+   ],
+   "phone": "+33 4 73 16 82 21",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 441,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/441"
+  },
+  {
+   "name": "LAHO FORMATION - LENS",
+   "city": "LENS",
+   "cp": "62300",
+   "city_cp": "",
+   "address": "56 rue jean Létienne, 62300 LENS",
+   "address_lines": [
+    "56 rue jean Létienne",
+    "62300 LENS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 669,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/669"
+  },
+  {
+   "name": "WORLD EXPERIENCE",
+   "city": "LES ABYMES",
+   "cp": "97139",
+   "city_cp": "",
+   "address": "92 Résidence Maimouna, 97139 LES ABYMES",
+   "address_lines": [
+    "92 Résidence Maimouna",
+    "97139 LES ABYMES"
+   ],
+   "phone": "+590 690 99 23 39",
+   "emails": [
+    "communication@world-experience.fr"
+   ],
+   "url": "www.world-experience.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 743,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/743"
+  },
+  {
+   "name": "D.CONSEILS-FORMATIONS",
+   "city": "LES MUREAUX",
+   "cp": "78130",
+   "city_cp": "",
+   "address": "74 Boulevard Victor Hugo, 78130 LES MUREAUX",
+   "address_lines": [
+    "74 Boulevard Victor Hugo",
+    "78130 LES MUREAUX"
+   ],
+   "phone": "+33 7 89 20 85 58",
+   "emails": [],
+   "url": "https://dconseilsformations-langues.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 772,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/772"
+  },
+  {
+   "name": "AL BUSINESS ACADEMY",
+   "city": "LIEUSAINT",
+   "cp": "77127",
+   "city_cp": "",
+   "address": "441 Avenue Marguerite Perey, 77127 LIEUSAINT",
+   "address_lines": [
+    "441 Avenue Marguerite Perey",
+    "77127 LIEUSAINT"
+   ],
+   "phone": "+33 6 01 33 81 77",
+   "emails": [],
+   "url": "https://albusinessacademy.com/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1026,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1026"
+  },
+  {
+   "name": "INSTITUT LANGUES ET SAVOIRS - ISPA LILLE",
+   "city": "LILLE",
+   "cp": "59000",
+   "city_cp": "",
+   "address": "177 rue Nationale, 59000 LILLE",
+   "address_lines": [
+    "177 rue Nationale",
+    "59000 LILLE"
+   ],
+   "phone": "+33 3 20 40 56 51",
+   "emails": [
+    "examens@ispa-langues.com"
+   ],
+   "url": "www.ispa-langues.com",
+   "so": false,
+   "products": [],
+   "cci_id": 996,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/996"
+  },
+  {
+   "name": "LIL'LANGUES",
+   "city": "LILLE",
+   "cp": "59000",
+   "city_cp": "",
+   "address": "36 place Cormontaigne, 59000 LILLE",
+   "address_lines": [
+    "36 place Cormontaigne",
+    "59000 LILLE"
+   ],
+   "phone": "+33 3 20 37 42 66",
+   "emails": [
+    "examen@lillangues.com"
+   ],
+   "url": "www.lillangues.com",
+   "so": false,
+   "products": [],
+   "cci_id": 616,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/616"
+  },
+  {
+   "name": "CCI FORMATION BEAUJOLAIS",
+   "city": "LIMAS",
+   "cp": "69400",
+   "city_cp": "",
+   "address": "92 rue Henri Dépagneux, 69400 LIMAS",
+   "address_lines": [
+    "92 rue Henri Dépagneux",
+    "69400 LIMAS"
+   ],
+   "phone": "+33 4 74 62 73 00",
+   "emails": [],
+   "url": "https://www.beaujolais.cci.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 273,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/273"
+  },
+  {
+   "name": "MOVE UP FORMATION - LIMOGES",
+   "city": "LIMOGES",
+   "cp": "87000",
+   "city_cp": "",
+   "address": "18 place Winston Churchill, 87000 LIMOGES",
+   "address_lines": [
+    "18 place Winston Churchill",
+    "87000 LIMOGES"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 986,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/986"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "L’ISLE JOURDAIN",
+   "cp": "32600",
+   "city_cp": "",
+   "address": "22 Rue Jean Jaurès, 32600 L’ISLE JOURDAIN",
+   "address_lines": [
+    "22 Rue Jean Jaurès",
+    "32600 L’ISLE JOURDAIN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1041,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1041"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - LONS-LE-SAUNIER",
+   "city": "LONS-LE-SAUNIER",
+   "cp": "39000",
+   "city_cp": "",
+   "address": "11 avenue Thurel, 39000 LONS-LE-SAUNIER",
+   "address_lines": [
+    "11 avenue Thurel",
+    "39000 LONS-LE-SAUNIER"
+   ],
+   "phone": "+33 3 84 47 25 90",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 431,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/431"
+  },
+  {
+   "name": "IBEP - LORIENT",
+   "city": "LORIENT",
+   "cp": "56100",
+   "city_cp": "",
+   "address": "24 Rue du gaillec, 56100 LORIENT",
+   "address_lines": [
+    "24 Rue du gaillec",
+    "56100 LORIENT"
+   ],
+   "phone": "+33 2 97 21 08 08",
+   "emails": [
+    "accueil.lorient@ibpgroupe.fr"
+   ],
+   "url": "www.ibepformation.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1061,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1061"
+  },
+  {
+   "name": "CLAP SUD-OUEST",
+   "city": "LORMONT",
+   "cp": "33110",
+   "city_cp": "",
+   "address": "13 - 15 allée du Colonel Fabien, 33110 LORMONT",
+   "address_lines": [
+    "13 - 15 allée du Colonel Fabien",
+    "33110 LORMONT"
+   ],
+   "phone": "+33 5 57 77 77 20",
+   "emails": [],
+   "url": "https://clap-so.org/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1121,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1121"
+  },
+  {
+   "name": "POLYLANGUES - CERGY",
+   "city": "LORMONT",
+   "cp": "33310",
+   "city_cp": "",
+   "address": "8 rue du Courant, 33310 LORMONT",
+   "address_lines": [
+    "8 rue du Courant",
+    "33310 LORMONT"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.polylangues.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 815,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/815"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "LOURDES",
+   "cp": "65100",
+   "city_cp": "",
+   "address": "Le club des six - 19 Avenue Général Baron Maransin, 65100 LOURDES",
+   "address_lines": [
+    "Le club des six - 19 Avenue Général Baron Maransin",
+    "65100 LOURDES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1044,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1044"
+  },
+  {
+   "name": "ALLIANCE FRANCAISE DE LYON",
+   "city": "LYON",
+   "cp": "69003",
+   "city_cp": "",
+   "address": "11 rue Pierre Bourdan, 69003 LYON",
+   "address_lines": [
+    "11 rue Pierre Bourdan",
+    "69003 LYON"
+   ],
+   "phone": "+33 4 78 95 24 72",
+   "emails": [
+    "info@aflyon.org"
+   ],
+   "url": "www.aflyon.org",
+   "so": false,
+   "products": [],
+   "cci_id": 136,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/136"
+  },
+  {
+   "name": "Lyon Exam by Inflexyon",
+   "city": "LYON",
+   "cp": "69002",
+   "city_cp": "",
+   "address": "48 rue Quivogne, 69002 LYON",
+   "address_lines": [
+    "48 rue Quivogne",
+    "69002 LYON"
+   ],
+   "phone": "+33 4 78 39 77 02",
+   "emails": [
+    "contact@lyon-exam.com"
+   ],
+   "url": "lyon-exam.com",
+   "so": false,
+   "products": [],
+   "cci_id": 477,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/477"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - MÂCON",
+   "city": "MÂCON",
+   "cp": "71000",
+   "city_cp": "",
+   "address": "19 Place de la Baille, 71000 MÂCON",
+   "address_lines": [
+    "19 Place de la Baille",
+    "71000 MÂCON"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 442,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/442"
+  },
+  {
+   "name": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE MAYOTTE (CCIM)",
+   "city": "MAMOUDZOU",
+   "cp": "97600",
+   "city_cp": "",
+   "address": "Place Mariage, Mamoudzou, Mayotte, France, 97600 MAMOUDZOU",
+   "address_lines": [
+    "Place Mariage, Mamoudzou, Mayotte, France",
+    "97600 MAMOUDZOU"
+   ],
+   "phone": "",
+   "emails": [
+    "formation@mayotte.cci.fr"
+   ],
+   "url": "https://www.mayotte.cci.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1095,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1095"
+  },
+  {
+   "name": "PROVENCE LINGUA",
+   "city": "MANOSQUE",
+   "cp": "04100",
+   "city_cp": "",
+   "address": "13bis Place de l’Hôtel de Ville, 04100 MANOSQUE",
+   "address_lines": [
+    "13bis Place de l’Hôtel de Ville",
+    "04100 MANOSQUE"
+   ],
+   "phone": "+33 6 35 07 85 14",
+   "emails": [],
+   "url": "www.provencelingua.com",
+   "so": false,
+   "products": [],
+   "cci_id": 662,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/662"
+  },
+  {
+   "name": "MRD CONNECT",
+   "city": "MANTES LA JOLIE",
+   "cp": "78120",
+   "city_cp": "",
+   "address": "7 avenue GAUGUIN, 78120 MANTES LA JOLIE",
+   "address_lines": [
+    "7 avenue GAUGUIN",
+    "78120 MANTES LA JOLIE"
+   ],
+   "phone": "+33 7 68 37 18 19",
+   "emails": [
+    "contact@mrdconnect.fr"
+   ],
+   "url": "https://mrdconnect;fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 997,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/997"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "MARSEILLE",
+   "cp": "13012",
+   "city_cp": "",
+   "address": "7 rue Gaston de Flotte, 13012 MARSEILLE",
+   "address_lines": [
+    "7 rue Gaston de Flotte",
+    "13012 MARSEILLE"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [],
+   "cci_id": 601,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/601"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "Marseille",
+   "cp": "13012",
+   "city_cp": "",
+   "address": "7 rue Gaston de Flotte, 13012 Marseille",
+   "address_lines": [
+    "7 rue Gaston de Flotte",
+    "13012 Marseille"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 901,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/901"
+  },
+  {
+   "name": "WORLD TRADE CENTER MARSEILLE PROVENCE",
+   "city": "MARSEILLE",
+   "cp": "13001",
+   "city_cp": "",
+   "address": "2 rue Henri Barbusse, 13001 MARSEILLE",
+   "address_lines": [
+    "2 rue Henri Barbusse",
+    "13001 MARSEILLE"
+   ],
+   "phone": "+33 4 13 94 04 13",
+   "emails": [],
+   "url": "www.wtcmp.com/tests-de-langues/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 744,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/744"
+  },
+  {
+   "name": "POLYLANGUES - CERGY",
+   "city": "Massy",
+   "cp": "91300",
+   "city_cp": "",
+   "address": "23 bis rue Max Dormoy, 91300 Massy",
+   "address_lines": [
+    "23 bis rue Max Dormoy",
+    "91300 Massy"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.polylangues.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 812,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/812"
+  },
+  {
+   "name": "PLATEFORME DE COMPÉTENCES - VERSAILLES",
+   "city": "MAURECOURT",
+   "cp": "78780",
+   "city_cp": "",
+   "address": "2 rue du Maréchal Leclerc, 78780 MAURECOURT",
+   "address_lines": [
+    "2 rue du Maréchal Leclerc",
+    "78780 MAURECOURT"
+   ],
+   "phone": "+33 6 68 61 58 40",
+   "emails": [
+    "plateformecompetences2024@gmail.com"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 918,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/918"
+  },
+  {
+   "name": "POLYLANGUES - CERGY",
+   "city": "Melun",
+   "cp": "77000",
+   "city_cp": "",
+   "address": "5 Bis Place Praslin, 77000 Melun",
+   "address_lines": [
+    "5 Bis Place Praslin",
+    "77000 Melun"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.polylangues.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 813,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/813"
+  },
+  {
+   "name": "PURPLE CAMPUS - MENDE",
+   "city": "MENDE",
+   "cp": "48000",
+   "city_cp": "",
+   "address": "10, rue Albert Einstein, 48000 MENDE",
+   "address_lines": [
+    "10, rue Albert Einstein",
+    "48000 MENDE"
+   ],
+   "phone": "+33 4 66 49 43 97",
+   "emails": [
+    "mende@purple-campus.com"
+   ],
+   "url": "www.purple-campus.com",
+   "so": false,
+   "products": [],
+   "cci_id": 1066,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1066"
+  },
+  {
+   "name": "METZ FRENCHPRO",
+   "city": "METZ",
+   "cp": "57070",
+   "city_cp": "",
+   "address": "9 RUE GRAHAM BELL, 57070 METZ",
+   "address_lines": [
+    "9 RUE GRAHAM BELL",
+    "57070 METZ"
+   ],
+   "phone": "+33 7 66 56 85 68",
+   "emails": [
+    "info@metzfrenchpro.com"
+   ],
+   "url": "www.metzfrenchpro.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 626,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/626"
+  },
+  {
+   "name": "EFFICIA - MILLAU",
+   "city": "MILLAU",
+   "cp": "12100",
+   "city_cp": "",
+   "address": "32 avenue de la République, 12100 MILLAU",
+   "address_lines": [
+    "32 avenue de la République",
+    "12100 MILLAU"
+   ],
+   "phone": "",
+   "emails": [
+    "contact@efficia.org"
+   ],
+   "url": "www.efficia.org",
+   "so": false,
+   "products": [],
+   "cci_id": 995,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/995"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "MONTAUBAN",
+   "cp": "82000",
+   "city_cp": "",
+   "address": "29 Av. Aristide Briand, 82000 MONTAUBAN",
+   "address_lines": [
+    "29 Av. Aristide Briand",
+    "82000 MONTAUBAN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1042,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1042"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - MONTBÉLIARD",
+   "city": "MONTBÉLIARD",
+   "cp": "25200",
+   "city_cp": "",
+   "address": "37 avenue des alliés, 25200 MONTBÉLIARD",
+   "address_lines": [
+    "37 avenue des alliés",
+    "25200 MONTBÉLIARD"
+   ],
+   "phone": "+33 3 81 94 95 35",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 451,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/451"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - MONTCEAU-LES-MINES",
+   "city": "MONTCEAU-LES-MINES",
+   "cp": "71300",
+   "city_cp": "",
+   "address": "16 rue du Docteur Jeannin, 71300 MONTCEAU-LES-MINES",
+   "address_lines": [
+    "16 rue du Docteur Jeannin",
+    "71300 MONTCEAU-LES-MINES"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [
+    "montceau@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 444,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/444"
+  },
+  {
+   "name": "LA VOIX FRANÇAISE",
+   "city": "MONTÉLIMAR",
+   "cp": "26200",
+   "city_cp": "",
+   "address": "4 rue Maurice Sibille, 26200 MONTÉLIMAR",
+   "address_lines": [
+    "4 rue Maurice Sibille",
+    "26200 MONTÉLIMAR"
+   ],
+   "phone": "+33 6 52 90 66 88",
+   "emails": [],
+   "url": "https://www.lavoixfrancaise.com/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1111,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1111"
+  },
+  {
+   "name": "FRATE FORMATION - MONTLUEL",
+   "city": "MONTLUEL",
+   "cp": "01120",
+   "city_cp": "",
+   "address": "630 rue des Valets, 01120 MONTLUEL",
+   "address_lines": [
+    "630 rue des Valets",
+    "01120 MONTLUEL"
+   ],
+   "phone": "+33 4 74 47 32 96",
+   "emails": [
+    "montluel@frateformation.net"
+   ],
+   "url": "https://frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 1097,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1097"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - MONTPELLIER",
+   "city": "MONTPELLIER",
+   "cp": "34080",
+   "city_cp": "",
+   "address": "195 rue Yves Montand, Parc 2000, Résidence Charles Warnery, 34080 MONTPELLIER",
+   "address_lines": [
+    "195 rue Yves Montand, Parc 2000, Résidence Charles Warnery",
+    "34080 MONTPELLIER"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/centres/montpellier/",
+   "so": false,
+   "products": [],
+   "cci_id": 1147,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1147"
+  },
+  {
+   "name": "LSF MONTPELLIER FRENCH LANGUAGE SCHOOL",
+   "city": "MONTPELLIER",
+   "cp": "34000",
+   "city_cp": "",
+   "address": "6 rue Foch, 34000 MONTPELLIER",
+   "address_lines": [
+    "6 rue Foch",
+    "34000 MONTPELLIER"
+   ],
+   "phone": "+33 4 67 91 70 03",
+   "emails": [
+    "contact@lsf-france.com"
+   ],
+   "url": "www.lsf-France.com",
+   "so": false,
+   "products": [],
+   "cci_id": 619,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/619"
+  },
+  {
+   "name": "PASSERELLES SCOP - MONTPELLIER",
+   "city": "MONTPELLIER",
+   "cp": "34000",
+   "city_cp": "",
+   "address": "26, rue Enclos Fermaud, 34000 MONTPELLIER",
+   "address_lines": [
+    "26, rue Enclos Fermaud",
+    "34000 MONTPELLIER"
+   ],
+   "phone": "+33 4 67 92 42 00",
+   "emails": [],
+   "url": "www.passerelles-formation.fr/formation",
+   "so": false,
+   "products": [],
+   "cci_id": 655,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/655"
+  },
+  {
+   "name": "EFAC FORMATION",
+   "city": "MONTREUIL",
+   "cp": "93100",
+   "city_cp": "",
+   "address": "17 place du Général De Gaulle, 93100 MONTREUIL",
+   "address_lines": [
+    "17 place du Général De Gaulle",
+    "93100 MONTREUIL"
+   ],
+   "phone": "+33 6 60 62 26 68",
+   "emails": [
+    "efac.formation@yahoo.fr"
+   ],
+   "url": "https://efac-formation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 402,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/402"
+  },
+  {
+   "name": "IBEP - MORLAIX",
+   "city": "MORLAIX",
+   "cp": "29600",
+   "city_cp": "",
+   "address": "310, Rue Caroline Aigle, 29600 MORLAIX",
+   "address_lines": [
+    "310, Rue Caroline Aigle",
+    "29600 MORLAIX"
+   ],
+   "phone": "+33 2 98 88 81 78",
+   "emails": [
+    "ibep.morlaix@ibepformation.fr"
+   ],
+   "url": "www.ibepformation.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1100,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1100"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - MULHOUSE",
+   "city": "MULHOUSE",
+   "cp": "68200",
+   "city_cp": "",
+   "address": "20 rue de Chemnitz, 68200 MULHOUSE",
+   "address_lines": [
+    "20 rue de Chemnitz",
+    "68200 MULHOUSE"
+   ],
+   "phone": "+33 3 81 94 95 35",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 445,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/445"
+  },
+  {
+   "name": "LINGUAPHONE ALSACE",
+   "city": "MULHOUSE",
+   "cp": "68200",
+   "city_cp": "",
+   "address": "4 rue Fredo Krumnov, 68200 MULHOUSE",
+   "address_lines": [
+    "4 rue Fredo Krumnov",
+    "68200 MULHOUSE"
+   ],
+   "phone": "+33 3 89 33 13 65",
+   "emails": [],
+   "url": "www.linguaphone.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 617,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/617"
+  },
+  {
+   "name": "INTERNATIONAL HOUSE - NANCY COEUR D'EUROPE",
+   "city": "NANCY",
+   "cp": "54100",
+   "city_cp": "",
+   "address": "15 RUE STE CATHERINE, 54100 NANCY",
+   "address_lines": [
+    "15 RUE STE CATHERINE",
+    "54100 NANCY"
+   ],
+   "phone": "+33 6 25 58 93 52",
+   "emails": [],
+   "url": "www.ihnancy.com",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 585,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/585"
+  },
+  {
+   "name": "MOVE UP FORMATION - NANTERRE",
+   "city": "NANTERRE",
+   "cp": "92747",
+   "city_cp": "",
+   "address": "5 Boulevard des Bouvets, 92747 NANTERRE",
+   "address_lines": [
+    "5 Boulevard des Bouvets",
+    "92747 NANTERRE"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1079,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1079"
+  },
+  {
+   "name": "CEFOL MANAGEMENT",
+   "city": "NANTES",
+   "cp": "44100",
+   "city_cp": "",
+   "address": "3 RUE BAYARD, 44100 NANTES",
+   "address_lines": [
+    "3 RUE BAYARD",
+    "44100 NANTES"
+   ],
+   "phone": "+33 2 14 74 64 18",
+   "emails": [],
+   "url": "WWW.CEFOLMANAGEMENT.FR",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 991,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/991"
+  },
+  {
+   "name": "JOBS AROUND",
+   "city": "NANTES",
+   "cp": "44200",
+   "city_cp": "",
+   "address": "8 Rue St Domingue, 44200 NANTES",
+   "address_lines": [
+    "8 Rue St Domingue",
+    "44200 NANTES"
+   ],
+   "phone": "+33 6 95 15 58 94",
+   "emails": [
+    "tef@jobsaround.fr"
+   ],
+   "url": "https://www.jobsaround.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1094,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1094"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "NARBONNE",
+   "cp": "11100",
+   "city_cp": "",
+   "address": "Batiment B Espace soleil, 2 route de Gruissan, 11100 NARBONNE",
+   "address_lines": [
+    "Batiment B Espace soleil, 2 route de Gruissan",
+    "11100 NARBONNE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1035,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1035"
+  },
+  {
+   "name": "FÉDÉRATION DES OEUVRES LAÏQUES DE LA NIÈVRE",
+   "city": "NEVERS",
+   "cp": "58000",
+   "city_cp": "",
+   "address": "7 rue du Commandant Rivière, 58000 NEVERS",
+   "address_lines": [
+    "7 rue du Commandant Rivière",
+    "58000 NEVERS"
+   ],
+   "phone": "+33 3 86 71 97 30",
+   "emails": [
+    "fol58@fol58.org"
+   ],
+   "url": "www.laliguebfc.org",
+   "so": false,
+   "products": [],
+   "cci_id": 419,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/419"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - NEVERS",
+   "city": "NEVERS",
+   "cp": "58000",
+   "city_cp": "",
+   "address": "43 Boulevard du Pré Plantin, 58000 NEVERS",
+   "address_lines": [
+    "43 Boulevard du Pré Plantin",
+    "58000 NEVERS"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 883,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/883"
+  },
+  {
+   "name": "INTERNATIONAL HOUSE CENTRE DE LANGUE RIVIERA",
+   "city": "NICE",
+   "cp": "06000",
+   "city_cp": "",
+   "address": "27 rue Rossini, 06000 NICE",
+   "address_lines": [
+    "27 rue Rossini",
+    "06000 NICE"
+   ],
+   "phone": "+33 6 61 48 15 33",
+   "emails": [
+    "info@ihnice.com"
+   ],
+   "url": "www.ihnice.com",
+   "so": false,
+   "products": [],
+   "cci_id": 584,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/584"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "Nice",
+   "cp": "06000",
+   "city_cp": "",
+   "address": "7 rue de Dijon, 06000 Nice",
+   "address_lines": [
+    "7 rue de Dijon",
+    "06000 Nice"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 865,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/865"
+  },
+  {
+   "name": "EFFICIA",
+   "city": "NIMES",
+   "cp": "30000",
+   "city_cp": "",
+   "address": "11T, rue Salomon Reinach, 30000 NIMES",
+   "address_lines": [
+    "11T, rue Salomon Reinach",
+    "30000 NIMES"
+   ],
+   "phone": "+33 6 11 72 52 41",
+   "emails": [
+    "TEF@efficia.org"
+   ],
+   "url": "www.efficia.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 403,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/403"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "NIMES",
+   "cp": "30900",
+   "city_cp": "",
+   "address": "Forum Ville Active, 32 Rue Robert Mallet Stevens Bâtiment A, 30900 NIMES",
+   "address_lines": [
+    "Forum Ville Active, 32 Rue Robert Mallet Stevens Bâtiment A",
+    "30900 NIMES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1126,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1126"
+  },
+  {
+   "name": "LE CAMPUS BY CCI 79",
+   "city": "NIORT",
+   "cp": "79000",
+   "city_cp": "",
+   "address": "2 rue Ernest Pérochon, 79000 NIORT",
+   "address_lines": [
+    "2 rue Ernest Pérochon",
+    "79000 NIORT"
+   ],
+   "phone": "+33 5 49 28 79 79",
+   "emails": [
+    "contact.formation@cci79.com"
+   ],
+   "url": "https://www.lecampusbycci79.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1104,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1104"
+  },
+  {
+   "name": "ELFE - CHAMPIGNY-SUR-MARNE",
+   "city": "Nogent sur Oise",
+   "cp": "60180",
+   "city_cp": "",
+   "address": "110 avenue de l'Europe, 60180 Nogent sur Oise",
+   "address_lines": [
+    "110 avenue de l'Europe",
+    "60180 Nogent sur Oise"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.elfeformation.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 875,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/875"
+  },
+  {
+   "name": "ZD ACADEMY",
+   "city": "NOGENT-SUR-MARNE",
+   "cp": "94130",
+   "city_cp": "",
+   "address": "2 boulevard Albert 1er, 94130 NOGENT-SUR-MARNE",
+   "address_lines": [
+    "2 boulevard Albert 1er",
+    "94130 NOGENT-SUR-MARNE"
+   ],
+   "phone": "+33 6 51 40 15 15",
+   "emails": [
+    "contact.zdacademy@gmail.com"
+   ],
+   "url": "www.zdacademy.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 771,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/771"
+  },
+  {
+   "name": "MOVE UP FORMATION - NOISY-LE-GRAND",
+   "city": "NOISY-LE-GRAND",
+   "cp": "93160",
+   "city_cp": "",
+   "address": "7 porte de Neuilly, 93160 NOISY-LE-GRAND",
+   "address_lines": [
+    "7 porte de Neuilly",
+    "93160 NOISY-LE-GRAND"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/agence/noisy-le-grand",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 766,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/766"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - ORLÉANS",
+   "city": "ORLÉANS",
+   "cp": "45100",
+   "city_cp": "",
+   "address": "2B RUE ALAIN, 45100 ORLÉANS",
+   "address_lines": [
+    "2B RUE ALAIN",
+    "45100 ORLÉANS"
+   ],
+   "phone": "+33 2 38 63 97 17",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1027,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1027"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - OYONNAX",
+   "city": "OYONNAX",
+   "cp": "1100",
+   "city_cp": "",
+   "address": "2 rue Brunnet, 1100 OYONNAX",
+   "address_lines": [
+    "2 rue Brunnet",
+    "1100 OYONNAX"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@ifra.fr"
+   ],
+   "url": "www.ifra.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 466,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/466"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "PAMIERS",
+   "cp": "09100",
+   "city_cp": "",
+   "address": "48 Av. de la Rijol, 09100 PAMIERS",
+   "address_lines": [
+    "48 Av. de la Rijol",
+    "09100 PAMIERS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1029,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1029"
+  },
+  {
+   "name": "IFIE",
+   "city": "PANTIN",
+   "cp": "93500",
+   "city_cp": "",
+   "address": "Tour Essor 14, rue Scandicci, 93500 PANTIN",
+   "address_lines": [
+    "Tour Essor 14, rue Scandicci",
+    "93500 PANTIN"
+   ],
+   "phone": "+33 7 77 76 48 85",
+   "emails": [
+    "contact.ifieformation@gmail.com"
+   ],
+   "url": "www.ifieformation.com",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 488,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/488"
+  },
+  {
+   "name": "MOVE UP FORMATION - NOISY-LE-GRAND",
+   "city": "Pantin",
+   "cp": "93500",
+   "city_cp": "",
+   "address": "153 avenue Jean Lolive, 93500 Pantin",
+   "address_lines": [
+    "153 avenue Jean Lolive",
+    "93500 Pantin"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://moveup-formation-france.fr/agence/noisy-le-grand",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 816,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/816"
+  },
+  {
+   "name": "ZD ACADEMY",
+   "city": "Pantin",
+   "cp": "93500",
+   "city_cp": "",
+   "address": "178 Avenue du Général Leclerc, 93500 Pantin",
+   "address_lines": [
+    "178 Avenue du Général Leclerc",
+    "93500 Pantin"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.zdacademy.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 971,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/971"
+  },
+  {
+   "name": "ALIP",
+   "city": "PARIS",
+   "cp": "75015",
+   "city_cp": "",
+   "address": "27 rue Ginoux, 75015 PARIS",
+   "address_lines": [
+    "27 rue Ginoux",
+    "75015 PARIS"
+   ],
+   "phone": "+33 1 58 01 00 61",
+   "emails": [
+    "info@alipfrance.com"
+   ],
+   "url": "www.alipfrance.com",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 24,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/24"
+  },
+  {
+   "name": "ARCS",
+   "city": "PARIS",
+   "cp": "75009",
+   "city_cp": "",
+   "address": "28 rue de Londres, 75009 PARIS",
+   "address_lines": [
+    "28 rue de Londres",
+    "75009 PARIS"
+   ],
+   "phone": "+33 6 68 85 37 43",
+   "emails": [
+    "contact@arcs-france.fr"
+   ],
+   "url": "https://arcs-france.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 954,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/954"
+  },
+  {
+   "name": "ASPLEF",
+   "city": "PARIS",
+   "cp": "75010",
+   "city_cp": "",
+   "address": "52 boulevard de Magenta, 75010 PARIS",
+   "address_lines": [
+    "52 boulevard de Magenta",
+    "75010 PARIS"
+   ],
+   "phone": "+33 1 48 87 62 26",
+   "emails": [
+    "examens@asplef.com"
+   ],
+   "url": "www.asplef.com",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 248,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/248"
+  },
+  {
+   "name": "AVD FORMATION",
+   "city": "PARIS",
+   "cp": "75017",
+   "city_cp": "",
+   "address": "8 rue Catulle Mendès, 75017 PARIS",
+   "address_lines": [
+    "8 rue Catulle Mendès",
+    "75017 PARIS"
+   ],
+   "phone": "+33 9 84 40 98 78",
+   "emails": [
+    "avd.formation@yahoo.fr"
+   ],
+   "url": "www.avdformation.org/calendrier-inscription/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 251,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/251"
+  },
+  {
+   "name": "CCI PARIS REPUBLIQUE",
+   "city": "PARIS",
+   "cp": "75010",
+   "city_cp": "",
+   "address": "11, rue Léon Jouhaux, 75010 PARIS",
+   "address_lines": [
+    "11, rue Léon Jouhaux",
+    "75010 PARIS"
+   ],
+   "phone": "+33 1 73 28 01 01",
+   "emails": [
+    "tef@cci-paris-idf.fr"
+   ],
+   "url": "https://www.lefrancaisdesaffaires.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 779,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/779"
+  },
+  {
+   "name": "CENTRE PRIVÉ DE LANGUES LSI PARIS",
+   "city": "PARIS",
+   "cp": "75004",
+   "city_cp": "",
+   "address": "23 rue du Renard, 75004 PARIS",
+   "address_lines": [
+    "23 rue du Renard",
+    "75004 PARIS"
+   ],
+   "phone": "+33 1 42 60 53 70",
+   "emails": [
+    "par@lsi.edu"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 615,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/615"
+  },
+  {
+   "name": "ELFE PARIS",
+   "city": "PARIS",
+   "cp": "75001",
+   "city_cp": "",
+   "address": "15 rue Montmartre, 75001 PARIS",
+   "address_lines": [
+    "15 rue Montmartre",
+    "75001 PARIS"
+   ],
+   "phone": "+33 1 48 78 73 00",
+   "emails": [
+    "contact@elfe-paris.com"
+   ],
+   "url": "www.elfe-paris.com",
+   "so": false,
+   "products": [],
+   "cci_id": 405,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/405"
+  },
+  {
+   "name": "EMPLOI SERVICES FORMATION - PARIS",
+   "city": "PARIS",
+   "cp": "75019",
+   "city_cp": "",
+   "address": "65/67 Rue d'Hautpoul, 75019 PARIS",
+   "address_lines": [
+    "65/67 Rue d'Hautpoul",
+    "75019 PARIS"
+   ],
+   "phone": "+33 3 21 15 15 47",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 933,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/933"
+  },
+  {
+   "name": "ETOILE INSTITUT DE LANGUE",
+   "city": "PARIS",
+   "cp": "75007",
+   "city_cp": "",
+   "address": "38, boulevard Raspail, 75007 PARIS",
+   "address_lines": [
+    "38, boulevard Raspail",
+    "75007 PARIS"
+   ],
+   "phone": "+33 9 72 31 32 66",
+   "emails": [
+    "contact@etoilecertifications.com"
+   ],
+   "url": "https://etoilegroupe.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 610,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/610"
+  },
+  {
+   "name": "KANGOUROU - PARIS",
+   "city": "PARIS",
+   "cp": "75116",
+   "city_cp": "",
+   "address": "5 rue du Général Clergerie, 75116 PARIS",
+   "address_lines": [
+    "5 rue du Général Clergerie",
+    "75116 PARIS"
+   ],
+   "phone": "+33 1 45 05 92 84",
+   "emails": [
+    "admin@kangourou.fr"
+   ],
+   "url": "www.kangourou.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 600,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/600"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PARIS ILE-DE-FRANCE",
+   "city": "PARIS CEDEX 06",
+   "cp": "75270",
+   "city_cp": "",
+   "address": "101 boulevard Raspail, 75270 PARIS CEDEX 06",
+   "address_lines": [
+    "101 boulevard Raspail",
+    "75270 PARIS CEDEX 06"
+   ],
+   "phone": "+33 1 42 84 90 00",
+   "emails": [
+    "examens@alliancefr.org"
+   ],
+   "url": "www.alliancefr.org",
+   "so": false,
+   "products": [],
+   "cci_id": 165,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/165"
+  },
+  {
+   "name": "MOVE UP FORMATION - PAU",
+   "city": "PAU",
+   "cp": "64445",
+   "city_cp": "",
+   "address": "4 Allée Catherine de Bourbon, 64445 PAU",
+   "address_lines": [
+    "4 Allée Catherine de Bourbon",
+    "64445 PAU"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1078,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1078"
+  },
+  {
+   "name": "CENTRE UNIVERSITAIRE D'ÉTUDES FRANÇAISES (CUEF) - PERPIGNAN",
+   "city": "PERPIGNAN",
+   "cp": "66860",
+   "city_cp": "",
+   "address": "Bat. F2, RDC, 52 avenue Paul Alduy - 66860 PERPIGNAN, 66860 PERPIGNAN",
+   "address_lines": [
+    "Bat. F2, RDC, 52 avenue Paul Alduy - 66860 PERPIGNAN",
+    "66860 PERPIGNAN"
+   ],
+   "phone": "+33 4 68 66 20 10",
+   "emails": [
+    "sec-cuef@univ-perp.fr"
+   ],
+   "url": "https://www.cuef.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 345,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/345"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "PERPIGNAN",
+   "cp": "66000",
+   "city_cp": "",
+   "address": "158 Avenue Guynemer, 66000 PERPIGNAN",
+   "address_lines": [
+    "158 Avenue Guynemer",
+    "66000 PERPIGNAN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1031,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1031"
+  },
+  {
+   "name": "ACTION PLURIELLE FORMATION",
+   "city": "Persan",
+   "cp": "95340",
+   "city_cp": "",
+   "address": "68, avenue Gaston Vermeire, 95340 Persan",
+   "address_lines": [
+    "68, avenue Gaston Vermeire",
+    "95340 Persan"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 894,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/894"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "PIEUSSE",
+   "cp": "11300",
+   "city_cp": "",
+   "address": "Pépinière et Hotel d'entreprises Parc régional d'activité économique Charles Cros RD 118, 11300 PIEUSSE",
+   "address_lines": [
+    "Pépinière et Hotel d'entreprises Parc régional d'activité économique Charles Cros RD 118",
+    "11300 PIEUSSE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1036,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1036"
+  },
+  {
+   "name": "MOVE UP FORMATION - POITIERS",
+   "city": "POITIERS",
+   "cp": "86000",
+   "city_cp": "",
+   "address": "53 avenue du 8 Mai 1945, 86000 POITIERS",
+   "address_lines": [
+    "53 avenue du 8 Mai 1945",
+    "86000 POITIERS"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 987,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/987"
+  },
+  {
+   "name": "ARCANES FORMATION",
+   "city": "PONTAULT COMBAULT",
+   "cp": "77340",
+   "city_cp": "",
+   "address": "51 Avenue Charles Rouxel, 77340 PONTAULT COMBAULT",
+   "address_lines": [
+    "51 Avenue Charles Rouxel",
+    "77340 PONTAULT COMBAULT"
+   ],
+   "phone": "+33 6 27 70 28 41",
+   "emails": [
+    "contact@arcanes-formation.com"
+   ],
+   "url": "www.arcanes-formation.com",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1112,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1112"
+  },
+  {
+   "name": "IBEP - LORIENT",
+   "city": "PONTIVY",
+   "cp": "56300",
+   "city_cp": "",
+   "address": "14 Avenue Napoléon 1er, 56300 PONTIVY",
+   "address_lines": [
+    "14 Avenue Napoléon 1er",
+    "56300 PONTIVY"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.ibepformation.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1071,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1071"
+  },
+  {
+   "name": "FARBEE_BY_LEGALUNITE FRANCE",
+   "city": "PORTE DE LA VILLETTE",
+   "cp": "75019",
+   "city_cp": "",
+   "address": "140/142 boulevard Macdonald, 75019 PORTE DE LA VILLETTE",
+   "address_lines": [
+    "140/142 boulevard Macdonald",
+    "75019 PORTE DE LA VILLETTE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.farbee.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1056,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1056"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - BREST",
+   "city": "QIMPER",
+   "cp": "29000",
+   "city_cp": "",
+   "address": "Espace associatif - 1 Allée Monseigneur Jean René Calloc'h, 29000 QIMPER",
+   "address_lines": [
+    "Espace associatif - 1 Allée Monseigneur Jean René Calloc'h",
+    "29000 QIMPER"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1050,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1050"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - REIMS",
+   "city": "REIMS",
+   "cp": "51100",
+   "city_cp": "",
+   "address": "14 rue Edouard Mignot, 51100 REIMS",
+   "address_lines": [
+    "14 rue Edouard Mignot",
+    "51100 REIMS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 839,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/839"
+  },
+  {
+   "name": "HESIO CONSEIL",
+   "city": "REIMS",
+   "cp": "51100",
+   "city_cp": "",
+   "address": "14, Allée René Fonck, 51100 REIMS",
+   "address_lines": [
+    "14, Allée René Fonck",
+    "51100 REIMS"
+   ],
+   "phone": "+33 6 08 02 72 88",
+   "emails": [
+    "tef@hesio.fr"
+   ],
+   "url": "www.hesio.fr/tef-test-d-evaluation-en-francais",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 760,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/760"
+  },
+  {
+   "name": "AURAL LOGOS",
+   "city": "RÉMIRE-MONTJOLY",
+   "cp": "97354",
+   "city_cp": "",
+   "address": "950, Avenue Gaston Monnerville, 97354 RÉMIRE-MONTJOLY",
+   "address_lines": [
+    "950, Avenue Gaston Monnerville",
+    "97354 RÉMIRE-MONTJOLY"
+   ],
+   "phone": "",
+   "emails": [
+    "contact@aurallogos.com"
+   ],
+   "url": "http://www.aurallogos.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 250,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/250"
+  },
+  {
+   "name": "LANGOPHONIES",
+   "city": "RENNES",
+   "cp": "35200",
+   "city_cp": "",
+   "address": "37 cours de Bilbao, 35200 RENNES",
+   "address_lines": [
+    "37 cours de Bilbao",
+    "35200 RENNES"
+   ],
+   "phone": "+33 7 74 81 92 96",
+   "emails": [
+    "fle@langophonies.org"
+   ],
+   "url": "www.langophonies.org",
+   "so": false,
+   "products": [],
+   "cci_id": 614,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/614"
+  },
+  {
+   "name": "MOVE UP FORMATION - RENNES",
+   "city": "RENNES",
+   "cp": "35200",
+   "city_cp": "",
+   "address": "107 Avenue Henri Fréville, 35200 RENNES",
+   "address_lines": [
+    "107 Avenue Henri Fréville",
+    "35200 RENNES"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1064,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1064"
+  },
+  {
+   "name": "CFP PRESQU'ÎLE - NANTES",
+   "city": "REZÉ",
+   "cp": "44400",
+   "city_cp": "",
+   "address": "1 rue Victor Hugo, 44400 REZÉ",
+   "address_lines": [
+    "1 rue Victor Hugo",
+    "44400 REZÉ"
+   ],
+   "phone": "+33 2 40 08 95 50",
+   "emails": [],
+   "url": "www.cfp-presquile.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 352,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/352"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - ROANNE",
+   "city": "ROANNE",
+   "cp": "42300",
+   "city_cp": "",
+   "address": "25 rue Benoit Malon, 42300 ROANNE",
+   "address_lines": [
+    "25 rue Benoit Malon",
+    "42300 ROANNE"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1023,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1023"
+  },
+  {
+   "name": "CAMPUS XIIe AVENUE",
+   "city": "RODEZ",
+   "cp": "12000",
+   "city_cp": "",
+   "address": "5 rue de Bruxelles, 12000 RODEZ",
+   "address_lines": [
+    "5 rue de Bruxelles",
+    "12000 RODEZ"
+   ],
+   "phone": "+33 5 65 75 56 64",
+   "emails": [],
+   "url": "www.campus12avenue.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 260,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/260"
+  },
+  {
+   "name": "MYSTORY - ROSNY",
+   "city": "ROSNY",
+   "cp": "93110",
+   "city_cp": "",
+   "address": "46 Bis Rue d'Estienne d'Orves, 93110 ROSNY",
+   "address_lines": [
+    "46 Bis Rue d'Estienne d'Orves",
+    "93110 ROSNY"
+   ],
+   "phone": "+33 6 81 43 16 54",
+   "emails": [],
+   "url": "www.mystoryformation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1099,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1099"
+  },
+  {
+   "name": "NOFI FORMATION",
+   "city": "ROUBAIX",
+   "cp": "59100",
+   "city_cp": "",
+   "address": "20 rue Sébastopol, 59100 ROUBAIX",
+   "address_lines": [
+    "20 rue Sébastopol",
+    "59100 ROUBAIX"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.nofiformation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1075,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1075"
+  },
+  {
+   "name": "NOFI FORMATION - ROUBAIX",
+   "city": "ROUBAIX",
+   "cp": "59100",
+   "city_cp": "",
+   "address": "12 Grand place, 59100 ROUBAIX",
+   "address_lines": [
+    "12 Grand place",
+    "59100 ROUBAIX"
+   ],
+   "phone": "+33 6 85 89 84 70",
+   "emails": [
+    "info@nofiformation.fr"
+   ],
+   "url": "www.nofiformation.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1146,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1146"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE NORMANDIE - ROUEN",
+   "city": "ROUEN",
+   "cp": "76000",
+   "city_cp": "",
+   "address": "80 boulevard de l'Yser, 76000 ROUEN",
+   "address_lines": [
+    "80 boulevard de l'Yser",
+    "76000 ROUEN"
+   ],
+   "phone": "+33 2 35 98 55 99",
+   "emails": [
+    "examens@afnormandie.org"
+   ],
+   "url": "www.afnormandie.org",
+   "so": false,
+   "products": [],
+   "cci_id": 184,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/184"
+  },
+  {
+   "name": "ÉDUCATION ET FORMATION - ROUEN - LE PETIT-QUEVILLY",
+   "city": "ROUEN/LE PETIT-QUEVILLY",
+   "cp": "76140",
+   "city_cp": "",
+   "address": "6, place Waldeck Rousseau, 76140 ROUEN/LE PETIT-QUEVILLY",
+   "address_lines": [
+    "6, place Waldeck Rousseau",
+    "76140 ROUEN/LE PETIT-QUEVILLY"
+   ],
+   "phone": "+33 2 76 51 76 11",
+   "emails": [
+    "examensfle@educationetformation.fr"
+   ],
+   "url": "https://www.educationetformation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 770,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/770"
+  },
+  {
+   "name": "ARCS",
+   "city": "RUEIL-MALMAISON",
+   "cp": "92500",
+   "city_cp": "",
+   "address": "23 rue Buffon, 92500 RUEIL-MALMAISON",
+   "address_lines": [
+    "23 rue Buffon",
+    "92500 RUEIL-MALMAISON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://arcs-france.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1054,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1054"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "SAINT GIRONS",
+   "cp": "09200",
+   "city_cp": "",
+   "address": "Maison de la Citoyenneté - 16 rue de la République, 09200 SAINT GIRONS",
+   "address_lines": [
+    "Maison de la Citoyenneté - 16 rue de la République",
+    "09200 SAINT GIRONS"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1030,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1030"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - SAINT-FLOUR",
+   "city": "SAINT- FLOUR",
+   "cp": "15100",
+   "city_cp": "",
+   "address": "5 Avenue de Besserette, 15100 SAINT- FLOUR",
+   "address_lines": [
+    "5 Avenue de Besserette",
+    "15100 SAINT- FLOUR"
+   ],
+   "phone": "+33 4 73 16 82 21",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 1016,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1016"
+  },
+  {
+   "name": "MOVE UP FORMATION - SAINT-BRIEUC",
+   "city": "SAINT-BRIEUC",
+   "cp": "22000",
+   "city_cp": "",
+   "address": "6 Boulevard Clemenceau, 22000 SAINT-BRIEUC",
+   "address_lines": [
+    "6 Boulevard Clemenceau",
+    "22000 SAINT-BRIEUC"
+   ],
+   "phone": "+33 1 85 44 02 02",
+   "emails": [
+    "contact@moveup-formation.fr"
+   ],
+   "url": "https://moveup-formation-france.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1065,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1065"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - SAINT-CHAMOND",
+   "city": "SAINT-CHAMOND",
+   "cp": "42400",
+   "city_cp": "",
+   "address": "59 rue Maurice Bonnevialle, 42400 SAINT-CHAMOND",
+   "address_lines": [
+    "59 rue Maurice Bonnevialle",
+    "42400 SAINT-CHAMOND"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 471,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/471"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA RÉUNION",
+   "city": "SAINT-DENIS",
+   "cp": "97400",
+   "city_cp": "",
+   "address": "4 ruelle Tortue, 97400 SAINT-DENIS",
+   "address_lines": [
+    "4 ruelle Tortue",
+    "97400 SAINT-DENIS"
+   ],
+   "phone": "+262 692 20 02 10",
+   "emails": [
+    "aflareunion@gmail.com"
+   ],
+   "url": "https://www.facebook.com/AFlareunion/",
+   "so": false,
+   "products": [],
+   "cci_id": 893,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/893"
+  },
+  {
+   "name": "MOVE UP FORMATION - NOISY-LE-GRAND",
+   "city": "Saint-Denis",
+   "cp": "93200",
+   "city_cp": "",
+   "address": "3 rue Jesse Owens, 93200 Saint-Denis",
+   "address_lines": [
+    "3 rue Jesse Owens",
+    "93200 Saint-Denis"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://moveup-formation-france.fr/agence/noisy-le-grand",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 911,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/911"
+  },
+  {
+   "name": "POLYLANGUES - CERGY",
+   "city": "Saint-Denis",
+   "cp": "93210 Saint denis",
+   "city_cp": "",
+   "address": "221, avenue du Président Wilson, 93210 Saint denis Saint-Denis",
+   "address_lines": [
+    "221, avenue du Président Wilson",
+    "93210 Saint denis Saint-Denis"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.polylangues.fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 814,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/814"
+  },
+  {
+   "name": "FRATE FORMATION - SAINT-DIÉ-DES-VOSGES",
+   "city": "SAINT-DIÉ-DES-VOSGES",
+   "cp": "88100",
+   "city_cp": "",
+   "address": "7 Rue Laurent Pillard, 88100 SAINT-DIÉ-DES-VOSGES",
+   "address_lines": [
+    "7 Rue Laurent Pillard",
+    "88100 SAINT-DIÉ-DES-VOSGES"
+   ],
+   "phone": "+33 3 81 94 95 35",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 1000,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1000"
+  },
+  {
+   "name": "CAP FORMATION",
+   "city": "SAINT-HERBLAIN",
+   "cp": "44800",
+   "city_cp": "",
+   "address": "6 rue Benoit Frachon, 44800 SAINT-HERBLAIN",
+   "address_lines": [
+    "6 rue Benoit Frachon",
+    "44800 SAINT-HERBLAIN"
+   ],
+   "phone": "+33 2 28 44 32 14",
+   "emails": [
+    "capformation@capformation.net"
+   ],
+   "url": "https://capformation.net/",
+   "so": false,
+   "products": [],
+   "cci_id": 1145,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1145"
+  },
+  {
+   "name": "CLOUD COM 97",
+   "city": "SAINT-MARTIN - MARIGOT",
+   "cp": "97150",
+   "city_cp": "",
+   "address": "Lot 16 Les Jardins de Bellevue, 97150 SAINT-MARTIN - MARIGOT",
+   "address_lines": [
+    "Lot 16 Les Jardins de Bellevue",
+    "97150 SAINT-MARTIN - MARIGOT"
+   ],
+   "phone": "+590 690 57 65 09",
+   "emails": [
+    "contact@cloudcom97.com"
+   ],
+   "url": "www.cloudcom97.com",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 365,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/365"
+  },
+  {
+   "name": "CFP PRESQU'ÎLE - SAINT-NAZAIRE",
+   "city": "SAINT-NAZAIRE",
+   "cp": "44600",
+   "city_cp": "",
+   "address": "6 rue Étoile du matin, 44600 SAINT-NAZAIRE",
+   "address_lines": [
+    "6 rue Étoile du matin",
+    "44600 SAINT-NAZAIRE"
+   ],
+   "phone": "+33 2 40 88 19 40",
+   "emails": [
+    "administratif@cfp-presquile.com"
+   ],
+   "url": "www.cfp-presquile.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 353,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/353"
+  },
+  {
+   "name": "ABC FORMATION",
+   "city": "SAINT-OUEN L'AUMONE",
+   "cp": "95310",
+   "city_cp": "",
+   "address": "82 Avenue de Verdun, 95310 SAINT-OUEN L'AUMONE",
+   "address_lines": [
+    "82 Avenue de Verdun",
+    "95310 SAINT-OUEN L'AUMONE"
+   ],
+   "phone": "+33 7 49 90 49 42",
+   "emails": [
+    "pedagogie@abcformation1986.fr"
+   ],
+   "url": "www.abcformation1986.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 980,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/980"
+  },
+  {
+   "name": "SEA TRAINING",
+   "city": "SARTROUVILLE",
+   "cp": "78500",
+   "city_cp": "",
+   "address": "73, boulevard de Bezons, 78500 SARTROUVILLE",
+   "address_lines": [
+    "73, boulevard de Bezons",
+    "78500 SARTROUVILLE"
+   ],
+   "phone": "+33 9 81 95 80 29",
+   "emails": [
+    "contact@seatraining.fr"
+   ],
+   "url": "www.seatraining.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 666,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/666"
+  },
+  {
+   "name": "CORYLUS FORMATIONS",
+   "city": "SAUMUR",
+   "cp": "49400",
+   "city_cp": "",
+   "address": "1 rue Sévigné, 49400 SAUMUR",
+   "address_lines": [
+    "1 rue Sévigné",
+    "49400 SAUMUR"
+   ],
+   "phone": "+33 2 41 67 71 45",
+   "emails": [
+    "direction@corylus-formations.fr"
+   ],
+   "url": "www.corylus-formations.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 380,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/380"
+  },
+  {
+   "name": "FRANCOPHOLIA",
+   "city": "SAVIGNY-LE-TEMPLE",
+   "cp": "77176",
+   "city_cp": "",
+   "address": "2 rue de l'Abbé Grégoire, 77176 SAVIGNY-LE-TEMPLE",
+   "address_lines": [
+    "2 rue de l'Abbé Grégoire",
+    "77176 SAVIGNY-LE-TEMPLE"
+   ],
+   "phone": "+33 6 48 27 44 89",
+   "emails": [
+    "francopholia.info@gmail.com"
+   ],
+   "url": "www.francopholia.fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1120,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1120"
+  },
+  {
+   "name": "IBEP FORMATION - VANNES",
+   "city": "SENE",
+   "cp": "56860",
+   "city_cp": "",
+   "address": "11 RUE COUSTEAU, 56860 SENE",
+   "address_lines": [
+    "11 RUE COUSTEAU",
+    "56860 SENE"
+   ],
+   "phone": "+33 2 97 42 53 63",
+   "emails": [
+    "ibep.vannes@ibepformation.fr"
+   ],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 927,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/927"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - SENS",
+   "city": "SENS",
+   "cp": "89100",
+   "city_cp": "",
+   "address": "14 rue Auguste Morel, 89100 SENS",
+   "address_lines": [
+    "14 rue Auguste Morel",
+    "89100 SENS"
+   ],
+   "phone": "+33 3 80 45 15 93",
+   "emails": [
+    "sens@frateformation.net"
+   ],
+   "url": "https://frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 1096,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1096"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "SETE",
+   "cp": "34200",
+   "city_cp": "",
+   "address": "220 avenue du Marechal Juin, 34200 SETE",
+   "address_lines": [
+    "220 avenue du Marechal Juin",
+    "34200 SETE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1021,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1021"
+  },
+  {
+   "name": "ZD ACADEMY",
+   "city": "Soissons",
+   "cp": "02200",
+   "city_cp": "",
+   "address": "5 bis rue de la Gare, 02200 Soissons",
+   "address_lines": [
+    "5 bis rue de la Gare",
+    "02200 Soissons"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.zdacademy.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 1072,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1072"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "SOUILLAC",
+   "cp": "46200",
+   "city_cp": "",
+   "address": "Hôtel les Ambassadeurs - 21 Avenue du Général De Gaulle, 46200 SOUILLAC",
+   "address_lines": [
+    "Hôtel les Ambassadeurs - 21 Avenue du Général De Gaulle",
+    "46200 SOUILLAC"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1039,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1039"
+  },
+  {
+   "name": "ADPE",
+   "city": "STAINS",
+   "cp": "93240",
+   "city_cp": "",
+   "address": "10-12 Avenue du Colonel Rol-Tanguy, 93240 STAINS",
+   "address_lines": [
+    "10-12 Avenue du Colonel Rol-Tanguy",
+    "93240 STAINS"
+   ],
+   "phone": "+33 1 49 98 44 48",
+   "emails": [
+    "contact@association-adpe.com"
+   ],
+   "url": "www.association-adpe.com/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 18,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/18"
+  },
+  {
+   "name": "CECI Formation",
+   "city": "STRASBOURG",
+   "cp": "67100",
+   "city_cp": "",
+   "address": "202 Avenue de Colmar, 67100 STRASBOURG",
+   "address_lines": [
+    "202 Avenue de Colmar",
+    "67100 STRASBOURG"
+   ],
+   "phone": "",
+   "emails": [
+    "contact@ceci-formation.com"
+   ],
+   "url": "www.ceci-formation.com",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 282,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/282"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - STRASBOURG",
+   "city": "STRASBOURG",
+   "cp": "67100",
+   "city_cp": "",
+   "address": "31 rue Maréchal Lefebvre, 67100 STRASBOURG",
+   "address_lines": [
+    "31 rue Maréchal Lefebvre",
+    "67100 STRASBOURG"
+   ],
+   "phone": "+33 3 81 94 95 35",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 446,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/446"
+  },
+  {
+   "name": "RETRAVAILLER DANS L'EST",
+   "city": "STRASBOURG",
+   "cp": "67200",
+   "city_cp": "",
+   "address": "11 rue Jacob Mayer, 67200 STRASBOURG",
+   "address_lines": [
+    "11 rue Jacob Mayer",
+    "67200 STRASBOURG"
+   ],
+   "phone": "+33 3 88 36 24 39",
+   "emails": [
+    "accueil@retravailler-est.org"
+   ],
+   "url": "https://www.retravailler-est.org",
+   "so": false,
+   "products": [],
+   "cci_id": 1083,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1083"
+  },
+  {
+   "name": "STRAFORMATION",
+   "city": "STRASBOURG",
+   "cp": "67000",
+   "city_cp": "",
+   "address": "21, rue d'Oslo, 67000 STRASBOURG",
+   "address_lines": [
+    "21, rue d'Oslo",
+    "67000 STRASBOURG"
+   ],
+   "phone": "+33 9 81 22 79 07",
+   "emails": [
+    "contact@straformation.fr"
+   ],
+   "url": "www.straformation.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 1127,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1127"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "TARBES",
+   "cp": "65000",
+   "city_cp": "",
+   "address": "2 avenue Bertrand Barrère, 65000 TARBES",
+   "address_lines": [
+    "2 avenue Bertrand Barrère",
+    "65000 TARBES"
+   ],
+   "phone": "+33 9 63 52 48 86",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 849,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/849"
+  },
+  {
+   "name": "PURPLE CAMPUS - TARBES",
+   "city": "TARBES",
+   "cp": "65000",
+   "city_cp": "",
+   "address": "78 avenue d'Azereix, 65000 TARBES",
+   "address_lines": [
+    "78 avenue d'Azereix",
+    "65000 TARBES"
+   ],
+   "phone": "+33 5 62 93 40 60",
+   "emails": [],
+   "url": "www.purple-campus.com",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 752,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/752"
+  },
+  {
+   "name": "ALZER",
+   "city": "Thiais",
+   "cp": "94320",
+   "city_cp": "",
+   "address": "Tour Europa - Avenue de l’Europe - 6ème étage, 94320 Thiais",
+   "address_lines": [
+    "Tour Europa - Avenue de l’Europe - 6ème étage",
+    "94320 Thiais"
+   ],
+   "phone": "0644600865",
+   "emails": [],
+   "url": "https://alzerexam.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 851,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/851"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "Toulon",
+   "cp": "83000",
+   "city_cp": "",
+   "address": "22 Rue Victor Clappier, 83000 Toulon",
+   "address_lines": [
+    "22 Rue Victor Clappier",
+    "83000 Toulon"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 825,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/825"
+  },
+  {
+   "name": "CREPT FORMATION",
+   "city": "TOULOUSE",
+   "cp": "31100",
+   "city_cp": "",
+   "address": "130 rue Henri Desbals, 31100 TOULOUSE",
+   "address_lines": [
+    "130 rue Henri Desbals",
+    "31100 TOULOUSE"
+   ],
+   "phone": "+33 5 62 72 93 93",
+   "emails": [
+    "contact@crept-formation.com"
+   ],
+   "url": "https://www.creptformation.com/FR/index.awp",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 831,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/831"
+  },
+  {
+   "name": "KANGOUROU PROVENCE",
+   "city": "Toulouse",
+   "cp": "31100",
+   "city_cp": "",
+   "address": "2 Rue Raymond Lizop - Immeuble \"Les Imaginations Fertiles\", 31100 Toulouse",
+   "address_lines": [
+    "2 Rue Raymond Lizop - Immeuble \"Les Imaginations Fertiles\"",
+    "31100 Toulouse"
+   ],
+   "phone": "+33 4 91 35 31 47",
+   "emails": [],
+   "url": "https://kangourou.shop/examen-civique-test-civique-sud-france",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 866,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/866"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "TOULOUSE",
+   "cp": "31100",
+   "city_cp": "",
+   "address": "13 RUE MICHEL LABROUSSE, 31100 TOULOUSE",
+   "address_lines": [
+    "13 RUE MICHEL LABROUSSE",
+    "31100 TOULOUSE"
+   ],
+   "phone": "+33 4 67 12 17 85",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 482,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/482"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION",
+   "city": "TOULOUSE",
+   "cp": "31000",
+   "city_cp": "",
+   "address": "70 Boulevard Matabiau, 31000 TOULOUSE",
+   "address_lines": [
+    "70 Boulevard Matabiau",
+    "31000 TOULOUSE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.instep-occitanie.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 1093,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1093"
+  },
+  {
+   "name": "CLE",
+   "city": "TOURS",
+   "cp": "37000",
+   "city_cp": "",
+   "address": "44 RUE BERNARD PALISSY, 37000 TOURS",
+   "address_lines": [
+    "44 RUE BERNARD PALISSY",
+    "37000 TOURS"
+   ],
+   "phone": "+33 2 47 64 06 19",
+   "emails": [
+    "contact@cle.fr"
+   ],
+   "url": "www.cle.fr/fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 782,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/782"
+  },
+  {
+   "name": "INSTITUT DE TOURAINE - IEFT",
+   "city": "TOURS CEDEX 1",
+   "cp": "37020",
+   "city_cp": "",
+   "address": "1 rue de la Grandière, 37020 TOURS CEDEX 1",
+   "address_lines": [
+    "1 rue de la Grandière",
+    "37020 TOURS CEDEX 1"
+   ],
+   "phone": "+33 2 47 05 76 83",
+   "emails": [
+    "contact@institutdetouraine.com"
+   ],
+   "url": "https://institutdetouraine.com",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 490,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/490"
+  },
+  {
+   "name": "MRD CONNECT",
+   "city": "TRAPPES",
+   "cp": "78190",
+   "city_cp": "",
+   "address": "5, avenue PAVLOV, 78190 TRAPPES",
+   "address_lines": [
+    "5, avenue PAVLOV",
+    "78190 TRAPPES"
+   ],
+   "phone": "+33 7 68 37 18 19",
+   "emails": [
+    "contact@mrdconnect.fr"
+   ],
+   "url": "https://mrdconnect;fr",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 902,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/902"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - TROYES",
+   "city": "TROYES",
+   "cp": "10000",
+   "city_cp": "",
+   "address": "28 rue Coulommières, 10000 TROYES",
+   "address_lines": [
+    "28 rue Coulommières",
+    "10000 TROYES"
+   ],
+   "phone": "+33 3 81 82 21 75",
+   "emails": [
+    "troyes@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 447,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/447"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - VALENCE",
+   "city": "VALENCE",
+   "cp": "26000",
+   "city_cp": "",
+   "address": "1 passage de l'argonne, 26000 VALENCE",
+   "address_lines": [
+    "1 passage de l'argonne",
+    "26000 VALENCE"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@leolagrange-formation.fr"
+   ],
+   "url": "https://www.leolagrange-formation.fr/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 472,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/472"
+  },
+  {
+   "name": "EMPLOI SERVICES FORMATION - ARRAS",
+   "city": "VALENCIENNES",
+   "cp": "59300",
+   "city_cp": "",
+   "address": "66 rue Clos des Villas, 59300 VALENCIENNES",
+   "address_lines": [
+    "66 rue Clos des Villas",
+    "59300 VALENCIENNES"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 1055,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1055"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - VALSERHÔNE",
+   "city": "VALSERHÔNE",
+   "cp": "1200",
+   "city_cp": "",
+   "address": "26 rue Joseph Bertola, 1200 VALSERHÔNE",
+   "address_lines": [
+    "26 rue Joseph Bertola",
+    "1200 VALSERHÔNE"
+   ],
+   "phone": "+33 4 74 47 32 96",
+   "emails": [
+    "valserhone@frateformation.net"
+   ],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [],
+   "cci_id": 448,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/448"
+  },
+  {
+   "name": "LEO LAGRANGE FORMATION - VAULX-EN-VELIN",
+   "city": "VAULX-EN-VELIN",
+   "cp": "69120",
+   "city_cp": "",
+   "address": "15 rue Emile Zola, 69120 VAULX-EN-VELIN",
+   "address_lines": [
+    "15 rue Emile Zola",
+    "69120 VAULX-EN-VELIN"
+   ],
+   "phone": "+33 6 07 17 63 58",
+   "emails": [
+    "certification-fle@ifra.fr"
+   ],
+   "url": "www.ifra.fr",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF IRN"
+   ],
+   "cci_id": 473,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/473"
+  },
+  {
+   "name": "FRATE FORMATION CONSEIL - VICHY",
+   "city": "VICHY",
+   "cp": "03206",
+   "city_cp": "",
+   "address": "2-4 rue de Paris, Passage des Commerces, 03206 VICHY",
+   "address_lines": [
+    "2-4 rue de Paris, Passage des Commerces",
+    "03206 VICHY"
+   ],
+   "phone": "+33 4 73 16 82 21",
+   "emails": [],
+   "url": "frateformation.net",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 449,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/449"
+  },
+  {
+   "name": "ALZER",
+   "city": "VILLEPINTE",
+   "cp": "93420",
+   "city_cp": "",
+   "address": "23 allée des Impressionnistes, 93420 VILLEPINTE",
+   "address_lines": [
+    "23 allée des Impressionnistes",
+    "93420 VILLEPINTE"
+   ],
+   "phone": "+33 1 88 99 16 08",
+   "emails": [
+    "contact@alzer.fr"
+   ],
+   "url": "https://alzerexam.fr/",
+   "so": false,
+   "products": [
+    "TEF Québec"
+   ],
+   "cci_id": 635,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/635"
+  },
+  {
+   "name": "ALZER",
+   "city": "Villepinte",
+   "cp": "93420",
+   "city_cp": "",
+   "address": "18 place des Nymphéas, HQ Tropical Centre., 93420 Villepinte",
+   "address_lines": [
+    "18 place des Nymphéas, HQ Tropical Centre.",
+    "93420 Villepinte"
+   ],
+   "phone": "0644600865",
+   "emails": [],
+   "url": "https://alzerexam.fr/",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 850,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/850"
+  },
+  {
+   "name": "EFI RHÔNES ALPES",
+   "city": "VILLEURBANNE",
+   "cp": "69100",
+   "city_cp": "",
+   "address": "8 bis Impasse marcel cerdan, 69100 VILLEURBANNE",
+   "address_lines": [
+    "8 bis Impasse marcel cerdan",
+    "69100 VILLEURBANNE"
+   ],
+   "phone": "+33 4 65 84 82 10",
+   "emails": [
+    "contact@efi-rhonealpes.com"
+   ],
+   "url": "https://www.efi-rhonealpes.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 1018,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1018"
+  }
+ ]
+}

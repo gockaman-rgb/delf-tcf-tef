@@ -1,0 +1,133 @@
+{
+ "country": "Angola",
+ "iso2": "AO",
+ "fei_id": "121",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction",
+  "city": "Luanda",
+  "cp": "",
+  "city_cp": "",
+  "address": "Travessa do Bocage, 12 Luanda",
+  "address_lines": [
+   "Travessa do Bocage, 12 Luanda"
+  ],
+  "phone": "225 300 235",
+  "emails": [
+   "direcao@afluanda.net"
+  ],
+  "url": "https://afluanda.net/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "MBULU N'FUKA MALENDJI",
+   "city": "Cabinda",
+   "cp": "",
+   "city_cp": "",
+   "address": "RUA Dr AGOSTINHO NETO, QUARTIER MARIEN NGOUABI, 106 Cabinda",
+   "address_lines": [
+    "RUA Dr AGOSTINHO NETO, QUARTIER MARIEN NGOUABI",
+    "106 Cabinda"
+   ],
+   "phone": "931589749",
+   "emails": [
+    "afcabinda@hotmail.fr"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "LYCEE EIFFEL DE CAXITO",
+   "city": "Caxito",
+   "cp": "",
+   "city_cp": "",
+   "address": "Açucareira Caxito",
+   "address_lines": [
+    "Açucareira Caxito"
+   ],
+   "phone": "936819427",
+   "emails": [],
+   "url": "http://www.mlfmonde.org/etablissements/ecole-eiffel-de-caxito/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Luanda",
+   "city": "Luanda",
+   "cp": "",
+   "city_cp": "",
+   "address": "Travessage do Bocage, 12 Luanda",
+   "address_lines": [
+    "Travessage do Bocage, 12 Luanda"
+   ],
+   "phone": "225 300 235",
+   "emails": [
+    "direcao@afluanda.net"
+   ],
+   "url": "http://afluanda.net/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Lubango",
+   "city": "Lubango",
+   "cp": "",
+   "city_cp": "",
+   "address": "QUARTIER COMMERCIAL Lubango",
+   "address_lines": [
+    "QUARTIER COMMERCIAL Lubango"
+   ],
+   "phone": "922339292",
+   "emails": [
+    "aflubango@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "ECOLE EIFFEL DE MALANJE",
+   "city": "Malanje",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cangambo ( ex control nº1) Malanje",
+   "address_lines": [
+    "Cangambo ( ex control nº1) Malanje"
+   ],
+   "phone": "936819427",
+   "emails": [],
+   "url": "https://www.mlfmonde.org/etablissements/lycee-eiffel-de-malanje/",
+   "so": false
+  },
+  {
+   "name": "LYCEE EIFFEL DE NDALATANDO",
+   "city": "Ndalatando",
+   "cp": "",
+   "city_cp": "",
+   "address": "Largo das escolas Ndalatando",
+   "address_lines": [
+    "Largo das escolas Ndalatando"
+   ],
+   "phone": "936819427",
+   "emails": [],
+   "url": "https://www.mlfmonde.org/etablissements/lycee-eiffel-de-ndalatando/",
+   "so": false
+  },
+  {
+   "name": "LYCEE EIFFEL D'ONDJIVA",
+   "city": "Ondjiva",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bairro Naipalala 2 Ondjiva",
+   "address_lines": [
+    "Bairro Naipalala 2 Ondjiva"
+   ],
+   "phone": "936819427",
+   "emails": [],
+   "url": "http://www.mlfmonde.org/etablissements/lycee-eiffel-donjiva/",
+   "so": false
+  }
+ ]
+}

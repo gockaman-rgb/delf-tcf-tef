@@ -1,0 +1,51 @@
+{
+ "country": "Russie",
+ "iso2": "RU",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CREF DE MOSCOU",
+   "city": "MOSCOU",
+   "cp": "109028",
+   "city_cp": "",
+   "address": "6/1 Sretensky boulevard, 109028 MOSCOU",
+   "address_lines": [
+    "6/1 Sretensky boulevard",
+    "109028 MOSCOU"
+   ],
+   "phone": "+7 495 545-47-45",
+   "emails": [
+    "tef@cref.ru"
+   ],
+   "url": "www.cref.ru",
+   "so": false,
+   "products": [],
+   "cci_id": 381,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/381"
+  },
+  {
+   "name": "ÉCOLE DES HAUTES ÉTUDES EN SCIENCES ÉCONOMIQUES, MOSCOU RUSSIE",
+   "city": "MOSCOU",
+   "cp": "109028",
+   "city_cp": "",
+   "address": "11 boulevard Pokrovskiy, 109028 MOSCOU",
+   "address_lines": [
+    "11 boulevard Pokrovskiy",
+    "109028 MOSCOU"
+   ],
+   "phone": "+7 916 610-37-06",
+   "emails": [],
+   "url": "www.hse.ru",
+   "so": false,
+   "products": [],
+   "cci_id": 391,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/391"
+  }
+ ]
+}

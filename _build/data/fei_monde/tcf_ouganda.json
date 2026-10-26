@@ -1,0 +1,30 @@
+{
+ "country": "Ouganda",
+ "iso2": "UG",
+ "fei_id": "397",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Kampala",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plot 52 Bukoto Street Kamwokya P.O. Box 4314, 7212 Kampala",
+   "address_lines": [
+    "Plot 52 Bukoto Street Kamwokya P.O. Box 4314",
+    "7212 Kampala"
+   ],
+   "phone": "256-755810066",
+   "emails": [
+    "courses@afkampala.org"
+   ],
+   "url": "http://www.afkampala.org",
+   "so": true
+  }
+ ]
+}

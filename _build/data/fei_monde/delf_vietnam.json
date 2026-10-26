@@ -1,0 +1,195 @@
+{
+ "country": "Vietnam",
+ "iso2": "VN",
+ "fei_id": "56",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 11,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Ha Noi",
+  "cp": "",
+  "city_cp": "",
+  "address": "Institut français de Hanoi - L'Espace 24, Trang Tien, Hoan Kiem Ha Noi",
+  "address_lines": [
+   "Institut français de Hanoi - L'Espace 24, Trang Tien, Hoan Kiem Ha Noi"
+  ],
+  "phone": "24 39 36 21 64",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Université de Can Tho - Département de Didactique du FLE",
+   "city": "Can Tho",
+   "cp": "",
+   "city_cp": "",
+   "address": "411 rue du 30 avril Can Tho",
+   "address_lines": [
+    "411 rue du 30 avril Can Tho"
+   ],
+   "phone": "907611182",
+   "emails": [
+    "delf.cantho@gmail.com"
+   ],
+   "url": "http://www.ctu.edu.vn/en/",
+   "so": false
+  },
+  {
+   "name": "Centre Francophone Antenne - Dalat",
+   "city": "Da Lat",
+   "cp": "",
+   "city_cp": "",
+   "address": "21 Tran Hung Dao, 670000 Da Lat",
+   "address_lines": [
+    "21 Tran Hung Dao",
+    "670000 Da Lat"
+   ],
+   "phone": "0916124121",
+   "emails": [
+    "antennedalat@gmail.com"
+   ],
+   "url": "http://antenne.vn/vi/tiep-tan/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Vietnam - Antenne de Danang",
+   "city": "Da Nang",
+   "cp": "",
+   "city_cp": "",
+   "address": "33 Tran Phu Da Nang Da Nang",
+   "address_lines": [
+    "33 Tran Phu Da Nang Da Nang"
+   ],
+   "phone": "2363818270",
+   "emails": [],
+   "url": "http://ifv.vn/fr/notre-reseau/institut-francais-de-danang/",
+   "so": false
+  },
+  {
+   "name": "NEW SKY",
+   "city": "Ha Long",
+   "cp": "",
+   "city_cp": "",
+   "address": "609 rue Nguyen Van Cu, 1000 Ha Long",
+   "address_lines": [
+    "609 rue Nguyen Van Cu",
+    "1000 Ha Long"
+   ],
+   "phone": "913072366",
+   "emails": [],
+   "url": "http://www.newskyhalong.com/",
+   "so": false
+  },
+  {
+   "name": "Institut Français du Vietnam - Antenne de Hanoi",
+   "city": "Hanoi",
+   "cp": "",
+   "city_cp": "",
+   "address": "15, Thien Quang, Hai Ba Trung, Hanoi, 100000 Hanoi",
+   "address_lines": [
+    "15, Thien Quang, Hai Ba Trung, Hanoi",
+    "100000 Hanoi"
+   ],
+   "phone": "0326970930",
+   "emails": [],
+   "url": "http://ifv.vn/",
+   "so": false
+  },
+  {
+   "name": "Lycée français international Marguerite Duras",
+   "city": "Ho Chi Minh",
+   "cp": "",
+   "city_cp": "",
+   "address": "260 route N°11 - Long Binh -, 70000 Ho Chi Minh",
+   "address_lines": [
+    "260 route N°11 - Long Binh -",
+    "70000 Ho Chi Minh"
+   ],
+   "phone": "2837252208",
+   "emails": [
+    "proviseur@lfiduras.com"
+   ],
+   "url": "http://lfiduras.com/",
+   "so": false
+  },
+  {
+   "name": "Lycée Le Hong Phong",
+   "city": "Ho Chi Minh",
+   "cp": "",
+   "city_cp": "",
+   "address": "235 Nguyen Van Cu, Phuong Cho Quan, TP. Ho Chi Minh City : TP. Ho Chi Minh, 70000 Ho Chi Minh",
+   "address_lines": [
+    "235 Nguyen Van Cu, Phuong Cho Quan, TP. Ho Chi Minh City : TP. Ho Chi Minh",
+    "70000 Ho Chi Minh"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "IDECAF",
+   "city": "Hô Chi Minh Ville",
+   "cp": "",
+   "city_cp": "",
+   "address": "31 Thai Van Lung, 084 Hô Chi Minh Ville",
+   "address_lines": [
+    "31 Thai Van Lung",
+    "084 Hô Chi Minh Ville"
+   ],
+   "phone": "0985288271",
+   "emails": [],
+   "url": "http://www.idecaf.gov.vn/",
+   "so": false
+  },
+  {
+   "name": "Université de Pédagogie de Ho Chi Minh ville",
+   "city": "Ho Chi Minh Ville",
+   "cp": "",
+   "city_cp": "",
+   "address": "280 An Duong Vuong, 5e arrondissement, 700000 Ho Chi Minh Ville",
+   "address_lines": [
+    "280 An Duong Vuong, 5e arrondissement",
+    "700000 Ho Chi Minh Ville"
+   ],
+   "phone": "+842838307103",
+   "emails": [],
+   "url": "http://www.hcmup.edu.vn/?site=79",
+   "so": false
+  },
+  {
+   "name": "Institut français du Vietnam - Antenne de Hué",
+   "city": "Hué",
+   "cp": "",
+   "city_cp": "",
+   "address": "01 Le Hong Phong - Phu Nhuan, 49000 Hué",
+   "address_lines": [
+    "01 Le Hong Phong - Phu Nhuan",
+    "49000 Hué"
+   ],
+   "phone": "2343822678",
+   "emails": [],
+   "url": "http://ifv.vn/fr/notre-reseau/institut-francais-de-hue/",
+   "so": false
+  },
+  {
+   "name": "Université de Khanh Hoa",
+   "city": "Nha Trang",
+   "cp": "",
+   "city_cp": "",
+   "address": "01 Nguyen Chanh, Nha Trang, Khanh Hoa, Vietnam, 650000 Nha Trang",
+   "address_lines": [
+    "01 Nguyen Chanh, Nha Trang, Khanh Hoa, Vietnam",
+    "650000 Nha Trang"
+   ],
+   "phone": "0905116636",
+   "emails": [],
+   "url": "http://www.ttnnthdtbdtx.ukh.edu.vn/",
+   "so": false
+  }
+ ]
+}

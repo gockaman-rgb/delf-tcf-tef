@@ -1,0 +1,61 @@
+{
+ "country": "Tanzanie",
+ "iso2": "TZ",
+ "fei_id": "147",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Dar Es Salaam",
+  "cp": "",
+  "city_cp": "",
+  "address": "12, Ali Hassan Mwinyi Road (behind Las Vegas Casino), PO Box 2566 Dar Es Salaam",
+  "address_lines": [
+   "12, Ali Hassan Mwinyi Road (behind Las Vegas Casino)",
+   "PO Box 2566 Dar Es Salaam"
+  ],
+  "phone": "698705590",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Arusha",
+   "cp": "",
+   "city_cp": "",
+   "address": "6 Karata Street behind Gloryland church off Njiro Road, Florian, Themi area, Arusha, Tanzania, PO BOX 15123 Arusha",
+   "address_lines": [
+    "6 Karata Street behind Gloryland church off Njiro Road, Florian, Themi area, Arusha, Tanzania",
+    "PO BOX 15123 Arusha"
+   ],
+   "phone": "786 111 414",
+   "emails": [
+    "course@aftarusha.org"
+   ],
+   "url": "http://www.aftarusha.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Dar Es Salaam",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ali Hassan Mwinyi road, behind Las Vegas casino, P.O.Box 2566 Dar Es Salaam",
+   "address_lines": [
+    "Ali Hassan Mwinyi road, behind Las Vegas casino",
+    "P.O.Box 2566 Dar Es Salaam"
+   ],
+   "phone": "682209346",
+   "emails": [
+    "courses@afdar.com"
+   ],
+   "url": "http://afdar.com/",
+   "so": false
+  }
+ ]
+}

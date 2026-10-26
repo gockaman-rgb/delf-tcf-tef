@@ -1,0 +1,87 @@
+{
+ "country": "Roumanie",
+ "iso2": "RO",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCAISE DE BRASOV",
+   "city": "BRASOV",
+   "cp": "500036",
+   "city_cp": "",
+   "address": "33, Bd. Eroilor, 500036 BRASOV",
+   "address_lines": [
+    "33, Bd. Eroilor",
+    "500036 BRASOV"
+   ],
+   "phone": "+40 368 412 179",
+   "emails": [
+    "alliancefrancaisebv@yahoo.fr"
+   ],
+   "url": "www.afbv.ro",
+   "so": false,
+   "products": [],
+   "cci_id": 60,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/60"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE ROUMANIE A BUCAREST",
+   "city": "BUCAREST",
+   "cp": "020051",
+   "city_cp": "",
+   "address": "77 boulevard Dacia, 020051 BUCAREST",
+   "address_lines": [
+    "77 boulevard Dacia",
+    "020051 BUCAREST"
+   ],
+   "phone": "+40 374 125 209",
+   "emails": [],
+   "url": "https://institutfrancais.ro/bucuresti/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 505,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/505"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE ROUMANIE - CLUJ-NAPOCA",
+   "city": "CLUJ-NAPOCA",
+   "cp": "400079",
+   "city_cp": "",
+   "address": "Strada Ion I. C. Brătianu 22, 400079 CLUJ-NAPOCA",
+   "address_lines": [
+    "Strada Ion I. C. Brătianu 22",
+    "400079 CLUJ-NAPOCA"
+   ],
+   "phone": "+40 745 640 393",
+   "emails": [],
+   "url": "https://institutfrancais.ro/cluj-napoca",
+   "so": false,
+   "products": [],
+   "cci_id": 536,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/536"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE IASI",
+   "city": "IASI",
+   "cp": "700259",
+   "city_cp": "",
+   "address": "2 rue Cuza Voda, Palais Braunstein, 700259 IASI",
+   "address_lines": [
+    "2 rue Cuza Voda, Palais Braunstein",
+    "700259 IASI"
+   ],
+   "phone": "+40 232 267 637",
+   "emails": [],
+   "url": "https://institutfrancais.ro/iasi",
+   "so": false,
+   "products": [],
+   "cci_id": 519,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/519"
+  }
+ ]
+}

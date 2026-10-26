@@ -1,0 +1,30 @@
+{
+ "country": "Turkménistan",
+ "iso2": "TM",
+ "fei_id": "435",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "institut français",
+   "city": "Achgabat",
+   "cp": "",
+   "city_cp": "",
+   "address": "69 rue Aga Garryyev (ex Sokolovskog, 744020 Achgabat",
+   "address_lines": [
+    "69 rue Aga Garryyev (ex Sokolovskog",
+    "744020 Achgabat"
+   ],
+   "phone": "993-12-36-83-70",
+   "emails": [
+    "ift.secretaire@gmail.com"
+   ],
+   "url": "http://www.ambafrance-tm.org",
+   "so": false
+  }
+ ]
+}

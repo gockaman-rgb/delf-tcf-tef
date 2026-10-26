@@ -1,0 +1,59 @@
+{
+ "country": "Qatar",
+ "iso2": "QA",
+ "fei_id": "404",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Doha",
+  "cp": "",
+  "city_cp": "",
+  "address": "P.O.box 2669 Doha",
+  "address_lines": [
+   "P.O.box 2669 Doha"
+  ],
+  "phone": "44 93 08 62",
+  "emails": [
+   "direction@institutfrancais-qatar.com"
+  ],
+  "url": "http://www.ambafrance-qa.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Qatar Armed Forces Language Institute",
+   "city": "AL SHAHANIYA",
+   "cp": "",
+   "city_cp": "",
+   "address": "Building: 12, Street: 924, Area: 80, 0000 AL SHAHANIYA",
+   "address_lines": [
+    "Building: 12, Street: 924, Area: 80",
+    "0000 AL SHAHANIYA"
+   ],
+   "phone": "+97444618116",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français du Qatar",
+   "city": "Doha",
+   "cp": "",
+   "city_cp": "",
+   "address": "135 Al Inshirah Street Doha",
+   "address_lines": [
+    "135 Al Inshirah Street Doha"
+   ],
+   "phone": "31680084",
+   "emails": [
+    "exams@if-qatar.com"
+   ],
+   "url": "http://if-qatar.com/",
+   "so": false
+  }
+ ]
+}

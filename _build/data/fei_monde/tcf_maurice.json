@@ -1,0 +1,30 @@
+{
+ "country": "Maurice",
+ "iso2": "MU",
+ "fei_id": "138",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Rose Hill",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 avenue Julius Nyerere, 71366 Rose Hill",
+   "address_lines": [
+    "30 avenue Julius Nyerere",
+    "71366 Rose Hill"
+   ],
+   "phone": "230-467-42-22",
+   "emails": [
+    "formation@ifmaurice.org"
+   ],
+   "url": "http://www.institutfrancais.mu/fr",
+   "so": true
+  }
+ ]
+}

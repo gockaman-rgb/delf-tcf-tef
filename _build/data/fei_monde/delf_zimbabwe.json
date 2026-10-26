@@ -1,0 +1,58 @@
+{
+ "country": "Zimbabwe",
+ "iso2": "ZW",
+ "fei_id": "441",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action culturelle",
+  "city": "Harare",
+  "cp": "",
+  "city_cp": "",
+  "address": "3 Princess Drive Newlands Harare",
+  "address_lines": [
+   "3 Princess Drive Newlands Harare"
+  ],
+  "phone": "+263242704795",
+  "emails": [
+   "director@afharare.co.zw"
+  ],
+  "url": "http://www.ambafrance-zw.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Bulawayo",
+   "city": "Bulawayo",
+   "cp": "",
+   "city_cp": "",
+   "address": "61, HEYMAN ROAD Bulawayo",
+   "address_lines": [
+    "61, HEYMAN ROAD Bulawayo"
+   ],
+   "phone": "0785505821",
+   "emails": [
+    "contact.bulawayo@afzim.org"
+   ],
+   "url": "http://www.bulawayo.alliance.org.za",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Harare",
+   "city": "Harare",
+   "cp": "",
+   "city_cp": "",
+   "address": "328 Herbert CHITEPO Avenue Harare",
+   "address_lines": [
+    "328 Herbert CHITEPO Avenue Harare"
+   ],
+   "phone": "242 704 795",
+   "emails": [],
+   "url": "http://www.afzim.org/harare",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "country": "Comores",
+ "iso2": "KM",
+ "fei_id": "126",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Moroni",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 772 Hankounou, Moroni",
+   "address_lines": [
+    "BP 772 Hankounou",
+    "Moroni"
+   ],
+   "phone": "269-773-10-87",
+   "emails": [
+    "secretariat_afmoroni@af-comores.org"
+   ],
+   "url": "http://www.af-comores.org",
+   "so": true
+  }
+ ]
+}

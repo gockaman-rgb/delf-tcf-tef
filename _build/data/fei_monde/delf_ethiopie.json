@@ -1,0 +1,60 @@
+{
+ "country": "Éthiopie",
+ "iso2": "ET",
+ "fei_id": "345",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Addis-Abeba",
+  "cp": "",
+  "city_cp": "",
+  "address": "PO Box 1733 Arada Subcity kebele 02 Addis-Abeba",
+  "address_lines": [
+   "PO Box 1733 Arada Subcity kebele 02 Addis-Abeba"
+  ],
+  "phone": "+251911247355",
+  "emails": [
+   "aef@allianceaddis.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Éthio-française d'Addis-Abeba",
+   "city": "Addis-Abeba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Wavel Street PB.1733 Addis-Abeba",
+   "address_lines": [
+    "Wavel Street PB.1733 Addis-Abeba"
+   ],
+   "phone": "+251911247355",
+   "emails": [
+    "aef@allianceaddis.org"
+   ],
+   "url": "http://www.allianceaddis.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Éthio-Française de Dire-Daoua",
+   "city": "Dire Daoua",
+   "cp": "",
+   "city_cp": "",
+   "address": "B.P. 69 Dire Daoua",
+   "address_lines": [
+    "B.P. 69 Dire Daoua"
+   ],
+   "phone": "(0)922750602",
+   "emails": [
+    "directeur.aef.diredaoua@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

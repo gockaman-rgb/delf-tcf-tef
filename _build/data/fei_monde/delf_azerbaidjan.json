@@ -1,0 +1,46 @@
+{
+ "country": "Azerbaïdjan",
+ "iso2": "AZ",
+ "fei_id": "324",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Bakou",
+  "cp": "",
+  "city_cp": "",
+  "address": "67, rue Fuzuli, AZ 1014 Bakou",
+  "address_lines": [
+   "67, rue Fuzuli",
+   "AZ 1014 Bakou"
+  ],
+  "phone": "+994125963580",
+  "emails": [
+   "contact@ifa.az"
+  ],
+  "url": "http://www.ifa.az/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français d'Azerbaidjan",
+   "city": "Bakou",
+   "cp": "",
+   "city_cp": "",
+   "address": "67 rue Fizuli, AZ1014 Bakou",
+   "address_lines": [
+    "67 rue Fizuli",
+    "AZ1014 Bakou"
+   ],
+   "phone": "125963580",
+   "emails": [
+    "contact@ifa.az"
+   ],
+   "url": "http://www.ifa.az/",
+   "so": false
+  }
+ ]
+}

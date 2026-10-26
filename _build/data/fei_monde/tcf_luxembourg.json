@@ -1,0 +1,47 @@
+{
+ "country": "Luxembourg",
+ "iso2": "LU",
+ "fei_id": "375",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut national des langues- site Belval",
+   "city": "Esch-Sur-Alzette",
+   "cp": "",
+   "city_cp": "",
+   "address": "14 Porte de France Belval, 4360 Esch-Sur-Alzette",
+   "address_lines": [
+    "14 Porte de France Belval",
+    "4360 Esch-Sur-Alzette"
+   ],
+   "phone": "352-26-44-30-1",
+   "emails": [
+    "tcf@inll.lu"
+   ],
+   "url": "http://inll.lu",
+   "so": false
+  },
+  {
+   "name": "Institut National des Langues",
+   "city": "Luxembourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "21, boulevard de la Foire, 1528 Luxembourg",
+   "address_lines": [
+    "21, boulevard de la Foire",
+    "1528 Luxembourg"
+   ],
+   "phone": "352-26-44-30-361",
+   "emails": [
+    "tcf@inll.lu"
+   ],
+   "url": "http://www.inll.lu",
+   "so": true
+  }
+ ]
+}

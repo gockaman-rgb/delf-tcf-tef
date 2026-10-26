@@ -1,0 +1,91 @@
+{
+ "country": "Émirats arabes unis",
+ "iso2": "AE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "FRENCH EMBASSY/INSTITUT FRANÇAIS-Antenne AFAD",
+   "city": "ABOU DHABI",
+   "cp": "2646",
+   "city_cp": "",
+   "address": "In front of Nissan Showroom, 2646 ABOU DHABI",
+   "address_lines": [
+    "In front of Nissan Showroom",
+    "2646 ABOU DHABI"
+   ],
+   "phone": "+971 2 612 2900",
+   "emails": [
+    "exams@afabudhabi.org"
+   ],
+   "url": "www.afabudhabi.org/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 30,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/30"
+  },
+  {
+   "name": "FRENCH EMBASSY/INSTITUT FRANÇAIS-Antenne AFAD",
+   "city": "Al Ain",
+   "cp": "Al Ain",
+   "city_cp": "",
+   "address": "UAE University Islamic Institute, 1st floor, Wing A, Al Ain Al Ain",
+   "address_lines": [
+    "UAE University Islamic Institute, 1st floor, Wing A",
+    "Al Ain Al Ain"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.afabudhabi.org/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 863,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/863"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CHARJAH",
+   "city": "CHARJAH",
+   "cp": "",
+   "city_cp": "",
+   "address": "Département des Relations Gouvernementales, CHARJAH",
+   "address_lines": [
+    "Département des Relations Gouvernementales",
+    "CHARJAH"
+   ],
+   "phone": "+971 58 582 0875",
+   "emails": [
+    "info@afsharjah.org"
+   ],
+   "url": "www.afsharjah.org",
+   "so": false,
+   "products": [],
+   "cci_id": 950,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/950"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE DUBAÏ",
+   "city": "DUBAÏ",
+   "cp": "4605",
+   "city_cp": "",
+   "address": "18th Street, 4605 DUBAÏ",
+   "address_lines": [
+    "18th Street",
+    "4605 DUBAÏ"
+   ],
+   "phone": "+971 4 335 8712",
+   "emails": [
+    "admin.language@afdubai.org"
+   ],
+   "url": "https://www.afdubai.org",
+   "so": false,
+   "products": [],
+   "cci_id": 87,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/87"
+  }
+ ]
+}

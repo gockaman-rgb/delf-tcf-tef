@@ -1,0 +1,30 @@
+{
+ "country": "Jordanie",
+ "iso2": "JO",
+ "fei_id": "105",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français de Jordanie - Ambassade de France en Jordanie",
+   "city": "Amman",
+   "cp": "",
+   "city_cp": "",
+   "address": "#4, shari'a College street Jebel Al-Weibdeh Square de Paris-BP 9257, 11191 Amman",
+   "address_lines": [
+    "#4, shari'a College street Jebel Al-Weibdeh Square de Paris-BP 9257",
+    "11191 Amman"
+   ],
+   "phone": "962-78956622",
+   "emails": [
+    "info@ifjordan.com"
+   ],
+   "url": "http://www.ifjordan.com",
+   "so": false
+  }
+ ]
+}

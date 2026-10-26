@@ -1,0 +1,47 @@
+{
+ "country": "Grèce",
+ "iso2": "GR",
+ "fei_id": "74",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Athènes",
+   "cp": "",
+   "city_cp": "",
+   "address": "31 rue Sina, 10680 Athènes",
+   "address_lines": [
+    "31 rue Sina",
+    "10680 Athènes"
+   ],
+   "phone": "302-103-398-600",
+   "emails": [
+    "examens@ifg.gr"
+   ],
+   "url": "http://www.ifa.gr",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Thessalonique",
+   "cp": "",
+   "city_cp": "",
+   "address": "Léoforos Stratou 2A, 54640 Thessalonique",
+   "address_lines": [
+    "Léoforos Stratou 2A",
+    "54640 Thessalonique"
+   ],
+   "phone": "30-2310-82-12-31",
+   "emails": [
+    "examens@ift.gr"
+   ],
+   "url": "http://www.ift.gr",
+   "so": true
+  }
+ ]
+}

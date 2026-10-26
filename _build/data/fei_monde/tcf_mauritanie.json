@@ -1,0 +1,28 @@
+{
+ "country": "Mauritanie",
+ "iso2": "MR",
+ "fei_id": "139",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Nouakchott",
+   "cp": "",
+   "city_cp": "",
+   "address": "Villa 240 F - Nord Tevragh Zeina BP 5022, Nouakchott",
+   "address_lines": [
+    "Villa 240 F - Nord Tevragh Zeina BP 5022",
+    "Nouakchott"
+   ],
+   "phone": "222-36-34-82-08",
+   "emails": [],
+   "url": "http://www.reseauafmauritanie.org",
+   "so": true
+  }
+ ]
+}

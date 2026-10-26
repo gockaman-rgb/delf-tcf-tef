@@ -1,0 +1,73 @@
+{
+ "country": "Pérou",
+ "iso2": "PE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE D'AREQUIPA",
+   "city": "AREQUIPA",
+   "cp": "2724",
+   "city_cp": "",
+   "address": "208, calle Santa Calalina, 2724 AREQUIPA",
+   "address_lines": [
+    "208, calle Santa Calalina",
+    "2724 AREQUIPA"
+   ],
+   "phone": "+51 989 430 930",
+   "emails": [
+    "af.arequipa@alianzafrancesa.org.pe"
+   ],
+   "url": "https://afarequipa.org.pe/",
+   "so": false,
+   "products": [],
+   "cci_id": 38,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/38"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CUSCO",
+   "city": "CUSCO",
+   "cp": "08002",
+   "city_cp": "",
+   "address": "Av. de la Cultura 804 Wanchaq, 08002 CUSCO",
+   "address_lines": [
+    "Av. de la Cultura 804 Wanchaq",
+    "08002 CUSCO"
+   ],
+   "phone": "",
+   "emails": [
+    "af.cusco@alianzafrancesa.org.pe"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 79,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/79"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LIMA",
+   "city": "LIMA",
+   "cp": "1667",
+   "city_cp": "",
+   "address": "Avenida Arequipa 4595, 1667 LIMA",
+   "address_lines": [
+    "Avenida Arequipa 4595",
+    "1667 LIMA"
+   ],
+   "phone": "+51 1 6108000",
+   "emails": [
+    "exam.international@alianzafrancesa.org.pe"
+   ],
+   "url": "www.alianzafrancesa.org.pe",
+   "so": false,
+   "products": [],
+   "cci_id": 130,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/130"
+  }
+ ]
+}

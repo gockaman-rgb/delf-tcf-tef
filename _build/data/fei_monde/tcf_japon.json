@@ -1,0 +1,147 @@
+{
+ "country": "Japon",
+ "iso2": "JP",
+ "fei_id": "47",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 8,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Japon – Kansai",
+   "city": "Kyoto",
+   "cp": "",
+   "city_cp": "",
+   "address": "8 Izumidono-cho Yoshida, Sakyo-ku, 606-8301 Kyoto",
+   "address_lines": [
+    "8 Izumidono-cho Yoshida, Sakyo-ku",
+    "606-8301 Kyoto"
+   ],
+   "phone": "81-757-61-21-05",
+   "emails": [
+    "kansai.kyoto@institutfrancais.jp"
+   ],
+   "url": "http://www.institutfrancais.jp/kansai/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Nagoya",
+   "cp": "",
+   "city_cp": "",
+   "address": "Roots Stone 1st Bldg 3F 2- 13, Yotsuya-dori Chikusa-ku, 464-0819 Nagoya",
+   "address_lines": [
+    "Roots Stone 1st Bldg 3F 2- 13, Yotsuya-dori Chikusa-ku",
+    "464-0819 Nagoya"
+   ],
+   "phone": "81-52-781-2822",
+   "emails": [
+    "afnagoya@afafa.jp"
+   ],
+   "url": "http://www.afafa.jp",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Osaka-fu",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hankyu Sangyo Minamimorimachi bldg, 9F 2-2-11 Tenjinbashi, Kita-ku, 530-0041 Osaka-fu",
+   "address_lines": [
+    "Hankyu Sangyo Minamimorimachi bldg, 9F 2-2-11 Tenjinbashi, Kita-ku",
+    "530-0041 Osaka-fu"
+   ],
+   "phone": "81-6-63-58-73-91",
+   "emails": [],
+   "url": "http://www.institutfrancais.jp/kansai",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Sapporo, Hokkaido",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chuo ku Minami 2 jo Nishi 5 chome 10-2 Sunward Bldg 2F, 060-0062 Sapporo, Hokkaido",
+   "address_lines": [
+    "Chuo ku Minami 2 jo Nishi 5 chome 10-2 Sunward Bldg 2F",
+    "060-0062 Sapporo, Hokkaido"
+   ],
+   "phone": "81-11-261-27-71",
+   "emails": [
+    "bureau@afsapporo.jp"
+   ],
+   "url": "http://www.afsapporo.jp",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Sendai",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sakuraomachi building 303 1-2-23 Omachi Aoba-ku Miyagi-Ken, 980-0804 Sendai",
+   "address_lines": [
+    "Sakuraomachi building 303 1-2-23 Omachi Aoba-ku Miyagi-Ken",
+    "980-0804 Sendai"
+   ],
+   "phone": "81-2-22-25-14-75",
+   "emails": [
+    "direction@afsendai.com"
+   ],
+   "url": "https://afsendai.com/wordpress/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Japon",
+   "city": "Tokyo",
+   "cp": "",
+   "city_cp": "",
+   "address": "15 Ichigaya-Funagawara-machi Shinjuku-ku, 162-8415 Tokyo",
+   "address_lines": [
+    "15 Ichigaya-Funagawara-machi Shinjuku-ku",
+    "162-8415 Tokyo"
+   ],
+   "phone": "81-3-52-06-25-00",
+   "emails": [
+    "tokyo.tcf@institutfrancais.jp"
+   ],
+   "url": "http://www.institutfrancais.jp",
+   "so": true
+  },
+  {
+   "name": "Université Gakûshuin",
+   "city": "Tokyo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mejiro 1-5-1 Toshima-Ku, 171-8588 Tokyo",
+   "address_lines": [
+    "Mejiro 1-5-1 Toshima-Ku",
+    "171-8588 Tokyo"
+   ],
+   "phone": "81-3-5992-1099",
+   "emails": [
+    "fr-off@gakushuin.ac.jp"
+   ],
+   "url": "http://www.fr-gakushuin.jp",
+   "so": false
+  },
+  {
+   "name": "Institut français du Japon",
+   "city": "Yokohama",
+   "cp": "",
+   "city_cp": "",
+   "address": "Meiji-ya Onoe-cho bldg. 7F 5-76 Onoe-cho, Naka-ku, 231-0015 Yokohama",
+   "address_lines": [
+    "Meiji-ya Onoe-cho bldg. 7F 5-76 Onoe-cho, Naka-ku",
+    "231-0015 Yokohama"
+   ],
+   "phone": "81-452-011-562",
+   "emails": [
+    "yokohama@institutfrancais.jp"
+   ],
+   "url": "http://www.institutfrancais.jp/yokohama/",
+   "so": false
+  }
+ ]
+}

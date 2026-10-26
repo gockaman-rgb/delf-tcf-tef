@@ -1,0 +1,69 @@
+{
+ "country": "Turquie",
+ "iso2": "TR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE TURQUIE - ANTENNE ANKARA",
+   "city": "ANKARA",
+   "cp": "06550",
+   "city_cp": "",
+   "address": "KONRAD ADENAEUR CADDESI NO: 30 SANCAK MAHALLESI /YILDIZ, 06550 ANKARA",
+   "address_lines": [
+    "KONRAD ADENAEUR CADDESI NO: 30 SANCAK MAHALLESI /YILDIZ",
+    "06550 ANKARA"
+   ],
+   "phone": "+90 312 408 82 22",
+   "emails": [],
+   "url": "https://www.ifturquie.org/fr/ankara/",
+   "so": false,
+   "products": [],
+   "cci_id": 549,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/549"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE TURQUIE ANTENNE ISTANBUL",
+   "city": "ISTANBUL",
+   "cp": "34435",
+   "city_cp": "",
+   "address": "Istiklal Caddesi n° 4, 34435 ISTANBUL",
+   "address_lines": [
+    "Istiklal Caddesi n° 4",
+    "34435 ISTANBUL"
+   ],
+   "phone": "+90 850 755 6800",
+   "emails": [
+    "sinavlar.ist@ifturquie.org"
+   ],
+   "url": "www.ifturquie.org/fr/istanbul/examen-et-diplomes/tcf-et-tef/",
+   "so": false,
+   "products": [],
+   "cci_id": 500,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/500"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE TURQUIE - IZMIR",
+   "city": "IZMIR",
+   "cp": "99",
+   "city_cp": "",
+   "address": "Cumhuriyet Bulvari 152 – Konak, 99 IZMIR",
+   "address_lines": [
+    "Cumhuriyet Bulvari 152 – Konak",
+    "99 IZMIR"
+   ],
+   "phone": "+90 232 466 00 13",
+   "emails": [],
+   "url": "www.ifturquie.org/izmir/",
+   "so": false,
+   "products": [],
+   "cci_id": 550,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/550"
+  }
+ ]
+}

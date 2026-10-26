@@ -1,0 +1,30 @@
+{
+ "country": "Birmanie",
+ "iso2": "MM",
+ "fei_id": "389",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français de Birmanie",
+   "city": "Rangoun",
+   "cp": "",
+   "city_cp": "",
+   "address": "340 Pyay Road Sanchaung Township, Rangoun",
+   "address_lines": [
+    "340 Pyay Road Sanchaung Township",
+    "Rangoun"
+   ],
+   "phone": "95-9-262-611-438",
+   "emails": [
+    "courses@ifbirmanie.org"
+   ],
+   "url": "http://www.ifbirmanie.org",
+   "so": true
+  }
+ ]
+}

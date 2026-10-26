@@ -1,0 +1,48 @@
+{
+ "country": "Tanzanie",
+ "iso2": "TZ",
+ "fei_id": "147",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance Française",
+   "city": "Arusha",
+   "cp": "",
+   "city_cp": "",
+   "address": "Karata Street off Njiro Road Olorien, BP15123 Arusha",
+   "address_lines": [
+    "Karata Street off Njiro Road Olorien",
+    "BP15123 Arusha"
+   ],
+   "phone": "00-255-763-756-386 / 00-255-786-111-414",
+   "emails": [
+    "course@aftarusha.org",
+    "director@aftarusha.org"
+   ],
+   "url": "https://afarusha.wordpress.com/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Dar Es Salaam",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ali Hassan Mwinyi Road (behind Las Vegas Casino) P.O. BOX 2566, Dar Es Salaam",
+   "address_lines": [
+    "Ali Hassan Mwinyi Road (behind Las Vegas Casino) P.O. BOX 2566",
+    "Dar Es Salaam"
+   ],
+   "phone": "255-68-74-81-374",
+   "emails": [
+    "info@afdar.com"
+   ],
+   "url": "http://www.afdar.com",
+   "so": true
+  }
+ ]
+}

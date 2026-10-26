@@ -1,0 +1,55 @@
+{
+ "country": "Côte d'Ivoire",
+ "iso2": "CI",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CCI FRANCE CÔTE D'IVOIRE",
+   "city": "ABIDJAN",
+   "cp": "1",
+   "city_cp": "",
+   "address": "Boulevard de Marseille - Biétry, 1 ABIDJAN",
+   "address_lines": [
+    "Boulevard de Marseille - Biétry",
+    "1 ABIDJAN"
+   ],
+   "phone": "+225 27 21 2 58206",
+   "emails": [
+    "ccifci@ccifci.org"
+   ],
+   "url": "www.ccifci.org/",
+   "so": false,
+   "products": [
+    "TEF IRN"
+   ],
+   "cci_id": 276,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/276"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE CÔTE D'IVOIRE - ABIDJAN",
+   "city": "ABIDJAN",
+   "cp": "1",
+   "city_cp": "",
+   "address": "Rue Franchet d'Esperey, 1 ABIDJAN",
+   "address_lines": [
+    "Rue Franchet d'Esperey",
+    "1 ABIDJAN"
+   ],
+   "phone": "+225 27 20 2 04060",
+   "emails": [
+    "admintests@institutfrancais.ci"
+   ],
+   "url": "www.institutfrancais.ci/",
+   "so": false,
+   "products": [],
+   "cci_id": 510,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/510"
+  }
+ ]
+}

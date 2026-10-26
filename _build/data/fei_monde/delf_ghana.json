@@ -1,0 +1,58 @@
+{
+ "country": "Ghana",
+ "iso2": "GH",
+ "fei_id": "131",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction des cours",
+  "city": "Accra",
+  "cp": "",
+  "city_cp": "",
+  "address": "Casely Hayford Road, Airport Accra",
+  "address_lines": [
+   "Casely Hayford Road, Airport Accra"
+  ],
+  "phone": "0501287805",
+  "emails": [],
+  "url": "https://afaccra.org/home/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Accra",
+   "city": "Accra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Casely-Hayford Link, Airport Residential Area,, CT4904 Accra",
+   "address_lines": [
+    "Casely-Hayford Link, Airport Residential Area,",
+    "CT4904 Accra"
+   ],
+   "phone": "501287805",
+   "emails": [],
+   "url": "http://www.afaccra.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kumasi",
+   "city": "Kumasi",
+   "cp": "",
+   "city_cp": "",
+   "address": "TUC, Up Adams Annor Avenue, Kumasi, 223 Kumasi",
+   "address_lines": [
+    "TUC, Up Adams Annor Avenue, Kumasi",
+    "223 Kumasi"
+   ],
+   "phone": "204289395",
+   "emails": [
+    "afkumasi.director@gmail.com"
+   ],
+   "url": "http://AFKumasi.com",
+   "so": false
+  }
+ ]
+}

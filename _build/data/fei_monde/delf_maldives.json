@@ -1,0 +1,45 @@
+{
+ "country": "Maldives",
+ "iso2": "MV",
+ "fei_id": "378",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "direction",
+  "city": "Colombo 7",
+  "cp": "",
+  "city_cp": "",
+  "address": "11, Barnes Place Colombo 7",
+  "address_lines": [
+   "11, Barnes Place Colombo 7"
+  ],
+  "phone": "0770640629",
+  "emails": [
+   "direction@alliancefrancaise.lk"
+  ],
+  "url": "http://www.alliancefrancaise.lk/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Male'",
+   "city": "Malé",
+   "cp": "",
+   "city_cp": "",
+   "address": "M. Varutha 1st Floor, Asaree, 20158 Malé",
+   "address_lines": [
+    "M. Varutha 1st Floor, Asaree",
+    "20158 Malé"
+   ],
+   "phone": "9478583",
+   "emails": [
+    "direction@afmaldives.org"
+   ],
+   "url": "http://afmaldives.org/",
+   "so": false
+  }
+ ]
+}

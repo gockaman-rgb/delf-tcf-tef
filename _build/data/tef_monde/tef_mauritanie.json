@@ -1,0 +1,31 @@
+{
+ "country": "Mauritanie",
+ "iso2": "MR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "GEU L'ACADÉMIE",
+   "city": "NOUAKCHOTT",
+   "cp": "00000",
+   "city_cp": "",
+   "address": "Ilôt O – n°30A, 00000 NOUAKCHOTT",
+   "address_lines": [
+    "Ilôt O – n°30A",
+    "00000 NOUAKCHOTT"
+   ],
+   "phone": "+222 36 35 84 05",
+   "emails": [],
+   "url": "www.geuacademie.com",
+   "so": false,
+   "products": [],
+   "cci_id": 459,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/459"
+  }
+ ]
+}

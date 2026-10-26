@@ -1,0 +1,59 @@
+{
+ "country": "République dominicaine",
+ "iso2": "DO",
+ "fei_id": "35",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Santo Domingo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Edificio corporativo 2015, piso 17 Calle Filomena Gomez de Cova? Ensanche piantini Santo Domingo",
+  "address_lines": [
+   "Edificio corporativo 2015, piso 17 Calle Filomena Gomez de Cova? Ensanche piantini Santo Domingo"
+  ],
+  "phone": "809 695 43 57",
+  "emails": [],
+  "url": "http://www.ambafrance-do.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française",
+   "city": "Santiago De Los Caballeros",
+   "cp": "",
+   "city_cp": "",
+   "address": "Av. Estrelle Sadhala # 70, 51000 Santiago De Los Caballeros",
+   "address_lines": [
+    "Av. Estrelle Sadhala # 70",
+    "51000 Santiago De Los Caballeros"
+   ],
+   "phone": "809-971-4998",
+   "emails": [
+    "coordinacion.pedagogica@afsantiago.org.do"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Santo Domingo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Horacio Vicioso n°103 Santo Domingo",
+   "address_lines": [
+    "Calle Horacio Vicioso n°103 Santo Domingo"
+   ],
+   "phone": "809-532-2844",
+   "emails": [
+    "direccion@afsd.net"
+   ],
+   "url": "http://www.afsd.net/",
+   "so": false
+  }
+ ]
+}

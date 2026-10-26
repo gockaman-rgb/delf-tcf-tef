@@ -1,0 +1,30 @@
+{
+ "country": "Kenya",
+ "iso2": "KE",
+ "fei_id": "133",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Nairobi",
+   "city": "Nairobi",
+   "cp": "",
+   "city_cp": "",
+   "address": "5, Utalii Lane PO BOX 45475, 00100 Nairobi",
+   "address_lines": [
+    "5, Utalii Lane PO BOX 45475",
+    "00100 Nairobi"
+   ],
+   "phone": "254-20-4917-000",
+   "emails": [
+    "classes@afkenya.org"
+   ],
+   "url": "https://afkenya.org/",
+   "so": true
+  }
+ ]
+}

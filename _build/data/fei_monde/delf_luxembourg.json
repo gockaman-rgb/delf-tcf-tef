@@ -1,0 +1,59 @@
+{
+ "country": "Luxembourg",
+ "iso2": "LU",
+ "fei_id": "375",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Luxembourg",
+  "cp": "",
+  "city_cp": "",
+  "address": "21, bd de la Foire L-1528 Luxembourg, L-1528 Luxembourg",
+  "address_lines": [
+   "21, bd de la Foire L-1528 Luxembourg",
+   "L-1528 Luxembourg"
+  ],
+  "phone": "26 44 30 361",
+  "emails": [],
+  "url": "http://www.inll.lu/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut national des langues Luxembourg( INLL )",
+   "city": "Luxembourg Ville",
+   "cp": "",
+   "city_cp": "",
+   "address": "21, boulevard de la Foire, L-1528 Luxembourg Ville",
+   "address_lines": [
+    "21, boulevard de la Foire",
+    "L-1528 Luxembourg Ville"
+   ],
+   "phone": "264430361",
+   "emails": [
+    "delf-dalf@inll.lu"
+   ],
+   "url": "http://www.inll.lu/",
+   "so": false
+  },
+  {
+   "name": "Lycée Michel Lucius",
+   "city": "Luxembourg Ville",
+   "cp": "",
+   "city_cp": "",
+   "address": "157 avenue Pasteur, 2311 Luxembourg Ville",
+   "address_lines": [
+    "157 avenue Pasteur",
+    "2311 Luxembourg Ville"
+   ],
+   "phone": "288315703",
+   "emails": [],
+   "url": "http://www.lml.lu/",
+   "so": false
+  }
+ ]
+}

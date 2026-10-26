@@ -1,0 +1,45 @@
+{
+ "country": "Pologne",
+ "iso2": "PL",
+ "fei_id": "85",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Cracovie",
+   "cp": "",
+   "city_cp": "",
+   "address": "UL. Stolarska 15, 31-043 Cracovie",
+   "address_lines": [
+    "UL. Stolarska 15",
+    "31-043 Cracovie"
+   ],
+   "phone": "48-12-424-53-50",
+   "emails": [],
+   "url": "http://www.institutfrancais.pl",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Varsovie",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plac Europejski 3, 00-844 Varsovie",
+   "address_lines": [
+    "Plac Europejski 3",
+    "00-844 Varsovie"
+   ],
+   "phone": "48-22-505-98-00",
+   "emails": [
+    "egzaminy@institutfrancais.pl"
+   ],
+   "url": "http://www.institutfrancais.pl",
+   "so": false
+  }
+ ]
+}

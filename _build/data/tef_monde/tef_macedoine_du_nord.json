@@ -1,0 +1,33 @@
+{
+ "country": "Macédoine du nord",
+ "iso2": "MK",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE SKOPJE",
+   "city": "SKOPJE",
+   "cp": "1000",
+   "city_cp": "",
+   "address": "48, ul. Sv. Kiril i Metodij, 1000 SKOPJE",
+   "address_lines": [
+    "48, ul. Sv. Kiril i Metodij",
+    "1000 SKOPJE"
+   ],
+   "phone": "+389 2 311 8503",
+   "emails": [
+    "education@ifs.mk"
+   ],
+   "url": "www.ifs.mk",
+   "so": false,
+   "products": [],
+   "cci_id": 528,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/528"
+  }
+ ]
+}

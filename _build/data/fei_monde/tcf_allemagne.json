@@ -1,0 +1,228 @@
+{
+ "country": "Allemagne",
+ "iso2": "DE",
+ "fei_id": "60",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 13,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut Culturel Franco-Allemand Aix-la-Chapelle",
+   "city": "Aachen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Centre de passation Lothringerstraße 62, 52070 Aachen",
+   "address_lines": [
+    "Centre de passation Lothringerstraße 62",
+    "52070 Aachen"
+   ],
+   "phone": "0241-33274",
+   "emails": [
+    "delf@ifaachen.de"
+   ],
+   "url": "https://www.ifaachen.de/#/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Berlin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kurfürstendamm 211, 10719 Berlin",
+   "address_lines": [
+    "Kurfürstendamm 211",
+    "10719 Berlin"
+   ],
+   "phone": "49-30-885-902-19",
+   "emails": [],
+   "url": "http://www.institutfrancais.de/berlin/",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Bonn",
+   "cp": "",
+   "city_cp": "",
+   "address": "Adenauerallee 35, 53113 Bonn",
+   "address_lines": [
+    "Adenauerallee 35",
+    "53113 Bonn"
+   ],
+   "phone": "49-228-733-288",
+   "emails": [
+    "pruefungen.institutfrancais@uni-bonn.de"
+   ],
+   "url": "http://www.fif.uni-bonn.de",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Bremen (Brême)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Contrescarpe 19, 28203 Bremen (Brême)",
+   "address_lines": [
+    "Contrescarpe 19",
+    "28203 Bremen (Brême)"
+   ],
+   "phone": "49-421-339-44-20",
+   "emails": [
+    "kurse.bremen@institutfrancais.de"
+   ],
+   "url": "http://www.institutfrancais.de/fr/bremen",
+   "so": true
+  },
+  {
+   "name": "Institut Français",
+   "city": "Dresden",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lingnerallee 3, Südeingang, EG, 01069 Dresden",
+   "address_lines": [
+    "Lingnerallee 3, Südeingang, EG",
+    "01069 Dresden"
+   ],
+   "phone": "49-351-482-18-94",
+   "emails": [
+    "info.dresden@institutfrancais.de"
+   ],
+   "url": "http://www.dresden.institutfrancais.de",
+   "so": false
+  },
+  {
+   "name": "Institut franco-allemand",
+   "city": "Erlangen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sudliche Stadtmauerstr.37, 91054 Erlangen",
+   "address_lines": [
+    "Sudliche Stadtmauerstr.37",
+    "91054 Erlangen"
+   ],
+   "phone": "0049-91-31-97-91-370",
+   "emails": [
+    "pruefungen@dfi-erlangen.de"
+   ],
+   "url": "http://www.dfi-erlangen.de/",
+   "so": true
+  },
+  {
+   "name": "Eloquia GmbH - Sprachinstitut",
+   "city": "Frankfurt/Main",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kaiserstrasse 10, 60311 Frankfurt/Main",
+   "address_lines": [
+    "Kaiserstrasse 10",
+    "60311 Frankfurt/Main"
+   ],
+   "phone": "49-69-23-85-93-13",
+   "emails": [],
+   "url": "http://www.eloquia.com",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Hambourg",
+   "city": "Hambourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Heimhuder Straße 55, 20148 Hambourg",
+   "address_lines": [
+    "Heimhuder Straße 55",
+    "20148 Hambourg"
+   ],
+   "phone": "+49-4041332515",
+   "emails": [
+    "info.hamburg@institutfrancais.de"
+   ],
+   "url": "https://www.institutfrancais.de/de/hamburg#/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Mainz",
+   "cp": "",
+   "city_cp": "",
+   "address": "Schillerstrasse 11, 55116 Mainz",
+   "address_lines": [
+    "Schillerstrasse 11",
+    "55116 Mainz"
+   ],
+   "phone": "49-6131-28-22-915",
+   "emails": [],
+   "url": "http://www.mainz.institutfrancais.de",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Mannheim",
+   "cp": "",
+   "city_cp": "",
+   "address": "Metropolregion Rhein-Neckar e.V D5, Museum Weltkulturen, 68159 Mannheim",
+   "address_lines": [
+    "Metropolregion Rhein-Neckar e.V D5, Museum Weltkulturen",
+    "68159 Mannheim"
+   ],
+   "phone": "49-621-293-2846",
+   "emails": [
+    "tcf@if-mannheim.eu"
+   ],
+   "url": "https://www.if-mannheim.eu/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Munich",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kaulbachstrasse 13, 80539 Munich",
+   "address_lines": [
+    "Kaulbachstrasse 13",
+    "80539 Munich"
+   ],
+   "phone": "49-89-28-66-280",
+   "emails": [
+    "kurse.mun@institutfrancais.de"
+   ],
+   "url": "http://www.institutfrancais.de/muenchen",
+   "so": true
+  },
+  {
+   "name": "Institut français d'Allemagne, antenne Stuttgart",
+   "city": "Stuttgart",
+   "cp": "",
+   "city_cp": "",
+   "address": "Schloßstraße 51, 70174 Stuttgart",
+   "address_lines": [
+    "Schloßstraße 51",
+    "70174 Stuttgart"
+   ],
+   "phone": "497112392524",
+   "emails": [
+    "bcle.stuttgart@institutfrancais.de"
+   ],
+   "url": "https://www.institutfrancais.de/de/stuttgart#/",
+   "so": true
+  },
+  {
+   "name": "Institut culturel franco-allemand",
+   "city": "Tübingen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Doblerstrasse 25, 72074 Tübingen",
+   "address_lines": [
+    "Doblerstrasse 25",
+    "72074 Tübingen"
+   ],
+   "phone": "49-707-156-79-24",
+   "emails": [
+    "kurse@icfa-tuebingen.de"
+   ],
+   "url": "http://www.icfa-tuebingen.de",
+   "so": false
+  }
+ ]
+}

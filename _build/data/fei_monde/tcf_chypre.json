@@ -1,0 +1,47 @@
+{
+ "country": "Chypre",
+ "iso2": "CY",
+ "fei_id": "67",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Kyrenia, Cquals Language Services",
+   "city": "Kyrenia",
+   "cp": "",
+   "city_cp": "",
+   "address": "52 Bogaz Yolu Caddesi, Kyrenia",
+   "address_lines": [
+    "52 Bogaz Yolu Caddesi",
+    "Kyrenia"
+   ],
+   "phone": "00-90-392-815-4010",
+   "emails": [
+    "info@cquals.com"
+   ],
+   "url": "https://cquals.com/",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Chypre",
+   "city": "Nicosie",
+   "cp": "",
+   "city_cp": "",
+   "address": "59 avenue Strovolos, 2018 Nicosie",
+   "address_lines": [
+    "59 avenue Strovolos",
+    "2018 Nicosie"
+   ],
+   "phone": "357-22-45-93-33",
+   "emails": [
+    "contact@ifchypre.org"
+   ],
+   "url": "http://www.ifchypre.org",
+   "so": true
+  }
+ ]
+}

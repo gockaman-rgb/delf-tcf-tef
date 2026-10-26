@@ -88,6 +88,9 @@ en Tunisie, en Algérie —, <strong>le prix est national</strong> : le même pa
 partagent le marché — la France, le Canada, les États-Unis, l'Amérique latine —, il varie d'un centre à l'autre,
 parfois du simple au double. Et dans plusieurs pays, le prix n'est tout simplement pas publié : il ne s'affiche
 qu'au moment de payer, ou dans un calendrier PDF.</p>
+<p>Le détail <strong>ville par ville</strong> — 21 pays, les États-Unis et le Canada centre par centre, le Golfe —
+est sur la page <a href="/tcf-canada/prix-inscription/#prix-par-pays">Prix du TCF Canada 2026 par pays et par
+ville</a>, mise à jour le 26 octobre 2026.</p>
 
 <h2 id="pas-de-tarif">Ce qui n'existe pas : le tarif officiel</h2>
 

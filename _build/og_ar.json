@@ -11,5 +11,9 @@
  ["ar-tcf-canada-uae", "TCF Canada في الإمارات", "1800", "درهم · دبي وأبوظبي"],
  ["ar-tcf-canada-saudi-arabia", "TCF Canada في السعودية", "1950", "ريالًا · جدة والرياض"],
  ["ar-tcf-canada-egypt", "TCF Canada في مصر", "3", "مراكز · القاهرة والإسكندرية"],
- ["ar-tcf-canada-lebanon", "TCF Canada في لبنان", "6", "مراكز للمعهد الفرنسي"]
+ ["ar-tcf-canada-lebanon", "TCF Canada في لبنان", "6", "مراكز للمعهد الفرنسي"],
+ ["ar-tcf-canada-jordan", "TCF Canada في الأردن", "3", "جلسات في السنة · عمّان"],
+ ["ar-tcf-canada-qatar", "TCF Canada في قطر", "1300", "ريال قطري · الدوحة"],
+ ["ar-tcf-canada-kuwait", "TCF Canada في الكويت", "130", "دينارًا كويتيًا لامتحان TEF Canada"],
+ ["ar-test-centre-near-me", "مركز امتحان قريب منك", "181", "بلدًا · مراكز TCF وDELF-DALF وTEF"]
 ]

@@ -1,0 +1,56 @@
+{
+ "country": "Somalie",
+ "iso2": "SO",
+ "fei_id": "424",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action culturelle",
+  "city": "Hargeisa",
+  "cp": "",
+  "city_cp": "",
+  "address": "Sha'ab area, opposite to Goud Motors, 00 Hargeisa",
+  "address_lines": [
+   "Sha'ab area, opposite to Goud Motors",
+   "00 Hargeisa"
+  ],
+  "phone": "+252634414199",
+  "emails": [],
+  "url": "https://www.instagram.com/cerclefrancaishargeisa/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Centre de Langue Francaise, Universite EDNA ADAN",
+   "city": "Hargeisa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Iftin Road, 00 Hargeisa",
+   "address_lines": [
+    "Iftin Road",
+    "00 Hargeisa"
+   ],
+   "phone": "252634421440",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Cercle Français de Hargeisa",
+   "city": "Hargeisa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sha'ab area, opposit Goud Motors Hargeisa",
+   "address_lines": [
+    "Sha'ab area, opposit Goud Motors Hargeisa"
+   ],
+   "phone": "+252634421440",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

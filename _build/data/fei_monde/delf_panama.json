@@ -1,0 +1,74 @@
+{
+ "country": "Panama",
+ "iso2": "PA",
+ "fei_id": "32",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Panama",
+  "cp": "",
+  "city_cp": "",
+  "address": "Calle 44 con avenida Justo Arosemena Ed. Casa Blanca aptdo 0816-00611 Zona 5 Panama",
+  "address_lines": [
+   "Calle 44 con avenida Justo Arosemena Ed. Casa Blanca aptdo 0816-00611 Zona 5 Panama"
+  ],
+  "phone": "264 19 31",
+  "emails": [
+   "direccion@afpanama.org"
+  ],
+  "url": "http://www.alianzafrancesapanama.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de David",
+   "city": "David",
+   "cp": "",
+   "city_cp": "",
+   "address": "Barrio Boliar David",
+   "address_lines": [
+    "Barrio Boliar David"
+   ],
+   "phone": "66783035",
+   "emails": [
+    "direccion@afpanama.org"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Panama",
+   "city": "Panama",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 44 Bella Vista, Casa Blanca Panama",
+   "address_lines": [
+    "Calle 44 Bella Vista, Casa Blanca Panama"
+   ],
+   "phone": "63306289",
+   "emails": [
+    "pedagogia@afpanama.org"
+   ],
+   "url": "https://afpanama.org/",
+   "so": false
+  },
+  {
+   "name": "Lycée Français International de Panama",
+   "city": "Panama",
+   "cp": "",
+   "city_cp": "",
+   "address": "Edificio 810 Ave. Ingenieros, Panamá Pacifico, Panamá Panama",
+   "address_lines": [
+    "Edificio 810 Ave. Ingenieros, Panamá Pacifico, Panamá Panama"
+   ],
+   "phone": "61577066",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

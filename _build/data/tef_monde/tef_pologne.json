@@ -1,0 +1,55 @@
+{
+ "country": "Pologne",
+ "iso2": "PL",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE KATOWICE",
+   "city": "KATOWICE",
+   "cp": "40-013",
+   "city_cp": "",
+   "address": "ul. Staromiejska 12/3, 40-013 KATOWICE",
+   "address_lines": [
+    "ul. Staromiejska 12/3",
+    "40-013 KATOWICE"
+   ],
+   "phone": "+48 518 868 344",
+   "emails": [
+    "afkatowice.sekretariat@gmail.com"
+   ],
+   "url": "https://katowice.afpolska.pl/",
+   "so": false,
+   "products": [],
+   "cci_id": 114,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/114"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LODZ",
+   "city": "LODZ",
+   "cp": "91002",
+   "city_cp": "",
+   "address": "Drewnowska 58A, 91002 LODZ",
+   "address_lines": [
+    "Drewnowska 58A",
+    "91002 LODZ"
+   ],
+   "phone": "+48 506 360 905",
+   "emails": [
+    "egzaminy@aflodz.pl"
+   ],
+   "url": "www.aflodz.pl",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 132,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/132"
+  }
+ ]
+}

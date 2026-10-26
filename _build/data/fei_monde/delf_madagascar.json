@@ -1,0 +1,420 @@
+{
+ "country": "Madagascar",
+ "iso2": "MG",
+ "fei_id": "136",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 24,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Tananarive",
+  "cp": "",
+  "city_cp": "",
+  "address": "3, Rue Jean Jaurès, 101 Tananarive",
+  "address_lines": [
+   "3, Rue Jean Jaurès",
+   "101 Tananarive"
+  ],
+  "phone": "261383827001",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Ambanja",
+   "city": "Ambanja",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française d'Ambanja BP 91 - CP 203, 203 Ambanja",
+   "address_lines": [
+    "Alliance française d'Ambanja BP 91 - CP 203",
+    "203 Ambanja"
+   ],
+   "phone": "327746430",
+   "emails": [
+    "ambanjaaf@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Ambatondrazaka",
+   "city": "Ambatondrazaka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française d'Ambatondrazaka BP 31 - CP 503, 503 Ambatondrazaka",
+   "address_lines": [
+    "Alliance française d'Ambatondrazaka BP 31 - CP 503",
+    "503 Ambatondrazaka"
+   ],
+   "phone": "320511918",
+   "emails": [],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Ambilobe",
+   "city": "Ambilobe",
+   "cp": "",
+   "city_cp": "",
+   "address": "XXX Ambilobe",
+   "address_lines": [
+    "XXX Ambilobe"
+   ],
+   "phone": "383827001",
+   "emails": [
+    "afambilobe@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Ambositra",
+   "city": "Ambositra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française d'Ambositra BP 107 - CP 306, 306 Ambositra",
+   "address_lines": [
+    "Alliance française d'Ambositra BP 107 - CP 306",
+    "306 Ambositra"
+   ],
+   "phone": "321211962",
+   "emails": [
+    "peda.afambositra@gmail.com"
+   ],
+   "url": "http://alliancefrancaisea.wixsite.com/afambositra",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tananarive",
+   "city": "Antananarivo",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 916 - Andavamamba, 101 Antananarivo",
+   "address_lines": [
+    "BP 916 - Andavamamba",
+    "101 Antananarivo"
+   ],
+   "phone": "383827001",
+   "emails": [],
+   "url": "http://www.aftana.alliancefr.mg",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Antsirabe",
+   "city": "Antsirabe",
+   "cp": "",
+   "city_cp": "",
+   "address": "B.P. 222 Rue Ranchot, 110 Antsirabe",
+   "address_lines": [
+    "B.P. 222 Rue Ranchot",
+    "110 Antsirabe"
+   ],
+   "phone": "349711988",
+   "emails": [
+    "direction.afantsirabe@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Antsiranana",
+   "city": "Antsiranana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française d'Antsiranana BP 180 - CP 201, 201 Antsiranana",
+   "address_lines": [
+    "Alliance française d'Antsiranana BP 180 - CP 201",
+    "201 Antsiranana"
+   ],
+   "phone": "0320311911",
+   "emails": [
+    "direction.afdiego@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Antsohihy",
+   "city": "Antsohihy",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française d'Antsohihy BP 43 - 407, 407 Antsohihy",
+   "address_lines": [
+    "Alliance française d'Antsohihy BP 43 - 407",
+    "407 Antsohihy"
+   ],
+   "phone": "344902761",
+   "emails": [
+    "afantsohihy@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Fandriana",
+   "city": "Fandriana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Fandriana BP 56 - CP 308, 308 Fandriana",
+   "address_lines": [
+    "Alliance française de Fandriana BP 56 - CP 308",
+    "308 Fandriana"
+   ],
+   "phone": "329395332",
+   "emails": [
+    "affandriana@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Farafangana",
+   "city": "Farafangana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Farafangana BP 238 - CP 309, 309 Farafangana",
+   "address_lines": [
+    "Alliance française de Farafangana BP 238 - CP 309",
+    "309 Farafangana"
+   ],
+   "phone": "0341607202",
+   "emails": [
+    "affarafangana@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Fianarantsoa",
+   "city": "Fianarantsoa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Fianarantsoa BP 1293 CP 301, 301 Fianarantsoa",
+   "address_lines": [
+    "Alliance française de Fianarantsoa BP 1293 CP 301",
+    "301 Fianarantsoa"
+   ],
+   "phone": "383827001",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Fort Dauphin",
+   "city": "Fort-Dauphin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Fort Dauphin Bazarikely BP 228, 614 Fort-Dauphin",
+   "address_lines": [
+    "Alliance française de Fort Dauphin Bazarikely BP 228",
+    "614 Fort-Dauphin"
+   ],
+   "phone": "0322242733",
+   "emails": [],
+   "url": "https://web.facebook.com/alliancefrancaisefortdauphin",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Majunga",
+   "city": "Majunga",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Majunga, 401 Majunga",
+   "address_lines": [
+    "Alliance française de Majunga",
+    "401 Majunga"
+   ],
+   "phone": "320511984",
+   "emails": [],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Manakara",
+   "city": "Manakara",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Manakara BP 96 - CP 316, 316 Manakara",
+   "address_lines": [
+    "Alliance française de Manakara BP 96 - CP 316",
+    "316 Manakara"
+   ],
+   "phone": "0346260274",
+   "emails": [
+    "afmanakara7v@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Mananjary",
+   "city": "Mananjary",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Mananjary BP 50 - CP 317, 317 Mananjary",
+   "address_lines": [
+    "Alliance française de Mananjary BP 50 - CP 317",
+    "317 Mananjary"
+   ],
+   "phone": "343825785",
+   "emails": [
+    "mananjaryaf@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Moramanga",
+   "city": "Moramanga",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Moramanga, 514 Moramanga",
+   "address_lines": [
+    "Alliance française de Moramanga",
+    "514 Moramanga"
+   ],
+   "phone": "0205690865",
+   "emails": [
+    "afmoramanga@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Morombe",
+   "city": "Morombe",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Morombe BP - CP 618, 618 Morombe",
+   "address_lines": [
+    "Alliance française de Morombe BP - CP 618",
+    "618 Morombe"
+   ],
+   "phone": "324015198",
+   "emails": [
+    "afmorombe@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Morondava",
+   "city": "Morondava",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Morondava BP 312 - CP 619, 619 Morondava",
+   "address_lines": [
+    "Alliance française de Morondava BP 312 - CP 619",
+    "619 Morondava"
+   ],
+   "phone": "386547839",
+   "emails": [
+    "afmorondava@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Nosy Be",
+   "city": "Nosy Be",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Nosy Be BP 230 - CP 207, 207 Nosy Be",
+   "address_lines": [
+    "Alliance française de Nosy Be BP 230 - CP 207",
+    "207 Nosy Be"
+   ],
+   "phone": "320511967",
+   "emails": [],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Sainte Marie",
+   "city": "Sainte-Marie",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Sainte Marie BP 2 - CP 515, 515 Sainte-Marie",
+   "address_lines": [
+    "Alliance française de Sainte Marie BP 2 - CP 515",
+    "515 Sainte-Marie"
+   ],
+   "phone": "0205791281",
+   "emails": [
+    "afsaintemarie@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Sambava",
+   "city": "Sambava",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Sambava BP 5A - CP 208, 208 Sambava",
+   "address_lines": [
+    "Alliance française de Sambava BP 5A - CP 208",
+    "208 Sambava"
+   ],
+   "phone": "0320511916",
+   "emails": [
+    "afsambava@gmail.com"
+   ],
+   "url": "https://www.facebook.com/alliancefrancaisesambava/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tamatave",
+   "city": "Tamatave",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Tamatave BP 469 CP 501, 501 Tamatave",
+   "address_lines": [
+    "Alliance française de Tamatave BP 469 CP 501",
+    "501 Tamatave"
+   ],
+   "phone": "0205333494",
+   "emails": [
+    "direction.aftamatave@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tsiroanomandidy",
+   "city": "Tsiroanomandidy",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Tsiroanomandidy BP 09 - CP 119, 119 Tsiroanomandidy",
+   "address_lines": [
+    "Alliance française de Tsiroanomandidy BP 09 - CP 119",
+    "119 Tsiroanomandidy"
+   ],
+   "phone": "261322820877",
+   "emails": [],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tuléar",
+   "city": "Tulear",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alliance française de Tuléar BP 370 - CP 601, 601 Tulear",
+   "address_lines": [
+    "Alliance française de Tuléar BP 370 - CP 601",
+    "601 Tulear"
+   ],
+   "phone": "0209441392",
+   "emails": [
+    "aftulear@gmail.com"
+   ],
+   "url": "http://www.alliancefr.mg/",
+   "so": false
+  }
+ ]
+}

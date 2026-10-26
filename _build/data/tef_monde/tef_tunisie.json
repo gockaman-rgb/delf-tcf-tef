@@ -1,0 +1,225 @@
+{
+ "country": "Tunisie",
+ "iso2": "TN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 11,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE TUNIS",
+   "city": "ARIANA",
+   "cp": "2091",
+   "city_cp": "",
+   "address": "29 Rue Ali Ibn Abi Taleb Menzah 6, 2091 ARIANA",
+   "address_lines": [
+    "29 Rue Ali Ibn Abi Taleb Menzah 6",
+    "2091 ARIANA"
+   ],
+   "phone": "+216 24 897 751",
+   "emails": [
+    "contact@alliancefr.tn"
+   ],
+   "url": "www.alliancefr.tn",
+   "so": false,
+   "products": [],
+   "cci_id": 215,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/215"
+  },
+  {
+   "name": "ESPRIT LANGUAGE CENTER ELC",
+   "city": "ARIANA",
+   "cp": "2035",
+   "city_cp": "",
+   "address": "18 rue de l'Usine - Charguia, 2035 ARIANA",
+   "address_lines": [
+    "18 rue de l'Usine - Charguia",
+    "2035 ARIANA"
+   ],
+   "phone": "+216 70 250 052",
+   "emails": [
+    "elc@esprit.tn"
+   ],
+   "url": "www.esprit.tn",
+   "so": false,
+   "products": [],
+   "cci_id": 413,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/413"
+  },
+  {
+   "name": "THE SPACE OF WISDOM - TUNIS",
+   "city": "ARIANA",
+   "cp": "2091",
+   "city_cp": "",
+   "address": "31, Rue Moaouia Ibn Abi Sofiene, 2091 ARIANA",
+   "address_lines": [
+    "31, Rue Moaouia Ibn Abi Sofiene",
+    "2091 ARIANA"
+   ],
+   "phone": "+216 27 736 923",
+   "emails": [],
+   "url": "https://spaceofwisdom.tn",
+   "so": false,
+   "products": [],
+   "cci_id": 682,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/682"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE BIZERTE",
+   "city": "BIZERTE",
+   "cp": "7000",
+   "city_cp": "",
+   "address": "26, Rue Ali Khamessi, 7000 BIZERTE",
+   "address_lines": [
+    "26, Rue Ali Khamessi",
+    "7000 BIZERTE"
+   ],
+   "phone": "+216 98 186 871",
+   "emails": [
+    "INFO@alliancefr-bizerte.tn"
+   ],
+   "url": "https://www.alliancefr-bizerte.tn/",
+   "so": false,
+   "products": [],
+   "cci_id": 53,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/53"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE DJERBA",
+   "city": "Djerba",
+   "cp": "4180",
+   "city_cp": "",
+   "address": "7 rue Ettaamir, 4180 Djerba",
+   "address_lines": [
+    "7 rue Ettaamir",
+    "4180 Djerba"
+   ],
+   "phone": "+216 50 077 494",
+   "emails": [
+    "direction.afdjerba@gmail.com"
+   ],
+   "url": "www.alliancefr-djerba.tn",
+   "so": false,
+   "products": [],
+   "cci_id": 761,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/761"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE GAFSA",
+   "city": "GAFSA",
+   "cp": "2100",
+   "city_cp": "",
+   "address": "Cité Echérif, rue Platon, 2100 GAFSA",
+   "address_lines": [
+    "Cité Echérif, rue Platon",
+    "2100 GAFSA"
+   ],
+   "phone": "+216 22 138 334",
+   "emails": [
+    "af.gafsa@gmail.com"
+   ],
+   "url": "https://www.facebook.com/gafsa.af/",
+   "so": false,
+   "products": [],
+   "cci_id": 95,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/95"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE TUNISIE - SFAX",
+   "city": "SFAX",
+   "cp": "3093",
+   "city_cp": "",
+   "address": "Maison de France, 3093 SFAX",
+   "address_lines": [
+    "Maison de France",
+    "3093 SFAX"
+   ],
+   "phone": "+216 74 224 205",
+   "emails": [],
+   "url": "http://www.institutfrancais-tunisie.com/sfax#/",
+   "so": false,
+   "products": [],
+   "cci_id": 541,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/541"
+  },
+  {
+   "name": "THE SPACE OF WISDOM - SFAX",
+   "city": "SFAX",
+   "cp": "3093",
+   "city_cp": "",
+   "address": "Route de Lafrane, 3093 SFAX",
+   "address_lines": [
+    "Route de Lafrane",
+    "3093 SFAX"
+   ],
+   "phone": "+216 27 675 700",
+   "emails": [
+    "spaceofwisdomtef.dfp2018@gmail.com"
+   ],
+   "url": "https://spaceofwisdom.tn",
+   "so": false,
+   "products": [],
+   "cci_id": 683,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/683"
+  },
+  {
+   "name": "ECOLE POLYTECHNIQUE DE SOUSSE",
+   "city": "SOUSSE",
+   "cp": "4021",
+   "city_cp": "",
+   "address": "Campus universitaire Ecole Polytechnique de Sousse - Route de ceinture - Entrée Kalaa Sghira, 4021 SOUSSE",
+   "address_lines": [
+    "Campus universitaire Ecole Polytechnique de Sousse - Route de ceinture - Entrée Kalaa Sghira",
+    "4021 SOUSSE"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://www.polytecsousse.tn/",
+   "so": false,
+   "products": [],
+   "cci_id": 395,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/395"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE TUNISIE - SOUSSE",
+   "city": "SOUSSE",
+   "cp": "4000",
+   "city_cp": "",
+   "address": "15, rue abou hamad el ghazali, bouhsina, 4000 SOUSSE",
+   "address_lines": [
+    "15, rue abou hamad el ghazali, bouhsina",
+    "4000 SOUSSE"
+   ],
+   "phone": "+216 58 440 344",
+   "emails": [],
+   "url": "https://www.institutfrancais-tunisie.com/sousse#/",
+   "so": false,
+   "products": [],
+   "cci_id": 547,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/547"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE TUNISIE - TUNIS",
+   "city": "TUNIS",
+   "cp": "1080",
+   "city_cp": "",
+   "address": "20-22 Avenue de Paris BP 180, 1080 TUNIS",
+   "address_lines": [
+    "20-22 Avenue de Paris BP 180",
+    "1080 TUNIS"
+   ],
+   "phone": "+216 31 325 241",
+   "emails": [],
+   "url": "www.institutfrancais-tunisie.com",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 548,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/548"
+  }
+ ]
+}

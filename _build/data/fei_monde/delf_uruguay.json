@@ -1,0 +1,61 @@
+{
+ "country": "Uruguay",
+ "iso2": "UY",
+ "fei_id": "37",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Montevideo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avenida Uruguay 853, 11400 Montevideo",
+  "address_lines": [
+   "Avenida Uruguay 853",
+   "11400 Montevideo"
+  ],
+  "phone": "+59894277656",
+  "emails": [],
+  "url": "http://uy.ambafrance.org",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Montevideo",
+   "city": "Montevideo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bulevard Artigas 1271, 11200 Montevideo",
+   "address_lines": [
+    "Bulevard Artigas 1271",
+    "11200 Montevideo"
+   ],
+   "phone": "24000505",
+   "emails": [
+    "pedagogia@alianzafrancesa.edu.uy"
+   ],
+   "url": "http://www.alianzafrancesa.edu.uy/",
+   "so": false
+  },
+  {
+   "name": "ANEP-CODICEN Dirección de Políticas Lingüísticas",
+   "city": "Montevideo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avda. Agraciada 3253, esquina Maturana, 11700 Montevideo",
+   "address_lines": [
+    "Avda. Agraciada 3253, esquina Maturana",
+    "11700 Montevideo"
+   ],
+   "phone": "598 2 304 2761",
+   "emails": [
+    "secretaria.lenguas@anep.edu.uy"
+   ],
+   "url": "http://www.anep.edu.uy/codicen/politicas-linguisticas",
+   "so": false
+  }
+ ]
+}

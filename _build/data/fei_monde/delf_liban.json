@@ -1,0 +1,154 @@
+{
+ "country": "Liban",
+ "iso2": "LB",
+ "fei_id": "106",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 9,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Centre de langue",
+  "city": "Beyrouth",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rue de Damas Beyrouth",
+  "address_lines": [
+   "Rue de Damas Beyrouth"
+  ],
+  "phone": "1 420272",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Liban - Baalbeck",
+   "city": "Baalbeck",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue de l'Evêché Baalbeck",
+   "address_lines": [
+    "Rue de l'Evêché Baalbeck"
+   ],
+   "phone": "8377436",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban",
+   "city": "Beyrouth",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ambassade de France au Liban Beyrouth",
+   "address_lines": [
+    "Ambassade de France au Liban Beyrouth"
+   ],
+   "phone": "1 420272",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Deir El Kamar",
+   "city": "Deir El Kamar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Place Dany Chamoun - Palais de l'Emir Fakhreddine 2 Deir El Kamar",
+   "address_lines": [
+    "Place Dany Chamoun - Palais de l'Emir Fakhreddine 2 Deir El Kamar"
+   ],
+   "phone": "25510016",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Jounieh",
+   "city": "Jounieh",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue du Père Abi Akl - Enceinte du Collège des Apôtres, 617 Jounieh",
+   "address_lines": [
+    "Rue du Père Abi Akl - Enceinte du Collège des Apôtres",
+    "617 Jounieh"
+   ],
+   "phone": "9644427",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Nabatieh",
+   "city": "Nabatieh",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quartier Al Bayad Nabatieh",
+   "address_lines": [
+    "Quartier Al Bayad Nabatieh"
+   ],
+   "phone": "7762744",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Saïda",
+   "city": "Saida",
+   "cp": "",
+   "city_cp": "",
+   "address": "Khan El Franj Saida",
+   "address_lines": [
+    "Khan El Franj Saida"
+   ],
+   "phone": "7720192",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Tripoli",
+   "city": "Tripoli",
+   "cp": "",
+   "city_cp": "",
+   "address": "City Complex - 529 Avenue El Mina Tripoli",
+   "address_lines": [
+    "City Complex - 529 Avenue El Mina Tripoli"
+   ],
+   "phone": "6442590",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Tyr",
+   "city": "Tyr",
+   "cp": "",
+   "city_cp": "",
+   "address": "Université Islamique du Liban - Avenue maritime Tyr",
+   "address_lines": [
+    "Université Islamique du Liban - Avenue maritime Tyr"
+   ],
+   "phone": "3998225",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Liban - Zahlé",
+   "city": "Zahlé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue du Brésil, 44 Zahlé",
+   "address_lines": [
+    "Rue du Brésil",
+    "44 Zahlé"
+   ],
+   "phone": "8802803",
+   "emails": [],
+   "url": "http://www.institutfrancais-liban.com/",
+   "so": false
+  }
+ ]
+}

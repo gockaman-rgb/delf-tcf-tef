@@ -1,0 +1,33 @@
+{
+ "country": "Monténégro",
+ "iso2": "ME",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU MONTENEGRO",
+   "city": "PODGORICA",
+   "cp": "81000",
+   "city_cp": "",
+   "address": "Njegoseva 26, 81000 PODGORICA",
+   "address_lines": [
+    "Njegoseva 26",
+    "81000 PODGORICA"
+   ],
+   "phone": "+382 20 667 000",
+   "emails": [
+    "ifm@institutfrancais.me"
+   ],
+   "url": "http://institutfrancais.me/",
+   "so": false,
+   "products": [],
+   "cci_id": 569,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/569"
+  }
+ ]
+}

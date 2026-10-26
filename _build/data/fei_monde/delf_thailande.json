@@ -1,0 +1,44 @@
+{
+ "country": "Thaïlande",
+ "iso2": "TH",
+ "fei_id": "53",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Bangkok",
+  "cp": "",
+  "city_cp": "",
+  "address": "35 Charoenkrung Soi 36 (Rue de Brest), Bangrak, Bangkok 10500, 10500 Bangkok",
+  "address_lines": [
+   "35 Charoenkrung Soi 36 (Rue de Brest), Bangrak, Bangkok 10500",
+   "10500 Bangkok"
+  ],
+  "phone": "2 627 21 30",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Bangkok",
+   "city": "Bangkok",
+   "cp": "",
+   "city_cp": "",
+   "address": "179 Witthayu Rd, Lumphini, Pathum Wan District, 10330 Bangkok",
+   "address_lines": [
+    "179 Witthayu Rd, Lumphini, Pathum Wan District",
+    "10330 Bangkok"
+   ],
+   "phone": "66 2 670 4200",
+   "emails": [
+    "examen.bangkok@afthailande.org"
+   ],
+   "url": "http://www.afthailande.org/",
+   "so": false
+  }
+ ]
+}

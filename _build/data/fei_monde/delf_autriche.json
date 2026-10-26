@@ -1,0 +1,61 @@
+{
+ "country": "Autriche",
+ "iso2": "AT",
+ "fei_id": "61",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF - SCEL - Bureau des examens",
+  "city": "Wien",
+  "cp": "",
+  "city_cp": "",
+  "address": "Praterstrasse 38, 1020 Wien",
+  "address_lines": [
+   "Praterstrasse 38",
+   "1020 Wien"
+  ],
+  "phone": "19090899122",
+  "emails": [],
+  "url": "http://institutfrancais.at/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut culturel franco-autrichien",
+   "city": "Graz",
+   "cp": "",
+   "city_cp": "",
+   "address": "Herrengasse 3/II, 8010 Graz",
+   "address_lines": [
+    "Herrengasse 3/II",
+    "8010 Graz"
+   ],
+   "phone": "0316829396",
+   "emails": [
+    "francegraz@aon.at"
+   ],
+   "url": "http://www.franceautriche.at/",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Wien",
+   "cp": "",
+   "city_cp": "",
+   "address": "Praterstrasse 38, 1020 Wien",
+   "address_lines": [
+    "Praterstrasse 38",
+    "1020 Wien"
+   ],
+   "phone": "19090899122",
+   "emails": [
+    "delfdalf@institutfr.at"
+   ],
+   "url": "https://institutfrancais.at/",
+   "so": false
+  }
+ ]
+}

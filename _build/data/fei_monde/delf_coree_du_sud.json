@@ -1,0 +1,131 @@
+{
+ "country": "Corée du Sud",
+ "iso2": "KR",
+ "fei_id": "42",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Séoul",
+  "cp": "",
+  "city_cp": "",
+  "address": "94 Sambong-ro, Jongno-gu, 03158 Séoul",
+  "address_lines": [
+   "94 Sambong-ro, Jongno-gu",
+   "03158 Séoul"
+  ],
+  "phone": "+827040124830",
+  "emails": [
+   "delfdalf@kr.ambafrance-culture.org"
+  ],
+  "url": "https://kr.ambafrance-culture.org/cours/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Francaise de Busan",
+   "city": "Busan",
+   "cp": "",
+   "city_cp": "",
+   "address": "311 Chungnyeol-daero F2, Dongnae-gu, 47755 Busan",
+   "address_lines": [
+    "311 Chungnyeol-daero F2, Dongnae-gu",
+    "47755 Busan"
+   ],
+   "phone": "0514650306",
+   "emails": [
+    "direction@afbusan.co.kr"
+   ],
+   "url": "http://www.afbusan.co.kr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Daegu",
+   "city": "Daegu",
+   "cp": "",
+   "city_cp": "",
+   "address": "28, Yangnyeong-gil, Jung-gu, Daegu, Korea, 41933 Daegu",
+   "address_lines": [
+    "28, Yangnyeong-gil, Jung-gu, Daegu, Korea",
+    "41933 Daegu"
+   ],
+   "phone": "01026676992",
+   "emails": [
+    "info@afdaegu.kr"
+   ],
+   "url": "http://www.afdaegu.kr/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Daejeon",
+   "city": "Daejeon",
+   "cp": "",
+   "city_cp": "",
+   "address": "Cheongpo BD 5F, Gyeoryongro 650, Seogu, 35304 Daejeon",
+   "address_lines": [
+    "Cheongpo BD 5F, Gyeoryongro 650, Seogu",
+    "35304 Daejeon"
+   ],
+   "phone": "82425325258",
+   "emails": [
+    "direction@afdaejeon.co.kr"
+   ],
+   "url": "http://www.afdaejeon.co.kr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Gwangju",
+   "city": "Gwangju",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chungwoon BD 2F, 217, Gyeong yeol ro, Bukgu, 61246 Gwangju",
+   "address_lines": [
+    "Chungwoon BD 2F, 217, Gyeong yeol ro, Bukgu",
+    "61246 Gwangju"
+   ],
+   "phone": "625272500",
+   "emails": [
+    "direction@afgwangju.co.kr"
+   ],
+   "url": "http://www.afgwangju.co.kr/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Incheon",
+   "city": "Incheon",
+   "cp": "",
+   "city_cp": "",
+   "address": "Gil-land Building 5F, 51 Juan-ro, Michuhol-gu, 22132 Incheon",
+   "address_lines": [
+    "Gil-land Building 5F, 51 Juan-ro, Michuhol-gu",
+    "22132 Incheon"
+   ],
+   "phone": "328735556",
+   "emails": [
+    "admin@afincheon.co.kr"
+   ],
+   "url": "http://www.afincheon.co.kr",
+   "so": false
+  },
+  {
+   "name": "Institut Français de Corée du Sud",
+   "city": "Séoul",
+   "cp": "",
+   "city_cp": "",
+   "address": "94 Sambong-ro, Jongno-gu, 03158 Séoul",
+   "address_lines": [
+    "94 Sambong-ro, Jongno-gu",
+    "03158 Séoul"
+   ],
+   "phone": "+827040124830",
+   "emails": [
+    "reception@kr.ambafrance-culture.org"
+   ],
+   "url": "https://kr.ambafrance-culture.org/",
+   "so": false
+  }
+ ]
+}

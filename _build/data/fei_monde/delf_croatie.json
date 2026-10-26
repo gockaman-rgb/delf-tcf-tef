@@ -1,0 +1,140 @@
+{
+ "country": "Croatie",
+ "iso2": "HR",
+ "fei_id": "68",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Zagreb",
+  "cp": "",
+  "city_cp": "",
+  "address": "Ul. Grada Vukovara 284b, HR- 10000 Zagreb",
+  "address_lines": [
+   "Ul. Grada Vukovara 284b",
+   "HR- 10000 Zagreb"
+  ],
+  "phone": "1 489 36 46",
+  "emails": [],
+  "url": "http://www.ambafrance-hr.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Osijek",
+   "city": "Osijek",
+   "cp": "",
+   "city_cp": "",
+   "address": "Franjevačka 4, 31000 Osijek",
+   "address_lines": [
+    "Franjevačka 4",
+    "31000 Osijek"
+   ],
+   "phone": "031 358979",
+   "emails": [
+    "osijek@alliance-francaise.hr"
+   ],
+   "url": "http://osijek.alliance-francaise.hr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Rijeka",
+   "city": "Rijeka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Zanonova 1, 51000 Rijeka",
+   "address_lines": [
+    "Zanonova 1",
+    "51000 Rijeka"
+   ],
+   "phone": "051331401",
+   "emails": [
+    "rijeka@alliance-francaise.hr"
+   ],
+   "url": "http://rijeka.alliance-francaise.hr/",
+   "so": false
+  },
+  {
+   "name": "Alliance francaise de Split",
+   "city": "Split",
+   "cp": "",
+   "city_cp": "",
+   "address": "Marmontova 3, 21000 Split",
+   "address_lines": [
+    "Marmontova 3",
+    "21000 Split"
+   ],
+   "phone": "0959090256",
+   "emails": [
+    "split@alliance-francaise.hr"
+   ],
+   "url": "http://split.alliance-francaise.hr/",
+   "so": false
+  },
+  {
+   "name": "Université de Zadar - Département de français",
+   "city": "Zadar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mihovila Pavlinovića 1, 23000 Zadar",
+   "address_lines": [
+    "Mihovila Pavlinovića 1",
+    "23000 Zadar"
+   ],
+   "phone": "919755135",
+   "emails": [],
+   "url": "http://www.unizd.hr/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Zagreb",
+   "city": "Zagreb",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ante Kovacica 4, HR- 10000 Zagreb",
+   "address_lines": [
+    "Ante Kovacica 4",
+    "HR- 10000 Zagreb"
+   ],
+   "phone": "014818292",
+   "emails": [
+    "zagreb@alliance-francaise.hr"
+   ],
+   "url": "http://zagreb.alliance-francaise.hr/",
+   "so": false
+  },
+  {
+   "name": "Ambassade de France en Croatie - SCAC",
+   "city": "Zagreb",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ul. Grada Vukovara 284b, HR- 10000 Zagreb",
+   "address_lines": [
+    "Ul. Grada Vukovara 284b",
+    "HR- 10000 Zagreb"
+   ],
+   "phone": "+38514893646",
+   "emails": [],
+   "url": "http://www.ambafrance.hr/",
+   "so": false
+  },
+  {
+   "name": "Ecole Française Internationale de Zagreb",
+   "city": "Zagreb",
+   "cp": "",
+   "city_cp": "",
+   "address": "Fratrovac ul. 36, HR- 10000 Zagreb",
+   "address_lines": [
+    "Fratrovac ul. 36",
+    "HR- 10000 Zagreb"
+   ],
+   "phone": "14893646",
+   "emails": [],
+   "url": "http://www.efz.hr/",
+   "so": false
+  }
+ ]
+}

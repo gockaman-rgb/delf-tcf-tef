@@ -1,0 +1,73 @@
+{
+ "country": "Bolivie",
+ "iso2": "BO",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE COCHABAMBA",
+   "city": "COCHABAMBA",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle La Paz 784, COCHABAMBA",
+   "address_lines": [
+    "Calle La Paz 784",
+    "COCHABAMBA"
+   ],
+   "phone": "+591 62698260",
+   "emails": [
+    "asistente.afcochabamba@gmail.com"
+   ],
+   "url": "https://cochabamba.alianzafrancesa.org.bo/",
+   "so": false,
+   "products": [],
+   "cci_id": 74,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/74"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA PAZ",
+   "city": "LA PAZ",
+   "cp": "10220",
+   "city_cp": "",
+   "address": "Calle Guachalla 399, 10220 LA PAZ",
+   "address_lines": [
+    "Calle Guachalla 399",
+    "10220 LA PAZ"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "lapaz.alianzafrancesa.org.bo/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 125,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/125"
+  },
+  {
+   "name": "ALLIANCE FRANCAISE SANTA CRUZ DE LA SIERRA",
+   "city": "SANTA CRUZ DE LA SIERRA",
+   "cp": "99",
+   "city_cp": "",
+   "address": "Calle 24 de Septiembre Nº 36, 99 SANTA CRUZ DE LA SIERRA",
+   "address_lines": [
+    "Calle 24 de Septiembre Nº 36",
+    "99 SANTA CRUZ DE LA SIERRA"
+   ],
+   "phone": "+591 75343265",
+   "emails": [
+    "info.santacruz@alianzafrancesa.org.bo"
+   ],
+   "url": "https://santacruz.alianzafrancesa.org.bo/",
+   "so": false,
+   "products": [],
+   "cci_id": 235,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/235"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "country": "Israël",
+ "iso2": "IL",
+ "fei_id": "104",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Tel Aviv",
+  "cp": "",
+  "city_cp": "",
+  "address": "112 promenade Hebert Samuel, 6357231 Tel Aviv",
+  "address_lines": [
+   "112 promenade Hebert Samuel",
+   "6357231 Tel Aviv"
+  ],
+  "phone": "051 5981205",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français Haïfa",
+   "city": "Haïfa",
+   "cp": "",
+   "city_cp": "",
+   "address": "HaGefen Street 37 Haïfa",
+   "address_lines": [
+    "HaGefen Street 37 Haïfa"
+   ],
+   "phone": "04 813 85 77",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français Nazareth",
+   "city": "Nazareth",
+   "cp": "",
+   "city_cp": "",
+   "address": "Paulus ha-Shishi St 63 Nazareth",
+   "address_lines": [
+    "Paulus ha-Shishi St 63 Nazareth"
+   ],
+   "phone": "050 283 9674",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français",
+   "city": "Tel Aviv",
+   "cp": "",
+   "city_cp": "",
+   "address": "7 boulevard Rothschild Tel Aviv",
+   "address_lines": [
+    "7 boulevard Rothschild Tel Aviv"
+   ],
+   "phone": "037968000",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

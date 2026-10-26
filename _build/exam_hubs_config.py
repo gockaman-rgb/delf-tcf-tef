@@ -9,6 +9,7 @@ figure que sur une page.
 """
 
 from nclc_calc import CALC as NCLC_CALC  # noqa: E402
+from prix_tcf_canada import FR as PRIX_TCF_CANADA  # noqa: E402  (tableau des prix par pays et ville, 26/10/2026)
 
 EXAMS = {}
 
@@ -107,22 +108,29 @@ avant de payer une session. Voici pourquoi, et comment.""",
                     "Chaque tentative se paie en entier et impose 20 à 30 jours d'attente.",
                     "Exercices corrigés, épreuve par épreuve, dans nos guides."],
              faq=[2]),
+        # 26/10/2026 : titre, chapô et tableau des prix par pays et ville (prix_tcf_canada.py) — requête « prix tcf canada »
         dict(slug="prix-inscription", crumb="Prix, inscription, centres", sections=["inscription", "ou-passer"],
-             title="TCF Canada : prix, inscription, validité et reprise",
-             desc="195 à 285 € en France, 390 à 440 $ au Canada : le prix du TCF Canada, où s'inscrire, six centres avec contacts, la validité et les règles de reprise.",
+             extra_top=PRIX_TCF_CANADA, toc_top=[("prix-par-pays", "Prix du TCF Canada 2026, pays par pays")],
+             modified="2026-10-26", date_fr="26 octobre 2026",
+             title="Prix du TCF Canada 2026 : tarifs par pays et par ville",
+             desc="Prix du TCF Canada en 2026 : 195 à 285 € en France, 390 à 452 $ au Canada, 330 à 505 $ aux États-Unis, 37 500 DA, 2 900 Dhs, 880 DT. Tableau daté.",
              desc_short="Prix relevés, centres avec contacts, validité, reprise.",
-             h1="TCF Canada : prix, inscription, centres, validité et reprise",
-             intro="""Il n'existe <strong>aucun tarif national</strong> pour le TCF Canada : chaque centre agréé fixe
-le sien — <strong>195 à 285 € en France</strong>, <strong>390 à 440 $ au Canada</strong>, et beaucoup de
-grands centres ne publient rien. L'attestation vaut <strong>deux ans</strong>, comptés deux fois par
-IRCC ; aucune reprise partielle n'existe, et 20 à 30 jours séparent deux passations. Voici les prix
-relevés, les centres avec leurs contacts, et les règles à connaître avant de payer.""",
-             facts=["<strong>Aucun tarif national</strong> : 195 à 285 € en France, 390 à 440 $ au Canada sur les centres relevés.",
+             h1="Prix du TCF Canada 2026 : le tarif par pays et par ville, l'inscription, la validité",
+             intro="""Le TCF Canada coûte <strong>195 à 285 € en France</strong>, <strong>390 à 452 $ au Canada</strong>,
+<strong>330 à 505 $US aux États-Unis</strong>, <strong>37 500 DA</strong> en Algérie, <strong>2 900 Dhs</strong> au
+Maroc et <strong>880 DT</strong> en Tunisie : il n'existe <strong>aucun tarif national</strong>, chaque centre agréé fixe
+le sien, et beaucoup de grands centres ne publient rien. Le tableau ci-dessous donne le prix relevé dans chaque pays
+et dans les grandes villes, avec sa date et la page qui le détaille. L'attestation vaut <strong>deux ans</strong>,
+comptés deux fois par IRCC ; aucune reprise partielle n'existe, et 20 à 30 jours séparent deux passations.""",
+             facts=["<strong>Prix 2026</strong> : 195 à 285 € en France (17 septembre), 390 à 452 $ au Canada et 330 à 505 $US aux États-Unis (relevés du 30 juillet au 26 octobre), 1 800 AED aux Émirats, 26 000 ₹ en Inde — <a href=\"#prix-par-pays\">tableau par pays</a>.",
+                    "<strong>Aucun tarif national</strong> : chaque centre fixe son prix ; au Maghreb, l'Institut français applique un tarif unique par pays — 37 500 DA, 2 900 Dhs, 880 DT (17 octobre 2026).",
                     "Attestation valable <strong>2 ans</strong> — et IRCC exige des résultats de moins de deux ans à la création du profil et au dépôt.",
                     "⚠️ <strong>Aucune reprise partielle</strong> : on repasse les quatre épreuves, après 20 à 30 jours.",
                     "Six centres relevés ci-dessous avec adresse, téléphone et site ; l'annuaire complet en compte 251 en France et 47 au Canada.",
                     "Le TCF Canada n'est pas éligible au CPF."],
-             faq=[3, 4, 5]),
+             faq=[3, 4, 5],
+             faq_extra=[("Combien coûte le TCF Canada au Canada et aux États-Unis ?",
+                         "Au Canada, de 390 $ (Vancouver, Toronto, Moncton, Edmundston, Bathurst) à 452 $ (GB Language Centre, North York), et 400 $ à Ottawa, Calgary, Edmonton, Halifax et Winnipeg (26 octobre 2026). Aux États-Unis, de 330 $US à Detroit à 505 $US à Los Angeles (8 au 26 octobre 2026). Le détail, ville par ville, est dans le tableau en haut de cette page.")]),
     ],
 )
 

@@ -1,0 +1,51 @@
+{
+ "country": "Irlande",
+ "iso2": "IE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE DUBLIN",
+   "city": "DUBLIN",
+   "cp": "D02 TP94",
+   "city_cp": "",
+   "address": "1 Kildare Street, D02 TP94 DUBLIN",
+   "address_lines": [
+    "1 Kildare Street",
+    "D02 TP94 DUBLIN"
+   ],
+   "phone": "+353 1 638 1449",
+   "emails": [
+    "exams@alliance-francaise.ie"
+   ],
+   "url": "www.alliance-francaise.ie/",
+   "so": false,
+   "products": [],
+   "cci_id": 88,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/88"
+  },
+  {
+   "name": "UNIVERSITY OF GALWAY",
+   "city": "GALWAY",
+   "cp": "H91TK33",
+   "city_cp": "",
+   "address": "Discipline of French, H91TK33 GALWAY",
+   "address_lines": [
+    "Discipline of French",
+    "H91TK33 GALWAY"
+   ],
+   "phone": "+353 91 493 398",
+   "emails": [],
+   "url": "https://www.universityofgalway.ie/",
+   "so": false,
+   "products": [],
+   "cci_id": 634,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/634"
+  }
+ ]
+}

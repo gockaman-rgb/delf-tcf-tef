@@ -1,0 +1,43 @@
+{
+ "country": "Soudan",
+ "iso2": "SD",
+ "fei_id": "146",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction pédagogique",
+  "city": "Khartoum",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rue Ali Dinar - BP 1568 Khartoum",
+  "address_lines": [
+   "Rue Ali Dinar - BP 1568 Khartoum"
+  ],
+  "phone": "183798036",
+  "emails": [],
+  "url": "https://www.if-soudan.net/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français régional du Soudan",
+   "city": "Khartoum",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Ali Dinar, 11111 Khartoum",
+   "address_lines": [
+    "Rue Ali Dinar",
+    "11111 Khartoum"
+   ],
+   "phone": "0183798035",
+   "emails": [
+    "direction.ifkhartoum@gmail.com"
+   ],
+   "url": "http://www.if-soudan.net",
+   "so": false
+  }
+ ]
+}

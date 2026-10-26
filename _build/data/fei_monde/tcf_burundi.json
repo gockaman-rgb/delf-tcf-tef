@@ -1,0 +1,30 @@
+{
+ "country": "Burundi",
+ "iso2": "BI",
+ "fei_id": "66",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Bujumbura",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ecole française de Bujumbura BV de l'UPRONA, 2630 Bujumbura",
+   "address_lines": [
+    "Ecole française de Bujumbura BV de l'UPRONA",
+    "2630 Bujumbura"
+   ],
+   "phone": "257-22-22-23-51",
+   "emails": [
+    "cdl@ifburundi.org"
+   ],
+   "url": "http://www.ifburundi.org",
+   "so": true
+  }
+ ]
+}

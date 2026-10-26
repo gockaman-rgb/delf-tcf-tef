@@ -1,0 +1,142 @@
+{
+ "country": "Pays-Bas",
+ "iso2": "NL",
+ "fei_id": "84",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Institut français des Pays-Bas",
+  "city": "La Haye",
+  "cp": "",
+  "city_cp": "",
+  "address": "Anna Paulownastraat 76, 2518 BJ La Haye",
+  "address_lines": [
+   "Anna Paulownastraat 76",
+   "2518 BJ La Haye"
+  ],
+  "phone": "703125821",
+  "emails": [],
+  "url": "https://institutfrancais.nl/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française Amsterdam",
+   "city": "Amsterdam",
+   "cp": "",
+   "city_cp": "",
+   "address": "Oosterdokstraat 110, 1011 DK Amsterdam",
+   "address_lines": [
+    "Oosterdokstraat 110",
+    "1011 DK Amsterdam"
+   ],
+   "phone": "205230742",
+   "emails": [
+    "cursus@afamsterdam.nl"
+   ],
+   "url": "https://www.afamsterdam.nl/nl/",
+   "so": false
+  },
+  {
+   "name": "HAN University of Applied Sciences, International School of Business",
+   "city": "Arnhem",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ruitenberglaan 31, 6826 CC Arnhem",
+   "address_lines": [
+    "Ruitenberglaan 31",
+    "6826 CC Arnhem"
+   ],
+   "phone": "6 11 43 01 96",
+   "emails": [],
+   "url": "http://www.han.nl/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Groningue",
+   "city": "Groningue",
+   "cp": "",
+   "city_cp": "",
+   "address": "Harmoniegebouw - Oude kijk in 't Jatstraat 26, 9712 EK Groningue",
+   "address_lines": [
+    "Harmoniegebouw - Oude kijk in 't Jatstraat 26",
+    "9712 EK Groningue"
+   ],
+   "phone": "0631984403",
+   "emails": [
+    "institutfrancais@rug.nl"
+   ],
+   "url": "http://www.institutfrancais.nl/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de La Haye",
+   "city": "La Haye",
+   "cp": "",
+   "city_cp": "",
+   "address": ": Emmapark 6, 2595 Et La Haye",
+   "address_lines": [
+    ": Emmapark 6",
+    "2595 Et La Haye"
+   ],
+   "phone": "703621523",
+   "emails": [
+    "examens@aflahaye.nl"
+   ],
+   "url": "http://www.aflahaye.nl/",
+   "so": false
+  },
+  {
+   "name": "Institut français des Pays-Bas - SCAC",
+   "city": "La Haye",
+   "cp": "",
+   "city_cp": "",
+   "address": "Anna Paulownastraat 76, 2518 BJ La Haye",
+   "address_lines": [
+    "Anna Paulownastraat 76",
+    "2518 BJ La Haye"
+   ],
+   "phone": "703125822",
+   "emails": [],
+   "url": "http://www.institutfrancais.nl/",
+   "so": false
+  },
+  {
+   "name": "Lycée français Van Gogh",
+   "city": "La Haye",
+   "cp": "",
+   "city_cp": "",
+   "address": "Scheveningseweg, 237, 2584 AA La Haye",
+   "address_lines": [
+    "Scheveningseweg, 237",
+    "2584 AA La Haye"
+   ],
+   "phone": "620424985",
+   "emails": [
+    "dirlahaye@lyceevangogh.nl"
+   ],
+   "url": "http://www.lyceevangogh.nl/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Rotterdam",
+   "city": "Rotterdam",
+   "cp": "",
+   "city_cp": "",
+   "address": "Westersingel, 14, 3014GN Rotterdam",
+   "address_lines": [
+    "Westersingel, 14",
+    "3014GN Rotterdam"
+   ],
+   "phone": "104360421",
+   "emails": [
+    "cursus@alliancerotterdam.nl"
+   ],
+   "url": "http://www.alliancerotterdam.nl/",
+   "so": false
+  }
+ ]
+}

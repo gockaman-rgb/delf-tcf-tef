@@ -1,0 +1,31 @@
+{
+ "country": "Guinée",
+ "iso2": "GN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DE GUINÉE",
+   "city": "CONAKRY",
+   "cp": "Conakry-Guinée\"",
+   "city_cp": "",
+   "address": "sis au Centre culturel franco-guineen, face au cinéma Liberté\" BP 492, Conakry-Guinée\" CONAKRY",
+   "address_lines": [
+    "sis au Centre culturel franco-guineen, face au cinéma Liberté\" BP 492",
+    "Conakry-Guinée\" CONAKRY"
+   ],
+   "phone": "+224 628 45 93 65",
+   "emails": [],
+   "url": "https://institutfrancais-guinee.fr/",
+   "so": false,
+   "products": [],
+   "cci_id": 517,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/517"
+  }
+ ]
+}

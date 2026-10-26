@@ -1,0 +1,73 @@
+{
+ "country": "Sri Lanka",
+ "iso2": "LK",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANCAISE DE COLOMBO",
+   "city": "COLOMBO",
+   "cp": "00700",
+   "city_cp": "",
+   "address": "11, Barnes Place, 00700 COLOMBO",
+   "address_lines": [
+    "11, Barnes Place",
+    "00700 COLOMBO"
+   ],
+   "phone": "+94 112 055 255",
+   "emails": [
+    "language@alliancefrancaise.lk"
+   ],
+   "url": "https://alliancefrancaise.lk/",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 117,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/117"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE KANDY",
+   "city": "KANDY",
+   "cp": "20000",
+   "city_cp": "",
+   "address": "640/2 Peradeniya Road, 20000 KANDY",
+   "address_lines": [
+    "640/2 Peradeniya Road",
+    "20000 KANDY"
+   ],
+   "phone": "+94 812 224 432",
+   "emails": [],
+   "url": "www.afk.lk/",
+   "so": false,
+   "products": [],
+   "cci_id": 111,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/111"
+  },
+  {
+   "name": "AF_DE MATARA ET ANNEXE DE GALLE",
+   "city": "MATARA",
+   "cp": "Rahula Junction",
+   "city_cp": "",
+   "address": "No.03 Sri Sunanda Road, Rahula Junction MATARA",
+   "address_lines": [
+    "No.03 Sri Sunanda Road",
+    "Rahula Junction MATARA"
+   ],
+   "phone": "+94 412 232 060",
+   "emails": [],
+   "url": "https://www.facebook.com/FrenchLanguageMatara",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 881,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/881"
+  }
+ ]
+}

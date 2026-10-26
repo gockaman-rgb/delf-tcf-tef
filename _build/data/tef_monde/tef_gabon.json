@@ -1,0 +1,33 @@
+{
+ "country": "Gabon",
+ "iso2": "GA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU GABON - LIBREVILLE",
+   "city": "LIBREVILLE",
+   "cp": "2103",
+   "city_cp": "",
+   "address": "Boulevard Triomphal, 2103 LIBREVILLE",
+   "address_lines": [
+    "Boulevard Triomphal",
+    "2103 LIBREVILLE"
+   ],
+   "phone": "+241 65 54 16 28",
+   "emails": [
+    "cours@institutfrancais-gabon.com"
+   ],
+   "url": "www.institutfrancais-gabon.com",
+   "so": false,
+   "products": [],
+   "cci_id": 561,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/561"
+  }
+ ]
+}

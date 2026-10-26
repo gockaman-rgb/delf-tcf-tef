@@ -1,0 +1,42 @@
+{
+ "country": "Suriname",
+ "iso2": "SR",
+ "fei_id": "427",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "AFS",
+  "city": "Paramaribo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Letitia Vriesdelaan 14-16 Paramaribo",
+  "address_lines": [
+   "Letitia Vriesdelaan 14-16 Paramaribo"
+  ],
+  "phone": "424120",
+  "emails": [
+   "info@afsuriname.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française Suriname",
+   "city": "Paramaribo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Letitia Vriesdelaan 14-16 Paramaribo",
+   "address_lines": [
+    "Letitia Vriesdelaan 14-16 Paramaribo"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

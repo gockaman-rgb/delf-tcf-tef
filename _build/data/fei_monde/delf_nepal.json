@@ -1,0 +1,46 @@
+{
+ "country": "Népal",
+ "iso2": "NP",
+ "fei_id": "392",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Coordination pédagogique",
+  "city": "Katmandou",
+  "cp": "",
+  "city_cp": "",
+  "address": "Ward No 4, Dhalko Bato, Pulchowk, PO Box 452 Katmandou",
+  "address_lines": [
+   "Ward No 4, Dhalko Bato, Pulchowk",
+   "PO Box 452 Katmandou"
+  ],
+  "phone": "+9779709256730",
+  "emails": [
+   "direction@afknepal.com"
+  ],
+  "url": "http://www.alliancefrancaise.org.np/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Katmandou",
+   "city": "Lalitpur",
+   "cp": "",
+   "city_cp": "",
+   "address": "​1100 Damkal Sundarighat marg (East), Ward 4, Dhalko Bato, Pulchowk, 44600 Lalitpur",
+   "address_lines": [
+    "​1100 Damkal Sundarighat marg (East), Ward 4, Dhalko Bato, Pulchowk",
+    "44600 Lalitpur"
+   ],
+   "phone": "9818075035",
+   "emails": [
+    "cours.afk@gmail.com"
+   ],
+   "url": "http://www.alliancefrancaise.org.np/",
+   "so": false
+  }
+ ]
+}

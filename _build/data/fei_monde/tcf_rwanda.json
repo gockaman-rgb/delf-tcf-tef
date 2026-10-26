@@ -1,0 +1,30 @@
+{
+ "country": "Rwanda",
+ "iso2": "RW",
+ "fei_id": "144",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Rwanda",
+   "city": "Kigali",
+   "cp": "",
+   "city_cp": "",
+   "address": "(Centre culturel francophone du Rwanda) - 24 KG 624 ST. B.P : 441, Kigali",
+   "address_lines": [
+    "(Centre culturel francophone du Rwanda) - 24 KG 624 ST. B.P : 441",
+    "Kigali"
+   ],
+   "phone": "250-788-331-913",
+   "emails": [
+    "accueil@if-rwanda.org"
+   ],
+   "url": "https://if-rwanda.org/",
+   "so": true
+  }
+ ]
+}

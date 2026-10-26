@@ -1,0 +1,35 @@
+{
+ "country": "Ouganda",
+ "iso2": "UG",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE KAMPALA",
+   "city": "KAMPALA",
+   "cp": "PO. BOX 4313",
+   "city_cp": "",
+   "address": "Plot 52 Bukoto Street, PO. BOX 4313 KAMPALA",
+   "address_lines": [
+    "Plot 52 Bukoto Street",
+    "PO. BOX 4313 KAMPALA"
+   ],
+   "phone": "+256 41 4344490",
+   "emails": [
+    "headofcourses@afkampala.org"
+   ],
+   "url": "www.afkampala.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 110,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/110"
+  }
+ ]
+}

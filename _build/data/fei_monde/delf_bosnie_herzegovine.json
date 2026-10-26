@@ -1,0 +1,74 @@
+{
+ "country": "Bosnie-Herzégovine",
+ "iso2": "BA",
+ "fei_id": "64",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Sarajevo",
+  "cp": "",
+  "city_cp": "",
+  "address": "Tina Ujevica 8, 71 000 Sarajevo",
+  "address_lines": [
+   "Tina Ujevica 8",
+   "71 000 Sarajevo"
+  ],
+  "phone": "61 483 010",
+  "emails": [],
+  "url": "http://www.institutfrancais.ba/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Antenne de l'IFBH",
+   "city": "Banja Luka",
+   "cp": "",
+   "city_cp": "",
+   "address": "Jevrejska 30, 78000 Banja Luka",
+   "address_lines": [
+    "Jevrejska 30",
+    "78000 Banja Luka"
+   ],
+   "phone": "51219238",
+   "emails": [],
+   "url": "http://www.institutfrancais.ba/",
+   "so": false
+  },
+  {
+   "name": "Antenne de l'IFBH",
+   "city": "Mostar",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kneza Mihajla Visevica Humskog 57, 88000 Mostar",
+   "address_lines": [
+    "Kneza Mihajla Visevica Humskog 57",
+    "88000 Mostar"
+   ],
+   "phone": "36558845",
+   "emails": [],
+   "url": "http://www.institutfrancais.ba/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Bosnie-Herzégovine",
+   "city": "Sarajevo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tina Ujevica 8, 71000 Sarajevo",
+   "address_lines": [
+    "Tina Ujevica 8",
+    "71000 Sarajevo"
+   ],
+   "phone": "33586277",
+   "emails": [
+    "info@institutfrancais.ba"
+   ],
+   "url": "http://www.institutfrancais.ba/",
+   "so": false
+  }
+ ]
+}

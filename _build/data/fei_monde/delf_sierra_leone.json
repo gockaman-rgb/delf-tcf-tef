@@ -1,0 +1,25 @@
+{
+ "country": "Sierra Leone",
+ "iso2": "SL",
+ "fei_id": "422",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "FOURAH BAY COLLEGE",
+   "city": "",
+   "cp": "",
+   "city_cp": "",
+   "address": "",
+   "address_lines": [],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

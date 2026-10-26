@@ -322,6 +322,28 @@ ADDR_T = {"en": {"États-Unis": {"Philadelphie": "Philadelphia", "La Nouvelle-Or
                  "Mexique": {"Ville de Mexico": "Ciudad de México"},
                  "Colombie": {"Carthagène des Indes": "Cartagena de Indias"}}}
 
+# Jordanie, Qatar, Koweït (26/10/2026 : pays_config_en_arab.py, pays_config_ar_world.py ; liste FEI data/fei_monde/).
+# Jordanie : FEI écrit « 962-78956622 », un chiffre de moins que le mobile du site (+962 78 956 6622) ; un mobile y
+# a 9 chiffres, d'où {9} : le numéro de FEI s'affiche sans lien plutôt qu'avec un faux.
+PAYS_ID.update({"Jordanie": 105, "Qatar": 404, "Koweït": 369})
+PHONE.update({"Jordanie": ("962", {9}), "Qatar": ("974", {8}), "Koweït": ("965", {8})})
+CITY["Koweït"] = {"KOWEIT": "Koweït"}
+CITY_T["en"]["Koweït"] = {"Koweït": "Kuwait City"}
+CITY_T["ar"].update({"Jordanie": {"Amman": "عمّان"}, "Qatar": {"Doha": "الدوحة"}, "Koweït": {"Koweït": "مدينة الكويت"}})
+ADDR_T["en"]["Koweït"] = ADDR_T["ar"]["Koweït"] = {"KOWEIT": "Kuwait", "Gouvernorat de Hawally": "Hawalli Governorate"}
+NAME_EN["Institut français de Jordanie - Ambassade de France en Jordanie"] = "Institut français de Jordanie"
+
+# Europe (26/10/2026 : pays_config_eu.py, pays_config_en_eu.py ; liste FEI data/fei_monde/). Les indicatifs de zone y
+# ont des longueurs variables : pays_config_eu.phone_eu garde la découpe de FEI (et le 0 italien).
+from pays_config_eu import TABLES as _EU  # noqa: E402
+PAYS_ID.update(_EU["PAYS_ID"]), PHONE.update(_EU["PHONE"]), CITY.update(_EU["CITY"])
+CITY_T["en"].update(_EU["CITY_T"]["en"]), ADDR_T["en"].update(_EU["ADDR_T"]["en"])
+_phone_html_base = phone_html
+
+
+def phone_html(phone, country):  # noqa: F811
+    return _EU["phone"](phone, country) if country in _EU["PHONE"] else _phone_html_base(phone, country)
+
 
 def disp_addr(addr, country, spec):
     for fr, loc in ADDR_T.get(LANG_OF(spec), {}).get(country, {}).items():

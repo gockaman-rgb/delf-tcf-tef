@@ -1,0 +1,30 @@
+{
+ "country": "Guinée Équatoriale",
+ "iso2": "GQ",
+ "fei_id": "358",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut Français",
+   "city": "Malabo",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle Acacio Mañé, BP936 Malabo",
+   "address_lines": [
+    "Calle Acacio Mañé",
+    "BP936 Malabo"
+   ],
+   "phone": "240-333-093-732",
+   "emails": [
+    "secretariat@institutfrancais-malabo.org"
+   ],
+   "url": "http://www.institutfrancais-malabo.org",
+   "so": true
+  }
+ ]
+}

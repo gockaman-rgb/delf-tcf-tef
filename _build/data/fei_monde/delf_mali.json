@@ -1,0 +1,58 @@
+{
+ "country": "Mali",
+ "iso2": "ML",
+ "fei_id": "137",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Bamako",
+  "cp": "",
+  "city_cp": "",
+  "address": "Boulevard de l'Indépendance BP 1547 Bamako",
+  "address_lines": [
+   "Boulevard de l'Indépendance BP 1547 Bamako"
+  ],
+  "phone": "+22376377555",
+  "emails": [],
+  "url": "http://www.institutfrancaismali.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français DU MALI",
+   "city": "Bamako",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bd de l'Indépendance BP 1547, 1547 Bamako",
+   "address_lines": [
+    "Bd de l'Indépendance BP 1547",
+    "1547 Bamako"
+   ],
+   "phone": "71 70 77 77",
+   "emails": [
+    "info.cdl@institutfrancaismali.org"
+   ],
+   "url": "http://www.institutfrancaismali.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance franco-malienne de Mopti",
+   "city": "Mopti, Gangal",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mopti, 23 Mopti, Gangal",
+   "address_lines": [
+    "Mopti",
+    "23 Mopti, Gangal"
+   ],
+   "phone": "22375303301",
+   "emails": [],
+   "url": "",
+   "so": false
+  }
+ ]
+}

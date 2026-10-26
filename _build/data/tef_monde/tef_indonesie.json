@@ -1,0 +1,49 @@
+{
+ "country": "Indonésie",
+ "iso2": "ID",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS D'INDONÉSIE - JAKARTA",
+   "city": "JAKARTA",
+   "cp": "103510",
+   "city_cp": "",
+   "address": "Jalan MH Thamrin 20, 103510 JAKARTA",
+   "address_lines": [
+    "Jalan MH Thamrin 20",
+    "103510 JAKARTA"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.ifi-id.com",
+   "so": false,
+   "products": [],
+   "cci_id": 575,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/575"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'INDONÉSIE - YOGYAKARTA",
+   "city": "Yogyakarta",
+   "cp": "55223",
+   "city_cp": "",
+   "address": "Jl. Sagan no. 3 Terban, Gondokusuman, Yogyakarta, 55223 Yogyakarta",
+   "address_lines": [
+    "Jl. Sagan no. 3 Terban, Gondokusuman, Yogyakarta",
+    "55223 Yogyakarta"
+   ],
+   "phone": "+62 274 566520",
+   "emails": [],
+   "url": "https://www.ifi-id.com/yogyakarta/#/",
+   "so": false,
+   "products": [],
+   "cci_id": 924,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/924"
+  }
+ ]
+}

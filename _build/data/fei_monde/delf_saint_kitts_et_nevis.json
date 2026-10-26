@@ -1,0 +1,45 @@
+{
+ "country": "Saint-Kitts-et-Nevis",
+ "iso2": "KN",
+ "fei_id": "408",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Basseterre",
+  "cp": "",
+  "city_cp": "",
+  "address": "P.O. Box 93 Basseterre SAINT-KITTS AND NEVIS Basseterre",
+  "address_lines": [
+   "P.O. Box 93 Basseterre SAINT-KITTS AND NEVIS Basseterre"
+  ],
+  "phone": "869 465 9415",
+  "emails": [
+   "direction.afskn@gmail.com"
+  ],
+  "url": "https://afskn.afcaraibe.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de St-Kitts et Nevis",
+   "city": "Basseterre",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Orchid Street, Greenlands, 00265 Basseterre",
+   "address_lines": [
+    "1 Orchid Street, Greenlands",
+    "00265 Basseterre"
+   ],
+   "phone": "18694659415",
+   "emails": [
+    "direction.afskn@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "country": "Lao, République Démocratique populaire",
+ "iso2": "LA",
+ "fei_id": "370",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Vientiane",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avenue Lane Xang, Vientiane Vientiane",
+  "address_lines": [
+   "Avenue Lane Xang, Vientiane Vientiane"
+  ],
+  "phone": "021 215 764",
+  "emails": [
+   "info@if-laos.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Laos",
+   "city": "Vientiane",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Lane Xang Vientiane",
+   "address_lines": [
+    "Avenue Lane Xang Vientiane"
+   ],
+   "phone": "21215764",
+   "emails": [
+    "secretariat@if-laos.org"
+   ],
+   "url": "http://www.if-laos.org/",
+   "so": false
+  }
+ ]
+}

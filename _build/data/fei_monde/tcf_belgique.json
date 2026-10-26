@@ -1,0 +1,47 @@
+{
+ "country": "Belgique",
+ "iso2": "BE",
+ "fei_id": "62",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française de Bruxelles-Europe",
+   "city": "Bruxelles",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue des Arts, 46, 1000 Bruxelles",
+   "address_lines": [
+    "Avenue des Arts, 46",
+    "1000 Bruxelles"
+   ],
+   "phone": "32-2-788-21-00",
+   "emails": [
+    "examens@alliancefr.be"
+   ],
+   "url": "http://www.alliancefr.be",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Flandre Orientale",
+   "city": "Gand",
+   "cp": "",
+   "city_cp": "",
+   "address": "Henleykaai 86, 9000 Gand",
+   "address_lines": [
+    "Henleykaai 86",
+    "9000 Gand"
+   ],
+   "phone": "32-9-225-25-29",
+   "emails": [
+    "examens@af-ovl.be"
+   ],
+   "url": "https://www.af-ovl.be/tcf",
+   "so": true
+  }
+ ]
+}

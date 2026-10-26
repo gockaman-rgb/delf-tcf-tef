@@ -1,0 +1,30 @@
+{
+ "country": "Azerbaïdjan",
+ "iso2": "AZ",
+ "fei_id": "324",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français d’Azerbaïdjan",
+   "city": "Bakou",
+   "cp": "",
+   "city_cp": "",
+   "address": "67 rue Füzuli, AZ1014 Bakou",
+   "address_lines": [
+    "67 rue Füzuli",
+    "AZ1014 Bakou"
+   ],
+   "phone": "994-12-596-35-80",
+   "emails": [
+    "exam@ifa.az"
+   ],
+   "url": "http://www.ifa.az",
+   "so": true
+  }
+ ]
+}

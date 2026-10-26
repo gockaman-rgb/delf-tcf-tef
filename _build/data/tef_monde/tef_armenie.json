@@ -1,0 +1,33 @@
+{
+ "country": "Arménie",
+ "iso2": "AM",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE D'ARMÉNIE",
+   "city": "EREVAN",
+   "cp": "0009",
+   "city_cp": "",
+   "address": "89/3, rue Teryan, 0009 EREVAN",
+   "address_lines": [
+    "89/3, rue Teryan",
+    "0009 EREVAN"
+   ],
+   "phone": "+374 93 596699",
+   "emails": [
+    "info@alliancefr.am"
+   ],
+   "url": "www.alliancefr.am",
+   "so": false,
+   "products": [],
+   "cci_id": 39,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/39"
+  }
+ ]
+}

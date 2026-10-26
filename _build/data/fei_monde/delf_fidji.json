@@ -1,0 +1,30 @@
+{
+ "country": "Fidji",
+ "iso2": "FJ",
+ "fei_id": "348",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Suva",
+   "cp": "",
+   "city_cp": "",
+   "address": "20 Desvoeux Road, 14548 Suva",
+   "address_lines": [
+    "20 Desvoeux Road",
+    "14548 Suva"
+   ],
+   "phone": "+6799992808",
+   "emails": [
+    "director@af-fiji.org"
+   ],
+   "url": "http://www.afsuva.com/",
+   "so": false
+  }
+ ]
+}

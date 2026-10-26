@@ -1,0 +1,43 @@
+{
+ "country": "Malawi",
+ "iso2": "MW",
+ "fei_id": "377",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération et d'Action Culturelle",
+  "city": "Pretoria",
+  "cp": "",
+  "city_cp": "",
+  "address": "250 Melk Street, 0181 Pretoria",
+  "address_lines": [
+   "250 Melk Street",
+   "0181 Pretoria"
+  ],
+  "phone": "124251711",
+  "emails": [],
+  "url": "https://za.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Blantyre",
+   "city": "Blantyre",
+   "cp": "",
+   "city_cp": "",
+   "address": "PO Box 947 Blantyre",
+   "address_lines": [
+    "PO Box 947 Blantyre"
+   ],
+   "phone": "0993728155",
+   "emails": [
+    "alliancefrancaisedeblantyre@gmail.com"
+   ],
+   "url": "http://www.jacarandafoundation.org/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "country": "Belgique",
+ "iso2": "BE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE BRUXELLES - EUROPE",
+   "city": "BRUXELLES",
+   "cp": "1000",
+   "city_cp": "",
+   "address": "Avenue des arts, 46, 1000 BRUXELLES",
+   "address_lines": [
+    "Avenue des arts, 46",
+    "1000 BRUXELLES"
+   ],
+   "phone": "+32 2 788 21 50",
+   "emails": [
+    "examens@alliancefr.be"
+   ],
+   "url": "www.alliancefr.be",
+   "so": false,
+   "products": [],
+   "cci_id": 29,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/29"
+  },
+  {
+   "name": "CLL CENTRE DE LANGUES ASBL",
+   "city": "BRUXELLES",
+   "cp": "1200",
+   "city_cp": "",
+   "address": "Avenue de Kraainem 61, 1200 BRUXELLES",
+   "address_lines": [
+    "Avenue de Kraainem 61",
+    "1200 BRUXELLES"
+   ],
+   "phone": "+32 2 771 13 20",
+   "emails": [
+    "contact@cll.be"
+   ],
+   "url": "www.cll.be/",
+   "so": false,
+   "products": [],
+   "cci_id": 364,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/364"
+  },
+  {
+   "name": "UNIVERSITÉ ARTEVELDEHOGESCHOOL VZW",
+   "city": "GAND",
+   "cp": "9000",
+   "city_cp": "",
+   "address": "Hoogpoort 15, 9000 GAND",
+   "address_lines": [
+    "Hoogpoort 15",
+    "9000 GAND"
+   ],
+   "phone": "+32 473 22 12 26",
+   "emails": [],
+   "url": "www.arteveldehogeschool.be",
+   "so": false,
+   "products": [],
+   "cci_id": 703,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/703"
+  },
+  {
+   "name": "ISLV LIEGE UNIVERSITE",
+   "city": "LIÈGE",
+   "cp": "4020",
+   "city_cp": "",
+   "address": "Institut Supérieur des Langues Vivantes, 4020 LIÈGE",
+   "address_lines": [
+    "Institut Supérieur des Langues Vivantes",
+    "4020 LIÈGE"
+   ],
+   "phone": "+32 4 366 57 59",
+   "emails": [],
+   "url": "www.islv.uliege.be",
+   "so": false,
+   "products": [],
+   "cci_id": 588,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/588"
+  }
+ ]
+}

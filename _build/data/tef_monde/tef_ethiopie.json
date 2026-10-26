@@ -1,0 +1,33 @@
+{
+ "country": "Éthiopie",
+ "iso2": "ET",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE ETHIO-FRANCAISE D'ADDIS-ABEBA",
+   "city": "ADDIS-ABEBA",
+   "cp": "99",
+   "city_cp": "",
+   "address": "Wavel Street, 99 ADDIS-ABEBA",
+   "address_lines": [
+    "Wavel Street",
+    "99 ADDIS-ABEBA"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.allianceaddis.org",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 25,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/25"
+  }
+ ]
+}

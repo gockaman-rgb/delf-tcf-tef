@@ -1,0 +1,182 @@
+{
+ "country": "Ukraine",
+ "iso2": "UA",
+ "fei_id": "55",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 9,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Kiev",
+  "cp": "",
+  "city_cp": "",
+  "address": "Institut français d'Ukraine 84, rue Hontchara, 01901 Kiev",
+  "address_lines": [
+   "Institut français d'Ukraine 84, rue Hontchara",
+   "01901 Kiev"
+  ],
+  "phone": "68 374 76 85",
+  "emails": [
+   "delfdalf.kiev@gmail.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française Dnipro",
+   "city": "Dnipro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Krutohornyi uzviz, 21-А, 49000 Dnipro",
+   "address_lines": [
+    "Krutohornyi uzviz, 21-А",
+    "49000 Dnipro"
+   ],
+   "phone": "0913007483",
+   "emails": [
+    "directeur.dnipro@afukraine.org"
+   ],
+   "url": "https://afdnipro.com.ua/",
+   "so": false
+  },
+  {
+   "name": "PARIS-IF",
+   "city": "Ivano-Frankivsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "14 rue Viiskovykh vétéraniv, 76018 Ivano-Frankivsk",
+   "address_lines": [
+    "14 rue Viiskovykh vétéraniv",
+    "76018 Ivano-Frankivsk"
+   ],
+   "phone": "+380501934345",
+   "emails": [
+    "paris.if2018@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Kharkiv",
+   "city": "Kharkiv",
+   "cp": "",
+   "city_cp": "",
+   "address": "ulitsa Kosmichna 21, 61145 Kharkiv",
+   "address_lines": [
+    "ulitsa Kosmichna 21",
+    "61145 Kharkiv"
+   ],
+   "phone": "992875619",
+   "emails": [
+    "contact.kharkiv@afukraine.org"
+   ],
+   "url": "http://www.afkharkiv.com.ua",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Ukraine",
+   "city": "Kyiv",
+   "cp": "",
+   "city_cp": "",
+   "address": "84, rue Olesia Honchara, 01054 Kyiv",
+   "address_lines": [
+    "84, rue Olesia Honchara",
+    "01054 Kyiv"
+   ],
+   "phone": "+380444822371",
+   "emails": [
+    "delfdalf@ifu.kyiv.ua"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "LYCÉE FRANCAIS ANNE DE KYIV",
+   "city": "Kyiv",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lypynskogo 21, 01054 Kyiv",
+   "address_lines": [
+    "Lypynskogo 21",
+    "01054 Kyiv"
+   ],
+   "phone": "992353858",
+   "emails": [
+    "proviseur@lyceeadk.com"
+   ],
+   "url": "https://lyceeadk.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Lviv",
+   "city": "Lviv",
+   "cp": "",
+   "city_cp": "",
+   "address": "18, rue Ivana Ohiienka, 79000 Lviv",
+   "address_lines": [
+    "18, rue Ivana Ohiienka",
+    "79000 Lviv"
+   ],
+   "phone": "67 340 4001",
+   "emails": [
+    "directeur.lviv@afukraine.org"
+   ],
+   "url": "https://aflviv.com.ua/",
+   "so": false
+  },
+  {
+   "name": "Alliance française d'Odessa",
+   "city": "Odessa",
+   "cp": "",
+   "city_cp": "",
+   "address": "5 rue Sadova, 65023 Odessa",
+   "address_lines": [
+    "5 rue Sadova",
+    "65023 Odessa"
+   ],
+   "phone": "0683458733",
+   "emails": [
+    "directeur.odessa@afukraine.org"
+   ],
+   "url": "http://afodessa.com.ua/?lang=fr",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Rivné",
+   "city": "Rivne",
+   "cp": "",
+   "city_cp": "",
+   "address": "17 rue Gueroiv Policii, 33024 Rivne",
+   "address_lines": [
+    "17 rue Gueroiv Policii",
+    "33024 Rivne"
+   ],
+   "phone": "+3800677426069",
+   "emails": [
+    "directeur.rivne@afukraine.org"
+   ],
+   "url": "http://afrivne.com",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Sébastopol",
+   "city": "Sebastopol",
+   "cp": "",
+   "city_cp": "",
+   "address": "50,rue Bolchaya Morskaya, bureau 60, 299011 Sebastopol",
+   "address_lines": [
+    "50,rue Bolchaya Morskaya, bureau 60",
+    "299011 Sebastopol"
+   ],
+   "phone": "+79780063220",
+   "emails": [
+    "afsebastopol@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

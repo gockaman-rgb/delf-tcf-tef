@@ -1,0 +1,126 @@
+{
+ "country": "Haïti",
+ "iso2": "HT",
+ "fei_id": "27",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Centre de Langues",
+  "city": "Port-Au-Prince",
+  "cp": "",
+  "city_cp": "",
+  "address": "Centre de Langues 99, avenue Lamartinière BP 131, HT-6113 Port-Au-Prince",
+  "address_lines": [
+   "Centre de Langues 99, avenue Lamartinière BP 131",
+   "HT-6113 Port-Au-Prince"
+  ],
+  "phone": "34 58 83 26",
+  "emails": [],
+  "url": "http://www.institutfrancaishaiti.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française du Cap-Haitien",
+   "city": "Cap-Haïtien",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rues 15-16 B-D, 1110 Cap-Haïtien",
+   "address_lines": [
+    "Rues 15-16 B-D",
+    "1110 Cap-Haïtien"
+   ],
+   "phone": "38067694",
+   "emails": [
+    "cours.afcaphaitien@gmail.com"
+   ],
+   "url": "http://www.alliancefrancaise-haiti.org/caphaitien/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française des Gonaives",
+   "city": "Gonaives",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Fabre Nicolas GEFFRARD, HT4110 Gonaives",
+   "address_lines": [
+    "Rue Fabre Nicolas GEFFRARD",
+    "HT4110 Gonaives"
+   ],
+   "phone": "+50922584973",
+   "emails": [
+    "info.gonaives@alliancefrancaise-haiti.org"
+   ],
+   "url": "http://www.alliancefrancaise-haiti.org/gonaives/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Jacmel",
+   "city": "Jacmel",
+   "cp": "",
+   "city_cp": "",
+   "address": "Angle Avenue de la Liberté et rue S. Pradel Jacmel",
+   "address_lines": [
+    "Angle Avenue de la Liberté et rue S. Pradel Jacmel"
+   ],
+   "phone": "36260424",
+   "emails": [
+    "dir.jacmel@alliancefrancaise-haiti.org"
+   ],
+   "url": "http://www.alliancefrancaise-haiti.org/jacmel/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Jérémie",
+   "city": "Jérémie",
+   "cp": "",
+   "city_cp": "",
+   "address": "78, angle rues Bordes et Rochasse, HT-7110 Jérémie",
+   "address_lines": [
+    "78, angle rues Bordes et Rochasse",
+    "HT-7110 Jérémie"
+   ],
+   "phone": "37177278",
+   "emails": [],
+   "url": "http://www.alliancefrancaise-haiti.org/jeremie/",
+   "so": false
+  },
+  {
+   "name": "Alliance française des Cayes",
+   "city": "Les Cayes",
+   "cp": "",
+   "city_cp": "",
+   "address": "25, Angle des rues Nicolas GEFFRARD et Monseigneur MAURICE, ht 8110 Les Cayes",
+   "address_lines": [
+    "25, Angle des rues Nicolas GEFFRARD et Monseigneur MAURICE",
+    "ht 8110 Les Cayes"
+   ],
+   "phone": "38127418",
+   "emails": [
+    "alliancefrancaisedescayes@gmail.com"
+   ],
+   "url": "http://www.alliancefrancaise-haiti.org/lescayes/",
+   "so": false
+  },
+  {
+   "name": "Institut français en Haïti",
+   "city": "Port-Au-Prince",
+   "cp": "",
+   "city_cp": "",
+   "address": "99, avenue Lamartinière – Bois-Verna – BP 131, HT-6113 Port-Au-Prince",
+   "address_lines": [
+    "99, avenue Lamartinière – Bois-Verna – BP 131",
+    "HT-6113 Port-Au-Prince"
+   ],
+   "phone": "2811-4411",
+   "emails": [
+    "infocours@institutfrancaishaiti.org"
+   ],
+   "url": "http://www.institutfrancaishaiti.org/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "country": "Slovaquie",
+ "iso2": "SK",
+ "fei_id": "92",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Bratislava",
+  "cp": "",
+  "city_cp": "",
+  "address": "Sedlarska 7, 812 83 Bratislava",
+  "address_lines": [
+   "Sedlarska 7",
+   "812 83 Bratislava"
+  ],
+  "phone": "2 59 34 77 30",
+  "emails": [],
+  "url": "http://www.institutfrancais.sk/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française Banska Bystrica",
+   "city": "Banska Bystrica",
+   "cp": "",
+   "city_cp": "",
+   "address": "Lazovna 9, 975 58 Banska Bystrica",
+   "address_lines": [
+    "Lazovna 9",
+    "975 58 Banska Bystrica"
+   ],
+   "phone": "948357889",
+   "emails": [
+    "directionbb@afsk.sk"
+   ],
+   "url": "http://www.afsk.sk/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Slovaquie",
+   "city": "Bratislava",
+   "cp": "",
+   "city_cp": "",
+   "address": "Sedlarska 7, 812 83 Bratislava",
+   "address_lines": [
+    "Sedlarska 7",
+    "812 83 Bratislava"
+   ],
+   "phone": "259347730",
+   "emails": [],
+   "url": "http://www.institutfrancais.sk/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Kosice",
+   "city": "Kosice",
+   "cp": "",
+   "city_cp": "",
+   "address": "Alžbetina 55, 04001 Kosice",
+   "address_lines": [
+    "Alžbetina 55",
+    "04001 Kosice"
+   ],
+   "phone": "948 929 157",
+   "emails": [
+    "president@afke.sk"
+   ],
+   "url": "https://afke.sk/",
+   "so": false
+  }
+ ]
+}

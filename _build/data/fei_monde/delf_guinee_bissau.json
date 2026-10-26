@@ -1,0 +1,42 @@
+{
+ "country": "Guinée-Bissau",
+ "iso2": "GW",
+ "fei_id": "357",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Bissao",
+  "cp": "",
+  "city_cp": "",
+  "address": "Ministère de l'Europe et des Affaires étrangères Ambassade de France à Bissao (Guinée Bissao) S/C, 75007 Bissao",
+  "address_lines": [
+   "Ministère de l'Europe et des Affaires étrangères Ambassade de France à Bissao (Guinée Bissao) S/C",
+   "75007 Bissao"
+  ],
+  "phone": "+245955350164",
+  "emails": [],
+  "url": "http://www.ccfbg.net",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Centre Culturel Franco Bissao Guinéen (CCFBG)",
+   "city": "Bissau",
+   "cp": "",
+   "city_cp": "",
+   "address": "Praça Che guevara, CP129 Bissau",
+   "address_lines": [
+    "Praça Che guevara",
+    "CP129 Bissau"
+   ],
+   "phone": "955350164",
+   "emails": [],
+   "url": "http://www.ccfbg.net",
+   "so": false
+  }
+ ]
+}

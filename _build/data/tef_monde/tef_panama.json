@@ -1,0 +1,33 @@
+{
+ "country": "Panama",
+ "iso2": "PA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE PANAMA",
+   "city": "PANAMA CIUDAD",
+   "cp": "Apartado 0816-00611",
+   "city_cp": "",
+   "address": "Calle 44 con, Avenida Justo Arosemena, Apartado 0816-00611 PANAMA CIUDAD",
+   "address_lines": [
+    "Calle 44 con, Avenida Justo Arosemena",
+    "Apartado 0816-00611 PANAMA CIUDAD"
+   ],
+   "phone": "+507 223-7376",
+   "emails": [
+    "pedagogia.coordo@afpanama.org"
+   ],
+   "url": "https://alianzafrancesapanama.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 164,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/164"
+  }
+ ]
+}

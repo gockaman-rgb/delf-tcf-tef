@@ -1,0 +1,45 @@
+{
+ "country": "Eswatini",
+ "iso2": "SZ",
+ "fei_id": "429",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Mbabane",
+  "cp": "",
+  "city_cp": "",
+  "address": "PO BOX A 266 Swazi Plaza Mbabane",
+  "address_lines": [
+   "PO BOX A 266 Swazi Plaza Mbabane"
+  ],
+  "phone": "24 04 36 67",
+  "emails": [
+   "director@afmbabane.org"
+  ],
+  "url": "http://www.alliance.org.za/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Mbabane",
+   "city": "Mbabane",
+   "cp": "",
+   "city_cp": "",
+   "address": "Behind Ministry of Education, H100 Mbabane",
+   "address_lines": [
+    "Behind Ministry of Education",
+    "H100 Mbabane"
+   ],
+   "phone": "24043667",
+   "emails": [
+    "info@afmbabane.org"
+   ],
+   "url": "http://www.alliance.org.za/",
+   "so": false
+  }
+ ]
+}

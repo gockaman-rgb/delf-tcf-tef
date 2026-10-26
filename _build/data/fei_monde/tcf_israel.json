@@ -1,0 +1,62 @@
+{
+ "country": "Israël",
+ "iso2": "IL",
+ "fei_id": "104",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français - Antenne Châteaubriand",
+   "city": "Jérusalem",
+   "cp": "",
+   "city_cp": "",
+   "address": "Salah Ad-din street 23 BP 19071, 91190 Jérusalem",
+   "address_lines": [
+    "Salah Ad-din street 23 BP 19071",
+    "91190 Jérusalem"
+   ],
+   "phone": "972587380466",
+   "emails": [
+    "cours-chateaubriand@consulfrance-jerusalem.org"
+   ],
+   "url": "http://www.institutfrancais-jerusalem.org",
+   "so": true
+  },
+  {
+   "name": "Institut français Romain Gary",
+   "city": "Jérusalem",
+   "cp": "",
+   "city_cp": "",
+   "address": "BP 1003 Hillel Street 35, 9100901 Jérusalem",
+   "address_lines": [
+    "BP 1003 Hillel Street 35",
+    "9100901 Jérusalem"
+   ],
+   "phone": "(0)50-4004201",
+   "emails": [
+    "ifjrg.exam@gmail.com"
+   ],
+   "url": "http://www.ccfgary-jerusalem.org.il",
+   "so": true
+  },
+  {
+   "name": "Tel Aviv, Institut français d'Israël",
+   "city": "Tel Aviv",
+   "cp": "",
+   "city_cp": "",
+   "address": "7, boulevard Rothschild, 66881 Tel Aviv",
+   "address_lines": [
+    "7, boulevard Rothschild",
+    "66881 Tel Aviv"
+   ],
+   "phone": "972-3-796-80-11",
+   "emails": [],
+   "url": "https://www.institutfrancais-israel.com/fr/",
+   "so": false
+  }
+ ]
+}

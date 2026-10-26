@@ -1,0 +1,42 @@
+{
+ "country": "Singapour",
+ "iso2": "SG",
+ "fei_id": "52",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Singapour",
+  "cp": "",
+  "city_cp": "",
+  "address": "1 Sarkies Road, 258130 Singapour",
+  "address_lines": [
+   "1 Sarkies Road",
+   "258130 Singapour"
+  ],
+  "phone": "6817 8169",
+  "emails": [],
+  "url": "http://www.alliancefrancaise.org.sg/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Singapour",
+   "city": "Singapour",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 sarkies road, 258130 Singapour",
+   "address_lines": [
+    "1 sarkies road",
+    "258130 Singapour"
+   ],
+   "phone": "86511414",
+   "emails": [],
+   "url": "http://www.alliancefrancaise.org.sg/",
+   "so": false
+  }
+ ]
+}

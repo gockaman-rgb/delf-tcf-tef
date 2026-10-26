@@ -1,0 +1,89 @@
+{
+ "country": "Sénégal",
+ "iso2": "SN",
+ "fei_id": "145",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Dakar",
+  "cp": "",
+  "city_cp": "",
+  "address": "89 rue J. Gomis, BP 4003 Dakar",
+  "address_lines": [
+   "89 rue J. Gomis",
+   "BP 4003 Dakar"
+  ],
+  "phone": "+221772596508",
+  "emails": [],
+  "url": "http://www.ifs.sn/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Sénégal",
+   "city": "Dakar",
+   "cp": "",
+   "city_cp": "",
+   "address": "3 rue Parchappe, BP 40 03 Dakar",
+   "address_lines": [
+    "3 rue Parchappe",
+    "BP 40 03 Dakar"
+   ],
+   "phone": "33 82108 22",
+   "emails": [
+    "examens@ifs.sn"
+   ],
+   "url": "http://www.ifs.sn/",
+   "so": false
+  },
+  {
+   "name": "Alliance franco-sénégalaise de Kaolack",
+   "city": "Kaolack",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Gallieni, BP 60 Kaolack",
+   "address_lines": [
+    "Avenue Gallieni",
+    "BP 60 Kaolack"
+   ],
+   "phone": "772779086",
+   "emails": [],
+   "url": "https://afkaolack.org/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Sénégal à Saint-Louis",
+   "city": "Saint Louis",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Jean Mermoz, BP 368 Saint Louis",
+   "address_lines": [
+    "Avenue Jean Mermoz",
+    "BP 368 Saint Louis"
+   ],
+   "phone": "339382626",
+   "emails": [],
+   "url": "https://ifs.sn/#/",
+   "so": false
+  },
+  {
+   "name": "Alliance franco-sénégalaise de Ziguinchor",
+   "city": "Ziguinchor",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Djignabo, BP 213 Ziguinchor",
+   "address_lines": [
+    "Avenue Djignabo",
+    "BP 213 Ziguinchor"
+   ],
+   "phone": "785978448",
+   "emails": [],
+   "url": "http://afziguinchor.org",
+   "so": false
+  }
+ ]
+}

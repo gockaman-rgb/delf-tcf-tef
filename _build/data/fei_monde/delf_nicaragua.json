@@ -1,0 +1,45 @@
+{
+ "country": "Nicaragua",
+ "iso2": "NI",
+ "fei_id": "31",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Managua",
+  "cp": "",
+  "city_cp": "",
+  "address": "De la Embajada de México, 1/2 al Norte Managua",
+  "address_lines": [
+   "De la Embajada de México, 1/2 al Norte Managua"
+  ],
+  "phone": "2267 2811",
+  "emails": [
+   "pedagogia@alianzafrancesa.org.ni"
+  ],
+  "url": "http://www.alianzafrancesa.org.ni/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Managua",
+   "cp": "",
+   "city_cp": "",
+   "address": "De la Embajada de Mexico 1/2c N., 505 Managua",
+   "address_lines": [
+    "De la Embajada de Mexico 1/2c N.",
+    "505 Managua"
+   ],
+   "phone": "00505 22672811",
+   "emails": [
+    "pedagogia@alianzafrancesa.org.ni"
+   ],
+   "url": "http://www.alianzafrancesa.org.ni/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "country": "Barbade",
+ "iso2": "BB",
+ "fei_id": "17",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Bridgetown",
+  "cp": "",
+  "city_cp": "",
+  "address": "P.O. Box 357 Cheapside GPO St Michael, BB 11111 Bridgetown",
+  "address_lines": [
+   "P.O. Box 357 Cheapside GPO St Michael",
+   "BB 11111 Bridgetown"
+  ],
+  "phone": "(246) 233 3234",
+  "emails": [
+   "director@afbridgetown.org"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Bridgetown",
+   "city": "Bridgetown",
+   "cp": "",
+   "city_cp": "",
+   "address": "357 PO BOX Cheapside GPO, Bridgetown, Barbados Bridgetown",
+   "address_lines": [
+    "357 PO BOX Cheapside GPO, Bridgetown, Barbados Bridgetown"
+   ],
+   "phone": "+12462333234",
+   "emails": [
+    "director@afbridgetown.org"
+   ],
+   "url": "https://afb.afcaraibe.org/",
+   "so": false
+  }
+ ]
+}

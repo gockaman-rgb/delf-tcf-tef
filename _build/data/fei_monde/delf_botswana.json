@@ -1,0 +1,44 @@
+{
+ "country": "Botswana",
+ "iso2": "BW",
+ "fei_id": "332",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Gaborone",
+  "cp": "",
+  "city_cp": "",
+  "address": "PO Box 1817 Gaborone",
+  "address_lines": [
+   "PO Box 1817 Gaborone"
+  ],
+  "phone": "+2673951650",
+  "emails": [
+   "dir@afgaborone.org"
+  ],
+  "url": "http://www.alliance.org.za/gaborone/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Gaborone",
+   "city": "Gaborone",
+   "cp": "",
+   "city_cp": "",
+   "address": "POBOX 1817 Gaborone",
+   "address_lines": [
+    "POBOX 1817 Gaborone"
+   ],
+   "phone": "3951650",
+   "emails": [
+    "dir@afgaborone.org"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

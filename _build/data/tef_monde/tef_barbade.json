@@ -1,0 +1,31 @@
+{
+ "country": "Barbade",
+ "iso2": "BB",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE BRIDGETOWN",
+   "city": "CAVE HILL",
+   "cp": "12001",
+   "city_cp": "",
+   "address": "375 P.O BOX Cheapside GPO, 12001 CAVE HILL",
+   "address_lines": [
+    "375 P.O BOX Cheapside GPO",
+    "12001 CAVE HILL"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "https://afb.afcaraibe.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 789,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/789"
+  }
+ ]
+}

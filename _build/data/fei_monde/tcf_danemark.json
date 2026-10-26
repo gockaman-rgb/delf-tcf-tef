@@ -1,0 +1,30 @@
+{
+ "country": "Danemark",
+ "iso2": "DK",
+ "fei_id": "69",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français du Danemark",
+   "city": "Frederiksberg (Copenhague)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rolighedsvej 37, 1958 Frederiksberg (Copenhague)",
+   "address_lines": [
+    "Rolighedsvej 37",
+    "1958 Frederiksberg (Copenhague)"
+   ],
+   "phone": "45-51-50-32-54",
+   "emails": [
+    "cours@institutfrancais.dk"
+   ],
+   "url": "http://www.institutfrancais.dk",
+   "so": false
+  }
+ ]
+}

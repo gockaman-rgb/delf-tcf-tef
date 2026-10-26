@@ -1,0 +1,51 @@
+{
+ "country": "Argentine",
+ "iso2": "AR",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE BUENOS AIRES",
+   "city": "BUENOS AIRES",
+   "cp": "1054",
+   "city_cp": "",
+   "address": "Av. Córdoba 946, 1054 BUENOS AIRES",
+   "address_lines": [
+    "Av. Córdoba 946",
+    "1054 BUENOS AIRES"
+   ],
+   "phone": "+54 11 4322-0068",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 63,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/63"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE LA PLATA",
+   "city": "LA PLATA",
+   "cp": "1900",
+   "city_cp": "",
+   "address": "Rue 59 numéro 626, 1900 LA PLATA",
+   "address_lines": [
+    "Rue 59 numéro 626",
+    "1900 LA PLATA"
+   ],
+   "phone": "+54 9 221 425-6176",
+   "emails": [
+    "alianzaf@alianzafrancesalp.org.ar"
+   ],
+   "url": "https://www.alianzafrancesalp.org.ar/",
+   "so": false,
+   "products": [],
+   "cci_id": 909,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/909"
+  }
+ ]
+}

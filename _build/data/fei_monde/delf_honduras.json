@@ -1,0 +1,56 @@
+{
+ "country": "Honduras",
+ "iso2": "HN",
+ "fei_id": "28",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Tegucigalpa",
+  "cp": "",
+  "city_cp": "",
+  "address": "Embajada de Francia Colonia Altos Lomas del Guijarro Sur 4ta. Avenida, 2da Calle, Bloque B, Lote 7 Tegucigalpa",
+  "address_lines": [
+   "Embajada de Francia Colonia Altos Lomas del Guijarro Sur 4ta. Avenida, 2da Calle, Bloque B, Lote 7 Tegucigalpa"
+  ],
+  "phone": "2232 5544",
+  "emails": [],
+  "url": "http://www.ambafrance-hn.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de San Pedro Sula",
+   "city": "San Pedro Sula",
+   "cp": "",
+   "city_cp": "",
+   "address": "Colonia Alta Vista, El Playon, 21102 San Pedro Sula",
+   "address_lines": [
+    "Colonia Alta Vista, El Playon",
+    "21102 San Pedro Sula"
+   ],
+   "phone": "94961001",
+   "emails": [],
+   "url": "http://www.alianzafrancesasps.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Tegucigalpa",
+   "city": "Tegucigalpa",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle llama del Bosque, 100 mts antes del Instituto Sagrado Corazón, 11101 Tegucigalpa",
+   "address_lines": [
+    "Calle llama del Bosque, 100 mts antes del Instituto Sagrado Corazón",
+    "11101 Tegucigalpa"
+   ],
+   "phone": "96584607",
+   "emails": [],
+   "url": "http://www.aftegucigalpa.com/",
+   "so": false
+  }
+ ]
+}

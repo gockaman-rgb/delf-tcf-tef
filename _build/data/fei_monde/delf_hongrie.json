@@ -1,0 +1,129 @@
+{
+ "country": "Hongrie",
+ "iso2": "HU",
+ "fei_id": "75",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "SCAC",
+  "city": "Budapest",
+  "cp": "",
+  "city_cp": "",
+  "address": "Fö utca 17, 1011 Budapest",
+  "address_lines": [
+   "Fö utca 17",
+   "1011 Budapest"
+  ],
+  "phone": "3614894226",
+  "emails": [],
+  "url": "http://www.franciaintezet.hu",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français en Hongrie",
+   "city": "Budapest",
+   "cp": "",
+   "city_cp": "",
+   "address": "17 Fő utca, 1011 Budapest",
+   "address_lines": [
+    "17 Fő utca",
+    "1011 Budapest"
+   ],
+   "phone": "14894226",
+   "emails": [
+    "cours@inst-france.hu"
+   ],
+   "url": "http://www.franciaintezet.hu/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Debrecen",
+   "city": "Debrecen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Piac utca 68, 4024 Debrecen",
+   "address_lines": [
+    "Piac utca 68",
+    "4024 Debrecen"
+   ],
+   "phone": "52536026",
+   "emails": [
+    "debrecen@af.org.hu"
+   ],
+   "url": "http://www.af.org.hu/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Miskolc",
+   "city": "Miskolc",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kossuth utca 11, 3525 Miskolc",
+   "address_lines": [
+    "Kossuth utca 11",
+    "3525 Miskolc"
+   ],
+   "phone": "46 509 530",
+   "emails": [
+    "miskolc@af.org.hu"
+   ],
+   "url": "http://www.af.org.hu/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Győr",
+   "city": "Pannonhalma",
+   "cp": "",
+   "city_cp": "",
+   "address": "Vár 1, 9090 Pannonhalma",
+   "address_lines": [
+    "Vár 1",
+    "9090 Pannonhalma"
+   ],
+   "phone": "204240716",
+   "emails": [
+    "afdegyor@gmail.com"
+   ],
+   "url": "http://www.af.org.hu/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Pécs",
+   "city": "Pécs",
+   "cp": "",
+   "city_cp": "",
+   "address": "Mária u. 9, 7621 Pécs",
+   "address_lines": [
+    "Mária u. 9",
+    "7621 Pécs"
+   ],
+   "phone": "72 224 444",
+   "emails": [
+    "pecs@af.org.hu"
+   ],
+   "url": "http://www.af.org.hu/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Szeged",
+   "city": "Szeged",
+   "cp": "",
+   "city_cp": "",
+   "address": "Dugonics tér 2, 6720 Szeged",
+   "address_lines": [
+    "Dugonics tér 2",
+    "6720 Szeged"
+   ],
+   "phone": "30 372 39 79",
+   "emails": [
+    "afdeszeged@gmail.com"
+   ],
+   "url": "http://www.af.org.hu/",
+   "so": false
+  }
+ ]
+}

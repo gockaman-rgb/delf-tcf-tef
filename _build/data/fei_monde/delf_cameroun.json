@@ -1,0 +1,123 @@
+{
+ "country": "Cameroun",
+ "iso2": "CM",
+ "fei_id": "124",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF-DALF",
+  "city": "Douala",
+  "cp": "",
+  "city_cp": "",
+  "address": "61 bis Boulevard de la liberté, BP 01 Douala",
+  "address_lines": [
+   "61 bis Boulevard de la liberté",
+   "BP 01 Douala"
+  ],
+  "phone": "655667299",
+  "emails": [
+   "coursfrancais.dla@ifcameroun.com"
+  ],
+  "url": "http://www.ifcameroun.com",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance franco-camerounaise de Bamenda",
+   "city": "Bamenda",
+   "cp": "",
+   "city_cp": "",
+   "address": "Veterinary Junction, BP 190 Bamenda",
+   "address_lines": [
+    "Veterinary Junction",
+    "BP 190 Bamenda"
+   ],
+   "phone": "693395987",
+   "emails": [],
+   "url": "http://www.bamenda-alliance.org",
+   "so": false
+  },
+  {
+   "name": "Université de Buea",
+   "city": "Buéa",
+   "cp": "",
+   "city_cp": "",
+   "address": "CURELF, BP 63 Buéa",
+   "address_lines": [
+    "CURELF",
+    "BP 63 Buéa"
+   ],
+   "phone": "678817080",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français de Douala",
+   "city": "Douala",
+   "cp": "",
+   "city_cp": "",
+   "address": "61 bis bvd de la Liberté Akwa, BP 01 Douala",
+   "address_lines": [
+    "61 bis bvd de la Liberté Akwa",
+    "BP 01 Douala"
+   ],
+   "phone": "655667299",
+   "emails": [
+    "coursfrancais.dla@ifcameroun.com"
+   ],
+   "url": "http://www.ifcameroun.com",
+   "so": false
+  },
+  {
+   "name": "Alliance franco-camerounaise de Dschang",
+   "city": "Dschang",
+   "cp": "",
+   "city_cp": "",
+   "address": "Pont du plaisir /Lac municipal, BP 117 Dschang",
+   "address_lines": [
+    "Pont du plaisir /Lac municipal",
+    "BP 117 Dschang"
+   ],
+   "phone": "233451088",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance franco-camerounaise de Garoua",
+   "city": "Garoua",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue du Mgr Yves Plumey, BP 1540 Garoua",
+   "address_lines": [
+    "Rue du Mgr Yves Plumey",
+    "BP 1540 Garoua"
+   ],
+   "phone": "222271221",
+   "emails": [
+    "delfdalf@afgaroua.net"
+   ],
+   "url": "http://alliancefrancaisegaroua.org",
+   "so": false
+  },
+  {
+   "name": "Institut français de Yaoundé",
+   "city": "Yaoundé",
+   "cp": "",
+   "city_cp": "",
+   "address": "127,av, du président A. Ahidjo, BP 513 Yaoundé",
+   "address_lines": [
+    "127,av, du président A. Ahidjo",
+    "BP 513 Yaoundé"
+   ],
+   "phone": "690261970",
+   "emails": [],
+   "url": "http://www.ifcameroun.com/",
+   "so": false
+  }
+ ]
+}

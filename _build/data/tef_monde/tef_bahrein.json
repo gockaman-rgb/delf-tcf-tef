@@ -1,0 +1,33 @@
+{
+ "country": "Bahreïn",
+ "iso2": "BH",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE BAHREÏN",
+   "city": "MANAMA",
+   "cp": "",
+   "city_cp": "",
+   "address": "French Language & Cultural Centre, MANAMA",
+   "address_lines": [
+    "French Language & Cultural Centre",
+    "MANAMA"
+   ],
+   "phone": "+973 1367 7667",
+   "emails": [
+    "exam@afbahrain.org"
+   ],
+   "url": "www.afbahrain.org",
+   "so": false,
+   "products": [],
+   "cci_id": 47,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/47"
+  }
+ ]
+}

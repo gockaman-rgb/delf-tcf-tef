@@ -1,0 +1,33 @@
+{
+ "country": "Qatar",
+ "iso2": "QA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU QATAR",
+   "city": "DOHA",
+   "cp": "X",
+   "city_cp": "",
+   "address": "4 Al Inshirah Street, X DOHA",
+   "address_lines": [
+    "4 Al Inshirah Street",
+    "X DOHA"
+   ],
+   "phone": "+974 4493 0862",
+   "emails": [
+    "exams@if-qatar.com"
+   ],
+   "url": "https://if-qatar.com/",
+   "so": false,
+   "products": [],
+   "cci_id": 755,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/755"
+  }
+ ]
+}

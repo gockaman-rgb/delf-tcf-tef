@@ -1,0 +1,71 @@
+{
+ "country": "Sénégal",
+ "iso2": "SN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU SÉNÉGAL- DAKAR",
+   "city": "DAKAR",
+   "cp": "99",
+   "city_cp": "",
+   "address": "89 rue Joseph Gomis, 99 DAKAR",
+   "address_lines": [
+    "89 rue Joseph Gomis",
+    "99 DAKAR"
+   ],
+   "phone": "+221 33 821 08 22",
+   "emails": [
+    "examens@ifs.sn"
+   ],
+   "url": "www.ifs.sn",
+   "so": false,
+   "products": [],
+   "cci_id": 572,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/572"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE KAOLACK",
+   "city": "KAOLACK",
+   "cp": "24000",
+   "city_cp": "",
+   "address": "191 rue de France, 24000 KAOLACK",
+   "address_lines": [
+    "191 rue de France",
+    "24000 KAOLACK"
+   ],
+   "phone": "+221 33 941 10 61",
+   "emails": [
+    "info@afkaolack.org"
+   ],
+   "url": "www.afkaolack.org",
+   "so": false,
+   "products": [],
+   "cci_id": 791,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/791"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU SÉNÉGAL - SAINT-LOUIS",
+   "city": "SAINT-LOUIS",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Jean Mermoz- Quartier Nord, SAINT-LOUIS",
+   "address_lines": [
+    "Avenue Jean Mermoz- Quartier Nord",
+    "SAINT-LOUIS"
+   ],
+   "phone": "+221 33 938 26 26",
+   "emails": [],
+   "url": "www.ifs.sn",
+   "so": false,
+   "products": [],
+   "cci_id": 577,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/577"
+  }
+ ]
+}

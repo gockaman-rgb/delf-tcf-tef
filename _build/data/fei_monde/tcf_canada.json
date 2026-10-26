@@ -1,0 +1,820 @@
+{
+ "country": "Canada",
+ "iso2": "CA",
+ "fei_id": "112",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 49,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Maison Alpha ABC Côte Nord",
+   "city": "Baie-Comeau (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "625, Boulevard La Flèche Bureau 204 -, G5C-1C5 Baie-Comeau (Québec)",
+   "address_lines": [
+    "625, Boulevard La Flèche Bureau 204 -",
+    "G5C-1C5 Baie-Comeau (Québec)"
+   ],
+   "phone": "1-418-29-42-400",
+   "emails": [
+    "abccotenord@gmail.com"
+   ],
+   "url": "https://www.abccotenord.com/",
+   "so": true
+  },
+  {
+   "name": "Campus de Bathurst",
+   "city": "Bathurst (Nouveau-Brunswick)",
+   "cp": "",
+   "city_cp": "",
+   "address": "725, rue du collège Bathurst C.P. 266, E2A3Z6 Bathurst (Nouveau-Brunswick)",
+   "address_lines": [
+    "725, rue du collège Bathurst C.P. 266",
+    "E2A3Z6 Bathurst (Nouveau-Brunswick)"
+   ],
+   "phone": "1-800-376-5353",
+   "emails": [
+    "tcf@ccnb.ca"
+   ],
+   "url": "",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Calgary (Alberta)",
+   "cp": "",
+   "city_cp": "",
+   "address": "#350, 1721 29th Ave SW, T2T6T7 Calgary (Alberta)",
+   "address_lines": [
+    "#350, 1721 29th Ave SW",
+    "T2T6T7 Calgary (Alberta)"
+   ],
+   "phone": "1-403-245-56-62",
+   "emails": [
+    "info@afcalgary.ca"
+   ],
+   "url": "",
+   "so": true
+  },
+  {
+   "name": "Cégep de Saint-Félicien",
+   "city": "Chibougamau (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "119, 5eme avenue, G8P-2E1 Chibougamau (Québec)",
+   "address_lines": [
+    "119, 5eme avenue",
+    "G8P-2E1 Chibougamau (Québec)"
+   ],
+   "phone": "1-418-679-5412",
+   "emails": [],
+   "url": "https://seccol.com/",
+   "so": true
+  },
+  {
+   "name": "Université du Québec à Chicoutimi",
+   "city": "Chicoutimi (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "555 boulevard de l'Université, G7H-2B1 Chicoutimi (Québec)",
+   "address_lines": [
+    "555 boulevard de l'Université",
+    "G7H-2B1 Chicoutimi (Québec)"
+   ],
+   "phone": "1-888-545-5036",
+   "emails": [
+    "fc_tcf@uqac.ca"
+   ],
+   "url": "http://elf.uqac.ca/a-propostesttcf/",
+   "so": true
+  },
+  {
+   "name": "Ecole internationale de français UQTR",
+   "city": "Drummondville (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus de Drummondville 555 boulevard de l'Université, J2C0R5 Drummondville (Québec)",
+   "address_lines": [
+    "Campus de Drummondville 555 boulevard de l'Université",
+    "J2C0R5 Drummondville (Québec)"
+   ],
+   "phone": "1-819-376-5011",
+   "emails": [
+    "eif.tcf@uqtr.ca"
+   ],
+   "url": "http://www.uqtr.ca/eif",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Edmonton (Alberta)",
+   "cp": "",
+   "city_cp": "",
+   "address": "10424 123 street NW, T5N1N7 Edmonton (Alberta)",
+   "address_lines": [
+    "10424 123 street NW",
+    "T5N1N7 Edmonton (Alberta)"
+   ],
+   "phone": "1-780-469-0399",
+   "emails": [
+    "tcf@afedmonton.ca"
+   ],
+   "url": "https://www.af.ca/edmonton",
+   "so": true
+  },
+  {
+   "name": "Campus d'Edmundston",
+   "city": "Edmundston (Nouveau-Brunswick)",
+   "cp": "",
+   "city_cp": "",
+   "address": "35, rue du 15-Août, E3V3K7 Edmundston (Nouveau-Brunswick)",
+   "address_lines": [
+    "35, rue du 15-Août",
+    "E3V3K7 Edmundston (Nouveau-Brunswick)"
+   ],
+   "phone": "1-800-376-5353",
+   "emails": [
+    "tcf@ccnb.ca"
+   ],
+   "url": "https://ccnb.ca/",
+   "so": true
+  },
+  {
+   "name": "Cégep de la Gaspésie et des Iles",
+   "city": "Gaspé (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "96, rue Jacques Cartier, QC-G4X-2S8 Gaspé (Québec)",
+   "address_lines": [
+    "96, rue Jacques Cartier",
+    "QC-G4X-2S8 Gaspé (Québec)"
+   ],
+   "phone": "1-888-368-2201",
+   "emails": [],
+   "url": "https://cegepgim.ca/",
+   "so": true
+  },
+  {
+   "name": "Cégep de la Gaspésie et des Iles",
+   "city": "Gaspé (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "96, rue Jacques Cartier, QC-G4X-2S8 Gaspé (Québec)",
+   "address_lines": [
+    "96, rue Jacques Cartier",
+    "QC-G4X-2S8 Gaspé (Québec)"
+   ],
+   "phone": "418-368-2201",
+   "emails": [
+    "TCF@cegepgim.ca"
+   ],
+   "url": "https://cegepgim.ca/",
+   "so": true
+  },
+  {
+   "name": "Halifax, Alliance française",
+   "city": "Halifax (Nouvelle-Écosse)",
+   "cp": "",
+   "city_cp": "",
+   "address": "5509 Young Street, NS-B3K-1Z7 Halifax (Nouvelle-Écosse)",
+   "address_lines": [
+    "5509 Young Street",
+    "NS-B3K-1Z7 Halifax (Nouvelle-Écosse)"
+   ],
+   "phone": "1-902-580-8284",
+   "emails": [
+    "exam@afhalifax.ca"
+   ],
+   "url": "http://www.afhalifax.ca",
+   "so": true
+  },
+  {
+   "name": "Ikajunga Services",
+   "city": "Iqaluit (Nunavut)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Carrefour Nunavut 723 Iglulik Dr, NU-X0A Iqaluit (Nunavut)",
+   "address_lines": [
+    "Carrefour Nunavut 723 Iglulik Dr",
+    "NU-X0A Iqaluit (Nunavut)"
+   ],
+   "phone": "01-438-402-6399",
+   "emails": [
+    "ikajungaservices@gmail.com"
+   ],
+   "url": "https://www.ikajungaservicesnu.com/",
+   "so": true
+  },
+  {
+   "name": "Kuper Academy",
+   "city": "Kirkland (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "2975 rue Edmond, H9H-5K5 Kirkland (Québec)",
+   "address_lines": [
+    "2975 rue Edmond",
+    "H9H-5K5 Kirkland (Québec)"
+   ],
+   "phone": "514-426-3007",
+   "emails": [],
+   "url": "https://www.kuperacademy.ca",
+   "so": true
+  },
+  {
+   "name": "Collège de Sainte-Anne-de-la-Pocatière",
+   "city": "La Pocatière (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "100, 4e Avenue Painchaud, GOR1Z0 La Pocatière (Québec)",
+   "address_lines": [
+    "100, 4e Avenue Painchaud",
+    "GOR1Z0 La Pocatière (Québec)"
+   ],
+   "phone": "418-856-3012",
+   "emails": [
+    "tcf@leadercsa.com"
+   ],
+   "url": "https://www.frenchimmersionschool.ca",
+   "so": true
+  },
+  {
+   "name": "Centre de formation Les Berges",
+   "city": "Laval (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "2100 rue Cunard, H7S-2G5 Laval (Québec)",
+   "address_lines": [
+    "2100 rue Cunard",
+    "H7S-2G5 Laval (Québec)"
+   ],
+   "phone": "1-450-662-7000 / 3183",
+   "emails": [
+    "lesberges-tcf_tef@csslaval.gouv.qc.ca"
+   ],
+   "url": "http://www.ealaval.com/Centre-de-formation-les-Berges",
+   "so": true
+  },
+  {
+   "name": "French Language Centre",
+   "city": "Lethbridge (Alberta)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Dept. of Modern Languages University of Lethbridge 4401 University Drive, T1K-3M4 Lethbridge (Alberta)",
+   "address_lines": [
+    "Dept. of Modern Languages University of Lethbridge 4401 University Drive",
+    "T1K-3M4 Lethbridge (Alberta)"
+   ],
+   "phone": "403-329-2338",
+   "emails": [
+    "flc@uleth.ca"
+   ],
+   "url": "https://www.ulethbridge.ca/artsci/modern-languages/french-language-centre",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Mississauga (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus de Mississauga 4261 Sherwoodtown Blvd, L4Z1Y5 Mississauga (Ontario)",
+   "address_lines": [
+    "Campus de Mississauga 4261 Sherwoodtown Blvd",
+    "L4Z1Y5 Mississauga (Ontario)"
+   ],
+   "phone": "905-272-4444",
+   "emails": [
+    "mississauga@alliance-francaise.ca"
+   ],
+   "url": "https://www.alliance-francaise.ca/fr/",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Moncton",
+   "city": "Moncton (Nouveau-Brunswick)",
+   "cp": "",
+   "city_cp": "",
+   "address": "236, Rue St Georges #19, E1C-1W1 Moncton (Nouveau-Brunswick)",
+   "address_lines": [
+    "236, Rue St Georges #19",
+    "E1C-1W1 Moncton (Nouveau-Brunswick)"
+   ],
+   "phone": "1-506-387-50-56",
+   "emails": [
+    "exams@afmoncton.ca"
+   ],
+   "url": "http://www.afmoncton.ca",
+   "so": true
+  },
+  {
+   "name": "Alliance Française de Montréal",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "317 Place d’Youville suite 100, QC-H2Y-2B5 Montréal (Québec)",
+   "address_lines": [
+    "317 Place d’Youville suite 100",
+    "QC-H2Y-2B5 Montréal (Québec)"
+   ],
+   "phone": "1-514-687-1919",
+   "emails": [
+    "info@afmontreal.ca"
+   ],
+   "url": "https://www.afmontreal.ca/tcf/#/",
+   "so": true
+  },
+  {
+   "name": "Cégep Marie-Victorin",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "4975 Rue Paré, H4P-1P4 Montréal (Québec)",
+   "address_lines": [
+    "4975 Rue Paré",
+    "H4P-1P4 Montréal (Québec)"
+   ],
+   "phone": "01-514-278-3535",
+   "emails": [
+    "tcf@cegepmv.qc.ca"
+   ],
+   "url": "https://cegepmv.ca/formation-continue",
+   "so": true
+  },
+  {
+   "name": "Centre Yves-Thériault",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "3925, rue Villeray, H2A-1H1 Montréal (Québec)",
+   "address_lines": [
+    "3925, rue Villeray",
+    "H2A-1H1 Montréal (Québec)"
+   ],
+   "phone": "1-514-596-7110",
+   "emails": [],
+   "url": "https://centre-yves-theriault.csdm.gouv.qc.ca",
+   "so": true
+  },
+  {
+   "name": "Collège ELC",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "600 Jean Talon Est - local 201, H2R3A8 Montréal (Québec)",
+   "address_lines": [
+    "600 Jean Talon Est - local 201",
+    "H2R3A8 Montréal (Québec)"
+   ],
+   "phone": "1-514-903-3198",
+   "emails": [
+    "tcf@elccollege.ca"
+   ],
+   "url": "https://www.elccollege.ca",
+   "so": true
+  },
+  {
+   "name": "Collège Stanislas",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "780 boulevard Dollard Outremont, H2V3G5 Montréal (Québec)",
+   "address_lines": [
+    "780 boulevard Dollard Outremont",
+    "H2V3G5 Montréal (Québec)"
+   ],
+   "phone": "514-273-9521",
+   "emails": [
+    "tcfmontreal@stanislas.qc.ca"
+   ],
+   "url": "http://www.stanislas.qc.ca/montreal/",
+   "so": true
+  },
+  {
+   "name": "Université Concordia",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1250 rue Guy,Faubourg building 1ere étage, FB 117, H3H-2T4 Montréal (Québec)",
+   "address_lines": [
+    "1250 rue Guy,Faubourg building 1ere étage, FB 117",
+    "H3H-2T4 Montréal (Québec)"
+   ],
+   "phone": "1-514-848-3600",
+   "emails": [
+    "language.test@concordia.ca"
+   ],
+   "url": "https://www.concordia.ca/succeeding-in-french/tcf-test.html",
+   "so": true
+  },
+  {
+   "name": "Université du Québec à Montréal (UQÀM)",
+   "city": "Montréal (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "209, rue Ste-Catherine Est bureau V-5105, H2X-1L2 Montréal (Québec)",
+   "address_lines": [
+    "209, rue Ste-Catherine Est bureau V-5105",
+    "H2X-1L2 Montréal (Québec)"
+   ],
+   "phone": "1-514-987-3000 / 1-514-987-2558",
+   "emails": [],
+   "url": "https://francisation.uqam.ca/tests-tcf/infos/",
+   "so": true
+  },
+  {
+   "name": "New Westminster, Alliance française Canada Pacific",
+   "city": "New Westminster (Colombie-Britannique)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Unit 101 - 320 Columbia St -, V3L-1A7 New Westminster (Colombie-Britannique)",
+   "address_lines": [
+    "Unit 101 - 320 Columbia St -",
+    "V3L-1A7 New Westminster (Colombie-Britannique)"
+   ],
+   "phone": "1-604-327-02-01",
+   "emails": [
+    "tef.tcf@alliancefrancaise.ca"
+   ],
+   "url": "http://www.alliancefrancaise.ca",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Toronto",
+   "city": "North York (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus de North York 47 Sheppard Avenue East Suite 502 - 5eme étage, M2N5N1 North York (Ontario)",
+   "address_lines": [
+    "Campus de North York 47 Sheppard Avenue East Suite 502 - 5eme étage",
+    "M2N5N1 North York (Ontario)"
+   ],
+   "phone": "416-221-4684",
+   "emails": [],
+   "url": "http://www.alliance-francaise.ca",
+   "so": true
+  },
+  {
+   "name": "GB Language Centre",
+   "city": "North York (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "716 Gordon Baker Rd, Unite 211, M2H-3B4 North York (Ontario)",
+   "address_lines": [
+    "716 Gordon Baker Rd, Unite 211",
+    "M2H-3B4 North York (Ontario)"
+   ],
+   "phone": "1-437-317-7180",
+   "emails": [
+    "admin@gblc.ca"
+   ],
+   "url": "https://gblc.ca/en",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Oakville (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus d'Oakville 247 North service Rd.W.#303, L6M3E6 Oakville (Ontario)",
+   "address_lines": [
+    "Campus d'Oakville 247 North service Rd.W.#303",
+    "L6M3E6 Oakville (Ontario)"
+   ],
+   "phone": "1-289-291-3333",
+   "emails": [],
+   "url": "",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Ottawa (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "352 MacLaren Street, K2P-0M6 Ottawa (Ontario)",
+   "address_lines": [
+    "352 MacLaren Street",
+    "K2P-0M6 Ottawa (Ontario)"
+   ],
+   "phone": "1-613-234-9470",
+   "emails": [
+    "certifications@af.ca"
+   ],
+   "url": "http://www.af.ca/ottawa",
+   "so": true
+  },
+  {
+   "name": "FrancoLangues",
+   "city": "Ottawa (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "105 Schneider Road, unité 114, K2K1Y3 Ottawa (Ontario)",
+   "address_lines": [
+    "105 Schneider Road, unité 114",
+    "K2K1Y3 Ottawa (Ontario)"
+   ],
+   "phone": "1613-262-1822",
+   "emails": [
+    "TCF@francolangues.ca"
+   ],
+   "url": "https://www.francolangues.ca",
+   "so": true
+  },
+  {
+   "name": "Collège Stanislas",
+   "city": "Québec (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1605, chemin Sainte-Foy, G1S-2P1 Québec (Québec)",
+   "address_lines": [
+    "1605, chemin Sainte-Foy",
+    "G1S-2P1 Québec (Québec)"
+   ],
+   "phone": "1-418-527-9998",
+   "emails": [
+    "tcfquebec@stanislas.qc.ca"
+   ],
+   "url": "http://www.stanislas.qc.ca/quebec/index.php",
+   "so": true
+  },
+  {
+   "name": "Université Laval",
+   "city": "Québec (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1030, av. des Sciences-Humaine Pavillon Charles-De Koninck bureau 3237, G1V0A6 Québec (Québec)",
+   "address_lines": [
+    "1030, av. des Sciences-Humaine Pavillon Charles-De Koninck bureau 3237",
+    "G1V0A6 Québec (Québec)"
+   ],
+   "phone": "1-418-656-7770",
+   "emails": [
+    "tests-langues@elul.ulaval.ca"
+   ],
+   "url": "http://www.elul.ulaval.ca",
+   "so": true
+  },
+  {
+   "name": "Collège Mathieu",
+   "city": "Regina (Saskatchewan)",
+   "cp": "",
+   "city_cp": "",
+   "address": "110-3303 Hillsdale Street, S4S-6W9 Regina (Saskatchewan)",
+   "address_lines": [
+    "110-3303 Hillsdale Street",
+    "S4S-6W9 Regina (Saskatchewan)"
+   ],
+   "phone": "306-384-2722",
+   "emails": [
+    "certifications@collegemathieu.sk.ca"
+   ],
+   "url": "https://www.collegemathieu.sk.ca",
+   "so": true
+  },
+  {
+   "name": "Université du Québec en Abitibi-Témiscamingue",
+   "city": "Rouyn-Noranda (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Service de formation continue 445 boulevard de l'Université, J9X-5E4 Rouyn-Noranda (Québec)",
+   "address_lines": [
+    "Service de formation continue 445 boulevard de l'Université",
+    "J9X-5E4 Rouyn-Noranda (Québec)"
+   ],
+   "phone": "1-819-762-0971",
+   "emails": [
+    "fc@uqat.ca"
+   ],
+   "url": "http://formationcontinue.uqat.ca/fr/TCF",
+   "so": true
+  },
+  {
+   "name": "Complexe X",
+   "city": "Saint-Constant (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "247D, rue Ste-Catherine Local 200, J5A2J6 Saint-Constant (Québec)",
+   "address_lines": [
+    "247D, rue Ste-Catherine Local 200",
+    "J5A2J6 Saint-Constant (Québec)"
+   ],
+   "phone": "450-635-3222",
+   "emails": [
+    "tcf@complx.ca"
+   ],
+   "url": "http://complx.ca",
+   "so": true
+  },
+  {
+   "name": "Cégep de Saint Félicien",
+   "city": "Saint-Félicien (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1105 Bd Hamel, G8K-2R8 Saint-Félicien (Québec)",
+   "address_lines": [
+    "1105 Bd Hamel",
+    "G8K-2R8 Saint-Félicien (Québec)"
+   ],
+   "phone": "1-418-679-5412",
+   "emails": [],
+   "url": "https://seccol.com/",
+   "so": true
+  },
+  {
+   "name": "Collège Mathieu",
+   "city": "Saskatoon (Saskatchewan)",
+   "cp": "",
+   "city_cp": "",
+   "address": "100 – 318 Wellman Lane, SK-S7T-0G3 Saskatoon (Saskatchewan)",
+   "address_lines": [
+    "100 – 318 Wellman Lane",
+    "SK-S7T-0G3 Saskatoon (Saskatchewan)"
+   ],
+   "phone": "306-384-2722",
+   "emails": [
+    "certifications@collegemathieu.sk.ca"
+   ],
+   "url": "https://www.collegemathieu.sk.ca",
+   "so": true
+  },
+  {
+   "name": "Centre alpha LIRA",
+   "city": "Sept-Iles (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "425 avenue Arnaud, G4R1G9 Sept-Iles (Québec)",
+   "address_lines": [
+    "425 avenue Arnaud",
+    "G4R1G9 Sept-Iles (Québec)"
+   ],
+   "phone": "418-968-9843",
+   "emails": [],
+   "url": "http://www.centrealphalira.org",
+   "so": true
+  },
+  {
+   "name": "Centre de Langues - Univ Sherbrooke",
+   "city": "Sherbrooke (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "2500 boulevard de l'Université, J1K-2R1 Sherbrooke (Québec)",
+   "address_lines": [
+    "2500 boulevard de l'Université",
+    "J1K-2R1 Sherbrooke (Québec)"
+   ],
+   "phone": "1-819-821-8000",
+   "emails": [
+    "langues@USherbrooke.ca"
+   ],
+   "url": "https://www.usherbrooke.ca/centredelangues",
+   "so": false
+  },
+  {
+   "name": "Memorial University",
+   "city": "St. John's, NL (Terre-Neuve-et-Labrador)",
+   "cp": "",
+   "city_cp": "",
+   "address": "MLLC 232 Elizabeth Avenue SN4039 Science Building, A1B-3X9 St. John's, NL (Terre-Neuve-et-Labrador)",
+   "address_lines": [
+    "MLLC 232 Elizabeth Avenue SN4039 Science Building",
+    "A1B-3X9 St. John's, NL (Terre-Neuve-et-Labrador)"
+   ],
+   "phone": "709-689-0967",
+   "emails": [],
+   "url": "https://www.mun.ca/delf/",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Toronto (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus de Spadina 24 Spadina Road, M5R2S7 Toronto (Ontario)",
+   "address_lines": [
+    "Campus de Spadina 24 Spadina Road",
+    "M5R2S7 Toronto (Ontario)"
+   ],
+   "phone": "416-922-2014",
+   "emails": [],
+   "url": "https://www.alliance-francaise.ca/fr/",
+   "so": true
+  },
+  {
+   "name": "Université du Québec à Trois-Rivières",
+   "city": "Trois-Rivières (Québec)",
+   "cp": "",
+   "city_cp": "",
+   "address": "École Internationale français 3351 boulevard des Forges, G8Z-4M3 Trois-Rivières (Québec)",
+   "address_lines": [
+    "École Internationale français 3351 boulevard des Forges",
+    "G8Z-4M3 Trois-Rivières (Québec)"
+   ],
+   "phone": "1-819-376-5011 / -2043",
+   "emails": [
+    "eif.tcf@uqtr.ca"
+   ],
+   "url": "http://www.uqtr.ca/eif",
+   "so": true
+  },
+  {
+   "name": "Alliance française Canada Pacific",
+   "city": "Vancouver (Colombie-Britannique)",
+   "cp": "",
+   "city_cp": "",
+   "address": "6161 Cambie Street, BC-V5Z3B2 Vancouver (Colombie-Britannique)",
+   "address_lines": [
+    "6161 Cambie Street",
+    "BC-V5Z3B2 Vancouver (Colombie-Britannique)"
+   ],
+   "phone": "1-604-327-02-01",
+   "emails": [
+    "info@alliancefrancaise.ca"
+   ],
+   "url": "http://www.alliancefrancaise.ca",
+   "so": true
+  },
+  {
+   "name": "Ashton Testing Services",
+   "city": "Vancouver (Colombie-Britannique)",
+   "cp": "",
+   "city_cp": "",
+   "address": "410-1190 Melville Street, V6E3W1 Vancouver (Colombie-Britannique)",
+   "address_lines": [
+    "410-1190 Melville Street",
+    "V6E3W1 Vancouver (Colombie-Britannique)"
+   ],
+   "phone": "1-604-628-5783",
+   "emails": [],
+   "url": "http://www.ashtontesting.ca",
+   "so": true
+  },
+  {
+   "name": "Alliance française de Victoria",
+   "city": "Victoria (Colombie-Britannique)",
+   "cp": "",
+   "city_cp": "",
+   "address": "1218 Langley street, V8R-0A4 Victoria (Colombie-Britannique)",
+   "address_lines": [
+    "1218 Langley street",
+    "V8R-0A4 Victoria (Colombie-Britannique)"
+   ],
+   "phone": "1-778-326-0701",
+   "emails": [
+    "af@afcapa.ca"
+   ],
+   "url": "https://www.afvictoria.ca/",
+   "so": true
+  },
+  {
+   "name": "Université de Victoria",
+   "city": "Victoria (Colombie-Britannique)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Department of French Clearihue C247 - 3800 Finnerty Rd, V8P5C2 Victoria (Colombie-Britannique)",
+   "address_lines": [
+    "Department of French Clearihue C247 - 3800 Finnerty Rd",
+    "V8P5C2 Victoria (Colombie-Britannique)"
+   ],
+   "phone": "250721-7424",
+   "emails": [
+    "tcfvictoria@uvic.ca"
+   ],
+   "url": "https://www.uvic.ca/humanities/french/",
+   "so": false
+  },
+  {
+   "name": "Windsor, Collège Boréal Windsor",
+   "city": "Windsor (Ontario)",
+   "cp": "",
+   "city_cp": "",
+   "address": "7515 Forest Glade Dr -, N8T-3P5 Windsor (Ontario)",
+   "address_lines": [
+    "7515 Forest Glade Dr -",
+    "N8T-3P5 Windsor (Ontario)"
+   ],
+   "phone": "+1519-948-6019",
+   "emails": [],
+   "url": "https://collegeboreal.ca/",
+   "so": false
+  },
+  {
+   "name": "Alliance française du Manitoba",
+   "city": "Winnipeg (Manitoba)",
+   "cp": "",
+   "city_cp": "",
+   "address": "934 Corydon avenue, R3M-0Y5 Winnipeg (Manitoba)",
+   "address_lines": [
+    "934 Corydon avenue",
+    "R3M-0Y5 Winnipeg (Manitoba)"
+   ],
+   "phone": "1-204-477-15-15",
+   "emails": [
+    "info@afmanitoba.ca"
+   ],
+   "url": "http://www.afmanitoba.ca",
+   "so": true
+  }
+ ]
+}

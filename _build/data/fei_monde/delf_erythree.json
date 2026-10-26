@@ -1,0 +1,46 @@
+{
+ "country": "Érythrée",
+ "iso2": "ER",
+ "fei_id": "344",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Asmara",
+  "cp": "",
+  "city_cp": "",
+  "address": "Ararb street / 174, BP 209 Asmara",
+  "address_lines": [
+   "Ararb street / 174",
+   "BP 209 Asmara"
+  ],
+  "phone": "+2911115270",
+  "emails": [
+   "directionafa@protonmail.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Asmara",
+   "city": "Asmara",
+   "cp": "",
+   "city_cp": "",
+   "address": "Ararb Street. 174, P.O. BOX 209 Asmara",
+   "address_lines": [
+    "Ararb Street. 174",
+    "P.O. BOX 209 Asmara"
+   ],
+   "phone": "2911127615",
+   "emails": [
+    "directionafa@protonmail.com"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "country": "Guatemala",
+ "iso2": "GT",
+ "fei_id": "26",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Ambassade de France",
+   "city": "Guatemala ciudad",
+   "cp": "",
+   "city_cp": "",
+   "address": "5ta calle 10-55, zona 13 Finca la Aurora, 01013 Guatemala ciudad",
+   "address_lines": [
+    "5ta calle 10-55, zona 13 Finca la Aurora",
+    "01013 Guatemala ciudad"
+   ],
+   "phone": "502-2207-5757",
+   "emails": [
+    "pedagogia@alianzafrancesa.org.gt"
+   ],
+   "url": "http://www.alianzafrancesa.org.gt",
+   "so": true
+  }
+ ]
+}

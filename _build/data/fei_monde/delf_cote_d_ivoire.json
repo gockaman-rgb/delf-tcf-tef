@@ -1,0 +1,40 @@
+{
+ "country": "Côte d'Ivoire",
+ "iso2": "CI",
+ "fei_id": "128",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Certifications – Pôle français",
+  "city": "Abidjan",
+  "cp": "",
+  "city_cp": "",
+  "address": "7 rue des bougainvilliers Abidjan",
+  "address_lines": [
+   "7 rue des bougainvilliers Abidjan"
+  ],
+  "phone": "22 54 87 50",
+  "emails": [],
+  "url": "https://www.institutfrancais.ci/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Côte d'Ivoire - site de Cocody",
+   "city": "Abidjan",
+   "cp": "",
+   "city_cp": "",
+   "address": "7 rue des bougainvilliers Abidjan",
+   "address_lines": [
+    "7 rue des bougainvilliers Abidjan"
+   ],
+   "phone": "0749439710",
+   "emails": [],
+   "url": "http://www.institutfrancais.ci/",
+   "so": false
+  }
+ ]
+}

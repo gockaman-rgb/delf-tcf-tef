@@ -1,0 +1,31 @@
+{
+ "country": "Mozambique",
+ "iso2": "MZ",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CENTRE CULTUREL FRANCO-MOZAMBICAIN",
+   "city": "MAPUTO",
+   "cp": "491",
+   "city_cp": "",
+   "address": "468 Avenida Samora Machel, 491 MAPUTO",
+   "address_lines": [
+    "468 Avenida Samora Machel",
+    "491 MAPUTO"
+   ],
+   "phone": "+258 82 301 8000",
+   "emails": [],
+   "url": "www.ccfmoz.com",
+   "so": false,
+   "products": [],
+   "cci_id": 763,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/763"
+  }
+ ]
+}

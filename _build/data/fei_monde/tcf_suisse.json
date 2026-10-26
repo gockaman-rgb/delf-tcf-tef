@@ -1,0 +1,132 @@
+{
+ "country": "Suisse",
+ "iso2": "CH",
+ "fei_id": "94",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Swiss Exams",
+   "city": "Berne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hildanusstrasse 3, 3013 Berne",
+   "address_lines": [
+    "Hildanusstrasse 3",
+    "3013 Berne"
+   ],
+   "phone": "00-41-52-209-04-50",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "Centre de langues de l'Université",
+   "city": "Fribourg",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue de Rome 1, 1700 Fribourg",
+   "address_lines": [
+    "Rue de Rome 1",
+    "1700 Fribourg"
+   ],
+   "phone": "41-26-300-79-60",
+   "emails": [
+    "tcf@unifr.ch"
+   ],
+   "url": "http://www.unifr.ch/centredelangues/fr",
+   "so": true
+  },
+  {
+   "name": "Swiss Exams",
+   "city": "Genève",
+   "cp": "",
+   "city_cp": "",
+   "address": "inlingua Léman Rue des Gares 7, CH-1201 Genève",
+   "address_lines": [
+    "inlingua Léman Rue des Gares 7",
+    "CH-1201 Genève"
+   ],
+   "phone": "41-52-209-04-50",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "Swiss Exams",
+   "city": "Lausanne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Inlingua Léman Rue des Terreaux 17, 1003 Lausanne",
+   "address_lines": [
+    "Inlingua Léman Rue des Terreaux 17",
+    "1003 Lausanne"
+   ],
+   "phone": "00-41-52-209-04-50",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "ALPADIA Language Schools",
+   "city": "Montreux",
+   "cp": "",
+   "city_cp": "",
+   "address": "Grand-Rue 42 - CP 1206, 1820 Montreux",
+   "address_lines": [
+    "Grand-Rue 42 - CP 1206",
+    "1820 Montreux"
+   ],
+   "phone": "0041-621-84-88",
+   "emails": [
+    "montreux@alpadia.com"
+   ],
+   "url": "http://www.alpadia.com",
+   "so": false
+  },
+  {
+   "name": "Swiss Exams",
+   "city": "Winterthur",
+   "cp": "",
+   "city_cp": "",
+   "address": "Zürcherstrasse 46, 8400 Winterthur",
+   "address_lines": [
+    "Zürcherstrasse 46",
+    "8400 Winterthur"
+   ],
+   "phone": "41-52-20-90-450",
+   "emails": [
+    "info@swiss-exams.ch"
+   ],
+   "url": "http://www.swiss-exams.ch",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Zurich",
+   "cp": "",
+   "city_cp": "",
+   "address": "Merkurstrasse 34, 8032 Zurich",
+   "address_lines": [
+    "Merkurstrasse 34",
+    "8032 Zurich"
+   ],
+   "phone": "041-44-261-93-06",
+   "emails": [
+    "ecole@afzurich.ch"
+   ],
+   "url": "https://afzurich.ch/",
+   "so": false
+  }
+ ]
+}

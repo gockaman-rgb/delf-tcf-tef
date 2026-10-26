@@ -1,0 +1,30 @@
+{
+ "country": "Barbade",
+ "iso2": "BB",
+ "fei_id": "17",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Bridgetown, Alliance française",
+   "city": "Bridgetown",
+   "cp": "",
+   "city_cp": "",
+   "address": "357 P.O Box, cheapside GPO, Bridgetown",
+   "address_lines": [
+    "357 P.O Box, cheapside GPO",
+    "Bridgetown"
+   ],
+   "phone": "+12462333234",
+   "emails": [
+    "info@afbridgetown.org"
+   ],
+   "url": "https://afb.afcaraibe.org",
+   "so": false
+  }
+ ]
+}

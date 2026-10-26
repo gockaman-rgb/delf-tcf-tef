@@ -1,0 +1,28 @@
+{
+ "country": "Bulgarie",
+ "iso2": "BG",
+ "fei_id": "65",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Université Saint Kliment d'Ochridski",
+   "city": "Sofia",
+   "cp": "",
+   "city_cp": "",
+   "address": "Département des lang. étran. 27, rue Kosta Loulchev, 1111 Sofia",
+   "address_lines": [
+    "Département des lang. étran. 27, rue Kosta Loulchev",
+    "1111 Sofia"
+   ],
+   "phone": "359-28-72-20-41",
+   "emails": [],
+   "url": "http://www.deo.uni-sofia.bg",
+   "so": false
+  }
+ ]
+}

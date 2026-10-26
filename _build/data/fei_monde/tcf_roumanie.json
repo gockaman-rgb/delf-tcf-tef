@@ -1,0 +1,64 @@
+{
+ "country": "Roumanie",
+ "iso2": "RO",
+ "fei_id": "87",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Institut français",
+   "city": "Bucarest",
+   "cp": "",
+   "city_cp": "",
+   "address": "77 bd Dacia, 020051 Bucarest",
+   "address_lines": [
+    "77 bd Dacia",
+    "020051 Bucarest"
+   ],
+   "phone": "40-374-125-222",
+   "emails": [
+    "inscri@institutfrancais.ro"
+   ],
+   "url": "https://institutfrancais.ro/bucuresti/teste-de-limba-franceza-tcf-si-tef/#/",
+   "so": true
+  },
+  {
+   "name": "Institut français",
+   "city": "Cluj-Napoca",
+   "cp": "",
+   "city_cp": "",
+   "address": "22, rue I.I.C Bratianu, 400079 Cluj-Napoca",
+   "address_lines": [
+    "22, rue I.I.C Bratianu",
+    "400079 Cluj-Napoca"
+   ],
+   "phone": "40-264-598-551",
+   "emails": [
+    "secretariat.cluj@institutfrancais.ro"
+   ],
+   "url": "http://www.institutfrancais.ro",
+   "so": true
+  },
+  {
+   "name": "Institut Français de Roumanie",
+   "city": "Timisoara",
+   "cp": "",
+   "city_cp": "",
+   "address": "46, Bd CD Loga, 300020 Timisoara",
+   "address_lines": [
+    "46, Bd CD Loga",
+    "300020 Timisoara"
+   ],
+   "phone": "40-256-49-05-44",
+   "emails": [
+    "contact.timisoara@institutfrancais.ro"
+   ],
+   "url": "https://institutfrancais.ro/timisoara/fr/tcf-test-de-cunoastere-a-limbii-france…",
+   "so": true
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "country": "Belgique",
+ "iso2": "BE",
+ "fei_id": "62",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Bruxelles",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avenue des Arts, 46, 1000 Bruxelles",
+  "address_lines": [
+   "Avenue des Arts, 46",
+   "1000 Bruxelles"
+  ],
+  "phone": "2 788 21 54",
+  "emails": [],
+  "url": "http://www.alliancefr.be/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française d'Anvers VZW",
+   "city": "Antwerpen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Isabellalei 131, 2018 Antwerpen",
+   "address_lines": [
+    "Isabellalei 131",
+    "2018 Antwerpen"
+   ],
+   "phone": "33860330",
+   "emails": [],
+   "url": "http://www.alliancefrancaise-antwerpen.be/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Bruxelles-Europe",
+   "city": "Bruxelles",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue des arts 46, 1000 Bruxelles",
+   "address_lines": [
+    "Avenue des arts 46",
+    "1000 Bruxelles"
+   ],
+   "phone": "+3227882160",
+   "emails": [
+    "examens@alliancefr.be"
+   ],
+   "url": "http://www.alliancefr.be/",
+   "so": false
+  },
+  {
+   "name": "Alliance française Oost-Vlaanderen",
+   "city": "Gent",
+   "cp": "",
+   "city_cp": "",
+   "address": "Henleykaai 86, 9000 Gent",
+   "address_lines": [
+    "Henleykaai 86",
+    "9000 Gent"
+   ],
+   "phone": "092252529",
+   "emails": [
+    "examens@af-ovl.be"
+   ],
+   "url": "http://www.af-ovl.be/",
+   "so": false
+  },
+  {
+   "name": "Postuniversitair Centrum KU Leuven Kulak",
+   "city": "Kortrijk",
+   "cp": "",
+   "city_cp": "",
+   "address": "Etienne Sabbelaan 53, 8500 Kortrijk",
+   "address_lines": [
+    "Etienne Sabbelaan 53",
+    "8500 Kortrijk"
+   ],
+   "phone": "56246184",
+   "emails": [
+    "puc@kuleuven.be"
+   ],
+   "url": "http://www.puc.kuleuven.be",
+   "so": false
+  },
+  {
+   "name": "Institut supérieur des langues vivantes - Département de français",
+   "city": "Liège",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue de Pitteurs 18-20 – Bât L3, 4020 Liège",
+   "address_lines": [
+    "Rue de Pitteurs 18-20 – Bât L3",
+    "4020 Liège"
+   ],
+   "phone": "43665759",
+   "emails": [],
+   "url": "http://www.islv.ulg.ac.be/",
+   "so": false
+  },
+  {
+   "name": "Ecole européenne de Mol",
+   "city": "Mol",
+   "cp": "",
+   "city_cp": "",
+   "address": "Europawijk 100, 2400 Mol",
+   "address_lines": [
+    "Europawijk 100",
+    "2400 Mol"
+   ],
+   "phone": "014 56 31 11",
+   "emails": [
+    "LIST-MOL-DELF@eursc.eu"
+   ],
+   "url": "https://www.esmol.be/fr",
+   "so": false
+  }
+ ]
+}

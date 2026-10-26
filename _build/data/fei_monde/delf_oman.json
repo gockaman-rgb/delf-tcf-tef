@@ -1,0 +1,46 @@
+{
+ "country": "Oman",
+ "iso2": "OM",
+ "fei_id": "107",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Certifications",
+  "city": "Mascate",
+  "cp": "",
+  "city_cp": "",
+  "address": "PO Box 208, 115 MSQ Mascate",
+  "address_lines": [
+   "PO Box 208",
+   "115 MSQ Mascate"
+  ],
+  "phone": "24697579",
+  "emails": [
+   "direction@cfoman.org"
+  ],
+  "url": "http://www.cfoman.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Centre Franco-Omanais",
+   "city": "Mascate",
+   "cp": "",
+   "city_cp": "",
+   "address": "207 Inshirah Street, 115 Mascate",
+   "address_lines": [
+    "207 Inshirah Street",
+    "115 Mascate"
+   ],
+   "phone": "24697579",
+   "emails": [
+    "direction@cfoman.org"
+   ],
+   "url": "http://www.cfoman.org/",
+   "so": false
+  }
+ ]
+}

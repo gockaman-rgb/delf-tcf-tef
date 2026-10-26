@@ -1,0 +1,59 @@
+{
+ "country": "Tadjikistan",
+ "iso2": "TJ",
+ "fei_id": "430",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Culturel",
+  "city": "Douchanbé",
+  "cp": "",
+  "city_cp": "",
+  "address": "Diar Dushanbe, 2/1 rue N. Huvaydulloev, 734049 Douchanbé",
+  "address_lines": [
+   "Diar Dushanbe, 2/1 rue N. Huvaydulloev",
+   "734049 Douchanbé"
+  ],
+  "phone": "935005605",
+  "emails": [],
+  "url": "http://tj.ambafrance.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Ambassade de France au Tadjikistan",
+   "city": "Douchanbé",
+   "cp": "",
+   "city_cp": "",
+   "address": "Diar Dushanbe, 2/1 rue N. Huvaydulloev, 734049 Douchanbé",
+   "address_lines": [
+    "Diar Dushanbe, 2/1 rue N. Huvaydulloev",
+    "734049 Douchanbé"
+   ],
+   "phone": "935006305",
+   "emails": [],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Khudjand",
+   "city": "Khoudjand",
+   "cp": "",
+   "city_cp": "",
+   "address": "183 A rue Kamoli Khoudjandi, 735701 Khoudjand",
+   "address_lines": [
+    "183 A rue Kamoli Khoudjandi",
+    "735701 Khoudjand"
+   ],
+   "phone": "928000464",
+   "emails": [
+    "direction@afkhoudjand.org"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

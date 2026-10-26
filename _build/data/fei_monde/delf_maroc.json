@@ -1,0 +1,257 @@
+{
+ "country": "Maroc",
+ "iso2": "MA",
+ "fei_id": "117",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 14,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Rabat",
+  "cp": "",
+  "city_cp": "",
+  "address": "2 rue El Yanboua, 10000 Rabat",
+  "address_lines": [
+   "2 rue El Yanboua",
+   "10000 Rabat"
+  ],
+  "phone": "+212537545310",
+  "emails": [],
+  "url": "http://if-maroc.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français du Maroc - Site d'Agadir",
+   "city": "Agadir",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Chenguit, nouveau Talborjt, BP 341, 80001 Agadir",
+   "address_lines": [
+    "Rue Chenguit, nouveau Talborjt, BP 341",
+    "80001 Agadir"
+   ],
+   "phone": "0528841313",
+   "emails": [
+    "certifications.agadir@ifmaroc.com"
+   ],
+   "url": "http://if-maroc.org/agadir/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site de Casablanca",
+   "city": "Casablanca",
+   "cp": "",
+   "city_cp": "",
+   "address": "121, Boulevard Mohamed Zerktouni, 20340 Casablanca",
+   "address_lines": [
+    "121, Boulevard Mohamed Zerktouni",
+    "20340 Casablanca"
+   ],
+   "phone": "0522779870",
+   "emails": [
+    "certifications.casa@ifmaroc.com"
+   ],
+   "url": "http://if-maroc.org/casablanca/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc -",
+   "city": "El Jadida",
+   "cp": "",
+   "city_cp": "",
+   "address": "3, rue du Caire, 24000 El Jadida",
+   "address_lines": [
+    "3, rue du Caire",
+    "24000 El Jadida"
+   ],
+   "phone": "0523353529",
+   "emails": [
+    "certification.eljadida@ifmaroc.com"
+   ],
+   "url": "http://if-maroc.org/el-jadida/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site d'Essaouira",
+   "city": "Essaouira",
+   "cp": "",
+   "city_cp": "",
+   "address": "9, rue Med. Diouri, Derb Lâalouj, 44 000 Essaouira",
+   "address_lines": [
+    "9, rue Med. Diouri, Derb Lâalouj",
+    "44 000 Essaouira"
+   ],
+   "phone": "0524476197",
+   "emails": [],
+   "url": "http://if-maroc.org/essaouira/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site de Fès",
+   "city": "Fès",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Abou Obeida Ibn Al Jarrah BP 2227– Ville nouvelle Fès, 30000 Fès",
+   "address_lines": [
+    "Avenue Abou Obeida Ibn Al Jarrah BP 2227– Ville nouvelle Fès",
+    "30000 Fès"
+   ],
+   "phone": "0535624149",
+   "emails": [
+    "cdl.fes@institutfrancais-maroc.com"
+   ],
+   "url": "http://if-maroc.org/fes/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site de Kénitra",
+   "city": "Kénitra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rue Khalid Ibn Walid, 14000 Kénitra",
+   "address_lines": [
+    "Rue Khalid Ibn Walid",
+    "14000 Kénitra"
+   ],
+   "phone": "0537369055",
+   "emails": [],
+   "url": "http://if-maroc.org/kenitra/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - site de Marrakech",
+   "city": "Marrakech",
+   "cp": "",
+   "city_cp": "",
+   "address": "Route de Targa, Jbel Guéliz, 40000 Marrakech",
+   "address_lines": [
+    "Route de Targa, Jbel Guéliz",
+    "40000 Marrakech"
+   ],
+   "phone": "0524446930",
+   "emails": [
+    "certifications.marrakech@institutfrancais-maroc.com"
+   ],
+   "url": "http://if-maroc.org/marrakech/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site de Meknès",
+   "city": "Meknès",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rueerhat Hachad, BP 327, 50000 Meknès",
+   "address_lines": [
+    "Rueerhat Hachad, BP 327",
+    "50000 Meknès"
+   ],
+   "phone": "0661460883",
+   "emails": [],
+   "url": "http://if-maroc.org/meknes/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Ouarzazate",
+   "city": "Ouarzazate",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenue Al Ouyoune, zone hôtelière, 45 000 Ouarzazate",
+   "address_lines": [
+    "Avenue Al Ouyoune, zone hôtelière",
+    "45 000 Ouarzazate"
+   ],
+   "phone": "0641132258",
+   "emails": [
+    "contact.af.ozte@gmail.com"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site d'Oujda",
+   "city": "Oujda",
+   "cp": "",
+   "city_cp": "",
+   "address": "9,10,11 lot Chabab Al Qods, 60000 Oujda",
+   "address_lines": [
+    "9,10,11 lot Chabab Al Qods",
+    "60000 Oujda"
+   ],
+   "phone": "0536684404",
+   "emails": [
+    "contact.oujda@institutfrancais-maroc.com"
+   ],
+   "url": "http://if-maroc.org/oujda/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site de Rabat",
+   "city": "Rabat",
+   "cp": "",
+   "city_cp": "",
+   "address": "1, rue Abou Inane Rabat B.P. 1459/ Place Al Joulane, 10000 Rabat",
+   "address_lines": [
+    "1, rue Abou Inane Rabat B.P. 1459/ Place Al Joulane",
+    "10000 Rabat"
+   ],
+   "phone": "0537689650",
+   "emails": [
+    "cdl.rabat@ifmaroc.com"
+   ],
+   "url": "https://if-maroc.org/rabat/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Safi",
+   "city": "Safi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Boulevard Zerktouni, 46000 Safi",
+   "address_lines": [
+    "Boulevard Zerktouni",
+    "46000 Safi"
+   ],
+   "phone": "0662319741",
+   "emails": [],
+   "url": "https://if-maroc.org/safi/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Tanger",
+   "city": "Tanger",
+   "cp": "",
+   "city_cp": "",
+   "address": "41 rue Hassan Ibn Ouazzane, BP 409, 90000 Tanger",
+   "address_lines": [
+    "41 rue Hassan Ibn Ouazzane, BP 409",
+    "90000 Tanger"
+   ],
+   "phone": "0539941054",
+   "emails": [
+    "contact.tanger@institutfrancais-maroc.com"
+   ],
+   "url": "http://if-maroc.org/tanger/",
+   "so": false
+  },
+  {
+   "name": "Institut français du Maroc - Site de Tétouan",
+   "city": "Tétouan",
+   "cp": "",
+   "city_cp": "",
+   "address": "13 rue Chakib Arsalane, BP 701, 93000 Tétouan",
+   "address_lines": [
+    "13 rue Chakib Arsalane, BP 701",
+    "93000 Tétouan"
+   ],
+   "phone": "0539714311",
+   "emails": [
+    "cdl.tetouan@ifmaroc.com"
+   ],
+   "url": "http://if-maroc.org/tetouan/",
+   "so": false
+  }
+ ]
+}

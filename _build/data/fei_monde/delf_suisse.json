@@ -1,0 +1,229 @@
+{
+ "country": "Suisse",
+ "iso2": "CH",
+ "fei_id": "94",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 12,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Zurich",
+  "cp": "",
+  "city_cp": "",
+  "address": "Kappelergasse 15, 8001 Zurich",
+  "address_lines": [
+   "Kappelergasse 15",
+   "8001 Zurich"
+  ],
+  "phone": "+41442222240",
+  "emails": [],
+  "url": "http://www.delfdalf.ch/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "HKV Swiss AG",
+   "city": "Aarau",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bahnhofstrasse 46, 5000 Aarau",
+   "address_lines": [
+    "Bahnhofstrasse 46",
+    "5000 Aarau"
+   ],
+   "phone": "62 837 97 20",
+   "emails": [
+    "delfdalf@hkv.ch"
+   ],
+   "url": "http://www.hkvaarau.ch",
+   "so": false
+  },
+  {
+   "name": "WZR Rorschach-Rheintal",
+   "city": "Altstätten",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bildstrasse 8, 9450 Altstätten",
+   "address_lines": [
+    "Bildstrasse 8",
+    "9450 Altstätten"
+   ],
+   "phone": "058 229 99 41",
+   "emails": [
+    "delfdalf@wzr.ch"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Scuola cantonale di commercio",
+   "city": "Bellinzona",
+   "cp": "",
+   "city_cp": "",
+   "address": "Viale Stefano Franscini 32, 6501 Bellinzona",
+   "address_lines": [
+    "Viale Stefano Franscini 32",
+    "6501 Bellinzona"
+   ],
+   "phone": "918146572",
+   "emails": [
+    "delfdalf@cppbellinzona.ch"
+   ],
+   "url": "http://www.cppbellinzona.ch",
+   "so": false
+  },
+  {
+   "name": "WKS KV Bildung AG",
+   "city": "Berne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Effingerstrasse 70 / Postfach, 3001 Berne",
+   "address_lines": [
+    "Effingerstrasse 70 / Postfach",
+    "3001 Berne"
+   ],
+   "phone": "31 380 39 57",
+   "emails": [
+    "delfdalf@wksbern.ch"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "IFAGE - Fondation pour la formation des adultes",
+   "city": "Genève",
+   "cp": "",
+   "city_cp": "",
+   "address": "19, Place des Augustins, 1205 Genève",
+   "address_lines": [
+    "19, Place des Augustins",
+    "1205 Genève"
+   ],
+   "phone": "22 807 30 09",
+   "emails": [
+    "delfgeneve@ifage.ch"
+   ],
+   "url": "http://www.ifage.ch",
+   "so": false
+  },
+  {
+   "name": "Centre d'examens Région Bâloise",
+   "city": "Liestal",
+   "cp": "",
+   "city_cp": "",
+   "address": "Gestadeckplatz 8, 4410 Liestal",
+   "address_lines": [
+    "Gestadeckplatz 8",
+    "4410 Liestal"
+   ],
+   "phone": "61 926 25 90",
+   "emails": [
+    "delfdalf@kvbl.ch"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "SmartTalk GmbH",
+   "city": "Lucerne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Töpferstrasse 10, 6004 Lucerne",
+   "address_lines": [
+    "Töpferstrasse 10",
+    "6004 Lucerne"
+   ],
+   "phone": "41 418 09 31",
+   "emails": [
+    "delfdalf@smarttalk.ch"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Lycée Jean Piaget",
+   "city": "Neuchâtel",
+   "cp": "",
+   "city_cp": "",
+   "address": "Quai Léopold-Robert 10, Case postale 1, 2002 Neuchâtel",
+   "address_lines": [
+    "Quai Léopold-Robert 10, Case postale 1",
+    "2002 Neuchâtel"
+   ],
+   "phone": "786118426",
+   "emails": [
+    "delfdalf@rpn.ch"
+   ],
+   "url": "http://www.lyceejeanpiaget.ch",
+   "so": false
+  },
+  {
+   "name": "HES-SO Valais-Wallis",
+   "city": "Sierre",
+   "cp": "",
+   "city_cp": "",
+   "address": "Route de la Plaine 2, 3960 Sierre",
+   "address_lines": [
+    "Route de la Plaine 2",
+    "3960 Sierre"
+   ],
+   "phone": "58 606 89 41",
+   "emails": [],
+   "url": "http://www.hevs.ch",
+   "so": false
+  },
+  {
+   "name": "Bildungszentrum Wirtschaft Weinfelden",
+   "city": "Weinfelden",
+   "cp": "",
+   "city_cp": "",
+   "address": "Weiterbildung, Schützenstrasse 11, Postfach 112, 8570 Weinfelden",
+   "address_lines": [
+    "Weiterbildung, Schützenstrasse 11, Postfach 112",
+    "8570 Weinfelden"
+   ],
+   "phone": "58 345 75 75",
+   "emails": [
+    "delfdalf@bzww.ch"
+   ],
+   "url": "https://weiterkommen.ch/",
+   "so": false
+  },
+  {
+   "name": "Minerva Schweiz AG",
+   "city": "Zurich",
+   "cp": "",
+   "city_cp": "",
+   "address": "Scheuchzerstrasse 2, 8006 Zurich",
+   "address_lines": [
+    "Scheuchzerstrasse 2",
+    "8006 Zurich"
+   ],
+   "phone": "44 368 40 12",
+   "emails": [
+    "delfdalf@minervaschulen.ch"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "Wirtschaftschule KV Zürich",
+   "city": "Zurich",
+   "cp": "",
+   "city_cp": "",
+   "address": "Hardturmstrasse 11, 8005 Zurich",
+   "address_lines": [
+    "Hardturmstrasse 11",
+    "8005 Zurich"
+   ],
+   "phone": "44 444 66 32",
+   "emails": [
+    "delfdalf@kvz-schule.ch"
+   ],
+   "url": "",
+   "so": false
+  }
+ ]
+}

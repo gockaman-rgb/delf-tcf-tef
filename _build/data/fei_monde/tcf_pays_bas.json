@@ -1,0 +1,129 @@
+{
+ "country": "Pays-Bas",
+ "iso2": "NL",
+ "fei_id": "84",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Amsterdam",
+   "cp": "",
+   "city_cp": "",
+   "address": "in OBA Oosterdok Oosterdokskade 143, 1011DL Amsterdam",
+   "address_lines": [
+    "in OBA Oosterdok Oosterdokskade 143",
+    "1011DL Amsterdam"
+   ],
+   "phone": "31-20-5230-700",
+   "emails": [
+    "examens@afamsterdam.nl"
+   ],
+   "url": "http://www.afamsterdam.nl",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Den Haag (La Haye)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Emmapark 6, 2595ET Den Haag (La Haye)",
+   "address_lines": [
+    "Emmapark 6",
+    "2595ET Den Haag (La Haye)"
+   ],
+   "phone": "31-70-362-15-23",
+   "emails": [
+    "examens@aflahaye.nl",
+    "admin@aflahaye.nl"
+   ],
+   "url": "http://www.aflahaye.nl",
+   "so": true
+  },
+  {
+   "name": "Institut français des Pays-Bas",
+   "city": "Groningen",
+   "cp": "",
+   "city_cp": "",
+   "address": "Harmoniegebouw Oude Kijk in het Jatstraat, 26, 9712EK Groningen",
+   "address_lines": [
+    "Harmoniegebouw Oude Kijk in het Jatstraat, 26",
+    "9712EK Groningen"
+   ],
+   "phone": "31-50-363-61-06",
+   "emails": [
+    "institutfrancais@rug.nl"
+   ],
+   "url": "https://institutfrancais.nl/",
+   "so": false
+  },
+  {
+   "name": "NHL Stenden Hogeschool",
+   "city": "Leeuwarden",
+   "cp": "",
+   "city_cp": "",
+   "address": "t.a.v. Tiemen de Jonge Postbus 1080 Centre de coûts : 43361, 8900CB Leeuwarden",
+   "address_lines": [
+    "t.a.v. Tiemen de Jonge Postbus 1080 Centre de coûts : 43361",
+    "8900CB Leeuwarden"
+   ],
+   "phone": "316-14-61-29-96",
+   "emails": [],
+   "url": "https://nhlstenden.com",
+   "so": true
+  },
+  {
+   "name": "Hogeschool Arnhem en Nijmegen",
+   "city": "Nijmegen (Nimègue)",
+   "cp": "",
+   "city_cp": "",
+   "address": "Kapittelweg 35 Postbus 30011, 6503 Nijmegen (Nimègue)",
+   "address_lines": [
+    "Kapittelweg 35 Postbus 30011",
+    "6503 Nijmegen (Nimègue)"
+   ],
+   "phone": "316-137-607-96",
+   "emails": [
+    "opleiding.leraarfrans@han.nl"
+   ],
+   "url": "http://www.han.nl",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Rotterdam",
+   "cp": "",
+   "city_cp": "",
+   "address": "Westersingel 14, 3014GN Rotterdam",
+   "address_lines": [
+    "Westersingel 14",
+    "3014GN Rotterdam"
+   ],
+   "phone": "31-104-36-04-21",
+   "emails": [
+    "examen@alliancerotterdam.nl"
+   ],
+   "url": "http://www.alliancerotterdam.nl",
+   "so": true
+  },
+  {
+   "name": "Hogeschool Utrecht",
+   "city": "Utrecht",
+   "cp": "",
+   "city_cp": "",
+   "address": "Instituut Archimedes Padualaan 97, 3584-CH Utrecht",
+   "address_lines": [
+    "Instituut Archimedes Padualaan 97",
+    "3584-CH Utrecht"
+   ],
+   "phone": "31-623463593",
+   "emails": [],
+   "url": "http://www.hu.nl",
+   "so": false
+  }
+ ]
+}

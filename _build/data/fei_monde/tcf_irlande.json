@@ -1,0 +1,47 @@
+{
+ "country": "Irlande",
+ "iso2": "IE",
+ "fei_id": "76",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Dublin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Service des examens 1 Kildare Street, D02TP94 Dublin",
+   "address_lines": [
+    "Service des examens 1 Kildare Street",
+    "D02TP94 Dublin"
+   ],
+   "phone": "353-01-638-1449",
+   "emails": [
+    "exams@alliance-francaise.ie"
+   ],
+   "url": "https://www.alliance-francaise.ie",
+   "so": true
+  },
+  {
+   "name": "The French Institute",
+   "city": "Galway",
+   "cp": "",
+   "city_cp": "",
+   "address": "The Bridge Mills, top floor Dominick Street Lower, H91R1WF Galway",
+   "address_lines": [
+    "The Bridge Mills, top floor Dominick Street Lower",
+    "H91R1WF Galway"
+   ],
+   "phone": "35-385-145-02-65",
+   "emails": [
+    "info@frenchinstitute.ie"
+   ],
+   "url": "https://www.frenchinstitute.ie/",
+   "so": false
+  }
+ ]
+}

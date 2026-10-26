@@ -1,0 +1,157 @@
+{
+ "country": "Allemagne",
+ "iso2": "DE",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 7,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "VOLKSHOCHSCHULE AACHEN",
+   "city": "AACHEN",
+   "cp": "52062",
+   "city_cp": "",
+   "address": "Peterstrasse 21- 25, 52062 AACHEN",
+   "address_lines": [
+    "Peterstrasse 21- 25",
+    "52062 AACHEN"
+   ],
+   "phone": "+49 241 4792149",
+   "emails": [],
+   "url": "www.vhs-aachen.de",
+   "so": false,
+   "products": [],
+   "cci_id": 738,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/738"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'ALLEMAGNE - BONN",
+   "city": "BONN",
+   "cp": "53113",
+   "city_cp": "",
+   "address": "Adenauerallee 35, 53113 BONN",
+   "address_lines": [
+    "Adenauerallee 35",
+    "53113 BONN"
+   ],
+   "phone": "+49 228 737870",
+   "emails": [],
+   "url": "www.institutfrancais.de/fr/bonn",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 503,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/503"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'ALLEMAGNE - KIEL",
+   "city": "ELMSHORM",
+   "cp": "25337",
+   "city_cp": "",
+   "address": "Köllner Chaussee 11, 25337 ELMSHORM",
+   "address_lines": [
+    "Köllner Chaussee 11",
+    "25337 ELMSHORM"
+   ],
+   "phone": "+49 168 8433628",
+   "emails": [],
+   "url": "https://www.institutfrancais.de/fr/kiel",
+   "so": false,
+   "products": [],
+   "cci_id": 914,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/914"
+  },
+  {
+   "name": "INSTITUT FRANCO-ALLEMAND D'ERLANGEN",
+   "city": "ERLANGEN",
+   "cp": "91054",
+   "city_cp": "",
+   "address": "Südliche Stadtmauerstraße 37, 91054 ERLANGEN",
+   "address_lines": [
+    "Südliche Stadtmauerstraße 37",
+    "91054 ERLANGEN"
+   ],
+   "phone": "+49 9131 9791374",
+   "emails": [
+    "pruefungen@dfi-erlangen.de"
+   ],
+   "url": "www.dfi-erlangen.de",
+   "so": false,
+   "products": [
+    "TEF",
+    "TEF Canada",
+    "TEF Québec",
+    "TEF IRN"
+   ],
+   "cci_id": 578,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/578"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'ALLEMAGNE - KIEL",
+   "city": "kiel",
+   "cp": "24105",
+   "city_cp": "",
+   "address": "Centre Culturel Français de Kiel, 24105 kiel",
+   "address_lines": [
+    "Centre Culturel Français de Kiel",
+    "24105 kiel"
+   ],
+   "phone": "+49 431 804965",
+   "emails": [
+    "info.kiel@institutfrancais.de"
+   ],
+   "url": "https://www.institutfrancais.de/fr/kiel",
+   "so": false,
+   "products": [],
+   "cci_id": 521,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/521"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS D'ALLEMAGNE - LEIPZIG",
+   "city": "LEIPZIG",
+   "cp": "04103",
+   "city_cp": "",
+   "address": "Institut Français d'Allemagne, 04103 LEIPZIG",
+   "address_lines": [
+    "Institut Français d'Allemagne",
+    "04103 LEIPZIG"
+   ],
+   "phone": "+49 341 5898955",
+   "emails": [
+    "delf.leipzig@institutfrancais.de"
+   ],
+   "url": "www.institutfrancais.de/fr/leipzig",
+   "so": false,
+   "products": [],
+   "cci_id": 523,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/523"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DE MUNICH",
+   "city": "MUNICH",
+   "cp": "80539",
+   "city_cp": "",
+   "address": "Kaulbachstr. 13, 80539 MUNICH",
+   "address_lines": [
+    "Kaulbachstr. 13",
+    "80539 MUNICH"
+   ],
+   "phone": "+49 89 2866280",
+   "emails": [
+    "kurse.mun@institutfrancais.de"
+   ],
+   "url": "https://www.institutfrancais.de/fr/muenchen#/",
+   "so": false,
+   "products": [],
+   "cci_id": 530,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/530"
+  }
+ ]
+}

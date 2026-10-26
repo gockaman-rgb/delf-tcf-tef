@@ -1,0 +1,131 @@
+{
+ "country": "Haïti",
+ "iso2": "HT",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 6,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE CAP HAÏTIEN",
+   "city": "CAP HAÏTIEN",
+   "cp": "HT1110",
+   "city_cp": "",
+   "address": "Rues 15 & 16 B-D, HT1110 CAP HAÏTIEN",
+   "address_lines": [
+    "Rues 15 & 16 B-D",
+    "HT1110 CAP HAÏTIEN"
+   ],
+   "phone": "+509 38 06 7694",
+   "emails": [
+    "cours.afcaphaitien@gmail.com"
+   ],
+   "url": "www.alliancefrancaise-haiti.org/caphaitien/",
+   "so": false,
+   "products": [],
+   "cci_id": 67,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/67"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DES GONAÏVES",
+   "city": "GONAÏVES",
+   "cp": "HT4110",
+   "city_cp": "",
+   "address": "Rue Fabre Nicolas Geffrard, HT4110 GONAÏVES",
+   "address_lines": [
+    "Rue Fabre Nicolas Geffrard",
+    "HT4110 GONAÏVES"
+   ],
+   "phone": "+509 22 58 4973",
+   "emails": [
+    "info.gonaives@alliancefrancaise-haiti.org"
+   ],
+   "url": "www.alliancefrancaise-haiti.org/gonaives/",
+   "so": false,
+   "products": [],
+   "cci_id": 238,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/238"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE JACMEL",
+   "city": "JACMEL",
+   "cp": "HT9110",
+   "city_cp": "",
+   "address": "Angle avenue de la Liberté et rue Seymour Pradel, HT9110 JACMEL",
+   "address_lines": [
+    "Angle avenue de la Liberté et rue Seymour Pradel",
+    "HT9110 JACMEL"
+   ],
+   "phone": "+509 36 26 0424",
+   "emails": [
+    "dir.jacmel@alliancefrancaise-haiti.org"
+   ],
+   "url": "www.alliancefrancaise-haiti.org/jacmel/",
+   "so": false,
+   "products": [],
+   "cci_id": 104,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/104"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE JÉRÉMIE",
+   "city": "JÉRÉMIE",
+   "cp": "HT7110",
+   "city_cp": "",
+   "address": "74 Angle des rues Bordes et Rochasse, HT7110 JÉRÉMIE",
+   "address_lines": [
+    "74 Angle des rues Bordes et Rochasse",
+    "HT7110 JÉRÉMIE"
+   ],
+   "phone": "+509 22 58 4973",
+   "emails": [],
+   "url": "www.alliancefrancaise-haiti.org/jeremie2",
+   "so": false,
+   "products": [],
+   "cci_id": 105,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/105"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DES CAYES",
+   "city": "LES CAYES",
+   "cp": "HT8110",
+   "city_cp": "",
+   "address": "25 Angle des rues Nicolas Geffrard & Mgr Maurice, HT8110 LES CAYES",
+   "address_lines": [
+    "25 Angle des rues Nicolas Geffrard & Mgr Maurice",
+    "HT8110 LES CAYES"
+   ],
+   "phone": "+509 38 12 7418",
+   "emails": [
+    "cours.aflescayes@gmail.com"
+   ],
+   "url": "www.alliancefrancaise-haiti.org/lescayes/",
+   "so": false,
+   "products": [],
+   "cci_id": 228,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/228"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS EN HAÏTI",
+   "city": "PORT-AU-PRINCE",
+   "cp": "6114",
+   "city_cp": "",
+   "address": "99 avenue Lamartinière, 6114 PORT-AU-PRINCE",
+   "address_lines": [
+    "99 avenue Lamartinière",
+    "6114 PORT-AU-PRINCE"
+   ],
+   "phone": "+509 28 11 4411",
+   "emails": [
+    "infocours@institutfrancaishaiti.org"
+   ],
+   "url": "https://web.facebook.com/ifhpap/",
+   "so": false,
+   "products": [],
+   "cci_id": 499,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/499"
+  }
+ ]
+}

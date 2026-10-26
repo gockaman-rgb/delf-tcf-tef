@@ -1,0 +1,33 @@
+{
+ "country": "Moldavie",
+ "iso2": "MD",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE MOLDAVIE",
+   "city": "CHISINAU",
+   "cp": "MD-2012",
+   "city_cp": "",
+   "address": "Strada Sfatul Tarii, 18, MD-2012 CHISINAU",
+   "address_lines": [
+    "Strada Sfatul Tarii, 18",
+    "MD-2012 CHISINAU"
+   ],
+   "phone": "+373 22 234 510",
+   "emails": [
+    "alfr@alfr.md"
+   ],
+   "url": "www.alfr.md",
+   "so": false,
+   "products": [],
+   "cci_id": 153,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/153"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "country": "Bangladesh",
+ "iso2": "BD",
+ "fei_id": "326",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Dhaka",
+  "cp": "",
+  "city_cp": "",
+  "address": "26, Mirpur Road Corner Road N°3 GPO box 405, 1205 Dhaka",
+  "address_lines": [
+   "26, Mirpur Road Corner Road N°3 GPO box 405",
+   "1205 Dhaka"
+  ],
+  "phone": "+88029675249",
+  "emails": [
+   "director@afdhaka.org"
+  ],
+  "url": "http://www.afdhaka.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française de Chittagong",
+   "city": "Chittagong",
+   "cp": "",
+   "city_cp": "",
+   "address": "123 K.B. Fazlul Kader Rd, Chattogram, 4203 Chittagong",
+   "address_lines": [
+    "123 K.B. Fazlul Kader Rd, Chattogram",
+    "4203 Chittagong"
+   ],
+   "phone": "01318896444",
+   "emails": [
+    "director@af-chittagong.org"
+   ],
+   "url": "https://www.afchittagong.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Dhaka",
+   "cp": "",
+   "city_cp": "",
+   "address": "26 Mirpur Road, Dhanmomdi, 1205 Dhaka",
+   "address_lines": [
+    "26 Mirpur Road, Dhanmomdi",
+    "1205 Dhaka"
+   ],
+   "phone": "01613028400",
+   "emails": [
+    "director@afdhaka.org"
+   ],
+   "url": "http://www.afdhaka.org",
+   "so": false
+  }
+ ]
+}

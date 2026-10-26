@@ -1,0 +1,97 @@
+{
+ "country": "Kazakhstan",
+ "iso2": "KZ",
+ "fei_id": "48",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 4,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction",
+  "city": "Almaty",
+  "cp": "",
+  "city_cp": "",
+  "address": "160, av. Dostyk, bât. D-160, 050051 Almaty",
+  "address_lines": [
+   "160, av. Dostyk, bât. D-160",
+   "050051 Almaty"
+  ],
+  "phone": "7272 62 03 43",
+  "emails": [
+   "direction@af-almaty.kz"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française d'Almaty",
+   "city": "Almaty",
+   "cp": "",
+   "city_cp": "",
+   "address": "160, avenue Dostyk, bât D-160, 1er étage, 050051 Almaty",
+   "address_lines": [
+    "160, avenue Dostyk, bât D-160, 1er étage",
+    "050051 Almaty"
+   ],
+   "phone": "7272620343",
+   "emails": [
+    "direction@af-almaty.kz"
+   ],
+   "url": "http://www.alliancefr.kz",
+   "so": false
+  },
+  {
+   "name": "Alliance Française d'Astana",
+   "city": "Astana",
+   "cp": "",
+   "city_cp": "",
+   "address": "25, rue Tashenov, Z01D3Y1 Astana",
+   "address_lines": [
+    "25, rue Tashenov",
+    "Z01D3Y1 Astana"
+   ],
+   "phone": "+77003323639",
+   "emails": [
+    "directeur@af-astana.kz"
+   ],
+   "url": "",
+   "so": false
+  },
+  {
+   "name": "AF Chymkent",
+   "city": "Chymkent",
+   "cp": "",
+   "city_cp": "",
+   "address": "5, avenue Taouké khan, université Moukhtar Aouézov bât.G, 1er étage, 123, 160000 Chymkent",
+   "address_lines": [
+    "5, avenue Taouké khan, université Moukhtar Aouézov bât.G, 1er étage, 123",
+    "160000 Chymkent"
+   ],
+   "phone": "+77478546824",
+   "emails": [
+    "direction_afchymkent@mail.ru"
+   ],
+   "url": "http://www.alliancefr.kz",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Qaraghandy",
+   "city": "Karaganda",
+   "cp": "",
+   "city_cp": "",
+   "address": "rue Gogol 38, salle 105, 100008 Karaganda",
+   "address_lines": [
+    "rue Gogol 38, salle 105",
+    "100008 Karaganda"
+   ],
+   "phone": "+77018032941",
+   "emails": [
+    "afqaraghandy@gmail.com"
+   ],
+   "url": "http://www.culturefrance.kz",
+   "so": false
+  }
+ ]
+}

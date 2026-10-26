@@ -1,0 +1,75 @@
+{
+ "country": "Égypte",
+ "iso2": "EG",
+ "fei_id": "116",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Coordination nationale",
+  "city": "Le Caire",
+  "cp": "",
+  "city_cp": "",
+  "address": "1 rue Madrasset Al Huquq El Frinseya - Mounira Le Caire",
+  "address_lines": [
+   "1 rue Madrasset Al Huquq El Frinseya - Mounira Le Caire"
+  ],
+  "phone": "01001725074",
+  "emails": [],
+  "url": "http://www.ifegypte.com",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français d'Egypte à Alexandrie",
+   "city": "Alexandrie",
+   "cp": "",
+   "city_cp": "",
+   "address": "30 rue Nabi Daniel Alexandrie",
+   "address_lines": [
+    "30 rue Nabi Daniel Alexandrie"
+   ],
+   "phone": "33925580",
+   "emails": [
+    "accueil.alex@ifegypte.com"
+   ],
+   "url": "http://www.ifegypte.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Égypte",
+   "city": "Le Caire",
+   "cp": "",
+   "city_cp": "",
+   "address": "1 Rue Madrasset Al Huquq Al Frenseya, Mounira, 11562 Le Caire",
+   "address_lines": [
+    "1 Rue Madrasset Al Huquq Al Frenseya, Mounira",
+    "11562 Le Caire"
+   ],
+   "phone": "01284983043",
+   "emails": [
+    "infoexamens@ifegypte.com"
+   ],
+   "url": "http://www.ifegypte.com/",
+   "so": false
+  },
+  {
+   "name": "Institut français d'Egypte à Héliopolis",
+   "city": "Le Caire",
+   "cp": "",
+   "city_cp": "",
+   "address": "5 rue Chafik El Dib - Ard El Golf - Héliopolis Le Caire",
+   "address_lines": [
+    "5 rue Chafik El Dib - Ard El Golf - Héliopolis Le Caire"
+   ],
+   "phone": "01225559378",
+   "emails": [
+    "heliopolis@ifegypte.com"
+   ],
+   "url": "http://ifegypte.com/",
+   "so": false
+  }
+ ]
+}

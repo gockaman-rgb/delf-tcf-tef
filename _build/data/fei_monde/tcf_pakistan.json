@@ -1,0 +1,62 @@
+{
+ "country": "Pakistan",
+ "iso2": "PK",
+ "fei_id": "51",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Islamabad",
+   "cp": "",
+   "city_cp": "",
+   "address": "House 5 - Street 55 F-7/4, Islamabad",
+   "address_lines": [
+    "House 5 - Street 55 F-7/4",
+    "Islamabad"
+   ],
+   "phone": "+923028596191",
+   "emails": [],
+   "url": "http://www.afislamabad.org",
+   "so": false
+  },
+  {
+   "name": "Alliance française",
+   "city": "Karachi",
+   "cp": "",
+   "city_cp": "",
+   "address": "Plot/St-1, Kehkashan, Block 8 Clifton, 75600 Karachi",
+   "address_lines": [
+    "Plot/St-1, Kehkashan, Block 8 Clifton",
+    "75600 Karachi"
+   ],
+   "phone": "092-213-587-3402",
+   "emails": [
+    "admin@afkarachi.com"
+   ],
+   "url": "http://www.afkarachi.com",
+   "so": true
+  },
+  {
+   "name": "Alliance française",
+   "city": "Lahore",
+   "cp": "",
+   "city_cp": "",
+   "address": "155 Scotch corner street 3 Upper Mall Scheme, Null Lahore",
+   "address_lines": [
+    "155 Scotch corner street 3 Upper Mall Scheme",
+    "Null Lahore"
+   ],
+   "phone": "92-30-18-23-72-01",
+   "emails": [
+    "contact@aflahore.org"
+   ],
+   "url": "http://www.aflahore.org",
+   "so": true
+  }
+ ]
+}

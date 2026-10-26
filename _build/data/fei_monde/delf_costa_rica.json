@@ -1,0 +1,42 @@
+{
+ "country": "Costa Rica",
+ "iso2": "CR",
+ "fei_id": "22",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "San José",
+  "cp": "",
+  "city_cp": "",
+  "address": "Avenida 7 Calle 5 Barrio Amón, 1000 San José",
+  "address_lines": [
+   "Avenida 7 Calle 5 Barrio Amón",
+   "1000 San José"
+  ],
+  "phone": "506 2257 1438",
+  "emails": [],
+  "url": "http://www.alianzafrancesacostarica.com/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "San Jose",
+   "cp": "",
+   "city_cp": "",
+   "address": "Barrio Amon, 10195 1000 San Jose",
+   "address_lines": [
+    "Barrio Amon",
+    "10195 1000 San Jose"
+   ],
+   "phone": "22571438",
+   "emails": [],
+   "url": "http://www.alianzafrancesacostarica.com/",
+   "so": false
+  }
+ ]
+}

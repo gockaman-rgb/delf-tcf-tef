@@ -1,0 +1,72 @@
+{
+ "country": "Serbie",
+ "iso2": "RS",
+ "fei_id": "91",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 3,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Pôle langue",
+  "city": "Belgrade",
+  "cp": "",
+  "city_cp": "",
+  "address": "Zmaj Jovina 11, 11000 Belgrade",
+  "address_lines": [
+   "Zmaj Jovina 11",
+   "11000 Belgrade"
+  ],
+  "phone": "+38163254779",
+  "emails": [],
+  "url": "http://www.institutfrancais.rs",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Serbie - Belgrade",
+   "city": "Belgrade",
+   "cp": "",
+   "city_cp": "",
+   "address": "Zmaj Jovina 11, 11000 Belgrade",
+   "address_lines": [
+    "Zmaj Jovina 11",
+    "11000 Belgrade"
+   ],
+   "phone": "113023632",
+   "emails": [],
+   "url": "http://www.institutfrancais.rs/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Nis",
+   "city": "Nis",
+   "cp": "",
+   "city_cp": "",
+   "address": "Obrenoviceva 20, 18000 Nis",
+   "address_lines": [
+    "Obrenoviceva 20",
+    "18000 Nis"
+   ],
+   "phone": "18524578",
+   "emails": [],
+   "url": "http://www.institutfrancais.rs/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Novi Sad",
+   "city": "Novi Sad",
+   "cp": "",
+   "city_cp": "",
+   "address": "Bulevar Despota Stefana 5 - Kreativni Distrikt, 21000 Novi Sad",
+   "address_lines": [
+    "Bulevar Despota Stefana 5 - Kreativni Distrikt",
+    "21000 Novi Sad"
+   ],
+   "phone": "641119401",
+   "emails": [],
+   "url": "http://www.institutfrancais.rs/",
+   "so": false
+  }
+ ]
+}

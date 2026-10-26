@@ -1,0 +1,28 @@
+{
+ "country": "Zimbabwe",
+ "iso2": "ZW",
+ "fei_id": "441",
+ "type": "tcf",
+ "key": "Centre de passation",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": null,
+ "centres": [
+  {
+   "name": "Alliance française",
+   "city": "Harare",
+   "cp": "",
+   "city_cp": "",
+   "address": "328 Herbert Chitepo Avenue, Harare",
+   "address_lines": [
+    "328 Herbert Chitepo Avenue",
+    "Harare"
+   ],
+   "phone": "263-4-704-795",
+   "emails": [],
+   "url": "https://alliancefrancaisezimbabwe.org/harare/",
+   "so": true
+  }
+ ]
+}

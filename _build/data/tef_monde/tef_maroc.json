@@ -1,0 +1,187 @@
+{
+ "country": "Maroc",
+ "iso2": "MA",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 9,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "INSTITUT FRANÇAIS DU MAROC - SITE D'AGADIR",
+   "city": "AGADIR",
+   "cp": "80001",
+   "city_cp": "",
+   "address": "Rue de l’entraide Talborjt Agadir, 80001 AGADIR",
+   "address_lines": [
+    "Rue de l’entraide Talborjt Agadir",
+    "80001 AGADIR"
+   ],
+   "phone": "+212 5 28 84 13 13",
+   "emails": [],
+   "url": "https://if-maroc.org/agadir/",
+   "so": false,
+   "products": [],
+   "cci_id": 565,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/565"
+  },
+  {
+   "name": "UNIVERSAL SUP",
+   "city": "BENI MELLAL",
+   "cp": "23000",
+   "city_cp": "",
+   "address": "210 Boulevard Ibn Khaldoune, 23000 BENI MELLAL",
+   "address_lines": [
+    "210 Boulevard Ibn Khaldoune",
+    "23000 BENI MELLAL"
+   ],
+   "phone": "+212 5 23 48 45 50",
+   "emails": [
+    "contact@universalsup.ma"
+   ],
+   "url": "www.universalsup.ma",
+   "so": false,
+   "products": [],
+   "cci_id": 695,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/695"
+  },
+  {
+   "name": "CENTRE DE LANGUES LA RÉSIDENCE",
+   "city": "CASABLANCA",
+   "cp": "20490",
+   "city_cp": "",
+   "address": "89, avenue du 2 mars, 20490 CASABLANCA",
+   "address_lines": [
+    "89, avenue du 2 mars",
+    "20490 CASABLANCA"
+   ],
+   "phone": "+212 6 63 13 85 24",
+   "emails": [
+    "clr@gsr.ac.ma"
+   ],
+   "url": "www.gsr.ac.ma",
+   "so": false,
+   "products": [],
+   "cci_id": 336,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/336"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU MAROC - CASABLANCA",
+   "city": "CASABLANCA",
+   "cp": "20000",
+   "city_cp": "",
+   "address": "121 boulevard Zerktouni, 20000 CASABLANCA",
+   "address_lines": [
+    "121 boulevard Zerktouni",
+    "20000 CASABLANCA"
+   ],
+   "phone": "+212 5 22 77 98 70",
+   "emails": [
+    "info-casablanca@ifmaroc.com"
+   ],
+   "url": "https://if-maroc.org/casablanca/",
+   "so": false,
+   "products": [],
+   "cci_id": 508,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/508"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU MAROC - EL JADIDA",
+   "city": "EL JADIDA",
+   "cp": "24000",
+   "city_cp": "",
+   "address": "3 rue du Caire, 24000 EL JADIDA",
+   "address_lines": [
+    "3 rue du Caire",
+    "24000 EL JADIDA"
+   ],
+   "phone": "+212 5 23 35 35 29",
+   "emails": [
+    "certification.eljadida@ifmaroc.com"
+   ],
+   "url": "https://if-maroc.org/eljadida/",
+   "so": false,
+   "products": [],
+   "cci_id": 566,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/566"
+  },
+  {
+   "name": "UNIVERSAL SUP",
+   "city": "MARRAKECH",
+   "cp": "N02",
+   "city_cp": "",
+   "address": "UNIVERSAL SUP EN PARTENARIAT AVEC ARTIFIVE - 520, Lot. Charaf 1er étage, N02 MARRAKECH",
+   "address_lines": [
+    "UNIVERSAL SUP EN PARTENARIAT AVEC ARTIFIVE - 520, Lot. Charaf 1er étage",
+    "N02 MARRAKECH"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "www.universalsup.ma",
+   "so": false,
+   "products": [
+    "TEF Canada"
+   ],
+   "cci_id": 859,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/859"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU MAROC - SITE DE RABAT",
+   "city": "RABAT",
+   "cp": "10000",
+   "city_cp": "",
+   "address": "1, rue Abou Inane, 10000 RABAT",
+   "address_lines": [
+    "1, rue Abou Inane",
+    "10000 RABAT"
+   ],
+   "phone": "+212 5 37 68 96 79",
+   "emails": [],
+   "url": "www.if-maroc.org/rabat/",
+   "so": false,
+   "products": [],
+   "cci_id": 534,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/534"
+  },
+  {
+   "name": "INSTITUT FRANÇAIS DU MAROC - SITE DE TANGER",
+   "city": "TANGER",
+   "cp": "90000",
+   "city_cp": "",
+   "address": "41 rue Hassan Ibn Ouazzane, 90000 TANGER",
+   "address_lines": [
+    "41 rue Hassan Ibn Ouazzane",
+    "90000 TANGER"
+   ],
+   "phone": "+212 5 39 94 10 54",
+   "emails": [
+    "cdl.tanger@ifmaroc.com"
+   ],
+   "url": "https://if-maroc.org/tanger/",
+   "so": false,
+   "products": [],
+   "cci_id": 545,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/545"
+  },
+  {
+   "name": "INSTITUT FRANCAIS DU MAROC - SITE DE TÉTOUAN",
+   "city": "TÉTOUAN",
+   "cp": "93000",
+   "city_cp": "",
+   "address": "13 rue Chakib Arsalane, 93000 TÉTOUAN",
+   "address_lines": [
+    "13 rue Chakib Arsalane",
+    "93000 TÉTOUAN"
+   ],
+   "phone": "+212 5 39 71 43 11",
+   "emails": [],
+   "url": "https://if-maroc.org/tetouan/",
+   "so": false,
+   "products": [],
+   "cci_id": 568,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/568"
+  }
+ ]
+}

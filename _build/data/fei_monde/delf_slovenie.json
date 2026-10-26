@@ -1,0 +1,44 @@
+{
+ "country": "Slovénie",
+ "iso2": "SI",
+ "fei_id": "423",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Gestion Centrale DELF/DALF",
+  "city": "Ljubljana",
+  "cp": "",
+  "city_cp": "",
+  "address": "Breg 12, 1000 Ljubljana",
+  "address_lines": [
+   "Breg 12",
+   "1000 Ljubljana"
+  ],
+  "phone": "1 2000 533",
+  "emails": [],
+  "url": "http://www.institutfrance.si/fr/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Institut français de Slovénie",
+   "city": "Ljubljana",
+   "cp": "",
+   "city_cp": "",
+   "address": "Breg 12, 1000 Ljubljana",
+   "address_lines": [
+    "Breg 12",
+    "1000 Ljubljana"
+   ],
+   "phone": "1 2000 500",
+   "emails": [
+    "ifs@institutfrance.si"
+   ],
+   "url": "http://www.institutfrance.si/",
+   "so": false
+  }
+ ]
+}

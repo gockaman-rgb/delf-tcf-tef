@@ -1,0 +1,58 @@
+{
+ "country": "Cuba",
+ "iso2": "CU",
+ "fei_id": "23",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Direction des cours - Marie-Hélène MIESZKIN",
+  "city": "La Habana",
+  "cp": "",
+  "city_cp": "",
+  "address": "Palacio Gomez, Paseo Prado No. 212, Habana vieja La Habana",
+  "address_lines": [
+   "Palacio Gomez, Paseo Prado No. 212, Habana vieja La Habana"
+  ],
+  "phone": "78360730",
+  "emails": [],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de La Havane",
+   "city": "La Havane",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle J Num 302, 45000 La Havane",
+   "address_lines": [
+    "Calle J Num 302",
+    "45000 La Havane"
+   ],
+   "phone": "52631150",
+   "emails": [],
+   "url": "https://alianzafrancesacuba.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Santiago de Cuba",
+   "city": "Santiago De Cuba",
+   "cp": "",
+   "city_cp": "",
+   "address": "Calle 6 esq.11, reparto Vista Alegre, 90400 Santiago De Cuba",
+   "address_lines": [
+    "Calle 6 esq.11, reparto Vista Alegre",
+    "90400 Santiago De Cuba"
+   ],
+   "phone": "53 2264 1503",
+   "emails": [
+    "secretariat1.afstgo@gmail.com"
+   ],
+   "url": "https://www.facebook.com/alianzafrancesasantiagodecuba/",
+   "so": false
+  }
+ ]
+}

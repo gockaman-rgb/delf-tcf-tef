@@ -1,0 +1,42 @@
+{
+ "country": "Biélorussie",
+ "iso2": "BY",
+ "fei_id": "63",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Minsk",
+  "cp": "",
+  "city_cp": "",
+  "address": "11, place de la Liberté, 220030 Minsk",
+  "address_lines": [
+   "11, place de la Liberté",
+   "220030 Minsk"
+  ],
+  "phone": "172 29 18 07",
+  "emails": [],
+  "url": "http://www.ambafrance-by.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "SCAC de l'Ambassade de France",
+   "city": "Minsk",
+   "cp": "",
+   "city_cp": "",
+   "address": "PLOSHAD SVOBODY n° 11, 220030 Minsk",
+   "address_lines": [
+    "PLOSHAD SVOBODY n° 11",
+    "220030 Minsk"
+   ],
+   "phone": "375172291807",
+   "emails": [],
+   "url": "http://www.ambafrance-by.org/",
+   "so": false
+  }
+ ]
+}

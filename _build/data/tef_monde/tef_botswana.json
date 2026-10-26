@@ -1,0 +1,33 @@
+{
+ "country": "Botswana",
+ "iso2": "BW",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 1,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ALLIANCE FRANÇAISE DE GABORONE",
+   "city": "GABORONE",
+   "cp": "99",
+   "city_cp": "",
+   "address": "Plot 2939 Mobuto Dr, 99 GABORONE",
+   "address_lines": [
+    "Plot 2939 Mobuto Dr",
+    "99 GABORONE"
+   ],
+   "phone": "+267 395 1650",
+   "emails": [
+    "dir@afgaborone.org"
+   ],
+   "url": "www.alliance.org.za/gaborone/",
+   "so": false,
+   "products": [],
+   "cci_id": 94,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/94"
+  }
+ ]
+}

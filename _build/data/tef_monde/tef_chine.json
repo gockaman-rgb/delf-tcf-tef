@@ -1,0 +1,368 @@
+{
+ "country": "Chine",
+ "iso2": "CN",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 18,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "CEF DE CANTON CONSULAT GÉNÉRAL DE FRANCE SERVICE CULTUREL",
+   "city": "CANTON",
+   "cp": "510098",
+   "city_cp": "",
+   "address": "Guangdong International Hotel (GITIC), 510098 CANTON",
+   "address_lines": [
+    "Guangdong International Hotel (GITIC)",
+    "510098 CANTON"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 285,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/285"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE CHENGDU",
+   "city": "CHENGDU",
+   "cp": "610054",
+   "city_cp": "",
+   "address": "UESTC, Jianshe Beilu 2 Duan 4 Hao 成都市建设北路二段四号 Dianzi Keji Daxue Shahe Xiaoqu Zhu Lou Zhong 110 Shi 电子科技大学沙河校区主楼中110室 610054, Chengdu, RP Chine 邮编610054, 610054 CHENGDU",
+   "address_lines": [
+    "UESTC, Jianshe Beilu 2 Duan 4 Hao 成都市建设北路二段四号 Dianzi Keji Daxue Shahe Xiaoqu Zhu Lou Zhong 110 Shi 电子科技大学沙河校区主楼中110室 610054, Chengdu, RP Chine 邮编610054",
+    "610054 CHENGDU"
+   ],
+   "phone": "+86 28 8320 2611",
+   "emails": [
+    "info.chengdu@afchine.org"
+   ],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 72,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/72"
+  },
+  {
+   "name": "CAMPUS FRANCE DE CHENGDU",
+   "city": "CHENGDU",
+   "cp": "610021",
+   "city_cp": "",
+   "address": "No. 1, Section 3 Hong Xing Road, 610021 CHENGDU",
+   "address_lines": [
+    "No. 1, Section 3 Hong Xing Road",
+    "610021 CHENGDU"
+   ],
+   "phone": "+86 28 8666 2303",
+   "emails": [
+    "information.chengdu@campusfrancechine.org"
+   ],
+   "url": "https://www.chine.campusfrance.org/zh-hans",
+   "so": false,
+   "products": [],
+   "cci_id": 283,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/283"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE DALIAN",
+   "city": "DALIAN",
+   "cp": "116001",
+   "city_cp": "",
+   "address": "26 Shengli Dong Lu, 2nd floor, 116001 DALIAN",
+   "address_lines": [
+    "26 Shengli Dong Lu, 2nd floor",
+    "116001 DALIAN"
+   ],
+   "phone": "+86 411 6586 4270",
+   "emails": [
+    "direction.dalian@afchine.com"
+   ],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 80,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/80"
+  },
+  {
+   "name": "JINAN UNIVERSITY / ALLIANCE FRANCAISE DE CANTON",
+   "city": "Guangzhou",
+   "cp": "510310",
+   "city_cp": "",
+   "address": "Jinan University Alliance Française de Canton, 510310 Guangzhou",
+   "address_lines": [
+    "Jinan University Alliance Française de Canton",
+    "510310 Guangzhou"
+   ],
+   "phone": "+86 20 8380 2501",
+   "emails": [
+    "examens.guangzhou@afchine.org"
+   ],
+   "url": "guangzhou.afchine.org/fr",
+   "so": false,
+   "products": [],
+   "cci_id": 598,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/598"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE SHANDONG-JINAN",
+   "city": "JINAN SHANDONG",
+   "cp": "250100",
+   "city_cp": "",
+   "address": "Université du Shandong, 250100 JINAN SHANDONG",
+   "address_lines": [
+    "Université du Shandong",
+    "250100 JINAN SHANDONG"
+   ],
+   "phone": "+86 531 8900 1068",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 199,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/199"
+  },
+  {
+   "name": "ALLIANCE FRANCAISE DE KUNMING",
+   "city": "KUNMING",
+   "cp": "650091",
+   "city_cp": "",
+   "address": "Yunnan Province, Kunming City, Cuihu North Road No. 2, Yunnan University, Donglu Campus, Nanxue Building, 1st Floor, 650091 KUNMING",
+   "address_lines": [
+    "Yunnan Province, Kunming City, Cuihu North Road No. 2, Yunnan University, Donglu Campus, Nanxue Building, 1st Floor",
+    "650091 KUNMING"
+   ],
+   "phone": "+86 133 5499 1470",
+   "emails": [
+    "accueil.kunming@afchine.org"
+   ],
+   "url": "www.kunming-afchine.org",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 920,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/920"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE NANKIN",
+   "city": "NANKIN",
+   "cp": "210002",
+   "city_cp": "",
+   "address": "73 Beijing W Rd, Gulou, 210002 NANKIN",
+   "address_lines": [
+    "73 Beijing W Rd, Gulou",
+    "210002 NANKIN"
+   ],
+   "phone": "+86 25 8359 8762",
+   "emails": [
+    "info2.nanjing@afchine.org"
+   ],
+   "url": "www.afnanjing.njnu.edu.cn",
+   "so": false,
+   "products": [],
+   "cci_id": 159,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/159"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE PÉKIN",
+   "city": "PÉKIN",
+   "cp": "100020",
+   "city_cp": "",
+   "address": "18 Gongti Xilu, Chaoyang District, 100020 PÉKIN",
+   "address_lines": [
+    "18 Gongti Xilu, Chaoyang District",
+    "100020 PÉKIN"
+   ],
+   "phone": "+86 10 6553 2678",
+   "emails": [
+    "examens.beijing@afchine.org"
+   ],
+   "url": "www.af.blcu.edu.cn",
+   "so": false,
+   "products": [],
+   "cci_id": 166,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/166"
+  },
+  {
+   "name": "CEF DE PÉKIN",
+   "city": "PÉKIN",
+   "cp": "100020",
+   "city_cp": "",
+   "address": "Institut français de Chine, 100020 PÉKIN",
+   "address_lines": [
+    "Institut français de Chine",
+    "100020 PÉKIN"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 286,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/286"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE SHANGHAÏ",
+   "city": "SHANGHAI",
+   "cp": "200080",
+   "city_cp": "",
+   "address": "297 Wusong Lu, 200080 SHANGHAI",
+   "address_lines": [
+    "297 Wusong Lu",
+    "200080 SHANGHAI"
+   ],
+   "phone": "+86 21 6357 5388",
+   "emails": [],
+   "url": "https://fr.afshanghai.org ----- site/fr_examdetail/133",
+   "so": false,
+   "products": [
+    "TEF Québec"
+   ],
+   "cci_id": 200,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/200"
+  },
+  {
+   "name": "CEF DE SHANGHAÏ - CONSULAT GÉNÉRAL DE FRANCE",
+   "city": "SHANGHAÏ",
+   "cp": "200080",
+   "city_cp": "",
+   "address": "155, Wuyi Road, 4F, 200080 SHANGHAÏ",
+   "address_lines": [
+    "155, Wuyi Road, 4F",
+    "200080 SHANGHAÏ"
+   ],
+   "phone": "",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 287,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/287"
+  },
+  {
+   "name": "CAMPUS FRANCE DE SHENYANG",
+   "city": "SHENYANG",
+   "cp": "110003",
+   "city_cp": "",
+   "address": "34 S Shisanwei Rd, Heping District, 110003 SHENYANG",
+   "address_lines": [
+    "34 S Shisanwei Rd, Heping District",
+    "110003 SHENYANG"
+   ],
+   "phone": "+86 24 2321 3330",
+   "emails": [
+    "info.shenyang@campusfrancechine.org"
+   ],
+   "url": "https://www.campusfrance.org/fr/espaces/chine-shenyang",
+   "so": false,
+   "products": [],
+   "cci_id": 412,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/412"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE TIANJIN",
+   "city": "TIANJIN",
+   "cp": "300074",
+   "city_cp": "",
+   "address": "Wujiayao Street, Tianjin Normal University, 300074 TIANJIN",
+   "address_lines": [
+    "Wujiayao Street, Tianjin Normal University",
+    "300074 TIANJIN"
+   ],
+   "phone": "+86 136 7200 8196",
+   "emails": [
+    "info.tianjin@afchine.org"
+   ],
+   "url": "http://tianjin.afchine.org/",
+   "so": false,
+   "products": [],
+   "cci_id": 208,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/208"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE WUHAN",
+   "city": "WUHAN",
+   "cp": "430072",
+   "city_cp": "",
+   "address": "483, Bayi Lu, Wuchang, 430072 WUHAN",
+   "address_lines": [
+    "483, Bayi Lu, Wuchang",
+    "430072 WUHAN"
+   ],
+   "phone": "+86 27 8734 8743",
+   "emails": [
+    "accueil.wuchang@afchine.org"
+   ],
+   "url": "www.afwchine.org",
+   "so": false,
+   "products": [],
+   "cci_id": 223,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/223"
+  },
+  {
+   "name": "CAMPUS FRANCE DE WUHAN",
+   "city": "WUHAN",
+   "cp": "430000",
+   "city_cp": "",
+   "address": "Consulat Général de France à Wuhan SCAC, 430000 WUHAN",
+   "address_lines": [
+    "Consulat Général de France à Wuhan SCAC",
+    "430000 WUHAN"
+   ],
+   "phone": "+86 27 8555 7933",
+   "emails": [],
+   "url": "chine.campusfrance.org",
+   "so": false,
+   "products": [],
+   "cci_id": 263,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/263"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE XI'AN",
+   "city": "XI'AN",
+   "cp": "710069",
+   "city_cp": "",
+   "address": "Northwest University, 710069 XI'AN",
+   "address_lines": [
+    "Northwest University",
+    "710069 XI'AN"
+   ],
+   "phone": "+86 29 8830 4086",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [
+    "TEF Canada",
+    "TEF Québec"
+   ],
+   "cci_id": 224,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/224"
+  },
+  {
+   "name": "ALLIANCE FRANÇAISE DE ZHENGZHOU",
+   "city": "ZHENGZHOU",
+   "cp": "450046",
+   "city_cp": "",
+   "address": "ALLIANCE FRANÇAISE DE ZHENGZHOU, 450046 ZHENGZHOU",
+   "address_lines": [
+    "ALLIANCE FRANÇAISE DE ZHENGZHOU",
+    "450046 ZHENGZHOU"
+   ],
+   "phone": "+86 188 3823 3570",
+   "emails": [],
+   "url": "",
+   "so": false,
+   "products": [],
+   "cci_id": 226,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/226"
+  }
+ ]
+}

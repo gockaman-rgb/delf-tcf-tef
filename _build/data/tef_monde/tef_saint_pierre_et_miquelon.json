@@ -1,0 +1,53 @@
+{
+ "country": "Saint-Pierre-et-Miquelon",
+ "iso2": "PM",
+ "fei_id": null,
+ "type": "tef",
+ "key": "Centre de passation TEF",
+ "n": 2,
+ "date": "2026-10-26",
+ "source": "Le français des affaires (CCI Paris Île-de-France), carte des centres TEF DFP et fiches contact",
+ "org": null,
+ "centres": [
+  {
+   "name": "ASSOCIATION POUR LA FORMATION CONTINUE DE SAINT-PIERRE-ET-MIQUELON (AFC)",
+   "city": "SAINT-PIERRE-ET-MIQUELON",
+   "cp": "97500",
+   "city_cp": "",
+   "address": "Route de Pointe Blanche, 97500 SAINT-PIERRE-ET-MIQUELON",
+   "address_lines": [
+    "Route de Pointe Blanche",
+    "97500 SAINT-PIERRE-ET-MIQUELON"
+   ],
+   "phone": "+508 41 02 10",
+   "emails": [
+    "contact@afc-spm.com"
+   ],
+   "url": "https://afc-spm.com",
+   "so": false,
+   "products": [],
+   "cci_id": 249,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/249"
+  },
+  {
+   "name": "CACIMA - SAINT-PIERRE-ET-MIQUELON",
+   "city": "SAINT-PIERRE-ET-MIQUELON",
+   "cp": "97500",
+   "city_cp": "",
+   "address": "4 BOULEVARD CONSTANT COLMAY, 97500 SAINT-PIERRE-ET-MIQUELON",
+   "address_lines": [
+    "4 BOULEVARD CONSTANT COLMAY",
+    "97500 SAINT-PIERRE-ET-MIQUELON"
+   ],
+   "phone": "+508 41 05 30",
+   "emails": [
+    "formation@cacima.fr"
+   ],
+   "url": "https://cacima.fr/fr",
+   "so": false,
+   "products": [],
+   "cci_id": 1098,
+   "contact": "https://francais.cci-paris-idf.fr/inscription-candidat/contact/1098"
+  }
+ ]
+}

@@ -1,0 +1,287 @@
+{
+ "country": "Portugal",
+ "iso2": "PT",
+ "fei_id": "86",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 16,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de Coopération linguistique et éducative",
+  "city": "Lisbonne",
+  "cp": "",
+  "city_cp": "",
+  "address": "Rua Santos-o-Velho,, 1200-811 Lisbonne",
+  "address_lines": [
+   "Rua Santos-o-Velho,",
+   "1200-811 Lisbonne"
+  ],
+  "phone": "+351213939275",
+  "emails": [
+   "gestioncentrale@ifp-lisboa.com"
+  ],
+  "url": "",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Université d’Aveiro",
+   "city": "Aveiro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Departamento de Línguas e Culturas, Campus Universitário de Santiago,, 3810-193 Aveiro",
+   "address_lines": [
+    "Departamento de Línguas e Culturas, Campus Universitário de Santiago,",
+    "3810-193 Aveiro"
+   ],
+   "phone": "234 370358",
+   "emails": [],
+   "url": "https://www.ua.pt/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Caldas da Rainha",
+   "city": "Caldas Da Rainha",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Miguel Bombarda, 11, 2500-238 Caldas Da Rainha",
+   "address_lines": [
+    "Rua Miguel Bombarda, 11",
+    "2500-238 Caldas Da Rainha"
+   ],
+   "phone": "910 092 840",
+   "emails": [
+    "info.caldas@alliancefr.pt"
+   ],
+   "url": "http://alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Coimbra",
+   "city": "Coimbra",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Pinheiro Chagas, 60, 3000 333 Coimbra",
+   "address_lines": [
+    "Rua Pinheiro Chagas, 60",
+    "3000 333 Coimbra"
+   ],
+   "phone": "919138383",
+   "emails": [
+    "coordenacao.coimbra@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de l'Algarve",
+   "city": "Faro",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Primeiro de Maio, nº 15, 8000-411 Faro",
+   "address_lines": [
+    "Rua Primeiro de Maio, nº 15",
+    "8000-411 Faro"
+   ],
+   "phone": "289828881",
+   "emails": [],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Academia de Línguas da Madeira",
+   "city": "Funchal",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua do Ribeirinho de Baixo, 33-B, 2º, 9050-447 Funchal",
+   "address_lines": [
+    "Rua do Ribeirinho de Baixo, 33-B, 2º",
+    "9050-447 Funchal"
+   ],
+   "phone": "291231069",
+   "emails": [
+    "alm@alm-madeira.com"
+   ],
+   "url": "http://www.alm-madeira.com/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Guimarães /Braga",
+   "city": "Guimarães",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua de Camões nº30, 4810-442 Guimarães",
+   "address_lines": [
+    "Rua de Camões nº30",
+    "4810-442 Guimarães"
+   ],
+   "phone": "960364820",
+   "emails": [],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Leiria",
+   "city": "Leiria",
+   "cp": "",
+   "city_cp": "",
+   "address": "35 Av. Heróis de Angola 1º - Esq., 2400-137 Leiria",
+   "address_lines": [
+    "35 Av. Heróis de Angola 1º - Esq.",
+    "2400-137 Leiria"
+   ],
+   "phone": "912495743",
+   "emails": [
+    "leiria@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Lisbonne",
+   "city": "Lisbonne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Conselheiro Fernando de Sousa, nº 21-A, 1070-072 Lisbonne",
+   "address_lines": [
+    "Avenida Conselheiro Fernando de Sousa, nº 21-A",
+    "1070-072 Lisbonne"
+   ],
+   "phone": "212400161",
+   "emails": [],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Lycée Français Charles Lepierre",
+   "city": "Lisbonne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Avenida Duarte Pacheco, 32, 1070-112 Lisbonne",
+   "address_lines": [
+    "Avenida Duarte Pacheco, 32",
+    "1070-112 Lisbonne"
+   ],
+   "phone": "967680733",
+   "emails": [
+    "proviseure@lfcl.pt"
+   ],
+   "url": "http://www.lfcl-lisbonne.eu/",
+   "so": false
+  },
+  {
+   "name": "Redbridge International School",
+   "city": "Lisbonne",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Francisco Metrass 97, 1350-164 Lisbonne",
+   "address_lines": [
+    "Rua Francisco Metrass 97",
+    "1350-164 Lisbonne"
+   ],
+   "phone": "210 522 550",
+   "emails": [],
+   "url": "http://www.redbridgeschool.com",
+   "so": false
+  },
+  {
+   "name": "Ponta Delgada - Université des Açores",
+   "city": "Ponta Delgada",
+   "cp": "",
+   "city_cp": "",
+   "address": "Campus Universitário: Rua da Mãe de Deus, 9500-321 Ponta Delgada",
+   "address_lines": [
+    "Campus Universitário: Rua da Mãe de Deus",
+    "9500-321 Ponta Delgada"
+   ],
+   "phone": "+351964495192",
+   "emails": [],
+   "url": "http://uac.pt",
+   "so": false
+  },
+  {
+   "name": "Alliance française Porto",
+   "city": "Porto",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Santa Isabel 88, 4050-536 Porto",
+   "address_lines": [
+    "Rua Santa Isabel 88",
+    "4050-536 Porto"
+   ],
+   "phone": "226098616",
+   "emails": [],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Faculdade de Letras da Universidade",
+   "city": "Porto",
+   "cp": "",
+   "city_cp": "",
+   "address": "Via Panorâmica, s/nº, 4150-564 Porto",
+   "address_lines": [
+    "Via Panorâmica, s/nº",
+    "4150-564 Porto"
+   ],
+   "phone": "226077140",
+   "emails": [
+    "delf.dalf@letras.up.pt"
+   ],
+   "url": "https://sigarra.up.pt/flup/pt/web_base.gera_pagina?P_pagina=1024451",
+   "so": false
+  },
+  {
+   "name": "Lycée français international de Porto",
+   "city": "Porto",
+   "cp": "",
+   "city_cp": "",
+   "address": "27 rua Gil Eanes, 4150-348 Porto",
+   "address_lines": [
+    "27 rua Gil Eanes",
+    "4150-348 Porto"
+   ],
+   "phone": "936106606",
+   "emails": [
+    "proviseur@lfip.pt"
+   ],
+   "url": "https://www.lfip.pt/fr",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Setubal",
+   "city": "Setúbal",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Almeida Garrett, nº 27 R/C, 2900-212 Setúbal",
+   "address_lines": [
+    "Rua Almeida Garrett, nº 27 R/C",
+    "2900-212 Setúbal"
+   ],
+   "phone": "265235389",
+   "emails": [
+    "director.setubal@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Viseu",
+   "city": "Viseu",
+   "cp": "",
+   "city_cp": "",
+   "address": "Rua Alexandre Lobo, nº 55, 2º Dto, 3500-370 Viseu",
+   "address_lines": [
+    "Rua Alexandre Lobo, nº 55, 2º Dto",
+    "3500-370 Viseu"
+   ],
+   "phone": "965506235",
+   "emails": [
+    "director.viseu@alliancefr.pt"
+   ],
+   "url": "http://www.alliancefr.pt/",
+   "so": false
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "country": "Chine",
+ "iso2": "CN",
+ "fei_id": "41",
+ "type": "delf",
+ "key": "Centre d'examen",
+ "n": 16,
+ "date": "2026-10-26",
+ "source": "FEI, liste par pays (extraction structurée v2, monde)",
+ "org": {
+  "name": "Service de coopération et d'action culturelle",
+  "city": "Hong Kong",
+  "cp": "",
+  "city_cp": "",
+  "address": "123 Hennessy Road 1-2/F Wan Chai Hong Kong",
+  "address_lines": [
+   "123 Hennessy Road 1-2/F Wan Chai Hong Kong"
+  ],
+  "phone": "0767140664",
+  "emails": [],
+  "url": "http://www.afhongkong.org/",
+  "so": false
+ },
+ "centres": [
+  {
+   "name": "Alliance Française de Canton",
+   "city": "Canton (Guangzhou)",
+   "cp": "",
+   "city_cp": "",
+   "address": "3A07, RuiFu Building, N°8 Chigang North Road, Haizhu District, 510310 Canton (Guangzhou)",
+   "address_lines": [
+    "3A07, RuiFu Building, N°8 Chigang North Road, Haizhu District",
+    "510310 Canton (Guangzhou)"
+   ],
+   "phone": "020-83818323",
+   "emails": [
+    "examens.guangzhou@afchine.org"
+   ],
+   "url": "https://afcanton-cn.jnu.edu.cn/main.htm",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Chengdu",
+   "city": "Chengdu",
+   "cp": "",
+   "city_cp": "",
+   "address": "2-4 Jianshebei Lu, Université des Sciences Electroniques et Technologiques, District Chenghua Chengdu",
+   "address_lines": [
+    "2-4 Jianshebei Lu, Université des Sciences Electroniques et Technologiques, District Chenghua Chengdu"
+   ],
+   "phone": "02883202611",
+   "emails": [],
+   "url": "http://afchine.org/fr",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Dalian",
+   "city": "Dalian",
+   "cp": "",
+   "city_cp": "",
+   "address": "26 Shengli dong lu, District Zhongshan, 116001 Dalian",
+   "address_lines": [
+    "26 Shengli dong lu, District Zhongshan",
+    "116001 Dalian"
+   ],
+   "phone": "13190190169",
+   "emails": [
+    "info.dalian@afchine.org"
+   ],
+   "url": "https://afdalian.dlufl.edu.cn/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Hangzhou",
+   "city": "Hangzhou",
+   "cp": "",
+   "city_cp": "",
+   "address": "149 Jiaogong Lu, Université de l'Industrie et du Commerce de Zhejiang, District Xihu Hangzhou",
+   "address_lines": [
+    "149 Jiaogong Lu, Université de l'Industrie et du Commerce de Zhejiang, District Xihu Hangzhou"
+   ],
+   "phone": "057188082526",
+   "emails": [
+    "info.hangzhou@afchine.org"
+   ],
+   "url": "https://www.af-hangzhou.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Hong Kong",
+   "city": "Hong Kong",
+   "cp": "",
+   "city_cp": "",
+   "address": "52 Jordan road Hong Kong",
+   "address_lines": [
+    "52 Jordan road Hong Kong"
+   ],
+   "phone": "27303257",
+   "emails": [
+    "exam@afhongkong.org"
+   ],
+   "url": "http://www.afhongkong.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française du Shandong-Jinan",
+   "city": "Jinan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Chuang Zhan Zhong Xin 801, Shanda Lu 201, 8ème étage. 历下区山大路201号创展中心八楼801 Jinan",
+   "address_lines": [
+    "Chuang Zhan Zhong Xin 801, Shanda Lu 201, 8ème étage. 历下区山大路201号创展中心八楼801 Jinan"
+   ],
+   "phone": "053189001068",
+   "emails": [],
+   "url": "http://afchine.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Macao",
+   "city": "Macao",
+   "cp": "",
+   "city_cp": "",
+   "address": "4-F Travessa do bom Jesus, 999078 Macao",
+   "address_lines": [
+    "4-F Travessa do bom Jesus",
+    "999078 Macao"
+   ],
+   "phone": "28965342",
+   "emails": [
+    "direction.macao@alliancefrancaise.org.mo"
+   ],
+   "url": "http://www.alliancefrancaise.org.mo/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Nankin",
+   "city": "Nankin",
+   "cp": "",
+   "city_cp": "",
+   "address": "27D, Bâtiment B, Centre Changfa, ZhongShanDong Lu, District Qinhuai, 210002 Nankin",
+   "address_lines": [
+    "27D, Bâtiment B, Centre Changfa, ZhongShanDong Lu, District Qinhuai",
+    "210002 Nankin"
+   ],
+   "phone": "02583598762",
+   "emails": [
+    "info2.nanjing@afchine.org"
+   ],
+   "url": "http://afnanjing.njnu.edu.cn",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Pékin",
+   "city": "Pékin",
+   "cp": "",
+   "city_cp": "",
+   "address": "18 Gongtixi Lu, Distrcit Chaoyang Pékin",
+   "address_lines": [
+    "18 Gongtixi Lu, Distrcit Chaoyang Pékin"
+   ],
+   "phone": "01065532678",
+   "emails": [
+    "examens.beijing@afchine.org"
+   ],
+   "url": "http://af.blcu.edu.cn/",
+   "so": false
+  },
+  {
+   "name": "Institut français de Pékin",
+   "city": "Pékin",
+   "cp": "",
+   "city_cp": "",
+   "address": "60 Tianze Lu, District Chaoyang Pékin",
+   "address_lines": [
+    "60 Tianze Lu, District Chaoyang Pékin"
+   ],
+   "phone": "01085312221",
+   "emails": [
+    "delf.dalf@institutfrancais-chine.com"
+   ],
+   "url": "https://www.faguowenhua.com/",
+   "so": false
+  },
+  {
+   "name": "Lycée Français International Charles de Gaulle",
+   "city": "Pékin",
+   "cp": "",
+   "city_cp": "",
+   "address": "3 Xinjin Lu, District Chaoyang, 100015 Pékin",
+   "address_lines": [
+    "3 Xinjin Lu, District Chaoyang",
+    "100015 Pékin"
+   ],
+   "phone": "01084747012",
+   "emails": [
+    "examens@lfipekin.org"
+   ],
+   "url": "http://www.lfipekin.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Shanghai",
+   "city": "Shanghai",
+   "cp": "",
+   "city_cp": "",
+   "address": "297 Wusong Lu, District Hongkou Shanghai",
+   "address_lines": [
+    "297 Wusong Lu, District Hongkou Shanghai"
+   ],
+   "phone": "02163575388",
+   "emails": [
+    "delf-dalf@afshanghai.org"
+   ],
+   "url": "http://www.afshanghai.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Tianjin",
+   "city": "Tianjin",
+   "cp": "",
+   "city_cp": "",
+   "address": "Tianjin, District de Heping, Xikanglu, Seton Center 101-3, 300050 Tianjin",
+   "address_lines": [
+    "Tianjin, District de Heping, Xikanglu, Seton Center 101-3",
+    "300050 Tianjin"
+   ],
+   "phone": "13672008196",
+   "emails": [
+    "info.tianjin@afchine.org"
+   ],
+   "url": "http://afchine.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Wuhan",
+   "city": "Wuhan",
+   "cp": "",
+   "city_cp": "",
+   "address": "Université de Wuhan, 430072 Wuhan",
+   "address_lines": [
+    "Université de Wuhan",
+    "430072 Wuhan"
+   ],
+   "phone": "02768771596",
+   "emails": [],
+   "url": "http://www.afwchine.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance Française de Xi'an",
+   "city": "Xi'An",
+   "cp": "",
+   "city_cp": "",
+   "address": "229 Taibaibei Lu, Université Nord ouest, District Beilin Xi'An",
+   "address_lines": [
+    "229 Taibaibei Lu, Université Nord ouest, District Beilin Xi'An"
+   ],
+   "phone": "02988302774",
+   "emails": [
+    "accueil.xian@afchine.org"
+   ],
+   "url": "http://afchine.org/",
+   "so": false
+  },
+  {
+   "name": "Alliance française de Zhengzhou",
+   "city": "Zhengzhou",
+   "cp": "",
+   "city_cp": "",
+   "address": "Université Aéronautique de Zhengzhou (campus Longzihu), 450046 Zhengzhou",
+   "address_lines": [
+    "Université Aéronautique de Zhengzhou (campus Longzihu)",
+    "450046 Zhengzhou"
+   ],
+   "phone": "037161912025",
+   "emails": [
+    "info.zhengzhou@afchine.org"
+   ],
+   "url": "http://afchine.org/",
+   "so": false
+  }
+ ]
+}
