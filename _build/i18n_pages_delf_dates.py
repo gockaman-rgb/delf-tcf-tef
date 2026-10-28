@@ -62,7 +62,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-south-korea", crumb="South 
     title="DELF exam dates 2027 in South Korea: sessions and fees",
     desc="DELF and DALF in South Korea: 2027 dates not yet published; the 2026 sessions, fees in won (B2 290,000), the six centres and how to register online.",
     h1="DELF exam dates 2027 in South Korea: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in South Korea</strong> (<span lang="ko">델프 시험 일정 2027</span>) had not
+    intro=f"""The <strong>DELF exam dates 2027 in South Korea</strong> had not
 been published on 26 October 2026. The last 2026 session is under way: <strong>B1 and B2 on 7–8 November, A1, A2 and the
 DALF on 21–22 November</strong> (registration closed on 14 October). You register online with Korea’s national DELF-DALF
 centre, <a href="{KR}" rel="noopener">delf-dalf.co.kr</a>, run by the French Embassy’s language centre in Seoul. In 2026 it
@@ -136,7 +136,7 @@ for teenagers. Primary-school children sit the DELF Prim (A1.1, A1, A2).</p>
 section of delf-dalf.co.kr; the diploma itself, printed in France, comes months later — on 16 October 2026 the centre
 announced the collection of the diplomas from the May 2026 session.</p>
 """ + prepare("Korea"),
-    faq=[("When are the DELF exam dates 2027 in South Korea (<span lang=\"ko\">델프 시험 일정 2027</span>)?", "Not yet published on 26 October 2026. In 2026, the national DELF-DALF centre held four adult sessions — March, May, September and November — with B1 and B2 on one weekend and A1, A2 and the DALF two weeks later; the 2027 calendar will appear on delf-dalf.co.kr."),
+    faq=[("When are the DELF exam dates 2027 in South Korea?", "Not yet published on 26 October 2026. In 2026, the national DELF-DALF centre held four adult sessions — March, May, September and November — with B1 and B2 on one weekend and A1, A2 and the DALF two weeks later; the 2027 calendar will appear on delf-dalf.co.kr."),
          ("When is the next DELF exam in Korea?", "B1 and B2 on 7–8 November 2026, A1, A2, DALF C1 and C2 on 21–22 November 2026. Registration for that session closed on 14 October 2026."),
          ("How much does the DELF cost in Korea?", "In 2026: A1 150,000 won, A2 190,000, B1 260,000, B2 290,000, DALF C1 330,000 and C2 350,000 won for adults; the DELF junior costs the same, and the DELF Prim 90,000 to 171,000 won."),
          ("Can adults take the DELF in Korea?", "Yes: the DELF-DALF tout public is for adults, with no upper age limit. Candidates of secondary-school age are counted as juniors and sit the DELF junior, which leads to the same diploma."),
@@ -157,7 +157,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-japan", crumb="Japan",
     title="DELF exam dates 2027 in Japan: sessions, fees, centres",
     desc="DELF and DALF in Japan: 2027 dates not yet published; the 2026 spring and autumn sessions, fees in yen (B2 ¥24,500), the ten centres, how to register.",
     h1="DELF exam dates 2027 in Japan: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in Japan</strong> (<span lang="ja">delf 日程 2027</span>) were not yet
+    intro=f"""The <strong>DELF exam dates 2027 in Japan</strong> were not yet
 published on 26 October 2026. The last 2026 adult session is on <strong>Saturday 7 and Sunday 8 November</strong>
 (registration closed on 3 October). You register with one of Japan’s ten Instituts français and Alliances françaises, at
 the desk or in their online shop, during the fixed windows listed by the national centre on
@@ -229,11 +229,11 @@ on your notice to attend, without hyphens, and your date of birth. Nothing is gi
 paper. A candidate who failed may ask in writing, within seven days of the results, to see their paper — without
 re-marking. If you need proof before the diploma arrives, a certificate can be sent to you.</p>
 """ + prepare("Japan"),
-    faq=[("When are the DELF exam dates 2027 in Japan (<span lang=\"ja\">delf 日程 2027</span>)?", "Not yet published on 26 October 2026. In 2026, the adult sessions were on 21 March (A1 to B2), 13–14 June and 7–8 November; the 2027 calendar will appear on delfdalf.jp."),
+    faq=[("When are the DELF exam dates 2027 in Japan?", "Not yet published on 26 October 2026. In 2026, the adult sessions were on 21 March (A1 to B2), 13–14 June and 7–8 November; the 2027 calendar will appear on delfdalf.jp."),
          ("When is the next DELF exam in Japan?", "Saturday 7 November 2026 (A1, B1, C1) and Sunday 8 November 2026 (A2, B2, C2); registration closed on 3 October 2026."),
          ("How much is the DELF B2 in Japan?", "¥24,500 (delfdalf.jp, 26 October 2026). The other levels: A1 ¥12,500, A2 ¥15,500, B1 ¥20,500, DALF C1 ¥29,500 and C2 ¥31,500, with a reduction for students of the Instituts français and Alliances françaises."),
          ("Can adults take the DELF in Japan?", "Yes: the DELF and DALF tout public are for adults and older teenagers, with no upper age limit; the DELF junior (12 to 18) and the DELF Prim are for younger candidates."),
-         ("And the TCF in Japan (<span lang=\"ja\">tcf 日程 2027</span>)?", "TCF dates are set by each centre. The national centre lists the TCF Canada at the Instituts français in Kyoto and Osaka and at the Alliance française in Nagoya, at ¥42,000, and the TCF tout public at ¥20,000 on paper or ¥23,000 on computer (26 October 2026)."),
+         ("And the TCF in Japan?", "TCF dates are set by each centre. The national centre lists the TCF Canada at the Instituts français in Kyoto and Osaka and at the Alliance française in Nagoya, at ¥42,000, and the TCF tout public at ¥20,000 on paper or ¥23,000 on computer (26 October 2026)."),
          ("How do I book the DELF in Japan?", "At your centre’s reception desk or in the Instituts français’ online shops, during the fixed registration window of each session — for autumn 2026, 28 August to 3 October. Centres close registration when they are full.")],
     also=also(),
     sources="""<strong>Sources.</strong> Centre national DELF/DALF Japon (delfdalf.jp): session calendar, registration and
@@ -250,8 +250,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-taiwan", crumb="Taiwan",
     title="DELF exam dates 2027 in Taiwan: sessions and fees",
     desc="DELF and DALF in Taiwan, 2027: 10 January in Taipei, May, June (C2), July in Taichung, November — registration windows and fees in NTD.",
     h1="DELF exam dates 2027 in Taiwan: the published sessions, registration and fees",
-    intro=f"""<strong>Taiwan has published its DELF exam dates for 2027</strong> (<span lang="zh-TW">delf 考試 時間
-2027</span>): <strong>B1 and B2 on 10 January</strong> in Taipei (registration 3–17 November 2026), then A1 to DALF C1 in
+    intro=f"""<strong>Taiwan has published its DELF exam dates for 2027</strong>: <strong>B1 and B2 on 10 January</strong> in Taipei (registration 3–17 November 2026), then A1 to DALF C1 in
 May, the DALF C2 on 27 June, a Taichung session on 3–4 July and a November session. You book with the Alliance française
 de Taiwan — at its Taipei or Kaohsiung centre, or online: <a href="{TW}" rel="noopener">alliancefrancaise.org.tw</a>.""",
     facts=["<strong>Next registration</strong>: 3–17 November 2026, for B1 and B2 on Sunday 10 January 2027 in Taipei (70 places for B1, 50 for B2).",
@@ -314,7 +313,7 @@ can take the DELF junior instead: same structure, same value, topics chosen for 
 2027. In June, the Alliance also runs private sessions for Fu Jen Catholic University and National Central University,
 reserved for their students, who register through their French department.</p>
 """ + prepare("Taiwan"),
-    faq=[("What are the DELF exam dates 2027 in Taiwan (<span lang=\"zh-TW\">delf 考試 時間 2027</span>)?", "B1 and B2 on 10 January 2027 in Taipei; A1, A2 and C1 on 7 May and B1, B2 on 14 May in Taipei and Kaohsiung; the DALF C2 on 27 June; A1 to B2 on 3–4 July in Taichung; and A1, A2, C1 on 12 November, B1, B2 on 19 November 2027. The DELF junior is on 18 and 25 July 2027."),
+    faq=[("What are the DELF exam dates 2027 in Taiwan?", "B1 and B2 on 10 January 2027 in Taipei; A1, A2 and C1 on 7 May and B1, B2 on 14 May in Taipei and Kaohsiung; the DALF C2 on 27 June; A1 to B2 on 3–4 July in Taichung; and A1, A2, C1 on 12 November, B1, B2 on 19 November 2027. The DELF junior is on 18 and 25 July 2027."),
          ("When can I register for the next DELF in Taiwan?", "From 3 to 17 November 2026, for the B1 and B2 on 10 January 2027 in Taipei (70 places for B1, 50 for B2). The May 2027 session opens from 23 February to 9 March 2027."),
          ("How much does the DELF B2 cost in Taiwan?", "NTD 5,000 for the 2027 sessions (NTD 4,800 in November 2026). In 2027: A1 NTD 3,500, A2 4,000, B1 4,600, DALF C1 6,200 and C2 6,700."),
          ("Can adults take the DELF in Taiwan?", "Yes: registration for the DELF-DALF tout public is open to candidates of all ages. Secondary-school students may take the DELF junior instead, which leads to the same diploma."),
@@ -334,7 +333,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-hong-kong", crumb="Hong Kon
     title="DELF exam dates 2027 in Hong Kong: sessions and fees",
     desc="DELF and DALF in Hong Kong: 2027 dates not yet published; the 2026 sessions, the DELF Junior in December 2026, fees in HK$ (B2 HK$2,300), HKDSE.",
     h1="DELF exam dates 2027 in Hong Kong: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in Hong Kong</strong> (<span lang="zh-HK">delf 考試 時間 2027</span>) were not
+    intro=f"""The <strong>DELF exam dates 2027 in Hong Kong</strong> were not
 yet published on 26 October 2026. The Alliance Française de Hong Kong — the only accredited DELF-DALF centre in Hong Kong
 — held adult sessions in March, April and November 2026; the next exam is the <strong>DELF Junior on 1–8 December
 2026</strong>, with registration open until 30 October. You book online on <a href="{HK}" rel="noopener">afhongkong.org</a>
@@ -389,7 +388,7 @@ international’s list, 26 October 2026).</p>
 Results are sent by e-mail about ten weeks after the exam. The diploma, issued by the French Ministry of Education, takes
 about four more months; you collect it at the Jordan centre, or have it sent by courier at your own cost.</p>
 """ + prepare("Hong Kong"),
-    faq=[("When are the DELF exam dates 2027 in Hong Kong (<span lang=\"zh-HK\">delf 考試 時間 2027</span>)?", "Not yet published on 26 October 2026. In 2026, the Alliance Française de Hong Kong held adult sessions in March (A1 to B1), April (B2 to C2) and November (all levels); watch afhongkong.org for the 2027 calendar."),
+    faq=[("When are the DELF exam dates 2027 in Hong Kong?", "Not yet published on 26 October 2026. In 2026, the Alliance Française de Hong Kong held adult sessions in March (A1 to B1), April (B2 to C2) and November (all levels); watch afhongkong.org for the 2027 calendar."),
          ("Is there still a DELF session in Hong Kong in 2026?", "Yes, for secondary-school students: the DELF Junior on 1–8 December 2026, with registration until 30 October 2026. The November 2026 adult session closed its registration on 3 October."),
          ("How much is the DELF B2 in Hong Kong?", "HK$2,300 for adults, HK$1,800 for the DELF Junior B2 (afhongkong.org, 26 October 2026)."),
          ("Can adults take the DELF in Hong Kong?", "Yes: the DELF-DALF tout public is designed for adults, with no age limit for the general public. Secondary-school students take the DELF Junior, primary pupils the DELF Prim."),
@@ -409,7 +408,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-turkey", crumb="Turkey",
     title="DELF exam dates 2027 in Turkey: sessions and fees",
     desc="DELF and DALF in Turkey: 2027 dates not yet published; the five 2026 adult sessions, fees in lira (B2 5,850 TL), centres in Istanbul, Ankara, Izmir.",
     h1="DELF exam dates 2027 in Turkey: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in Turkey</strong> (<span lang="tr">delf sınav tarihleri 2027</span>) had not
+    intro=f"""The <strong>DELF exam dates 2027 in Turkey</strong> had not
 been published on 26 October 2026. In 2026 the Institut français de Turquie held five adult sessions — February, March,
 June, October and November; the last, <strong>B2 on 16 November and C1 on 17 November</strong>, closed its registration
 on 9 October. The written papers fall on the same day nationwide, and you register with the Institut français in
@@ -471,7 +470,7 @@ companies, and the DELF B2 exempts you from the language test at universities in
 online as a PDF). The pass certificate is e-mailed 15 days after the results; the diploma is collected in person, with ID,
 from the exam office.</p>
 """ + prepare("Turkey"),
-    faq=[("When are the DELF exam dates 2027 in Turkey (<span lang=\"tr\">delf sınav tarihleri 2027</span>)?", "Not yet published on 26 October 2026. In 2026, the Institut français de Turquie held adult sessions in February (B2, C1), March, June, October (all levels) and November (B2, C1); the 2027 calendar will appear on ifturquie.org."),
+    faq=[("When are the DELF exam dates 2027 in Turkey?", "Not yet published on 26 October 2026. In 2026, the Institut français de Turquie held adult sessions in February (B2, C1), March, June, October (all levels) and November (B2, C1); the 2027 calendar will appear on ifturquie.org."),
          ("When is the next DELF exam in Turkey?", "The DELF B2 on 16 November 2026 and the DALF C1 on 17 November 2026; registration closed on 9 October 2026. No later 2026 adult session was published."),
          ("How much does the DELF B2 cost in Turkey?", "5,850 TL at the full 2026 rate, 4,050 TL at the reduced rate for students and Institut français learners. A1 and A2 cost 4,550 TL, C1 and C2 10,050 TL."),
          ("Can adults take the DELF in Turkey?", "Yes: the DELF-DALF tout public is the adult version. Teenagers can take the DELF junior and children the DELF Prim, which have the same value."),
@@ -491,7 +490,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-vietnam", crumb="Vietnam",
     title="DELF exam dates 2027 in Vietnam: sessions and fees",
     desc="DELF and DALF in Vietnam: 2027 not yet published; November 2026 session open until 30 October, fees in VND (B2 2,900,000), centres from Hanoi to Can Tho.",
     h1="DELF exam dates 2027 in Vietnam: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in Vietnam</strong> (<span lang="vi">lịch thi delf 2027</span>) were not yet
+    intro=f"""The <strong>DELF exam dates 2027 in Vietnam</strong> were not yet
 published on 26 October 2026 — but the <strong>November 2026 session is open</strong>: register from 19 to 30 October
 for written papers on 14–15 and 21–22 November (B2 on 22 November). You register at an approved centre — the Institut
 français in Hanoi, Hue or Da Nang, a university or a language centre — with the form, a copy of your ID or passport and
@@ -549,8 +548,8 @@ step-by-step registration guide on ifv.vn. Registering after the deadline costs 
 September at most centres) and children the DELF Prim (May and November): the diplomas are the same and valid for life.
 Results are published on ifv.vn.</p>
 """ + prepare("Vietnam"),
-    faq=[("When are the DELF exam dates 2027 in Vietnam (<span lang=\"vi\">lịch thi delf 2027</span>)?", "Not yet published on 26 October 2026. In 2026 the Institut français du Vietnam held five adult sessions — March, May, July, September and November — each over two weekends; the 2027 calendar will appear on ifv.vn."),
-         ("When is the next DELF B2 exam in Vietnam (<span lang=\"vi\">lịch thi delf b2</span>)?", "Sunday 22 November 2026, with registration from 19 to 30 October 2026. A1 and C1 are on 14 November, B1 on 15 November, A2 and C2 on 21 November."),
+    faq=[("When are the DELF exam dates 2027 in Vietnam?", "Not yet published on 26 October 2026. In 2026 the Institut français du Vietnam held five adult sessions — March, May, July, September and November — each over two weekends; the 2027 calendar will appear on ifv.vn."),
+         ("When is the next DELF B2 exam in Vietnam?", "Sunday 22 November 2026, with registration from 19 to 30 October 2026. A1 and C1 are on 14 November, B1 on 15 November, A2 and C2 on 21 November."),
          ("How much does the DELF cost in Vietnam?", "In 2026: A1 1,500,000 VND, A2 1,700,000, B1 2,100,000, B2 2,900,000, DALF C1 3,100,000 and C2 3,300,000 VND, plus 300,000 VND for a late registration."),
          ("Can adults take the DELF in Vietnam?", "Yes: the DELF-DALF tout public is the adult version; the DELF junior is for 12- to 18-year-olds and the DELF Prim for children."),
          ("How do I book the DELF in Vietnam?", "At an approved centre or registration point, with the form, a copy of your ID card or passport and the fee, during the registration window — for November 2026, 19 to 30 October.")],
@@ -715,7 +714,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-china", crumb="China",
     title="DELF exam dates 2027 in China: sessions and fees",
     desc="DELF and DALF in mainland China: 2027 not yet published; the March, June and November 2026 sessions, online registration and fees in yuan (B2 2,000).",
     h1="DELF exam dates 2027 in China: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in China</strong> (<span lang="zh-Hans">DELF 考试时间 2027</span>) were not yet
+    intro=f"""The <strong>DELF exam dates 2027 in China</strong> were not yet
 published on 26 October 2026. The last 2026 session starts on <strong>7 November</strong>: DALF C1 and C2 on 7–8 November,
 B2 on 14–15 November, A1, A2 and B1 on 21–22 November (registration closed on 22 September). Mainland China has one
 national calendar, usually March, June and November, and you register online only, on
@@ -794,7 +793,7 @@ Within a month of the results you can collect your score sheet or provisional ce
 Alliance française, and ask to see your paper (only simple addition errors are corrected); the diploma arrives two to
 three months after the exam.</p>
 """ + prepare("China"),
-    faq=[("When are the DELF exam dates 2027 in China (<span lang=\"zh-Hans\">DELF 考试时间 2027</span>)?", "Not yet published on 26 October 2026. Mainland China holds three adult sessions a year, usually in March, June and November; in 2026, registration for the March session ran from 6 to 19 January. The 2027 dates will be announced on delf-dalf.neea.edu.cn."),
+    faq=[("When are the DELF exam dates 2027 in China?", "Not yet published on 26 October 2026. Mainland China holds three adult sessions a year, usually in March, June and November; in 2026, registration for the March session ran from 6 to 19 January. The 2027 dates will be announced on delf-dalf.neea.edu.cn."),
          ("When is the next DELF exam in China?", "DALF C1 and C2 on 7–8 November 2026, DELF B2 on 14–15 November and DELF A1, A2 and B1 on 21–22 November 2026. Registration for that session closed on 22 September 2026."),
          ("How much does the DELF cost in China?", "The fees are national: 1,500 yuan for the DELF A1 and A2 (and the DELF Prim), 2,000 yuan for the B1 and B2, 2,500 yuan for the DALF C1 and C2, paid online when you register."),
          ("Can I register for two DELF levels at once in China?", "No. NEEA allows one level at a time, and once registered you cannot change the level, date or centre, cancel, or be refunded if you do not sit."),
@@ -975,9 +974,9 @@ reference.""",
 MG = "https://www.afantananarivo.mg/cours-de-francais/catalogue-cours-examens/"
 PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-madagascar", crumb="Madagascar",
     title="DELF exam dates 2027 in Madagascar: sessions and centres",
-    desc="Calendrier DELF 2027 Madagascar: adult dates not yet online; DELF Prim in April 2027, the 2026 DELF junior, and the 24 Alliances françaises that hold it.",
+    desc="DELF exam dates 2027 in Madagascar: adult dates not yet online; DELF Prim in April 2027, the 2026 DELF junior and the 24 Alliances françaises that hold it.",
     h1="DELF exam dates 2027 in Madagascar: sessions and exam centres",
-    intro=f"""The <strong>DELF exam dates 2027 in Madagascar</strong> — <span lang="fr">calendrier DELF 2027 Madagascar</span> —
+    intro=f"""The <strong>DELF exam dates 2027 in Madagascar</strong>
 were not published online on 26 October 2026 for the adult DELF and DALF. The Alliance française d’Antananarivo announces
 its next <strong>DELF Prim session for April 2027</strong>; its 2026 DELF junior was held on 5–8 October. For the
 <em lang="fr">tout public</em> sessions, ask the Alliance française where you want to sit the exam — 24 of them are
@@ -1033,7 +1032,7 @@ française où vous voulez passer l’examen. Le calendrier de la France, qui ne
 l’épreuve : <a href="/delf-b2/" hreflang="fr">DELF B2</a> ; les centres : <a href="/trouver-un-centre/" hreflang="fr">trouver
 un centre d’examen</a>.</p>
 """ + prepare("Madagascar"),
-    faq=[("What is the <span lang=\"fr\">calendrier DELF 2027 Madagascar</span> — the DELF exam dates for 2027?", "Not published online on 26 October 2026 for the adult DELF and DALF. The Alliance française d’Antananarivo announces its next DELF Prim session for April 2027; for the tout public dates, ask the Alliance française where you want to sit the exam."),
+    faq=[("What are the DELF exam dates 2027 in Madagascar?", "Not published online on 26 October 2026 for the adult DELF and DALF. The Alliance française d’Antananarivo announces its next DELF Prim session for April 2027; for the tout public dates, ask the Alliance française where you want to sit the exam."),
          ("When is the DELF junior in Madagascar?", "In 2026, the Alliance française d’Antananarivo held it on 5–8 October, with registration from 6 July to 12 September 2026. The 2027 session had not been announced on 26 October 2026."),
          ("How much does the DELF cost in Madagascar?", "The exam fees for the adult DELF and DALF were not published online on 26 October 2026. The Alliance française d’Antananarivo’s 20-hour preparation courses cost 95,000 Ar for the B1, 99,000 Ar for the B2 and C1, and 250,000 Ar for the C2."),
          ("Where can I take the DELF in Madagascar?", "At one of 24 approved Alliances françaises, including Antananarivo, Antsirabe, Antsiranana, Fianarantsoa, Majunga, Tamatave, Tuléar, Nosy Be and Fort-Dauphin (France Éducation international’s list, 26 October 2026)."),
@@ -1053,7 +1052,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-thailand", crumb="Thailand"
     title="DELF exam dates 2027 in Thailand: sessions and fees",
     desc="DELF and DALF in Thailand: 2027 not yet published; the 2026 Bangkok sessions (March, June, November), fees in baht (B2 3,600 THB), juniors and schools.",
     h1="DELF exam dates 2027 in Thailand: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in Thailand</strong> (<span lang="th">ตารางสอบ DELF 2027</span>) were not yet
+    intro=f"""The <strong>DELF exam dates 2027 in Thailand</strong> were not yet
 published on 26 October 2026. The Alliance Française de Bangkok, the only approved centre, held three sessions in 2026:
 adults on <strong>Sunday 8 March, Sunday 7 June and Sunday 1 November</strong>, juniors and children the day before. The
 November session closed its registration on 27 September. Calendar, fees and results:
@@ -1098,7 +1097,7 @@ March and June 2026 are online as PDFs: <a href="{TH}" rel="noopener">afthailand
 and the DELF Prim for primary-school children aged 8 to 12; the DELF scolaire, in January, is reserved for Thai schools.
 All lead to the same diplomas, valid for life.</p>
 """ + prepare("Thailand"),
-    faq=[("When are the DELF exam dates 2027 in Thailand (<span lang=\"th\">ตารางสอบ DELF 2027</span>)?", "Not yet published on 26 October 2026. In 2026 the Alliance Française de Bangkok held adult exams on Sunday 8 March, Sunday 7 June and Sunday 1 November, with juniors and children on the Saturday before; the 2027 calendar will appear on afthailande.org."),
+    faq=[("When are the DELF exam dates 2027 in Thailand?", "Not yet published on 26 October 2026. In 2026 the Alliance Française de Bangkok held adult exams on Sunday 8 March, Sunday 7 June and Sunday 1 November, with juniors and children on the Saturday before; the 2027 calendar will appear on afthailande.org."),
          ("When is the next DELF exam in Thailand?", "Sunday 1 November 2026 for adults, Saturday 31 October 2026 for the DELF junior, at the Alliance Française de Bangkok. Registration closed on 27 September 2026."),
          ("How much is the DELF B2 in Thailand?", "3,600 THB at the Alliance Française de Bangkok, with 20% off for its students. A1 costs 2,600 THB, A2 2,800, B1 3,400, DALF C1 4,900 and C2 5,200 THB."),
          ("Can adults take the DELF in Thailand?", "Yes: the DELF-DALF tout public, from A1 to C2, is for adults. Teenagers can take the DELF junior and children the DELF Prim; the DELF scolaire is for Thai schools only."),
@@ -1118,7 +1117,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-egypt", crumb="Egypt",
     title="DELF exam dates 2027 in Egypt: sessions and fees",
     desc="DELF and DALF in Egypt: 2027 not yet published; the November 2026 session (C1 on 7 Nov to B1 on 28 Nov), fees in Egyptian pounds (B2 5,265 EGP).",
     h1="DELF exam dates 2027 in Egypt: sessions, registration and fees",
-    intro=f"""The <strong>DELF exam dates 2027 in Egypt</strong> (<bdi lang="ar" dir="rtl">مواعيد امتحان DELF 2027</bdi>) were not
+    intro=f"""The <strong>DELF exam dates 2027 in Egypt</strong> were not
 yet published on 26 October 2026. The autumn 2026 session of the Institut français d’Égypte starts on
 <strong>7 November</strong>: DALF C1 on 7 November, C2 on the 12th, A2 on the 14th, A1 on the 19th, B2 on the 21st and B1
 on the 28th (registration closed on 1 October). In 2026 the IFE held two adult sessions, June–July and November; you
@@ -1177,7 +1176,7 @@ France platform, and the DALF C1 opens French-speaking university programmes.</p
 birth certificate; individual candidates add a recent photo and a school certificate. The IFE’s page announced a DELF
 Prim session in September 2026.</p>
 """ + prepare("Egypt"),
-    faq=[("When are the DELF exam dates 2027 in Egypt (<bdi lang=\"ar\" dir=\"rtl\">مواعيد امتحان DELF 2027</bdi>)?", "Not yet published on 26 October 2026. In 2026 the Institut français d’Égypte held two adult sessions: 20 June to 11 July (registration 3–14 May) and 7 to 28 November (registration 20 September – 1 October)."),
+    faq=[("When are the DELF exam dates 2027 in Egypt?", "Not yet published on 26 October 2026. In 2026 the Institut français d’Égypte held two adult sessions: 20 June to 11 July (registration 3–14 May) and 7 to 28 November (registration 20 September – 1 October)."),
          ("When is the next DELF exam in Egypt?", "The autumn 2026 session: DALF C1 on 7 November, C2 on 12 November, DELF A2 on 14 November, A1 on 19 November, B2 on 21 November and B1 on 28 November 2026. Registration closed on 1 October 2026."),
          ("How much does the DELF B2 cost in Egypt?", "5,265 EGP at the full rate and 3,705 EGP at the reduced rate (2026). A1 costs 2,405 EGP, A2 3,055, B1 3,900, DALF C1 7,280 and C2 7,605 EGP."),
          ("Can adults take the DELF in Egypt?", "Yes: the DELF tout public and the DALF are for adults and students; pupils have their own DELF Junior and DELF Prim sessions."),

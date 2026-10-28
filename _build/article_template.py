@@ -115,12 +115,22 @@ def plain(t):
     return re.sub(r"\s+", " ", t).strip()
 
 
+def noindex_paths():
+    """Pages fermées à Google (28/10/2026) : _build/noindex.txt, un chemin publié par ligne (« /en/delf-italy/ »)."""
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noindex.txt")
+    if not os.path.exists(f):
+        return set()
+    with open(f, encoding="utf-8") as fh:
+        return {l.strip() for l in fh if l.strip() and not l.startswith("#")}
+
+
 def render(a, overwrite=False):
     slug, title, desc = a["slug"], a["title"], a["desc"]
     L = UI[a.get("lang", "fr")]
     # section="blog" (défaut) → /blog/<slug>/ ; section="" → page pilier à la racine, /<slug>/
     section = a.get("section", "blog")
     url = f"{BASE}/{section}/{slug}/" if section else f"{BASE}/{slug}/"
+    robots = '<meta name="robots" content="noindex">\n' if url[len(BASE):] in noindex_paths() else ""
     if a.get("lang", "fr") == "fr" and "alternates" not in a:
         # Page française traduite en /es/ ou /en/ (08/10/2026) : hreflang et lien de langue tirés du registre.
         from i18n_registry import alternates_for   # import tardif : le registre importe les configs traduites
@@ -180,7 +190,7 @@ def render(a, overwrite=False):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{title}</title>
+{robots}<title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{url}">
 {alts}<link rel="stylesheet" href="/style.css">
