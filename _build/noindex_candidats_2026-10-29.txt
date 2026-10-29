@@ -1,0 +1,52 @@
+# Pages « lieu » sans audience dans les 28 jours avant la chute (28/09 → 25/10, Search Console) — PROPOSITION du 29/10,
+# NON appliquée. Pour fermer ces pages à Google : copier les lignes voulues dans noindex.txt, puis
+# python3 _build/noindex.py && python3 _build/sitemap_sync.py, un commit. Réversible ligne par ligne.
+# Hors liste, volontairement : pages de structure, sous-pages des piliers, articles du blog.
+#
+# 14 pages à 0 impression en 28 jours
+/centres/delf-colombie/
+/centres/delf-equateur/
+/centres/delf-mexique/
+/centres/delf-royaume-uni/
+/centres/tcf-afrique/
+/centres/tcf-ameriques/
+/centres/tcf-argentine/
+/centres/tcf-moyen-orient/
+/en/tcf-canada-ahmedabad/
+/en/tcf-canada-bangalore/
+/en/tcf-canada-bhopal/
+/en/tcf-canada-kolkata/
+/en/tcf-canada-new-delhi/
+/es/delf-colombia/
+# 31 pages à 0 ou 1 clic et moins de 60 impressions en 28 jours (clics;impressions)
+/ar/tcf-canada-lebanon/
+/centres/delf-argentine/
+/centres/delf-bordeaux/
+/centres/delf-chili/
+/centres/delf-etats-unis/
+/centres/delf-perou/
+/centres/examen-civique-france/
+/centres/tcf-bordeaux/
+/centres/tcf-chili/
+/centres/tcf-colombie/
+/centres/tcf-equateur/
+/centres/tcf-etats-unis/
+/centres/tcf-europe/
+/centres/tcf-inde/
+/centres/tcf-marseille/
+/centres/tcf-mexique/
+/centres/tcf-nantes/
+/centres/tcf-ottawa/
+/centres/tcf-royaume-uni/
+/centres/tcf-toulouse/
+/centres/tcf-vancouver/
+/en/tcf-canada-chicago/
+/en/tcf-canada-edmonton/
+/en/tcf-canada-san-diego/
+/es/delf-bilbao/
+/es/delf-girona/
+/es/delf-las-palmas/
+/es/delf-mexico/
+/es/delf-palma/
+/es/tcf-canada-chile/
+/es/tcf-canada-ecuador/
