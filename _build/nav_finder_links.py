@@ -54,6 +54,11 @@ RULES = [
      '<li><a href="/es/acerca-de/">Acerca de este sitio</a></li>', "before"),
     ('<li><a href="/confidentialite/">الخصوصية</a></li>',
      '<li><a href="/ar/about/">عن الموقع</a></li>', "before"),
+    # Espace presse (29/10/2026)
+    ('<li><a href="/a-propos/">À propos · Mentions légales</a></li>',
+     '<li><a href="/presse/">Espace presse</a></li>', "after"),
+    ('<li><a href="/en/about/">About this site</a></li>',
+     '<li><a href="/en/press/">Press</a></li>', "after"),
 ]
 
 
