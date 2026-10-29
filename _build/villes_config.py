@@ -257,25 +257,28 @@ résultats sous douze heures. Les centres avec leurs contacts, le relevé, et l'
             ("Où passer l'examen civique à Nantes ?", "Chez Espaces Formation, agréé pour l'examen civique : 70 €, inscription en ligne, résultats dans votre espace candidat « généralement sous 12 heures »."),
             ("Combien coûte le TCF à Nantes ?", "Espaces Formation ne publie pas le tarif de ses TCF sur la page consultée ; en France, un TCF IRN va de 140 à 220 € et un TCF Canada de 195 à 285 €.")]),
     mk("tcf-rennes", "Rennes", "fr", ["Rennes"],
-       title="TCF à Rennes : centres agréés, prix CLPS et inscription",
-       desc="Les 2 centres TCF agréés à Rennes avec contacts — CLPS, Langue et Communication —, les tarifs du CLPS (IRN 180 €, Canada 285 €), Brest, Saint-Brieuc, Vannes.",
-
-       h1="Passer le TCF à Rennes : centres agréés, prix et inscription",
-       intro="""À Rennes, le TCF se passe dans <strong>%(n)d centres agréés</strong> par France Éducation international :
-le <strong>CLPS L'Enjeu Compétences</strong>, qui publie une grille complète — TCF IRN <strong>180 €</strong>,
-TCF Canada <strong>285 €</strong>, tout public 110 € plus 52 € par expression — et organise aussi l'IRN à
-Brest, Saint-Brieuc et Vannes et le TCF Canada à Brest, et Langue et Communication. Les centres avec leurs
-contacts, le relevé, et l'inscription.""",
-       facts=["<strong>2 centres agréés</strong> à Rennes : CLPS L'Enjeu Compétences (ordinateur) et Langue et Communication.",
-              "<strong>CLPS : TCF IRN 180 €, TCF Canada 285 €, TCF tout public 110 € + 52 € par expression, TCF Québec à partir de 71 € l'épreuve.</strong>",
-              "Le CLPS fait passer le TCF IRN à Rennes, Brest, Saint-Brieuc et Vannes, et le TCF Canada à Rennes et Brest.",
-              "Inscription par fiche en ligne, sur clps.net.",
+       title="TCF à Rennes : CLPS, prix et dates (IRN 180 €, Canada 285 €)",
+       desc="Où passer le TCF à Rennes : CLPS (IRN 180 €, Canada 285 €, tout public 110 €, sessions du 19 nov. au 21 déc. 2026 ; Brest, Saint-Brieuc, Vannes), résultats.",
+       h1="Passer le TCF à Rennes : centres agréés, prix et dates",
+       intro="""À Rennes, le TCF se passe dans <strong>%(n)d centres agréés</strong> par France Éducation international. Le
+<strong>CLPS L'Enjeu Compétences</strong> (5 rue Léon-Berthault) publie une grille complète — TCF IRN <strong>180 €</strong>,
+TCF Canada <strong>285 €</strong>, tout public 110 € plus 52 € par expression — et son calendrier du second semestre 2026 :
+IRN les 19 novembre, 26 novembre (papier), 3 et 17 décembre, Canada et tout public les 24 novembre et 21 décembre ; il
+organise aussi l'IRN à Brest, Saint-Brieuc et Vannes. Le second centre de la liste FEI, Langue et Communication, renvoie
+vers un site de Compiègne : à vérifier par téléphone. Les centres, le relevé du 29 octobre 2026, et l'inscription.""",
+       facts=["<strong>2 centres agréés</strong> à Rennes selon FEI : CLPS L'Enjeu Compétences (ordinateur et papier) et Langue et Communication — dont le site indiqué (languesetformations.fr) est celui d'un centre de Compiègne : vérifiez avant de vous déplacer.",
+              "<strong>CLPS : TCF IRN 180 €, TCF Canada 285 €, tout public 110 € + 52 € par expression, TCF Québec 71 € (CO, CE) ou 74 € (EO, EE) l'épreuve</strong> — inchangés depuis le 23 juin 2026.",
+              "CLPS, Rennes, 2<sup>e</sup> semestre 2026 : IRN les jeudis <strong>19 novembre</strong> (ordinateur, limite 12 novembre), 26 novembre (papier), 3 décembre (ordinateur) et 17 décembre (papier, limite 19 novembre) ; <strong>Canada et tout public</strong> les 24 novembre (limite 17 novembre) et 21 décembre (limite 14 décembre) ; Québec à la demande ; calendrier 2027 non publié.",
+              "Ailleurs en Bretagne (CLPS) : IRN à Brest (4, 13, 18 novembre, 2, 10, 16 décembre), Saint-Brieuc (6, 20 novembre, 4, 11, 18 décembre), Vannes (17 novembre, 1<sup>er</sup>, 15 décembre) ; Canada à Brest sur demande.",
+              "Résultats : 10 jours ouvrés après la clôture d'une session sur ordinateur (QCM), 15 jours ouvrés après réception des copies pour le papier ; original de la pièce d'identité exigé, photo prise le jour J.",
               "285 € : le TCF Canada le plus cher relevé en France — pour un test identique à celui d'ACTE à 195 €."],
-       releve=[("CLPS L'Enjeu Compétences", "IRN (Rennes, Brest, Saint-Brieuc, Vannes), Canada (Rennes, Brest), Québec, tout public", "IRN <strong>180 €</strong> · Canada <strong>285 €</strong> · TP 110 € + 52 € + 52 € · Québec CO 71 €", "Fiches d'inscription en ligne ; sur ordinateur."),
-               ("Langue et Communication", NR, NR, "Page « centre d'examen du TCF » du site.")],
-       faq=[("Où passer le TCF Canada à Rennes ?", "Au CLPS L'Enjeu Compétences (285 €, inscription par fiche en ligne, aussi à Brest) ou chez Langue et Communication, tous deux agréés par France Éducation international."),
-            ("Combien coûte le TCF à Rennes ?", "Au CLPS (17 septembre 2026) : 180 € le TCF IRN, 285 € le TCF Canada, 110 € les épreuves obligatoires du tout public plus 52 € par expression. Langue et Communication ne publie pas de tarif lisible."),
-            ("Peut-on passer le TCF ailleurs en Bretagne ?", "Oui : le CLPS organise le TCF IRN à Brest, Saint-Brieuc et Vannes, et le TCF Canada à Brest ; l'Alliance française Saint-Malo Bretagne est aussi agréée.")]),
+       releve=[("CLPS L'Enjeu Compétences (Rennes)", "IRN (ordinateur et papier), tout public, Canada, Québec (sur ordinateur)", "IRN <strong>180 €</strong> · Canada <strong>285 €</strong> · TP 110 € + 52 € + 52 € · Québec 71-74 € l'épreuve", "IRN 19 nov. (ordi., limite 12 nov.), 26 nov. (papier), 3 déc. (ordi.), 17 déc. 2026 (papier) ; Canada et TP 24 nov., 21 déc. 2026 ; Québec à la demande ; fiches d'inscription en ligne ; 2027 non publié."),
+               ("Langue et Communication", NR, "Sur le site indiqué par FEI (Compiègne) : IRN ordinateur 200 €, papier 170 €, Canada et Québec 250 €", "Site languesetformations.fr = Espace Langues et Formations, Compiègne (Oise) ; aucune session rennaise visible ; vérifier auprès du centre.")],
+       releve_date="29 octobre 2026", modified=("2026-10-29", "29 octobre 2026"),
+       stat3=("19 nov.", "prochaine session IRN (CLPS)", "limite 12 nov. ; Canada 24 nov."),
+       faq=[("Où passer le TCF Canada à Rennes ?", "Au CLPS L'Enjeu Compétences (285 €, sur ordinateur) : 24 novembre 2026 (inscription avant le 17) et 21 décembre (avant le 14), par fiche d'inscription en ligne ; aussi à Brest sur demande. Rien de relevable chez Langue et Communication."),
+            ("Combien coûte le TCF à Rennes ?", "Au CLPS (relevé du 29 octobre 2026) : 180 € le TCF IRN, 285 € le TCF Canada, 110 € les épreuves obligatoires du tout public plus 52 € par expression, 71 à 74 € chaque épreuve du TCF Québec."),
+            ("Peut-on passer le TCF ailleurs en Bretagne ?", "Oui : le CLPS organise le TCF IRN à Brest, Saint-Brieuc et Vannes (plusieurs dates par mois jusqu'au 18 décembre 2026) et le TCF Canada à Brest sur demande ; l'Alliance française Saint-Malo Bretagne est aussi agréée.")]),
     mk("tcf-strasbourg", "Strasbourg", "fr", ["Strasbourg"],
        title="TCF à Strasbourg : CIEL, Stralang, AF, prix et dates",
        desc="Où passer le TCF à Strasbourg : CIEL (IRN 155 €, Canada 200 €, TP 110 €), Stralang (IRN 150 €, TP 100 €, 24 novembre 2026), Alliance française (IRN 165 €).",
@@ -322,23 +325,30 @@ le relevé du 29 octobre 2026, et l'inscription.""",
             ("Combien coûte le TCF à Lille ?", "Relevé du 29 octobre 2026 : tout public 100 € chez ISPA (épreuves obligatoires) ; IRN 170 € chez ISPA, 190 € à l'E2LF ; Canada 210 € chez ISPA, 250 € à l'E2LF ; examen civique 70 € chez ISPA."),
             ("Où passer le DELF à Lille ?", "À l'Alliance française de Lille Métropole, seul centre DELF-DALF agréé de la ville : de 120 € (A1) à 210 € (C2), prochaine session tout public en février 2027 — voir notre page DELF à Lille.")]),
     mk("tcf-nice", "Nice", "fr", ["Nice"],
-       title="TCF à Nice : 3 centres agréés, contacts et inscription",
-       desc="Les 3 centres TCF agréés à Nice avec adresse, téléphone et site — Alliance française Nice Côte d'Azur, Les Ateliers FL, FOLAM — et l'inscription.",
-
-       h1="Passer le TCF à Nice : les 3 centres agréés et l'inscription",
-       intro="""À Nice, le TCF se passe dans <strong>%(n)d centres agréés</strong> par France Éducation international, dont
-%(so)d avec des sessions sur ordinateur : l'Alliance française Nice Côte d'Azur, Les Ateliers FL et la
-Ligue de l'enseignement (FOLAM). Cagnes-sur-Mer et Valbonne comptent deux centres de plus. Les centres avec
-leurs contacts, et l'inscription.""",
-       facts=["<strong>3 centres agréés</strong> dans Nice, 2 sur ordinateur ; 2 autres à Cagnes-sur-Mer et Valbonne.",
-              "Vérifiez la déclinaison — IRN, Canada — sur le site de chaque centre.",
-              "Aucun tarif lisible en ligne relevé pour Nice.",
-              "Pour le DELF, le CUEFLE de l'Université Côte d'Azur.",
-              "20 à 30 jours entre deux passations ; attestation valable 2 ans."],
-       releve=[("Alliance française Nice Côte d'Azur · Les Ateliers FL · FOLAM", NR, NR, "Sur le site du centre.")],
-       faq=[("Où passer le TCF Canada à Nice ?", "À l'Alliance française Nice Côte d'Azur, aux Ateliers FL ou à la FOLAM, tous trois agréés, après vérification sur leur site qu'ils organisent la déclinaison Canada."),
-            ("Combien coûte le TCF à Nice ?", "Les centres niçois ne publient pas de tarif lisible en ligne ; en France, un TCF IRN va de 140 à 220 € et un TCF Canada de 195 à 285 €."),
-            ("Comment s'inscrire au TCF à Nice ?", "En ligne, sur le site du centre choisi, quelques jours avant la session, avec une pièce d'identité et un paiement par carte.")]),
+       title="TCF à Nice : IRN 170-175 €, dates 2026-2027, 3 centres",
+       desc="Où passer le TCF à Nice : FOLAM (IRN 170 €, 16 nov., 4 et 16 déc. 2026, puis 2027), Les Ateliers FL (175 €, 17 déc. puis chaque mois), Alliance française.",
+       h1="Passer le TCF à Nice : les trois centres agréés, leurs prix et leurs dates",
+       intro="""À Nice, le TCF se passe dans <strong>%(n)d centres agréés</strong> par France Éducation international. Pour le
+<strong>TCF IRN</strong>, le plus demandé, la <strong>Ligue de l'enseignement (FOLAM)</strong>, 6 rue Oscar-II, affiche 170 €
+et des sessions les 16 novembre, 4 et 16 décembre 2026 puis quatre en janvier-février 2027 (les 26 octobre et 2 novembre
+étaient complètes), et <strong>Les Ateliers FL</strong> 175 € avec un atelier de préparation inclus, le 17 décembre 2026
+puis chaque mois. L'<strong>Alliance française Nice Côte d'Azur</strong> est la seule à annoncer le <strong>TCF Canada</strong>,
+sur ordinateur — ses dates et prix ne s'affichent que dans son module de réservation. Les centres, le relevé du
+29 octobre 2026, et l'inscription.""",
+       facts=["<strong>3 centres agréés</strong> : Alliance française Nice Côte d'Azur (8 rue de Paris), Les Ateliers FL (04 93 13 78 88), Ligue de l'enseignement FOLAM (passation 6 rue Oscar-II).",
+              "<strong>FOLAM : TCF IRN 170 €</strong>, inscription un mois à l'avance : 16 novembre (limite dépassée), 4 décembre (limite 9 novembre) et 16 décembre 2026 (limite 22 novembre), puis 6, 20 et 29 janvier et 10 février 2027 ; test civique 80 €.",
+              "<strong>Les Ateliers FL : TCF IRN 175 €</strong>, atelier préparatoire de 1 h 30 inclus (130 € en réinscription) ; 17 décembre 2026, puis 21 janvier, 25 février, 25 mars, 22 avril 2027 et un jeudi par mois jusqu'en décembre ; inscription quatre semaines avant, attestation envoyée quatre semaines après.",
+              "Alliance française : TCF IRN (papier ou ordinateur), tout public, Canada (sur ordinateur) et examen civique (80 €, convocation 2 rue de Paris) ; dates et tarifs TCF dans son module de réservation en ligne.",
+              "TCF Canada et Québec : « nous contacter » chez FOLAM, non listés aux Ateliers FL ; l'Alliance est le seul centre niçois à l'annoncer.",
+              "Pour le DELF-DALF : le CUEFLE de l'Université Côte d'Azur organise une session de DALF C1-C2 par an (27-31 mai 2027, inscriptions 1<sup>er</sup> mars-3 mai, 170 € ou 200 €)."],
+       releve=[("Ligue de l'enseignement — FOLAM", "IRN ; tout public, Québec, Canada « nous contacter » ; test civique", "IRN <strong>170 €</strong> · civique 80 €", "IRN : 16 nov., 4 déc., 16 déc. 2026 ; 6, 20, 29 janv., 10 févr. 2027 ; 26 oct. et 2 nov. complets ; inscription un mois avant, définitive au paiement."),
+               ("Les Ateliers FL Nice", "IRN (A1-B2) avec atelier de 1 h 30", "IRN <strong>175 €</strong> (réinscription 130 €)", "17 déc. 2026 ; 21 janv., 25 févr., 25 mars, 22 avr., 27 mai, 24 juin, 22 juil., 19 août, 23 sept., 21 oct., 18 nov., 16 déc. 2027 ; inscription 4 semaines avant ; attestation 4 semaines après ; tarifs 2027 dès le 1<sup>er</sup> nov. 2026."),
+               ("Alliance française Nice Côte d'Azur", "IRN (papier ou ordinateur), tout public, Canada (ordinateur), examen civique", "civique 80 € · TCF : dans le module de réservation", "Dates dans le module en ligne (« tests à venir ») ; examen civique : pré-inscription sur le site de FEI, résultats sous 12 h.")],
+       releve_date="29 octobre 2026", modified=("2026-10-29", "29 octobre 2026"),
+       stat3=("4 déc.", "prochaine session IRN (FOLAM)", "inscription avant le 9 nov."),
+       faq=[("Où passer le TCF Canada à Nice ?", "À l'Alliance française Nice Côte d'Azur, seul centre de la ville à l'annoncer (sur ordinateur, dans ses locaux) ; ses dates et son tarif s'affichent dans son module de réservation en ligne. FOLAM répond « nous contacter » ; Les Ateliers FL ne le proposent pas."),
+            ("Combien coûte le TCF à Nice ?", "Relevé du 29 octobre 2026 : TCF IRN 170 € chez FOLAM, 175 € aux Ateliers FL avec un atelier de préparation (130 € en réinscription) ; examen civique 80 € à l'Alliance et chez FOLAM ; l'Alliance affiche ses tarifs TCF dans son module de réservation."),
+            ("Comment s'inscrire au TCF à Nice ?", "Un mois à l'avance chez FOLAM (formulaire en ligne, inscription définitive au paiement), quatre semaines avant aux Ateliers FL (pièce d'identité, pas de remboursement), en ligne à l'Alliance. L'examen civique se pré-inscrit sur le site de France Éducation international.")]),
     # ------------------------------------------------------------------ Canada
     mk("tcf-montreal", "Montréal", "ca", ["Montréal"], nearby=["Laval", "Kirkland", "Saint-Constant"],
        title="TCF Canada à Montréal : 7 centres agréés, prix, inscription",
@@ -1020,24 +1030,25 @@ le relevé, et l'inscription.""",
             ("Quand s'inscrire au DELF à Lille ?", "Pendant la fenêtre d'une semaine ouverte par l'Alliance : du 30 décembre 2026 à 10 h au 6 janvier 2027 à 23 h 59 pour février 2027, du 12 au 19 mai pour juin 2027. La session de novembre 2026 était complète le 29 octobre : ne comptez pas sur une place tardive.")]),
     mk("delf-nantes", "Nantes", "fr", ["Nantes"], exam="delf",
        title="DELF à Nantes : Nantes Université, 125 €, sessions 2026-27",
-
-       desc="Où passer le DELF à Nantes : l'i-FLE de Nantes Université, seul centre agréé, le DELF B1-B2 à 125 € — le moins cher relevé —, les sessions 2026-2027.",
-
-       h1="Passer le DELF à Nantes : Nantes Université, 125 € et des inscriptions en deux jours",
-       intro="""À Nantes, le DELF et le DALF se passent à l'<strong>Institut de français langue étrangère de Nantes
-Université</strong> (i-FLE) — seul centre agréé de la ville — pour <strong>125 €</strong> le DELF B1 ou B2 et
-145 € le DALF, le tarif le plus bas relevé en France. Contrepartie : les inscriptions n'ouvrent que
-<strong>deux jours, à partir de 7 h</strong>, « dans la limite des places disponibles ». Le centre, ses
-contacts, le calendrier, et l'inscription.""",
-       facts=["<strong>1 centre agréé</strong> : Nantes Université, i-FLE (Service universitaire des langues).",
-              "<strong>DELF B1 et B2 : 125 € · DALF C1 et C2 : 145 €.</strong>",
-              "Sessions : 2-4 décembre 2026 (inscriptions 22-23 septembre), 17-19 mars 2027 (9-10 février), 26-28 mai 2027 (20-21 avril), 16-18 juin 2027 (11-12 mai).",
-              "Inscriptions <strong>sur deux jours à partir de 7 h</strong>, en ligne, paiement par carte ; droits non remboursables.",
-              "Ouvert « à toute personne de nationalité étrangère » ; aménagements à déclarer deux mois avant."],
-       releve=[("Nantes Université — i-FLE", "DELF B1, B2, DALF C1, C2", "<strong>B1-B2 125 €</strong> · C1-C2 145 €", "2-4 déc. 2026 (inscr. 22-23 sept.) ; 17-19 mars 2027 (9-10 févr.) ; 26-28 mai 2027 (20-21 avril) ; 16-18 juin 2027 (11-12 mai) — dès 7 h, places limitées.")],
-       faq=[("Où passer le DELF B2 à Nantes ?", "À Nantes Université (i-FLE), seul centre agréé de la ville : 125 €, sessions des 2-4 décembre 2026, 17-19 mars, 26-28 mai et 16-18 juin 2027."),
-            ("Combien coûte le DELF à Nantes ?", "125 € pour le DELF B1 ou B2, 145 € pour le DALF C1 ou C2 — le tarif le plus bas relevé en France (page mise à jour le 14 septembre 2026)."),
-            ("Comment s'inscrire au DELF à Nantes ?", "En ligne, pendant les deux jours d'ouverture, à partir de 7 h — les 22 et 23 septembre 2026 pour la session de décembre —, avec une pièce d'identité et un paiement par carte ; les places partent vite et les droits ne sont pas remboursables.")]),
+       desc="Où passer le DELF à Nantes : l'i-FLE de Nantes Université, seul centre agréé, B1-B2 à 125 €, DALF 145 €, décembre 2026 complet, inscriptions 2027 dès février.",
+       h1="Passer le DELF à Nantes : Nantes Université, ses prix et ses sessions 2027",
+       intro="""À Nantes, le DELF et le DALF se passent à l'<strong>i-FLE de Nantes Université</strong> (campus Tertre) — seul
+centre agréé de la ville — pour <strong>125 €</strong> le DELF B1 ou B2 et 145 € le DALF, le tarif le plus bas relevé en
+France. Le 29 octobre 2026, la session des 2-4 décembre affichait <strong>complet</strong> ; les inscriptions de 2027
+s'ouvrent à 7 h précises, deux jours seulement : les <strong>9-10 février</strong> (session des 17-19 mars, B1-B2), les
+20-21 avril (26-28 mai, B1 à C2) et les 11-12 mai (16-18 juin, B1-B2). Le centre, le relevé, et l'inscription.""",
+       facts=["<strong>1 centre agréé</strong> : Nantes Université, i-FLE (Service universitaire des langues), chemin de la Censive-du-Tertre, accueil Grand Hall, bâtiment 3 ; sul-fle@univ-nantes.fr.",
+              "<strong>DELF B1 et B2 : 125 € · DALF C1 et C2 : 145 €</strong> (inchangés, page relue le 29 octobre 2026) ; ni A1 ni A2.",
+              "Session des 2-4 décembre 2026 (B1 à C2) : <strong>complète</strong> ; inscriptions closes depuis les 22-23 septembre.",
+              "2027 : <strong>17-19 mars</strong> (B1, B2 ; inscriptions 9-10 février), <strong>26-28 mai</strong> (B1 à C2 ; inscriptions 20-21 avril), <strong>16-18 juin</strong> (B1, B2 ; inscriptions 11-12 mai) — toujours à partir de 7 h, « dans la limite des places disponibles ».",
+              "Écrits : B1 le mercredi matin, B2 le mercredi après-midi, C1 le jeudi matin, C2 le jeudi après-midi ; oraux le jour même ou les jours suivants (jamais le même jour pour B2 et C2) : restez disponible les trois jours.",
+              "Inscription en ligne avec pièce d'identité jointe, paiement par carte ; convocations par e-mail seulement ; droits non remboursables ; une session peut être annulée faute de candidats."],
+       releve=[("Nantes Université — i-FLE", "DELF B1, B2, DALF C1, C2 ; TCF tout public (QCM + écrit), TCF DAP", "<strong>B1-B2 125 €</strong> · C1-C2 145 €", "2-4 déc. 2026 : complet ; 17-19 mars 2027 (B1-B2, inscr. 9-10 févr. dès 7 h) ; 26-28 mai 2027 (B1-C2, inscr. 20-21 avr.) ; 16-18 juin 2027 (B1-B2, inscr. 11-12 mai) ; convocations par e-mail.")],
+       releve_date="29 octobre 2026", modified=("2026-10-29", "29 octobre 2026"),
+       stat3=("9 févr.", "prochaine inscription", "session des 17-19 mars 2027"),
+       faq=[("Où passer le DELF B2 à Nantes ?", "À l'i-FLE de Nantes Université (campus Tertre), seul centre agréé de la ville : 125 €, prochaines sessions les 17-19 mars, 26-28 mai et 16-18 juin 2027 ; celle de décembre 2026 est complète."),
+            ("Combien coûte le DELF à Nantes ?", "125 € le DELF B1 ou B2, 145 € le DALF C1 ou C2 (page de l'i-FLE relue le 29 octobre 2026) : le tarif le plus bas que nous ayons relevé en France. Pas de A1 ni de A2 à Nantes."),
+            ("Comment s'inscrire au DELF à Nantes ?", "En ligne, sur la plateforme de l'i-FLE, les deux jours d'ouverture à partir de 7 h (9-10 février 2027 pour mars, 20-21 avril pour mai, 11-12 mai pour juin), avec une carte d'identité ou un passeport ; paiement par carte à privilégier ; convocation par e-mail. Dans la limite des places : la session de décembre 2026 s'est remplie.")]),
     mk("delf-bordeaux", "Bordeaux", "fr", ["Bordeaux", "Pessac"], exam="delf", h2_label="Bordeaux et Pessac",
        title="DELF à Bordeaux : 3 centres, session de décembre 2026",
        desc="Où passer le DELF à Bordeaux : 3 centres agréés avec contacts — DEFLE Bordeaux Montaigne, Alliance française, Newdeal —, la session de décembre 2026.",
@@ -1060,25 +1071,30 @@ l'inscription.""",
             ("Combien coûte le DELF à Bordeaux ?", "Le DEFLE n'affiche pas son tarif sur la page consultée et l'Alliance française renvoie à son document « Calendrier et tarifs examens 2026 » ; ailleurs en France, un DELF B2 va de 125 à 280 € selon le centre."),
             ("Quand s'inscrire au DELF à Bordeaux ?", "Pour la session de décembre 2026 au DEFLE, entre le 2 octobre et le 4 novembre ; l'oral aura lieu entre le 1er et le 15 décembre.")]),
     mk("delf-marseille", "Marseille", "fr", ["Marseille", "Aix-En-Provence"], exam="delf", h2_label="Marseille et Aix-en-Provence",
-       title="DELF à Marseille et Aix : 5 centres agréés, inscription",
-       desc="Où passer le DELF à Marseille et Aix : 5 centres agréés avec contacts — Alliance française, Aix-Marseille Université, IS Aix, EPFF, E2C —, les délais.",
-
-       h1="Passer le DELF à Marseille et Aix-en-Provence : les 5 centres agréés",
-       intro="""À Marseille et Aix-en-Provence, le DELF et le DALF se passent dans <strong>%(n)d centres agréés</strong> par
-France Éducation international : l'Alliance française Aix-Marseille Provence, le Service universitaire des
-langues d'Aix-Marseille Université, IS Aix-en-Provence, l'EPFF et l'École de la deuxième chance. L'Alliance
-rend ses résultats sous quatre à six semaines, à retirer sur place, et propose des épreuves d'entraînement
-officielles à Aix. Les centres, leurs contacts, et l'inscription.""",
-       facts=["<strong>5 centres agréés</strong> à Marseille et Aix.",
-              "<strong>Alliance française Aix-Marseille</strong> : tarif non affiché en ligne ; résultats en 4 à 6 semaines, à retirer sur place.",
-              "« Il n'est pas possible de se réinscrire au DELF/DALF du même niveau tant que les résultats de la session précédente n'ont pas été annoncés. »",
-              "Épreuves d'entraînement officielles A2-B2 (sujets réels) à Aix, résultats sous 10 jours ouvrés.",
-              "Aménagements : à signaler à l'inscription avec un certificat médical."],
-       releve=[("Alliance française Aix-Marseille Provence", "DELF A1-B2, DALF, épreuves d'entraînement", "non affiché en ligne", "Inscription en ligne ; résultats 4-6 semaines sur place."),
-               ("Aix-Marseille Université (SUL) · IS Aix · EPFF · E2C", NR, NR, "Sur le site du centre.")],
-       faq=[("Où passer le DELF B2 à Marseille ?", "À l'Alliance française Aix-Marseille Provence (Marseille ou Aix), au Service universitaire des langues d'Aix-Marseille Université, chez IS Aix-en-Provence, à l'EPFF ou à l'École de la deuxième chance — cinq centres agréés."),
-            ("Combien coûte le DELF à Marseille ?", "L'Alliance française n'affiche pas ses tarifs DELF en ligne ; ailleurs en France, un DELF B2 va de 125 à 280 € selon le centre."),
-            ("Peut-on s'entraîner au DELF à Marseille ?", "Oui : l'Alliance française propose à Aix-en-Provence les épreuves d'entraînement officielles de FEI (compréhensions A2, B1, B2, sujets réels), avec des résultats sous dix jours ouvrés, sans obligation de s'inscrire à l'examen.")]),
+       title="DELF à Marseille et Aix : 5 centres, 80 à 150 €, dates",
+       desc="Où passer le DELF à Marseille et Aix : Alliance française et EPFF (A1 80 € à C1 150 €, décembre 2026 et 2027), E2C (20 places), IS Aix, DALF C1 à l'AMU.",
+       h1="Passer le DELF à Marseille et Aix-en-Provence : les cinq centres agréés, leurs prix et leurs dates",
+       intro="""À Marseille et à Aix-en-Provence, le DELF et le DALF se passent dans <strong>%(n)d centres agréés</strong> par France
+Éducation international, aux prix les plus bas relevés : <strong>80 € le A1, 120 € le B2, 150 € le C1</strong> à
+l'<strong>Alliance française Aix-Marseille Provence</strong> comme à l'<strong>EPFF</strong> (plus 15 € de dossier) et à
+l'<strong>École de la 2<sup>e</sup> chance</strong>. Le 29 octobre 2026, les prochaines sessions étaient celles du 3-9 novembre
+(E2C) et des 1<sup>er</sup>-3 décembre (Alliance, EPFF, IS Aix) ; l'Alliance publie déjà janvier et mars 2027. Le DALF C1 se
+passe aussi à Aix-Marseille Université, une fois par an. Les centres, le relevé, et l'inscription.""",
+       facts=["<strong>5 centres agréés</strong> : Alliance française Aix-Marseille Provence (72-74 rue Saint-Suffren à Marseille, 47 boulevard de la République à Aix), EPFF (21 rue Roux-de-Brignoles), École de la 2<sup>e</sup> chance (chemin de la Madrague-Ville), IS Aix-en-Provence, Aix-Marseille Université (SUL, Aix).",
+              "<strong>Alliance française : A1 80 € · A2 95 € · B1 110 € · B2 120 € · C1 et C2 150 €</strong> ; tout public à Marseille les 1<sup>er</sup>-3 décembre 2026, 12-14 janvier et 16-18 mars 2027 ; à Aix les 3-5 novembre 2026 et 2-4 février 2027 ; DELF Junior à Aix seulement ; résultats en 4 à 6 semaines, à retirer sur place.",
+              "<strong>EPFF : mêmes tarifs + 15 € de frais de dossier</strong> ; sessions tout public A1-B2 les 3-4 novembre et 1<sup>er</sup>-2 décembre 2026 (C1 trois fois par an), inscription trois semaines avant, sur place, par courriel ou par la poste ; résultats en 2-3 semaines ; 1 010 candidats en 2025.",
+              "École de la 2<sup>e</sup> chance : DELF A1-B2 à 80, 95, 110 et 120 €, <strong>20 places par niveau</strong> dans l'ordre d'arrivée des dossiers ; session du 3 au 9 novembre 2026 (trois par an : mars, juin, novembre) ; inscription sur place les mardis et jeudis ; aucune préparation.",
+              "IS Aix-en-Provence : A2 95 €, B1 110 €, B2 120 €, C1 150 € ; session des 1<sup>er</sup>-3 décembre 2026 (clôture le 2 novembre), puis dix sessions en 2027 de janvier à décembre, écrits sur trois jours.",
+              "Aix-Marseille Université (SUL) : DALF C1 seulement, 150 € (étudiants AMU) ou 175 €, une session par an en mai (21-22 mai 2026, inscriptions 1<sup>er</sup>-21 avril), résultats en 2-3 semaines ; ni DELF ni C2."],
+       releve=[("Alliance française Aix-Marseille Provence", "DELF A1-B2, DALF C1-C2 tout public (Marseille et Aix) ; Junior et épreuves d'entraînement à Aix", "A1 80 · A2 95 · B1 110 · <strong>B2 120</strong> · C1 150 · C2 150 €", "Marseille : 1<sup>er</sup>-3 déc. 2026 (tous niveaux), 12-14 janv. 2027, 16-18 mars 2027 ; Aix : 3-5 nov. 2026, 2-4 févr. 2027 ; inscription en ligne ; résultats 4-6 semaines sur place, diplôme 2-4 mois."),
+               ("EPFF — Espace Pédagogie Formation France", "DELF tout public A1-B2, DALF C1", "A1 80 · A2 95 · B1 110 · <strong>B2 120</strong> · C1 150 € + 15 € de dossier", "3-4 nov. et 1<sup>er</sup>-2 déc. 2026 (A1-B2) ; 10 sessions par an ; clôture 3 semaines avant ; dossier sur place, courriel ou poste ; résultats 2-3 semaines."),
+               ("École de la 2e chance de Marseille", "DELF tout public A1-B2", "A1 80 · A2 95 · B1 110 · B2 120 €", "3-9 nov. 2026 ; 20 places par niveau ; inscription sur place mardi et jeudi (9 h-12 h, 14 h-17 h) ; carte ou virement ; 3 sessions par an."),
+               ("IS Aix-en-Provence · Aix-Marseille Université (SUL)", "IS : DELF A2-B2, DALF C1 ; SUL : DALF C1 seulement", "IS : A2 95 · B1 110 · B2 120 · C1 150 € ; SUL : C1 150 € (AMU) / 175 €", "IS : 1<sup>er</sup>-3 déc. 2026 (clôture 2 nov.), 2027 : 12-14 janv., 2-4 févr., 16-18 mars, 25-27 mai, 15-17 juin, 6-8 juil., 3-5 août, 5-7 oct., 16-18 nov., 7-9 déc. ; SUL : mai (2026 : 21-22 mai, inscr. 1<sup>er</sup>-21 avril), 2027 non publié.")],
+       releve_date="29 octobre 2026", modified=("2026-10-29", "29 octobre 2026"),
+       stat3=("80 €", "DELF A1 (AF, EPFF, E2C)", "le moins cher relevé"),
+       faq=[("Où passer le DELF B2 à Marseille ?", "À l'Alliance française (120 €, 1er-3 décembre 2026 puis 12-14 janvier et 16-18 mars 2027), à l'EPFF (120 € plus 15 € de dossier, 1er-2 décembre 2026) ou à l'École de la 2e chance (120 €, 3-9 novembre 2026, 20 places) ; à Aix, chez IS Aix-en-Provence (120 €, clôture le 2 novembre pour décembre)."),
+            ("Combien coûte le DELF à Marseille ?", "Relevé du 29 octobre 2026 : 80 € le A1, 95 € le A2, 110 € le B1, 120 € le B2, 150 € le C1 dans les trois centres marseillais (l'EPFF ajoute 15 € de dossier) ; 150 € le C2 à l'Alliance ; DALF C1 à 150 ou 175 € à Aix-Marseille Université."),
+            ("Peut-on s'entraîner au DELF à Marseille ?", "L'Alliance française propose des épreuves d'entraînement A2, B1 et B2 (35 €, au centre d'Aix) ; l'École de la 2e chance n'offre aucune préparation ; l'EPFF, IS Aix et l'Alliance sont aussi des écoles de langue.")]),
     mk("delf-toulouse", "Toulouse", "fr", ["Toulouse"], exam="delf",
        title="DELF à Toulouse : 5 centres, un DELF par mois, prix et dates",
        desc="Où passer le DELF à Toulouse : Alliance française (A1-B2, un DELF par mois, 160-190 €), CREPT (1er-2 décembre 2026), DEFLE (B1-C2 en mai), SPLE, Langue Onze.",
