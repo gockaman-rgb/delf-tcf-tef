@@ -558,7 +558,7 @@ sur les principaux centres.""",
          crumb="Centres TCF en Algérie",
          title="TCF Algérie 2026 : 5 centres, 37 500 DA, rendez-vous IFAL",
          desc="Les 5 centres TCF d'Algérie — Institut français d'Alger, Oran, Constantine, Annaba, Tlemcen —, leurs contacts, les tarifs 2026 (Canada 37 500 DA), IFAL.",
-         modified="2026-10-17", date_fr="17 octobre 2026",
+         modified="2026-10-29", date_fr="29 octobre 2026", list_date_fr="29 octobre 2026",   # liste FEI relue le 29/10/2026 (Annaba : nouvelle adresse)
          h1="Centres TCF en Algérie : les 5 antennes agréées et leurs contacts",
          intro="""En Algérie, le TCF — Canada, Québec, IRN, tout public ou DAP — se passe uniquement dans les
 <strong>cinq antennes de l'Institut français d'Algérie</strong> : Alger (Hydra), Oran, Constantine,
@@ -595,7 +595,7 @@ imite l'Institut.""",
          crumb="Centres TCF au Maroc",
          title="TCF Maroc 2026 : 16 centres, 2 900 Dhs, dates et inscription",
          desc="Les 16 centres TCF agréés au Maroc — Instituts français de Casablanca, Rabat, Fès, Tanger, Agadir… —, le TCF Canada à 2 900 Dhs, les dates oct.-déc. 2026.",
-         modified="2026-10-17", date_fr="17 octobre 2026",
+         modified="2026-10-29", date_fr="29 octobre 2026", list_date_fr="29 octobre 2026",   # liste FEI relue le 29/10/2026 (Annaba : nouvelle adresse)
          h1="Centres TCF au Maroc : les 16 centres agréés et leurs contacts",
          intro="""Au Maroc, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France Éducation
 international au 19 septembre 2026 : quatorze sites de l'Institut français du Maroc — de Tanger à
