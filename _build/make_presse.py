@@ -14,8 +14,8 @@ BASE = "https://delf-tcf-tef.fr"
 PATHS = {"fr": "/presse/", "en": "/en/press/"}
 TITLE = {"fr": "Espace presse — delf-tcf-tef.fr et l'app TCF DELF TEF",
          "en": "Press — delf-tcf-tef.fr and the TCF DELF TEF app"}
-DESC = {"fr": "Faits citables, données ouvertes (1 825 centres d'examen dans 181 pays et territoires, prix du TCF Canada par pays, calendrier DELF-DALF 2027), visuels et contact de l'éditeur.",
-        "en": "Citable facts, open data (1,825 exam centres in 181 countries and territories, TCF Canada fees by country, the DELF-DALF 2027 calendar), visuals and the publisher's contact."}
+DESC = {"fr": "Faits citables, données ouvertes (1 825 centres d'examen, prix du TCF Canada par pays, calendrier DELF-DALF 2027), visuels et contact de l'éditeur.",
+        "en": "Citable facts, open data (1,825 exam centres, TCF Canada fees by country, the DELF-DALF 2027 calendar), visuals and the publisher's contact."}
 HOME = {"fr": ("/", "Accueil"), "en": ("/en/", "Home")}
 CRUMB = {"fr": "Presse", "en": "Press"}
 LOCALE = {"fr": "fr_FR", "en": "en_US"}
