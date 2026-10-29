@@ -47,6 +47,13 @@ RULES = [
      '<li><a href="/ar/tcf-canada-qatar/">قطر</a></li>', "after"),
     ('<li><a href="/ar/tcf-canada-qatar/">قطر</a></li>',
      '<li><a href="/ar/tcf-canada-kuwait/">الكويت</a></li>', "after"),
+    # Pages « À propos » en anglais, espagnol, arabe (29/10/2026) — colonne « Le site »
+    ('<li><a href="/confidentialite/">Privacy</a></li>',
+     '<li><a href="/en/about/">About this site</a></li>', "before"),
+    ('<li><a href="/confidentialite/">Privacidad</a></li>',
+     '<li><a href="/es/acerca-de/">Acerca de este sitio</a></li>', "before"),
+    ('<li><a href="/confidentialite/">الخصوصية</a></li>',
+     '<li><a href="/ar/about/">عن الموقع</a></li>', "before"),
 ]
 
 

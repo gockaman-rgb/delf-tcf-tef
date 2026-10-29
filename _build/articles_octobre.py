@@ -374,10 +374,10 @@ liste des centres et option « sessions sur ordinateur ») ; pour l'app, le déc
 # sur if-algerie.com (page nationale, FAQ, pages des antennes) et la page d'accueil publique d'IFAL, sans connexion.
 # ===========================================================================
 ARTICLES.append(dict(
-    slug="ifal-tcf-rendez-vous", crumb="IFAL : rendez-vous TCF",
-    title="IFAL TCF 2026 : prendre rendez-vous sur la plateforme VFS",
-    desc="Rendez-vous TCF sur la plateforme IFAL (VFS Global) : les étapes, les tarifs 2026 (Canada 37 500 DA), les pièces, 26 ou 36 jours, les lieux, l'assistance.",
-    h1="IFAL : prendre rendez-vous pour le TCF en Algérie, étape par étape",
+    slug="ifal-tcf-rendez-vous", crumb="Rendez-vous TCF en Algérie",
+    title="Rendez-vous TCF en Algérie : étapes, délais, pièces (2026)",
+    desc="Rendez-vous TCF en Algérie sur la plateforme de l'Institut français (IFAL, VFS Global) : étapes, pièces, tarifs 2026 et délai de 26 ou 36 jours.",
+    h1="Prendre rendez-vous pour le TCF en Algérie, étape par étape",
     date_fr="17 octobre 2026", published="2026-10-17", modified="2026-10-17",
     read=6, accent="accent-tcf",
     intro="""En Algérie, tous les TCF — Canada, Québec, DAP, tout public, IRN — se réservent sur une seule plateforme :

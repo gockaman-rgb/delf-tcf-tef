@@ -200,7 +200,7 @@
   <url><loc>https://delf-tcf-tef.fr/centres/delf-montpellier/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/delf-strasbourg/</loc><lastmod>2026-09-19</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/questions/</loc><lastmod>2026-10-26</lastmod><priority>0.7</priority></url>
-  <url><loc>https://delf-tcf-tef.fr/blog/ifal-tcf-rendez-vous/</loc><lastmod>2026-10-17</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/blog/ifal-tcf-rendez-vous/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/en/delf-exam-dates-2027/</loc><lastmod>2026-10-26</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/es/fechas-delf-2027/</loc><lastmod>2026-10-26</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/centres/tcf-kenitra/</loc><lastmod>2026-10-18</lastmod><priority>0.8</priority></url>
@@ -217,4 +217,7 @@
   <url><loc>https://delf-tcf-tef.fr/en/tcf-canada-new-york/</loc><lastmod>2026-10-18</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/es/delf-malaga/</loc><lastmod>2026-10-18</lastmod><priority>0.8</priority></url>
   <url><loc>https://delf-tcf-tef.fr/es/delf-zaragoza/</loc><lastmod>2026-10-18</lastmod><priority>0.8</priority></url>
-</urlset>
+<url><loc>https://delf-tcf-tef.fr/en/about/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  <url><loc>https://delf-tcf-tef.fr/es/acerca-de/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+<url><loc>https://delf-tcf-tef.fr/ar/about/</loc><lastmod>2026-10-29</lastmod><priority>0.8</priority></url>
+  </urlset>
