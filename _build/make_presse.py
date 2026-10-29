@@ -14,8 +14,8 @@ BASE = "https://delf-tcf-tef.fr"
 PATHS = {"fr": "/presse/", "en": "/en/press/"}
 TITLE = {"fr": "Espace presse — delf-tcf-tef.fr et l'app TCF DELF TEF",
          "en": "Press — delf-tcf-tef.fr and the TCF DELF TEF app"}
-DESC = {"fr": "Faits citables, données ouvertes (1 825 centres d'examen dans 176 pays, prix du TCF Canada par pays, calendrier DELF-DALF 2027), visuels et contact de l'éditeur.",
-        "en": "Citable facts, open data (1,825 exam centres in 176 countries, TCF Canada fees by country, the DELF-DALF 2027 calendar), visuals and the publisher's contact."}
+DESC = {"fr": "Faits citables, données ouvertes (1 825 centres d'examen dans 181 pays et territoires, prix du TCF Canada par pays, calendrier DELF-DALF 2027), visuels et contact de l'éditeur.",
+        "en": "Citable facts, open data (1,825 exam centres in 181 countries and territories, TCF Canada fees by country, the DELF-DALF 2027 calendar), visuals and the publisher's contact."}
 HOME = {"fr": ("/", "Accueil"), "en": ("/en/", "Home")}
 CRUMB = {"fr": "Presse", "en": "Press"}
 LOCALE = {"fr": "fr_FR", "en": "en_US"}
@@ -33,7 +33,7 @@ et comment nous joindre.</p>
 
 <h2 id="faits">Faits citables (relevés datés, sources sur chaque page)</h2>
 <ul>
-<li><strong>1 825 centres d'examen dans 176 pays</strong>, d'après les listes de France Éducation international (TCF, DELF-DALF)
+<li><strong>1 825 centres d'examen dans 181 pays et territoires</strong>, d'après les listes de France Éducation international (TCF, DELF-DALF)
 et de la CCI Paris Île-de-France (TEF) relevées le 26 octobre 2026, consultables par ville dans
 <a href="/trouver-un-centre/">le moteur de recherche de centres</a> (français, anglais, espagnol, arabe).</li>
 <li><strong>Le calendrier national DELF-DALF 2027</strong> : dix sessions par an, jamais en avril ni en septembre, avec les fenêtres
@@ -89,7 +89,7 @@ what a journalist, teacher or blogger can cite, and how to reach us.</p>
 
 <h2 id="facts">Citable facts (dated readings, sources on every page)</h2>
 <ul>
-<li><strong>1,825 exam centres in 176 countries</strong>, from the lists of France Éducation international (TCF, DELF-DALF) and
+<li><strong>1,825 exam centres in 181 countries and territories</strong>, from the lists of France Éducation international (TCF, DELF-DALF) and
 the CCI Paris Île-de-France (TEF) read on 26 October 2026, searchable by city in <a href="/en/test-centre-near-me/">the centre
 finder</a> (French, English, Spanish, Arabic).</li>
 <li><strong>The national DELF-DALF 2027 calendar</strong>: ten sessions a year, never in April or September, with registration
