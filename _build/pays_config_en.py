@@ -562,27 +562,32 @@ test day, bring a valid passport and your printed test-day notice (admission let
 PAGES.append(canada(
     "tcf-quebec-ville", slug="tcf-canada-quebec-city",
     crumb="TCF Canada in Quebec City",
-    modified="2026-10-26", date_label="26 October 2026",   # FEI list read again on 26/10/2026 (Université Laval: new office and phone)
+    modified="2026-10-29", date_label="29 October 2026",   # centres' websites read again on 29/10/2026 (Laval: $405 and dates; Stanislas: weekly morning sessions)
     title="TCF Canada in Quebec City: Stanislas and Université Laval",
-    desc="The 2 approved TCF test centres in Quebec City with contacts — Collège Stanislas (Sainte-Foy) and Université Laval — their rules and how to register.",
+    desc="The 2 approved TCF centres in Quebec City: Collège Stanislas (Sainte-Foy, weekday mornings) and Université Laval ($405, Friday-Saturday); dates and rules.",
     h1="Taking the TCF in Quebec City: the two approved centres and registration",
     intro="""In Quebec City, you can take the TCF at <strong>{n} centres approved</strong> by France Éducation international, both
-computer-based: <strong>Collège Stanislas</strong> (Sainte-Foy) and the <strong>École de langues de l’Université Laval</strong>.
-They offer the TCF Canada and the TCF Québec — check which box you tick: only the TCF Canada counts for Express
-Entry. Below: the centres, their contacts, the rules we found, and how to register.""",
-    facts=["<strong>{n} approved centres</strong>: Collège Stanislas (1605, chemin Sainte-Foy) and Université Laval (Pavillon Charles-De Koninck).",
-           "<strong>Collège Stanislas</strong>: Québec, Canada, tout public, IRN; $15 per test kept if you cancel more than 15 days ahead; 20 days between two attempts.",
-           "Other centres in the province: Trois-Rivières (UQTR, $440), Chicoutimi, Sherbrooke, Rouyn-Noranda, Gaspé, Sept-Îles, Baie-Comeau…",
-           "Results by email within 2 to 4 weeks; results certificate valid for 2 years.",
-           "The TCF Canada has also been recognized by the MIFI since 2022."],
+computer-based: <strong>Collège Stanislas</strong> (1605, chemin Sainte-Foy), which runs TCF Canada sessions almost every
+weekday morning until 16 December 2026, and the <strong>École de langues de l’Université Laval</strong> (Pavillon
+Charles-De Koninck), at <strong>$405</strong> for the four tests, one Friday-Saturday a week until 12 December. Check which
+box you tick: only the TCF Canada counts for Express Entry. Below: the centres, their dates and rules as read on
+29 October 2026, and how to register.""",
+    facts=["<strong>{n} approved centres</strong>: Collège Stanislas (1605, chemin Sainte-Foy; 418 527-9998, ext. 3239; tcfquebec@stanislas.qc.ca) and Université Laval (Pavillon Charles-De Koninck, 1030 avenue des Sciences-Humaines).",
+           "<strong>Université Laval: $405</strong> for the four tests; sessions open to the public on 29 October 2026: 20-21 and 27-28 November, 4-5 and 11-12 December (speaking on Friday, the three other tests on Saturday); no refund and no date change.",
+           "<strong>Collège Stanislas</strong>: TCF Canada in the morning, Monday to Thursday (and some Saturdays), every week from 2 November to 16 December 2026; TCF Québec on Saturdays 7 and 21 November, 5 and 12 December; fee not posted (administrative fee + exam fee, paid at registration).",
+           "Stanislas: free rescheduling more than 15 days ahead, cancellation refunded minus $15 per test; under 15 days, nothing, except documented force majeure; 20 days between two attempts at the same test, whichever centre.",
+           "Université Laval: photo ID with signature (driver’s licence, health-insurance card or passport — not the student card) and your registration receipt; two blocks: a 20-minute speaking interview, then listening, reading and writing on computer; accommodations on a medical certificate sent two months ahead.",
+           "Re-marking of the speaking and writing tests: suspended by France Éducation international for sessions from 1 September 2026, “for about a year”.",
+           "The TCF Canada has also been recognized by the MIFI since 2022; results by email within 2 to 4 weeks; certificate valid for 2 years."],
     stats=[("{n}", "approved centres", "FEI list of 26 October 2026"), ("{so}", "computer-based", "all centres in the city"),
-           ("checked", "17 Sept 2026", "prices and dates read on the websites"), ("2 years", "validity", "20 to 30 days between two attempts")],
+           ("$405", "TCF Canada at Université Laval", "read on 29 Oct 2026"), ("2 years", "validity", "20 to 30 days between two attempts")],
     sections=[
         ("what-we-found", "What we found, centre by centre", releve([
-            ("Collège Stanislas (Quebec City)", "Québec, Canada, tout public, IRN", NR,
-             "Full payment at registration; free rescheduling more than 15 days ahead; $15 per test on cancellation; 20 days between two attempts."),
-            ("Université Laval (ELUL)", NR, NR, "The École de langues’ “tests de langues” page."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+            ("Collège Stanislas (Quebec City)", "Québec, Canada, tout public (on request), IRN", "not posted (administrative fee + exam fee)",
+             "TCF Canada in the morning, Monday-Thursday and some Saturdays, from 2 Nov to 16 Dec 2026; TCF Québec Sat 7 and 21 Nov, 5 and 12 Dec; online registration; $15 per test kept if you cancel more than 15 days ahead."),
+            ("Université Laval (ELUL)", "Canada, tout public", "Canada <strong>$405</strong>",
+             "Public sessions: 20-21 Nov, 27-28 Nov, 4-5 Dec, 11-12 Dec 2026 (speaking Friday, other tests Saturday); extra sessions reserved for the ULaval community; online registration (Brio platform); no refund."),
+        ], "en-CA", "What each centre’s website showed on 29 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
         ("registration", "How to register in Quebec City", """<p>In Canada, each centre handles its own registrations
 <strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
 final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
@@ -594,13 +599,14 @@ test day, bring a valid passport and your printed test-day notice (admission let
 <a href="/en/tcf-canada-test-centres/">TCF Canada test centres in Canada</a>.</p>"""),
     ],
     list_title="The {n} approved centres in Quebec City",
-    faq=[("Where can I take the TCF Canada in Quebec City?", "At Collège Stanislas in Quebec City (Sainte-Foy) or at Université Laval, both approved and computer-based; you register online, on their websites."),
-         ("How much does the TCF cost in Quebec City?", "Neither centre posts a clear fee on the page we checked; at UQTR, in Trois-Rivières, the TCF Canada costs $440 and the TCF Québec $105 to $125 per test (30 July 2026)."),
-         ("TCF Canada or TCF Québec in Quebec City?", "For a Quebec program, both are accepted; for Express Entry or citizenship, only the TCF Canada. The TCF Québec lets you take only the required tests.")],
+    faq=[("Where can I take the TCF Canada in Quebec City?", "At Collège Stanislas (1605, chemin Sainte-Foy) or at Université Laval’s École de langues (Pavillon Charles-De Koninck), both approved and computer-based; you register online, on their websites. Stanislas opens sessions almost every weekday morning, Laval one Friday-Saturday a week."),
+         ("How much does the TCF cost in Quebec City?", "$405 for the four tests at Université Laval (29 October 2026), with no refund and no date change. Collège Stanislas does not post its fee: an administrative fee, never refunded, plus an exam fee, paid in full at registration. At UQTR, in Trois-Rivières, the TCF Canada costs $440."),
+         ("When are the TCF Canada sessions in Quebec City?", "On 29 October 2026: at Stanislas, every week from 2 November to 16 December, Monday to Thursday in the morning, plus Saturdays 14 and 28 November; at Université Laval, 20-21 November, 27-28 November, 4-5 December and 11-12 December, speaking on Friday and the other tests on Saturday. The centres’ websites are the reference."),
+         ("TCF Canada or TCF Québec in Quebec City?", "For a Quebec program, both are accepted; for Express Entry or citizenship, only the TCF Canada. The TCF Québec is modular and lets you take only the required tests; the TCF Canada cannot be split: all four tests together.")],
     also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 48 approved centres, province by province, with contacts."),
           ("/en/tcf-canada-montreal/", "TCF Canada in Montreal", "Seven approved centres, plus Laval, Kirkland and Saint-Constant."),
           ("/en/tcf-canada-ottawa/", "TCF Canada in Ottawa", "Alliance française Ottawa and FrancoLangues; strict test-day rules.")],
-    sources="the websites of Collège Stanislas and of Université Laval’s École de langues, checked on 17 September 2026.",
+    sources="the websites of Collège Stanislas (TCF page: sessions, registration, cancellation and refund terms) and of Université Laval’s École de langues (TCF Canada and TCF tout public pages: fee, public sessions, ID rules, accommodations), and France Éducation international’s TCF Canada page (re-marking notice), read on 29 October 2026.",
 ))
 
 # ===========================================================================

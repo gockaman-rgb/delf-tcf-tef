@@ -3,7 +3,7 @@
  "type": "delf",
  "key": "Centre d'examen",
  "n": 144,
- "date": "2026-09-19",
+ "date": "2026-10-29",
  "centres": [
   {
    "name": "Syllabe",
@@ -926,7 +926,9 @@
    "city_cp": "Marseille",
    "address": "72-74, rue Saint Suffren",
    "phone": "0496102460",
-   "emails": [],
+   "emails": [
+    "pedagogie@afaixmarseille.org"
+   ],
    "url": "https://afaixmarseille.org/fr/",
    "so": false
   },
@@ -1537,7 +1539,9 @@
    "city_cp": "Strasbourg",
    "address": "4 rue Blaise Pascal, CS 90032, FR-67081, Université de Strasbourg, Faculté des langues, Le Pangloss",
    "phone": "0368856053",
-   "emails": [],
+   "emails": [
+    "ief@unistra.fr"
+   ],
    "url": "https://fle-iief.unistra.fr/",
    "so": false
   },
@@ -1559,7 +1563,9 @@
    "city_cp": "Toulouse",
    "address": "130 rue Henri Desbals",
    "phone": "0562729393",
-   "emails": [],
+   "emails": [
+    "crept-toulouse@crept-formation.com"
+   ],
    "url": "http://www.creptformation.com",
    "so": false
   },
@@ -1583,7 +1589,9 @@
    "city_cp": "Toulouse",
    "address": "3 ter boulevard Lascrosses",
    "phone": "0561239091",
-   "emails": [],
+   "emails": [
+    "sple31@orange.fr"
+   ],
    "url": "http://www.sple.fr",
    "so": false
   },
@@ -1594,7 +1602,9 @@
    "city_cp": "Toulouse Cedex 4",
    "address": "3 Bis Guy Hersant",
    "phone": "0534452610",
-   "emails": [],
+   "emails": [
+    "pedagogie@alliance-toulouse.org"
+   ],
    "url": "http://www.alliance-toulouse.org",
    "so": false
   },
