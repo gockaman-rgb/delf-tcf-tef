@@ -533,7 +533,7 @@ def centre_rows(srcs, cnames):
             rows.append(dict(iso=iso, exam=ex, date=date, country_fr=country, name=tidy_name(c.get("name", "").strip()),
                              city=city.strip() or raw_city.strip(), raw_city=raw_city, hints=hints, cp=c["cp"],
                              addr=re.sub(r"\s+", " ", addr).strip(), phone=c.get("phone", "") or "",
-                             emails=[e for e in c.get("emails", []) or [] if "@" in e], url=(c.get("url") or "").strip().rstrip("﻿"),
+                             emails=[e for e in c.get("emails", []) or [] if "@" in e and not MC.pirate(e)], url=("" if MC.pirate(c.get("url") or "") else c.get("url") or "").strip().rstrip("﻿"),
                              so=bool(c.get("so")), fei_id=c.get("fei_id"), origin=origin, raw=c, v1=v1,
                              lat=c.get("lat"), lon=c.get("lon"), geo_cc=geo_cc, curated=curated and not v1,
                              products=c.get("products") or [], contact=c.get("contact") or "", cci_id=c.get("cci_id"),

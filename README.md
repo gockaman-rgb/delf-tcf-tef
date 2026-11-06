@@ -24,6 +24,13 @@ exécution du générateur les ramènerait à leur version courte, soit
 Avant tout usage : resynchroniser `PAGES[]` sur les fichiers réels, puis
 vérifier `git diff` après exécution — sur un site à jour, le diff doit être vide.
 
+## Pages coupées (06/11/2026)
+
+`_build/coupe_config.py` liste les pages sorties de l'index et leur cible. GitHub Pages n'a pas de 301 : `_build/coupe.py`
+écrit une page de renvoi (meta refresh + canonical), et `article_template.build()` ne rend plus ces chemins. Les faits de
+ces pages sont dans la cible (`_build/hubs_absorbes.py`). Ordre après une régénération : générateurs → `coupe.py` →
+`noindex.py` → `app_links.py` → `sitemap_sync.py` → `check_site.py` → `check_i18n.py`.
+
 ## Images Open Graph
 
 `_build/make_og.py` génère les visuels de partage 1200×630 dans `img/og/`,
@@ -50,11 +57,9 @@ Sur téléphone (< 800 px) les liens vivent dans un panneau « popover » natif
 
 ## Accueil et articles : ce qui est partagé (16/09/2026)
 
-- **Note App Store** dans le héros (`.rating`, index.html) : valeur écrite en dur, relevée sur
-  `itunes.apple.com/lookup?id=6790412304&country=ca` — vitrine **canadienne**, choisie parce
-  qu'une grande part des abonnés y est et qu'elle n'a aucun avis négatif rédigé (4,94 sur 31 notes
-  le 16/09/2026 ; France : 4,82 sur 44). Le lien mène à la fiche canadienne en français
-  (`/ca/…?l=fr-CA`), qui affiche cette note. À rafraîchir à la main quand elle bouge.
+- **Note App Store** dans le héros (`.rating`, index.html) : valeur écrite en dur et datée, lue sur
+  `itunes.apple.com/lookup?id=6790412304&country=fr`, vitrine **française** (4,76 sur 194 notes le 06/11/2026). Le lien
+  mène à la fiche française. À relire et à redater quand on la change ; jamais d'arrondi vers le haut.
 - **Sommaire** des articles : `<details class="toc">` fermé par défaut ; ouvert et statique sur
   ordinateur grâce à `::details-content` (style.css). Les gabarits `_build/` produisent ce balisage.
 - **Carte « Entraînez-vous »** (`.cta-inline`) insérée avant le 3ᵉ `<h2>` des 32 articles longs

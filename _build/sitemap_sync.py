@@ -5,7 +5,7 @@ Invariant constaté le 26/10/2026 : chaque index.html publié (hors _build/) est
 chaque entrée porte <lastmod> et <priority>. Ce script le rétablit sans toucher à l'ordre ni aux entrées existantes :
 les pages nouvelles s'ajoutent à la fin (triées, lastmod = aujourd'hui, priority 0.8), une page modifiée dans l'arbre
 de travail (git) reçoit le lastmod du jour, une URL dont la page a disparu est retirée et signalée. Une page en
-noindex n'entre pas. generate.py réécrit sitemap.xml avec ses seules pages : ne jamais le relancer.
+noindex ou une page de renvoi (coupe.py) n'entre pas. generate.py réécrit sitemap.xml avec ses seules pages : ne jamais le relancer.
 
 Usage : python3 _build/sitemap_sync.py [--check]   (--check : n'écrit rien, code 1 si le sitemap n'est pas à jour)
 """
@@ -35,7 +35,7 @@ def published_pages():
             continue
         with open(f, encoding="utf-8") as fh:
             head = fh.read(4000)
-        if re.search(r'<meta name="robots" content="[^"]*noindex', head):
+        if re.search(r'<meta name="robots" content="[^"]*noindex', head) or 'http-equiv="refresh"' in head:
             continue
         pages.add(url_of(rel))
     return pages

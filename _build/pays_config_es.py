@@ -11,6 +11,18 @@ NR = _NR["es"]
 CAP = ("Lo que mostraba el sitio web de cada centro el 8 de octubre de 2026{extra}. «Sin datos»: no publicado o no "
        "verificado; lo que diga el sitio del centro es lo que vale.")
 
+# Páginas de ciudad reagrupadas el 06/11/2026 (coupe_config.py): lo propio de cada ciudad pasa a /es/delf-espana/, bajo su ficha.
+CITY_NOTES_ES = {
+    "Madrid": "<p class=\"ville-faits\">Dos centros con matrícula online: la Alianza Francesa de Madrid (Cuesta de Santo Domingo, 13) y el Institut français de Madrid (calle Marqués de la Ensenada, 12), que concede 14 días de desistimiento. Elegir uno u otro no cambia ni el examen ni el precio.</p>",
+    "Barcelone": "<p class=\"ville-faits\">El 8 de octubre de 2026, el calendario del Institut français de Barcelona para febrero de 2027 iba del 1 de diciembre al 10 de enero, un día más que el plazo nacional. Cataluña tiene otros dos centros, las Alianzas Francesas de Granollers y de Girona, cuyas fichas remiten a la misma web de exámenes, examensdelf.cat.</p>",
+    "Séville": "<p class=\"ville-faits\">Sevilla es la ciudad andaluza con más centros: el Instituto de Lengua Francesa (calle Gonzalo Bilbao, 26) y el Instituto de idiomas de la Universidad de Sevilla (Reina Mercedes, s/n). Mismas fechas y mismo precio; la matrícula es cosa de cada centro y solo es efectiva con el pago.</p>",
+    "Valence": "<p class=\"ville-faits\">Único centro con sede en la Comunidad Valenciana. Lo que lo distingue es la anulación: el Institut français de Valencia devuelve el importe hasta el cierre de la matrícula, menos 30 €, cuando la norma más extendida en España es no devolver el dinero. Desde la provincia de Alicante, la Alianza Francesa de Cartagena también organiza convocatorias en Alicante.</p>",
+    "Grenade": "<p class=\"ville-faits\">El centro es el CLM, el Centro de Lenguas Modernas de la Universidad de Granada, en la placeta del Hospicio Viejo. Para el DELF de adultos en Granada, es el único: la Alianza Francesa de Málaga solo examina allí el DELF Junior, Prim y Scolaire.</p>",
+    "Malaga": "<p class=\"ville-faits\">La Alianza Francesa de Málaga examina también en Jaén, Córdoba, Almería y, en algunas convocatorias, Algeciras: la ciudad se elige al matricularse. Para adultos anuncia tres convocatorias, febrero, junio y septiembre. El pago solo se hace online, con una cuenta a nombre del candidato. No reembolsa las tasas; por un motivo médico justificado, una hospitalización, el fallecimiento de un familiar o fuerza mayor, se pasa a la convocatoria siguiente sin coste. Para cambiar la fecha del oral, cuenta con 15 días antes de la convocatoria. Las adaptaciones por discapacidad se piden durante la matrícula, con un certificado médico de menos de dos años. La Alianza advierte de que existen páginas web falsas que ofrecen certificados fraudulentos.</p>",
+    "Saragosse": "<p class=\"ville-faits\">Único centro de Aragón. Propone tres convocatorias al año: febrero, junio y octubre. La matrícula se hace a distancia, en el espacio de inscripción del Institut, durante el plazo de la convocatoria; después llega por correo la convocatoria oficial con las fechas del escrito y del oral. Adaptación por discapacidad: avisar dos meses antes a certificaciones@institutfrancais.es.</p>",
+}
+
+
 PAGES = []
 
 # ===========================================================================
@@ -196,7 +208,7 @@ centro autorizado.</p>"""),
 # ===========================================================================
 PAGES.append(from_fr(
     "delf-espagne", "es", "es-ES", "Espagne",
-    slug="delf-espana", country_name="España",
+    slug="delf-espana", country_name="España", city_notes=CITY_NOTES_ES,
     crumb="DELF en España",
     title="Examen DELF en España: fechas 2027, precios y {n} centros",
     desc="Examen DELF en España: fechas 2027 y mismo precio en Madrid, Sevilla, Valencia y los 32 centros (B2: 192 €). Matrícula para febrero hasta el 9 de enero.",
@@ -1788,3 +1800,9 @@ comunes —documentos, resultados, diploma— están en <a href="/es/delf-espana
     urls={"gerone-alliance-francaise-de-girona": "https://examensdelf.cat/"},
     notes={"gerone-alliance-francaise-de-girona": "Exámenes gestionados en examensdelf.cat; el dominio afgirona.org ya no muestra la web del centro."},
 ))
+
+# 06/11/2026 : les webs relevadas para Málaga y Zaragoza pasan a sus fichas de /es/delf-espana/.
+_HUB_DELF = next(p for p in PAGES if p["slug"] == "delf-espana")
+_HUB_DELF["urls"] = dict(_HUB_DELF.get("urls", {}), **{
+    "malaga-alliance-francaise-malaga": "https://www.alianzafrancesamalaga.es/examen/delf-dalf/",
+    "saragosse-institut-francais-d-espagne-zaragoza": "https://www.institutfrancais.es/zaragoza/examenes/adultos/delf-dalf/"})

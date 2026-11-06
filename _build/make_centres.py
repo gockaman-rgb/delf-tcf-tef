@@ -19,7 +19,7 @@ import unicodedata
 from collections import OrderedDict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from article_template import build  # noqa: E402
+from article_template import build, indep_line, redirect_map  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -36,6 +36,7 @@ PAYS_ID = {"France": 73, "Canada": 112, "Algérie": 115, "Maroc": 117, "Tunisie"
            "Espagne": 70, "Argentine": 15, "Chili": 20, "Pérou": 34, "Équateur": 25}
 PAYS_ID.update({"Allemagne": 60, "Italie": 78, "Pays-Bas": 84, "Portugal": 86, "Roumanie": 87, "Pologne": 85,
                 "Grèce": 74, "Irlande": 76, "Autriche": 61, "Luxembourg": 375})   # Europe (26/10/2026 : pays_config_eu.py)
+
 CC = {"France": "33", "Canada": "1", "Algérie": "213", "Maroc": "212", "Tunisie": "216", "Sénégal": "221",
       "Côte d'Ivoire": "225", "Cameroun": "237", "Belgique": "32", "Liban": "961", "Inde": "91",
       "République démocratique du Congo": "243", "Bénin": "229", "Togo": "228", "Guinée": "224",
@@ -65,6 +66,26 @@ REGION_ORDER = ["Île-de-France", "Auvergne-Rhône-Alpes", "Provence-Alpes-Côte
                 "Normandie", "Centre-Val de Loire", "Bourgogne-Franche-Comté", "Corse", "Outre-mer"]
 
 
+# Sites piratés ou détournés (06/11/2026, SEO_PLAN_CORRECTION_2026-11-03.md §2) : afdelhi.org porte des liens « yoktogel »
+# injectés, le domaine de Kinshasa renvoie vers xoilac-6.net. Jamais de lien vers eux, même si la liste de FEI les donne.
+HOTES_PIRATES = {"afdelhi.org", "institutfrancais-kinshasa.org"}
+# Pays où un seul site prend les réservations (Institut français) : lien de la ligne « site indépendant ».
+OFFICIEL_PAYS = {"Algérie": ("https://www.if-algerie.com/tests-et-examens/tcf", "page TCF de if-algerie.com"),
+                 "Maroc": ("https://if-maroc.org/certifications/tcf-canada/", "if-maroc.org"),
+                 "Tunisie": ("https://www.institutfrancais-tunisie.com/examens/tcf-canada/", "institutfrancais-tunisie.com")}
+
+
+def pirate(u):
+    u = re.sub(r"^(https?://|mailto:)", "", u.strip().lower())
+    return any(h in u.split("/")[0].split("@")[-1] for h in HOTES_PIRATES)
+
+
+def fei_liste_url(country, exam_type):
+    """Page officielle de FEI pour un centre sans site : la liste du pays, à défaut la carte."""
+    typ = "delf_dalf" if "delf" in exam_type else ("examen_civique" if "civ" in exam_type else "tcf")
+    return FEI_LISTE % (PAYS_ID[country], typ) if country in PAYS_ID else FEI_CARTE % typ
+
+
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
@@ -90,6 +111,7 @@ def load(name):
 
 
 def tel_href(phone, country):
+    """Numéro international d'une fiche : sert au dédoublonnage du moteur de centres (make_gazetteer.py), plus aux pages."""
     d = re.sub(r"\D", "", phone.split("/")[0])
     if not d:
         return ""
@@ -133,15 +155,17 @@ def card(c, country):
     if addr:
         lines.append(f'<p class="addr">{esc(addr)}</p>')
     contact = []
-    if c["phone"]:
-        href = tel_href(c["phone"], country)
-        contact.append(f'<a href="tel:{href}">{esc(c["phone"])}</a>' if href else esc(c["phone"]))
+    if c["phone"]:                       # 06/11/2026 : numéro en texte ; le lien de contact est celui du site officiel
+        contact.append(esc(c["phone"]))
     for e in c["emails"][:2]:
-        contact.append(f'<a href="mailto:{esc(e)}">{esc(e)}</a>')
-    if c["url"]:
+        if not pirate(e):
+            contact.append(f'<a href="mailto:{esc(e)}">{esc(e)}</a>')
+    if c["url"] and not pirate(c["url"]):
         u = c["url"] if c["url"].startswith("http") else "http://" + c["url"]
         host = re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
         contact.append(f'<a href="{esc(u)}" rel="noopener nofollow">{esc(host)}</a>')
+    else:
+        contact.append(f'<a href="{esc(fei_liste_url(country, c.get("type", "tcf")))}" rel="noopener">liste officielle (FEI)</a>')
     for item in contact:
         lines.append('<p class="contact">' + item + "</p>")
     if c.get("type", "tcf") == "tcf":   # la liste FEI ne renseigne le support que pour le TCF
@@ -163,8 +187,8 @@ def uniq(cid):
     return cid
 
 
-def group_cards(centres, country, head_level=3):
-    """Cartes groupées par ville (titre h3 ou h4)."""
+def group_cards(centres, country, head_level=3, apres=None):
+    """Cartes groupées par ville (titre h3 ou h4). apres : {ville: html} placé sous les cartes de la ville."""
     cities = OrderedDict()
     for c in sorted(centres, key=lambda x: (slug(clean_city(x["city"])), x["name"])):
         cities.setdefault(clean_city(c["city"]), []).append(c)
@@ -174,6 +198,8 @@ def group_cards(centres, country, head_level=3):
         n = f" <span class=\"count\">({len(cs)})</span>" if len(cs) > 1 else ""
         out.append(f'<h{head_level} id="{cid}">{esc(city)}{n}</h{head_level}>')
         out.append('<div class="grid c2 centres">\n' + "\n".join(card(c, country) for c in cs) + "\n</div>")
+        if apres and apres.get(city):
+            out.append(apres[city].rstrip())
     return "\n".join(out), list(cities.keys())
 
 
@@ -216,8 +242,8 @@ def section_canada(d):
     return "\n\n".join(body), index
 
 
-def section_country_cities(d):
-    cards, cities = group_cards(d["centres"], d["country"], 2)
+def section_country_cities(d, apres=None):
+    cards, cities = group_cards(d["centres"], d["country"], 2, apres)
     index = [(slug(c), c) for c in cities]
     return cards, index
 
@@ -256,7 +282,9 @@ def villes_of(key):
     """Les pages par ville (make_villes.py) d'un pays et d'un examen : [(url, libellé)]."""
     from villes_config import VILLES
     country, exam = key
-    return [(f"/centres/{v['slug']}/", v["crumb"]) for v in VILLES if v["country"] == country and v["exam"] == exam]
+    rd = redirect_map()
+    return [(f"/centres/{v['slug']}/", v["crumb"]) for v in VILLES
+            if v["country"] == country and v["exam"] == exam and f"/centres/{v['slug']}/" not in rd]
 
 
 def villes_block(slug):
@@ -289,6 +317,51 @@ def counts(datasets):
     cs = [c for d in datasets for c in d["centres"]]
     cities = {clean_city(c["city"]) for c in cs}
     return len(cs), sum(1 for c in cs if c["so"]), len(cities)
+
+
+ABSORBE_TN_FAQ = (3, 6)   # articles_ou_passer.TN["faq"] : sessions, empêchement le jour du test
+
+
+def absorption(slug):
+    """Ce qu'un hub de pays reprend des pages coupées le 06/11/2026 : sections de guides, relevés et faits de chaque ville."""
+    if slug not in ("tcf-maroc", "tcf-algerie", "tcf-tunisie"):
+        return None
+    import articles_octobre as O
+    import articles_ou_passer as G
+    from hubs_absorbes import PAR_SLUG, faits_ville, sections_de, tableau_releves
+
+    def apres(slugs):
+        return {PAR_SLUG[s]["match"][0]: faits_ville(s) for s in slugs}
+    rd = redirect_map()
+    coupees = lambda slugs: [s for s in slugs if f"/centres/{s}/" in rd]
+    if slug == "tcf-maroc":
+        villes = ["tcf-casablanca", "tcf-rabat", "tcf-kenitra", "tcf-el-jadida", "tcf-fes", "tcf-meknes", "tcf-tanger", "tcf-tetouan",
+                  "tcf-oujda", "tcf-marrakech", "tcf-agadir"]
+        html_ = ('<h2 id="sessions">Les sessions de TCF Canada relevées, ville par ville</h2>\n'
+                 "<p>Les pages de vente changent chaque semaine : une date pleine peut se libérer, et une ville voisine a souvent "
+                 "une date plus proche (Kénitra pour Rabat, Meknès pour Fès, Tétouan pour Tanger, Essaouira pour Marrakech). Le calendrier "
+                 "annuel publié par l'Institut ne couvre que le DELF-DALF et le TCF tout public : pour le TCF Canada, la seule source est "
+                 "la page de chaque site.</p>\n" + tableau_releves(villes) + "\n" + sections_de(G.MA["body"], ["inscription", "prix", "regles", "pieges"]))
+        toc = [("sessions", "Les sessions relevées, ville par ville"), ("inscription", "S'inscrire en ligne, pas à pas"), ("prix", "Combien ça coûte"),
+               ("regles", "Les règles à connaître avant de payer"), ("pieges", "Les pièges")]
+        faq = [G.MA["faq"][i] for i in (4, 5, 6)]
+        return dict(html=html_, toc=toc, faq=faq, apres=apres(villes))
+    if slug == "tcf-algerie":
+        ifal = next(a for a in O.ARTICLES if a["slug"] == "ifal-tcf-rendez-vous")
+        villes = coupees(["tcf-oran", "tcf-constantine", "tcf-annaba", "tcf-tlemcen"])
+        note = re.search(r'<div class="note">.*?</div>', G.DZ["body"], re.S).group(0)
+        html_ = (sections_de(ifal["body"], ["etapes", "declinaisons", "sigles", "delai", "lieux", "aide"]).replace(
+            '<h2 id="declinaisons">', note + '\n\n<h2 id="declinaisons">') + "\n" + sections_de(G.DZ["body"], ["resultats", "faux-site", "pieges"]))
+        toc = [("etapes", "Prendre rendez-vous, étape par étape"), ("declinaisons", "Quelle déclinaison choisir, et à quel prix"),
+               ("sigles", "DAP, TP, SO : les sigles"), ("delai", "26 ou 36 jours entre deux inscriptions"), ("lieux", "Où se passe l'examen"),
+               ("aide", "Qui contacter quand ça bloque"), ("resultats", "Résultats et attestation"),
+               ("faux-site", "Le faux site qui imite l'Institut français"), ("pieges", "Les autres pièges")]
+        faq = [G.DZ["faq"][4], G.DZ["faq"][6], ifal["faq"][2], ifal["faq"][3], ifal["faq"][4], ifal["faq"][5], ifal["faq"][6]]
+        return dict(html=html_, toc=toc, faq=faq, apres=apres(villes))
+    villes = ["tcf-sousse", "tcf-beja"]
+    toc = [("inscription", "S'inscrire à l'Institut français, pas à pas"), ("calendrier", "Le calendrier, pôle par pôle"), ("prix", "Combien ça coûte"),
+           ("resultats", "Résultats, délais et reprise"), ("alliances", "Les Alliances françaises"), ("pieges", "Les pièges")]
+    return dict(html=sections_de(G.TN["body"], [i for i, _ in toc]), toc=toc, faq=[G.TN["faq"][i] for i in ABSORBE_TN_FAQ], apres=apres(villes))
 
 
 METHOD = """<div class="note">
@@ -326,12 +399,15 @@ def page(spec, datasets):
     n, so, ncity = counts(datasets)
     vals = computed(datasets)
     spec = dict(spec, facts=[f.format_map(vals) for f in spec["facts"]])
+    ab = absorption(spec["slug"])
+    if ab:
+        _USED.update(i for i, _ in ab["toc"])
     if spec["layout"] == "france":
         body, index = section_france(datasets[0], spec["exam"])
     elif spec["layout"] == "canada":
         body, index = section_canada(datasets[0])
     elif spec["layout"] == "cities":
-        body, index = section_country_cities(datasets[0])
+        body, index = section_country_cities(datasets[0], ab["apres"] if ab else None)
     else:
         body, index = section_multi(datasets, spec.get("pointers"))
     list_date = spec.get("list_date_fr", DATE_FR)
@@ -353,6 +429,7 @@ def page(spec, datasets):
 {guides}
 </ul>
 {villes_block(spec["slug"])}
+{ab["html"] if ab else ""}
 <h2 id="liste">La liste, {spec['liste_label']}</h2>
 {chips(index)}
 
@@ -363,7 +440,7 @@ def page(spec, datasets):
 nôtre est datée du {list_date} ; en cas de doute, la liste de FEI fait foi.</p>
 """
     toc = [("utiliser", "Avant de choisir un centre")] + ([("villes", "Les guides par ville")] if villes_block(spec["slug"]) else []) + \
-          [("liste", f"La liste, {spec['liste_label']}")] + \
+          (ab["toc"] if ab else []) + [("liste", f"La liste, {spec['liste_label']}")] + \
           [(i, t.split(" (")[0]) for i, t in index[:12]] + [("sources-officielles", "Les listes officielles")]
     a = {
         "section": "centres", "section_name": "Centres", "og_slug": "centres-" + spec["slug"],
@@ -381,10 +458,11 @@ nôtre est datée du {list_date} ; en cas de doute, la liste de FEI fait foi.</p
 de l'app «&nbsp;TCF DELF TEF&nbsp;: Tests 2026&nbsp;» reproduisent le format officiel de chaque
 déclinaison, avec la notation du vrai test et la correction IA de l'écrit et de l'oral — pour ne
 réserver que la session utile."""),
-        "faq": spec["faq"],
+        "faq": list(spec["faq"]) + (ab["faq"] if ab else []),
         "also": spec["also"],
+        "indep": indep_of(spec, datasets),
         "sources": f"""<strong>Source.</strong> Liste des centres d'examen de France Éducation international,
-{spec['sources_text']}, consultée le {list_date}. Les coordonnées sont celles publiées par FEI ; seules les
+{spec['sources_text']}, consultée le {list_date}{spec.get('sources_plus', '')}. Les coordonnées sont celles publiées par FEI ; seules les
 adresses e-mail génériques (contact, examens, certifications…) sont reprises. Signalez-nous une
 erreur ou une fermeture : la liste est mise à jour à chaque nouvelle lecture de la source.""",
     }
@@ -392,6 +470,16 @@ erreur ou une fermeture : la liste est mise à jour à chaque nouvelle lecture d
     if alts:
         a["alternates"], a["lang_links"] = alts, links
     return a
+
+
+def indep_of(spec, datasets):
+    """Ligne « site indépendant » d'une liste : le site unique du pays s'il existe, sinon la liste officielle de FEI."""
+    ctry = datasets[0]["country"] if len(datasets) == 1 else ""
+    if ctry in OFFICIEL_PAYS:
+        u, label = OFFICIEL_PAYS[ctry]
+        return indep_line("fr", u, label, single=True)
+    label, u = spec["sources_links"][0]
+    return indep_line("fr", u, esc(label))
 
 
 def langs_of(fr_path):
@@ -556,10 +644,11 @@ sur les principaux centres.""",
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", "Les deux tables NCLC et le comparatif de format.")]),
     dict(slug="tcf-algerie", files=["tcf_algerie"], layout="cities", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF en Algérie",
-         title="TCF Algérie 2026 : 5 centres, 37 500 DA, rendez-vous IFAL",
+         title="TCF Algérie 2026 : 5 centres, 37 500 DA, prix et inscription",
          desc="Les 5 centres TCF d'Algérie — Institut français d'Alger, Oran, Constantine, Annaba, Tlemcen —, leurs contacts, les tarifs 2026 (Canada 37 500 DA), IFAL.",
-         modified="2026-10-29", date_fr="29 octobre 2026", list_date_fr="29 octobre 2026",   # liste FEI relue le 29/10/2026 (Annaba : nouvelle adresse)
-         h1="Centres TCF en Algérie : les 5 antennes agréées et leurs contacts",
+         modified="2026-11-06", date_fr="6 novembre 2026", list_date_fr="29 octobre 2026",   # liste FEI relue le 29/10/2026 (Annaba : nouvelle adresse)
+         sources_plus=" ; pages TCF nationale, FAQ et antennes de if-algerie.com et page d'accueil de la plateforme IFAL, consultées le 17 septembre et le 17 octobre 2026, le 29 octobre pour Annaba",
+         h1="Centres TCF en Algérie : les 5 antennes agréées, le prix et l'inscription",
          intro="""En Algérie, le TCF — Canada, Québec, IRN, tout public ou DAP — se passe uniquement dans les
 <strong>cinq antennes de l'Institut français d'Algérie</strong> : Alger (Hydra), Oran, Constantine,
 Annaba et Tlemcen, seuls centres agréés par France Éducation international au 19 septembre 2026, tous
@@ -575,9 +664,7 @@ imite l'Institut.""",
                 "⚠️ <strong>if-algerie.fr est une escroquerie</strong> ; le site officiel est if-algerie.com."],
          stat4=("IFAL", "plateforme d'inscription", "opérée par VFS Global"), cities_note="Alger, Oran, Constantine, Annaba, Tlemcen",
          liste_label="ville par ville", decl="Canada, Québec, IRN, tout public, DAP",
-         guides=[("/blog/ifal-tcf-rendez-vous/", "IFAL TCF : prendre rendez-vous sur la plateforme VFS", "Les étapes, la déclinaison à choisir, les tarifs, les lieux de passation, l'assistance VFS."),
-                 ("/blog/tcf-canada-algerie/", "TCF Canada en Algérie : où le passer, comment s'inscrire", "Les cinq antennes, 37 500 DA, les résultats, le faux site à éviter."),
-                 ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
+         guides=[("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
                  ("/ou-passer/", "Où passer le DELF, le TCF ou le TEF ? Le hub", "")],
          sources_links=[("Liste des centres TCF en Algérie", FEI_LISTE % (115, "tcf")), ("Page TCF de l'Institut français d'Algérie (relue le 17 octobre 2026)", "https://www.if-algerie.com/tests-et-examens/tcf")],
          sources_text="filtre « Algérie », type « TCF », et site de l'Institut français d'Algérie",
@@ -586,17 +673,16 @@ imite l'Institut.""",
               ("Combien coûte le TCF en Algérie ?", "37 500 dinars pour le TCF Canada et le TCF Québec, 19 500 pour le TCF DAP, 13 000 pour le TCF tout public : ce sont les tarifs TTC affichés par les antennes de l'Institut français le 17 octobre 2026, payés en ligne sur la plateforme IFAL. Les montants de 70 000 à 100 000 dinars qui circulent sont ceux d'un site frauduleux."),
               ("Quel est le site officiel ?", "if-algerie.com. Le site if-algerie.fr, qui imite l'Institut et propose un « candidat partenaire » pour passer l'examen à votre place, est une escroquerie."),
               ("Peut-on aussi passer l'examen civique français en Algérie ?", "Oui, à l'Institut français d'Alger (30, rue des Frères-Kadri, Hydra), avec une pré-inscription sur test-civique.fr et un paiement de 9 000 dinars sur place ou par virement.")],
-         also=[("/blog/tcf-canada-algerie/", "TCF Canada en Algérie : où le passer, comment s'inscrire", "Le guide complet, avec le faux site à éviter."),
-               ("/blog/ifal-tcf-rendez-vous/", "IFAL TCF : prendre rendez-vous sur la plateforme VFS", "Les étapes et l'assistance VFS."),
-               ("/centres/tcf-maroc/", "Centres TCF au Maroc", "Les 16 centres agréés, avec leurs contacts."),
+         also=[("/centres/tcf-maroc/", "Centres TCF au Maroc", "Les 16 centres agréés, avec leurs contacts."),
                ("/centres/tcf-tunisie/", "Centres TCF en Tunisie", "Les 14 centres agréés, avec leurs contacts."),
                ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", "")]),
     dict(slug="tcf-maroc", files=["tcf_maroc"], layout="cities", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF au Maroc",
          title="TCF Maroc 2026 : 16 centres, 2 900 Dhs, dates et inscription",
          desc="Les 16 centres TCF agréés au Maroc — Instituts français de Casablanca, Rabat, Fès, Tanger, Agadir… —, le TCF Canada à 2 900 Dhs, les dates oct.-déc. 2026.",
-         modified="2026-10-29", date_fr="29 octobre 2026", list_date_fr="29 octobre 2026",   # liste FEI relue le 29/10/2026 (Annaba : nouvelle adresse)
-         h1="Centres TCF au Maroc : les 16 centres agréés et leurs contacts",
+         modified="2026-11-06", date_fr="6 novembre 2026", list_date_fr="29 octobre 2026",   # liste FEI relue le 29/10/2026 (Annaba : nouvelle adresse)
+         sources_plus=" ; sites de chaque Institut français du Maroc (if-maroc.org), relevés le 17 octobre 2026 pour Casablanca, Marrakech, Essaouira et Béni Mellal, le 29 octobre pour les autres",
+         h1="Centres TCF au Maroc : les 16 centres agréés, les dates et l'inscription",
          intro="""Au Maroc, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France Éducation
 international au 19 septembre 2026 : quatorze sites de l'Institut français du Maroc — de Tanger à
 Agadir — et les Alliances françaises de Safi et de Ouarzazate, %(so)d avec des sessions sur ordinateur.
@@ -606,31 +692,30 @@ chaque centre.""",
          facts=["<strong>16 centres agréés</strong> : 14 Instituts français (dont Béni Mellal et Nador, rattachés à Casablanca et Oujda) et 2 Alliances françaises (Safi, Ouarzazate).",
                 "Tarif national : <strong>TCF Canada, Québec et TEF Canada 2 900 Dhs</strong> ; TCF IRN et tout public 1 900 Dhs (relu le 17 octobre 2026).",
                 "Inscription <strong>en ligne, sur le site de l'Institut de votre ville</strong> (panier) ; le TCF IRN s'inscrit sur place uniquement.",
-                "Le 17 octobre 2026, <strong>douze villes</strong> affichaient des sessions de TCF Canada jusqu'en décembre : 13 dates ouvertes à Kénitra, 8 à Rabat et à El Jadida, 7 à Casablanca ; aucune à Safi.",
+                "Sessions de TCF Canada relevées le 29 octobre 2026 : <strong>11 dates à Kénitra</strong>, 5 à Rabat et à El Jadida, 4 à Agadir, 3 à Fès et à Tanger, 2 à Meknès et à Tétouan, 1 à Oujda ; le 17 octobre, 7 à Casablanca, 2 à Béni Mellal et à Essaouira, 1 à Marrakech, aucune à Safi.",
                 "<strong>20 jours</strong> de carence entre deux TCF ; aucun remboursement ; report sur justificatif facturé 500 Dhs.",
                 "Un organisme absent de cette liste n'est pas agréé : pas d'« agent », pas de revendeur."],
          stat4=("2 900 Dhs", "TCF Canada", "tarif national IFM"), cities_note="de Tanger à Agadir",
          liste_label="ville par ville", decl="Canada, Québec, IRN, tout public, DAP",
-         guides=[("/blog/tcf-canada-maroc/", "TCF Canada au Maroc : les 16 centres et l'inscription", "L'inscription en ligne pas à pas, les sessions d'octobre à décembre 2026 ville par ville, les règles de report."),
-                 ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
+         guides=[("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
                  ("/ou-passer/", "Où passer le DELF, le TCF ou le TEF ? Le hub", "")],
          sources_links=[("Liste des centres TCF au Maroc", FEI_LISTE % (117, "tcf")), ("Institut français du Maroc — TCF Canada", "https://if-maroc.org/certifications/tcf-canada/")],
          sources_text="filtre « Maroc », type « TCF », et site de l'Institut français du Maroc",
          faq=[("Où passer le TCF Canada au Maroc ?", "Dans l'un des seize centres agréés : les Instituts français d'Agadir, Béni Mellal, Casablanca, El Jadida, Essaouira, Fès, Kénitra, Marrakech, Meknès, Nador, Oujda, Rabat, Tanger et Tétouan, et les Alliances françaises de Safi et de Ouarzazate."),
               ("Combien coûte le TCF au Maroc ?", "2 900 dirhams pour le TCF Canada, le TCF Québec et le TEF Canada ; 1 900 dirhams pour le TCF IRN et le TCF tout public — tarif de l'Institut français du Maroc, affiché dans les douze villes qui listaient des sessions le 17 octobre 2026."),
               ("Comment s'inscrire ?", "En ligne, sur le site de l'Institut français de votre ville (if-maroc.org/casablanca, /rabat…), page TCF Canada : choix de la session, panier, paiement. Pièce d'identité et photo demandées ; convocation remise dès l'inscription. Le TCF IRN s'inscrit à l'accueil."),
-              ("À quelle fréquence ont lieu les sessions ?", "Cela dépend du site. Le 17 octobre 2026 : treize dates ouvertes à Kénitra d'ici le 18 décembre, huit à Rabat et à El Jadida, sept à Casablanca (plus deux à Béni Mellal), quatre à Fès, trois à Tanger, Meknès, Tétouan et Agadir, deux à Essaouira, une à Marrakech (12 novembre) et à Oujda (10 novembre) ; aucune à Safi."),
+              ("À quelle fréquence ont lieu les sessions ?", "Cela dépend du site. Le 29 octobre 2026 : onze dates en vente à Kénitra jusqu'au 18 décembre, cinq à Rabat et à El Jadida, quatre à Agadir, trois à Fès et à Tanger, deux à Meknès et à Tétouan, une à Oujda (10 novembre). Le 17 octobre : sept à Casablanca, deux à Béni Mellal et à Essaouira, une à Marrakech (12 novembre), aucune à Safi."),
               ("Peut-on se faire rembourser ?", "Non : « le candidat ne pourra, en aucun cas, être remboursé ». Un report est possible sur justificatif (maladie, décès, accident, examen officiel) envoyé sous 5 jours ouvrés, facturé 500 dirhams.")],
-         also=[("/blog/tcf-canada-maroc/", "TCF Canada au Maroc : les 16 centres et l'inscription", "Le guide complet."),
-               ("/centres/tcf-algerie/", "Centres TCF en Algérie", "Les cinq antennes de l'Institut français."),
+         also=[("/centres/tcf-algerie/", "Centres TCF en Algérie", "Les cinq antennes de l'Institut français."),
                ("/centres/tcf-tunisie/", "Centres TCF en Tunisie", "Les 14 centres agréés."),
                ("/blog/tcf-ou-tef-canada/", "TCF ou TEF Canada : lequel choisir ?", "")]),
     dict(slug="tcf-tunisie", files=["tcf_tunisie"], layout="cities", exam="TCF", accent="accent-tcf",
          crumb="Centres TCF en Tunisie",
          title="TCF Tunisie 2026 : 14 centres, 880 DT, dates et inscription",
          desc="Les 14 centres TCF agréés en Tunisie — Institut français de Tunis, Sousse, Sfax, Nabeul, Béja, Kébili, 6 Alliances —, le TCF Canada à 880 DT, les dates.",
-         modified="2026-10-17", date_fr="17 octobre 2026",
-         h1="Centres TCF en Tunisie : les 14 centres agréés et leurs contacts",
+         modified="2026-11-06", date_fr="6 novembre 2026",
+         sources_plus=" ; site de l'Institut français de Tunisie, page TCF Canada et calendrier des pôles, consultés le 17 octobre 2026",
+         h1="Centres TCF en Tunisie : les 14 centres agréés, le calendrier et l'inscription",
          intro="""En Tunisie, le TCF se passe dans les <strong>%(n)d centres agréés</strong> par France Éducation
 international au 19 septembre 2026 : les pôles de l'Institut français de Tunisie — Tunis, El Mourouj,
 Nabeul-Hammamet, Béja, Sousse, Sfax, Kébili, Médenine — et six Alliances françaises (Tunis-Ariana,
@@ -645,8 +730,7 @@ de chaque centre.""",
                 "Le TCF Canada est proposé dans sept pôles de l'Institut ; Médenine n'apparaît que pour le tout public."],
          stat4=("880 DT", "TCF Canada à l'Institut", "5 semaines de résultats"), cities_note="de Bizerte à Médenine",
          liste_label="ville par ville", decl="Canada, Québec, IRN, tout public",
-         guides=[("/blog/tcf-canada-tunisie/", "TCF Canada en Tunisie : centres, calendrier, inscription", "Le calendrier d'octobre à décembre pôle par pôle, la procédure rendez-vous puis inscription, les frais, les délais."),
-                 ("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
+         guides=[("/tcf-canada/", "TCF Canada 2026 : format, scores NCLC et préparation", ""),
                  ("/ou-passer/", "Où passer le DELF, le TCF ou le TEF ? Le hub", "")],
          sources_links=[("Liste des centres TCF en Tunisie", FEI_LISTE % (118, "tcf")), ("Institut français de Tunisie — TCF Canada", "https://www.institutfrancais-tunisie.com/examens/tcf-canada/")],
          sources_text="filtre « Tunisie », type « TCF », et site de l'Institut français de Tunisie",
@@ -655,8 +739,7 @@ de chaque centre.""",
               ("Comment s'inscrire à l'Institut français ?", "Un rendez-vous en ligne pendant la fenêtre ouverte pour la session, puis l'inscription et le paiement sur place au pôle choisi, le jour fixé — en espèces, ou par carte à Tunis. Le candidat peut se faire représenter."),
               ("Combien de temps pour les résultats ?", "Cinq semaines après la passation, indique l'Institut — le délai le plus long que nous ayons relevé. L'attestation vaut ensuite deux ans."),
               ("Quel délai pour repasser le test ?", "Trente jours entre deux sessions de TCF ou de TEF, selon l'Institut ; avec des résultats à cinq semaines et une session par mois, une seconde tentative prend deux à trois mois.")],
-         also=[("/blog/tcf-canada-tunisie/", "TCF Canada en Tunisie : centres, calendrier, inscription", "Le guide complet."),
-               ("/centres/tcf-maroc/", "Centres TCF au Maroc", "Les 16 centres agréés."),
+         also=[("/centres/tcf-maroc/", "Centres TCF au Maroc", "Les 16 centres agréés."),
                ("/centres/tcf-algerie/", "Centres TCF en Algérie", "Les cinq antennes de l'Institut français."),
                ("/blog/tcf-canada-nclc-7/", "NCLC 7 au TCF Canada : quel score viser exactement", "")]),
     dict(slug="tcf-afrique", files=["tcf_senegal", "tcf_cote_d_ivoire", "tcf_cameroun", "tcf_republique_democratique_du_congo", "tcf_congo", "tcf_benin", "tcf_togo", "tcf_guinee", "tcf_gabon", "tcf_mali", "tcf_mauritanie", "tcf_maurice"],
@@ -949,6 +1032,7 @@ nom — et une attestation « à distance » n'existe pas. En cas de doute, la l
 """
     return {
         "section": "", "slug": "centres", "accent": "accent-delf", "crumb": "Centres d'examen",
+        "indep": indep_line("fr", FEI_CARTE % "tcf", "carte des centres (FEI)"),
         "lang_links": '<p class="langs"><a href="/es/" hreflang="es" lang="es">En español</a> · <a href="/en/" hreflang="en" lang="en">In English</a></p>',   # pages /es/ et /en/ (08/10/2026)
         "title": "Centres d'examen DELF, TCF et examen civique : l'annuaire",
         "desc": f"{fr_int(total)} centres agréés par FEI dans {npays} pays, avec adresse, téléphone, e-mail et site : France, Canada, Maghreb, Europe, Amériques, Afrique.",

@@ -22,7 +22,7 @@ from collections import OrderedDict
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, ".."))
 sys.path.insert(0, HERE)
-from article_template import build, render  # noqa: E402
+from article_template import indep_line, build, render  # noqa: E402
 from pillar_modules import PILLARS, stats, steps  # noqa: E402
 from exam_hubs_config import EXAMS  # noqa: E402
 
@@ -175,14 +175,25 @@ def build_exam(slug, cfg):
     return out
 
 
+def with_indep(exam, a):
+    """Modules d'inscription qui listent des centres : ligne « site indépendant » en tête (06/11/2026)."""
+    if 'class="card centre"' not in a["body"]:
+        return a
+    carte = "https://www.france-education-international.fr/centres-d-examen/carte?type-centre="
+    if exam == "tef-canada":
+        return dict(a, indep=indep_line("fr", "https://www.lefrancaisdesaffaires.fr/trouver-un-centre-agree/", "centres agréés (Le français des affaires)"))
+    delf = exam in ("delf-b1", "delf-b2", "dalf")
+    return dict(a, indep=indep_line("fr", carte + ("delf_dalf" if delf else "tcf"), f"carte des centres {'DELF-DALF' if delf else 'TCF'} (FEI)"))
+
+
 def main():
     if os.environ.get("ONLY"):
         # ONLY=/delf-b2/,… (26/10/2026) : le filtre d'article_template.build — seules ces pages sont réécrites.
-        build([a for slug, cfg in EXAMS.items() for a in build_exam(slug, cfg)], overwrite=True)
+        build([with_indep(slug, a) for slug, cfg in EXAMS.items() for a in build_exam(slug, cfg)], overwrite=True)
         return
     for slug, cfg in EXAMS.items():
         for a in build_exam(slug, cfg):
-            path, w = render(a, overwrite=True)
+            path, w = render(with_indep(slug, a), overwrite=True)
             print(f"  ✓ {path[len(ROOT):-len('index.html')]} — {w} mots")
 
 

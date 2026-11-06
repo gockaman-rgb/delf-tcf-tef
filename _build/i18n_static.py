@@ -19,6 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, ".."))
 BASE = "https://delf-tcf-tef.fr"
 sys.path.insert(0, HERE)
+from article_template import open_alternates, open_lang_links  # noqa: E402
 from i18n_registry import alternates_for, translations  # noqa: E402
 
 ALT = re.compile(r'<link rel="alternate" hreflang="[^"]+" href="[^"]+">\n')
@@ -56,6 +57,7 @@ def main():
             continue
         html = open(f, encoding="utf-8").read()
         alts, links = alternates_for(fr_path, tr)
+        alts, links = open_alternates(fr_path, alts), open_lang_links(links) or ""
         new = fix(html, alts, links)
         if new != html:
             todo += 1

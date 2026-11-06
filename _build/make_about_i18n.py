@@ -30,7 +30,7 @@ LOCALE = {"en": "en_US", "es": "es_ES", "ar": "ar_AR"}
 
 BODY = {}
 BODY["en"] = """<h1>About this site and its editorial method</h1>
-<p class="meta">Updated 29 October 2026 · translated from the French page of 27 July 2026</p>
+<p class="meta">Updated 6 November 2026 · translated from the French page of 6 November 2026</p>
 {langs}
 <p class="intro">This site is published by <strong>Augusto Grone</strong>. It publishes guides on the French
 exams — DELF, DALF, TCF, TEF — and on the language levels required for immigration and citizenship procedures.
@@ -38,6 +38,7 @@ This page explains how that information is established, checked and corrected.</
 
 <details class="toc"><summary>Contents</summary><ol>
 <li><a href="#why">Why this site exists</a></li>
+<li><a href="#production">How the articles are produced</a></li>
 <li><a href="#method">How we verify</a></li>
 <li><a href="#sources">The sources we use</a></li>
 <li><a href="#not">What we do not publish</a></li>
@@ -52,6 +53,10 @@ blogs, dated forum threads and automatic summaries that are sometimes wrong. In 
 the top of search engines giving <strong>incorrect</strong> NCLC conversion ranges.</p>
 <p>For a reader preparing an immigration or citizenship file, wrong information does not only cost time: it costs exam
 fees, months of delay, and sometimes a refusal. This site starts from there.</p>
+
+<h2 id="production">How the articles are produced</h2>
+<p>The articles and pages on this site are <strong>written with artificial intelligence tools</strong>, language models (Claude, by Anthropic), under the responsibility of the publisher, who chooses the topics, decides what is published and corrects reported errors. Official pages are opened and read, the text is written from them, then a second pass, also assisted by AI, checks the figures against the sources. Centre prices, dates and addresses are read on their websites and carry the date of that check.</p>
+<p>No page presents itself as the opinion of an examiner or an expert. This process can let an error through: that is why every page points to its official source, and why your reports matter.</p>
 
 <h2 id="method">How we verify</h2>
 <p>Every article follows the same chain, and we keep to it even when it is slower.</p>
@@ -134,7 +139,7 @@ Canada. These names are used purely descriptively, to name the exams this site c
 """
 
 BODY["es"] = """<h1>Acerca de este sitio y su método editorial</h1>
-<p class="meta">Actualizado el 29 de octubre de 2026 · traducción de la página francesa del 27 de julio de 2026</p>
+<p class="meta">Actualizado el 6 de noviembre de 2026 · traducción de la página francesa del 6 de noviembre de 2026</p>
 {langs}
 <p class="intro">Este sitio lo edita <strong>Augusto Grone</strong>. Publica guías sobre los exámenes de francés
 — DELF, DALF, TCF, TEF — y sobre los niveles de idioma exigidos en los trámites de inmigración y nacionalidad. Aquí
@@ -142,6 +147,7 @@ se explica cómo se establece, se verifica y se corrige esa información.</p>
 
 <details class="toc"><summary>Contenido</summary><ol>
 <li><a href="#por-que">Por qué existe este sitio</a></li>
+<li><a href="#produccion">Cómo se producen los artículos</a></li>
 <li><a href="#metodo">Nuestro método de verificación</a></li>
 <li><a href="#fuentes">Las fuentes que usamos</a></li>
 <li><a href="#no">Lo que no publicamos</a></li>
@@ -156,6 +162,10 @@ blogs de consultores, foros antiguos y resúmenes automáticos a veces falsos. E
 mostrados en lo alto de los buscadores daban rangos de conversión NCLC <strong>erróneos</strong>.</p>
 <p>Para quien prepara un expediente de inmigración o de nacionalidad, una información falsa no cuesta solo tiempo:
 cuesta tasas de examen, meses de retraso y, a veces, una denegación. Este sitio parte de ahí.</p>
+
+<h2 id="produccion">Cómo se producen los artículos</h2>
+<p>Los artículos y las páginas de este sitio se <strong>redactan con herramientas de inteligencia artificial</strong>, modelos de lenguaje (Claude, de Anthropic), bajo la responsabilidad del editor, que elige los temas, decide qué se publica y corrige los errores señalados. Las páginas oficiales se abren y se leen, el texto se redacta a partir de ellas y una segunda pasada, también asistida por IA, contrasta las cifras con las fuentes. Los precios, fechas y direcciones de los centros se consultan en sus webs y llevan la fecha de la consulta.</p>
+<p>Ninguna página se presenta como la opinión de un examinador o de un experto. Este proceso puede dejar pasar un error: por eso cada página remite a su fuente oficial, y por eso tus avisos cuentan.</p>
 
 <h2 id="metodo">Nuestro método de verificación</h2>
 <p>Cada artículo sigue la misma cadena, y la respetamos incluso cuando es más lenta.</p>
@@ -240,7 +250,7 @@ Canadá. Estos nombres se emplean de forma puramente descriptiva, para designar 
 """
 
 BODY["ar"] = """<h1>عن هذا الموقع ومنهجه التحريري</h1>
-<p class="meta">آخر تحديث 29 أكتوبر 2026 · ترجمة للصفحة الفرنسية الصادرة في 27 يوليو 2026</p>
+<p class="meta">آخر تحديث 6 نوفمبر 2026 · ترجمة للصفحة الفرنسية الصادرة في 6 نوفمبر 2026</p>
 {langs}
 <p class="intro">يصدر هذا الموقع عن <strong><bdi>Augusto Grone</bdi></strong>. ينشر أدلة عن امتحانات اللغة الفرنسية
 — <bdi>DELF</bdi> و<bdi>DALF</bdi> و<bdi>TCF</bdi> و<bdi>TEF</bdi> — وعن مستويات اللغة المطلوبة في إجراءات الهجرة
@@ -248,6 +258,7 @@ BODY["ar"] = """<h1>عن هذا الموقع ومنهجه التحريري</h1>
 
 <details class="toc"><summary>المحتويات</summary><ol>
 <li><a href="#why">لماذا وُجد هذا الموقع</a></li>
+<li><a href="#production">كيف تُنتَج المقالات</a></li>
 <li><a href="#method">منهجنا في التحقق</a></li>
 <li><a href="#sources">المصادر التي نعتمدها</a></li>
 <li><a href="#not">ما لا ننشره</a></li>
@@ -262,6 +273,10 @@ BODY["ar"] = """<h1>عن هذا الموقع ومنهجه التحريري</h1>
 محركات البحث تعطي نطاقات تحويل <bdi>NCLC</bdi> <strong>خاطئة</strong>.</p>
 <p>بالنسبة لقارئ يُعدّ ملف هجرة أو جنسية، لا تكلّف المعلومة الخاطئة الوقت فقط: بل تكلّف رسوم امتحان، وأشهرًا من التأخير،
 وأحيانًا رفضًا. من هنا ينطلق هذا الموقع.</p>
+
+<h2 id="production">كيف تُنتَج المقالات</h2>
+<p>تُكتب مقالات هذا الموقع وصفحاته <strong>بأدوات الذكاء الاصطناعي</strong>، وهي نماذج لغوية (<bdi>Claude</bdi> من <bdi>Anthropic</bdi>)، تحت مسؤولية الناشر الذي يختار المواضيع ويقرر ما يُنشر ويصحّح الأخطاء المُبلَّغ عنها. تُفتح الصفحات الرسمية وتُقرأ، ويُكتب النص انطلاقًا منها، ثم تقارن مراجعة ثانية، بمساعدة الذكاء الاصطناعي أيضًا، الأرقام بالمصادر. أما أسعار المراكز ومواعيدها وعناوينها فتُؤخذ من مواقعها وتحمل تاريخ الاطلاع عليها.</p>
+<p>لا تُقدَّم أي صفحة على أنها رأي مصحّح أو خبير. وقد تمرّ أخطاء في هذه الطريقة: لذلك تحيل كل صفحة إلى مصدرها الرسمي، ولذلك تهمّنا بلاغاتكم.</p>
 
 <h2 id="method">منهجنا في التحقق</h2>
 <p>يتبع كل مقال السلسلة نفسها، ونلتزم بها حتى حين تكون أبطأ.</p>

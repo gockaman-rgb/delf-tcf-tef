@@ -19,8 +19,8 @@ from collections import OrderedDict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from article_template import build  # noqa: E402
-from make_centres import clean_city, esc, load, province_ca, slug, stats  # noqa: E402
+from article_template import build, indep_line  # noqa: E402
+from make_centres import clean_city, esc, load, pirate, province_ca, slug, stats  # noqa: E402
 
 DATE = "2026-10-08"
 DATE_FR = "8 octobre 2026"
@@ -78,8 +78,7 @@ def phone_html(phone, country):
     for g in groups:
         parts.append(x[i:i + g])
         i += g
-    shown = f"+{cc} " + " ".join(parts)
-    return f'<a href="tel:+{cc}{x}">{shown}</a>'
+    return f"+{cc} " + " ".join(parts)    # 06/11/2026 : en texte, le lien de contact est celui du site officiel du centre
 
 
 # ---------------------------------------------------------------------------
@@ -418,14 +417,21 @@ def card(c, country, spec):
     if c["phone"] and re.sub(r"\D", "", c["phone"]) not in BAD_PHONES:
         lines.append(f'<p class="contact">{ltr(phone_html(c["phone"], country))}</p>')
     for e in c["emails"][:2]:
+        if pirate(e):
+            continue
         mail = f'<a href="mailto:{esc(e)}">{esc(e)}</a>'
         lines.append(f'<p class="contact">{ltr(mail)}</p>')
     # Site corrigé quand celui de FEI est mort, détourné ou périmé (relevé du 08/10/2026) ; "" = pas de lien.
     u = spec.get("urls", {}).get(k, c["url"].strip().rstrip(BOM))
-    if u:
+    if u and not pirate(u):
         u = u if u.startswith("http") else "http://" + u
         site = f'<a href="{esc(u)}" rel="noopener nofollow">{esc(host(u))}</a>'
         lines.append(f'<p class="contact">{ltr(site)}</p>')
+    else:                                  # pas de site fiable : la page officielle reste la liste de FEI
+        typ = "tcf" if spec["exam"] == "tcf" else "delf_dalf"
+        fei = FEI_LISTE % (PAYS_ID[country], typ) if country in PAYS_ID else FEI_CARTE % typ
+        label = {"fr": "liste officielle (FEI)", "en": "official list (FEI)", "es": "lista oficial (FEI)", "ar": "القائمة الرسمية (FEI)"}[LANG_OF(spec)]
+        lines.append(f'<p class="contact"><a href="{esc(fei)}" rel="noopener">{label}</a></p>')
     note = spec.get("notes", {}).get(k)
     if note:
         lines.append(f'<p class="contact"><em>{note}</em></p>')
@@ -470,6 +476,8 @@ def city_blocks(centres, country, spec, level):
         n = f' <span class="count">({len(cs)})</span>' if len(cs) > 1 else ""
         out.append(f'<h{level} id="{uniq(anchor(shown, city))}">{esc(shown)}{n}</h{level}>')
         out.append('<div class="grid c2 centres">\n' + "\n".join(card(c, country, spec) for c in cs) + "\n</div>")
+        if spec.get("city_notes", {}).get(city):
+            out.append(spec["city_notes"][city])
     return "\n".join(out)
 
 
@@ -551,24 +559,14 @@ def texts(spec, exam_label, list_date, releve_date, country_name, fei_country, s
     """Les phrases fixes de la page, par langue. La note de lecture ne parle que de ce que la page affiche :
     badges du relevé, sinon notes en italique, sinon rien (08/10/2026)."""
     lang, W = LANG_OF(spec), words(spec)
-    badges, notes = bool(spec.get("badges")), bool(spec.get("notes"))
     if lang == "es":
         so_cap = W["so"][0].upper() + W["so"][1:]
-        how = " ".join(x for x in [
-            f"«{so_cap}»: según FEI, el centro ofrece {W['sess']} {W['so']}; «{W['paper']}»: no declara esa opción." if exam == "tcf" else "",
-            ("Las etiquetas «TCF Canada» vienen" if exam == "tcf" else "Las etiquetas vienen")
-            + f" de nuestra revisión {W['del_web']} de cada centro, el {releve_date}." if badges else
-            f"Las notas en cursiva vienen de nuestra revisión {W['del_web']} de cada centro, el {releve_date}." if notes else ""] if x)
         exams = "TCF Canada, TCF Québec, TCF IRN" if exam == "tcf" else "DELF B1, DELF B2, DALF C1"
         return dict(
-            note=f"""<p><strong>Cómo leer esta lista.</strong> Reproduce la lista oficial de centros autorizados por France
-Éducation international (FEI), consultada el {list_date}: nombre, dirección, teléfono, correo genérico y {W['web']}
-tal como los publica FEI; cuando {W['la_web']} ya no responde o {W['cambio']} de dirección, damos {W['lo']} que
-abrimos ese día. {how + ' ' if how else ''}Un organismo que no figura en esta lista no está autorizado.</p>""",
+            note=f"""<p>Lista oficial de centros de FEI, consultada el {list_date}. Un organismo que no figura en ella no está autorizado.</p>""",
             official_h2="Las listas oficiales",
             official=f"""<p><a href="{src}" rel="noopener">Lista oficial de centros {exam_label} de FEI — {esc(country_name)}</a> ·
-<a href="{carte}" rel="noopener">mapa de centros {exam_label}</a>{extra}. Estas listas cambian: FEI añade y
-retira centros a lo largo del año; la nuestra es del {list_date}. En caso de duda, la lista de FEI es la que vale.</p>""",
+<a href="{carte}" rel="noopener">mapa de centros {exam_label}</a>{extra}.</p>""",
             sources=f"""<strong>Fuentes.</strong> Lista de centros de examen de France Éducation international
 (filtro «{esc(fei_country)}», tipo «{exam_label}»), consultada el {list_date} — datos de contacto tal como los
 publica FEI, solo correos genéricos; {sources} Los precios, fechas y condiciones cambian sin aviso:
@@ -578,22 +576,12 @@ verifícalos {W['en_web']} del centro antes de pagar.""",
 «TCF DELF TEF: Tests 2026» reproducen el formato oficial de cada examen — {exams} — con la
 puntuación del examen real y corrección con IA de la expresión escrita y oral. La app está en español.""")
     if lang == "en":
-        how = " ".join(x for x in [
-            f"“Computer-based”: FEI lists the {W['centre']} as offering computer sessions; “paper-based”: FEI lists no computer sessions."
-            if exam == "tcf" else "",
-            ("The “TCF Canada” badges come" if exam == "tcf" else "The badges come")
-            + f" from our check of each {W['centre']}’s website on {releve_date}." if badges else
-            f"Notes in italics come from our check of each {W['centre']}’s website on {releve_date}." if notes else ""] if x)
         exams = "TCF Canada, TCF Québec, TCF IRN" if exam == "tcf" else "DELF B1, DELF B2, DALF C1"
         return dict(
-            note=f"""<p><strong>How to read this list.</strong> It reproduces the official list of test {W['centres']} approved
-by France Éducation international (FEI), read on {list_date}: name, address, phone, generic email and website
-as FEI publishes them; where the listed website no longer works or has moved, we give the one we opened that
-day. {how + ' ' if how else ''}An {W['org']} that is not on this list is not approved.</p>""",
+            note=f"""<p>FEI’s official list of {W['centres']}, read on {list_date}. An {W['org']} that is not on it is not approved.</p>""",
             official_h2="The official lists",
             official=f"""<p><a href="{src}" rel="noopener">FEI’s official list of {exam_label} test {W['centres']} — {esc(country_name)}</a> ·
-<a href="{carte}" rel="noopener">map of {exam_label} {W['centres']}</a>{extra}. These lists change: FEI adds and
-removes {W['centres']} during the year — ours is dated {list_date}. If in doubt, FEI’s list is the reference.</p>""",
+<a href="{carte}" rel="noopener">map of {exam_label} {W['centres']}</a>{extra}.</p>""",
             sources=f"""<strong>Sources.</strong> France Éducation international’s list of exam {W['centres']}
 (filter “{esc(fei_country)}”, type “{exam_label}”), read on {list_date} — contact details as FEI publishes
 them, generic email addresses only; {sources} Prices, dates and rules change without notice: check them on the
@@ -603,22 +591,12 @@ them, generic email addresses only; {sources} Prices, dates and rules change wit
 “TCF DELF TEF: Tests 2026” app follow the official format of each test — {exams} — scored like
 the real thing, with AI feedback on writing and speaking.""")
     if lang == "ar":
-        how = " ".join(x for x in [
-            f"«{W['so']}»: تذكر FEI أن المركز يقدّم جلسات على الحاسوب؛ «{W['paper']}»: لا تذكر FEI جلسات على الحاسوب."
-            if exam == "tcf" else "",
-            ("شارات «TCF Canada» مأخوذة" if exam == "tcf" else "الشارات مأخوذة")
-            + f" من مراجعتنا لموقع كل مركز في {releve_date}." if badges else
-            f"الملاحظات بالخط المائل مأخوذة من مراجعتنا لموقع كل مركز في {releve_date}." if notes else ""] if x)
         exams = "TCF كندا وTCF Québec وTCF IRN" if exam == "tcf" else "DELF B1 وDELF B2 وDALF C1"
         return dict(
-            note=f"""<p><strong>كيف تقرأ هذه القائمة.</strong> تنقل هذه القائمة القائمة الرسمية لمراكز الامتحان المعتمدة من
-<bdi>France Éducation international</bdi> (FEI)، كما اطّلعنا عليها في {list_date}: الاسم والعنوان والهاتف والبريد الإلكتروني
-العام والموقع كما تنشرها FEI؛ وإذا لم يعد الموقع المذكور يعمل أو تغيّر عنوانه، نذكر الموقع الذي فتحناه في ذلك اليوم.
-{how + ' ' if how else ''}الجهة غير المدرجة في هذه القائمة ليست معتمدة.</p>""",
+            note=f"""<p>القائمة الرسمية للمراكز لدى FEI، كما اطّلعنا عليها في {list_date}. الجهة غير المدرجة فيها ليست معتمدة.</p>""",
             official_h2="القوائم الرسمية",
             official=f"""<p><a href="{src}" rel="noopener">القائمة الرسمية لمراكز {exam_label} لدى FEI — {esc(country_name)}</a> ·
-<a href="{carte}" rel="noopener">خريطة مراكز {exam_label}</a>{extra}. تتغيّر هذه القوائم: تضيف FEI مراكز وتحذف أخرى خلال
-السنة، وقائمتنا مؤرخة في {list_date}. عند الشك، المرجع هو قائمة FEI.</p>""",
+<a href="{carte}" rel="noopener">خريطة مراكز {exam_label}</a>{extra}.</p>""",
             sources=f"""<strong>المصادر.</strong> قائمة مراكز الامتحان لدى <bdi>France Éducation international</bdi> (التصفية
 «<bdi>{esc(fei_country)}</bdi>»، النوع «{exam_label}»)، اطّلعنا عليها في {list_date} — بيانات الاتصال كما تنشرها FEI،
 والعناوين البريدية العامة فقط؛ {sources} تتغيّر الأسعار والمواعيد والشروط دون إشعار: تحقّق منها على موقع المركز قبل الدفع.""",
@@ -626,22 +604,11 @@ the real thing, with AI feedback on writing and speaking.""")
             cta_p=f"""تدفع رسوم كل جلسة كاملةً، ولا يمكنك إعادة الامتحان فورًا. الامتحانات التجريبية في تطبيق
 «<bdi>TCF DELF TEF: Tests 2026</bdi>» تتبع الصيغة الرسمية لكل امتحان — {exams} — وتُصحَّح كالامتحان الحقيقي، مع ملاحظات
 بالذكاء الاصطناعي على التعبير الكتابي والشفهي. واجهة التطبيق على iPhone متاحة بالعربية، أما مواد الامتحان فبالفرنسية.""")
-    how = " ".join(x for x in [
-        "« Sur ordinateur » : FEI indique que le centre propose des sessions sur ordinateur ; « papier » : il n'en "
-        "déclare pas." if exam == "tcf" else "",
-        ("Les badges « TCF Canada » viennent" if exam == "tcf" else "Les badges viennent") + " de notre relevé du "
-        + releve_date + " sur le site de chaque centre." if badges else
-        "Les notes en italique viennent de notre relevé du " + releve_date + " sur le site de chaque centre." if notes else ""] if x)
     return dict(
-        note=f"""<p><strong>Comment lire cette liste.</strong> Elle reprend la liste officielle des centres agréés par
-France Éducation international, consultée le {list_date} — nom, adresse, téléphone, adresse e-mail
-générique et site tels que FEI les publie ; quand le site indiqué ne répond plus ou a changé d'adresse, nous
-donnons celui que nous avons ouvert ce jour-là. {how + ' ' if how else ''}Un organisme absent de cette liste n'est pas agréé.</p>""",
+        note=f"""<p>Liste officielle des centres de FEI, consultée le {list_date}. Un organisme absent de cette liste n'est pas agréé.</p>""",
         official_h2="Les listes officielles",
         official=f"""<p><a href="{src}" rel="noopener">Liste des centres {exam_label} — {esc(fei_country)}</a> (FEI) ·
-<a href="{carte}" rel="noopener">carte des centres {exam_label}</a>{extra}. Ces listes
-évoluent : FEI ajoute et retire des centres au fil des agréments — la nôtre est datée du {list_date} ;
-en cas de doute, la liste de FEI fait foi.</p>""",
+<a href="{carte}" rel="noopener">carte des centres {exam_label}</a>{extra}.</p>""",
         sources=f"""<strong>Sources.</strong> Liste des centres d'examen de France Éducation international
 (filtre « {esc(fei_country)} », type « {exam_label} »), consultée le {list_date} — coordonnées telles que FEI
 les publie, adresses e-mail génériques seulement ; {sources} Les prix, dates et modalités
@@ -719,6 +686,9 @@ def page(spec, tr=None):
         "published": spec.get("published", DATE), "modified": spec.get("modified", spec.get("published", DATE)), "date_fr": date_label,
         "read": spec.get("read", max(5, n // 8)),
         "intro": fmt(spec["intro"]), "facts": [fmt(f) for f in spec["facts"]],
+        "indep": indep_line(lang, FEI_LISTE % (PAYS_ID[country], typ), {
+            "fr": f"centres {exam_label}, {esc(country)} (FEI)", "en": f"{exam_label} centres, {esc(spec.get('country_name', country))} (FEI)",
+            "es": f"centros {exam_label}, {esc(spec.get('country_name', country))} (FEI)", "ar": f"مراكز {exam_label} (FEI)"}[lang]),
         "toc": toc, "body": body,
         "cta_h2": spec.get("cta_h2", T["cta_h2"]),
         "cta_p": spec.get("cta_p", T["cta_p"]),

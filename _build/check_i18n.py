@@ -123,6 +123,8 @@ def ar_pages():
 def main():
     strict = "--strict" in sys.argv
     errors, warns = [], []
+    from article_template import closed_paths
+    closed = closed_paths()
     for fr, tr, lang in pairs():
         if not os.path.exists(path_file(tr)):
             errors.append(f"{tr} : page absente (make_pays.py --force)")
@@ -132,9 +134,14 @@ def main():
         miss = sorted(numbers(text(editorial(hf))) - numbers(text(editorial(ht))), key=lambda x: (len(x), x))
         if miss:
             (errors if strict else warns).append(f"{tr} : nombres du français absents de la traduction : {', '.join(miss)}")
-        # hreflang réciproques
+        # hreflang réciproques (06/11/2026 : une page fermée n'en a pas, et aucune page n'en pointe vers elle)
         for src, h in ((fr, hf), (tr, ht)):
             alts = alternates(h)
+            for lang_code, href in alts:
+                if (href.replace(BASE, "") in closed) != (src in closed):
+                    errors.append(f"{src} : hreflang {lang_code} entre une page ouverte et une page fermée ({href.replace(BASE, '')})")
+            if fr in closed or tr in closed:
+                continue
             if not alts:
                 errors.append(f"{src} : aucune balise hreflang")
             for lang_code, href in alts:
@@ -177,6 +184,9 @@ def main():
                 warns.append(f"{p} : {len(hits)} mot(s) français possibles — " + " | ".join(hits[:4]))
     # Paires sans français (arabe ↔ anglais) : hreflang réciproques
     for en, others in en_pairs().items():
+        group = [en] + [q for _, q in others]
+        if any(q in closed for q in group):
+            continue
         for src in [en] + [q for _, q in others]:
             if not os.path.exists(path_file(src)):
                 errors.append(f"{src} : page absente")

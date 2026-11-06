@@ -71,9 +71,7 @@ FOOTER = """<footer class="site"><div class="wrap">
       <li><a href="https://naturalisationfrancefacile.fr">Naturalisation France Facile</a></li>
     </ul></div>
   </div>
-  <p class="legal">Application non officielle, non affiliée à France Éducation International
-  (DELF, DALF, TCF) ni au Français des affaires — CCI Paris Île-de-France (TEF). Les noms
-  d'examens sont cités uniquement pour décrire le contenu de préparation.
+  <p class="legal">Site et application indépendants et non officiels : ni France Éducation international (DELF, DALF, TCF), ni le Français des affaires — CCI Paris Île-de-France (TEF), ni les Instituts français, ni VFS Global. Nous ne vendons aucune place d'examen. Les noms d'examens et de centres sont cités uniquement pour informer.
   © 2026 delf-tcf-tef.fr</p>
 </div></footer>""" % APP
 
@@ -84,10 +82,10 @@ FOOTER = """<footer class="site"><div class="wrap">
 APP_INTL = 'https://apps.apple.com/app/id6790412304'
 HEADER_ES = '<header class="site"><div class="wrap">\n  <a class="logo" href="/es/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>\n  <a class="store" href="https://apps.apple.com/app/id6790412304">App&nbsp;Store</a>\n  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menú"><span></span></button>\n  <nav class="main" id="menu" popover aria-label="Navegación principal">\n    <div class="menu-panel">\n      <a href="/es/">Centros</a>\n      <a href="/es/tcf-canada/">TCF Canada</a>\n      <a href="/es/delf-b2/">DELF B2</a>\n      <a href="/en/" lang="en">English</a>\n      <a href="/" lang="fr">Français</a>\n    </div>\n    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Cerrar el menú"></button>\n  </nav>\n</div></header>'
 HEADER_EN = '<header class="site"><div class="wrap">\n  <a class="logo" href="/en/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span>DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>\n  <a class="store" href="https://apps.apple.com/app/id6790412304">App&nbsp;Store</a>\n  <button class="menu-btn" type="button" popovertarget="menu" aria-label="Menu"><span></span></button>\n  <nav class="main" id="menu" popover aria-label="Main navigation">\n    <div class="menu-panel">\n      <a href="/en/tcf-canada/">TCF Canada</a>\n      <a href="/en/tcf-canada-practice-test/">Practice</a>\n      <a href="/en/tcf-canada-test-centres/">Centres in Canada</a>\n      <a href="/en/">All locations</a>\n      <a href="/es/" lang="es">Español</a>\n      <a href="/" lang="fr">Français</a>\n    </div>\n    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="Close menu"></button>\n  </nav>\n</div></header>'
-FOOTER_ES = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF Canada</h4><ul>\n      <li><a href="/es/tcf-canada/">El examen TCF Canada</a></li>\n      <li><a href="/es/examen-de-frances-para-canada/">¿TCF o TEF Canada?</a></li>\n      <li><a href="/es/tcf-canada-espana/">España</a></li>\n      <li><a href="/es/tcf-canada-mexico/">México</a></li>\n      <li><a href="/es/tcf-canada-colombia/">Colombia</a></li>\n      <li><a href="/es/tcf-canada-argentina/">Argentina</a></li>\n      <li><a href="/es/tcf-canada-chile/">Chile</a></li>\n      <li><a href="/es/tcf-canada-peru/">Perú</a></li>\n      <li><a href="/es/tcf-canada-ecuador/">Ecuador</a></li>\n    </ul></div>\n    <div><h4>DELF y DALF</h4><ul>\n      <li><a href="/es/delf-b2/">Examen DELF B2</a></li>\n      <li><a href="/es/delf-b1/">Examen DELF B1</a></li>\n      <li><a href="/es/dalf-c1/">DALF C1</a></li>\n      <li><a href="/es/fechas-delf-2027/">Fechas DELF 2027</a></li>\n      <li><a href="/es/delf-b2-ejemplos/">Ejemplos DELF B2</a></li>\n      <li><a href="/es/delf-espana/">DELF en España</a></li>\n      <li><a href="/es/delf-madrid/">DELF en Madrid</a></li>\n      <li><a href="/es/delf-mexico/">DELF en México</a></li>\n      <li><a href="/es/delf-colombia/">DELF en Colombia</a></li>\n    </ul></div>\n    <div><h4>El sitio</h4><ul>\n      <li><a href="/es/">Centros de examen</a></li>\n      <li><a href="/es/centro-de-examen-cerca-de-mi/">Buscar un centro cerca de mí</a></li>\n      <li><a href="/es/certificado-de-frances/">¿Qué certificado de francés?</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">La app en el App&nbsp;Store</a></li>\n      <li><a href="/" lang="fr">Versión en francés</a></li>\n      <li><a href="/en/" lang="en">English</a></li>\n      <li><a href="/es/acerca-de/">Acerca de este sitio</a></li>\n      <li><a href="/confidentialite/">Privacidad</a></li>\n      <li><a href="/support/">Contacto</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">Aplicación no oficial, sin vínculo con France Éducation international\n  (DELF, DALF, TCF) ni con Le français des affaires — CCI Paris Île-de-France (TEF). Los nombres\n  de los exámenes se citan solo para describir el contenido de preparación.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
-FOOTER_EN = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF Canada and TEF</h4><ul>\n      <li><a href="/en/tcf-canada/">The TCF Canada exam</a></li>\n      <li><a href="/en/tcf-canada/format/">Format</a></li>\n      <li><a href="/en/tcf-canada/score-clb/">Scores and CLB calculator</a></li>\n      <li><a href="/en/tcf-canada/fees-registration/">Fees and registration</a></li>\n      <li><a href="/en/tcf-canada-practice-test/">Free practice test</a></li>\n      <li><a href="/en/tcf-canada-writing-tasks/">Writing tasks</a></li>\n      <li><a href="/en/tcf-canada-speaking-topics/">Speaking topics</a></li>\n      <li><a href="/en/tcf-vs-tef-canada/">TCF vs TEF Canada</a></li>\n      <li><a href="/en/tef-canada/">TEF Canada</a></li>\n      <li><a href="/en/tcf-quebec/">TCF Québec</a></li>\n    </ul></div>\n    <div><h4>DELF, DALF and France</h4><ul>\n      <li><a href="/en/delf-b2/">DELF B2 exam</a></li>\n      <li><a href="/en/delf-b1/">DELF B1 exam</a></li>\n      <li><a href="/en/dalf-c1/">DALF C1</a></li>\n      <li><a href="/en/delf-exam-dates-2027/">DELF exam dates 2027</a></li>\n      <li><a href="/en/delf-b2-practice-test/">DELF B2 practice test</a></li>\n      <li><a href="/en/delf-usa/">DELF in the USA</a></li>\n      <li><a href="/en/delf-uk/">DELF in the UK</a></li>\n      <li><a href="/en/french-citizenship-b2/">French citizenship: B2</a></li>\n      <li><a href="/en/tcf-irn/">TCF IRN</a></li>\n    </ul></div>\n    <div><h4>Test centres</h4><ul>\n      <li><a href="/en/test-centre-near-me/">Find a test centre near you</a></li>\n      <li><a href="/en/tcf-canada-test-centres/">Canada: all provinces</a></li>\n      <li><a href="/en/tcf-canada-toronto/">Toronto</a></li>\n      <li><a href="/en/tcf-canada-montreal/">Montreal</a></li>\n      <li><a href="/en/tcf-canada-vancouver/">Vancouver</a></li>\n      <li><a href="/en/tcf-canada-india/">India</a></li>\n      <li><a href="/en/tcf-canada-dubai/">Dubai and Abu Dhabi</a></li>\n      <li><a href="/en/tcf-canada-saudi-arabia/">Saudi Arabia</a></li>\n      <li><a href="/en/tcf-canada-usa/">United States</a></li>\n      <li><a href="/en/tcf-canada-uk/">United Kingdom</a></li>\n      <li><a href="/en/#europe">Europe</a></li>\n    </ul></div>\n    <div><h4>The site</h4><ul>\n      <li><a href="/en/">All locations</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">The app on the App&nbsp;Store</a></li>\n      <li><a href="/" lang="fr">French version</a></li>\n      <li><a href="/es/" lang="es">Español</a></li>\n      <li><a href="/ar/" lang="ar" dir="rtl">العربية</a></li>\n      <li><a href="/en/about/">About this site</a></li>\n      <li><a href="/en/press/">Press</a></li>\n      <li><a href="/confidentialite/">Privacy</a></li>\n      <li><a href="/support/">Contact</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">Unofficial app, not affiliated with France Éducation international\n  (DELF, DALF, TCF) or Le français des affaires — CCI Paris Île-de-France (TEF). Exam names\n  are cited only to describe the preparation content.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
+FOOTER_ES = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF Canada</h4><ul>\n      <li><a href="/es/tcf-canada/">El examen TCF Canada</a></li>\n      <li><a href="/es/examen-de-frances-para-canada/">¿TCF o TEF Canada?</a></li>\n      <li><a href="/es/tcf-canada-espana/">España</a></li>\n      <li><a href="/es/tcf-canada-mexico/">México</a></li>\n      <li><a href="/es/tcf-canada-colombia/">Colombia</a></li>\n      <li><a href="/es/tcf-canada-argentina/">Argentina</a></li>\n      <li><a href="/es/tcf-canada-chile/">Chile</a></li>\n      <li><a href="/es/tcf-canada-peru/">Perú</a></li>\n      <li><a href="/es/tcf-canada-ecuador/">Ecuador</a></li>\n    </ul></div>\n    <div><h4>DELF y DALF</h4><ul>\n      <li><a href="/es/delf-b2/">Examen DELF B2</a></li>\n      <li><a href="/es/delf-b1/">Examen DELF B1</a></li>\n      <li><a href="/es/dalf-c1/">DALF C1</a></li>\n      <li><a href="/es/fechas-delf-2027/">Fechas DELF 2027</a></li>\n      <li><a href="/es/delf-b2-ejemplos/">Ejemplos DELF B2</a></li>\n      <li><a href="/es/delf-espana/">DELF en España</a></li>\n      <li><a href="/es/delf-madrid/">DELF en Madrid</a></li>\n      <li><a href="/es/delf-mexico/">DELF en México</a></li>\n      <li><a href="/es/delf-colombia/">DELF en Colombia</a></li>\n    </ul></div>\n    <div><h4>El sitio</h4><ul>\n      <li><a href="/es/">Centros de examen</a></li>\n      <li><a href="/es/centro-de-examen-cerca-de-mi/">Buscar un centro cerca de mí</a></li>\n      <li><a href="/es/certificado-de-frances/">¿Qué certificado de francés?</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">La app en el App&nbsp;Store</a></li>\n      <li><a href="/" lang="fr">Versión en francés</a></li>\n      <li><a href="/en/" lang="en">English</a></li>\n      <li><a href="/es/acerca-de/">Acerca de este sitio</a></li>\n      <li><a href="/confidentialite/">Privacidad</a></li>\n      <li><a href="/support/">Contacto</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">Sitio y aplicación independientes y no oficiales: no somos France Éducation international (DELF, DALF, TCF), ni Le français des affaires — CCI Paris Île-de-France (TEF), ni los Institut français, ni VFS Global. No vendemos plazas de examen. Los nombres de exámenes y centros se citan solo para informar.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
+FOOTER_EN = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF Canada and TEF</h4><ul>\n      <li><a href="/en/tcf-canada/">The TCF Canada exam</a></li>\n      <li><a href="/en/tcf-canada/format/">Format</a></li>\n      <li><a href="/en/tcf-canada/score-clb/">Scores and CLB calculator</a></li>\n      <li><a href="/en/tcf-canada/fees-registration/">Fees and registration</a></li>\n      <li><a href="/en/tcf-canada-practice-test/">Free practice test</a></li>\n      <li><a href="/en/tcf-canada-writing-tasks/">Writing tasks</a></li>\n      <li><a href="/en/tcf-canada-speaking-topics/">Speaking topics</a></li>\n      <li><a href="/en/tcf-vs-tef-canada/">TCF vs TEF Canada</a></li>\n      <li><a href="/en/tef-canada/">TEF Canada</a></li>\n      <li><a href="/en/tcf-quebec/">TCF Québec</a></li>\n    </ul></div>\n    <div><h4>DELF, DALF and France</h4><ul>\n      <li><a href="/en/delf-b2/">DELF B2 exam</a></li>\n      <li><a href="/en/delf-b1/">DELF B1 exam</a></li>\n      <li><a href="/en/dalf-c1/">DALF C1</a></li>\n      <li><a href="/en/delf-exam-dates-2027/">DELF exam dates 2027</a></li>\n      <li><a href="/en/delf-b2-practice-test/">DELF B2 practice test</a></li>\n      <li><a href="/en/delf-usa/">DELF in the USA</a></li>\n      <li><a href="/en/delf-uk/">DELF in the UK</a></li>\n      <li><a href="/en/french-citizenship-b2/">French citizenship: B2</a></li>\n      <li><a href="/en/tcf-irn/">TCF IRN</a></li>\n    </ul></div>\n    <div><h4>Test centres</h4><ul>\n      <li><a href="/en/test-centre-near-me/">Find a test centre near you</a></li>\n      <li><a href="/en/tcf-canada-test-centres/">Canada: all provinces</a></li>\n      <li><a href="/en/tcf-canada-toronto/">Toronto</a></li>\n      <li><a href="/en/tcf-canada-montreal/">Montreal</a></li>\n      <li><a href="/en/tcf-canada-vancouver/">Vancouver</a></li>\n      <li><a href="/en/tcf-canada-india/">India</a></li>\n      <li><a href="/en/tcf-canada-dubai/">Dubai and Abu Dhabi</a></li>\n      <li><a href="/en/tcf-canada-saudi-arabia/">Saudi Arabia</a></li>\n      <li><a href="/en/tcf-canada-usa/">United States</a></li>\n      <li><a href="/en/tcf-canada-uk/">United Kingdom</a></li>\n      <li><a href="/en/#europe">Europe</a></li>\n    </ul></div>\n    <div><h4>The site</h4><ul>\n      <li><a href="/en/">All locations</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">The app on the App&nbsp;Store</a></li>\n      <li><a href="/" lang="fr">French version</a></li>\n      <li><a href="/es/" lang="es">Español</a></li>\n      <li><a href="/ar/" lang="ar" dir="rtl">العربية</a></li>\n      <li><a href="/en/about/">About this site</a></li>\n      <li><a href="/en/press/">Press</a></li>\n      <li><a href="/confidentialite/">Privacy</a></li>\n      <li><a href="/support/">Contact</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">Independent, unofficial site and app: we are not France Éducation international (DELF, DALF, TCF), Le français des affaires — CCI Paris Île-de-France (TEF), the Instituts français or VFS Global. We sell no exam places. Exam and centre names are cited for information only.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
 HEADER_AR = '<header class="site"><div class="wrap">\n  <a class="logo" href="/ar/"><img src="/img/favicon-192.png" alt="" width="30" height="30"><span dir="ltr">DELF&nbsp;·&nbsp;TCF&nbsp;·&nbsp;TEF</span></a>\n  <a class="store" href="https://apps.apple.com/app/id6790412304">App&nbsp;Store</a>\n  <button class="menu-btn" type="button" popovertarget="menu" aria-label="القائمة"><span></span></button>\n  <nav class="main" id="menu" popover aria-label="التنقل الرئيسي">\n    <div class="menu-panel">\n      <a href="/ar/tcf-canada/">TCF كندا</a>\n      <a href="/ar/tcf-canada-practice-test/">امتحان تجريبي</a>\n      <a href="/ar/#centres">مراكز الامتحان</a>\n      <a href="/en/" lang="en" dir="ltr">English</a>\n      <a href="/" lang="fr" dir="ltr">Français</a>\n    </div>\n    <button class="menu-scrim" type="button" popovertarget="menu" popovertargetaction="hide" tabindex="-1" aria-label="إغلاق القائمة"></button>\n  </nav>\n</div></header>'
-FOOTER_AR = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF كندا</h4><ul>\n      <li><a href="/ar/tcf-canada/">امتحان TCF كندا</a></li>\n      <li><a href="/ar/tcf-canada-nclc/">الدرجات وحاسبة NCLC</a></li>\n      <li><a href="/ar/tcf-canada-practice-test/">امتحان تجريبي مجاني</a></li>\n      <li><a href="/ar/tcf-canada-preparation/">التحضير</a></li>\n      <li><a href="/ar/tcf-canada-writing/">التعبير الكتابي</a></li>\n      <li><a href="/ar/tcf-canada-speaking/">التعبير الشفهي</a></li>\n      <li><a href="/ar/tcf-or-tef-canada/">TCF أم TEF كندا؟</a></li>\n      <li><a href="/ar/tcf-canada-price/">السعر والتسجيل</a></li>\n    </ul></div>\n    <div><h4>مراكز الامتحان</h4><ul>\n      <li><a href="/ar/test-centre-near-me/">ابحث عن مركز قريب منك</a></li>\n      <li><a href="/ar/tcf-canada-uae/">الإمارات</a></li>\n      <li><a href="/ar/tcf-canada-egypt/">مصر</a></li>\n      <li><a href="/ar/tcf-canada-lebanon/">لبنان</a></li>\n      <li><a href="/ar/tcf-canada-saudi-arabia/">السعودية</a></li>\n      <li><a href="/ar/tcf-canada-jordan/">الأردن</a></li>\n      <li><a href="/ar/tcf-canada-qatar/">قطر</a></li>\n      <li><a href="/ar/tcf-canada-kuwait/">الكويت</a></li>\n    </ul></div>\n    <div><h4>الموقع</h4><ul>\n      <li><a href="/ar/">الصفحة الرئيسية بالعربية</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">التطبيق على App&nbsp;Store</a></li>\n      <li><a href="/en/" lang="en" dir="ltr">English</a></li>\n      <li><a href="/" lang="fr" dir="ltr">Français</a></li>\n      <li><a href="/ar/about/">عن الموقع</a></li>\n      <li><a href="/confidentialite/">الخصوصية</a></li>\n      <li><a href="/support/">اتصل بنا</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">تطبيق غير رسمي، لا علاقة له بـ<bdi>France Éducation international</bdi>\n  (DELF وDALF وTCF) ولا بـ<bdi>Le français des affaires — CCI Paris Île-de-France</bdi> (TEF). تُذكر أسماء\n  الامتحانات لوصف محتوى التحضير فقط.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
+FOOTER_AR = '<footer class="site"><div class="wrap">\n  <div class="cols">\n    <div><h4>TCF كندا</h4><ul>\n      <li><a href="/ar/tcf-canada/">امتحان TCF كندا</a></li>\n      <li><a href="/ar/tcf-canada-nclc/">الدرجات وحاسبة NCLC</a></li>\n      <li><a href="/ar/tcf-canada-practice-test/">امتحان تجريبي مجاني</a></li>\n      <li><a href="/ar/tcf-canada-preparation/">التحضير</a></li>\n      <li><a href="/ar/tcf-canada-writing/">التعبير الكتابي</a></li>\n      <li><a href="/ar/tcf-canada-speaking/">التعبير الشفهي</a></li>\n      <li><a href="/ar/tcf-or-tef-canada/">TCF أم TEF كندا؟</a></li>\n      <li><a href="/ar/tcf-canada-price/">السعر والتسجيل</a></li>\n    </ul></div>\n    <div><h4>مراكز الامتحان</h4><ul>\n      <li><a href="/ar/test-centre-near-me/">ابحث عن مركز قريب منك</a></li>\n      <li><a href="/ar/tcf-canada-uae/">الإمارات</a></li>\n      <li><a href="/ar/tcf-canada-egypt/">مصر</a></li>\n      <li><a href="/ar/tcf-canada-lebanon/">لبنان</a></li>\n      <li><a href="/ar/tcf-canada-saudi-arabia/">السعودية</a></li>\n      <li><a href="/ar/tcf-canada-jordan/">الأردن</a></li>\n      <li><a href="/ar/tcf-canada-qatar/">قطر</a></li>\n      <li><a href="/ar/tcf-canada-kuwait/">الكويت</a></li>\n    </ul></div>\n    <div><h4>الموقع</h4><ul>\n      <li><a href="/ar/">الصفحة الرئيسية بالعربية</a></li>\n      <li><a href="https://apps.apple.com/app/id6790412304">التطبيق على App&nbsp;Store</a></li>\n      <li><a href="/en/" lang="en" dir="ltr">English</a></li>\n      <li><a href="/" lang="fr" dir="ltr">Français</a></li>\n      <li><a href="/ar/about/">عن الموقع</a></li>\n      <li><a href="/confidentialite/">الخصوصية</a></li>\n      <li><a href="/support/">اتصل بنا</a></li>\n    </ul></div>\n  </div>\n  <p class="legal">موقع وتطبيق مستقلان وغير رسميين: لسنا <bdi>France Éducation international</bdi> (DELF وDALF وTCF) ولا <bdi>Le français des affaires — CCI Paris Île-de-France</bdi> (TEF) ولا <bdi>Instituts français</bdi> ولا <bdi>VFS Global</bdi>. لا نبيع أماكن في الامتحانات. تُذكر أسماء الامتحانات والمراكز للإعلام فقط.\n  © 2026 delf-tcf-tef.fr</p>\n</div></footer>'
 
 UI = {
     "fr": dict(html="fr", locale="fr_FR", in_language="fr-FR", home="Accueil", by="Par", updated="Mis à jour le",
@@ -123,6 +121,77 @@ def noindex_paths():
         return set()
     with open(f, encoding="utf-8") as fh:
         return {l.strip() for l in fh if l.strip() and not l.startswith("#")}
+
+
+def redirect_map():
+    """Pages coupées le 06/11/2026 (coupe_config.py) : {chemin: (cible, libellé, langue)}."""
+    from coupe_config import REDIRECTS
+    return REDIRECTS
+
+
+def closed_paths():
+    """Tout ce que Google ne doit plus voir : pages en noindex et pages de renvoi."""
+    return noindex_paths() | set(redirect_map())
+
+
+def retarget_links(doc):
+    """Un lien interne vers une page coupée pointe vers sa cible. L'ancre de la cible l'emporte ; à défaut, celle du lien
+    est gardée (/blog/tcf-canada-algerie/#faux-site → /centres/tcf-algerie/#faux-site)."""
+    rd = redirect_map()
+
+    def one(m):
+        path, frag = m.group(1), m.group(2) or ""
+        if path not in rd:
+            return m.group(0)
+        target = rd[path][0]
+        return f'href="{target if "#" in target else target + frag}"'
+    return re.sub(r'href="(/[^"#?]*)(#[^"]*)?"', one, doc)
+
+
+def open_alternates(path, alts):
+    """hreflang (06/11/2026) : jamais vers une page fermée, et aucun depuis une page fermée. Un groupe réduit à une seule
+    page ouverte n'a plus de balise ; x-default suit vers une page ouverte."""
+    closed = closed_paths()
+    if not alts or path in closed:
+        return []
+    kept = [(h, p) for h, p in alts if h != "x-default" and p not in closed]
+    if len(kept) < 2:
+        return []
+    default = [p for h, p in alts if h == "x-default" and p not in closed]
+    return kept + [("x-default", default[0] if default else kept[0][1])]
+
+
+def open_lang_links(links):
+    """La ligne visible « Read in English · … », sans les pages fermées."""
+    if not links:
+        return links
+    closed = closed_paths()
+    items = [m for m in re.findall(r'<a href="[^"]+"[^>]*>.*?</a>', links) if re.search(r'href="([^"]+)"', m).group(1) not in closed]
+    return '<p class="langs">' + " · ".join(items) + "</p>" if items else ""
+
+
+# Ligne « site indépendant » en tête des pages de centres (06/11/2026). official = (url, libellé) quand une plateforme ou un
+# site unique prend les réservations ; sinon la réservation se fait chez chaque centre et le lien mène à la liste de FEI.
+INDEP = {
+    "fr": ("<strong>Site indépendant</strong> : nous ne sommes ni l'Institut français, ni VFS Global, ni France Éducation "
+           "international (FEI), et nous ne vendons aucune place d'examen.",
+           "Réservation officielle :", "Réservation officielle sur le site de chaque centre (lien dans sa fiche) ; liste officielle :"),
+    "en": ("<strong>Independent site</strong>: we are not the Institut français, VFS Global or France Éducation international "
+           "(FEI), and we sell no exam places.",
+           "Official booking:", "Official booking is on each centre’s own website (linked in its entry); official list:"),
+    "es": ("<strong>Sitio independiente</strong>: no somos el Institut français, ni VFS Global, ni France Éducation international "
+           "(FEI), y no vendemos plazas de examen.",
+           "Reserva oficial:", "La reserva oficial se hace en la web de cada centro (enlace en su ficha); lista oficial:"),
+    "ar": ("<strong>موقع مستقل</strong>: لسنا <bdi>Institut français</bdi> ولا <bdi>VFS Global</bdi> ولا "
+           "<bdi>France Éducation international</bdi> (FEI)، ولا نبيع أماكن في الامتحانات.",
+           "الحجز الرسمي:", "الحجز الرسمي يتم على موقع كل مركز (الرابط في بطاقته)؛ القائمة الرسمية:"),
+}
+
+
+def indep_line(lang, url, label, single=False):
+    """<p class="indep">…</p> : single=True si ce lien prend lui-même les réservations (plateforme ou site unique)."""
+    head, one, many = INDEP[lang]
+    return f'<p class="indep">{head} {one if single else many} <a href="{url}" rel="noopener">{label}</a>.</p>'
 
 
 def render(a, overwrite=False):
@@ -177,8 +246,10 @@ def render(a, overwrite=False):
 
     toc = "\n".join(f'<li><a href="#{i}">{t}</a></li>' for i, t in a["toc"])
     facts = "\n".join(f"<li>{f}</li>" for f in a["facts"])
-    alts = "".join(f'<link rel="alternate" hreflang="{h}" href="{BASE}{p}">\n' for h, p in a.get("alternates", []))
-    lang_links = f'{a["lang_links"]}\n' if a.get("lang_links") else ""
+    page_path = url[len(BASE):]
+    alts = "".join(f'<link rel="alternate" hreflang="{h}" href="{BASE}{p}">\n' for h, p in open_alternates(page_path, a.get("alternates", [])))
+    visible_langs = open_lang_links(a.get("lang_links"))
+    lang_links = f'{visible_langs}\n' if visible_langs else ""
     faq = "\n\n".join(
         f"<details><summary>{q}</summary>\n<p>{ans}</p></details>" for q, ans in a["faq"])
     also = "\n".join(
@@ -230,7 +301,7 @@ def render(a, overwrite=False):
 <p class="crumb">{crumb_html}</p>
 <h1>{a['h1']}</h1>
 <p class="meta">{L['by']} <a href="{L.get('about', '/a-propos/')}">{AUTHOR}</a> · {L['updated']} {a['date_fr']} · {a['read']} {read_label}</p>
-{lang_links}
+{lang_links}{a.get('indep', '') + chr(10) if a.get('indep') else ''}
 <p class="intro">{a['intro']}</p>
 
 <div class="facts"><strong>{L['essentials']}</strong><ul>
@@ -269,6 +340,7 @@ def render(a, overwrite=False):
 </body>
 </html>
 """
+    doc = retarget_links(doc)
     out = os.path.join(ROOT, section, slug, "index.html") if section else os.path.join(ROOT, slug, "index.html")
     if os.path.exists(out) and not overwrite:
         raise SystemExit(f"REFUS : {out} existe déjà (ce script ne réécrit jamais l'existant)")
@@ -284,10 +356,13 @@ def build(articles, overwrite=False):
     # morceaux, en écrasant ; les autres sont ignorées — plusieurs chantiers peuvent ainsi tourner en même temps.
     # Un morceau terminé par « $ » exige le chemin exact : ONLY=/en/$ réécrit le hub anglais seul, pas tout /en/.
     only = [p for p in os.environ.get("ONLY", "").split(",") if p]
+    rd = redirect_map()
     for a in articles:
+        section = a.get("section", "blog")
+        path = re.sub(r"/+", "/", f"/{section}/{a['slug']}/" if section else f"/{a['slug']}/")
+        if path in rd:                     # page de renvoi : écrite par coupe.py, jamais rendue
+            continue
         if only:
-            section = a.get("section", "blog")
-            path = re.sub(r"/+", "/", f"/{section}/{a['slug']}/" if section else f"/{a['slug']}/")
             if not any(path == p[:-1] if p.endswith("$") else p in path for p in only):
                 continue
             overwrite = True

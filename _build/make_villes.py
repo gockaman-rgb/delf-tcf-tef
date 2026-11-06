@@ -17,14 +17,25 @@ from collections import OrderedDict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from article_template import build  # noqa: E402
-from make_centres import card, clean_city, langs_of, load, esc, stats, slug as slugify  # noqa: E402
-from villes_config import VILLES, PROCEDURES  # noqa: E402
+from article_template import build, indep_line, redirect_map  # noqa: E402
+from make_centres import FEI_LISTE, OFFICIEL_PAYS, PAYS_ID, card, clean_city, langs_of, load, esc  # noqa: E402
+from villes_config import VILLES  # noqa: E402
 
 DATE = "2026-09-19"
 DATE_FR = "19 septembre 2026"
 RELEVE = "17 septembre 2026"
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"]
+
+
+# Renvoi de la section « S'inscrire » vers la page qui porte la procédure du pays (06/11/2026).
+PROCEDURE_RENVOI = {
+    "fr": {"tcf": 'La procédure, les délais et les pièces demandées : <a href="/blog/ou-passer-le-tcf-canada-en-france/">TCF Canada en France</a>, <a href="/blog/ou-passer-le-tcf-irn-en-france/">TCF IRN en France</a>.',
+           "delf": 'Le calendrier national, la procédure et les pièges : <a href="/blog/ou-passer-le-delf-en-france/">où passer le DELF en France</a>.'},
+    "ca": {"tcf": 'Comment obtenir une place, les prix et les annulations : <a href="/blog/ou-passer-le-tcf-canada-au-canada/">où passer le TCF Canada au Canada</a>.'},
+    "dz": {"tcf": 'Les étapes, les pièces, les délais et le faux site à éviter : <a href="/centres/tcf-algerie/#etapes">TCF en Algérie</a>.'},
+    "ma": {"tcf": 'Les étapes et les règles : <a href="/centres/tcf-maroc/#inscription">TCF au Maroc</a>.'},
+    "tn": {"tcf": 'Le rendez-vous, l\'inscription sur place et le calendrier de chaque pôle : <a href="/centres/tcf-tunisie/#inscription">TCF en Tunisie</a>.'},
+}
 
 
 def list_date(datasets):
@@ -55,7 +66,6 @@ def page(v):
     exam = v["exam"]
     label = v["label"]
     country = v["country"]
-    proc = PROCEDURES[country][exam]
     # cartes
     cards = "\n".join(card(c, ctry) for c, ctry in sorted(cs, key=lambda x: x[0]["name"]))
     near_html = ""
@@ -66,8 +76,7 @@ def page(v):
     rows = v.get("releve", [])
     releve = v.get("releve_date") or RELEVE
     if rows:
-        tbl = ('<div class="tablewrap wide">\n<table>\n<caption>Ce que le site de chaque centre affichait le '
-               f'{releve}. « Non relevé » : non publié, ou non vérifié — le site du centre fait foi.</caption>\n'
+        tbl = (f'<div class="tablewrap wide">\n<table>\n<caption>Relevé du {releve}.</caption>\n'
                '<thead><tr><th>Centre</th><th>' + ("Déclinaisons" if exam == "tcf" else "Diplômes") +
                '</th><th>Prix</th><th>Sessions et inscription</th></tr></thead>\n<tbody>\n'
                + "\n".join(f"<tr><td><strong>{a}</strong></td><td>{b}</td><td>{c}</td><td>{d}</td></tr>" for a, b, c, d in rows)
@@ -77,39 +86,31 @@ def page(v):
     exam_label = "TCF" if exam == "tcf" else "DELF-DALF"
     h2l = v.get("h2_label", label)
     head = (f"Le centre agréé {v['prep']} {h2l}" if n == 1 else f"Les {n} centres agréés {v['prep']} {h2l}")
-    if exam == "tcf":
-        stat2 = (str(so), "sur ordinateur", "tous les centres de la ville" if so == n else "les autres sur papier")
-    else:
-        stat2 = ("3", "sessions nationales", "d'ici fin 2026 : oct., nov., déc.")
-    st = stats([(str(n), f"centre{'s' if n > 1 else ''} agréé{'s' if n > 1 else ''}", f"liste FEI du {lfr}"),
-                stat2, v["stat3"], v["stat4"]])
-    guides = "\n".join(f'<li><a href="{u}">{t}</a>' + (f"\n<p>{d}</p>" if d else "") + "</li>" for u, t, d in v["guides"])
+    # 06/11/2026 : plus de bloc de chiffres, de paragraphe de procédure ni de guides commentés sur les pages de ville. Ils
+    # répétaient le même texte de page en page (40 à 60 % de phrases partagées) : la procédure vit sur le hub du pays ou le guide.
+    intro_centres = v["centres_intro"].replace("{liste_fei}", lfr) if v["centres_intro_propre"] else ""
+    renvoi = PROCEDURE_RENVOI[country][exam]
     body = f"""
-{st}
-
 <h2 id="centres">{head}</h2>
-<p>{v['centres_intro'].replace('{liste_fei}', lfr)}</p>
+{f"<p>{intro_centres}</p>" if intro_centres else ""}
 <div class="grid c2 centres">
 {cards}
 </div>
 {near_html}
 
-<h2 id="releve">Ce que nous avons relevé, centre par centre</h2>
+<h2 id="releve">Prix et dates</h2>
 {tbl}
 {v.get('releve_note', '')}
 
 <h2 id="inscription">S'inscrire {v['prep']} {label}</h2>
-{proc}
-<p>Pour la procédure complète, les prix relevés et les pièges du pays :</p>
-<ul class="posts">
-{guides}
-</ul>
+<p>{renvoi}</p>
 """
-    toc = [("centres", head), ("releve", "Ce que nous avons relevé"), ("inscription", f"S'inscrire {v['prep']} {label}")]
+    toc = [("centres", head), ("releve", "Prix et dates"), ("inscription", f"S'inscrire {v['prep']} {label}")]
     a = {
         "section": "centres", "section_name": "Centres", "og_slug": v.get("og_slug", "centres"),
         "slug": v["slug"], "accent": "accent-tcf" if exam == "tcf" else "accent-delf", "crumb": v["crumb"],
         "title": v["title"], "desc": v["desc"], "h1": v["h1"],
+        "indep": official_line(v),
         "published": v.get("published") or DATE, "modified": mod[0],
         "date_fr": mod[1], "read": 5,
         "intro": v["intro"] % {"n": n, "so": so},
@@ -136,13 +137,24 @@ avant de payer.""",
     return a
 
 
+def official_line(v):
+    """Ligne « site indépendant » : plateforme ou site unique quand le pays en a un, sinon la liste officielle de FEI."""
+    ctry = country_label(v["country"])
+    if ctry in OFFICIEL_PAYS:
+        u, label = OFFICIEL_PAYS[ctry]
+        return indep_line("fr", u, label, single=True)
+    typ = "tcf" if v["exam"] == "tcf" else "delf_dalf"
+    return indep_line("fr", FEI_LISTE % (PAYS_ID[ctry], typ), f"centres {'TCF' if v['exam'] == 'tcf' else 'DELF-DALF'}, {ctry} (FEI)")
+
+
 def country_label(c):
     return {"fr": "France", "ca": "Canada", "dz": "Algérie", "ma": "Maroc", "tn": "Tunisie"}[c]
 
 
 def main():
     force = "--force" in sys.argv
-    arts = [page(v) for v in VILLES]
+    rd = redirect_map()
+    arts = [page(v) for v in VILLES if f"/centres/{v['slug']}/" not in rd]
     build(arts, overwrite=force)
 
 

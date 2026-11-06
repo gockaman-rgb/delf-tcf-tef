@@ -18,7 +18,7 @@ OG = {"tcf-allemagne": "en_DE", "delf-allemagne": "en_DE", "tcf-suisse": "en_CH"
       "tcf-grece": "en_GR", "tcf-irlande": "en_IE"}
 
 
-def releve(rows, caption="What each centre’s website showed on 26 October 2026. “Not published”: nothing on the website that day — the centre is the reference."):
+def releve(rows, caption="Checked on 26 October 2026. “Not published”: nothing on the website that day — the centre is the reference."):
     return table(caption, ["Centre", "Versions", "Price", "Sessions and registration"],
                  [(f"<strong>{a}</strong>", b, c, d) for a, b, c, d in rows])
 

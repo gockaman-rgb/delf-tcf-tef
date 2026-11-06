@@ -124,3 +124,8 @@
 /es/delf-palma/
 /es/tcf-canada-chile/
 /es/tcf-canada-ecuador/
+# Coupe du 06/11/2026 (SEO_PLAN_CORRECTION_2026-11-03.md §3 A) : reformulations de la liste FEI, doublon, index de questions
+/centres/tcf-france/
+/centres/delf-france/
+/en/tcf-canada-lebanon/
+/questions/

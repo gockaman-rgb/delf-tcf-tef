@@ -72,7 +72,7 @@ New York and San Diego were full too, while Houston, Boston and Los Angeles stil
             ("Alliance française de San Diego", "<strong>Canada</strong>", "Canada <strong>$450</strong>",
              "Oct 20 closed, Nov 4 and 10 <strong>sold out</strong>, no later date listed; waitlist (Oct 18). Computer-based written part. <a href=\"/en/tcf-canada-san-diego/\">San Diego page</a>."),
             ("French American School of Puget Sound; Wesleyan University", NR, NR, "Approved by FEI, not checked: see their websites."),
-        ], "en-US", "What each center’s website showed on October 8, 2026, and on October 18 for Los Angeles, Pasadena, San Diego and the updates marked (Oct 18) or (Oct 26). “No data”: not published, or not checked — the center’s website is the reference.")),
+        ], "en-US", "Checked on October 8, 2026, and on October 18 for Los Angeles, Pasadena, San Diego and the updates marked (Oct 18) or (Oct 26).")),
         ("registration", "Registering — and finding a seat", """<p>Each center sells the test on its own website — online store, session picker, or a form followed by card
 payment — and your registration is only final once paid. Enter your name exactly as it appears on your passport:
 for the TCF Canada, Detroit reports your passport number to FEI, San Francisco and Denver require a valid passport,
@@ -238,7 +238,7 @@ two centres, their rules, and the fallback options.""",
              "Five Canada sessions a year (September, November, March, May, July): 25 Nov 2026 <strong>full</strong>; 2027 dates not published. Tout public 18 Nov and IRN 27 Nov 2026, registration until 15 Oct. Paper-based."),
             ("Alliance française de Jersey", "no TCF session published", "—",
              "The website mentions the TCF only for a preparation course: check with the Alliance."),
-        ], "en-GB", "What each centre’s website showed on 8 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.") + """
+        ], "en-GB", "Checked on 8 October 2026.") + """
 <p>In London, the Institut’s page and its booking module don’t always match: on 8 October, the TCF Canada sessions of
 15 January and 22 October 2027 appeared on the page but not in the module (by 18 October, 15 January was in the module,
 already full), and the page dates the February session
@@ -461,14 +461,14 @@ contacts, and how to get a seat.""",
            "Registration openings for 2027: <strong>1 December 2026</strong> (January to March), 2 March, 20 May, 17 August 2027.",
            "“If a session is not listed, it is full”; no waitlist; one registration at a time; no refunds, a transfer costs $100.",
            "FEI has dropped re-marking for sessions held since 1 September 2026."],
-    stats=[("{n}", "approved centres", "FEI list of 26 October 2026"), ("$390", "TCF Canada", "Alliance française, 26 Oct 2026"),
-           ("1 Dec", "next booking opening", "10 am, January–March 2027"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[("$390", "TCF Canada", "Alliance française, 26 Oct 2026"),
+           ("1 Dec", "next booking opening", "10 am, January–March 2027")],
     sections=[
-        ("what-we-found", "What we found, centre by centre", releve([
+        ("what-we-found", "Fees and dates", releve([
             ("Alliance française de Toronto (4 campuses)", "Canada (paper or computer-based), Québec", "<strong>$390</strong> (26 Oct 2026; not published on 17 Sept)",
              "Quarterly; registration 1 month before, at 10 am; 2027: 1 Dec 2026, 2 Mar, 20 May, 17 Aug; no waitlist; one registration at a time; transfer up to 15 days before (computer) or 30 days (paper) for $100; no refunds."),
             ("GB Language Centre (North York)", "Canada, tout public, TEF Canada", "<strong>$452</strong> (26 Oct 2026)", "Online booking on its website; TCF tout public $520."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026, updated on 26 October 2026 (fees, transfers). “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ], "en-CA", "Checked on 17 September 2026, updated on 26 October 2026 (fees, transfers).")),
         ("booking-2027", "Booking the January–March 2027 sessions", """<p>The Alliance française de Toronto sells the
 TCF Canada <strong>only online</strong>: you create an account on its booking platform beforehand, then, when
 registration opens, choose a date — computer-based (E-TCF Canada) or paper-based (P-TCF Canada) — fill in a questionnaire
@@ -488,9 +488,7 @@ final, and cancelling costs money: the Alliance Française de Montréal keeps $7
 and refunds nothing after that. In the big cities, sessions <strong>fill up within minutes</strong>: create your
 account in advance and log in the moment registration opens. Allow at least <strong>20 days</strong> between two
 attempts, whichever centre you test at. Results arrive by email within 2 to 4 weeks and are valid for two years. On
-test day, bring a valid passport and your printed test-day notice (admission letter).</p>
-<p>For the whole country — the 48 approved centres, province by province, with contacts — see
-<a href="/en/tcf-canada-test-centres/">TCF Canada test centres in Canada</a>.</p>"""),
+test day, bring a valid passport and your printed test-day notice (admission letter).</p>"""),
     ],
     list_title="The {n} approved centres in Toronto and the surrounding area",
     faq=[("Where can I take the TCF Canada in Toronto?", "At the Alliance française de Toronto, on four campuses — Spadina (downtown), North York, Mississauga, Oakville — or at GB Language Centre in North York. Registration is online only."),
@@ -525,25 +523,16 @@ the centres with their contacts, the rules we found, and how to register.""",
            "<strong>Collège Stanislas</strong>: TCF Québec, Canada, tout public and IRN; $15 per test kept if you cancel more than 15 days ahead.",
            "20 days between two attempts, whichever centre you test at; schedules sent 7 days before — keep the whole day free.",
            "For comparison: $440 at UQTR (Trois-Rivières), $390 in Vancouver, $400 in Edmonton."],
-    stats=[("{n}", "approved centres", "FEI list of 26 October 2026"), ("{so}", "computer-based", "all centres in the city"),
-           ("checked", "17 Sept 2026", "prices and dates read on the websites"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[ ],
     sections=[
-        ("what-we-found", "What we found, centre by centre", releve([
+        ("what-we-found", "Fees and dates", releve([
             ("Alliance Française de Montréal", "Canada, Québec", "<strong>not published</strong>",
              "Online registration, subject to available seats; one change allowed, more than 15 days ahead; cancellation: $75 kept; schedules 7 days before."),
             ("Collège Stanislas (Outremont)", "Québec, Canada, tout public, IRN", NR,
              "Full payment at registration; free rescheduling more than 15 days ahead; $15 per test kept on cancellation."),
             ("UQAM (francization) · Concordia · Cégep Marie-Victorin · Centre Yves-Thériault · Collège ELC", NR, NR, "On the centre’s website."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
-        ("registration", "How to register in Montreal", """<p>In Canada, each centre handles its own registrations
-<strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
-final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
-and refunds nothing after that. In the big cities, sessions <strong>fill up within minutes</strong>: create your
-account in advance and log in the moment registration opens. Allow at least <strong>20 days</strong> between two
-attempts, whichever centre you test at. Results arrive by email within 2 to 4 weeks and are valid for two years. On
-test day, bring a valid passport and your printed test-day notice (admission letter).</p>
-<p>For the whole country — the 48 approved centres, province by province, with contacts — see
-<a href="/en/tcf-canada-test-centres/">TCF Canada test centres in Canada</a>.</p>"""),
+        ], "en-CA", "Checked on 17 September 2026.")),
+        ("registration", "How to register in Montreal", """<p>Booking, cancellation and the 20-day rule work the same across Canada: <a href="/en/tcf-canada-test-centres/#registration">how to register</a>.</p>"""),
     ],
     list_title="The {n} approved centres in Montreal",
     faq=[("Where can I take the TCF Canada in Montreal?", "At one of the seven approved centres — Alliance Française de Montréal, Collège Stanislas, UQAM, Concordia University, Cégep Marie-Victorin, Centre Yves-Thériault, Collège ELC — or in the suburbs, in Laval, Kirkland and Saint-Constant, all computer-based. You register online, centre by centre."),
@@ -579,24 +568,15 @@ box you tick: only the TCF Canada counts for Express Entry. Below: the centres, 
            "Université Laval: photo ID with signature (driver’s licence, health-insurance card or passport — not the student card) and your registration receipt; two blocks: a 20-minute speaking interview, then listening, reading and writing on computer; accommodations on a medical certificate sent two months ahead.",
            "Re-marking of the speaking and writing tests: suspended by France Éducation international for sessions from 1 September 2026, “for about a year”.",
            "The TCF Canada has also been recognized by the MIFI since 2022; results by email within 2 to 4 weeks; certificate valid for 2 years."],
-    stats=[("{n}", "approved centres", "FEI list of 26 October 2026"), ("{so}", "computer-based", "all centres in the city"),
-           ("$405", "TCF Canada at Université Laval", "read on 29 Oct 2026"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[("$405", "TCF Canada at Université Laval", "read on 29 Oct 2026")],
     sections=[
-        ("what-we-found", "What we found, centre by centre", releve([
+        ("what-we-found", "Fees and dates", releve([
             ("Collège Stanislas (Quebec City)", "Québec, Canada, tout public (on request), IRN", "not posted (administrative fee + exam fee)",
              "TCF Canada in the morning, Monday-Thursday and some Saturdays, from 2 Nov to 16 Dec 2026; TCF Québec Sat 7 and 21 Nov, 5 and 12 Dec; online registration; $15 per test kept if you cancel more than 15 days ahead."),
             ("Université Laval (ELUL)", "Canada, tout public", "Canada <strong>$405</strong>",
              "Public sessions: 20-21 Nov, 27-28 Nov, 4-5 Dec, 11-12 Dec 2026 (speaking Friday, other tests Saturday); extra sessions reserved for the ULaval community; online registration (Brio platform); no refund."),
-        ], "en-CA", "What each centre’s website showed on 29 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
-        ("registration", "How to register in Quebec City", """<p>In Canada, each centre handles its own registrations
-<strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
-final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
-and refunds nothing after that. In the big cities, sessions <strong>fill up within minutes</strong>: create your
-account in advance and log in the moment registration opens. Allow at least <strong>20 days</strong> between two
-attempts, whichever centre you test at. Results arrive by email within 2 to 4 weeks and are valid for two years. On
-test day, bring a valid passport and your printed test-day notice (admission letter).</p>
-<p>For the whole country — the 48 approved centres, province by province, with contacts — see
-<a href="/en/tcf-canada-test-centres/">TCF Canada test centres in Canada</a>.</p>"""),
+        ], "en-CA", "Checked on 29 October 2026.")),
+        ("registration", "How to register in Quebec City", """<p>Booking, cancellation and the 20-day rule work the same across Canada: <a href="/en/tcf-canada-test-centres/#registration">how to register</a>.</p>"""),
     ],
     list_title="The {n} approved centres in Quebec City",
     faq=[("Where can I take the TCF Canada in Quebec City?", "At Collège Stanislas (1605, chemin Sainte-Foy) or at Université Laval’s École de langues (Pavillon Charles-De Koninck), both approved and computer-based; you register online, on their websites. Stanislas opens sessions almost every weekday morning, Laval one Friday-Saturday a week."),
@@ -632,15 +612,15 @@ email within two to three weeks. Below: the centres, their contacts, and how to 
            "Results by email within 2 to 3 weeks; no duplicate of the results certificate.",
            "Accommodations: request them before you register, with medical documentation.",
            "FEI has dropped re-marking for sessions held since 1 September 2026."],
-    stats=[("{n}", "approved centres", "FEI list of 26 October 2026"), ("$400", "TCF Canada", "Alliance française, 26 Oct 2026"),
-           ("10 Nov", "next open date", "computer-based, 2026"), ("2 years", "validity", "20 to 30 days between two attempts")],
+    stats=[("$400", "TCF Canada", "Alliance française, 26 Oct 2026"),
+           ("10 Nov", "next open date", "computer-based, 2026")],
     sections=[
-        ("what-we-found", "What we found, centre by centre", releve([
+        ("what-we-found", "Fees and dates", releve([
             ("Alliance française Ottawa", "Canada (computer or paper-based), other versions", "<strong>$400</strong> (26 Oct 2026)",
              "Computer: 10 Nov 2026, 6 and 8 Jan 2027 open; paper: 14 Jan 2027 open (26 Oct); «No dates will be communicated by email or phone»; passport + printed test-day notice mandatory; identity checked during the test; results in 2–3 weeks."),
             ("FrancoLangues (Kanata)", "Canada, Québec", NR,
              "Online appointment page; fee given by the centre; no refunds or date changes; 30 days between two tests; certificate 4 to 8 weeks after the test (26 Oct)."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026, updated on 26 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ], "en-CA", "Checked on 17 September 2026, updated on 26 October 2026.")),
         ("booking", "Booking the next sessions in Ottawa", """<p>The <strong>Alliance française Ottawa</strong> lists its
 TCF Canada sessions on its TCF page, each with its price and either an «Add to cart» button or the date its sales open;
 «No dates will be communicated by email or phone», so the page is the only place to watch. On 26 October 2026, the
@@ -650,15 +630,7 @@ computer-based sessions of 10 November 2026 and 6 and 8 January 2027 were open, 
 page and gives its fee when you book. Its rules are strict: «No refunds or test date changes will be accepted under any
 circumstances», 30 days between two tests, and the certificate arrives four to eight weeks after the test. Every
 centre in the province: <a href="/en/tcf-canada-ontario/">TCF Canada in Ontario</a>.</p>"""),
-        ("registration", "How to register in Ottawa", """<p>In Canada, each centre handles its own registrations
-<strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
-final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
-and refunds nothing after that. In the big cities, sessions <strong>fill up within minutes</strong>: create your
-account in advance and log in the moment registration opens. Allow at least <strong>20 days</strong> between two
-attempts, whichever centre you test at. Results arrive by email within 2 to 4 weeks and are valid for two years. On
-test day, bring a valid passport and your printed test-day notice (admission letter).</p>
-<p>For the whole country — the 48 approved centres, province by province, with contacts — see
-<a href="/en/tcf-canada-test-centres/">TCF Canada test centres in Canada</a>.</p>"""),
+        ("registration", "How to register in Ottawa", """<p>Booking, cancellation and the 20-day rule work the same across Canada: <a href="/en/tcf-canada-test-centres/#registration">how to register</a>.</p>"""),
     ],
     list_title="The {n} approved centres in Ottawa",
     faq=[("Where can I take the TCF Canada in Ottawa?", "At the Alliance française Ottawa (352 MacLaren Street), computer-based or on paper, or at FrancoLangues in Kanata; both are approved."),
@@ -695,13 +667,13 @@ about ten weeks ahead, for one week. Below: the centres, their contacts, and how
            "Results by email within 3 to 4 weeks; QWERTY keyboard, accents through FEI’s platform.",
            "Victoria has two more approved centres (Alliance française de Victoria, University of Victoria)."],
     stats=[("{n}", "approved centres", "FEI list of 26 October 2026"), ("$390", "TCF Canada", "$351 for members"),
-           ("~10 weeks", "sales open ahead", "for one week"), ("2 years", "validity", "20 to 30 days between two attempts")],
+           ("~10 weeks", "sales open ahead", "for one week")],
     sections=[
-        ("what-we-found", "What we found, centre by centre", releve([
+        ("what-we-found", "Fees and dates", releve([
             ("Alliance française Canada Pacific (Vancouver and New Westminster)", "Canada (+ TEF)", "<strong>$390</strong> ($351 for members)",
              "Online registration only, final; sessions full; December 2026 sold out at both sites (26 Oct); results in 3–4 weeks; QWERTY."),
             ("Ashton Testing Services", NR, NR, "Private testing centre, computer-based."),
-        ], "en-CA", "What each centre’s website showed on 17 September 2026, updated on 26 October 2026. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ], "en-CA", "Checked on 17 September 2026, updated on 26 October 2026.")),
         ("sales-windows", "When TCF Canada bookings open in Vancouver", """<p>The Alliance française Canada Pacific
 lists each session with its <strong>registration dates</strong>, its site and the seats left. On 26 October 2026, the
 December 2026 sessions — at 6161 Cambie Street in Vancouver and at 320 Columbia Street in New Westminster — were all
@@ -716,15 +688,7 @@ you get your exact time about a week before the test; the passport is the only I
 sessions published at its Cambie Street site; Collège Éducacentre, also in Vancouver, is an approved TEF centre. The
 Alliance sends TEF results within about two weeks, and prefers the TEF for candidates who need accommodations
 (<a href="/en/tcf-vs-tef-canada/">TCF vs TEF Canada</a>).</p>"""),
-        ("registration", "How to book the TCF Canada in Vancouver", """<p>In Canada, each centre handles its own registrations
-<strong>online, on its own website</strong>, with the passport you’ll use for your IRCC application. Registration is
-final, and cancelling costs money: the Alliance Française de Montréal keeps $75 if you cancel more than 15 days ahead,
-and refunds nothing after that. In the big cities, sessions <strong>fill up within minutes</strong>: create your
-account in advance and log in the moment registration opens. Allow at least <strong>20 days</strong> between two
-attempts, whichever centre you test at. Results arrive by email within 2 to 4 weeks and are valid for two years. On
-test day, bring a valid passport and your printed test-day notice (admission letter).</p>
-<p>For the whole country — the 48 approved centres, province by province, with contacts — see
-<a href="/en/tcf-canada-test-centres/">TCF Canada test centres in Canada</a>.</p>"""),
+        ("registration", "How to book the TCF Canada in Vancouver", """<p>Booking, cancellation and the 20-day rule work the same across Canada: <a href="/en/tcf-canada-test-centres/#registration">how to register</a>.</p>"""),
     ],
     list_title="The {n} approved centres in Vancouver and New Westminster",
     faq=[("Where can I take the TCF Canada in Vancouver?", "At the Alliance française Canada Pacific (6161 Cambie Street, and New Westminster) or at Ashton Testing Services, all approved and computer-based; you register online, centre by centre."),
@@ -782,7 +746,7 @@ Canada, and Trivandrum announces the TCF as “coming soon”.""",
             ("Alliance Française de Lucknow", "no TCF page — <strong>TEF Canada</strong>", "TEF Canada ₹26,000 incl. GST",
              "Presents the TEF Canada as its test for Canadian immigration."),
             ("Alliance Française de Trivandrum", "“TCF Exam Coming Soon!”", "—", "e-TEF Canada on computer for now."),
-        ], "en-GB", "What each centre’s website showed on 8 October 2026, fees in Indian rupees. “No data”: not published, or not checked — the centre’s website is the reference.")),
+        ], "en-GB", "Checked on 8 October 2026, fees in Indian rupees.")),
         ("registration", "Registering for the TCF Canada in India", """<p>Each Alliance sells the test itself: an online
 shop in Bhopal, an online form followed by a payment link in Ahmedabad, an online form that includes payment in Kolkata, an online account or the front desk
 in New Delhi — and a seat only counts once it is paid. Register with the passport you will use for your IRCC
@@ -813,7 +777,7 @@ Lucknow’s page says the TEF Canada fee — ₹26,000 including GST — is the 
     also=[("/en/tcf-canada-dubai/", "TCF Canada in Dubai and Abu Dhabi", "1,800 AED, sessions from 23 October 2026."),
           ("/en/tcf-canada/fees-registration/", "TCF Canada fees and registration", "Fees country by country, and how booking works."),
           ("/en/tcf-vs-tef-canada/", "TCF vs TEF Canada", "The two French tests IRCC accepts, side by side.")],
-    sources="the websites of the Alliances Françaises of New Delhi (afdelhi.org), Kolkata, Ahmedabad, Bangalore, Bhopal, Lucknow and Trivandrum (TCF and TEF pages, schedules, registration forms and online shops), checked on 8 October 2026.",
+    sources="the websites of the Alliances Françaises of New Delhi, Kolkata, Ahmedabad, Bangalore, Bhopal, Lucknow and Trivandrum (TCF and TEF pages, schedules, registration forms and online shops), checked on 8 October 2026.",
     badges={"ahmedabad-alliance-francaise": _CA + [("part", "dates to be confirmed")],
             "bangalore-alliance-francaise": _CA + [("part", "14 Nov full")],
             "bhopal-alliance-francaise": _CA, "calcutta-alliance-francaise-du-bengale": _CA, "new-delhi-alliance-francaise": _CA,
@@ -824,7 +788,7 @@ Lucknow’s page says the TEF Canada fee — ₹26,000 including GST — is the 
           "bhopal-alliance-francaise": "https://bhopal.afindia.org/tcfcanada/",
           "calcutta-alliance-francaise-du-bengale": "https://bengale.afindia.org/tcf/",
           "lucknow-alliance-francaise": "https://lucknow.afindia.org/",
-          "new-delhi-alliance-francaise": "https://afdelhi.org/tcf-exams/"},
+          "new-delhi-alliance-francaise": ""},   # 06/11/2026 : afdelhi.org piraté, plus de lien
 ))
 
 # ===========================================================================
@@ -869,7 +833,7 @@ no refund, unless the Alliance cancels the session. Results take two to four wee
     faq=[("Where can I take the TCF Canada in New Delhi?", "At the Alliance Française de Delhi, which holds it on computer for ₹26,000 including GST (8 October 2026)."),
          ("When are the next TCF Canada dates in New Delhi?", "On 8 October 2026: 18 and 25 November (registration 4–11 November, marked “to be confirmed”) and 16 December (registration 2–9 December); the 14 and 28 October sessions were full."),
          ("What do I need to register?", "A valid passport — the only identity document the Alliance has accepted since January 2026 — and the full payment; a seat only counts once it is paid.")],
-    key="new-delhi-alliance-francaise", url="https://afdelhi.org/tcf-exams/"))
+    key="new-delhi-alliance-francaise", url=""))   # afdelhi.org piraté (06/11/2026)
 
 PAGES.append(_india_city(
     "tcf-canada-kolkata", ["Calcutta"], "Kolkata",

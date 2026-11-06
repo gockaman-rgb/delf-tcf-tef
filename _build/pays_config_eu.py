@@ -76,7 +76,7 @@ ADDR_T = {"en": {"Allemagne": {"Bremen (Brême)": "Bremen", "Hambourg": "Hamburg
 
 
 def phone_eu(phone, country):
-    """Lien tel: d'un numéro européen de FEI, en gardant sa découpe (« 49-30-885-902-19 » → +49 30 885 902 19).
+    """Numéro européen de FEI, en texte (06/11/2026 : plus de lien tel:), en gardant sa découpe (« 49-30-885-902-19 » → +49 30 885 902 19).
     Indicatif « 00cc » ou « cc » ôté, puis le 0 de l'appel intérieur (sauf en Italie, où il fait partie du
     numéro). Longueur impossible → le numéro s'affiche tel que FEI l'écrit, sans lien."""
     cc, lens = PHONE[country]
@@ -104,7 +104,7 @@ def phone_eu(phone, country):
     x = "".join(out)
     if not x or len(x) not in lens or (country != "Italie" and x[0] == "0"):
         return html.escape(phone)
-    return f'<a href="tel:+{cc}{x}">+{cc} {" ".join(out)}</a>'
+    return f'+{cc} {" ".join(out)}'
 
 
 TABLES = dict(PAYS_ID=PAYS_ID, PHONE=PHONE, CITY=CITY, CITY_T=CITY_T, ADDR_T=ADDR_T, phone=phone_eu)

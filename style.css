@@ -168,7 +168,7 @@ h1, h2, h3, .btn-note, .cta-inline b { text-wrap: balance; }
           color: var(--text); font-weight: 600; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
 .rating svg { width: 18px; height: 18px; fill: var(--orange); flex: none; }
 .rating b { font-size: 1.1em; letter-spacing: -.01em; }
-.rating span { color: var(--muted); font-weight: 500; }
+.rating span { color: var(--muted); font-weight: 500; white-space: normal; }
 .rating:hover { text-decoration: none; color: var(--accent); }
 @media (max-width: 760px) {
   .cta-row { flex-direction: column; align-items: stretch; gap: 12px; }
@@ -428,6 +428,9 @@ footer.site a { color: var(--muted); }
 /* La même page dans une autre langue (08/10/2026) : une ligne sous la méta */
 .langs { font-size: .88em; margin: -1.2em 0 1.6em; }
 .langs a { font-weight: 600; }
+.indep { font-size: .88em; color: var(--muted); border-left: 3px solid var(--line, var(--accent)); padding: 6px 0 6px 12px; margin: 0 0 1.4em; }
+.indep strong { color: var(--text); }
+.ville-faits { font-size: .95em; margin: .8em 0 1.4em; }
 
 /* Sommaire */
 /* Sommaire : un <details> fermé par défaut (téléphone : il occupait un écran entier avant

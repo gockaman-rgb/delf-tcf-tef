@@ -1201,7 +1201,7 @@ d'inscription ; les autres renvoient directement à la liste officielle des cent
 <thead><tr><th>Examen</th><th>France</th><th>Canada</th><th>Algérie</th><th>Maroc</th><th>Tunisie</th></tr></thead>
 <tbody>
 <tr><td><strong>DELF · DALF</strong> (diplômes, à vie)</td><td><a href="/blog/ou-passer-le-delf-en-france/">Guide : 143 centres, 10 sessions par an</a></td><td><a href="%(ca_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(dz_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(ma_delf)s" rel="noopener">Liste FEI</a></td><td><a href="%(tn_delf)s" rel="noopener">Liste FEI</a></td></tr>
-<tr><td><strong>TCF IRN</strong> (naturalisation, titres de séjour)</td><td><a href="/blog/ou-passer-le-tcf-irn-en-france/">Guide : centres, 140 à 220 €</a></td><td>—</td><td><a href="/blog/tcf-canada-algerie/#inscription">Mêmes antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/#prix">1 900 Dhs, sur place</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">625 DT à l'Institut</a></td></tr>
+<tr><td><strong>TCF IRN</strong> (naturalisation, titres de séjour)</td><td><a href="/blog/ou-passer-le-tcf-irn-en-france/">Guide : centres, 140 à 220 €</a></td><td>—</td><td><a href="/centres/tcf-algerie/#etapes">Mêmes antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/#prix">1 900 Dhs, sur place</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">625 DT à l'Institut</a></td></tr>
 <tr><td><strong>Examen civique</strong> (France, depuis 2026)</td><td><a href="/blog/ou-passer-l-examen-civique/">Guide : 244 centres FEI + réseau CCIP</a></td><td>—</td><td><a href="/blog/ou-passer-l-examen-civique/#etranger">IF Alger, 9 000 DA</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td><td><a href="%(civ_carte)s" rel="noopener">Carte FEI</a></td></tr>
 <tr><td><strong>TCF Canada</strong> (IRCC)</td><td><a href="/blog/ou-passer-le-tcf-canada-en-france/">Guide : centres, 195 à 285 €</a></td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Guide : les 48 centres</a></td><td><a href="/blog/tcf-canada-algerie/">Guide : 5 antennes, plateforme IFAL</a></td><td><a href="/blog/tcf-canada-maroc/">Guide : 16 centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/">Guide : 14 centres, 880 DT</a></td></tr>
 <tr><td><strong>TCF Québec</strong> (MIFI)</td><td>Mêmes centres que le TCF Canada</td><td><a href="/blog/ou-passer-le-tcf-canada-au-canada/">Mêmes centres</a></td><td><a href="/blog/tcf-canada-algerie/">Mêmes antennes</a></td><td><a href="/blog/tcf-canada-maroc/#prix">Mêmes centres, 2 900 Dhs</a></td><td><a href="/blog/tcf-canada-tunisie/#prix">Mêmes pôles, 880 DT</a></td></tr>
@@ -1361,7 +1361,7 @@ DZ = {
     "slug": "tcf-canada-algerie",
     "accent": "accent-tcf",
     "crumb": "TCF Canada en Algérie",
-    "title": "TCF Canada Algérie 2026 : 37 500 DA, inscription IFAL (VFS)",
+    "title": "TCF Canada Algérie 2026 : 37 500 DA, dates et inscription",
     "desc": "TCF Canada en Algérie : les cinq antennes de l'Institut français, le prix (37 500 DA), le rendez-vous sur la plateforme IFAL de VFS, le faux site à éviter.",
     "og_title": "TCF Canada en Algérie : où le passer, comment s'inscrire",
     "og_desc": "Cinq antennes de l'Institut français, 37 500 DA, l'inscription sur la plateforme IFAL, et un faux site à éviter.",
@@ -2300,12 +2300,28 @@ CTA_INLINE = ('<aside class="cta-inline"><img src="/img/favicon-192.png" alt="" 
               '<a class="btn" href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Télécharger</a></aside>\n')
 
 
+# Pages de ville coupées le 06/11/2026 (coupe_config.py) : leurs faits entrent dans ces guides, un h3 par ville (cible du renvoi).
+ABSORBE = {
+    "ou-passer-le-tcf-canada-en-france": dict(
+        liste_fei=FEI_LISTE + "tcf", avant='<h2 id="inscription">', id="releve-villes", titre="Lyon, Lille, Strasbourg, Nice, Rennes, Montpellier : le relevé ville par ville",
+        intro="<p>TCF Canada et TCF IRN, centre par centre, à la date de chaque relevé. Le site du centre fait foi.</p>",
+        villes={"tcf-lyon": "lyon", "tcf-lille": "lille", "tcf-strasbourg": "strasbourg", "tcf-nice": "nice", "tcf-rennes": "rennes", "tcf-montpellier": "montpellier"}),
+    "ou-passer-le-delf-en-france": dict(
+        liste_fei=FEI_LISTE + "delf_dalf", avant='<h2 id="inscription">', id="releve-villes", titre="Lyon, Lille, Nantes, Montpellier, Strasbourg : le relevé ville par ville",
+        intro="<p>Niveaux, prix et sessions, centre par centre, à la date de chaque relevé. Le site du centre fait foi.</p>",
+        villes={"delf-lyon": "lyon", "delf-lille": "lille", "delf-nantes": "nantes", "delf-montpellier": "montpellier", "delf-strasbourg": "strasbourg"}),
+}
+
+
 def villes_chips(slug):
+    from article_template import redirect_map
     from villes_config import VILLES
     keys = VILLES_DE.get(slug, [])
     blocks = []
+    rd = redirect_map()
     for key in keys:
-        items = [(f"/centres/{v['slug']}/", v["crumb"]) for v in VILLES if (v["country"], v["exam"]) == key]
+        items = [(f"/centres/{v['slug']}/", v["crumb"]) for v in VILLES
+                 if (v["country"], v["exam"]) == key and f"/centres/{v['slug']}/" not in rd]
         if not items:
             continue
         head = f'<p class="serie-label">{VILLES_LABEL[key]}</p>\n' if len(keys) > 1 else ""
@@ -2319,6 +2335,17 @@ def villes_chips(slug):
 
 def finalize(a):
     a = dict(a)
+    if a["slug"] in ABSORBE:
+        from article_template import indep_line
+        from hubs_absorbes import bloc_villes
+        ab = ABSORBE[a["slug"]]
+        a["indep"] = indep_line("fr", ab["liste_fei"], "centres, France (FEI)")
+        bloc = f'<h2 id="{ab["id"]}">{ab["titre"]}</h2>\n{ab["intro"]}\n{bloc_villes(list(ab["villes"]), ab["villes"])}\n'
+        assert ab["avant"] in a["body"], a["slug"]
+        a["body"] = a["body"].replace(ab["avant"], bloc + ab["avant"], 1)
+        i = [k for k, _ in a["toc"]].index("inscription")
+        a["toc"] = a["toc"][:i] + [(ab["id"], "Le relevé ville par ville")] + a["toc"][i:]
+        a.update(modified="2026-11-06", date_fr="6 novembre 2026")
     vc = villes_chips(a["slug"])
     if vc:
         a["body"] = a["body"].rstrip() + "\n" + vc

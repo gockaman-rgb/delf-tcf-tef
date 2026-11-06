@@ -374,7 +374,7 @@
     if (d !== null) { where.appendChild(document.createTextNode(' · ')); where.appendChild(iso(dist(d), true)).className = 'finder-dist'; }
     box.appendChild(where);
     if (c.a) { var a = el('p', 'addr'); a.appendChild(iso(c.a)); box.appendChild(a); }
-    if (c.p) { var tel = Array.isArray(c.p), t = el(tel ? 'a' : 'span', null, tel ? c.p[1] : c.p); if (tel) t.href = 'tel:' + c.p[0]; line(box, t); }
+    if (c.p) line(box, el('span', null, Array.isArray(c.p) ? c.p[1] : c.p));
     (c.e || []).forEach(function (m) { var a = el('a', null, m); a.href = 'mailto:' + m; line(box, a); });
     if (c.w) { var w = el('a', null, c.w.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')); w.href = c.w; w.rel = 'noopener nofollow'; line(box, w); }
     var badges = el('p', 'badges');

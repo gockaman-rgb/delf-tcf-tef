@@ -67,7 +67,7 @@ match. What the official sites showed on 26 October 2026 — when 2027 was not y
              ("Hong Kong", "2027 not published · DELF Junior 1–8 Dec 2026", "Junior: until 30 Oct 2026", "afhongkong.org", "<a href=\"/en/delf-exam-dates-2027-hong-kong/\">Hong Kong</a>"),
              ("Turkey", "2027 not published · B2 16 Nov, C1 17 Nov 2026", "Closed 9 Oct 2026", "ifturquie.org", "<a href=\"/en/delf-exam-dates-2027-turkey/\">Turkey</a>"),
              ("Vietnam", "2027 not published · 14–22 Nov 2026", "19–30 Oct 2026", "ifv.vn", "<a href=\"/en/delf-exam-dates-2027-vietnam/\">Vietnam</a>"),
-             ("India", "2027 not published · 7–11 Dec 2026", "9–24 Nov 2026", "Alliances Françaises (afdelhi.org)", "<a href=\"/en/delf-exam-dates-2027-india/\">India</a>"),
+             ("India", "2027 not published · 7–11 Dec 2026", "9–24 Nov 2026", "Alliances Françaises", "<a href=\"/en/delf-exam-dates-2027-india/\">India</a>"),
              ("Lebanon", "2027 not published · B1 to C2 24–27 Nov 2026", "Until 30 Oct 2026", "institutfrancais-liban.com", "<a href=\"/en/delf-exam-dates-2027-lebanon/\">Lebanon</a>"),
              ("China (mainland)", "2027 not published · DALF 7–8 Nov, B2 14–15 Nov, A1 to B1 21–22 Nov 2026", "Closed 22 Sep 2026", "delf-dalf.neea.edu.cn", "<a href=\"/en/delf-exam-dates-2027-china/\">China</a>"),
              ("Singapore", "2027 not published · 23–27 Nov 2026", "Closed 18 Oct 2026", "alliancefrancaise.org.sg", "<a href=\"/en/delf-exam-dates-2027-singapore/\">Singapore</a>"),

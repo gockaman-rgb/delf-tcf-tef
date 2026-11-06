@@ -1,63 +1,6 @@
 # -*- coding: utf-8 -*-
 """Configuration des pages par ville (make_villes.py) — relevés du 17/09/2026, liste FEI du 19/09/2026."""
 
-PROCEDURES = {
-    "fr": {
-        "tcf": """<p>En France, on s'inscrit <strong>en ligne, sur le site du centre</strong> — jamais auprès de France
-Éducation international —, en général jusqu'à quelques jours avant la session : 48 heures à l'Alliance
-française de Lyon, cinq jours chez ACCORD à Paris, dix jours à Montpellier. Le formulaire demande une
-pièce d'identité, le motif (naturalisation, Canada…) et un paiement par carte ; les frais sont le plus
-souvent non remboursables. Le jour J : pièce d'identité officielle avec photo et convocation. Comptez
-<strong>20 à 30 jours</strong> entre deux passations, <strong>2 à 3 semaines</strong> pour l'attestation,
-valable deux ans. Vérifiez sur la page du centre qu'il organise bien votre déclinaison — IRN, Canada,
-Québec ou tout public — : la liste de FEI ne le précise pas.</p>""",
-        "delf": """<p>On s'inscrit <strong>auprès du centre</strong>, jamais auprès de France Éducation international,
-pour l'une des <strong>dix sessions nationales</strong> de l'année — jamais en avril ni en septembre —, et
-chaque centre n'ouvre qu'une partie de ces sessions. La fenêtre d'inscription ferme <strong>quatre à dix
-semaines avant l'écrit</strong>, parfois sur deux jours seulement ; pièce d'identité en cours de validité,
-paiement par carte, droits non remboursables. Résultats sous quatre à six semaines, diplôme valable à vie.
-Le calendrier 2026-2027 et les règles sont dans notre guide
-<a href="/blog/ou-passer-le-delf-en-france/">où passer le DELF en France</a>.</p>""",
-    },
-    "ca": {
-        "tcf": """<p>Au Canada, chaque centre gère ses inscriptions <strong>en ligne, sur son propre site</strong>, avec
-le passeport que vous utiliserez dans votre dossier IRCC ; l'inscription est définitive, et les annulations
-coûtent (75 $ à plus de 15 jours à l'Alliance Française de Montréal, rien remboursé après). Dans les grandes
-villes, les sessions <strong>affichent complet en quelques minutes</strong> : créez votre compte à l'avance
-et connectez-vous à l'ouverture des inscriptions. <strong>20 jours</strong> minimum entre deux passations,
-quel que soit le centre ; résultats par e-mail sous 2 à 4 semaines, valables deux ans. Passeport valide et
-convocation imprimée le jour J.</p>""",
-    },
-    "dz": {
-        "tcf": """<p>En Algérie, l'inscription au TCF — Canada, IRN, Québec, tout public ou DAP — se fait
-<strong>exclusivement en ligne</strong>, sur la plateforme <strong>IFAL</strong> (forms.vfsglobal.com.dz/IFAL),
-opérée par VFS Global et accessible depuis la page TCF du site officiel <strong>if-algerie.com</strong> :
-compte, choix de l'antenne et de la session, paiement en ligne. « Des sessions TCF sont ouvertes tous les
-mois sur les cinq antennes » ; <strong>26 jours</strong> entre deux inscriptions selon la page nationale,
-<strong>36 jours</strong> selon les pages des antennes d'Oran, Constantine, Annaba et Tlemcen ; carte
-d'identité biométrique ou passeport le jour J, jamais le permis de conduire. Tarifs affichés par les antennes
-le 17 octobre 2026 : <strong>37 500 DA</strong> pour le TCF Canada et le TCF Québec, 19 500 DA pour le TCF DAP,
-13 000 DA pour le TCF tout public. Attention au faux site <em>if-algerie.fr</em>, qui propose un « candidat
-partenaire » : c'est une escroquerie.</p>""",
-    },
-    "ma": {
-        "tcf": """<p>Au Maroc, l'inscription se fait <strong>en ligne, sur le site de l'Institut français de la ville</strong>
-(if-maroc.org/casablanca, /rabat…), page « TCF Canada » : on choisit une session dans la liste, on
-l'ajoute au panier et on paie — <strong>2 900 Dhs</strong> pour le TCF Canada, 1 900 Dhs pour l'IRN, qui
-s'inscrit lui à l'accueil. Pièce d'identité et photo demandées, convocation remise dès l'inscription.
-<strong>20 jours</strong> de carence entre deux TCF sous peine d'annulation sans remboursement ; aucun
-remboursement, report sur justificatif facturé 500 Dhs ; attestation à retirer à l'accueil du centre.</p>""",
-    },
-    "tn": {
-        "tcf": """<p>En Tunisie, l'Institut français procède en deux temps : un <strong>rendez-vous en ligne</strong> pendant la
-fenêtre ouverte pour la session (environ une semaine, un mois avant le test), puis <strong>l'inscription et
-le paiement sur place</strong>, au pôle choisi, le jour fixé — <strong>880 DT</strong> pour le TCF Canada,
-en espèces (carte bancaire à Tunis seulement), chèques suspendus. Un mandataire muni d'une copie de votre
-carte d'identité peut s'inscrire pour vous. Frais non remboursables ; <strong>30 jours</strong> entre deux
-sessions ; résultats <strong>cinq semaines</strong> après la passation.</p>""",
-    },
-}
-
 GUIDES = {
     ("fr", "tcf"): [("/blog/ou-passer-le-tcf-irn-en-france/", "Où passer le TCF IRN en France ?", "Sept centres à Paris, des sessions chaque semaine, 140 à 220 €."),
                     ("/blog/ou-passer-le-tcf-canada-en-france/", "Où passer le TCF Canada en France ?", "Les centres qui le proposent, 195 à 285 €, leurs dates de session."),
@@ -100,7 +43,7 @@ def mk(slug, label, country, match, title, desc, h1, intro, facts, releve, faq, 
                 title=title, desc=desc, h1=h1, intro=intro, facts=facts,
                 stat3=stat3 or ("relevé", "17 sept. 2026", "prix et dates lus sur les sites"),
                 stat4=stat4 or (("2 ans", "de validité", "20 à 30 jours entre deux passations") if exam == "tcf" else ("à vie", "validité du diplôme", "10 sessions par an")),
-                centres_intro=centres_intro or f"Les centres agréés par France Éducation international {prep} {h2_label or label}, avec les coordonnées que FEI publie (liste du {{liste_fei}}).",
+                centres_intro=centres_intro or "", centres_intro_propre=bool(centres_intro),
                 releve=releve, releve_note=releve_note, guides=GUIDES[(country, exam)], faq=faq, also=ALSO[exam], og_slug=OG[country] if exam == "tcf" else "centres-delf-france")
 
 
@@ -461,7 +404,7 @@ listées étaient « SOLD OUT »</strong>. Les centres, leurs contacts, et la m�
             ("Comment obtenir une place à Vancouver ?", "En s'inscrivant à l'ouverture : l'Alliance conseille de se connecter à l'avance avec son numéro de passeport prêt et de n'ouvrir qu'un seul onglet — « opening multiple tabs or repeatedly refreshing the page may cancel your reservation ».")]),
     # ------------------------------------------------------------------ Algérie
     mk("tcf-alger", "Alger", "dz", ["Alger"],
-       title="TCF Alger 2026 : rendez-vous IFAL, TCF Canada 37 500 DA",
+       title="TCF Alger 2026 : inscription, TCF Canada 37 500 DA, tarifs",
        desc="TCF à Alger : rendez-vous sur la plateforme IFAL (VFS), tarifs 2026 — Canada 37 500 DA, DAP 19 500, tout public 13 000 —, centre de Hydra, faux site.",
        h1="Passer le TCF à Alger : l'antenne de l'Institut français à Hydra et l'inscription",
        intro="""À Alger, le TCF — Canada, Québec, IRN, tout public, DAP — se passe dans <strong>un seul centre agréé</strong>
@@ -491,7 +434,7 @@ clair sur les pages d'Oran, de Constantine, d'Annaba et de Tlemcen.</p>""",
             ("Quelle pièce d'identité apporter ?", "Carte d'identité biométrique ou passeport biométrique pour les Algériens ; passeport biométrique ou carte consulaire pour les autres nationalités. « L'inscription avec le permis de conduire est annulée et aucun remboursement n'est possible », précise l'antenne d'Alger."),
             ("Peut-on passer l'examen civique à Alger ?", "Oui, au même centre : pré-inscription sur test-civique.fr via le lien de l'Institut, 9 000 DA par carte bancaire ou Dahabia sur place ou par virement, confirmation sous 48 heures, convocation par e-mail.")]),
     mk("tcf-oran", "Oran", "dz", ["Oran"],
-       title="TCF Oran 2026 : rendez-vous IFAL, TCF Canada 37 500 DA",
+       title="TCF Oran 2026 : inscription, TCF Canada 37 500 DA, tarifs",
        desc="TCF à Oran : rendez-vous sur la plateforme IFAL (VFS), tarifs 2026 — Canada 37 500 DA, DAP 19 500, tout public 13 000 —, examen à l'USTO, sessions.",
        h1="Passer le TCF à Oran : l'antenne de l'Institut français et l'inscription",
        intro="""À Oran, le TCF — Canada, Québec, IRN, tout public, DAP — se passe dans <strong>un seul centre agréé</strong>
@@ -515,7 +458,7 @@ tarifs, et l'inscription.""",
             ("Où trouver le calendrier du TCF à Oran ?", "L'Institut ne publie pas de calendrier : « des sessions TCF sont ouvertes tous les mois sur les cinq antennes », et les dates s'affichent sur la plateforme IFAL au moment de réserver. Laissez 36 jours entre deux inscriptions, délai écrit sur la page de l'antenne d'Oran."),
             ("Que veut dire « TCF SO » ?", "« SO » signifie « sur ordinateur » : le test se passe sur les postes du centre, et non sur papier. L'antenne d'Oran figure avec l'option « sessions sur ordinateur » dans la liste de France Éducation international.")]),
     mk("tcf-constantine", "Constantine", "dz", ["Constantine"],
-       title="TCF Constantine 2026 : rendez-vous IFAL, Canada 37 500 DA",
+       title="TCF Constantine 2026 : inscription, Canada 37 500 DA",
        desc="TCF à Constantine : rendez-vous IFAL (VFS), tarifs 2026 — Canada 37 500 DA, DAP 19 500, IRN 14 000 —, examen à Ali Mendjeli, 36 jours entre 2 inscriptions.",
        h1="Passer le TCF à Constantine : l'antenne de l'Institut français et l'inscription",
        intro="""À Constantine, le TCF — Canada, Québec, IRN, tout public, DAP — se passe dans <strong>un seul centre
@@ -539,7 +482,7 @@ Le centre, ses tarifs, et l'inscription.""",
             ("Qu'est-ce que le TCF DAP ?", "Le TCF de la demande d'admission préalable, pour entrer en licence 1 ou dans une école d'architecture en France : selon l'Institut, il s'adresse à « toute personne étrangère de plus de 16 ans ». À Constantine, il coûte 19 500 DA et se réserve, comme les autres déclinaisons, sur la plateforme IFAL."),
             ("Combien de jours entre deux inscriptions ?", "36 jours, selon la page de l'antenne de Constantine relue le 17 octobre 2026 ; la page nationale de l'Institut écrit 26. Par prudence, comptez 36 jours.")]),
     mk("tcf-annaba", "Annaba", "dz", ["Annaba"],
-       title="TCF Annaba 2026 : rendez-vous IFAL, TCF Canada 37 500 DA",
+       title="TCF Annaba 2026 : inscription, TCF Canada 37 500 DA, tarifs",
        desc="TCF à Annaba : rendez-vous sur la plateforme IFAL (VFS), TCF Canada 37 500 DA, DAP 19 500, tout public 13 000, examen au « Majestic », 36 jours.",
        h1="Passer le TCF à Annaba : l'antenne de l'Institut français et l'inscription",
        intro="""À Annaba, le TCF — Canada, Québec, IRN, tout public, DAP — se passe dans <strong>un seul centre agréé</strong>
@@ -565,7 +508,7 @@ d'Annaba, « Majestic ». Le centre, ses contacts, la recorrection (suspendue), 
             ("Peut-on faire recorriger son TCF Canada à Annaba ?", "Pas pour l'instant : France Éducation international n'accepte plus de demande de recorrection des épreuves d'expression orale et écrite pour les sessions du TCF à partir du 1er septembre 2026, « pour une période d'environ 1 an » (avis sur sa page TCF Canada, relu le 29 octobre 2026) ; les QCM, corrigés par FEI, ne se contestent jamais. La procédure de l'antenne d'Annaba, toujours publiée, s'appliquera de nouveau ensuite : demande dans le mois qui suit les résultats, au service des examens (au Majestic), du dimanche au jeudi, en personne ou par un mandataire muni d'une procuration légalisée — formulaire, attestation finale, pièce d'identité, RIP ou RIB, 11 000 DA par épreuve ; réponse en 3 à 4 semaines, parfois 6 ; si la note change, à la hausse comme à la baisse, 10 000 DA sont remboursés par virement et une nouvelle attestation remplace l'ancienne."),
             ("Combien de jours entre deux inscriptions ?", "36 jours, selon la page de l'antenne d'Annaba relue le 29 octobre 2026 ; la page nationale de l'Institut écrit 26. Par prudence, comptez 36 jours.")]),
     mk("tcf-tlemcen", "Tlemcen", "dz", ["Tlemcen"],
-       title="TCF Tlemcen 2026 : rendez-vous IFAL, TCF Canada 37 500 DA",
+       title="TCF Tlemcen 2026 : inscription, TCF Canada 37 500 DA",
        desc="TCF à Tlemcen : rendez-vous IFAL (VFS), tarifs 2026 — Canada 37 500 DA, DAP 19 500, IRN 14 000, tout public 13 000 —, lieu d'examen, 36 jours.",
        h1="Passer le TCF à Tlemcen : l'antenne de l'Institut français et l'inscription",
        intro="""À Tlemcen, le TCF — Canada, Québec, IRN, tout public, DAP — se passe dans <strong>un seul centre agréé</strong>

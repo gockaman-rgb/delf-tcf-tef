@@ -563,7 +563,6 @@ Results are published on ifv.vn.</p>
 # ===========================================================================
 # INDIA — Alliance Française de Delhi (calendrier 2026 v6 du 21/01/2026), lu le 26/10/2026
 # ===========================================================================
-IN = "https://afdelhi.org/delf-dalf-exams-schedule-2026/"
 PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-india", crumb="India",
     title="DELF exam dates 2027 in India: sessions and fees",
     desc="DELF and DALF in India: 2027 not yet published; the December 2026 session (registration 9–24 November), fees in rupees, the 16 approved centres.",
@@ -571,7 +570,7 @@ PAGES.append(dict(COMMON, slug="delf-exam-dates-2027-india", crumb="India",
     intro=f"""The <strong>DELF exam dates 2027 in India</strong> had not been published on 26 October 2026. The next session
 is <strong>7–11 December 2026</strong> — A1 on the 7th through C1 and C2 on the 11th — with registration from <strong>9 to
 24 November 2026</strong> and results on 19 January 2027. The written papers are on the same days across India; you
-register at your Alliance Française — the <a href="{IN}" rel="noopener">Alliance Française de Delhi’s 2026 calendar</a>
+register at your Alliance Française — the Alliance Française de Delhi’s 2026 calendar
 gives every window.""",
     facts=["<strong>2027</strong>: dates not yet published (checked on 26 October 2026).",
            "<strong>Next session</strong>: 7–11 December 2026, registration 9–24 November, results 19 January 2027.",
