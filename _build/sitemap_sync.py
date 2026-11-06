@@ -42,8 +42,9 @@ def published_pages():
 
 
 def _content(t):
-    """Ce qui compte pour <lastmod> : la page sans son pied de page ni les paramètres de campagne App Store."""
+    """Ce qui compte pour <lastmod> : la page sans son pied de page, les paramètres de campagne App Store ni le nom d'éditeur."""
     t = re.sub(r'<footer class="site".*?</footer>', "", t, flags=re.S)
+    t = t.replace("Augusto Grone", "Ozgur Cetin")   # nom d'éditeur aligné sur les magasins (07/11/2026) : ne date pas tout le site
     return re.sub(r"(apps\.apple\.com/[^\"']*?)\?[^\"']*", r"\1", t)
 
 

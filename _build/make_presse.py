@@ -58,7 +58,7 @@ de l'expression écrite et orale. Interface en français, anglais, espagnol et a
 <a href="https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304">Fiche App Store</a>.</p>
 
 <h2 id="qui">Qui</h2>
-<p>Le site et l'application sont édités par <strong>Augusto Grone</strong>, éditeur indépendant. Le site n'est ni officiel ni
+<p>Le site et l'application sont édités par <strong>Ozgur Cetin</strong>, éditeur indépendant. Le site n'est ni officiel ni
 affilié à France Éducation international ni à la CCI Paris Île-de-France ; sa <a href="/a-propos/">méthode éditoriale</a>
 (sources primaires, recoupement, rejet des chiffres non sourcés) est publique.</p>
 
@@ -76,7 +76,7 @@ du relevé indiquée sur la page et un lien vers celle-ci. Nous signalons nos pr
 changent sans préavis, et la source officielle fait foi.</p>
 
 <h2 id="contact">Contact</h2>
-<p>Augusto Grone — <strong>gockaman@gmail.com</strong>. Réponse sous 48 h aux demandes de données, d'extraits par pays ou de
+<p>Ozgur Cetin — <strong>gockaman@gmail.com</strong>. Réponse sous 48 h aux demandes de données, d'extraits par pays ou de
 vérification d'un chiffre ; nous corrigeons le jour même une erreur signalée.</p>
 """
 
@@ -111,7 +111,7 @@ scored like the real test, with AI feedback on writing and speaking. Interface i
 <a href="https://apps.apple.com/app/id6790412304">App Store listing</a>.</p>
 
 <h2 id="who">Who</h2>
-<p>The site and the app are published by <strong>Augusto Grone</strong>, an independent publisher. The site is neither official
+<p>The site and the app are published by <strong>Ozgur Cetin</strong>, an independent publisher. The site is neither official
 nor affiliated with France Éducation international or the CCI Paris Île-de-France; its <a href="/en/about/">editorial method</a>
 (primary sources, cross-checking, no unsourced figure) is public.</p>
 
@@ -128,7 +128,7 @@ on the page and a link to it. We state our own limits: fees, dates and rules cha
 prevails.</p>
 
 <h2 id="contact">Contact</h2>
-<p>Augusto Grone — <strong>gockaman@gmail.com</strong>. Replies within 48 h to requests for data, country extracts or the
+<p>Ozgur Cetin — <strong>gockaman@gmail.com</strong>. Replies within 48 h to requests for data, country extracts or the
 verification of a figure; a reported error is corrected the same day.</p>
 """
 

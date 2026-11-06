@@ -258,7 +258,7 @@ def build():
 <article class="page"><div class="wrap narrow">
 <p class="crumb"><a href="/">Accueil</a> › Toutes les questions</p>
 <h1>Toutes vos questions sur le DELF, le TCF et le TEF</h1>
-<p class="meta">Par <a href="/a-propos/">Augusto Grone</a> · Mis à jour le 8 octobre 2026 · {total} questions</p>
+<p class="meta">Par <a href="/a-propos/">Ozgur Cetin</a> · Mis à jour le 8 octobre 2026 · {total} questions</p>
 
 <p class="intro">Les <strong>{total} questions</strong> traitées sur ce site, classées par thème.
 Chaque question renvoie à la page qui y répond, avec ses sources et sa date de vérification. Si

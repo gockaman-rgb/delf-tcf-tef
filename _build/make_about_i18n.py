@@ -30,9 +30,9 @@ LOCALE = {"en": "en_US", "es": "es_ES", "ar": "ar_AR"}
 
 BODY = {}
 BODY["en"] = """<h1>About this site and its editorial method</h1>
-<p class="meta">Updated 6 November 2026 · translated from the French page of 6 November 2026</p>
+<p class="meta">Updated 7 November 2026 · translated from the French page of 7 November 2026</p>
 {langs}
-<p class="intro">This site is published by <strong>Augusto Grone</strong>. It publishes guides on the French
+<p class="intro">This site is published by <strong>Ozgur Cetin</strong>. It publishes guides on the French
 exams — DELF, DALF, TCF, TEF — and on the language levels required for immigration and citizenship procedures.
 This page explains how that information is established, checked and corrected.</p>
 
@@ -55,7 +55,7 @@ the top of search engines giving <strong>incorrect</strong> NCLC conversion rang
 fees, months of delay, and sometimes a refusal. This site starts from there.</p>
 
 <h2 id="production">How the articles are produced</h2>
-<p>The articles and pages on this site are <strong>written with artificial intelligence tools</strong>, language models (Claude, by Anthropic), under the responsibility of the publisher, who chooses the topics, decides what is published and corrects reported errors. Official pages are opened and read, the text is written from them, then a second pass, also assisted by AI, checks the figures against the sources. Centre prices, dates and addresses are read on their websites and carry the date of that check.</p>
+<p>The articles and pages on this site are <strong>written with artificial intelligence tools</strong>, language models (Claude, by Anthropic), then <strong>reviewed by a human before publication</strong>. The publisher chooses the topics, decides what is published and corrects reported errors. Official pages are opened and read, the text is written from them, and a second pass, also assisted by AI, checks the figures against the sources. Centre prices, dates and addresses are read on their websites and carry the date of that check.</p>
 <p>No page presents itself as the opinion of an examiner or an expert. This process can let an error through: that is why every page points to its official source, and why your reports matter.</p>
 
 <h2 id="method">How we verify</h2>
@@ -117,7 +117,9 @@ date is changed accordingly.</p>
 <caption>Publisher's legal information.</caption>
 <thead><tr><th>Item</th><th>Detail</th></tr></thead>
 <tbody>
-<tr><td>Publisher and publication director</td><td><strong>Augusto Grone</strong></td></tr>
+<tr><td>Publisher and publication director</td><td><strong>Ozgur Cetin</strong></td></tr>
+<tr><td>Address</td><td>20 rue Parmentier, 77500 Chelles, France</td></tr>
+<tr><td>Name on the App Store</td><td>Cetin Ozgur</td></tr>
 <tr><td>Contact</td><td>gockaman@gmail.com</td></tr>
 <tr><td>Hosting</td><td>GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States</td></tr>
 <tr><td>Intellectual property</td><td>Original content © 2026 delf-tcf-tef.fr</td></tr>
@@ -139,9 +141,9 @@ Canada. These names are used purely descriptively, to name the exams this site c
 """
 
 BODY["es"] = """<h1>Acerca de este sitio y su método editorial</h1>
-<p class="meta">Actualizado el 6 de noviembre de 2026 · traducción de la página francesa del 6 de noviembre de 2026</p>
+<p class="meta">Actualizado el 7 de noviembre de 2026 · traducción de la página francesa del 7 de noviembre de 2026</p>
 {langs}
-<p class="intro">Este sitio lo edita <strong>Augusto Grone</strong>. Publica guías sobre los exámenes de francés
+<p class="intro">Este sitio lo edita <strong>Ozgur Cetin</strong>. Publica guías sobre los exámenes de francés
 — DELF, DALF, TCF, TEF — y sobre los niveles de idioma exigidos en los trámites de inmigración y nacionalidad. Aquí
 se explica cómo se establece, se verifica y se corrige esa información.</p>
 
@@ -164,7 +166,7 @@ mostrados en lo alto de los buscadores daban rangos de conversión NCLC <strong>
 cuesta tasas de examen, meses de retraso y, a veces, una denegación. Este sitio parte de ahí.</p>
 
 <h2 id="produccion">Cómo se producen los artículos</h2>
-<p>Los artículos y las páginas de este sitio se <strong>redactan con herramientas de inteligencia artificial</strong>, modelos de lenguaje (Claude, de Anthropic), bajo la responsabilidad del editor, que elige los temas, decide qué se publica y corrige los errores señalados. Las páginas oficiales se abren y se leen, el texto se redacta a partir de ellas y una segunda pasada, también asistida por IA, contrasta las cifras con las fuentes. Los precios, fechas y direcciones de los centros se consultan en sus webs y llevan la fecha de la consulta.</p>
+<p>Los artículos y las páginas de este sitio se <strong>redactan con herramientas de inteligencia artificial</strong>, modelos de lenguaje (Claude, de Anthropic), y después los <strong>revisa una persona antes de publicarlos</strong>. El editor elige los temas, decide qué se publica y corrige los errores señalados. Las páginas oficiales se abren y se leen, el texto se redacta a partir de ellas y una segunda pasada, también asistida por IA, contrasta las cifras con las fuentes. Los precios, fechas y direcciones de los centros se consultan en sus webs y llevan la fecha de la consulta.</p>
 <p>Ninguna página se presenta como la opinión de un examinador o de un experto. Este proceso puede dejar pasar un error: por eso cada página remite a su fuente oficial, y por eso tus avisos cuentan.</p>
 
 <h2 id="metodo">Nuestro método de verificación</h2>
@@ -228,7 +230,9 @@ actualización del artículo se modifica en consecuencia.</p>
 <caption>Información legal del editor.</caption>
 <thead><tr><th>Elemento</th><th>Detalle</th></tr></thead>
 <tbody>
-<tr><td>Editor y director de la publicación</td><td><strong>Augusto Grone</strong></td></tr>
+<tr><td>Editor y director de la publicación</td><td><strong>Ozgur Cetin</strong></td></tr>
+<tr><td>Dirección</td><td>20 rue Parmentier, 77500 Chelles, Francia</td></tr>
+<tr><td>Nombre en el App Store</td><td>Cetin Ozgur</td></tr>
 <tr><td>Contacto</td><td>gockaman@gmail.com</td></tr>
 <tr><td>Alojamiento</td><td>GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, Estados Unidos</td></tr>
 <tr><td>Propiedad intelectual</td><td>Contenidos originales © 2026 delf-tcf-tef.fr</td></tr>
@@ -250,9 +254,9 @@ Canadá. Estos nombres se emplean de forma puramente descriptiva, para designar 
 """
 
 BODY["ar"] = """<h1>عن هذا الموقع ومنهجه التحريري</h1>
-<p class="meta">آخر تحديث 6 نوفمبر 2026 · ترجمة للصفحة الفرنسية الصادرة في 6 نوفمبر 2026</p>
+<p class="meta">آخر تحديث 7 نوفمبر 2026 · ترجمة للصفحة الفرنسية الصادرة في 7 نوفمبر 2026</p>
 {langs}
-<p class="intro">يصدر هذا الموقع عن <strong><bdi>Augusto Grone</bdi></strong>. ينشر أدلة عن امتحانات اللغة الفرنسية
+<p class="intro">يصدر هذا الموقع عن <strong><bdi>Ozgur Cetin</bdi></strong>. ينشر أدلة عن امتحانات اللغة الفرنسية
 — <bdi>DELF</bdi> و<bdi>DALF</bdi> و<bdi>TCF</bdi> و<bdi>TEF</bdi> — وعن مستويات اللغة المطلوبة في إجراءات الهجرة
 والتجنّس. تشرح هذه الصفحة كيف تُجمع هذه المعلومات وتُراجع وتُصحَّح.</p>
 
@@ -275,7 +279,7 @@ BODY["ar"] = """<h1>عن هذا الموقع ومنهجه التحريري</h1>
 وأحيانًا رفضًا. من هنا ينطلق هذا الموقع.</p>
 
 <h2 id="production">كيف تُنتَج المقالات</h2>
-<p>تُكتب مقالات هذا الموقع وصفحاته <strong>بأدوات الذكاء الاصطناعي</strong>، وهي نماذج لغوية (<bdi>Claude</bdi> من <bdi>Anthropic</bdi>)، تحت مسؤولية الناشر الذي يختار المواضيع ويقرر ما يُنشر ويصحّح الأخطاء المُبلَّغ عنها. تُفتح الصفحات الرسمية وتُقرأ، ويُكتب النص انطلاقًا منها، ثم تقارن مراجعة ثانية، بمساعدة الذكاء الاصطناعي أيضًا، الأرقام بالمصادر. أما أسعار المراكز ومواعيدها وعناوينها فتُؤخذ من مواقعها وتحمل تاريخ الاطلاع عليها.</p>
+<p>تُكتب مقالات هذا الموقع وصفحاته <strong>بأدوات الذكاء الاصطناعي</strong>، وهي نماذج لغوية (<bdi>Claude</bdi> من <bdi>Anthropic</bdi>)، ثم <strong>يراجعها إنسان قبل النشر</strong>. يختار الناشر المواضيع ويقرر ما يُنشر ويصحّح الأخطاء المُبلَّغ عنها. تُفتح الصفحات الرسمية وتُقرأ، ويُكتب النص انطلاقًا منها، ثم تقارن مراجعة ثانية، بمساعدة الذكاء الاصطناعي أيضًا، الأرقام بالمصادر. أما أسعار المراكز ومواعيدها وعناوينها فتُؤخذ من مواقعها وتحمل تاريخ الاطلاع عليها.</p>
 <p>لا تُقدَّم أي صفحة على أنها رأي مصحّح أو خبير. وقد تمرّ أخطاء في هذه الطريقة: لذلك تحيل كل صفحة إلى مصدرها الرسمي، ولذلك تهمّنا بلاغاتكم.</p>
 
 <h2 id="method">منهجنا في التحقق</h2>
@@ -335,7 +339,9 @@ BODY["ar"] = """<h1>عن هذا الموقع ومنهجه التحريري</h1>
 <caption>المعلومات القانونية للناشر.</caption>
 <thead><tr><th>العنصر</th><th>التفصيل</th></tr></thead>
 <tbody>
-<tr><td>الناشر ومدير النشر</td><td><strong><bdi>Augusto Grone</bdi></strong></td></tr>
+<tr><td>الناشر ومدير النشر</td><td><strong><bdi>Ozgur Cetin</bdi></strong></td></tr>
+<tr><td>العنوان</td><td><bdi>20 rue Parmentier, 77500 Chelles, France</bdi></td></tr>
+<tr><td>الاسم على App Store</td><td><bdi>Cetin Ozgur</bdi></td></tr>
 <tr><td>التواصل</td><td><bdi>gockaman@gmail.com</bdi></td></tr>
 <tr><td>الاستضافة</td><td><bdi>GitHub Pages — GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107</bdi>، الولايات المتحدة</td></tr>
 <tr><td>الملكية الفكرية</td><td>محتوى أصلي © 2026 <bdi>delf-tcf-tef.fr</bdi></td></tr>

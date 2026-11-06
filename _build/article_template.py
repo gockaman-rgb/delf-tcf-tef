@@ -17,7 +17,7 @@ import re
 
 BASE = "https://delf-tcf-tef.fr"
 APP = "https://apps.apple.com/fr/app/tcf-delf-tef-tests-2026/id6790412304"
-AUTHOR = "Augusto Grone"
+AUTHOR = "Ozgur Cetin"
 ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 
 HEADER = """<header class="site"><div class="wrap">
