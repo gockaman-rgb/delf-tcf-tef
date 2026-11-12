@@ -576,23 +576,23 @@ de Buenos Aires.</p>"""),
 PAGES.append(from_fr(
     "delf-argentine", "es", "es-419", "Argentine",
     slug="delf-argentina", country_name="Argentina",
-    crumb="DELF en Argentina",
+    crumb="DELF en Argentina", modified="2026-11-12", date_label="12 de noviembre de 2026",
     title="Examen DELF en Argentina: fechas 2026, precios y {n} centros",
-    desc="DELF y DALF en Argentina: la sesión del 4 y 5 de diciembre de 2026 (inscripciones hasta el 5 de noviembre), precios en euros y en pesos, las 28 Alianzas.",
+    desc="DELF y DALF en Argentina: la sesión del 4 y 5 de diciembre de 2026 (inscripciones cerradas el 5 de noviembre), precios en euros y en pesos, 28 Alianzas.",
     h1="DELF y DALF en Argentina: los {n} centros, el calendario y los precios",
     intro="""En Argentina, el DELF y el DALF solo se rinden en las <strong>Alianzas Francesas</strong>: {n} centros de
 examen, bajo la gestión central de la Alianza Francesa de Buenos Aires. Hay tres sesiones tout public al año; la
-próxima será el <strong>4 y 5 de diciembre de 2026</strong>, con inscripciones hasta el <strong>5 de noviembre</strong>
+próxima será el <strong>4 y 5 de diciembre de 2026</strong>, cuyas inscripciones cerraron el <strong>5 de noviembre</strong>
 a nivel nacional (antes o después según la Alianza). Los precios se fijan en euros y se pagan en pesos: el DELF B2
 cuesta 163 € para un candidato libre, es decir, <strong>295.030 pesos</strong> para la sesión de diciembre.""",
     facts=["<strong>{n} centros de examen</strong> (lista de FEI del 8 de octubre de 2026), exclusivamente Alianzas Francesas; gestión central en la Alianza Francesa de Buenos Aires.",
-           "Tout public: abril, junio-julio y <strong>4-5 de diciembre de 2026</strong> (A1, A2 y B1 el 4; B2, C1 y C2 el 5), inscripciones hasta el <strong>5 de noviembre</strong>.",
+           "Tout public: abril, junio-julio y <strong>4-5 de diciembre de 2026</strong> (A1, A2 y B1 el 4; B2, C1 y C2 el 5), inscripciones cerradas el <strong>5 de noviembre</strong> (Mar del Plata las recibe hasta el 15); calendario 2027 sin publicar el 12 de noviembre de 2026.",
            "Precios de la sesión de diciembre (candidato libre): <strong>A1-A2 125 € · B1-B2 163 € · C1 246 € · C2 277 €</strong>, es decir, de 226.250 a 501.370 pesos.",
            "Alumnos de las Alianzas: <strong>50 % de descuento</strong>; colegios afiliados: tarifa reducida.",
            "Ausencia: certificado médico dentro de la semana, y el derecho solo vale para la sesión siguiente.",
            "Resultados en línea unas cinco semanas después; el diploma, enviado desde Francia, llega de cuatro a seis meses después."],
     stats=[("{n}", "Alianzas Francesas", "lista de FEI del 8 de octubre de 2026"), ("295.030", "pesos el DELF B2", "163 € para un candidato libre"),
-           ("4-5 dic.", "próxima sesión", "inscripciones hasta el 5 de noviembre"), ("−50 %", "para alumnos de las Alianzas", "en todos los niveles")],
+           ("4-5 dic.", "próxima sesión", "inscripciones cerradas el 5 de noviembre"), ("−50 %", "para alumnos de las Alianzas", "en todos los niveles")],
     sections=[
         ("calendario", "El calendario nacional 2026", table(
             "Calendario DELF-DALF 2026 de la Alianza Francesa de Buenos Aires (gestión central), consultado el 8 de octubre de 2026.",
@@ -604,7 +604,7 @@ cuesta 163 € para un candidato libre, es decir, <strong>295.030 pesos</strong>
              ("<strong>Diciembre, tout public</strong>", "A1, A2, B1 · B2, C1, C2", "<strong>1 de septiembre – 5 de noviembre</strong>", "<strong>4 · 5 de diciembre</strong>")], wide=False) + """
 <p>Los cierres locales varían: 2 de noviembre en Córdoba, 15 de noviembre en Mar del Plata para los adultos. Rosario
 y Mendoza venden la sesión de diciembre en línea; Santa Fe y Mendoza agregan una serie junior el 2 y 3 de diciembre.
-Ningún calendario 2027 estaba publicado el 8 de octubre de 2026.</p>"""),
+Ningún calendario 2027 estaba publicado el 12 de noviembre de 2026 (Buenos Aires, Córdoba).</p>"""),
         ("precios", "¿Cuánto cuesta el DELF en Argentina?", table(
             "Tarifas de la sesión noviembre-diciembre de 2026 publicadas por la Alianza Francesa de Mar del Plata; los mismos montos en pesos en Córdoba, Mendoza y Rosario, consultados el 8 de octubre de 2026.",
             ["Diploma", "Candidato libre", "Colegios afiliados", "Alumnos de las Alianzas"],
@@ -627,7 +627,7 @@ Los resultados (aprobado o no) se publican en el sitio web de la Alianza Frances
 después de la sesión de junio de 2026—; el diploma, enviado desde Francia, llega de cuatro a seis meses después.</p>"""),
     ],
     list_title="Los {n} centros de examen, provincia por provincia",
-    faq=[("¿Cuándo es el próximo examen DELF en Argentina?", "El 4 y 5 de diciembre de 2026 para el tout public (A1, A2 y B1 el 4; B2, C1 y C2 el 5), con inscripciones hasta el 5 de noviembre a nivel nacional —el 2 de noviembre en Córdoba, el 15 en Mar del Plata—. El calendario 2027 no estaba publicado el 8 de octubre de 2026."),
+    faq=[("¿Cuándo es el próximo examen DELF en Argentina?", "El 4 y 5 de diciembre de 2026 para el tout public (A1, A2 y B1 el 4; B2, C1 y C2 el 5), las inscripciones cerraron el 5 de noviembre a nivel nacional —el 2 en Córdoba; Mar del Plata las recibe hasta el 15—. El calendario 2027 no estaba publicado el 12 de noviembre de 2026."),
          ("¿Cuánto cuesta el DELF B2 en Argentina?", "163 € para un candidato libre, que se pagan en pesos: 295.030 pesos para la sesión de diciembre de 2026 en Córdoba, Rosario, Mendoza y Mar del Plata. Los alumnos de las Alianzas pagan la mitad (148.420 pesos)."),
          ("¿Dónde rendir el DELF en Buenos Aires?", "En la Alianza Francesa de Buenos Aires (avenida Córdoba 946), gestión central del DELF en Argentina: en el país, solo las Alianzas Francesas son centros de examen."),
          ("¿Qué pasa si faltas al examen DELF?", "Tienes que entregar un certificado médico a más tardar una semana después del examen: así conservas el derecho solo para la sesión siguiente, y la reinscripción no es automática. Si no, pierdes el derecho."),
@@ -837,14 +837,14 @@ menos un mes, a menudo dos.</p>"""),
 PAGES.append(from_fr(
     "delf-perou", "es", "es-419", "Pérou",
     slug="delf-peru", country_name="Perú",
-    crumb="DELF en Perú",
+    crumb="DELF en Perú", modified="2026-11-12", date_label="12 de noviembre de 2026",
     title="Examen DELF en Perú 2026: fechas, precios y centros",
-    desc="DELF y DALF en Perú: 6 Alianzas Francesas, la sesión del 28 de noviembre de 2026 (inscripciones hasta el 16 de octubre) y los precios (B2 461 soles).",
+    desc="DELF y DALF en Perú: 6 Alianzas Francesas, la sesión del 28 de noviembre de 2026 (inscripciones cerradas el 16 de octubre) y los precios (B2 461 soles).",
     h1="DELF y DALF en Perú: los 6 centros de examen, las fechas 2026 y los precios",
     intro="""En Perú, el DELF y el DALF se presentan en las <strong>seis Alianzas Francesas</strong> del país —Lima,
 Arequipa, Cusco, Trujillo, Chiclayo, Piura—, bajo la gestión central de la Alianza Francesa de Lima. Hay cinco
-sesiones tout public al año, los sábados: la próxima será el <strong>28 de noviembre de 2026</strong>, con inscripciones
-hasta el <strong>16 de octubre</strong>. El DELF B2 cuesta <strong>461 soles</strong> (369 con un convenio de la
+sesiones tout public al año, los sábados: la próxima será el <strong>28 de noviembre de 2026</strong>, cuyas inscripciones
+cerraron el <strong>16 de octubre</strong>. El DELF B2 cuesta <strong>461 soles</strong> (369 con un convenio de la
 Alianza), y los alumnos de las Alianzas presentan gratis el examen de su nivel.""",
     facts=["<strong>{n} centros de examen</strong> (lista de FEI del 8 de octubre de 2026), todos Alianzas Francesas; gestión central en la Alianza Francesa de Lima.",
            "<strong>Cinco sesiones tout public en 2026</strong>, los sábados: 7 de marzo, 9 de mayo, 4 de julio, 5 de septiembre y <strong>28 de noviembre</strong> (inscripciones del 8 de septiembre al 16 de octubre).",
@@ -863,7 +863,7 @@ Alianza), y los alumnos de las Alianzas presentan gratis el examen de su nivel."
              ("DELF Prim", "viernes 8 de mayo y <strong>23 de octubre</strong>", "3 de agosto – 11 de septiembre (cerradas)")], wide=False) + """
 <p>La prueba oral no siempre es el mismo día que la escrita: en Arequipa se presenta la víspera (viernes 27 de
 noviembre). Las Alianzas de Cusco y de Trujillo siguen el mismo calendario; en Trujillo, las inscripciones cierran el
-16 de octubre a las 13:00. Ninguna Alianza había publicado el calendario 2027 el 8 de octubre de 2026.</p>"""),
+16 de octubre a las 13:00. Ni Lima ni Trujillo habían publicado el calendario 2027 el 12 de noviembre de 2026.</p>"""),
         ("precios", "¿Cuánto cuesta el DELF en Perú?", table(
             "Tarifas 2026 de la Alianza Francesa de Lima, idénticas en Arequipa y Trujillo, en soles (PEN), consultadas el 8 de octubre de 2026.",
             ["Nivel", "Candidato libre", "Convenio Alianza"],
@@ -885,7 +885,7 @@ en Francia, llega de cuatro a cinco meses después de la sesión (unos tres mese
 la Alianza Francesa de Lima cobra 100 soles por guardar un diploma de más de tres años.</p>"""),
     ],
     list_title="Los {n} centros de examen autorizados, ciudad por ciudad",
-    faq=[("¿Cuándo es el próximo examen DELF en Perú?", "El sábado 28 de noviembre de 2026 para el DELF y el DALF tout public, en las Alianzas Francesas del país, con inscripciones del 8 de septiembre al 16 de octubre de 2026. La prueba oral puede ser otro día —la víspera en Arequipa—. El calendario 2027 no estaba publicado el 8 de octubre de 2026."),
+    faq=[("¿Cuándo es el próximo examen DELF en Perú?", "El sábado 28 de noviembre de 2026 para el DELF y el DALF tout public, en las Alianzas Francesas del país, cuyas inscripciones cerraron el 16 de octubre de 2026. La prueba oral puede ser otro día —la víspera en Arequipa—. El calendario 2027 no estaba publicado el 12 de noviembre de 2026."),
          ("¿Cuánto cuesta el DELF B2 en Perú?", "461 soles para un candidato libre, 369 soles con un convenio de la Alianza Francesa (tarifas 2026 de Lima, Arequipa y Trujillo). Los candidatos Campus France pagan 276 soles por el B2 y 326 soles por el C1."),
          ("¿Cómo inscribirse en el DELF en Perú?", "En Lima, en línea en la plataforma de la Alianza Francesa; en Arequipa, en línea o en la oficina; en Trujillo, por correo electrónico a la oficina de exámenes, con cupos limitados. La citación llega por correo electrónico una semana antes del examen."),
          ("¿Cuándo salen los resultados del DELF?", "De cuatro a cinco semanas después de la sesión, según la Alianza Francesa de Lima; para la sesión de noviembre de 2026, Arequipa anuncia el 31 de enero de 2027. El diploma, impreso en Francia, llega de cuatro a cinco meses después de la sesión."),
@@ -962,14 +962,14 @@ en un centro autorizado.</p>"""),
 PAGES.append(from_fr(
     "delf-equateur", "es", "es-419", "Équateur",
     slug="delf-ecuador", country_name="Ecuador",
-    crumb="DELF en Ecuador",
+    crumb="DELF en Ecuador", modified="2026-11-12", date_label="12 de noviembre de 2026",
     title="Examen DELF en Ecuador 2026: fechas, precios y centros",
     desc="DELF y DALF en Ecuador: las sesiones de noviembre y diciembre de 2026 en Quito, Guayaquil y Cuenca, los precios (B2 200 dólares, mitad para alumnos AF).",
     h1="DELF y DALF en Ecuador: los 5 centros de examen, las fechas 2026 y los precios",
     intro="""En Ecuador, el DELF y el DALF se presentan en cinco Alianzas Francesas —Quito, Guayaquil, Cuenca, Loja,
-Portoviejo—, bajo la gestión central de la Alianza Francesa de Quito. El 8 de octubre de 2026 quedaban dos sesiones
-tout public: <strong>del 23 al 27 de noviembre</strong> (inscripciones hasta el 6 de noviembre en Quito y hasta el 26
-de octubre en Guayaquil) y <strong>del 8 al 14 de diciembre</strong> (hasta el 13 de noviembre). El DELF B2 cuesta
+Portoviejo—, bajo la gestión central de la Alianza Francesa de Quito. El 12 de noviembre de 2026 quedaban dos sesiones
+tout public: <strong>del 23 al 27 de noviembre</strong> (inscripciones cerradas el 6 de noviembre en Quito)
+y <strong>del 8 al 14 de diciembre</strong> (inscripciones hasta el 13 de noviembre). El DELF B2 cuesta
 <strong>200 dólares</strong>; los alumnos de las Alianzas pagan la mitad.""",
     facts=["<strong>{n} centros de examen</strong> (lista de FEI del 8 de octubre de 2026), todos Alianzas Francesas; gestión central en Quito.",
            "Sesiones tout public 2026: marzo, junio, <strong>23-27 de noviembre</strong> y <strong>8-14 de diciembre</strong>; Cuenca agregó una sesión en septiembre.",
@@ -988,7 +988,7 @@ de octubre en Guayaquil) y <strong>del 8 al 14 de diciembre</strong> (hasta el 1
              ("Junior, diciembre", "19 oct. – 13 nov.", "01/12", "02/12", "03/12", "04/12", "—", "—")]) + """
 <p>Antes, en 2026, las sesiones tout public se habían realizado en marzo y en junio, con una sesión junior y una
 sesión Prim en junio; Cuenca agregó una sesión tout public del 21 al 25 de septiembre y una sesión Prim y junior en
-enero. Ninguna Alianza había publicado el calendario 2027 el 8 de octubre de 2026.</p>"""),
+enero. Quito no había publicado el calendario 2027 el 12 de noviembre de 2026.</p>"""),
         ("precios", "¿Cuánto cuesta el DELF en Ecuador?", table(
             "Tarifas comunes de las Alianzas Francesas de Quito, Cuenca y Guayaquil, en dólares estadounidenses, consultadas el 8 de octubre de 2026.",
             ["Nivel", "Público general", "Alumnos de las Alianzas"],
@@ -1007,7 +1007,7 @@ sitio web, 02 224 6589, extensión 116), que te guía en la inscripción.</p>
 trámite —admisión en la universidad, solicitud de visa— tiene una fecha límite, pregunta por esos plazos al inscribirte.</p>"""),
     ],
     list_title="Los {n} centros de examen autorizados, ciudad por ciudad",
-    faq=[("¿Cuándo es el próximo examen DELF en Ecuador?", "Del 23 al 27 de noviembre de 2026 para el tout public (A1 y A2 el 23, B1 el 24, B2 el 25, C1 el 26, C2 el 27), con inscripciones hasta el 6 de noviembre en Quito y hasta el 26 de octubre en Guayaquil; luego, del 8 al 14 de diciembre de 2026, con inscripciones hasta el 13 de noviembre."),
+    faq=[("¿Cuándo es el próximo examen DELF en Ecuador?", "Del 23 al 27 de noviembre de 2026 para el tout public (A1 y A2 el 23, B1 el 24, B2 el 25, C1 el 26, C2 el 27), cuyas inscripciones cerraron el 6 de noviembre en Quito; luego, del 8 al 14 de diciembre de 2026, con inscripciones hasta el 13 de noviembre. El calendario 2027 no estaba publicado el 12 de noviembre de 2026."),
          ("¿Cuánto cuesta el DELF B2 en Ecuador?", "200 dólares, según las tarifas comunes de las Alianzas Francesas de Quito, Guayaquil y Cuenca; 100 dólares para sus alumnos, que tienen un 50 % de descuento. El DALF C1 o C2 cuesta 240 dólares."),
          ("¿Cómo inscribirse en el DELF en Ecuador?", "En Guayaquil, en línea en la plataforma de la Alianza; en Cuenca, con el formulario DELF-DALF, una transferencia o un depósito bancario y luego un correo a la coordinación pedagógica; en Quito, contactando al servicio de exámenes, ya que la plataforma no mostraba ningún examen a la venta el 8 de octubre de 2026."),
          ("¿Hay DELF junior en Ecuador?", "Sí: del 1 al 4 de diciembre de 2026 (A1 el 1, A2 el 2, B1 el 3, B2 el 4), con inscripciones del 19 de octubre al 13 de noviembre de 2026, al mismo precio que el tout public. El DELF Prim solo tuvo una sesión en 2026, en junio."),

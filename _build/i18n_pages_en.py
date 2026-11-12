@@ -1641,17 +1641,17 @@ PAGES.append(dict(
     fr_path="/blog/tcf-canada-dates-2026/", lang="en", variant="en-CA", slug="tcf-canada-test-dates-2026",
     crumbs=[HOME, TCF], crumb="Test dates 2026", inline_cta=False,
     title="TCF Canada test dates 2026: sessions, centre by centre",
-    modified="2026-10-17", date_label="17 October 2026",
+    modified="2026-11-12", date_label="12 November 2026",
     desc="No national calendar: TCF Canada test dates to December 2026, as listed by the centres — Paris, Lyon, Casablanca, Rabat, Tunis, Toronto, Vancouver.",
     h1="TCF Canada test dates in 2026: the sessions we found, centre by centre",
     intro="""There is <strong>no national TCF Canada calendar</strong>: each approved centre sets its own sessions and
 publishes them — or not — on its website. So on 17 September 2026, we read the registration pages of the main centres
-in France, Canada, Algeria, Morocco and Tunisia — and re-read the North African ones on 17 October. What we found:
+in France, Canada, Algeria, Morocco and Tunisia — and re-read the Moroccan and Tunisian ones on 12 November. What we found:
 sessions in <strong>twelve Moroccan cities</strong> up to December, monthly in Lyon, quarterly and snapped up in Toronto, “SOLD OUT” in Vancouver. The dates, what
 they cost, and the rule for not missing the next one.""",
     facts=["<strong>No national calendar</strong>: dates and registration are handled by each centre — never by France Éducation international.",
            "<strong>France</strong>: ACTE Paris 4 Nov and 2 Dec; ACCORD Paris 23 Sept and 28 Oct; Alliance française de Lyon 21 Oct, 25 Nov, 16 Dec; Montpellier 23 Sept and 13 Nov 2026.",
-           "<strong>North Africa</strong> (re-checked on 17 October): Rabat 8 dates from 22 Oct to 10 Dec; Casablanca 3 Nov to 8 Dec; Tunis 26–27 Nov, 16 and 18 Dec; Sousse 18 and 20 Nov; Algeria every month, on the IFAL platform.",
+           "<strong>North Africa</strong> (re-checked on 12 November): Kenitra and El Jadida 10 dates to late December; Rabat 6 dates from 19 Nov to 10 Dec, then January 2027; Casablanca 1, 3 and 8 Dec, then January; Tunis 16 and 18 Dec; Sfax 19 Dec; Algeria every month, on the IFAL platform.",
            "<strong>Canada</strong>: Toronto opens registration a month before each quarter (next opening on 1 December 2026, for January to March 2027); Vancouver showed every session full.",
            "Between two attempts: <strong>20 days</strong> in France and Canada, 26 to 36 in Algeria, 30 in Tunisia; results within 2 to 5 weeks, depending on the country."],
     toc=[("rule", "The rule: each centre sets its own dates"), ("france", "France: the sessions we found"),
@@ -1694,27 +1694,27 @@ Toulouse, Nantes, Rennes — and our guide to where to take the TCF Canada in Fr
 
 <h2 id="north-africa">Morocco, Tunisia, Algeria: the sessions we found</h2>
 <p>It is in North Africa that the TCF Canada is most frequent — and best advertised. We re-read these pages on
-<strong>17 October 2026</strong>. In <strong>Morocco</strong>, each Institut français publishes its sessions with an
-online cart, at <strong>2,900 dirhams</strong> everywhere: twelve cities listed sessions up to December — thirteen open
-dates in Kenitra, eight in Rabat (22 October to 10 December) and in El Jadida, seven in Casablanca (3 November to
-8 December, plus Béni Mellal on 14 November and 12 December), four in Fez, three in Tangier (12, 19 and 26 November)
-and in Agadir, and just one in Marrakech (12 November).</p>
+<strong>12 November 2026</strong>. In <strong>Morocco</strong>, each Institut français publishes its sessions with an
+online cart, at <strong>2,900 dirhams</strong> everywhere: eleven cities had sessions on sale that day — ten
+dates in Kenitra (to 18 December) and in El Jadida (to 23 December), six in Rabat (19 November to 10 December), three in Casablanca
+(1, 3 and 8 December, plus Béni Mellal on the 12th), four in Tangier, three in Agadir, two in Fez and in Meknes, one in Tetouan,
+in Marrakech (10 December) and in Essaouira; Casablanca, Rabat, Marrakech and Essaouira already sell January 2027.</p>
 <p>In <strong>Tunisia</strong>, the Institut français publishes a calendar by hub, in two stages: an online appointment
-window, then registration in person. In Tunis: <strong>26–27 November</strong> (appointments from 26 to 31 October) and
-<strong>16 and 18 December</strong> (9–15 November), at 880 dinars; in Sousse, <strong>18 and 20 November</strong>
-(appointments from 19 to 22 October); in Sfax, <strong>27 November</strong> (2–8 November); in El Mourouj, Béja and
-Nabeul-Hammamet, late November and mid-December.</p>
+window, then registration in person. In Tunis: <strong>16 and 18 December</strong> (appointments from 9 to 15 November;
+the 26–27 November test no longer takes any), at 880 dinars; in Sfax, <strong>19 December</strong>
+(appointments from 1 to 6 December); in Nabeul-Hammamet, <strong>18 December</strong> (until 24 November); in El Mourouj,
+10 and 16 December; in Béja, 16 December; no 2027 date outside Kébili.</p>
 <p>In <strong>Algeria</strong>, the Institut français doesn’t publish dates on its website: “TCF sessions are open every
 month at the five branches” — Algiers, Oran, Constantine, Annaba, Tlemcen — and the actual calendar only appears on
 the IFAL platform (VFS Global), once you’re logged in. The TCF Canada costs <strong>37,500 DA</strong> there; allow
 <strong>26 to 36 days</strong> between two registrations, depending on the branch. How it works, in French:
 <a href="/blog/ifal-tcf-rendez-vous/" hreflang="fr" lang="fr">IFAL : prendre rendez-vous pour le TCF</a>.</p>
-""" + table("TCF Canada sessions listed in North Africa on 17 October 2026, on the websites of the Instituts français.",
+""" + table("TCF Canada sessions listed in North Africa on 12 November 2026 (Algeria: 17 October), on the websites of the Instituts français.",
             ["Centre", "Dates listed", "Fee", "Registration"],
-            [("<strong>Casablanca</strong>", "3, 5, 10, 17 Nov, 1, 3, 8 Dec 2026 (28 Nov full); January 2027 online", "2,900 MAD", "Online cart, if-maroc.org/casablanca"),
-             ("<strong>Rabat · Kenitra</strong>", "Rabat: 22, 29, 30 Oct, 13, 19, 24 Nov, 4, 10 Dec; Kenitra: 13 dates to 18 Dec", "2,900 MAD", "Online cart"),
-             ("<strong>Fez · Tangier · Agadir · Marrakech</strong>", "29 Oct, 12, 26 Nov, 17 Dec · 12, 19, 26 Nov · 27 Nov, 9, 18 Dec · 12 Nov", "2,900 MAD", "Online cart"),
-             ("<strong>Tunis</strong> (IFT)", "22–23 Oct (registration closed), 26–27 Nov, 16 and 18 Dec 2026", "880 TND", "Online appointment 3–4 weeks before, then in person"),
+            [("<strong>Casablanca</strong>", "1, 3, 8 Dec 2026 (28 Nov full); 5, 7, 12, 16, 19, 26 Jan 2027", "2,900 MAD", "Online cart, if-maroc.org/casablanca"),
+             ("<strong>Rabat · Kenitra</strong>", "Rabat: 19, 20, 24, 27 Nov, 4, 10 Dec, then 8, 19, 29 Jan 2027; Kenitra: 10 dates, 17 Nov to 18 Dec", "2,900 MAD", "Online cart"),
+             ("<strong>Fez · Tangier · Agadir · Marrakech</strong>", "26 Nov, 17 Dec · 19, 26 Nov, 3, 17 Dec · 24 Nov, 9, 18 Dec (2 Dec full) · 10 Dec, then 19 and 22 Jan 2027", "2,900 MAD", "Online cart"),
+             ("<strong>Tunis</strong> (IFT)", "26–27 Nov (appointments closed), 16 and 18 Dec 2026 (appointments until 15 Nov)", "880 TND", "Online appointment 3–4 weeks before, then in person"),
              ("<strong>Sousse · Sfax · El Mourouj</strong>", "18 and 20 Nov, 16 and 18 Dec · 27 Nov, 19 Dec · 19 and 26 Nov, 10 and 16 Dec", "880 TND", "Same"),
              ("<strong>Algiers, Oran, Constantine, Annaba, Tlemcen</strong>", "“Every month”; dates on the platform", "37,500 DZD", "IFAL (VFS), 26 to 36 days between two registrations")]) + """
 <p>Our city pages, in French: Casablanca, Rabat, Marrakech, Tangier, Fez, Agadir, Tunis, Sousse, Sfax, Algiers, Oran,
@@ -1750,7 +1750,7 @@ that order.</p>
 conversion — with AI feedback on writing and speaking.""",
     faq=[("When is the next TCF Canada test date?", "It depends on the centre: on 17 September 2026, ACCORD in Paris had a session on 23 September, the Alliance française de Montpellier on 23 September then 13 November, ACTE in Paris on 4 November, the Alliance française de Lyon on 21 October; on 17 October, Rabat had a session on 22 October, Casablanca on 3 November and Tunis on 26–27 November. There is no national calendar: the centre’s registration page is the reference."),
          ("Is there an official TCF Canada test date calendar?", "No. France Éducation international approves centres but runs no sessions: each centre publishes its own dates, often one or two months ahead, and updates them as registrations come in. FEI’s lists only give the centres’ contact details."),
-         ("How many TCF Canada sessions are there per month?", "From thirteen dates in two months in Kenitra (Morocco) to one a month in Lyon or Sousse, and one a quarter in Toronto. In France, the TCF Canada is much less frequent than the TCF IRN, which is held almost every week in Paris."),
+         ("How many TCF Canada sessions are there per month?", "From ten dates in five weeks in Kenitra (Morocco) to one a month in Lyon or Sousse, and one a quarter in Toronto. In France, the TCF Canada is much less frequent than the TCF IRN, which is held almost every week in Paris."),
          ("What if all TCF Canada sessions are full?", "Create your account in advance and log in the moment registration opens — in Toronto, a month before the quarter, at 10 am; in Vancouver, with your passport ready and a single tab open. With no waitlist, check back regularly: seats do free up. In France, try another centre — centres in the same city don’t have the same dates."),
          ("How long between two TCF Canada attempts?", "At least twenty days in France and Canada (an FEI rule applied by every centre), 26 to 36 days in Algeria depending on the branch, and 30 days in Tunisia, set by the Instituts français. For sessions held since 1 September 2026, no re-marking is possible: retaking the test is the only recourse.")],
     also=[("/en/tcf-canada-test-centres/", "TCF Canada test centres in Canada", "The 48 approved centres, $390 to $440, and how to get a seat."),

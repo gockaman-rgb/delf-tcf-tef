@@ -1916,7 +1916,7 @@ ans.</li>
 
 <div class="tablewrap wide">
 <table>
-<caption>Sessions de TCF Canada par pôle — rendez-vous en ligne → inscription sur place → test —, page « TCF Canada » de l'Institut français de Tunisie consultée le 17 octobre 2026. Les fenêtres déjà closes ce jour-là ne sont pas reprises.</caption>
+<caption>Sessions de TCF Canada par pôle — rendez-vous en ligne → inscription sur place → test —, page « TCF Canada » de l'Institut français de Tunisie consultée le 17 octobre 2026 et relue le 12 novembre 2026 : calendrier inchangé, aucune date de 2027 publiée hors Kébili. Au 12 novembre, les tests de novembre n'acceptent plus de rendez-vous ; pour décembre, la fenêtre de Sousse se ferme le 12 novembre, celle de Tunis le 15, celle de Nabeul-Hammamet le 24.</caption>
 <thead><tr><th>Pôle</th><th>Octobre</th><th>Novembre</th><th>Décembre</th></tr></thead>
 <tbody>
 <tr><td><strong>Tunis</strong> (av. de Paris)</td><td>test <strong>22 et 23 oct.</strong> (inscription close le 24 sept.)</td><td>RDV 26-31 oct. → inscr. 5 nov. → test <strong>26 et 27 nov.</strong></td><td>RDV 9-15 nov. → inscr. 19 nov. → test <strong>16 et 18 déc.</strong></td></tr>
@@ -2013,7 +2013,7 @@ NCLC, avec la correction IA de l'écrit et de l'oral — pour ne réserver que l
         ("Comment s'inscrire&nbsp;?",
          "En deux temps : un rendez-vous en ligne pendant la fenêtre ouverte pour la session (environ une semaine, un mois avant le test), puis l'inscription et le paiement sur place, au pôle choisi, le jour fixé — en espèces, ou par carte à Tunis. Le candidat peut se faire représenter par une personne munie de la photocopie de sa carte d'identité."),
         ("Quand ont lieu les sessions&nbsp;?",
-         "Une par mois dans chaque pôle. Le 17 octobre 2026, à Tunis : 26-27 novembre (rendez-vous en ligne du 26 au 31 octobre) et 16 et 18 décembre (du 9 au 15 novembre) ; à Sousse, 18 et 20 novembre (rendez-vous du 19 au 22 octobre) ; à Sfax, 27 novembre (du 2 au 8 novembre) ; à El Mourouj, Béja et Nabeul-Hammamet, fin novembre et mi-décembre. Les autres pôles publient leurs dates sur la même page."),
+         "Une par mois dans chaque pôle. Le 12 novembre 2026, les tests de novembre n'acceptent plus de rendez-vous ; pour décembre : à Tunis, 16 et 18 décembre (rendez-vous en ligne du 9 au 15 novembre) ; à El Mourouj, 10 et 16 décembre ; à Nabeul-Hammamet, 18 décembre (jusqu'au 24 novembre) ; à Béja, 16 décembre (du 16 au 30 novembre) ; à Sfax, 19 décembre (du 1er au 6 décembre) ; à Sousse, 16 et 18 décembre (fenêtre close le 12 novembre). Les autres pôles publient leurs dates sur la même page."),
         ("Combien de temps pour les résultats&nbsp;?",
          "« Les résultats sont disponibles 5 semaines après la date de passation », indique l'Institut français de Tunisie — le délai le plus long relevé dans nos guides. L'attestation est ensuite valable deux ans, et IRCC exige des résultats de moins de deux ans à la création du profil et au dépôt de la demande."),
         ("Peut-on repasser le test rapidement&nbsp;?",
